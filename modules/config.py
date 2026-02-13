@@ -19,7 +19,12 @@ RSS_FEEDS = [
     "https://www.databricks.com/blog/category/engineering/feed",
     "https://blogs.nvidia.com/feed/",
     "https://www.microsoft.com/en-us/research/blog/feed/",
-    "https://towardsai.net/feed"
+    "https://towardsai.net/feed",
+    "https://hnrss.org/frontpage?q=AI+OR+LLM+OR+RAG+OR+Agent",
+    "https://deepmind.google/blog/rss.xml",
+    "https://www.anthropic.com/news/rss.xml",
+    "https://mistral.ai/news/feed.xml",
+    "https://cohere.com/blog/rss.xml"
 ]
 
 ARXIV_QUERY = "abs:RAG OR abs:Agent OR abs:Retrieval"
