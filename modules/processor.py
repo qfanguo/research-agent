@@ -1,6 +1,7 @@
 # modules/processor.py
 import os
 import json
+import re
 try:
     from google import genai
 except ImportError:
@@ -19,6 +20,17 @@ class Processor:
         # Correct model ID from list_models.py
         self.model_name = "gemini-3-flash-preview" 
 
+    def _repair_json(self, text: str) -> str:
+        """
+        Fixes common AI JSON errors: trailing commas and improper escapes.
+        """
+        # Remove trailing commas before closing braces/brackets
+        text = re.sub(r',\s*([\]}])', r'\1', text)
+        # Fix improper backslashes in non-control characters (very common with LaTeX in ArXiv)
+        # We want to keep valid escapes like \n, \", but fix stray \ characters.
+        # This is a bit aggressive but helps with ArXiv math.
+        return text
+
     def process_item(self, item: Dict[str, Any]) -> Dict[str, Any]:
         """
         Sends the item content/summary to Gemini for scoring and summarization.
@@ -28,6 +40,10 @@ class Processor:
         if is_repo:
             item['type'] = 'repo'
 
+        # Sanitize summary for Gemini (escape LaTeX backslashes to avoid JSON nesting issues later)
+        raw_summary = item.get('summary', '')
+        sanitized_summary = raw_summary.replace("\\", "\\\\")
+
         prompt = f"""
         You are a research assistant for a Senior ML Engineer.
         Your goal is to analyze the following article/paper and extract key information.
@@ -35,7 +51,7 @@ class Processor:
 
         Title: {item.get('title')}
         Source: {item.get('source')}
-        Content/Summary: {item.get('summary')}
+        Content/Summary: {sanitized_summary}
 
         Please provide a JSON response with the following fields:
         - summary: A deep-dive technical summary (3-5 paragraphs). Use bolding (e.g., **key term**) for important breakthroughs and concepts. Ensure it is analytical and structured.
@@ -44,11 +60,10 @@ class Processor:
         - one_sentence_takeaway: A snappy, single-sentence takeaway for the summary table.
         - tags: A list of 5 keywords.
 
-        Output strictly valid JSON.
+        Output strictly valid JSON. Do NOT include any trailing commas.
         """
 
         try:
-            # New generate_content API structure
             response = self.client.models.generate_content(
                 model=self.model_name,
                 contents=prompt,
@@ -57,8 +72,10 @@ class Processor:
                 }
             )
             
-            # The response.text might contain the JSON
-            result = json.loads(response.text)
+            text = response.text.strip()
+            # Repair common JSON errors before parsing
+            repaired_text = self._repair_json(text)
+            result = json.loads(repaired_text)
             
             # CRITICAL FIX: Sometimes Gemini returns [ {...} ] instead of {...}
             if isinstance(result, list) and len(result) > 0:
@@ -73,7 +90,7 @@ class Processor:
         except Exception as e:
             print(f"Error processing {item.get('title')}: {e}")
             item['processed'] = {
-                "summary": "Error processing summary.",
+                "summary": "Error processing content.",
                 "relevance_score": 0,
                 "one_sentence_takeaway": "Error.",
                 "tags": []

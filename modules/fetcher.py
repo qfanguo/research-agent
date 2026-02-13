@@ -1,5 +1,6 @@
 # modules/fetcher.py
 import feedparser
+import time
 import arxiv
 import datetime
 from dateutil import parser
@@ -18,11 +19,22 @@ class Fetcher:
         # Actually, for a daily run, we want anything published in the last 24h or since last run.
         # For simplicity, we'll filter by "published today or yesterday" to catch everything.
         now = datetime.datetime.now(datetime.timezone.utc)
-        cutoff = now - datetime.timedelta(hours=24) # Adjustable
+        # Initialize cutoff date for RSS feeds
+        self.rss_cutoff_date = datetime.datetime.now(datetime.timezone.utc) - datetime.timedelta(hours=24)
 
-        for url in self.rss_feeds:
+    def _fetch_single_rss_feed_with_retry(self, url: str) -> List[Dict[str, Any]]:
+        """
+        Fetches and parses a single RSS feed with retry logic.
+        """
+        max_retries = 3
+        for attempt in range(max_retries):
             try:
                 feed = feedparser.parse(url)
+                # Check for parsing errors, but allow one more attempt if it's not the last one
+                if feed.bozo and attempt < max_retries - 1:
+                    raise Exception(f"Feed parsing error: {feed.bozo_exception}")
+
+                items = []
                 for entry in feed.entries:
                     # Normalize publication date
                     pub_date = None
@@ -31,18 +43,30 @@ class Fetcher:
                     elif hasattr(entry, 'updated_parsed') and entry.updated_parsed:
                          pub_date = datetime.datetime(*entry.updated_parsed[:6], tzinfo=datetime.timezone.utc)
                     
-                    if pub_date and pub_date > cutoff:
-                        articles.append({
-                            "title": entry.title,
-                            "link": entry.link,
+                    # Filter by date (last 24 hours, using self.rss_cutoff_date)
+                    if pub_date and pub_date > self.rss_cutoff_date:
+                        items.append({
+                            "title": getattr(entry, 'title', 'No Title'),
+                            "link": getattr(entry, 'link', url), # Fallback to feed URL if no link
                             "summary": getattr(entry, 'summary', '') or getattr(entry, 'description', ''),
                             "source": feed.feed.title if hasattr(feed, 'feed') and hasattr(feed.feed, 'title') else url,
                             "published": pub_date.isoformat(),
                             "type": "blog"
                         })
+                return items # Successfully fetched and parsed
             except Exception as e:
-                print(f"Error fetching {url}: {e}")
-        
+                print(f"Attempt {attempt + 1} failed for {url}: {e}")
+                if attempt < max_retries - 1:
+                    time.sleep(2 ** attempt) # Exponential backoff
+                else:
+                    print(f"Error fetching {url} after {max_retries} attempts.")
+        return [] # Return empty list if all retries fail
+
+    def fetch_rss(self) -> List[Dict[str, Any]]:
+        """Fetches and parses all configured RSS feeds using retry logic."""
+        articles = []
+        for url in self.rss_feeds:
+            articles.extend(self._fetch_single_rss_feed_with_retry(url))
         return articles
 
     def fetch_arxiv(self) -> List[Dict[str, Any]]:
