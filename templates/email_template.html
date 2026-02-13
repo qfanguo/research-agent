@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ date }} - Research Agent Digest</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            -webkit-text-size-adjust: 100%;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #ffffff;
+        }
+        .header {
+            background-color: #000000;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
+        .header .meta {
+            font-size: 12px;
+            color: #888;
+            margin-top: 5px;
+            text-transform: uppercase;
+        }
+        .content {
+            padding: 20px;
+        }
+        .section-title {
+            font-size: 18px;
+            font-weight: 700;
+            margin: 20px 0 10px;
+            border-bottom: 2px solid #00C853;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+        .card {
+            background-color: #ffffff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+        .card-title {
+            font-size: 18px;
+            font-weight: 700;
+            margin: 0 0 10px;
+        }
+        .card-title a {
+            color: #000000;
+            text-decoration: none;
+        }
+        .card-title a:hover {
+            color: #00C853;
+        }
+        .card-meta {
+            font-size: 12px;
+            color: #888;
+            margin-bottom: 10px;
+        }
+        .card-summary {
+            font-size: 14px;
+            line-height: 1.6;
+            color: #555;
+            margin-bottom: 15px;
+        }
+        .card-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 12px;
+        }
+        .score {
+            display: inline-block;
+            background-color: #f0f0f0;
+            color: #333;
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+        .score.high {
+            background-color: #e8f5e9;
+            color: #2e7d32;
+        }
+        .read-more {
+            color: #00C853;
+            text-decoration: none;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 11px;
+        }
+        .footer {
+            background-color: #f4f4f4;
+            color: #888;
+            text-align: center;
+            padding: 20px;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>RESEARCH AGENT</h1>
+            <div class="meta">{{ date }} • {{ read_time }} MIN READ</div>
+        </div>
+
+        <div class="content">
+            {% if top_story %}
+            <div class="section-title">DEEP DIVE</div>
+            <div class="card" style="border-left: 5px solid #00C853;">
+                <div class="card-title">
+                    <a href="{{ top_story.link }}">{{ top_story.title }}</a>
+                </div>
+                <div class="card-meta">{{ top_story.source }} • Score: {{ top_story.processed.relevance_score }}/10</div>
+                <div class="card-summary">
+                    {{ top_story.processed.summary }}
+                </div>
+                <div class="card-footer">
+                    <div class="score high">TOP PICK</div>
+                    <a href="{{ top_story.link }}" class="read-more">Read Full Paper →</a>
+                </div>
+            </div>
+            {% endif %}
+
+            <div class="section-title">TODAY'S SIGNALS</div>
+            
+            {% for item in items %}
+            <div class="card">
+                <div class="card-title">
+                    <a href="{{ item.link }}">{{ item.title }}</a>
+                </div>
+                <div class="card-meta">{{ item.source }}</div>
+                <div class="card-summary">
+                    {{ item.processed.one_sentence_takeaway }}
+                </div>
+                <div class="card-footer">
+                    <span class="score {% if item.processed.relevance_score >= 8 %}high{% endif %}">Score: {{ item.processed.relevance_score }}</span>
+                    <a href="{{ item.link }}" class="read-more">Read More</a>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+
+        <div class="footer">
+            Generated by Research Agent • <a href="https://github.com/qifanguo/collect-info-agent" style="color: #888;">View Code</a>
+        </div>
+    </div>
+</body>
+</html>

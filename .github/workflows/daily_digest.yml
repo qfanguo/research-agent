@@ -1,0 +1,60 @@
+name: Daily Research Digest
+
+on:
+  schedule:
+    # 8:00 AM UTC daily. User asked for 8:00 AM. 
+    # Adjust cron syntax as needed for user's timezone. 
+    # For now, strictly following user request "every morning at 8:00 AM" implies their local time or UTC.
+    # User is in Beijing (UTC+8). 8:00 AM Beijing = 00:00 UTC.
+    - cron: '0 0 * * *'
+  workflow_dispatch: # Allow manual trigger
+
+permissions:
+  contents: write # Needed to commit backlog.json
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+
+    - name: Install dependencies
+      run: |
+        pip install -r requirements.txt
+
+    - name: Run Orchestrator
+      env:
+        GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      run: |
+        python orchestrator.py
+
+    - name: Send Email
+      uses: dawidd6/action-send-mail@v3
+      with:
+        # Check if output file exists
+        search_path: '.'  # Needed since we haven't changed directory
+        server_address: smtp.gmail.com
+        server_port: 465
+        username: ${{ secrets.EMAIL_USERNAME }}
+        password: ${{ secrets.EMAIL_PASSWORD }}
+        subject: "Daily Research Agent Digest"
+        to: ${{ secrets.EMAIL_RECIPIENT }}
+        from: "Research Agent"
+        html_body: "file://daily_digest.html"
+        ignore_cert: true
+        convert_markdown: true
+
+    - name: Commit and Push Backlog
+      run: |
+        git config --global user.name 'Research Agent Bot'
+        git config --global user.email 'bot@example.com'
+        git add backlog.json
+        # Only commit if there are changes
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Update backlog [skip ci]" && git push)

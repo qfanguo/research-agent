@@ -1,0 +1,5 @@
+google-generativeai
+feedparser
+arxiv
+jinja2
+python-dateutil
