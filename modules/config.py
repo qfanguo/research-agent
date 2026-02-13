@@ -11,8 +11,16 @@ RSS_FEEDS = [
     "https://doordash.engineering/feed/",
     "https://eugeneyan.com/rss/",
     "https://lilianweng.github.io/lil-log/feed.xml",
-    "https://karpathy.ai/feed.xml"
+    "https://karpathy.ai/feed.xml",
+    "https://huggingface.co/blog/feed.xml",
+    "https://blog.langchain.dev/rss/",
+    "https://www.pinecone.io/blog/rss.xml",
+    "https://www.marktechpost.com/feed/",
+    "https://www.databricks.com/blog/category/engineering/feed",
+    "https://blogs.nvidia.com/feed/",
+    "https://www.microsoft.com/en-us/research/blog/feed/",
+    "https://towardsai.net/feed"
 ]
 
 ARXIV_QUERY = "abs:RAG OR abs:Agent OR abs:Retrieval"
-ARXIV_MAX_RESULTS = 20  # Fetch a few more to filter down
+ARXIV_MAX_RESULTS = 50  # Increased for broader selection

@@ -86,19 +86,22 @@ class Curator:
             # Clear backlog
             self.save_backlog([])
             
-            # Categorize
-            papers = [i for i in selected if i.get('type') == 'paper']
-            blogs = [i for i in selected if i.get('type') == 'blog']
+            # High-Fidelity Categorization
+            top_paper = next((i for i in selected if i.get('type') == 'paper'), None)
+            top_repo = next((i for i in selected if i.get('type') == 'repo'), None)
+            top_news = next((i for i in selected if i.get('type') == 'blog' and i != top_paper and i != top_repo), None)
+            
+            tops = [i for i in [top_paper, top_repo, top_news] if i]
+            signals = [i for i in selected if i not in tops]
 
             return {
                 "type": "weekend",
-                "top_story": selected[0] if selected else None,
-                "items": selected[1:],
-                "sections": {
-                    "Papers": papers,
-                    "Industrial Updates": blogs
-                },
-                "trending": [] # Placeholder for future implementation
+                "top_news": top_news,
+                "top_repo": top_repo,
+                "top_paper": top_paper,
+                "signals": signals[:15], # More signals for weekend
+                "items": selected,
+                "trending": [] 
             }
         else:
             # Weekday Strategy: Max 15 items.
@@ -119,15 +122,20 @@ class Curator:
             
             self.save_backlog(new_backlog)
             
-            # Categorize
-            papers = [i for i in selected if i.get('type') == 'paper']
-            blogs = [i for i in selected if i.get('type') == 'blog']
+            # High-Fidelity Categorization
+            top_paper = next((i for i in selected if i.get('type') == 'paper'), None)
+            top_repo = next((i for i in selected if i.get('type') == 'repo'), None)
+            top_news = next((i for i in selected if i.get('type') == 'blog' and i != top_paper and i != top_repo), None)
+            
+            # The "Top Items" list to exclude from signals
+            tops = [i for i in [top_paper, top_repo, top_news] if i]
+            signals = [i for i in selected if i not in tops]
 
             return {
                 "type": "weekday",
-                "items": selected,
-                "sections": {
-                    "Papers": papers,
-                    "Industrial Updates": blogs
-                }
+                "top_news": top_news,
+                "top_repo": top_repo,
+                "top_paper": top_paper,
+                "signals": signals[:10], # Max 10 signals to keep it concise
+                "items": selected
             }

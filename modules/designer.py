@@ -25,9 +25,11 @@ class Designer:
         context = {
             "date": datetime.datetime.now().strftime("%B %d, %Y"),
             "read_time": read_time,
-            "top_story": data.get('top_story'),
+            "top_news": data.get('top_news'),
+            "top_repo": data.get('top_repo'),
+            "top_paper": data.get('top_paper'),
+            "signals": data.get('signals', []),
             "global_summary": data.get('global_summary'),
-            "sections": data.get('sections', {}),
             "trending_info": data.get('trending_info'),
             "items": data.get('items', [])
         }

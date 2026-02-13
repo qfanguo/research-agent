@@ -7,9 +7,9 @@
     <title>{{ date }} - Research Agent Digest</title>
     <style>
         body {
-            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-            background-color: #f4f4f4;
-            color: #333;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background-color: #ffffff;
+            color: #000000;
             margin: 0;
             padding: 0;
             -webkit-text-size-adjust: 100%;
@@ -18,153 +18,118 @@
         .container {
             max-width: 600px;
             margin: 0 auto;
-            background-color: #ffffff;
+            border: 1px solid #e0e0e0;
+        }
+
+        .section {
+            padding: 20px 30px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .section-title {
+            font-size: 18px;
+            font-weight: 700;
+            margin-bottom: 15px;
+            text-decoration: underline;
+        }
+
+        .summary-line {
+            margin-bottom: 15px;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+        .summary-line a {
+            color: #2e7d32;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .news-item {
+            margin-bottom: 30px;
+        }
+
+        .news-title {
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 15px;
+            line-height: 1.3;
+        }
+
+        .news-content {
+            font-size: 15px;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .news-content p {
+            margin-bottom: 15px;
+        }
+
+        .key-results {
+            padding-left: 20px;
+            margin-bottom: 20px;
+        }
+
+        .key-results li {
+            margin-bottom: 8px;
+            font-size: 14px;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #2e7d32;
+            color: #ffffff !important;
+            padding: 12px 24px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 14px;
+            border-radius: 4px;
+            text-transform: uppercase;
+            margin-top: 10px;
+        }
+
+        .signals-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .signals-list li {
+            padding: 12px 0;
+            border-top: 1px solid #f0f0f0;
+            font-size: 14px;
+            line-height: 1.4;
+        }
+
+        .signals-list li::before {
+            content: "▶ ";
+            color: #000;
+            font-size: 10px;
+            vertical-align: middle;
+        }
+
+        .signals-list li a {
+            color: #2e7d32;
+            text-decoration: none;
+            font-weight: 500;
         }
 
         .header {
-            background-color: #000000;
-            color: #ffffff;
-            padding: 25px;
-            text-align: center;
+            padding: 30px;
+            border-bottom: 1px solid #000;
         }
 
         .header h1 {
             margin: 0;
-            font-size: 28px;
+            font-size: 24px;
             font-weight: 800;
-            letter-spacing: 2px;
         }
 
-        .header .meta {
-            font-size: 12px;
-            color: #888;
-            margin-top: 8px;
-            text-transform: uppercase;
-            font-weight: 600;
-        }
-
-        .pulse-box {
-            background-color: #000000;
-            color: #ffffff;
-            padding: 25px;
-            margin: 0;
-            border-top: 1px solid #333;
-        }
-
-        .pulse-title {
-            color: #00C853;
-            font-size: 11px;
-            font-weight: 800;
-            text-transform: uppercase;
-            margin-bottom: 10px;
-            letter-spacing: 1px;
-        }
-
-        .pulse-content {
-            font-size: 16px;
-            line-height: 1.6;
-            font-weight: 400;
-        }
-
-        .content {
-            padding: 20px;
-            background-color: #f4f4f4;
-        }
-
-        .section-title {
-            font-size: 14px;
-            font-weight: 800;
-            margin: 30px 0 15px;
-            color: #000;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            border-left: 4px solid #00C853;
-            padding-left: 10px;
-        }
-
-        .card {
-            background-color: #ffffff;
-            border: 1px solid #e0e0e0;
-            border-radius: 4px;
-            padding: 20px;
-            margin-bottom: 15px;
-            position: relative;
-        }
-
-        .card-title {
-            font-size: 18px;
-            font-weight: 700;
-            margin: 0 0 8px;
-        }
-
-        .card-title a {
-            color: #000000;
-            text-decoration: none;
-        }
-
-        .card-title a:hover {
-            color: #00C853;
-        }
-
-        .card-meta {
-            font-size: 11px;
-            color: #888;
-            margin-bottom: 10px;
-            text-transform: uppercase;
-            font-weight: 600;
-        }
-
-        .card-summary {
-            font-size: 14px;
-            line-height: 1.5;
-            color: #444;
-            margin-bottom: 12px;
-        }
-
-        .card-footer {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            font-size: 11px;
-        }
-
-        .score {
-            display: inline-block;
-            background-color: #f8f8f8;
+        .header-meta {
+            font-size: 13px;
             color: #666;
-            padding: 2px 6px;
-            border-radius: 3px;
-            font-weight: bold;
-            border: 1px solid #eee;
-        }
-
-        .score.high {
-            background-color: #e8f5e9;
-            color: #2e7d32;
-            border-color: #c8e6c9;
-        }
-
-        .read-more {
-            color: #00C853;
-            text-decoration: none;
-            font-weight: 800;
-            text-transform: uppercase;
-            font-size: 10px;
-            letter-spacing: 0.5px;
-        }
-
-        .footer {
-            background-color: #f4f4f4;
-            color: #888;
-            text-align: center;
-            padding: 40px 20px;
-            font-size: 11px;
-            line-height: 1.6;
-        }
-
-        .footer a {
-            color: #666;
-            text-decoration: underline;
+            margin-top: 5px;
         }
     </style>
 </head>
@@ -173,85 +138,99 @@
     <div class="container">
         <!-- Header -->
         <div class="header">
-            <h1>RESEARCH AGENT</h1>
-            <div class="meta">{{ date }} • {{ read_time }} MIN READ</div>
+            <h1>Summary</h1>
+            <div class="header-meta">Read time: {{ read_time }} min</div>
         </div>
 
-        <!-- The Signal (Global Summary) -->
-        {% if global_summary %}
-        <div class="pulse-box">
-            <div class="pulse-title">THE SIGNAL</div>
-            <div class="pulse-content">
-                {{ global_summary }}
+        <!-- Summary Table (The Signal) -->
+        <div class="section">
+            {% if top_news %}
+            <div class="summary-line">
+                <strong>Top News</strong><br>
+                {{ top_news.processed.one_sentence_takeaway|safe }}
+            </div>
+            {% endif %}
+
+            {% if top_repo %}
+            <div class="summary-line">
+                <strong>Top Repo</strong><br>
+                {{ top_repo.processed.one_sentence_takeaway|safe }}
+            </div>
+            {% endif %}
+
+            {% if top_paper %}
+            <div class="summary-line">
+                <strong>Top Paper</strong><br>
+                {{ top_paper.processed.one_sentence_takeaway|safe }}
+            </div>
+            {% endif %}
+
+            <div class="summary-line">
+                <strong>Signals</strong><br>
+                See quick updates from Anthropic, Google, and more below.
             </div>
         </div>
-        {% endif %}
 
-        <!-- Weekly Deep Dive (Saturday Edition) -->
+        <!-- Global Summary / The Signal (Optional if Saturday) -->
         {% if trending_info %}
-        <div style="background-color: #f9f9f9; padding: 25px; border-bottom: 2px solid #00C853; margin-bottom: 0;">
-            <div
-                style="color: #00C853; font-size: 11px; font-weight: 800; text-transform: uppercase; margin-bottom: 10px; letter-spacing: 1.5px;">
-                SATURDAY DEEP DIVE</div>
-            <h2 style="margin: 0 0 15px; font-size: 24px; color: #000;">{{ trending_info.topic }}</h2>
-            <div style="font-size: 15px; line-height: 1.7; color: #333;">
+        <div class="section" style="background-color: #f9f9f9;">
+            <div class="section-title">THE SIGNAL: {{ trending_info.topic }}</div>
+            <div class="news-content">
                 {{ trending_info.deep_dive }}
             </div>
         </div>
+        {% elif global_summary %}
+        <div class="section" style="background-color: #000; color: #fff;">
+            <div style="color: #2e7d32; font-weight: 800; font-size: 12px; margin-bottom: 8px;">THE SIGNAL</div>
+            <div style="font-size: 16px; line-height: 1.6;">{{ global_summary }}</div>
+        </div>
         {% endif %}
 
-        <div class="content">
-            <!-- Top Pick (Deep Dive) -->
-            {% if top_story %}
-            <div class="section-title">DEEP DIVE</div>
-            <div class="card" style="border-top: 4px solid #00C853;">
-                <div class="card-meta">{{ top_story.source }} • TOP PICK</div>
-                <div class="card-title">
-                    <a href="{{ top_story.link }}">{{ top_story.title }}</a>
-                </div>
-                <div class="card-summary">
-                    {{ top_story.processed.summary }}
-                </div>
-                <div class="card-footer">
-                    <span class="score high">Score: {{ top_story.processed.relevance_score }}/10</span>
-                    <a href="{{ top_story.link }}" class="read-more">Read Full Analysis →</a>
-                </div>
+        <!-- Detailed Items -->
+        {% for item in [top_news, top_repo, top_paper] %}
+        {% if item %}
+        <div class="section">
+            <div style="font-size: 13px; font-weight: 800; margin-bottom: 5px; text-transform: uppercase;">
+                {% if item == top_news %}Top News
+                {% elif item == top_repo %}Top Repo
+                {% elif item == top_paper %}Top Paper
+                {% endif %}
             </div>
+            <div class="news-title">{{ item.title }}</div>
+
+            <div class="news-content">
+                {{ item.processed.summary|safe }}
+            </div>
+
+            {% if item.processed.key_results %}
+            <ul class="key-results">
+                {% for result in item.processed.key_results %}
+                <li>{{ result }}</li>
+                {% endfor %}
+            </ul>
             {% endif %}
 
-            <!-- Categorized Sections -->
-            {% for section_name, section_items in sections.items() %}
-            {% if section_items %}
-            <div class="section-title">{{ section_name }}</div>
-            {% for item in section_items %}
-            {% if item != top_story %}
-            <div class="card">
-                <div class="card-meta">{{ item.source }}</div>
-                <div class="card-title">
-                    <a href="{{ item.link }}">{{ item.title }}</a>
-                </div>
-                <div class="card-summary">
-                    {{ item.processed.one_sentence_takeaway }}
-                </div>
-                <div class="card-footer">
-                    <span class="score {% if item.processed.relevance_score >= 8 %}high{% endif %}">Score: {{
-                        item.processed.relevance_score }}</span>
-                    <a href="{{ item.link }}" class="read-more">Learn More</a>
-                </div>
-            </div>
-            {% endif %}
-            {% endfor %}
-            {% endif %}
-            {% endfor %}
+            <a href="{{ item.link }}" class="btn">TRY NOW</a>
+        </div>
+        {% endif %}
+        {% endfor %}
+
+        <!-- Signals Section -->
+        <div class="section">
+            <div class="section-title">Signals</div>
+            <ul class="signals-list">
+                {% for signal in signals %}
+                <li>{{ signal.processed.one_sentence_takeaway|safe }}</li>
+                {% endfor %}
+            </ul>
         </div>
 
         <!-- Footer -->
-        <div class="footer">
-            You are receiving this because you subscribed to the Research Agent Digest.<br>
-            Focusing on RAG, LLM Agents, and Vibe Coding.<br>
-            <br>
-            <a href="https://github.com/qifanguo/collect-info-agent">Source Code</a> •
-            <a href="mailto:{{ email_username }}">Feedback</a>
+        <div class="section" style="text-align: center; color: #888; border-bottom: none;">
+            <div style="font-size: 12px;">
+                Generated by Research Agent for Qifan Guo<br>
+                <a href="https://github.com/qifanguo/collect-info-agent" style="color: #888;">Source Code</a>
+            </div>
         </div>
     </div>
 </body>

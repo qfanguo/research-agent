@@ -23,6 +23,11 @@ class Processor:
         """
         Sends the item content/summary to Gemini for scoring and summarization.
         """
+        # Detect GitHub repo in link or content
+        is_repo = "github.com" in item.get('link', '').lower() or "github.com" in item.get('summary', '').lower()
+        if is_repo:
+            item['type'] = 'repo'
+
         prompt = f"""
         You are a research assistant for a Senior ML Engineer.
         Your goal is to analyze the following article/paper and extract key information.
@@ -33,10 +38,11 @@ class Processor:
         Content/Summary: {item.get('summary')}
 
         Please provide a JSON response with the following fields:
-        - summary: A concise technical summary (2-3 sentences).
-        - relevance_score: An integer from 1 to 10 based on the user's interests. 10 is a direct match (e.g., a new RAG technique), 1 is irrelevant.
-        - one_sentence_takeaway: A snappy, single-sentence takeaway.
-        - tags: A list of 3-5 keywords.
+        - summary: A deep-dive technical summary (3-5 paragraphs). Use bolding (e.g., **key term**) for important breakthroughs and concepts. Ensure it is analytical and structured.
+        - key_results: A list of strictly 5 bullet points capturing specific technical findings, benchmarks, or core features.
+        - relevance_score: An integer from 1 to 10 based on the user's interests. 10 is a direct match, 1 is irrelevant.
+        - one_sentence_takeaway: A snappy, single-sentence takeaway for the summary table.
+        - tags: A list of 5 keywords.
 
         Output strictly valid JSON.
         """
