@@ -42,6 +42,17 @@ def main():
     curated_data = curator.curate(processed_items, is_weekend=is_weekend)
     print(f"Curated {len(curated_data.get('items', []))} items (Top Story: {bool(curated_data.get('top_story'))})")
 
+    # 3.5 Generate Global Summary
+    print("Stage 3.5: Generating Global Summary...")
+    global_summary = processor.generate_global_summary(curated_data.get('items', []))
+    curated_data['global_summary'] = global_summary
+
+    # 3.6 Saturday Special: Trending Deep Dive
+    if is_weekend:
+        print("Stage 3.6: Generating Weekly Deep Dive...")
+        trending_info = processor.generate_trending_topics(curated_data.get('items', []))
+        curated_data['trending_info'] = trending_info
+
     # 4. Design
     print("Stage 4: Designing content...")
     designer = Designer()

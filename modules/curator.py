@@ -37,20 +37,38 @@ class Curator:
         all_pool = []
         seen_links = set()
         
-        # Priority to new items, then backlog? Or score?
-        # Let's merge them.
-        sources = [items]
+        # Merge items and backlog
+        # Items are current fetches, backlog is older stuff
+        for item in items:
+            if isinstance(item, dict) and item.get('link') not in seen_links:
+                all_pool.append(item)
+                seen_links.add(item['link'])
+        
         if is_weekend:
-            sources.append(backlog)
-            
-        for source in sources:
-            for item in source:
-                if item['link'] not in seen_links:
+            for item in backlog:
+                if isinstance(item, dict) and item.get('link') not in seen_links:
                     all_pool.append(item)
                     seen_links.add(item['link'])
         
         # Filter by minimal relevance to reduce noise
-        valid_items = [i for i in all_pool if i.get('processed', {}).get('relevance_score', 0) >= 4]
+        valid_items = []
+        for i in all_pool:
+            if not isinstance(i, dict):
+                continue
+            
+            processed = i.get('processed', {})
+            # CRITICAL FIX: Ensure 'processed' is a dict. Sometimes AI returns a singleton list.
+            if isinstance(processed, list) and len(processed) > 0:
+                processed = processed[0]
+            
+            if not isinstance(processed, dict):
+                processed = {}
+                
+            score = processed.get('relevance_score', 0)
+            if score >= 4:
+                # Update item with the possibly flattened dict to avoid issues later
+                i['processed'] = processed
+                valid_items.append(i)
         
         # Sort by score
         valid_items.sort(key=lambda x: x.get('processed', {}).get('relevance_score', 0), reverse=True)
@@ -68,10 +86,18 @@ class Curator:
             # Clear backlog
             self.save_backlog([])
             
+            # Categorize
+            papers = [i for i in selected if i.get('type') == 'paper']
+            blogs = [i for i in selected if i.get('type') == 'blog']
+
             return {
                 "type": "weekend",
                 "top_story": selected[0] if selected else None,
                 "items": selected[1:],
+                "sections": {
+                    "Papers": papers,
+                    "Industrial Updates": blogs
+                },
                 "trending": [] # Placeholder for future implementation
             }
         else:
@@ -93,7 +119,15 @@ class Curator:
             
             self.save_backlog(new_backlog)
             
+            # Categorize
+            papers = [i for i in selected if i.get('type') == 'paper']
+            blogs = [i for i in selected if i.get('type') == 'blog']
+
             return {
                 "type": "weekday",
-                "items": selected
+                "items": selected,
+                "sections": {
+                    "Papers": papers,
+                    "Industrial Updates": blogs
+                }
             }

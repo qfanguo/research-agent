@@ -26,6 +26,9 @@ class Designer:
             "date": datetime.datetime.now().strftime("%B %d, %Y"),
             "read_time": read_time,
             "top_story": data.get('top_story'),
+            "global_summary": data.get('global_summary'),
+            "sections": data.get('sections', {}),
+            "trending_info": data.get('trending_info'),
             "items": data.get('items', [])
         }
         
