@@ -63,8 +63,8 @@ async def main():
     raw_items = await fetcher.fetch_all()
     print(f"Fetched {len(raw_items)} items.")
 
-    if not raw_items:
-        print("No items found. Generating empty digest.")
+    if not raw_items and not is_weekend:
+        print("No items found and not weekend. Generating empty digest.")
         # Generate an empty digest file so email can still be sent
         designer = Designer()
         html_content = designer.render(
@@ -77,12 +77,16 @@ async def main():
             f.write(html_content)
         print(f"Empty digest generated at {output_file}")
         return
-
-    # 2. Process (Summarize & Score)
-    print("Stage 2: Processing content with Gemini in parallel...")
-    processor = Processor()
-    processed_items = await processor.process_batch(raw_items)
-    print("Processing complete.")
+    
+    if not raw_items:
+        print("No new items fetched, but proceeding to curation (check backlog)...")
+        processed_items = []
+    else:
+        # 2. Process (Summarize & Score)
+        print("Stage 2: Processing content with Gemini in parallel...")
+        processor = Processor()
+        processed_items = await processor.process_batch(raw_items)
+        print("Processing complete.")
 
     # 3. Curate
     print("Stage 3: Curating content...")

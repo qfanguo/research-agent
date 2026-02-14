@@ -49,6 +49,13 @@ jobs:
           echo "Warning: daily_digest.html not found"
         fi
 
+    - name: Check digest file size
+      run: |
+        if [ -f daily_digest.html ]; then
+          ls -lh daily_digest.html
+          head -n 20 daily_digest.html
+        fi
+
     - name: Send Email
       if: steps.check_file.outputs.exists == 'true'
       uses: dawidd6/action-send-mail@v3
@@ -58,11 +65,12 @@ jobs:
         secure: true
         username: ${{ secrets.EMAIL_USERNAME }}
         password: ${{ secrets.EMAIL_PASSWORD }}
-        subject: "Daily Research Agent Digest"
+        subject: "Daily Research Agent Digest (Run ${{ github.run_id }})"
         to: ${{ secrets.EMAIL_RECIPIENT }}
         from: ${{ secrets.EMAIL_USERNAME }}
         html_body: file://${{ github.workspace }}/daily_digest.html
         ignore_cert: true
+        priority: high
 
     - name: Commit and Push Backlog
       run: |
