@@ -69,5 +69,5 @@ jobs:
         git config --global user.name 'Research Agent Bot'
         git config --global user.email 'bot@example.com'
         git add -f backlog.json
-        # Only commit if there are changes
-        git diff --quiet && git diff --staged --quiet || (git commit -m "Update backlog [skip ci]" && git push)
+        # Only commit if backlog.json has changes
+        git diff --quiet --staged backlog.json || (git commit -m "Update backlog [skip ci]" backlog.json && git push)
