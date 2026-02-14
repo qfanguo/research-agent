@@ -179,9 +179,10 @@ class Processor:
         for i in items[:20]:
             title = i.get('title', 'Untitled')
             summary = i.get('processed', {}).get('summary', 'No summary available')
+            link = i.get('link', '#')
             if title == 'Untitled':
                  print(f"Warning: Item missing title found in trending topics generation: {i}")    
-            context_items.append(f"- {title}: {summary}")
+            context_items.append(f"- {title} ({link}): {summary}")
         
         context = "\n".join(context_items)
         interests_str = ", ".join(config.USER_INTERESTS)
@@ -190,7 +191,7 @@ class Processor:
         You are an elite productivity & learning coach for a Senior ML Engineer.
         User Interests: {interests_str}
 
-        Based on this week's top research below, create a "Personalized Saturday Learning Plan".
+        Based on this week's top research below, create a "Personalized Saturday Learning Plan" designed for 1 hour of deep reading and exploration.
         
         Context:
         {context}
@@ -202,20 +203,44 @@ class Processor:
         - Use clean, semantic HTML.
         - Structure:
             <div class="saturday-plan">
-                <p class="plan-intro">Here is your high-leverage learning plan for the weekend, curated for {interests_str}.</p>
-                <div class="plan-item">
-                    <span class="plan-time">Morning: Deep Dive</span>
-                    <div class="plan-content">[Specific paper/repo to study based on trends] - Focus on [specific technical aspect].</div>
+                <p class="plan-intro">Here is your high-leverage learning plan for the weekend, curated for {interests_str}. This plan is designed for approximately 1 hour of dedicated focus.</p>
+                
+                <div class="deep-dive-section">
+                    <h3>Weekly Trending Deep Dive</h3>
+                    <div class="deep-dive-content">
+                        [Provide a detailed synthesis of the major trending topic of the week. Explain why it matters, the architectural shifts it represents, and how it relates to {interests_str}. Use bullet points for key takeaways.]
+                    </div>
                 </div>
+
                 <div class="plan-item">
-                    <span class="plan-time">Afternoon: Experimentation</span>
-                    <div class="plan-content">[suggest a small experiment or code to write related to the morning topic].</div>
+                    <span class="plan-time">Morning: Deep Technical Study (30 mins)</span>
+                    <div class="plan-content">
+                        <strong>Topic:</strong> [Specific paper/repo/blog to study based on trends].<br>
+                        <strong>Why:</strong> [Reasoning for this choice].<br>
+                        <strong>Action:</strong> Review the <a href="[LINK]">original source</a> and focus on [specific technical aspect like architecture, evaluation, or implementation].
+                    </div>
                 </div>
+
                 <div class="plan-item">
-                    <span class="plan-time">Evening: Reflection</span>
-                    <div class="plan-content">[A thought-provoking question or perspective to consider].</div>
+                    <span class="plan-time">Afternoon: Practical Experimentation (20 mins)</span>
+                    <div class="plan-content">
+                        <strong>Activity:</strong> [suggest a small experiment, code snippet to try, or tool to test related to the morning topic].<br>
+                        <strong>Resource:</strong> Check out the <a href="[LINK]">project repository/resource</a> to get started.
+                    </div>
+                </div>
+
+                <div class="plan-item">
+                    <span class="plan-time">Evening: Strategic Reflection (10 mins)</span>
+                    <div class="plan-content">
+                        [A thought-provoking question or perspective to consider regarding the long-term impact of this week's trends].
+                    </div>
                 </div>
             </div>
+
+        CRITICAL: 
+        1. You MUST include clickable links (using <a href="...">) to the original sources (papers, repos, blogs) where specified. Use the links provided in the context.
+        2. Ensure the content is substantial enough for a 1-hour session.
+        3. The "Weekly Trending Deep Dive" should be a multi-paragraph synthesis of the most significant trend.
         """
 
         try:
