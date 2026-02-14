@@ -63,7 +63,7 @@ jobs:
         from: ${{ secrets.EMAIL_USERNAME }}
         html_body: file://${{ github.workspace }}/daily_digest.html
         ignore_cert: true
-        convert_markdown: true
+        ignore_cert: true
 
     - name: Commit and Push Backlog
       run: |
