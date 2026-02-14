@@ -35,19 +35,29 @@ jobs:
       run: |
         python orchestrator.py
 
+    - name: Check if digest file exists
+      id: check_file
+      run: |
+        if [ -f daily_digest.html ]; then
+          echo "exists=true" >> $GITHUB_OUTPUT
+        else
+          echo "exists=false" >> $GITHUB_OUTPUT
+          echo "Warning: daily_digest.html not found"
+        fi
+
     - name: Send Email
+      if: steps.check_file.outputs.exists == 'true'
       uses: dawidd6/action-send-mail@v3
       with:
-        # Check if output file exists
-        search_path: '.'  # Needed since we haven't changed directory
         server_address: smtp.gmail.com
         server_port: 465
+        secure: true
         username: ${{ secrets.EMAIL_USERNAME }}
         password: ${{ secrets.EMAIL_PASSWORD }}
         subject: "Daily Research Agent Digest"
         to: ${{ secrets.EMAIL_RECIPIENT }}
-        from: "Research Agent"
-        html_body: "file://daily_digest.html"
+        from: ${{ secrets.EMAIL_USERNAME }}
+        html_body: file://daily_digest.html
         ignore_cert: true
         convert_markdown: true
 
