@@ -208,7 +208,7 @@ class Processor:
                 <div class="deep-dive-section">
                     <h3>Weekly Trending Deep Dive</h3>
                     <div class="deep-dive-content">
-                        [Provide a detailed synthesis of the major trending topic of the week. Explain why it matters, the architectural shifts it represents, and how it relates to {interests_str}. Use bullet points for key takeaways.]
+                        [Provide a detailed synthesis of the major trending topic of the week. Explain why it matters, the architectural shifts it represents, and how it relates to {interests_str}. Use bullet points for key takeaways. IMPORTANT: Include clickable links using <a href="...">text</a> to the relevant papers/repos/blogs from the context provided above.]
                     </div>
                 </div>
 
@@ -239,8 +239,9 @@ class Processor:
 
         CRITICAL: 
         1. You MUST include clickable links (using <a href="...">) to the original sources (papers, repos, blogs) where specified. Use the links provided in the context.
-        2. Ensure the content is substantial enough for a 1-hour session.
-        3. The "Weekly Trending Deep Dive" should be a multi-paragraph synthesis of the most significant trend.
+        2. In the Deep Dive section, reference specific items from the context and include their links inline (e.g., "OpenAI's <a href="https://...">GPT-5.2</a> demonstrates...").
+        3. Ensure the content is substantial enough for a 1-hour session.
+        4. The "Weekly Trending Deep Dive" should be a multi-paragraph synthesis of the most significant trend.
         """
 
         try:
