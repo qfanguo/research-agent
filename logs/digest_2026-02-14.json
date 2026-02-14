@@ -1,0 +1,370 @@
+{
+  "type": "weekend",
+  "detailed_items": [
+    {
+      "title": "GPT-5.2 derives a new result in theoretical physics",
+      "link": "https://openai.com/index/new-result-theoretical-physics",
+      "summary": "A new preprint shows GPT-5.2 proposing a new formula for a gluon amplitude, later formally proved and verified by OpenAI and academic collaborators.",
+      "source": "OpenAI News",
+      "published": "2026-02-13T11:00:00+00:00",
+      "type": "blog",
+      "display_category": "Top News",
+      "processed": {
+        "summary": "\n* OpenAI's **GPT-5.2** demonstrates breakthrough **reasoning capabilities** by autonomously proposing a novel formula for a gluon amplitude.\n* The model leverages advanced **reasoning architectures** to perform complex mathematical derivations previously unreachable by previous generations.\n* This event marks a transition from LLMs as synthesis tools to **AI-driven scientific discovery** in high-energy theoretical physics.\n* The result has been formally **verified and proved** by a joint team of OpenAI researchers and academic collaborators.",
+        "key_results": [
+          "Autonomous derivation of a previously unknown gluon amplitude formula.",
+          "Formal mathematical verification of the formula's accuracy.",
+          "Evidence of GPT-5.2's superior performance in high-level reasoning tasks.",
+          "Demonstration of effective AI-human collaboration in theoretical research.",
+          "Validation of LLMs as viable tools for frontier scientific hypothesis generation."
+        ],
+        "relevance_score": 10,
+        "signal_type": "Paper",
+        "one_sentence_takeaway": "OpenAI demonstrates GPT-5.2's advanced reasoning by deriving and verifying a novel theoretical physics formula for gluon amplitude.",
+        "lead_institution": "OpenAI",
+        "tags": [
+          "Reasoning Models",
+          "GPT-5.2",
+          "Theoretical Physics",
+          "Scientific Discovery",
+          "Generative AI"
+        ]
+      }
+    },
+    {
+      "title": "Scaling LLM Post-Training at Netflix",
+      "link": "https://netflixtechblog.com/scaling-llm-post-training-at-netflix-0046f8790194?source=rss----2615bd06b42e---4",
+      "summary": "<p><a href=\"https://www.linkedin.com/in/baolin-li-659426115/\">Baolin Li</a>, <a href=\"https://www.linkedin.com/in/lingyi-liu-4b866016/\">Lingyi Liu</a>, <a href=\"https://www.linkedin.com/in/binh-tang-3b76557b/\">Binh Tang</a>, <a href=\"https://www.linkedin.com/in/shaojingli/\">Shaojing\u00a0Li</a></p><h3>Introduction</h3><p>Pre-training gives Large Language Models (LLMs) broad linguistic ability and general world knowledge, but post-training is the phase that actually aligns them to concrete intents, domain constraints, and the reliability requirements of production environments. At Netflix, we are exploring how LLMs can enable new member experiences across recommendation, personalization, and search, which requires adapting generic foundation models so they can better reflect our catalog and the nuances of member interaction histories. At Netflix scale, post-training quickly becomes an engineering problem as much as a modeling one: building and operating complex data pipelines, coordinating distributed state across multi-node GPU clusters, and orchestrating workflows that interleave training and inference. This blog describes the architecture and engineering philosophy of our internal <strong>Post-Training Framework</strong>, built by the AI Platform team to hide infrastructure complexity so researchers and model developers can focus on model innovation\u200a\u2014\u200anot distributed systems plumbing.</p><h3>A Model Developer\u2019s Post-Training Journey</h3><p>Post-training often starts deceptively simply: curate proprietary domain data, load an open-weight model from Hugging Face, and iterate batches through it. At the experimentation scale, that\u2019s a few lines of code. But when fine-tuning production-grade LLMs at scale, the gap between \u201crunning a script\u201d and \u201crobust post-training\u201d becomes an abyss of engineering edge\u00a0cases.</p><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/873/1*at60qZXd0j6SphkjzdmazQ.png\" /><figcaption>Figure 1. Simple steps to post-train an open-weight model.</figcaption></figure><h4>Getting the data\u00a0right</h4><p>On paper, post-training is straightforward: choose a tokenizer, preprocess the dataset, and build a dataloader. In practice, data preparation is where things break. High-quality post-training\u200a\u2014\u200ainstruction following, multi-turn dialogue, Chain-of-Thought\u200a\u2014\u200adepends on precisely controlling which tokens contribute to the loss. Hugging Face chat templates serialize conversations, but don\u2019t specify what to train on versus ignore. The pipeline must apply explicit loss masking so only assistant tokens are optimized; otherwise the model learns from prompts and other non-target text, degrading quality.</p><p>Variable sequence length is another pitfall. Padding within a batch can waste compute, and uneven shapes across FSDP workers can cause GPU synchronization overhead. A more GPU-efficient approach is to pack multiple samples into fixed-length sequences and use a \u201cdocument mask\u201d to prevent cross-attention across samples, reducing padding and keeping shapes consistent.</p><h4>Setting up the\u00a0model</h4><p>Loading an open-source checkpoint sounds simple until the model no longer fits on one GPU. At that point you need a sharding strategy (e.g., FSDP, TP) and must load partial weights directly onto the device mesh to avoid ever materializing the full model on a single\u00a0device.</p><p>After loading, you still need to make the model trainable: choose full fine-tuning vs. LoRA, and apply optimizations like activation checkpointing, compilation, and correct precision settings (often subtle for RL, where rollout and policy precision must align). Large vocabularies (&gt;128k) add a further memory trap: logits are<em> [batch, seq_len, vocab] </em>and can spike peak memory. Common mitigations include dropping ignored tokens before projection and computing logits/loss in chunks along the sequence dimension.</p><h4>Starting the\u00a0training</h4><p>Even with data and models ready, production training is not a simple \u201cfor loop\u201d. The system must support everything from SFT\u2019s forward/backward pass to on-policy RL workflows that interleave rollout generation, reward/reference inference, and policy\u00a0updates.</p><p>At Netflix scale, training runs as a distributed job. We use Ray to orchestrate workflows via actors, decoupling modeling logic from hardware. Robust runs also require experiment tracking (model quality metrics like loss and efficiency metrics like MFU) and fault tolerance via standardized checkpoints to resume cleanly after failures.</p><p>These challenges motivate a post-training framework that lets developers focus on modeling rather than distributed systems and operational details.</p><h3>The Netflix Post-Training Framework</h3><p>We built Netflix\u2019s LLM post-training framework so Netflix model developers can turn ideas like those in Figure 1 into scalable, robust training jobs. It addresses the engineering hurdles described above, and also constraints that are specific to the Netflix ecosystem. Existing tools (e.g., Thinking Machines\u2019 <a href=\"https://thinkingmachines.ai/tinker/\">Tinker</a>) work well for standard chat and instruction-tuning, but their structure can limit deeper experimentation. In contrast, our internal use cases often require architectural variation (for example, customizing output projection heads for task-specific objectives), expanded or nonstandard vocabularies driven by semantic IDs or special tokens, and even transformer models pre-trained from scratch on domain-specific, non-natural-language sequences. Supporting this range requires a framework that prioritizes flexibility and extensibility over a fixed fine-tuning paradigm.</p><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*z2IFH-4iIQ5qxARTur-wQA.png\" /><figcaption>Figure 2. The post-training library within Netflix\u00a0stack</figcaption></figure><p>Figure 2 shows the end-to-end stack from infrastructure to trained models. At the base is Mako, Netflix\u2019s internal ML compute platform, which provisions GPUs on AWS. On top of Mako, we run robust open-source components\u200a\u2014\u200aPyTorch, Ray, and vLLM\u200a\u2014\u200alargely out of the box. Our post-training framework sits above these foundations as a library: it provides reusable utilities and standardized training recipes for common workflows such as Supervised Fine-Tuning (SFT), Direct Preference Optimization (DPO), Reinforcement Learning (RL), and Knowledge Distillation. Users typically express jobs as configuration files that select a recipe and plug in task-specific components.</p><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*RzZzr3wADPwism5CQP8mYw.png\" /><figcaption>Figure 3. Main components developed for the post-training framework</figcaption></figure><p>Figure 3 summarizes the modular components we built to reduce complexity across four dimensions. As with most ML systems, training success hinges on three pillars\u200a\u2014\u200a<strong>Data</strong>, <strong>Model</strong>, and <strong>Compute</strong>\u200a\u2014\u200aand the rise of RL fine-tuning adds a fourth pillar: <strong>Workflow</strong>, to support multi-stage execution patterns that don\u2019t fit a simple training loop. Below, we detail the specific abstractions and features the framework provides for each of these dimensions:</p><ul><li><strong>Data:</strong> Dataset abstractions for SFT, reward modeling, and RL; high-throughput streaming from cloud and disk for datasets that exceed local storage; and asynchronous, on-the-fly sequence packing to overlap CPU-heavy packing with GPU execution and reduce idle\u00a0time.</li><li><strong>Model:</strong> Support for modern architectures (e.g., Qwen3, Gemma3) and Mixture-of-Experts variants (e.g., Qwen3 MoE, GPT-OSS); LoRA integrated into model definitions; and high-level sharding APIs so developers can distribute large models across device meshes without writing low-level distributed code.</li><li><strong>Compute:</strong> A unified job submission interface that scales from a single node to hundreds of GPUs; MFU (Model FLOPS Utilization) monitoring that remains accurate under custom architectures and LoRA; and comprehensive checkpointing (states of trained parameters, optimizer, dataloader, data mixer, etc.) to enable exact resumption after interruptions.</li><li><strong>Workflow:</strong> Support for training paradigms beyond SFT, including complex online RL. In particular, we extend Single Program, Multiple Data (SPMD) style SFT workloads to run online RL with a hybrid single-controller + SPMD execution model, which we\u2019ll describe\u00a0next.</li></ul><p>Today, this framework supports research use cases ranging from post-training large-scale foundation models to fine-tuning specialized expert models. By standardizing these workflows, we\u2019ve lowered the barrier for teams to experiment with advanced techniques and iterate more\u00a0quickly.</p><h3>Learnings from Building the Post-Training Framework</h3><p>Building a system of this scope wasn\u2019t a linear implementation exercise. It meant tracking a fast-moving open-source ecosystem, chasing down failure modes that only appear under distributed load, and repeatedly revisiting architectural decisions as the post-training frontier shifted. Below are three engineering learnings and best practices that shaped the framework.</p><h4>Scaling from SFT to\u00a0RL</h4><p>We initially designed the library around Supervised Fine-Tuning (SFT): relatively static data flow, a single training loop, and a Single Program, Multiple Data (SPMD) execution model. That assumption stopped holding in 2025. With DeepSeek-R1 and the broader adoption of efficient on-policy RL methods like GRPO, SFT became table stakes rather than the finish line. Staying close to the frontier required infrastructure that could move from \u201coffline training loop\u201d to \u201cmulti-stage, on-policy orchestration.\u201d</p><p>SFT\u2019s learning signal is dense and immediate: for each token position we compute logits over the full vocabulary and backpropagate a differentiable loss. Infrastructure-wise, this looks a lot like pre-training and maps cleanly to SPMD\u200a\u2014\u200aevery GPU worker runs the same step function over a different shard of data, synchronizing through Pytorch distributed primitives.</p><p>On-policy RL changes the shape of the system. The learning signal is typically sparse and delayed (e.g., a scalar reward at the end of an episode), and the training step depends on data generated by the current policy. Individual sub-stages\u200a\u2014\u200apolicy updates, rollout generation, reference model inference, reward model scoring\u200a\u2014\u200acan each be implemented as SPMD workloads, but the end-to-end algorithm needs explicit coordination: you\u2019re constantly handing off artifacts (prompts, sampled trajectories, rewards, advantages) across stages and synchronizing their lifecycle.</p><p>In our original SFT architecture, the driver node was intentionally \u201cthin\u201d: it launched N identical Ray actors, each encapsulating the full training loop, and scaling meant launching more identical workers. That model breaks down for RL. RL required us to decompose the system into distinct roles\u200a\u2014\u200aPolicy, Rollout Workers, Reward Model, Reference Model, etc.\u200a\u2014\u200aand evolve the driver into an active controller that encodes the control plane: when to generate rollouts, how to batch and score them, when to trigger optimization, and how to manage cluster resources across\u00a0phases.</p><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*5lhd3rDmexD0KGoHy78CZQ.png\" /><figcaption>Figure 4. Architectural differences of SFT and RL framework</figcaption></figure><p>Figure 4 highlights this shift. To add RL support without reinventing distributed orchestration from scratch, we integrated the core infrastructure from the open-source <a href=\"https://github.com/verl-project/verl\"><strong>Verl</strong></a> library to manage Ray actor lifecycle and GPU resource allocation. Leveraging Verl\u2019s backend let us focus on the \u201cmodeling surface area\u201d\u200a\u2014\u200aour Data/Model/Compute abstractions and internal optimizations\u200a\u2014\u200awhile keeping orchestration concerns decoupled. The result is a hybrid design: a unified user interface where developers can move between SFT and RL workflows without adopting an entirely different mental model or API\u00a0set.</p><h4>Hugging Face-Centric Experience</h4><p>The Hugging Face Hub has effectively become the default distribution channel for open-weight LLMs, tokenizers, and configs. We designed the framework to stay close to that ecosystem rather than creating an isolated internal standard. Even when we use optimized internal model representations for speed, we load and save checkpoints in standard Hugging Face formats. This avoids \u201cwalled garden\u201d friction and lets teams pull in new architectures, weights, and tokenizers quickly.</p><p>This philosophy also shaped our tokenizer story. Early on, we bound directly to low-level tokenization libraries (e.g., SentencePiece, tiktoken) to maximize control. In practice, that created a costly failure mode: silent training\u2013serving skew. Our inference stack (vLLM) defaults to Hugging Face AutoTokenizer, and tiny differences in normalization, special token handling, or chat templating can yield different token boundaries\u200a\u2014\u200aexactly the kind of mismatch that shows up later as inexplicable quality regressions. We fixed this by making Hugging Face AutoTokenizer the single source of truth. We then built a thin compatibility layer (BaseHFModelTokenizer) to handle post-training needs\u200a\u2014\u200asetting padding tokens, injecting generation markers to support loss masking, and managing special tokens / semantic IDs\u200a\u2014\u200awhile ensuring the byte-level tokenization path matches production.</p><p>We do take a different approach for model implementations. Rather than training directly on transformers model classes, we maintain our own optimized, unified model definitions that can still load/save Hugging Face checkpoints. This layer is what enables framework-level optimizations\u200a\u2014\u200ae.g., FlexAttention, memory-efficient chunked cross-entropy, consistent MFU accounting, and uniform LoRA extensibility\u200a\u2014\u200awithout re-implementing them separately for every model family. A unified module naming convention also makes it feasible to programmatically locate and swap components (Attention, MLP, output heads) across architectures, and provides a consistent surface for Tensor Parallelism and FSDP wrapping policies.</p><p>The trade-off is clear: supporting a new model family requires building a bridge between the Hugging Face reference implementation and our internal definition. To reduce that overhead, we use AI coding agents to automate much of the conversion work, with a strict <strong>logit verifier</strong> as the gate: given random inputs, our internal model must match the Hugging Face logits within tolerance. Because the acceptance criterion is mechanically checkable, agents can iterate autonomously until the implementation is correct, dramatically shortening the time-to-support for new architectures.</p><p>Today, this design means we can only train architectures we explicitly support\u200a\u2014\u200aan intentional constraint shared by other high-performance systems like <a href=\"https://huggingface.co/docs/transformers/main/transformers_as_backend\">vLLM, SGLang</a>, and <a href=\"https://github.com/pytorch/torchtitan/pull/2048\">torchtitan</a>. To broaden coverage, we plan to add a fallback Hugging Face backend, similar to the compatibility patterns these projects use: users will be able to run training directly on native transformers models for rapid exploration of novel architectures, with the understanding that some framework optimizations and features may not apply in that\u00a0mode.</p><h4>Providing Differential Value</h4><p>A post-training framework is only worth owning if it delivers clear value beyond assembling OSS components. We build on open source for velocity, but we invest heavily where off-the-shelf tools tend to be weakest: performance tuned to our workload characteristics, and integration with Netflix-specific model and business requirements. Here are some concrete examples:</p><p>First, we optimize training efficiency for our real use cases. A representative example is extreme variance in sequence length. In FSDP-style training, long-tail sequences create stragglers: faster workers end up waiting at synchronization points for the slowest batch, lowering utilization. Standard bin-packing approaches help, but doing them offline at our data scale can add substantial preprocessing latency and make it harder to keep datasets fresh. Instead, we built on-the-fly sequence packing that streams samples from storage and dynamically packs them in memory. Packing runs asynchronously, overlapping CPU work with GPU compute. Figure 5 shows the impact: for our most skewed dataset, on-the-fly packing improved the effective token throughput by up to\u00a04.7x.</p><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*Z2mdtXVFJsr764NihkguIA.png\" /><figcaption>Figure 5. Training throughput on two of our internal datasets on A100 and H200\u00a0GPUs</figcaption></figure><p>We also encountered subtler performance cliffs around vocabulary expansion. Our workloads frequently add custom tokens and semantic IDs. We found that certain vocabulary sizes could cause the language model head to fall back from a highly optimized cuBLAS kernel to a much slower CUTLASS path, tripling that layer\u2019s execution time. The framework now automatically pads vocabulary sizes to multiples of 64 so the compiler selects the fast kernel, preserving throughput without requiring developers to know these low-level constraints.</p><p>Second, owning the framework lets us support \u201cnon-standard\u201d transformer use cases that generic LLM tooling rarely targets. For example, some internal models are trained on member interaction event sequences rather than natural language, and may require bespoke RL loops that integrate with highly-customized inference engines and optimize business-defined metrics. These workflows demand custom environments, reward computation, and orchestration patterns\u200a\u2014\u200awhile still needing the same underlying guarantees around performance, tracking, and fault tolerance. The framework is built to accommodate these specialized requirements without fragmenting into one-off pipelines, enabling rapid iteration.</p><h3>Wrap up</h3><p>Building the Netflix Post-Training Framework has been a continual exercise in balancing standardization with specialization. By staying anchored to the open-source ecosystem, we\u2019ve avoided drifting into a proprietary stack that diverges from where the community is moving. At the same time, by owning the core abstractions around Data, Model, Compute, and Workflow, we\u2019ve preserved the freedom to optimize for Netflix-scale training and Netflix-specific requirements.</p><p>In the process, we\u2019ve moved post-training from a loose collection of scripts into a managed, scalable system. Whether the goal is maximizing SFT throughput, orchestrating multi-stage on-policy RL, or training transformers over member interaction sequences, the framework provides a consistent set of primitives to do so reliably and efficiently. As the field shifts toward more agentic, reasoning-heavy, and multimodal architectures, this foundation will help us translate new ideas into scalable GenAI prototypes\u200a\u2014\u200aso experimentation is constrained by our imagination, not by operational complexity.</p><h3>Acknowledgements</h3><p>This work builds on the momentum of the broader open-source ML community. We\u2019re especially grateful to the teams and contributors behind Torchtune, Torchtitan, and Verl, whose reference implementations and design patterns informed many of our training framework choices\u200a\u2014\u200aparticularly around scalable training recipes, distributed execution, and RL-oriented orchestration. We also thank our partner teams in Netflix AI for Member Systems for close collaboration, feedback, and shared problem-solving throughout the development and rollout of the Post-Training Framework, and the Training Platform team for providing the robust infrastructure and operational foundation that makes large-scale post-training possible.</p><img alt=\"\" height=\"1\" src=\"https://medium.com/_/stat?event=post.clientViewed&amp;referrerSource=full_rss&amp;postId=0046f8790194\" width=\"1\" /><hr /><p><a href=\"https://netflixtechblog.com/scaling-llm-post-training-at-netflix-0046f8790194\">Scaling LLM Post-Training at Netflix</a> was originally published in <a href=\"https://netflixtechblog.com\">Netflix TechBlog</a> on Medium, where people are continuing the conversation by highlighting and responding to this story.</p>",
+      "source": "Netflix TechBlog - Medium",
+      "published": "2026-02-13T08:05:33+00:00",
+      "type": "blog",
+      "display_category": "Top News",
+      "processed": {
+        "summary": "\n- Netflix developed an internal **Post-Training Framework** to abstract distributed systems complexity, allowing researchers to scale **Supervised Fine-Tuning (SFT)** and **Reinforcement Learning (RL)** without manual GPU orchestration.\n- The architecture utilizes **Ray** and **Verl** to transition from simple SPMD execution to a hybrid controller-worker model, enabling complex on-policy RL workflows like **GRPO** and **DPO**.\n- Performance is optimized through **asynchronous on-the-fly sequence packing**, which overlaps CPU-heavy data preparation with GPU execution to eliminate padding waste in variable-length datasets.\n- To maintain compatibility with the ecosystem, the framework uses **Hugging Face** as the source of truth for tokenization and model weights while applying internal optimizations like **FlexAttention** and **chunked cross-entropy**.",
+        "key_results": [
+          "Achieved up to 4.7x improvement in token throughput using on-the-fly sequence packing for skewed datasets.",
+          "Integrated Verl library to decouple RL orchestration (policy, reward, reference models) from core modeling logic.",
+          "Eliminated training-serving skew by adopting Hugging Face AutoTokenizer as the single source of truth.",
+          "Automated model architecture conversion using AI coding agents validated by a mechanical logit verifier.",
+          "Optimized kernel performance by automatically padding expanded vocabularies to multiples of 64 for cuBLAS efficiency."
+        ],
+        "relevance_score": 9,
+        "signal_type": "Engineering Blog",
+        "one_sentence_takeaway": "Netflix scales LLM post-training using a modular framework that optimizes SFT and RL through asynchronous sequence packing.",
+        "lead_institution": "Netflix",
+        "tags": [
+          "Post-Training",
+          "Reinforcement Learning",
+          "Model Fine-tuning",
+          "Distributed Training",
+          "LLM Infrastructure"
+        ]
+      }
+    },
+    {
+      "title": "Beyond rate limits: scaling access to Codex and Sora",
+      "link": "https://openai.com/index/beyond-rate-limits",
+      "summary": "How OpenAI built a real-time access system combining rate limits, usage tracking, and credits to power continuous access to Sora and Codex.",
+      "source": "OpenAI News",
+      "published": "2026-02-13T09:00:00+00:00",
+      "type": "blog",
+      "display_category": "Top News",
+      "processed": {
+        "summary": "\n- OpenAI implemented a **unified real-time access system** designed to handle the high-throughput and high-compute demands of **Sora** and **Codex**.\n- The architecture utilizes a **distributed state management** layer that synchronizes rate limits and credit balances across global inference clusters with minimal latency.\n- The system moves beyond static quotas by integrating **dynamic credit-based billing**, allowing for more granular control over resource-intensive multimodal generation.\n- This infrastructure provides **automated scaling and usage tracking**, ensuring that resource allocation is optimized for both synchronous and asynchronous AI workloads.",
+        "key_results": [
+          "Development of a low-latency quota enforcement engine.",
+          "Integration of real-time credit tracking for video-generation costs.",
+          "Reduction in systemic overhead for high-frequency API requests.",
+          "Improved visibility into per-user resource consumption metrics.",
+          "Standardized scaling framework for future foundation model releases."
+        ],
+        "relevance_score": 8,
+        "signal_type": "Engineering Blog",
+        "one_sentence_takeaway": "OpenAI implements a scalable credit-based architecture to manage real-time access and rate limits for Sora and Codex models.",
+        "lead_institution": "OpenAI",
+        "tags": [
+          "Infrastructure",
+          "Scalability",
+          "Sora",
+          "Rate Limiting",
+          "Resource Management"
+        ]
+      }
+    }
+  ],
+  "signals": [
+    {
+      "title": "Introducing Lockdown Mode and Elevated Risk labels in ChatGPT",
+      "link": "https://openai.com/index/introducing-lockdown-mode-and-elevated-risk-labels-in-chatgpt",
+      "summary": "Introducing Lockdown Mode and Elevated Risk labels in ChatGPT to help organizations defend against prompt injection and AI-driven data exfiltration.",
+      "source": "OpenAI News",
+      "published": "2026-02-13T10:00:00+00:00",
+      "type": "blog",
+      "display_category": "Top News",
+      "processed": {
+        "summary": "\n- OpenAI implements **Lockdown Mode** to restrict external data fetching and tool execution during high-risk interactions.\n- The system introduces **Elevated Risk labels** to identify and flag potential prompt injection or data exfiltration attempts.\n- This update enhances **enterprise security** by providing granular controls over how models process potentially malicious third-party content.\n- Focuses on neutralizing **indirect prompt injection** vectors to ensure robust organizational data protection.",
+        "key_results": [
+          "Introduction of Lockdown Mode for high-security environments.",
+          "Deployment of real-time Elevated Risk labeling for prompts.",
+          "Standardized defense mechanisms against prompt injection attacks.",
+          "Architectural safeguards to prevent unauthorized data exfiltration.",
+          "Enhanced visibility for administrators into organizational AI risks."
+        ],
+        "relevance_score": 7,
+        "signal_type": "Release",
+        "one_sentence_takeaway": "OpenAI launches Lockdown Mode and Elevated Risk labels to defend ChatGPT users against prompt injection and data exfiltration.",
+        "lead_institution": "OpenAI",
+        "tags": [
+          "Prompt Injection",
+          "Data Exfiltration",
+          "LLM Security",
+          "Enterprise AI",
+          "ChatGPT"
+        ]
+      }
+    },
+    {
+      "title": "Scaling social science research",
+      "link": "https://openai.com/index/scaling-social-science-research",
+      "summary": "GABRIEL is a new open-source toolkit from OpenAI that uses GPT to turn qualitative text and images into quantitative data, helping social scientists analyze research at scale.",
+      "source": "OpenAI News",
+      "published": "2026-02-13T09:00:00+00:00",
+      "type": "blog",
+      "display_category": "Top News",
+      "processed": {
+        "summary": "\n- OpenAI introduces **GABRIEL**, an open-source toolkit designed to bridge qualitative analysis and quantitative data through **LLM-driven categorization**.\n- The system leverages **GPT models** to process large-scale datasets including text and **multimodal image inputs** for social science research.\n- It automates the transformation of unstructured research data into structured formats, enabling **higher-throughput research** and reducing manual coding bottlenecks.",
+        "key_results": [
+          "Release of an open-source framework for social science data scaling.",
+          "Seamless conversion of qualitative text into quantitative structured formats.",
+          "Implementation of multimodal capabilities for image-based research analysis.",
+          "Reduction in manual labor for research coding tasks.",
+          "Scalable architecture for processing massive qualitative datasets using LLMs."
+        ],
+        "relevance_score": 7,
+        "signal_type": "Release",
+        "one_sentence_takeaway": "OpenAI launches GABRIEL, an open-source toolkit that converts qualitative text and images into structured quantitative research data.",
+        "lead_institution": "OpenAI",
+        "tags": [
+          "Open-source",
+          "Multimodal AI",
+          "Data Structuring",
+          "Social Science",
+          "GPT"
+        ]
+      }
+    },
+    {
+      "title": "Customize AI agent browsing with proxies, profiles, and extensions in Amazon Bedrock AgentCore Browser",
+      "link": "https://aws.amazon.com/blogs/machine-learning/customize-ai-agent-browsing-with-proxies-profiles-and-extensions-in-amazon-bedrock-agentcore-browser/",
+      "summary": "Today, we are announcing three new capabilities that address these requirements: proxy configuration, browser profiles, and browser extensions. Together, these features give you fine-grained control over how your AI agents interact with the web. This post will walk through each capability with configuration examples and practical use cases to help you get started.",
+      "source": "Artificial Intelligence",
+      "published": "2026-02-13T22:57:34+00:00",
+      "type": "blog",
+      "display_category": "Top News",
+      "processed": {
+        "summary": "<br>\u2022 Amazon introduces **proxy configuration** for AI agents, enabling granular control over egress traffic to navigate IP-restricted environments and bypass bot-detection mechanisms.<br>\u2022 The update implements **browser profiles**, which facilitate stateful web interactions by persisting cookies, session data, and login credentials across multiple agent tasks.<br>\u2022 Support for **browser extensions** is integrated into the AgentCore architecture, allowing agents to utilize specialized third-party tools for enhanced data scraping and security.<br>\u2022 This architectural shift focuses on improving the **reliability and autonomy** of agents performing complex, multi-step web-based reasoning and data retrieval.",
+        "key_results": [
+          "Implementation of custom proxy settings for agent-driven web requests.",
+          "Support for persistent browser profiles to maintain user sessions.",
+          "Integration of browser extensions into the agent runtime environment.",
+          "Enhanced mitigation against anti-scraping and bot-detection technologies.",
+          "Streamlined configuration workflows for production-grade agentic browsing."
+        ],
+        "relevance_score": 7,
+        "signal_type": "Engineering Blog",
+        "one_sentence_takeaway": "Amazon launches new Bedrock Agent capabilities to enable secure, persistent, and extensible web browsing for AI-driven workflows.",
+        "lead_institution": "Amazon",
+        "tags": [
+          "LLM Agents",
+          "Web Browsing",
+          "Amazon Bedrock",
+          "Agentic Workflows",
+          "Browser Automation"
+        ]
+      }
+    }
+  ],
+  "items": [
+    {
+      "title": "GPT-5.2 derives a new result in theoretical physics",
+      "link": "https://openai.com/index/new-result-theoretical-physics",
+      "summary": "A new preprint shows GPT-5.2 proposing a new formula for a gluon amplitude, later formally proved and verified by OpenAI and academic collaborators.",
+      "source": "OpenAI News",
+      "published": "2026-02-13T11:00:00+00:00",
+      "type": "blog",
+      "display_category": "Top News",
+      "processed": {
+        "summary": "\n* OpenAI's **GPT-5.2** demonstrates breakthrough **reasoning capabilities** by autonomously proposing a novel formula for a gluon amplitude.\n* The model leverages advanced **reasoning architectures** to perform complex mathematical derivations previously unreachable by previous generations.\n* This event marks a transition from LLMs as synthesis tools to **AI-driven scientific discovery** in high-energy theoretical physics.\n* The result has been formally **verified and proved** by a joint team of OpenAI researchers and academic collaborators.",
+        "key_results": [
+          "Autonomous derivation of a previously unknown gluon amplitude formula.",
+          "Formal mathematical verification of the formula's accuracy.",
+          "Evidence of GPT-5.2's superior performance in high-level reasoning tasks.",
+          "Demonstration of effective AI-human collaboration in theoretical research.",
+          "Validation of LLMs as viable tools for frontier scientific hypothesis generation."
+        ],
+        "relevance_score": 10,
+        "signal_type": "Paper",
+        "one_sentence_takeaway": "OpenAI demonstrates GPT-5.2's advanced reasoning by deriving and verifying a novel theoretical physics formula for gluon amplitude.",
+        "lead_institution": "OpenAI",
+        "tags": [
+          "Reasoning Models",
+          "GPT-5.2",
+          "Theoretical Physics",
+          "Scientific Discovery",
+          "Generative AI"
+        ]
+      }
+    },
+    {
+      "title": "Scaling LLM Post-Training at Netflix",
+      "link": "https://netflixtechblog.com/scaling-llm-post-training-at-netflix-0046f8790194?source=rss----2615bd06b42e---4",
+      "summary": "<p><a href=\"https://www.linkedin.com/in/baolin-li-659426115/\">Baolin Li</a>, <a href=\"https://www.linkedin.com/in/lingyi-liu-4b866016/\">Lingyi Liu</a>, <a href=\"https://www.linkedin.com/in/binh-tang-3b76557b/\">Binh Tang</a>, <a href=\"https://www.linkedin.com/in/shaojingli/\">Shaojing\u00a0Li</a></p><h3>Introduction</h3><p>Pre-training gives Large Language Models (LLMs) broad linguistic ability and general world knowledge, but post-training is the phase that actually aligns them to concrete intents, domain constraints, and the reliability requirements of production environments. At Netflix, we are exploring how LLMs can enable new member experiences across recommendation, personalization, and search, which requires adapting generic foundation models so they can better reflect our catalog and the nuances of member interaction histories. At Netflix scale, post-training quickly becomes an engineering problem as much as a modeling one: building and operating complex data pipelines, coordinating distributed state across multi-node GPU clusters, and orchestrating workflows that interleave training and inference. This blog describes the architecture and engineering philosophy of our internal <strong>Post-Training Framework</strong>, built by the AI Platform team to hide infrastructure complexity so researchers and model developers can focus on model innovation\u200a\u2014\u200anot distributed systems plumbing.</p><h3>A Model Developer\u2019s Post-Training Journey</h3><p>Post-training often starts deceptively simply: curate proprietary domain data, load an open-weight model from Hugging Face, and iterate batches through it. At the experimentation scale, that\u2019s a few lines of code. But when fine-tuning production-grade LLMs at scale, the gap between \u201crunning a script\u201d and \u201crobust post-training\u201d becomes an abyss of engineering edge\u00a0cases.</p><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/873/1*at60qZXd0j6SphkjzdmazQ.png\" /><figcaption>Figure 1. Simple steps to post-train an open-weight model.</figcaption></figure><h4>Getting the data\u00a0right</h4><p>On paper, post-training is straightforward: choose a tokenizer, preprocess the dataset, and build a dataloader. In practice, data preparation is where things break. High-quality post-training\u200a\u2014\u200ainstruction following, multi-turn dialogue, Chain-of-Thought\u200a\u2014\u200adepends on precisely controlling which tokens contribute to the loss. Hugging Face chat templates serialize conversations, but don\u2019t specify what to train on versus ignore. The pipeline must apply explicit loss masking so only assistant tokens are optimized; otherwise the model learns from prompts and other non-target text, degrading quality.</p><p>Variable sequence length is another pitfall. Padding within a batch can waste compute, and uneven shapes across FSDP workers can cause GPU synchronization overhead. A more GPU-efficient approach is to pack multiple samples into fixed-length sequences and use a \u201cdocument mask\u201d to prevent cross-attention across samples, reducing padding and keeping shapes consistent.</p><h4>Setting up the\u00a0model</h4><p>Loading an open-source checkpoint sounds simple until the model no longer fits on one GPU. At that point you need a sharding strategy (e.g., FSDP, TP) and must load partial weights directly onto the device mesh to avoid ever materializing the full model on a single\u00a0device.</p><p>After loading, you still need to make the model trainable: choose full fine-tuning vs. LoRA, and apply optimizations like activation checkpointing, compilation, and correct precision settings (often subtle for RL, where rollout and policy precision must align). Large vocabularies (&gt;128k) add a further memory trap: logits are<em> [batch, seq_len, vocab] </em>and can spike peak memory. Common mitigations include dropping ignored tokens before projection and computing logits/loss in chunks along the sequence dimension.</p><h4>Starting the\u00a0training</h4><p>Even with data and models ready, production training is not a simple \u201cfor loop\u201d. The system must support everything from SFT\u2019s forward/backward pass to on-policy RL workflows that interleave rollout generation, reward/reference inference, and policy\u00a0updates.</p><p>At Netflix scale, training runs as a distributed job. We use Ray to orchestrate workflows via actors, decoupling modeling logic from hardware. Robust runs also require experiment tracking (model quality metrics like loss and efficiency metrics like MFU) and fault tolerance via standardized checkpoints to resume cleanly after failures.</p><p>These challenges motivate a post-training framework that lets developers focus on modeling rather than distributed systems and operational details.</p><h3>The Netflix Post-Training Framework</h3><p>We built Netflix\u2019s LLM post-training framework so Netflix model developers can turn ideas like those in Figure 1 into scalable, robust training jobs. It addresses the engineering hurdles described above, and also constraints that are specific to the Netflix ecosystem. Existing tools (e.g., Thinking Machines\u2019 <a href=\"https://thinkingmachines.ai/tinker/\">Tinker</a>) work well for standard chat and instruction-tuning, but their structure can limit deeper experimentation. In contrast, our internal use cases often require architectural variation (for example, customizing output projection heads for task-specific objectives), expanded or nonstandard vocabularies driven by semantic IDs or special tokens, and even transformer models pre-trained from scratch on domain-specific, non-natural-language sequences. Supporting this range requires a framework that prioritizes flexibility and extensibility over a fixed fine-tuning paradigm.</p><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*z2IFH-4iIQ5qxARTur-wQA.png\" /><figcaption>Figure 2. The post-training library within Netflix\u00a0stack</figcaption></figure><p>Figure 2 shows the end-to-end stack from infrastructure to trained models. At the base is Mako, Netflix\u2019s internal ML compute platform, which provisions GPUs on AWS. On top of Mako, we run robust open-source components\u200a\u2014\u200aPyTorch, Ray, and vLLM\u200a\u2014\u200alargely out of the box. Our post-training framework sits above these foundations as a library: it provides reusable utilities and standardized training recipes for common workflows such as Supervised Fine-Tuning (SFT), Direct Preference Optimization (DPO), Reinforcement Learning (RL), and Knowledge Distillation. Users typically express jobs as configuration files that select a recipe and plug in task-specific components.</p><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*RzZzr3wADPwism5CQP8mYw.png\" /><figcaption>Figure 3. Main components developed for the post-training framework</figcaption></figure><p>Figure 3 summarizes the modular components we built to reduce complexity across four dimensions. As with most ML systems, training success hinges on three pillars\u200a\u2014\u200a<strong>Data</strong>, <strong>Model</strong>, and <strong>Compute</strong>\u200a\u2014\u200aand the rise of RL fine-tuning adds a fourth pillar: <strong>Workflow</strong>, to support multi-stage execution patterns that don\u2019t fit a simple training loop. Below, we detail the specific abstractions and features the framework provides for each of these dimensions:</p><ul><li><strong>Data:</strong> Dataset abstractions for SFT, reward modeling, and RL; high-throughput streaming from cloud and disk for datasets that exceed local storage; and asynchronous, on-the-fly sequence packing to overlap CPU-heavy packing with GPU execution and reduce idle\u00a0time.</li><li><strong>Model:</strong> Support for modern architectures (e.g., Qwen3, Gemma3) and Mixture-of-Experts variants (e.g., Qwen3 MoE, GPT-OSS); LoRA integrated into model definitions; and high-level sharding APIs so developers can distribute large models across device meshes without writing low-level distributed code.</li><li><strong>Compute:</strong> A unified job submission interface that scales from a single node to hundreds of GPUs; MFU (Model FLOPS Utilization) monitoring that remains accurate under custom architectures and LoRA; and comprehensive checkpointing (states of trained parameters, optimizer, dataloader, data mixer, etc.) to enable exact resumption after interruptions.</li><li><strong>Workflow:</strong> Support for training paradigms beyond SFT, including complex online RL. In particular, we extend Single Program, Multiple Data (SPMD) style SFT workloads to run online RL with a hybrid single-controller + SPMD execution model, which we\u2019ll describe\u00a0next.</li></ul><p>Today, this framework supports research use cases ranging from post-training large-scale foundation models to fine-tuning specialized expert models. By standardizing these workflows, we\u2019ve lowered the barrier for teams to experiment with advanced techniques and iterate more\u00a0quickly.</p><h3>Learnings from Building the Post-Training Framework</h3><p>Building a system of this scope wasn\u2019t a linear implementation exercise. It meant tracking a fast-moving open-source ecosystem, chasing down failure modes that only appear under distributed load, and repeatedly revisiting architectural decisions as the post-training frontier shifted. Below are three engineering learnings and best practices that shaped the framework.</p><h4>Scaling from SFT to\u00a0RL</h4><p>We initially designed the library around Supervised Fine-Tuning (SFT): relatively static data flow, a single training loop, and a Single Program, Multiple Data (SPMD) execution model. That assumption stopped holding in 2025. With DeepSeek-R1 and the broader adoption of efficient on-policy RL methods like GRPO, SFT became table stakes rather than the finish line. Staying close to the frontier required infrastructure that could move from \u201coffline training loop\u201d to \u201cmulti-stage, on-policy orchestration.\u201d</p><p>SFT\u2019s learning signal is dense and immediate: for each token position we compute logits over the full vocabulary and backpropagate a differentiable loss. Infrastructure-wise, this looks a lot like pre-training and maps cleanly to SPMD\u200a\u2014\u200aevery GPU worker runs the same step function over a different shard of data, synchronizing through Pytorch distributed primitives.</p><p>On-policy RL changes the shape of the system. The learning signal is typically sparse and delayed (e.g., a scalar reward at the end of an episode), and the training step depends on data generated by the current policy. Individual sub-stages\u200a\u2014\u200apolicy updates, rollout generation, reference model inference, reward model scoring\u200a\u2014\u200acan each be implemented as SPMD workloads, but the end-to-end algorithm needs explicit coordination: you\u2019re constantly handing off artifacts (prompts, sampled trajectories, rewards, advantages) across stages and synchronizing their lifecycle.</p><p>In our original SFT architecture, the driver node was intentionally \u201cthin\u201d: it launched N identical Ray actors, each encapsulating the full training loop, and scaling meant launching more identical workers. That model breaks down for RL. RL required us to decompose the system into distinct roles\u200a\u2014\u200aPolicy, Rollout Workers, Reward Model, Reference Model, etc.\u200a\u2014\u200aand evolve the driver into an active controller that encodes the control plane: when to generate rollouts, how to batch and score them, when to trigger optimization, and how to manage cluster resources across\u00a0phases.</p><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*5lhd3rDmexD0KGoHy78CZQ.png\" /><figcaption>Figure 4. Architectural differences of SFT and RL framework</figcaption></figure><p>Figure 4 highlights this shift. To add RL support without reinventing distributed orchestration from scratch, we integrated the core infrastructure from the open-source <a href=\"https://github.com/verl-project/verl\"><strong>Verl</strong></a> library to manage Ray actor lifecycle and GPU resource allocation. Leveraging Verl\u2019s backend let us focus on the \u201cmodeling surface area\u201d\u200a\u2014\u200aour Data/Model/Compute abstractions and internal optimizations\u200a\u2014\u200awhile keeping orchestration concerns decoupled. The result is a hybrid design: a unified user interface where developers can move between SFT and RL workflows without adopting an entirely different mental model or API\u00a0set.</p><h4>Hugging Face-Centric Experience</h4><p>The Hugging Face Hub has effectively become the default distribution channel for open-weight LLMs, tokenizers, and configs. We designed the framework to stay close to that ecosystem rather than creating an isolated internal standard. Even when we use optimized internal model representations for speed, we load and save checkpoints in standard Hugging Face formats. This avoids \u201cwalled garden\u201d friction and lets teams pull in new architectures, weights, and tokenizers quickly.</p><p>This philosophy also shaped our tokenizer story. Early on, we bound directly to low-level tokenization libraries (e.g., SentencePiece, tiktoken) to maximize control. In practice, that created a costly failure mode: silent training\u2013serving skew. Our inference stack (vLLM) defaults to Hugging Face AutoTokenizer, and tiny differences in normalization, special token handling, or chat templating can yield different token boundaries\u200a\u2014\u200aexactly the kind of mismatch that shows up later as inexplicable quality regressions. We fixed this by making Hugging Face AutoTokenizer the single source of truth. We then built a thin compatibility layer (BaseHFModelTokenizer) to handle post-training needs\u200a\u2014\u200asetting padding tokens, injecting generation markers to support loss masking, and managing special tokens / semantic IDs\u200a\u2014\u200awhile ensuring the byte-level tokenization path matches production.</p><p>We do take a different approach for model implementations. Rather than training directly on transformers model classes, we maintain our own optimized, unified model definitions that can still load/save Hugging Face checkpoints. This layer is what enables framework-level optimizations\u200a\u2014\u200ae.g., FlexAttention, memory-efficient chunked cross-entropy, consistent MFU accounting, and uniform LoRA extensibility\u200a\u2014\u200awithout re-implementing them separately for every model family. A unified module naming convention also makes it feasible to programmatically locate and swap components (Attention, MLP, output heads) across architectures, and provides a consistent surface for Tensor Parallelism and FSDP wrapping policies.</p><p>The trade-off is clear: supporting a new model family requires building a bridge between the Hugging Face reference implementation and our internal definition. To reduce that overhead, we use AI coding agents to automate much of the conversion work, with a strict <strong>logit verifier</strong> as the gate: given random inputs, our internal model must match the Hugging Face logits within tolerance. Because the acceptance criterion is mechanically checkable, agents can iterate autonomously until the implementation is correct, dramatically shortening the time-to-support for new architectures.</p><p>Today, this design means we can only train architectures we explicitly support\u200a\u2014\u200aan intentional constraint shared by other high-performance systems like <a href=\"https://huggingface.co/docs/transformers/main/transformers_as_backend\">vLLM, SGLang</a>, and <a href=\"https://github.com/pytorch/torchtitan/pull/2048\">torchtitan</a>. To broaden coverage, we plan to add a fallback Hugging Face backend, similar to the compatibility patterns these projects use: users will be able to run training directly on native transformers models for rapid exploration of novel architectures, with the understanding that some framework optimizations and features may not apply in that\u00a0mode.</p><h4>Providing Differential Value</h4><p>A post-training framework is only worth owning if it delivers clear value beyond assembling OSS components. We build on open source for velocity, but we invest heavily where off-the-shelf tools tend to be weakest: performance tuned to our workload characteristics, and integration with Netflix-specific model and business requirements. Here are some concrete examples:</p><p>First, we optimize training efficiency for our real use cases. A representative example is extreme variance in sequence length. In FSDP-style training, long-tail sequences create stragglers: faster workers end up waiting at synchronization points for the slowest batch, lowering utilization. Standard bin-packing approaches help, but doing them offline at our data scale can add substantial preprocessing latency and make it harder to keep datasets fresh. Instead, we built on-the-fly sequence packing that streams samples from storage and dynamically packs them in memory. Packing runs asynchronously, overlapping CPU work with GPU compute. Figure 5 shows the impact: for our most skewed dataset, on-the-fly packing improved the effective token throughput by up to\u00a04.7x.</p><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*Z2mdtXVFJsr764NihkguIA.png\" /><figcaption>Figure 5. Training throughput on two of our internal datasets on A100 and H200\u00a0GPUs</figcaption></figure><p>We also encountered subtler performance cliffs around vocabulary expansion. Our workloads frequently add custom tokens and semantic IDs. We found that certain vocabulary sizes could cause the language model head to fall back from a highly optimized cuBLAS kernel to a much slower CUTLASS path, tripling that layer\u2019s execution time. The framework now automatically pads vocabulary sizes to multiples of 64 so the compiler selects the fast kernel, preserving throughput without requiring developers to know these low-level constraints.</p><p>Second, owning the framework lets us support \u201cnon-standard\u201d transformer use cases that generic LLM tooling rarely targets. For example, some internal models are trained on member interaction event sequences rather than natural language, and may require bespoke RL loops that integrate with highly-customized inference engines and optimize business-defined metrics. These workflows demand custom environments, reward computation, and orchestration patterns\u200a\u2014\u200awhile still needing the same underlying guarantees around performance, tracking, and fault tolerance. The framework is built to accommodate these specialized requirements without fragmenting into one-off pipelines, enabling rapid iteration.</p><h3>Wrap up</h3><p>Building the Netflix Post-Training Framework has been a continual exercise in balancing standardization with specialization. By staying anchored to the open-source ecosystem, we\u2019ve avoided drifting into a proprietary stack that diverges from where the community is moving. At the same time, by owning the core abstractions around Data, Model, Compute, and Workflow, we\u2019ve preserved the freedom to optimize for Netflix-scale training and Netflix-specific requirements.</p><p>In the process, we\u2019ve moved post-training from a loose collection of scripts into a managed, scalable system. Whether the goal is maximizing SFT throughput, orchestrating multi-stage on-policy RL, or training transformers over member interaction sequences, the framework provides a consistent set of primitives to do so reliably and efficiently. As the field shifts toward more agentic, reasoning-heavy, and multimodal architectures, this foundation will help us translate new ideas into scalable GenAI prototypes\u200a\u2014\u200aso experimentation is constrained by our imagination, not by operational complexity.</p><h3>Acknowledgements</h3><p>This work builds on the momentum of the broader open-source ML community. We\u2019re especially grateful to the teams and contributors behind Torchtune, Torchtitan, and Verl, whose reference implementations and design patterns informed many of our training framework choices\u200a\u2014\u200aparticularly around scalable training recipes, distributed execution, and RL-oriented orchestration. We also thank our partner teams in Netflix AI for Member Systems for close collaboration, feedback, and shared problem-solving throughout the development and rollout of the Post-Training Framework, and the Training Platform team for providing the robust infrastructure and operational foundation that makes large-scale post-training possible.</p><img alt=\"\" height=\"1\" src=\"https://medium.com/_/stat?event=post.clientViewed&amp;referrerSource=full_rss&amp;postId=0046f8790194\" width=\"1\" /><hr /><p><a href=\"https://netflixtechblog.com/scaling-llm-post-training-at-netflix-0046f8790194\">Scaling LLM Post-Training at Netflix</a> was originally published in <a href=\"https://netflixtechblog.com\">Netflix TechBlog</a> on Medium, where people are continuing the conversation by highlighting and responding to this story.</p>",
+      "source": "Netflix TechBlog - Medium",
+      "published": "2026-02-13T08:05:33+00:00",
+      "type": "blog",
+      "display_category": "Top News",
+      "processed": {
+        "summary": "\n- Netflix developed an internal **Post-Training Framework** to abstract distributed systems complexity, allowing researchers to scale **Supervised Fine-Tuning (SFT)** and **Reinforcement Learning (RL)** without manual GPU orchestration.\n- The architecture utilizes **Ray** and **Verl** to transition from simple SPMD execution to a hybrid controller-worker model, enabling complex on-policy RL workflows like **GRPO** and **DPO**.\n- Performance is optimized through **asynchronous on-the-fly sequence packing**, which overlaps CPU-heavy data preparation with GPU execution to eliminate padding waste in variable-length datasets.\n- To maintain compatibility with the ecosystem, the framework uses **Hugging Face** as the source of truth for tokenization and model weights while applying internal optimizations like **FlexAttention** and **chunked cross-entropy**.",
+        "key_results": [
+          "Achieved up to 4.7x improvement in token throughput using on-the-fly sequence packing for skewed datasets.",
+          "Integrated Verl library to decouple RL orchestration (policy, reward, reference models) from core modeling logic.",
+          "Eliminated training-serving skew by adopting Hugging Face AutoTokenizer as the single source of truth.",
+          "Automated model architecture conversion using AI coding agents validated by a mechanical logit verifier.",
+          "Optimized kernel performance by automatically padding expanded vocabularies to multiples of 64 for cuBLAS efficiency."
+        ],
+        "relevance_score": 9,
+        "signal_type": "Engineering Blog",
+        "one_sentence_takeaway": "Netflix scales LLM post-training using a modular framework that optimizes SFT and RL through asynchronous sequence packing.",
+        "lead_institution": "Netflix",
+        "tags": [
+          "Post-Training",
+          "Reinforcement Learning",
+          "Model Fine-tuning",
+          "Distributed Training",
+          "LLM Infrastructure"
+        ]
+      }
+    },
+    {
+      "title": "Beyond rate limits: scaling access to Codex and Sora",
+      "link": "https://openai.com/index/beyond-rate-limits",
+      "summary": "How OpenAI built a real-time access system combining rate limits, usage tracking, and credits to power continuous access to Sora and Codex.",
+      "source": "OpenAI News",
+      "published": "2026-02-13T09:00:00+00:00",
+      "type": "blog",
+      "display_category": "Top News",
+      "processed": {
+        "summary": "\n- OpenAI implemented a **unified real-time access system** designed to handle the high-throughput and high-compute demands of **Sora** and **Codex**.\n- The architecture utilizes a **distributed state management** layer that synchronizes rate limits and credit balances across global inference clusters with minimal latency.\n- The system moves beyond static quotas by integrating **dynamic credit-based billing**, allowing for more granular control over resource-intensive multimodal generation.\n- This infrastructure provides **automated scaling and usage tracking**, ensuring that resource allocation is optimized for both synchronous and asynchronous AI workloads.",
+        "key_results": [
+          "Development of a low-latency quota enforcement engine.",
+          "Integration of real-time credit tracking for video-generation costs.",
+          "Reduction in systemic overhead for high-frequency API requests.",
+          "Improved visibility into per-user resource consumption metrics.",
+          "Standardized scaling framework for future foundation model releases."
+        ],
+        "relevance_score": 8,
+        "signal_type": "Engineering Blog",
+        "one_sentence_takeaway": "OpenAI implements a scalable credit-based architecture to manage real-time access and rate limits for Sora and Codex models.",
+        "lead_institution": "OpenAI",
+        "tags": [
+          "Infrastructure",
+          "Scalability",
+          "Sora",
+          "Rate Limiting",
+          "Resource Management"
+        ]
+      }
+    },
+    {
+      "title": "Introducing Lockdown Mode and Elevated Risk labels in ChatGPT",
+      "link": "https://openai.com/index/introducing-lockdown-mode-and-elevated-risk-labels-in-chatgpt",
+      "summary": "Introducing Lockdown Mode and Elevated Risk labels in ChatGPT to help organizations defend against prompt injection and AI-driven data exfiltration.",
+      "source": "OpenAI News",
+      "published": "2026-02-13T10:00:00+00:00",
+      "type": "blog",
+      "display_category": "Top News",
+      "processed": {
+        "summary": "\n- OpenAI implements **Lockdown Mode** to restrict external data fetching and tool execution during high-risk interactions.\n- The system introduces **Elevated Risk labels** to identify and flag potential prompt injection or data exfiltration attempts.\n- This update enhances **enterprise security** by providing granular controls over how models process potentially malicious third-party content.\n- Focuses on neutralizing **indirect prompt injection** vectors to ensure robust organizational data protection.",
+        "key_results": [
+          "Introduction of Lockdown Mode for high-security environments.",
+          "Deployment of real-time Elevated Risk labeling for prompts.",
+          "Standardized defense mechanisms against prompt injection attacks.",
+          "Architectural safeguards to prevent unauthorized data exfiltration.",
+          "Enhanced visibility for administrators into organizational AI risks."
+        ],
+        "relevance_score": 7,
+        "signal_type": "Release",
+        "one_sentence_takeaway": "OpenAI launches Lockdown Mode and Elevated Risk labels to defend ChatGPT users against prompt injection and data exfiltration.",
+        "lead_institution": "OpenAI",
+        "tags": [
+          "Prompt Injection",
+          "Data Exfiltration",
+          "LLM Security",
+          "Enterprise AI",
+          "ChatGPT"
+        ]
+      }
+    },
+    {
+      "title": "Scaling social science research",
+      "link": "https://openai.com/index/scaling-social-science-research",
+      "summary": "GABRIEL is a new open-source toolkit from OpenAI that uses GPT to turn qualitative text and images into quantitative data, helping social scientists analyze research at scale.",
+      "source": "OpenAI News",
+      "published": "2026-02-13T09:00:00+00:00",
+      "type": "blog",
+      "display_category": "Top News",
+      "processed": {
+        "summary": "\n- OpenAI introduces **GABRIEL**, an open-source toolkit designed to bridge qualitative analysis and quantitative data through **LLM-driven categorization**.\n- The system leverages **GPT models** to process large-scale datasets including text and **multimodal image inputs** for social science research.\n- It automates the transformation of unstructured research data into structured formats, enabling **higher-throughput research** and reducing manual coding bottlenecks.",
+        "key_results": [
+          "Release of an open-source framework for social science data scaling.",
+          "Seamless conversion of qualitative text into quantitative structured formats.",
+          "Implementation of multimodal capabilities for image-based research analysis.",
+          "Reduction in manual labor for research coding tasks.",
+          "Scalable architecture for processing massive qualitative datasets using LLMs."
+        ],
+        "relevance_score": 7,
+        "signal_type": "Release",
+        "one_sentence_takeaway": "OpenAI launches GABRIEL, an open-source toolkit that converts qualitative text and images into structured quantitative research data.",
+        "lead_institution": "OpenAI",
+        "tags": [
+          "Open-source",
+          "Multimodal AI",
+          "Data Structuring",
+          "Social Science",
+          "GPT"
+        ]
+      }
+    },
+    {
+      "title": "Customize AI agent browsing with proxies, profiles, and extensions in Amazon Bedrock AgentCore Browser",
+      "link": "https://aws.amazon.com/blogs/machine-learning/customize-ai-agent-browsing-with-proxies-profiles-and-extensions-in-amazon-bedrock-agentcore-browser/",
+      "summary": "Today, we are announcing three new capabilities that address these requirements: proxy configuration, browser profiles, and browser extensions. Together, these features give you fine-grained control over how your AI agents interact with the web. This post will walk through each capability with configuration examples and practical use cases to help you get started.",
+      "source": "Artificial Intelligence",
+      "published": "2026-02-13T22:57:34+00:00",
+      "type": "blog",
+      "display_category": "Top News",
+      "processed": {
+        "summary": "<br>\u2022 Amazon introduces **proxy configuration** for AI agents, enabling granular control over egress traffic to navigate IP-restricted environments and bypass bot-detection mechanisms.<br>\u2022 The update implements **browser profiles**, which facilitate stateful web interactions by persisting cookies, session data, and login credentials across multiple agent tasks.<br>\u2022 Support for **browser extensions** is integrated into the AgentCore architecture, allowing agents to utilize specialized third-party tools for enhanced data scraping and security.<br>\u2022 This architectural shift focuses on improving the **reliability and autonomy** of agents performing complex, multi-step web-based reasoning and data retrieval.",
+        "key_results": [
+          "Implementation of custom proxy settings for agent-driven web requests.",
+          "Support for persistent browser profiles to maintain user sessions.",
+          "Integration of browser extensions into the agent runtime environment.",
+          "Enhanced mitigation against anti-scraping and bot-detection technologies.",
+          "Streamlined configuration workflows for production-grade agentic browsing."
+        ],
+        "relevance_score": 7,
+        "signal_type": "Engineering Blog",
+        "one_sentence_takeaway": "Amazon launches new Bedrock Agent capabilities to enable secure, persistent, and extensible web browsing for AI-driven workflows.",
+        "lead_institution": "Amazon",
+        "tags": [
+          "LLM Agents",
+          "Web Browsing",
+          "Amazon Bedrock",
+          "Agentic Workflows",
+          "Browser Automation"
+        ]
+      }
+    }
+  ],
+  "trending": []
+}

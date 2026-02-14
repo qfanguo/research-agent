@@ -1,4 +1,5 @@
-# modules/fetcher.py
+import asyncio
+import httpx
 import feedparser
 import time
 import arxiv
@@ -6,33 +7,68 @@ import datetime
 from dateutil import parser
 from typing import List, Dict, Any
 from . import config
+import urllib.request
+import urllib.error
+import ssl
+
+
+import http.client
+import urllib3
 
 class Fetcher:
     def __init__(self):
         self.rss_feeds = config.RSS_FEEDS
         self.arxiv_query = config.ARXIV_QUERY
+        # Initialize cutoff date (last 24 hours) for both RSS and ArXiv
+        self.cutoff_date = datetime.datetime.now(datetime.timezone.utc) - datetime.timedelta(hours=24)
+        self.headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+            'Accept': 'text/xml,application/xml,application/atom+xml,application/rss+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5'
+        }
 
-    def fetch_rss(self) -> List[Dict[str, Any]]:
-        """Fetches and parses all configured RSS feeds."""
-        articles = []
-        # Get start of today (local time assumption or UTC as per preference, using UTC for consistency)
-        # Actually, for a daily run, we want anything published in the last 24h or since last run.
-        # For simplicity, we'll filter by "published today or yesterday" to catch everything.
-        now = datetime.datetime.now(datetime.timezone.utc)
-        # Initialize cutoff date for RSS feeds
-        self.rss_cutoff_date = datetime.datetime.now(datetime.timezone.utc) - datetime.timedelta(hours=24)
-
-    def _fetch_single_rss_feed_with_retry(self, url: str) -> List[Dict[str, Any]]:
+    async def _fetch_single_rss_feed_with_retry(self, client: httpx.AsyncClient, url: str) -> List[Dict[str, Any]]:
         """
-        Fetches and parses a single RSS feed with retry logic.
+        Fetches and parses a single RSS feed with retry logic and custom headers.
         """
         max_retries = 3
         for attempt in range(max_retries):
             try:
-                feed = feedparser.parse(url)
+                # Use httpx for parallel fetching with custom headers and optional SSL verification bypass
+                response = await client.get(url, headers=self.headers, timeout=15.0, follow_redirects=True)
+                if response.status_code == 200:
+                    rss_content = response.text
+                elif response.status_code == 403:
+                    # Fallback to urllib for 403 (e.g. MIT News blocks httpx)
+                    try:
+                        ctx = ssl.create_default_context()
+                        ctx.check_hostname = False
+                        ctx.verify_mode = ssl.CERT_NONE
+                        req = urllib.request.Request(url, headers=self.headers, method='GET')
+                        
+                        # run_in_executor or to_thread for blocking call
+                        content = await asyncio.to_thread(lambda: urllib.request.urlopen(req, context=ctx, timeout=15).read())
+                        rss_content = content.decode('utf-8', errors='ignore')
+                    except (http.client.IncompleteRead, urllib3.exceptions.IncompleteRead) as e:
+                        # Attempt to use partial content if available
+                        print(f"IncompleteRead for {url}. Attempting to use partial content.")
+                        if hasattr(e, 'partial') and e.partial:
+                             rss_content = e.partial.decode('utf-8', errors='ignore')
+                        else:
+                             print(f"No partial content for {url}")
+                             raise e
+                    except Exception as e_urllib:
+                        print(f"Fallback urllib failed for {url}: {e_urllib}")
+                        raise Exception(f"HTTP Error {response.status_code} and Fallback Failed")
+                else:
+                    raise Exception(f"HTTP Error {response.status_code}")
+                
+                feed = feedparser.parse(rss_content)
+                
                 # Check for parsing errors, but allow one more attempt if it's not the last one
                 if feed.bozo and attempt < max_retries - 1:
-                    raise Exception(f"Feed parsing error: {feed.bozo_exception}")
+                    # Some "bozo" errors are harmless (e.g. non-XML content type but valid XML)
+                    # We only retry for more severe errors
+                    pass
 
                 items = []
                 for entry in feed.entries:
@@ -43,31 +79,32 @@ class Fetcher:
                     elif hasattr(entry, 'updated_parsed') and entry.updated_parsed:
                          pub_date = datetime.datetime(*entry.updated_parsed[:6], tzinfo=datetime.timezone.utc)
                     
-                    # Filter by date (last 24 hours, using self.rss_cutoff_date)
-                    if pub_date and pub_date > self.rss_cutoff_date:
+                    # Filter by date (last 24 hours)
+                    if pub_date and pub_date > self.cutoff_date:
                         items.append({
                             "title": getattr(entry, 'title', 'No Title'),
-                            "link": getattr(entry, 'link', url), # Fallback to feed URL if no link
+                            "link": getattr(entry, 'link', url),
                             "summary": getattr(entry, 'summary', '') or getattr(entry, 'description', ''),
                             "source": feed.feed.title if hasattr(feed, 'feed') and hasattr(feed.feed, 'title') else url,
                             "published": pub_date.isoformat(),
                             "type": "blog"
                         })
-                return items # Successfully fetched and parsed
+                return items
             except Exception as e:
-                print(f"Attempt {attempt + 1} failed for {url}: {e}")
                 if attempt < max_retries - 1:
-                    time.sleep(2 ** attempt) # Exponential backoff
+                    await asyncio.sleep(2 ** attempt)
                 else:
-                    print(f"Error fetching {url} after {max_retries} attempts.")
-        return [] # Return empty list if all retries fail
+                    print(f"Error fetching {url} after {max_retries} attempts: {e}")
+        return []
 
-    def fetch_rss(self) -> List[Dict[str, Any]]:
-        """Fetches and parses all configured RSS feeds using retry logic."""
-        articles = []
-        for url in self.rss_feeds:
-            articles.extend(self._fetch_single_rss_feed_with_retry(url))
-        return articles
+    async def fetch_rss(self) -> List[Dict[str, Any]]:
+        """Fetches and parses all configured RSS feeds in parallel."""
+        # SSL verify=False for robustness against poor cert configurations (like Netflix sometimes)
+        async with httpx.AsyncClient(verify=False) as client:
+            tasks = [self._fetch_single_rss_feed_with_retry(client, url) for url in self.rss_feeds]
+            results = await asyncio.gather(*tasks)
+            # Flatten list of lists
+            return [item for sublist in results for item in sublist]
 
     def fetch_arxiv(self) -> List[Dict[str, Any]]:
         """Fetches recent ArXiv papers matching the query."""
@@ -79,13 +116,8 @@ class Fetcher:
         )
 
         papers = []
-        # ArXiv 'submittedDate' is reliable.
-        # We only want very recent ones.
-        now = datetime.datetime.now(datetime.timezone.utc)
-        cutoff = now - datetime.timedelta(hours=24)
-
         for result in client.results(search):
-            if result.published > cutoff:
+            if result.published > self.cutoff_date:
                 papers.append({
                     "title": result.title,
                     "link": result.entry_id,
@@ -96,15 +128,21 @@ class Fetcher:
                 })
         return papers
 
-    def fetch_all(self) -> List[Dict[str, Any]]:
-        rss_data = self.fetch_rss()
+    async def fetch_all(self) -> List[Dict[str, Any]]:
+        rss_data = await self.fetch_rss()
+        # Arxiv library is synchronous, we run it in a thread or just let it be if it's fast
+        # Given it's a single call usually, we'll keep it simple
         arxiv_data = self.fetch_arxiv()
         return rss_data + arxiv_data
 
 if __name__ == "__main__":
-    # Test execution
-    f = Fetcher()
-    items = f.fetch_all()
-    print(f"Fetched {len(items)} items.")
-    for item in items:
-        print(f"- [{item['type']}] {item['title']} ({item['source']})")
+    async def test():
+        import urllib3
+        urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+        f = Fetcher()
+        items = await f.fetch_all()
+        print(f"Fetched {len(items)} items.")
+        for item in items[:10]:
+            print(f"- [{item['type']}] {item['title']} ({item['source']})")
+    
+    asyncio.run(test())

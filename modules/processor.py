@@ -1,4 +1,4 @@
-# modules/processor.py
+import asyncio
 import os
 import json
 import re
@@ -9,7 +9,8 @@ except ImportError:
         import google.genai as genai
     except ImportError:
         raise ImportError("Could not find 'google-genai' package. Please run: pip install google-genai")
-from typing import Dict, Any
+from typing import Dict, Any, List
+from . import config
 
 class Processor:
     def __init__(self):
@@ -17,160 +18,213 @@ class Processor:
         if not api_key:
             raise ValueError("GEMINI_API_KEY environment variable not set")
         self.client = genai.Client(api_key=api_key)
-        # Correct model ID from list_models.py
+        # Correct model ID
         self.model_name = "gemini-3-flash-preview" 
+        # Add a semaphore to limit concurrent API calls
+        self.sem = asyncio.Semaphore(5)
+        self.max_retries = 3 
 
     def _repair_json(self, text: str) -> str:
         """
-        Fixes common AI JSON errors: trailing commas and improper escapes.
+        Fixes common AI JSON errors: trailing commas and improper LaTeX escapes.
         """
-        # Remove trailing commas before closing braces/brackets
+        # 1. Remove trailing commas before closing braces/brackets
         text = re.sub(r',\s*([\]}])', r'\1', text)
-        # Fix improper backslashes in non-control characters (very common with LaTeX in ArXiv)
-        # We want to keep valid escapes like \n, \", but fix stray \ characters.
-        # This is a bit aggressive but helps with ArXiv math.
+        
+        # 2. Fix improper backslashes (common in ArXiv LaTeX math)
+        # Avoid doubling if it's already doubled or part of a valid escape.
+        # We look for a backslash that is:
+        # - NOT preceded by another backslash (to avoid doubling valid \\)
+        # - NOT followed by a valid JSON escape char [\"/bfnrtu]
+        text = re.sub(r'(?<!\\)\\(?!["\\/bfnrtu])', r'\\\\', text)
+        
         return text
 
-    def process_item(self, item: Dict[str, Any]) -> Dict[str, Any]:
+    async def process_item(self, item: Dict[str, Any]) -> Dict[str, Any]:
         """
-        Sends the item content/summary to Gemini for scoring and summarization.
+        Sends the item content/summary to Gemini for scoring and summarization (Async).
         """
-        # Detect GitHub repo in link or content
-        is_repo = "github.com" in item.get('link', '').lower() or "github.com" in item.get('summary', '').lower()
+        is_repo = "github.com" in item.get('link', '').lower()
         if is_repo:
             item['type'] = 'repo'
+            item['display_category'] = "Top Repo"
+        elif item.get('type') == 'paper':
+            item['display_category'] = "Top Paper"
+        elif item.get('type') == 'video':
+            item['display_category'] = "Top Video"
+        else:
+            # Default RSS/Blogs to Top News for a cleaner look, or Top Blog if preferred.
+            # AlphaSignal often uses "Top News".
+            item['display_category'] = "Top News"
 
-        # Sanitize summary for Gemini (escape LaTeX backslashes to avoid JSON nesting issues later)
         raw_summary = item.get('summary', '')
-        sanitized_summary = raw_summary.replace("\\", "\\\\")
+        # Pre-process ArXiv math: Replace single backslashes in input to prevent AI from mimicking them.
+        sanitized_summary = raw_summary.replace("\\", " ")
 
         prompt = f"""
         You are a research assistant for a Senior ML Engineer.
-        Your goal is to analyze the following article/paper and extract key information.
-        The user is interested in: Vibe Coding, RAG (Retrieval-Augmented Generation), and LLM Agents.
+        Analyze the following article/paper and extract key information.
+        Interests: {", ".join(config.USER_INTERESTS)}.
 
         Title: {item.get('title')}
         Source: {item.get('source')}
-        Content/Summary: {sanitized_summary}
+        Content: {sanitized_summary}
 
-        Please provide a JSON response with the following fields:
-        - summary: A deep-dive technical summary (3-5 paragraphs). Use bolding (e.g., **key term**) for important breakthroughs and concepts. Ensure it is analytical and structured.
-        - key_results: A list of strictly 5 bullet points capturing specific technical findings, benchmarks, or core features.
-        - relevance_score: An integer from 1 to 10 based on the user's interests. 10 is a direct match, 1 is irrelevant.
-        - one_sentence_takeaway: A snappy, single-sentence takeaway for the summary table.
-        - tags: A list of 5 keywords.
+        Please provide a JSON response with:
+        - summary: A structured technical summary consisting of 3-4 bulleted points (using \n before each point). Focus on architecture and impact. Use **bold** for key terms.
+        - key_results: List of 5 concise bullet points.
+        - relevance_score: Integer 1-10.
+        - signal_type: One of ["Release", "Engineering Blog", "Framework Update", "Paper", "General News"].
+          - "Release": Foundation Model releases (e.g. GLM-5, Qwen-Image), Major Product Launches, Business Updates from Major Labs (e.g. OpenAI testing ads).
+          - "Engineering Blog": Tool Updates (e.g. Cursor, ElevenLabs), Deep Technical "How we built it", Industry Tweets (if applicable).
+          - "Framework Update": Major library release (LangChain, LlamaIndex, HF).
+          - "Paper": ArXiv papers AND Deep Research Blogs (e.g. DeepMind DeepThink, Google Research).
+          - "General News": General commentary, opinion pieces, low-technical news.
+        - one_sentence_takeaway: A snappy, subject-action-result takeaway (MAX 20 words). 
+          CRITICAL: Start with the organization, university, or lead author (e.g., "DeepMind introduces...", "Stanford Research shows...", "OpenAI launches...").
+        - lead_institution: String. If this is a paper, extract the primary university or lab name. Otherwise use the source name.
+        - tags: List of 5 keywords.
 
-        Output strictly valid JSON. Do NOT include any trailing commas.
+        CRITICAL OUTPUT RULES:
+        1. DO NOT use LaTeX math symbols.
+        2. one_sentence_takeaway MUST start with an Entity/Institution name.
+        3. summary MUST be formatted with clear line breaks (\n) and bullets.
+        4. Output strictly valid, parsable JSON.
+        5. PENALIZE PROMOTIONAL CONTENT: If the content is an event announcement, webinar, sales pitch, or a simple "join us" call to action, set relevance_score to 1-3. We want technical depth, not ads.
         """
 
-        try:
-            response = self.client.models.generate_content(
-                model=self.model_name,
-                contents=prompt,
-                config={
-                    "response_mime_type": "application/json"
-                }
-            )
-            
-            text = response.text.strip()
-            # Repair common JSON errors before parsing
-            repaired_text = self._repair_json(text)
-            result = json.loads(repaired_text)
-            
-            # CRITICAL FIX: Sometimes Gemini returns [ {...} ] instead of {...}
-            if isinstance(result, list) and len(result) > 0:
-                result = result[0]
-            
-            if not isinstance(result, dict):
-                result = {}
+        async with self.sem:
+            for attempt in range(self.max_retries):
+                try:
+                    # Use async client for parallel processing
+                    response = await self.client.aio.models.generate_content(
+                        model=self.model_name,
+                        contents=prompt,
+                        config={
+                            "response_mime_type": "application/json"
+                        }
+                    )
+                    
+                    text = response.text.strip()
+                    repaired_text = self._repair_json(text)
+                    result = json.loads(repaired_text)
+                    
+                    if isinstance(result, list) and len(result) > 0:
+                        result = result[0]
+                    
+                    if not isinstance(result, dict):
+                        result = {}
 
-            # Merge result into item
-            item['processed'] = result
-            return item
-        except Exception as e:
-            print(f"Error processing {item.get('title')}: {e}")
-            item['processed'] = {
-                "summary": "Error processing content.",
-                "relevance_score": 0,
-                "one_sentence_takeaway": "Error.",
-                "tags": []
-            }
-            return item
+                    item['processed'] = result
+                    return item
+                    
+                except Exception as e:
+                    if attempt < self.max_retries - 1:
+                        await asyncio.sleep(2 ** attempt)  # Exponential backoff
+                        continue
+                    else:
+                         print(f"Error processing {item.get('title')}: {repr(e)}")
+                         item['processed'] = {
+                            "summary": f"Error processing content: {repr(e)}",
+                            "relevance_score": 0,
+                            "one_sentence_takeaway": "Error.",
+                            "tags": []
+                         }
+                         return item
 
-    def process_batch(self, items: list) -> list:
-        processed_items = []
-        for item in items:
-            processed_items.append(self.process_item(item))
-        return processed_items
+    async def process_batch(self, items: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+        """Processes a batch of items in parallel."""
+        tasks = [self.process_item(item) for item in items]
+        return await asyncio.gather(*tasks)
 
-    def generate_global_summary(self, items: list) -> str:
-        """
-        Synthesizes a master summary from the top items.
-        """
+    async def generate_global_summary(self, items: List[Dict[str, Any]]) -> str:
+        """Synthesizes a master summary from the top items (Async)."""
         if not items:
             return ""
         
-        # Take the best items as context
-        context = "\n".join([f"- {i['title']}: {i['processed']['one_sentence_takeaway']}" for i in items[:8]])
+        context_items = []
+        for i in items[:8]:
+            title = i.get('title', 'Untitled')
+            takeaway = i.get('processed', {}).get('one_sentence_takeaway', 'No takeaway available')
+            if title == 'Untitled':
+                 print(f"Warning: Item missing title found in global summary generation: {i}")
+            context_items.append(f"- {title}: {takeaway}")
+
+        context = "\n".join(context_items)
         
         prompt = f"""
         You are a lead researcher summarizing today's key breakthroughs in AI (RAG, Agents, Vibe Coding).
-        Based on the following titles and takeaways, write a single, authoritative, and snappy executive summary (The Signal). 
-        It should be 3-4 sentences long and sound professional like the AlphaSignal newsletter.
+        Write a single, authoritative, and snappy executive summary (The Signal) (3-4 sentences).
 
         Context:
         {context}
-
-        The Signal:
         """
 
         try:
-            response = self.client.models.generate_content(
+            response = await self.client.aio.models.generate_content(
                 model=self.model_name,
                 contents=prompt
             )
-            text = response.text.strip()
-            # Handle potential markdown wrapper
-            if text.startswith("```json"):
-                text = text.split("```json")[1].split("```")[0].strip()
-            return text
+            return response.text.strip()
         except Exception as e:
             print(f"Error generating global summary: {e}")
             return "Breaking updates in RAG and Agentic systems continue to push the boundaries of LLM capabilities."
 
-    def generate_trending_topics(self, items: list) -> dict:
-        """
-        Identifies trending themes and writes a deep dive for Saturday.
-        """
+    async def generate_trending_topics(self, items: List[Dict[str, Any]]) -> dict:
+        """Identifies trending themes and writes a personalized Saturday plan (Async)."""
         if not items:
-            return {"topic": "AI Market Consolidation", "deep_dive": "This week saw continued refinement of RAG and Agentic frameworks..."}
+            return {"plan_html": "<p>Relax and recharge! No major trends this week.</p>"}
 
-        # Context from all items in the week
-        context = "\n".join([f"- {i['title']}: {i['processed'].get('summary', '')}" for i in items])
+        context_items = []
+        for i in items[:20]:
+            title = i.get('title', 'Untitled')
+            summary = i.get('processed', {}).get('summary', 'No summary available')
+            if title == 'Untitled':
+                 print(f"Warning: Item missing title found in trending topics generation: {i}")    
+            context_items.append(f"- {title}: {summary}")
+        
+        context = "\n".join(context_items)
+        interests_str = ", ".join(config.USER_INTERESTS)
 
         prompt = f"""
-        You are an AI Industry Analyst writing for the AlphaSignal Saturday Deep Dive.
-        Analyze the following research papers and blog posts from the past week and:
-        1. Identify the single most significant "Trending Topic".
-        2. Write a 200-word "Deep Dive" analysis on why this trend matters for ML engineers.
+        You are an elite productivity & learning coach for a Senior ML Engineer.
+        User Interests: {interests_str}
 
+        Based on this week's top research below, create a "Personalized Saturday Learning Plan".
+        
         Context:
         {context}
 
-        Respond ONLY in JSON format:
-        {{
-            "topic": "The trending name",
-            "deep_dive": "The detailed analysis"
-        }}
+        Output strictly a JSON object with a single key "plan_html".
+        The value should be an HTML string (NO markdown, NO ```html``` blocks) representing the plan.
+        
+        HTML Format Requirements:
+        - Use clean, semantic HTML.
+        - Structure:
+            <div class="saturday-plan">
+                <p class="plan-intro">Here is your high-leverage learning plan for the weekend, curated for {interests_str}.</p>
+                <div class="plan-item">
+                    <span class="plan-time">Morning: Deep Dive</span>
+                    <div class="plan-content">[Specific paper/repo to study based on trends] - Focus on [specific technical aspect].</div>
+                </div>
+                <div class="plan-item">
+                    <span class="plan-time">Afternoon: Experimentation</span>
+                    <div class="plan-content">[suggest a small experiment or code to write related to the morning topic].</div>
+                </div>
+                <div class="plan-item">
+                    <span class="plan-time">Evening: Reflection</span>
+                    <div class="plan-content">[A thought-provoking question or perspective to consider].</div>
+                </div>
+            </div>
         """
 
         try:
-            response = self.client.models.generate_content(
+            response = await self.client.aio.models.generate_content(
                 model=self.model_name,
                 contents=prompt,
                 config={"response_mime_type": "application/json"}
             )
             return json.loads(response.text)
         except Exception as e:
-            print(f"Error generating trending topics: {e}")
-            return {"topic": "Agentic Orchestration", "deep_dive": "A significant trend this week has been the emergence of more robust agentic orchestration layers, moving from simple LLM wrappers to complex, stateful systems."}
+            print(f"Error generating Saturday plan: {e}")
+            return {"plan_html": "<p>Could not generate plan due to an error.</p>"}

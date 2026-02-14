@@ -3,3 +3,5 @@ feedparser
 arxiv
 jinja2
 python-dateutil
+certifi
+httpx

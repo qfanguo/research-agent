@@ -75,67 +75,117 @@ class Curator:
 
         if is_weekend:
             # Weekend Strategy: 
-            # 1. Trending Topics (This would require more complex clustering, for now we just take the highest scores)
-            # 2. Deep Dive (Highest scored item)
-            # 3. Everything else valuable
-            
-            selected = valid_items # Take all valid items for the weekend digest? Or maybe top 30?
-            # Let's say top 30 for weekend to catch up.
-            selected = selected[:30]
+            # 1. Trending Topics (Highest scores) - Max 30 candidates
+            selected = valid_items[:30]
             
             # Clear backlog
             self.save_backlog([])
             
-            # High-Fidelity Categorization
-            top_paper = next((i for i in selected if i.get('type') == 'paper'), None)
-            top_repo = next((i for i in selected if i.get('type') == 'repo'), None)
-            top_news = next((i for i in selected if i.get('type') == 'blog' and i != top_paper and i != top_repo), None)
+            # High-Fidelity V3 Categorization (Weekend)
+            # Max 5 detailed for weekend
+            candidates = [i for i in selected if i.get('processed', {}).get('relevance_score', 0) >= 8]
+            top_detailed = candidates[:5]
             
-            tops = [i for i in [top_paper, top_repo, top_news] if i]
-            signals = [i for i in selected if i not in tops]
+            # Signals (Limit to total 20 items for weekend)
+            remaining_for_signals = [i for i in selected if i not in top_detailed]
+            signals = remaining_for_signals[:(20 - len(top_detailed))]
 
             return {
                 "type": "weekend",
-                "top_news": top_news,
-                "top_repo": top_repo,
-                "top_paper": top_paper,
-                "signals": signals[:15], # More signals for weekend
+                "detailed_items": top_detailed,
+                "signals": signals,
                 "items": selected,
                 "trending": [] 
             }
         else:
-            # Weekday Strategy: Max 15 items.
-            selected = valid_items[:15]
-            remaining = valid_items[15:]
+            # Weekday Strategy: Max 15 items total pool.
+            selected_pool = valid_items[:15]
+            unselected_for_backlog = valid_items[15:]
             
-            # Add unselected valid items to backlog (plus any existing backlog if we ignored it today)
-            # We need to load the existing backlog to append to it if we didn't use it today.
+            # Add unselected valid items to backlog
             existing_backlog = self.load_backlog()
-            
-            # Avoid duplicates in backlog (dedupe by link)
             current_links = {i['link'] for i in existing_backlog}
             new_backlog = existing_backlog
-            for item in remaining:
-                if item['link'] not in current_links:
+            for item in unselected_for_backlog:
+                if item.get('link') not in current_links:
                     new_backlog.append(item)
                     current_links.add(item['link'])
             
             self.save_backlog(new_backlog)
             
-            # High-Fidelity Categorization
-            top_paper = next((i for i in selected if i.get('type') == 'paper'), None)
-            top_repo = next((i for i in selected if i.get('type') == 'repo'), None)
-            top_news = next((i for i in selected if i.get('type') == 'blog' and i != top_paper and i != top_repo), None)
+            # High-Fidelity V3 Categorization (Weekday)
+            # 1. Identify high-scoring candidates (relevance >= 8)
+            candidates = [i for i in selected_pool if i.get('processed', {}).get('relevance_score', 0) >= 8]
             
-            # The "Top Items" list to exclude from signals
-            tops = [i for i in [top_paper, top_repo, top_news] if i]
-            signals = [i for i in selected if i not in tops]
+            # 2. Select up to 3 "Top Picks" for detailed view
+            # Strategy: Try to get at least 1 item from each main category if available and high quality (>=7)
+            # Categories: Top News, Top Paper, Top Repo, Top Video (defined in processor.py)
+            
+            top_detailed = []
+            seen_links = set()
+            
+            # Sort candidates by score descending
+            candidates.sort(key=lambda x: x.get('processed', {}).get('relevance_score', 0), reverse=True)
+
+            # First pass: Get best of each category
+            categories_to_find = ["Top News", "Top Paper", "Top Repo"]
+            for cat in categories_to_find:
+                for item in candidates:
+                    if item.get('display_category') == cat and item['link'] not in seen_links:
+                        # Ensure minimal quality for forced diversity
+                        if item.get('processed', {}).get('relevance_score', 0) >= 7:
+                            top_detailed.append(item)
+                            seen_links.add(item['link'])
+                            break # Found best for this category
+            
+            # Second pass: Fill remaining slots with highest scoring items regardless of category
+            for item in candidates:
+                if len(top_detailed) >= 5: # Increased to 5 per user request
+                    break
+                if item['link'] not in seen_links:
+                    top_detailed.append(item)
+                    seen_links.add(item['link'])
+            
+            # Re-sort final selection by score
+            top_detailed.sort(key=lambda x: x.get('processed', {}).get('relevance_score', 0), reverse=True)
+            
+            # 3. Signals (Fill up to a STRICT total of 15 items for the newsletter)
+            # System-Systematic Signal Selection (Relaxed Logic)
+            # Prioritize specific signal types, but fallback to any valid item if scarce.
+            # EXCLUSION: User requested NO PAPERS in Signals.
+            
+            signal_types = ["Release", "Engineering Blog", "Framework Update", "General News"]
+            
+            # Helper to check if item is a paper
+            def is_paper(item):
+                return item.get('type') == 'paper' or item.get('display_category') == 'Top Paper'
+            
+            # Primary candidates: specific types (excluding papers)
+            primary_signals = [
+                i for i in selected_pool 
+                if i not in top_detailed 
+                and not is_paper(i)
+                and i.get('processed', {}).get('signal_type') in signal_types
+            ]
+            
+            # Secondary candidates: anything else not in detailed (excluding papers)
+            secondary_signals = [
+                 i for i in selected_pool
+                 if i not in top_detailed 
+                 and i not in primary_signals
+                 and not is_paper(i)
+            ]
+            
+            # Combine and sort by score
+            all_signals = primary_signals + secondary_signals
+            all_signals.sort(key=lambda x: x.get('processed', {}).get('relevance_score', 0), reverse=True)
+            
+            # Take needed amount
+            signals = all_signals[:(15 - len(top_detailed))]
 
             return {
                 "type": "weekday",
-                "top_news": top_news,
-                "top_repo": top_repo,
-                "top_paper": top_paper,
-                "signals": signals[:10], # Max 10 signals to keep it concise
-                "items": selected
+                "detailed_items": top_detailed,
+                "signals": signals,
+                "items": selected_pool
             }

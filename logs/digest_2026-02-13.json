@@ -1,0 +1,608 @@
+{
+  "type": "weekday",
+  "detailed_items": [
+    {
+      "title": "Gemini 3 Deep Think: Advancing science, research and engineering",
+      "link": "https://deepmind.google/blog/gemini-3-deep-think-advancing-science-research-and-engineering/",
+      "summary": "Our most specialized reasoning mode is now updated to solve modern science, research and engineering challenges.",
+      "source": "Google DeepMind News",
+      "published": "2026-02-12T16:15:09+00:00",
+      "type": "blog",
+      "display_category": "Top News",
+      "processed": {
+        "summary": "\n- Google DeepMind introduces **Gemini 3 Deep Think**, a specialized reasoning model designed for high-stakes scientific and engineering tasks.\n- The architecture leverages advanced **reasoning-specific training** to handle long-horizon research workflows and complex problem-solving.\n- This update signifies a shift toward **specialized intelligence** for STEM applications, moving beyond general-purpose conversation.",
+        "key_results": [
+          "Introduction of a specialized reasoning mode for modern science.",
+          "Optimization for high-complexity research and engineering challenges.",
+          "Enhanced performance in multi-step logical deduction workflows.",
+          "Integration of domain-specific expertise into the Gemini ecosystem.",
+          "Targeted improvements for scientific hypothesis generation and testing."
+        ],
+        "relevance_score": 9,
+        "signal_type": "Paper",
+        "one_sentence_takeaway": "Google DeepMind updates Gemini 3 Deep Think to solve complex scientific, research, and engineering challenges through advanced reasoning modes.",
+        "lead_institution": "Google DeepMind",
+        "tags": [
+          "Reasoning Models",
+          "STEM AI",
+          "Gemini 3",
+          "Deep Research",
+          "Engineering AI"
+        ]
+      }
+    },
+    {
+      "title": "UniT: Unified Multimodal Chain-of-Thought Test-time Scaling",
+      "link": "http://arxiv.org/abs/2602.12279v1",
+      "summary": "Unified models can handle both multimodal understanding and generation within a single architecture, yet they typically operate in a single pass without iteratively refining their outputs. Many multimodal tasks, especially those involving complex spatial compositions, multiple interacting objects, or evolving instructions, require decomposing instructions, verifying intermediate results, and making iterative corrections. While test-time scaling (TTS) has demonstrated that allocating additional inference compute for iterative reasoning substantially improves language model performance, extending this paradigm to unified multimodal models remains an open challenge. We introduce UniT, a framework for multimodal chain-of-thought test-time scaling that enables a single unified model to reason, verify, and refine across multiple rounds. UniT combines agentic data synthesis, unified model training, and flexible test-time inference to elicit cognitive behaviors including verification, subgoal decomposition, and content memory. Our key findings are: (1) unified models trained on short reasoning trajectories generalize to longer inference chains at test time; (2) sequential chain-of-thought reasoning provides a more scalable and compute-efficient TTS strategy than parallel sampling; (3) training on generation and editing trajectories improves out-of-distribution visual reasoning. These results establish multimodal test-time scaling as an effective paradigm for advancing both generation and understanding in unified models.",
+      "source": "ArXiv",
+      "published": "2026-02-12T18:59:49+00:00",
+      "type": "paper",
+      "display_category": "Top Paper",
+      "processed": {
+        "summary": "\n- **UniT** introduces a framework for **multimodal chain-of-thought (CoT) test-time scaling**, enabling a single unified model to perform iterative reasoning, verification, and refinement.\n- The architecture leverages **agentic data synthesis** and training on **generation/editing trajectories** to elicit complex cognitive behaviors such as subgoal decomposition and content memory.\n- The approach bridges the gap between multimodal understanding and generation by allowing the model to allocate additional **inference compute** to improve output quality.",
+        "key_results": [
+          "Models trained on short reasoning trajectories successfully generalize to longer inference chains at test time.",
+          "Sequential chain-of-thought reasoning is more compute-efficient and scalable than traditional parallel sampling strategies.",
+          "Training specifically on editing trajectories significantly improves out-of-distribution performance in visual reasoning.",
+          "Unified architectures can successfully integrate verification and refinement loops without specialized sub-models.",
+          "Increased test-time compute consistently leads to higher performance gains across both generative and discriminative multimodal tasks."
+        ],
+        "relevance_score": 9,
+        "signal_type": "Paper",
+        "one_sentence_takeaway": "ArXiv researchers introduce UniT, a unified multimodal framework that scales test-time compute through iterative reasoning to improve generation and understanding.",
+        "lead_institution": "ArXiv",
+        "tags": [
+          "Multimodal AI",
+          "Chain-of-Thought",
+          "Test-time Scaling",
+          "Reasoning Models",
+          "Generative AI"
+        ]
+      }
+    },
+    {
+      "title": "Scaling LLM Post-Training at Netflix",
+      "link": "https://netflixtechblog.com/scaling-llm-post-training-at-netflix-0046f8790194?source=rss----2615bd06b42e---4",
+      "summary": "<p><a href=\"https://www.linkedin.com/in/baolin-li-659426115/\">Baolin Li</a>, <a href=\"https://www.linkedin.com/in/lingyi-liu-4b866016/\">Lingyi Liu</a>, <a href=\"https://www.linkedin.com/in/binh-tang-3b76557b/\">Binh Tang</a>, <a href=\"https://www.linkedin.com/in/shaojingli/\">Shaojing\u00a0Li</a></p><h3>Introduction</h3><p>Pre-training gives Large Language Models (LLMs) broad linguistic ability and general world knowledge, but post-training is the phase that actually aligns them to concrete intents, domain constraints, and the reliability requirements of production environments. At Netflix, we are exploring how LLMs can enable new member experiences across recommendation, personalization, and search, which requires adapting generic foundation models so they can better reflect our catalog and the nuances of member interaction histories. At Netflix scale, post-training quickly becomes an engineering problem as much as a modeling one: building and operating complex data pipelines, coordinating distributed state across multi-node GPU clusters, and orchestrating workflows that interleave training and inference. This blog describes the architecture and engineering philosophy of our internal <strong>Post-Training Framework</strong>, built by the AI Platform team to hide infrastructure complexity so researchers and model developers can focus on model innovation\u200a\u2014\u200anot distributed systems plumbing.</p><h3>A Model Developer\u2019s Post-Training Journey</h3><p>Post-training often starts deceptively simply: curate proprietary domain data, load an open-weight model from Hugging Face, and iterate batches through it. At the experimentation scale, that\u2019s a few lines of code. But when fine-tuning production-grade LLMs at scale, the gap between \u201crunning a script\u201d and \u201crobust post-training\u201d becomes an abyss of engineering edge\u00a0cases.</p><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/873/1*at60qZXd0j6SphkjzdmazQ.png\" /><figcaption>Figure 1. Simple steps to post-train an open-weight model.</figcaption></figure><h4>Getting the data\u00a0right</h4><p>On paper, post-training is straightforward: choose a tokenizer, preprocess the dataset, and build a dataloader. In practice, data preparation is where things break. High-quality post-training\u200a\u2014\u200ainstruction following, multi-turn dialogue, Chain-of-Thought\u200a\u2014\u200adepends on precisely controlling which tokens contribute to the loss. Hugging Face chat templates serialize conversations, but don\u2019t specify what to train on versus ignore. The pipeline must apply explicit loss masking so only assistant tokens are optimized; otherwise the model learns from prompts and other non-target text, degrading quality.</p><p>Variable sequence length is another pitfall. Padding within a batch can waste compute, and uneven shapes across FSDP workers can cause GPU synchronization overhead. A more GPU-efficient approach is to pack multiple samples into fixed-length sequences and use a \u201cdocument mask\u201d to prevent cross-attention across samples, reducing padding and keeping shapes consistent.</p><h4>Setting up the\u00a0model</h4><p>Loading an open-source checkpoint sounds simple until the model no longer fits on one GPU. At that point you need a sharding strategy (e.g., FSDP, TP) and must load partial weights directly onto the device mesh to avoid ever materializing the full model on a single\u00a0device.</p><p>After loading, you still need to make the model trainable: choose full fine-tuning vs. LoRA, and apply optimizations like activation checkpointing, compilation, and correct precision settings (often subtle for RL, where rollout and policy precision must align). Large vocabularies (&gt;128k) add a further memory trap: logits are<em> [batch, seq_len, vocab] </em>and can spike peak memory. Common mitigations include dropping ignored tokens before projection and computing logits/loss in chunks along the sequence dimension.</p><h4>Starting the\u00a0training</h4><p>Even with data and models ready, production training is not a simple \u201cfor loop\u201d. The system must support everything from SFT\u2019s forward/backward pass to on-policy RL workflows that interleave rollout generation, reward/reference inference, and policy\u00a0updates.</p><p>At Netflix scale, training runs as a distributed job. We use Ray to orchestrate workflows via actors, decoupling modeling logic from hardware. Robust runs also require experiment tracking (model quality metrics like loss and efficiency metrics like MFU) and fault tolerance via standardized checkpoints to resume cleanly after failures.</p><p>These challenges motivate a post-training framework that lets developers focus on modeling rather than distributed systems and operational details.</p><h3>The Netflix Post-Training Framework</h3><p>We built Netflix\u2019s LLM post-training framework so Netflix model developers can turn ideas like those in Figure 1 into scalable, robust training jobs. It addresses the engineering hurdles described above, and also constraints that are specific to the Netflix ecosystem. Existing tools (e.g., Thinking Machines\u2019 <a href=\"https://thinkingmachines.ai/tinker/\">Tinker</a>) work well for standard chat and instruction-tuning, but their structure can limit deeper experimentation. In contrast, our internal use cases often require architectural variation (for example, customizing output projection heads for task-specific objectives), expanded or nonstandard vocabularies driven by semantic IDs or special tokens, and even transformer models pre-trained from scratch on domain-specific, non-natural-language sequences. Supporting this range requires a framework that prioritizes flexibility and extensibility over a fixed fine-tuning paradigm.</p><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*z2IFH-4iIQ5qxARTur-wQA.png\" /><figcaption>Figure 2. The post-training library within Netflix\u00a0stack</figcaption></figure><p>Figure 2 shows the end-to-end stack from infrastructure to trained models. At the base is Mako, Netflix\u2019s internal ML compute platform, which provisions GPUs on AWS. On top of Mako, we run robust open-source components\u200a\u2014\u200aPyTorch, Ray, and vLLM\u200a\u2014\u200alargely out of the box. Our post-training framework sits above these foundations as a library: it provides reusable utilities and standardized training recipes for common workflows such as Supervised Fine-Tuning (SFT), Direct Preference Optimization (DPO), Reinforcement Learning (RL), and Knowledge Distillation. Users typically express jobs as configuration files that select a recipe and plug in task-specific components.</p><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*RzZzr3wADPwism5CQP8mYw.png\" /><figcaption>Figure 3. Main components developed for the post-training framework</figcaption></figure><p>Figure 3 summarizes the modular components we built to reduce complexity across four dimensions. As with most ML systems, training success hinges on three pillars\u200a\u2014\u200a<strong>Data</strong>, <strong>Model</strong>, and <strong>Compute</strong>\u200a\u2014\u200aand the rise of RL fine-tuning adds a fourth pillar: <strong>Workflow</strong>, to support multi-stage execution patterns that don\u2019t fit a simple training loop. Below, we detail the specific abstractions and features the framework provides for each of these dimensions:</p><ul><li><strong>Data:</strong> Dataset abstractions for SFT, reward modeling, and RL; high-throughput streaming from cloud and disk for datasets that exceed local storage; and asynchronous, on-the-fly sequence packing to overlap CPU-heavy packing with GPU execution and reduce idle\u00a0time.</li><li><strong>Model:</strong> Support for modern architectures (e.g., Qwen3, Gemma3) and Mixture-of-Experts variants (e.g., Qwen3 MoE, GPT-OSS); LoRA integrated into model definitions; and high-level sharding APIs so developers can distribute large models across device meshes without writing low-level distributed code.</li><li><strong>Compute:</strong> A unified job submission interface that scales from a single node to hundreds of GPUs; MFU (Model FLOPS Utilization) monitoring that remains accurate under custom architectures and LoRA; and comprehensive checkpointing (states of trained parameters, optimizer, dataloader, data mixer, etc.) to enable exact resumption after interruptions.</li><li><strong>Workflow:</strong> Support for training paradigms beyond SFT, including complex online RL. In particular, we extend Single Program, Multiple Data (SPMD) style SFT workloads to run online RL with a hybrid single-controller + SPMD execution model, which we\u2019ll describe\u00a0next.</li></ul><p>Today, this framework supports research use cases ranging from post-training large-scale foundation models to fine-tuning specialized expert models. By standardizing these workflows, we\u2019ve lowered the barrier for teams to experiment with advanced techniques and iterate more\u00a0quickly.</p><h3>Learnings from Building the Post-Training Framework</h3><p>Building a system of this scope wasn\u2019t a linear implementation exercise. It meant tracking a fast-moving open-source ecosystem, chasing down failure modes that only appear under distributed load, and repeatedly revisiting architectural decisions as the post-training frontier shifted. Below are three engineering learnings and best practices that shaped the framework.</p><h4>Scaling from SFT to\u00a0RL</h4><p>We initially designed the library around Supervised Fine-Tuning (SFT): relatively static data flow, a single training loop, and a Single Program, Multiple Data (SPMD) execution model. That assumption stopped holding in 2025. With DeepSeek-R1 and the broader adoption of efficient on-policy RL methods like GRPO, SFT became table stakes rather than the finish line. Staying close to the frontier required infrastructure that could move from \u201coffline training loop\u201d to \u201cmulti-stage, on-policy orchestration.\u201d</p><p>SFT\u2019s learning signal is dense and immediate: for each token position we compute logits over the full vocabulary and backpropagate a differentiable loss. Infrastructure-wise, this looks a lot like pre-training and maps cleanly to SPMD\u200a\u2014\u200aevery GPU worker runs the same step function over a different shard of data, synchronizing through Pytorch distributed primitives.</p><p>On-policy RL changes the shape of the system. The learning signal is typically sparse and delayed (e.g., a scalar reward at the end of an episode), and the training step depends on data generated by the current policy. Individual sub-stages\u200a\u2014\u200apolicy updates, rollout generation, reference model inference, reward model scoring\u200a\u2014\u200acan each be implemented as SPMD workloads, but the end-to-end algorithm needs explicit coordination: you\u2019re constantly handing off artifacts (prompts, sampled trajectories, rewards, advantages) across stages and synchronizing their lifecycle.</p><p>In our original SFT architecture, the driver node was intentionally \u201cthin\u201d: it launched N identical Ray actors, each encapsulating the full training loop, and scaling meant launching more identical workers. That model breaks down for RL. RL required us to decompose the system into distinct roles\u200a\u2014\u200aPolicy, Rollout Workers, Reward Model, Reference Model, etc.\u200a\u2014\u200aand evolve the driver into an active controller that encodes the control plane: when to generate rollouts, how to batch and score them, when to trigger optimization, and how to manage cluster resources across\u00a0phases.</p><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*5lhd3rDmexD0KGoHy78CZQ.png\" /><figcaption>Figure 4. Architectural differences of SFT and RL framework</figcaption></figure><p>Figure 4 highlights this shift. To add RL support without reinventing distributed orchestration from scratch, we integrated the core infrastructure from the open-source <a href=\"https://github.com/verl-project/verl\"><strong>Verl</strong></a> library to manage Ray actor lifecycle and GPU resource allocation. Leveraging Verl\u2019s backend let us focus on the \u201cmodeling surface area\u201d\u200a\u2014\u200aour Data/Model/Compute abstractions and internal optimizations\u200a\u2014\u200awhile keeping orchestration concerns decoupled. The result is a hybrid design: a unified user interface where developers can move between SFT and RL workflows without adopting an entirely different mental model or API\u00a0set.</p><h4>Hugging Face-Centric Experience</h4><p>The Hugging Face Hub has effectively become the default distribution channel for open-weight LLMs, tokenizers, and configs. We designed the framework to stay close to that ecosystem rather than creating an isolated internal standard. Even when we use optimized internal model representations for speed, we load and save checkpoints in standard Hugging Face formats. This avoids \u201cwalled garden\u201d friction and lets teams pull in new architectures, weights, and tokenizers quickly.</p><p>This philosophy also shaped our tokenizer story. Early on, we bound directly to low-level tokenization libraries (e.g., SentencePiece, tiktoken) to maximize control. In practice, that created a costly failure mode: silent training\u2013serving skew. Our inference stack (vLLM) defaults to Hugging Face AutoTokenizer, and tiny differences in normalization, special token handling, or chat templating can yield different token boundaries\u200a\u2014\u200aexactly the kind of mismatch that shows up later as inexplicable quality regressions. We fixed this by making Hugging Face AutoTokenizer the single source of truth. We then built a thin compatibility layer (BaseHFModelTokenizer) to handle post-training needs\u200a\u2014\u200asetting padding tokens, injecting generation markers to support loss masking, and managing special tokens / semantic IDs\u200a\u2014\u200awhile ensuring the byte-level tokenization path matches production.</p><p>We do take a different approach for model implementations. Rather than training directly on transformers model classes, we maintain our own optimized, unified model definitions that can still load/save Hugging Face checkpoints. This layer is what enables framework-level optimizations\u200a\u2014\u200ae.g., FlexAttention, memory-efficient chunked cross-entropy, consistent MFU accounting, and uniform LoRA extensibility\u200a\u2014\u200awithout re-implementing them separately for every model family. A unified module naming convention also makes it feasible to programmatically locate and swap components (Attention, MLP, output heads) across architectures, and provides a consistent surface for Tensor Parallelism and FSDP wrapping policies.</p><p>The trade-off is clear: supporting a new model family requires building a bridge between the Hugging Face reference implementation and our internal definition. To reduce that overhead, we use AI coding agents to automate much of the conversion work, with a strict <strong>logit verifier</strong> as the gate: given random inputs, our internal model must match the Hugging Face logits within tolerance. Because the acceptance criterion is mechanically checkable, agents can iterate autonomously until the implementation is correct, dramatically shortening the time-to-support for new architectures.</p><p>Today, this design means we can only train architectures we explicitly support\u200a\u2014\u200aan intentional constraint shared by other high-performance systems like <a href=\"https://huggingface.co/docs/transformers/main/transformers_as_backend\">vLLM, SGLang</a>, and <a href=\"https://github.com/pytorch/torchtitan/pull/2048\">torchtitan</a>. To broaden coverage, we plan to add a fallback Hugging Face backend, similar to the compatibility patterns these projects use: users will be able to run training directly on native transformers models for rapid exploration of novel architectures, with the understanding that some framework optimizations and features may not apply in that\u00a0mode.</p><h4>Providing Differential Value</h4><p>A post-training framework is only worth owning if it delivers clear value beyond assembling OSS components. We build on open source for velocity, but we invest heavily where off-the-shelf tools tend to be weakest: performance tuned to our workload characteristics, and integration with Netflix-specific model and business requirements. Here are some concrete examples:</p><p>First, we optimize training efficiency for our real use cases. A representative example is extreme variance in sequence length. In FSDP-style training, long-tail sequences create stragglers: faster workers end up waiting at synchronization points for the slowest batch, lowering utilization. Standard bin-packing approaches help, but doing them offline at our data scale can add substantial preprocessing latency and make it harder to keep datasets fresh. Instead, we built on-the-fly sequence packing that streams samples from storage and dynamically packs them in memory. Packing runs asynchronously, overlapping CPU work with GPU compute. Figure 5 shows the impact: for our most skewed dataset, on-the-fly packing improved the effective token throughput by up to\u00a04.7x.</p><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*Z2mdtXVFJsr764NihkguIA.png\" /><figcaption>Figure 5. Training throughput on two of our internal datasets on A100 and H200\u00a0GPUs</figcaption></figure><p>We also encountered subtler performance cliffs around vocabulary expansion. Our workloads frequently add custom tokens and semantic IDs. We found that certain vocabulary sizes could cause the language model head to fall back from a highly optimized cuBLAS kernel to a much slower CUTLASS path, tripling that layer\u2019s execution time. The framework now automatically pads vocabulary sizes to multiples of 64 so the compiler selects the fast kernel, preserving throughput without requiring developers to know these low-level constraints.</p><p>Second, owning the framework lets us support \u201cnon-standard\u201d transformer use cases that generic LLM tooling rarely targets. For example, some internal models are trained on member interaction event sequences rather than natural language, and may require bespoke RL loops that integrate with highly-customized inference engines and optimize business-defined metrics. These workflows demand custom environments, reward computation, and orchestration patterns\u200a\u2014\u200awhile still needing the same underlying guarantees around performance, tracking, and fault tolerance. The framework is built to accommodate these specialized requirements without fragmenting into one-off pipelines, enabling rapid iteration.</p><h3>Wrap up</h3><p>Building the Netflix Post-Training Framework has been a continual exercise in balancing standardization with specialization. By staying anchored to the open-source ecosystem, we\u2019ve avoided drifting into a proprietary stack that diverges from where the community is moving. At the same time, by owning the core abstractions around Data, Model, Compute, and Workflow, we\u2019ve preserved the freedom to optimize for Netflix-scale training and Netflix-specific requirements.</p><p>In the process, we\u2019ve moved post-training from a loose collection of scripts into a managed, scalable system. Whether the goal is maximizing SFT throughput, orchestrating multi-stage on-policy RL, or training transformers over member interaction sequences, the framework provides a consistent set of primitives to do so reliably and efficiently. As the field shifts toward more agentic, reasoning-heavy, and multimodal architectures, this foundation will help us translate new ideas into scalable GenAI prototypes\u200a\u2014\u200aso experimentation is constrained by our imagination, not by operational complexity.</p><h3>Acknowledgements</h3><p>This work builds on the momentum of the broader open-source ML community. We\u2019re especially grateful to the teams and contributors behind Torchtune, Torchtitan, and Verl, whose reference implementations and design patterns informed many of our training framework choices\u200a\u2014\u200aparticularly around scalable training recipes, distributed execution, and RL-oriented orchestration. We also thank our partner teams in Netflix AI for Member Systems for close collaboration, feedback, and shared problem-solving throughout the development and rollout of the Post-Training Framework, and the Training Platform team for providing the robust infrastructure and operational foundation that makes large-scale post-training possible.</p><img alt=\"\" height=\"1\" src=\"https://medium.com/_/stat?event=post.clientViewed&amp;referrerSource=full_rss&amp;postId=0046f8790194\" width=\"1\" /><hr /><p><a href=\"https://netflixtechblog.com/scaling-llm-post-training-at-netflix-0046f8790194\">Scaling LLM Post-Training at Netflix</a> was originally published in <a href=\"https://netflixtechblog.com\">Netflix TechBlog</a> on Medium, where people are continuing the conversation by highlighting and responding to this story.</p>",
+      "source": "Netflix TechBlog - Medium",
+      "published": "2026-02-13T08:05:33+00:00",
+      "type": "blog",
+      "display_category": "Top News",
+      "processed": {
+        "summary": "\n- Netflix developed a **modular post-training framework** that abstracts infrastructure (Mako, Ray, Kubernetes) to enable researchers to focus on modeling logic rather than distributed systems plumbing.\n- The architecture evolved from a simple **SPMD model for SFT** to a complex **multi-stage orchestration** for on-policy RL (e.g., GRPO), integrating the **Verl library** for actor lifecycle and resource management.\n- To ensure production parity, the system maintains a **Hugging Face-centric** approach for tokenization and checkpoints while using optimized internal model definitions validated by **autonomous AI agents and logit verifiers**.\n- Performance is optimized through **on-the-fly asynchronous sequence packing** and automatic **vocabulary padding** to ensure high-performance GPU kernel selection and maximum MFU.",
+        "key_results": [
+          "Achieved up to 4.7x token throughput improvement using on-the-fly asynchronous sequence packing for skewed datasets.",
+          "Implemented a unified model layer supporting FlexAttention and memory-efficient chunked cross-entropy.",
+          "Developed a hybrid SFT/RL workflow controller capable of managing Policy, Reward, and Reference models across a GPU mesh.",
+          "Automated the conversion of new Hugging Face architectures using AI coding agents gated by strict logit verification.",
+          "Eliminated training-serving skew by using Hugging Face AutoTokenizer as the single source of truth across the stack."
+        ],
+        "relevance_score": 9,
+        "signal_type": "Engineering Blog",
+        "one_sentence_takeaway": "Netflix builds a modular post-training framework to scale SFT and on-policy RL workflows for personalized member experiences.",
+        "lead_institution": "Netflix",
+        "tags": [
+          "Post-Training",
+          "Reinforcement Learning",
+          "Model Fine-tuning",
+          "Distributed Systems",
+          "LLM Infrastructure"
+        ]
+      }
+    },
+    {
+      "title": "AttentionRetriever: Attention Layers are Secretly Long Document Retrievers",
+      "link": "http://arxiv.org/abs/2602.12278v1",
+      "summary": "Retrieval augmented generation (RAG) has been widely adopted to help Large Language Models (LLMs) to process tasks involving long documents. However, existing retrieval models are not designed for long document retrieval and fail to address several key challenges of long document retrieval, including context-awareness, causal dependence, and scope of retrieval. In this paper, we proposed AttentionRetriever, a novel long document retrieval model that leverages attention mechanism and entity-based retrieval to build context-aware embeddings for long document and determine the scope of retrieval. With extensive experiments, we found AttentionRetriever is able to outperform existing retrieval models on long document retrieval datasets by a large margin while remaining as efficient as dense retrieval models.",
+      "source": "ArXiv",
+      "published": "2026-02-12T18:59:35+00:00",
+      "type": "paper",
+      "display_category": "Top Paper",
+      "processed": {
+        "summary": "\n- Introduces **AttentionRetriever**, a specialized retrieval model designed to address the unique challenges of **long document processing** in RAG systems.\n- Leverages a combination of **attention mechanisms** and **entity-based retrieval** to generate high-fidelity, **context-aware embeddings**.\n- Explicitly models **causal dependence** and optimizes the scope of retrieval, allowing the system to identify relevant segments across vast document spans.\n- Maintains the **computational efficiency** of dense retrieval models while significantly increasing the precision of retrieved context for downstream LLM generation.",
+        "key_results": [
+          "Outperforms state-of-the-art retrieval models on long document datasets by a substantial margin.",
+          "Successfully addresses context-awareness issues inherent in traditional chunk-based retrieval.",
+          "Improves the handling of causal dependencies within long-form textual data.",
+          "Optimizes retrieval scope, leading to more accurate boundary detection for relevant information.",
+          "Demonstrates performance parity with dense retrieval models regarding latency and inference speed."
+        ],
+        "relevance_score": 9,
+        "signal_type": "Paper",
+        "one_sentence_takeaway": "ArXiv researchers introduce AttentionRetriever, leveraging attention mechanisms to significantly improve context-aware long document retrieval for RAG pipelines.",
+        "lead_institution": "ArXiv",
+        "tags": [
+          "RAG",
+          "Long Context",
+          "Attention Mechanism",
+          "Information Retrieval",
+          "Dense Retrieval"
+        ]
+      }
+    },
+    {
+      "title": "Agentic Test-Time Scaling for WebAgents",
+      "link": "http://arxiv.org/abs/2602.12276v1",
+      "summary": "Test-time scaling has become a standard way to improve performance and boost reliability of neural network models. However, its behavior on agentic, multi-step tasks remains less well-understood: small per-step errors can compound over long horizons; and we find that naive policies that uniformly increase sampling show diminishing returns. In this work, we present CATTS, a simple technique for dynamically allocating compute for multi-step agents. We first conduct an empirical study of inference-time scaling for web agents. We find that uniformly increasing per-step compute quickly saturates in long-horizon environments. We then investigate stronger aggregation strategies, including an LLM-based Arbiter that can outperform naive voting, but that can overrule high-consensus decisions. We show that uncertainty statistics derived from the agent's own vote distribution (entropy and top-1/top-2 margin) correlate with downstream success and provide a practical signal for dynamic compute allocation. Based on these findings, we introduce Confidence-Aware Test-Time Scaling (CATTS), which uses vote-derived uncertainty to allocate compute only when decisions are genuinely contentious. CATTS improves performance on WebArena-Lite and GoBrowse by up to 9.1% over React while using up to 2.3x fewer tokens than uniform scaling, providing both efficiency gains and an interpretable decision rule.",
+      "source": "ArXiv",
+      "published": "2026-02-12T18:58:30+00:00",
+      "type": "paper",
+      "display_category": "Top Paper",
+      "processed": {
+        "summary": "\n- Introduces **CATTS (Confidence-Aware Test-Time Scaling)**, a framework for dynamically allocating compute in multi-step **agentic environments**.\n- Investigates **uncertainty statistics** such as entropy and top-1/top-2 margins derived from agent vote distributions to signal when additional sampling is required.\n- Employs an **LLM-based Arbiter** to aggregate trajectories, mitigating the diminishing returns and **compounding errors** found in naive uniform scaling.\n- Optimizes **inference-time efficiency** by focusing computational resources only on contentious decision points rather than uniform per-step sampling.",
+        "key_results": [
+          "Improved performance on WebArena-Lite and GoBrowse by up to 9.1% over standard React baselines.",
+          "Reduced token consumption by up to 2.3x compared to naive uniform test-time scaling strategies.",
+          "Validated that agent-derived uncertainty metrics correlate strongly with downstream task success.",
+          "Demonstrated that uniform per-step compute quickly saturates and fails in long-horizon web navigation tasks.",
+          "Established that dynamic compute allocation provides an interpretable decision rule for agentic reasoning."
+        ],
+        "relevance_score": 9,
+        "signal_type": "Paper",
+        "one_sentence_takeaway": "ArXiv researchers introduce CATTS, a dynamic scaling method that improves web agent performance by 9.1% while using 2.3x fewer tokens.",
+        "lead_institution": "ArXiv",
+        "tags": [
+          "LLM Agents",
+          "Test-Time Scaling",
+          "Inference Efficiency",
+          "Web Navigation",
+          "Reasoning Models"
+        ]
+      }
+    }
+  ],
+  "signals": [],
+  "items": [
+    {
+      "title": "Gemini 3 Deep Think: Advancing science, research and engineering",
+      "link": "https://deepmind.google/blog/gemini-3-deep-think-advancing-science-research-and-engineering/",
+      "summary": "Our most specialized reasoning mode is now updated to solve modern science, research and engineering challenges.",
+      "source": "Google DeepMind News",
+      "published": "2026-02-12T16:15:09+00:00",
+      "type": "blog",
+      "display_category": "Top News",
+      "processed": {
+        "summary": "\n- Google DeepMind introduces **Gemini 3 Deep Think**, a specialized reasoning model designed for high-stakes scientific and engineering tasks.\n- The architecture leverages advanced **reasoning-specific training** to handle long-horizon research workflows and complex problem-solving.\n- This update signifies a shift toward **specialized intelligence** for STEM applications, moving beyond general-purpose conversation.",
+        "key_results": [
+          "Introduction of a specialized reasoning mode for modern science.",
+          "Optimization for high-complexity research and engineering challenges.",
+          "Enhanced performance in multi-step logical deduction workflows.",
+          "Integration of domain-specific expertise into the Gemini ecosystem.",
+          "Targeted improvements for scientific hypothesis generation and testing."
+        ],
+        "relevance_score": 9,
+        "signal_type": "Paper",
+        "one_sentence_takeaway": "Google DeepMind updates Gemini 3 Deep Think to solve complex scientific, research, and engineering challenges through advanced reasoning modes.",
+        "lead_institution": "Google DeepMind",
+        "tags": [
+          "Reasoning Models",
+          "STEM AI",
+          "Gemini 3",
+          "Deep Research",
+          "Engineering AI"
+        ]
+      }
+    },
+    {
+      "title": "Scaling LLM Post-Training at Netflix",
+      "link": "https://netflixtechblog.com/scaling-llm-post-training-at-netflix-0046f8790194?source=rss----2615bd06b42e---4",
+      "summary": "<p><a href=\"https://www.linkedin.com/in/baolin-li-659426115/\">Baolin Li</a>, <a href=\"https://www.linkedin.com/in/lingyi-liu-4b866016/\">Lingyi Liu</a>, <a href=\"https://www.linkedin.com/in/binh-tang-3b76557b/\">Binh Tang</a>, <a href=\"https://www.linkedin.com/in/shaojingli/\">Shaojing\u00a0Li</a></p><h3>Introduction</h3><p>Pre-training gives Large Language Models (LLMs) broad linguistic ability and general world knowledge, but post-training is the phase that actually aligns them to concrete intents, domain constraints, and the reliability requirements of production environments. At Netflix, we are exploring how LLMs can enable new member experiences across recommendation, personalization, and search, which requires adapting generic foundation models so they can better reflect our catalog and the nuances of member interaction histories. At Netflix scale, post-training quickly becomes an engineering problem as much as a modeling one: building and operating complex data pipelines, coordinating distributed state across multi-node GPU clusters, and orchestrating workflows that interleave training and inference. This blog describes the architecture and engineering philosophy of our internal <strong>Post-Training Framework</strong>, built by the AI Platform team to hide infrastructure complexity so researchers and model developers can focus on model innovation\u200a\u2014\u200anot distributed systems plumbing.</p><h3>A Model Developer\u2019s Post-Training Journey</h3><p>Post-training often starts deceptively simply: curate proprietary domain data, load an open-weight model from Hugging Face, and iterate batches through it. At the experimentation scale, that\u2019s a few lines of code. But when fine-tuning production-grade LLMs at scale, the gap between \u201crunning a script\u201d and \u201crobust post-training\u201d becomes an abyss of engineering edge\u00a0cases.</p><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/873/1*at60qZXd0j6SphkjzdmazQ.png\" /><figcaption>Figure 1. Simple steps to post-train an open-weight model.</figcaption></figure><h4>Getting the data\u00a0right</h4><p>On paper, post-training is straightforward: choose a tokenizer, preprocess the dataset, and build a dataloader. In practice, data preparation is where things break. High-quality post-training\u200a\u2014\u200ainstruction following, multi-turn dialogue, Chain-of-Thought\u200a\u2014\u200adepends on precisely controlling which tokens contribute to the loss. Hugging Face chat templates serialize conversations, but don\u2019t specify what to train on versus ignore. The pipeline must apply explicit loss masking so only assistant tokens are optimized; otherwise the model learns from prompts and other non-target text, degrading quality.</p><p>Variable sequence length is another pitfall. Padding within a batch can waste compute, and uneven shapes across FSDP workers can cause GPU synchronization overhead. A more GPU-efficient approach is to pack multiple samples into fixed-length sequences and use a \u201cdocument mask\u201d to prevent cross-attention across samples, reducing padding and keeping shapes consistent.</p><h4>Setting up the\u00a0model</h4><p>Loading an open-source checkpoint sounds simple until the model no longer fits on one GPU. At that point you need a sharding strategy (e.g., FSDP, TP) and must load partial weights directly onto the device mesh to avoid ever materializing the full model on a single\u00a0device.</p><p>After loading, you still need to make the model trainable: choose full fine-tuning vs. LoRA, and apply optimizations like activation checkpointing, compilation, and correct precision settings (often subtle for RL, where rollout and policy precision must align). Large vocabularies (&gt;128k) add a further memory trap: logits are<em> [batch, seq_len, vocab] </em>and can spike peak memory. Common mitigations include dropping ignored tokens before projection and computing logits/loss in chunks along the sequence dimension.</p><h4>Starting the\u00a0training</h4><p>Even with data and models ready, production training is not a simple \u201cfor loop\u201d. The system must support everything from SFT\u2019s forward/backward pass to on-policy RL workflows that interleave rollout generation, reward/reference inference, and policy\u00a0updates.</p><p>At Netflix scale, training runs as a distributed job. We use Ray to orchestrate workflows via actors, decoupling modeling logic from hardware. Robust runs also require experiment tracking (model quality metrics like loss and efficiency metrics like MFU) and fault tolerance via standardized checkpoints to resume cleanly after failures.</p><p>These challenges motivate a post-training framework that lets developers focus on modeling rather than distributed systems and operational details.</p><h3>The Netflix Post-Training Framework</h3><p>We built Netflix\u2019s LLM post-training framework so Netflix model developers can turn ideas like those in Figure 1 into scalable, robust training jobs. It addresses the engineering hurdles described above, and also constraints that are specific to the Netflix ecosystem. Existing tools (e.g., Thinking Machines\u2019 <a href=\"https://thinkingmachines.ai/tinker/\">Tinker</a>) work well for standard chat and instruction-tuning, but their structure can limit deeper experimentation. In contrast, our internal use cases often require architectural variation (for example, customizing output projection heads for task-specific objectives), expanded or nonstandard vocabularies driven by semantic IDs or special tokens, and even transformer models pre-trained from scratch on domain-specific, non-natural-language sequences. Supporting this range requires a framework that prioritizes flexibility and extensibility over a fixed fine-tuning paradigm.</p><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*z2IFH-4iIQ5qxARTur-wQA.png\" /><figcaption>Figure 2. The post-training library within Netflix\u00a0stack</figcaption></figure><p>Figure 2 shows the end-to-end stack from infrastructure to trained models. At the base is Mako, Netflix\u2019s internal ML compute platform, which provisions GPUs on AWS. On top of Mako, we run robust open-source components\u200a\u2014\u200aPyTorch, Ray, and vLLM\u200a\u2014\u200alargely out of the box. Our post-training framework sits above these foundations as a library: it provides reusable utilities and standardized training recipes for common workflows such as Supervised Fine-Tuning (SFT), Direct Preference Optimization (DPO), Reinforcement Learning (RL), and Knowledge Distillation. Users typically express jobs as configuration files that select a recipe and plug in task-specific components.</p><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*RzZzr3wADPwism5CQP8mYw.png\" /><figcaption>Figure 3. Main components developed for the post-training framework</figcaption></figure><p>Figure 3 summarizes the modular components we built to reduce complexity across four dimensions. As with most ML systems, training success hinges on three pillars\u200a\u2014\u200a<strong>Data</strong>, <strong>Model</strong>, and <strong>Compute</strong>\u200a\u2014\u200aand the rise of RL fine-tuning adds a fourth pillar: <strong>Workflow</strong>, to support multi-stage execution patterns that don\u2019t fit a simple training loop. Below, we detail the specific abstractions and features the framework provides for each of these dimensions:</p><ul><li><strong>Data:</strong> Dataset abstractions for SFT, reward modeling, and RL; high-throughput streaming from cloud and disk for datasets that exceed local storage; and asynchronous, on-the-fly sequence packing to overlap CPU-heavy packing with GPU execution and reduce idle\u00a0time.</li><li><strong>Model:</strong> Support for modern architectures (e.g., Qwen3, Gemma3) and Mixture-of-Experts variants (e.g., Qwen3 MoE, GPT-OSS); LoRA integrated into model definitions; and high-level sharding APIs so developers can distribute large models across device meshes without writing low-level distributed code.</li><li><strong>Compute:</strong> A unified job submission interface that scales from a single node to hundreds of GPUs; MFU (Model FLOPS Utilization) monitoring that remains accurate under custom architectures and LoRA; and comprehensive checkpointing (states of trained parameters, optimizer, dataloader, data mixer, etc.) to enable exact resumption after interruptions.</li><li><strong>Workflow:</strong> Support for training paradigms beyond SFT, including complex online RL. In particular, we extend Single Program, Multiple Data (SPMD) style SFT workloads to run online RL with a hybrid single-controller + SPMD execution model, which we\u2019ll describe\u00a0next.</li></ul><p>Today, this framework supports research use cases ranging from post-training large-scale foundation models to fine-tuning specialized expert models. By standardizing these workflows, we\u2019ve lowered the barrier for teams to experiment with advanced techniques and iterate more\u00a0quickly.</p><h3>Learnings from Building the Post-Training Framework</h3><p>Building a system of this scope wasn\u2019t a linear implementation exercise. It meant tracking a fast-moving open-source ecosystem, chasing down failure modes that only appear under distributed load, and repeatedly revisiting architectural decisions as the post-training frontier shifted. Below are three engineering learnings and best practices that shaped the framework.</p><h4>Scaling from SFT to\u00a0RL</h4><p>We initially designed the library around Supervised Fine-Tuning (SFT): relatively static data flow, a single training loop, and a Single Program, Multiple Data (SPMD) execution model. That assumption stopped holding in 2025. With DeepSeek-R1 and the broader adoption of efficient on-policy RL methods like GRPO, SFT became table stakes rather than the finish line. Staying close to the frontier required infrastructure that could move from \u201coffline training loop\u201d to \u201cmulti-stage, on-policy orchestration.\u201d</p><p>SFT\u2019s learning signal is dense and immediate: for each token position we compute logits over the full vocabulary and backpropagate a differentiable loss. Infrastructure-wise, this looks a lot like pre-training and maps cleanly to SPMD\u200a\u2014\u200aevery GPU worker runs the same step function over a different shard of data, synchronizing through Pytorch distributed primitives.</p><p>On-policy RL changes the shape of the system. The learning signal is typically sparse and delayed (e.g., a scalar reward at the end of an episode), and the training step depends on data generated by the current policy. Individual sub-stages\u200a\u2014\u200apolicy updates, rollout generation, reference model inference, reward model scoring\u200a\u2014\u200acan each be implemented as SPMD workloads, but the end-to-end algorithm needs explicit coordination: you\u2019re constantly handing off artifacts (prompts, sampled trajectories, rewards, advantages) across stages and synchronizing their lifecycle.</p><p>In our original SFT architecture, the driver node was intentionally \u201cthin\u201d: it launched N identical Ray actors, each encapsulating the full training loop, and scaling meant launching more identical workers. That model breaks down for RL. RL required us to decompose the system into distinct roles\u200a\u2014\u200aPolicy, Rollout Workers, Reward Model, Reference Model, etc.\u200a\u2014\u200aand evolve the driver into an active controller that encodes the control plane: when to generate rollouts, how to batch and score them, when to trigger optimization, and how to manage cluster resources across\u00a0phases.</p><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*5lhd3rDmexD0KGoHy78CZQ.png\" /><figcaption>Figure 4. Architectural differences of SFT and RL framework</figcaption></figure><p>Figure 4 highlights this shift. To add RL support without reinventing distributed orchestration from scratch, we integrated the core infrastructure from the open-source <a href=\"https://github.com/verl-project/verl\"><strong>Verl</strong></a> library to manage Ray actor lifecycle and GPU resource allocation. Leveraging Verl\u2019s backend let us focus on the \u201cmodeling surface area\u201d\u200a\u2014\u200aour Data/Model/Compute abstractions and internal optimizations\u200a\u2014\u200awhile keeping orchestration concerns decoupled. The result is a hybrid design: a unified user interface where developers can move between SFT and RL workflows without adopting an entirely different mental model or API\u00a0set.</p><h4>Hugging Face-Centric Experience</h4><p>The Hugging Face Hub has effectively become the default distribution channel for open-weight LLMs, tokenizers, and configs. We designed the framework to stay close to that ecosystem rather than creating an isolated internal standard. Even when we use optimized internal model representations for speed, we load and save checkpoints in standard Hugging Face formats. This avoids \u201cwalled garden\u201d friction and lets teams pull in new architectures, weights, and tokenizers quickly.</p><p>This philosophy also shaped our tokenizer story. Early on, we bound directly to low-level tokenization libraries (e.g., SentencePiece, tiktoken) to maximize control. In practice, that created a costly failure mode: silent training\u2013serving skew. Our inference stack (vLLM) defaults to Hugging Face AutoTokenizer, and tiny differences in normalization, special token handling, or chat templating can yield different token boundaries\u200a\u2014\u200aexactly the kind of mismatch that shows up later as inexplicable quality regressions. We fixed this by making Hugging Face AutoTokenizer the single source of truth. We then built a thin compatibility layer (BaseHFModelTokenizer) to handle post-training needs\u200a\u2014\u200asetting padding tokens, injecting generation markers to support loss masking, and managing special tokens / semantic IDs\u200a\u2014\u200awhile ensuring the byte-level tokenization path matches production.</p><p>We do take a different approach for model implementations. Rather than training directly on transformers model classes, we maintain our own optimized, unified model definitions that can still load/save Hugging Face checkpoints. This layer is what enables framework-level optimizations\u200a\u2014\u200ae.g., FlexAttention, memory-efficient chunked cross-entropy, consistent MFU accounting, and uniform LoRA extensibility\u200a\u2014\u200awithout re-implementing them separately for every model family. A unified module naming convention also makes it feasible to programmatically locate and swap components (Attention, MLP, output heads) across architectures, and provides a consistent surface for Tensor Parallelism and FSDP wrapping policies.</p><p>The trade-off is clear: supporting a new model family requires building a bridge between the Hugging Face reference implementation and our internal definition. To reduce that overhead, we use AI coding agents to automate much of the conversion work, with a strict <strong>logit verifier</strong> as the gate: given random inputs, our internal model must match the Hugging Face logits within tolerance. Because the acceptance criterion is mechanically checkable, agents can iterate autonomously until the implementation is correct, dramatically shortening the time-to-support for new architectures.</p><p>Today, this design means we can only train architectures we explicitly support\u200a\u2014\u200aan intentional constraint shared by other high-performance systems like <a href=\"https://huggingface.co/docs/transformers/main/transformers_as_backend\">vLLM, SGLang</a>, and <a href=\"https://github.com/pytorch/torchtitan/pull/2048\">torchtitan</a>. To broaden coverage, we plan to add a fallback Hugging Face backend, similar to the compatibility patterns these projects use: users will be able to run training directly on native transformers models for rapid exploration of novel architectures, with the understanding that some framework optimizations and features may not apply in that\u00a0mode.</p><h4>Providing Differential Value</h4><p>A post-training framework is only worth owning if it delivers clear value beyond assembling OSS components. We build on open source for velocity, but we invest heavily where off-the-shelf tools tend to be weakest: performance tuned to our workload characteristics, and integration with Netflix-specific model and business requirements. Here are some concrete examples:</p><p>First, we optimize training efficiency for our real use cases. A representative example is extreme variance in sequence length. In FSDP-style training, long-tail sequences create stragglers: faster workers end up waiting at synchronization points for the slowest batch, lowering utilization. Standard bin-packing approaches help, but doing them offline at our data scale can add substantial preprocessing latency and make it harder to keep datasets fresh. Instead, we built on-the-fly sequence packing that streams samples from storage and dynamically packs them in memory. Packing runs asynchronously, overlapping CPU work with GPU compute. Figure 5 shows the impact: for our most skewed dataset, on-the-fly packing improved the effective token throughput by up to\u00a04.7x.</p><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*Z2mdtXVFJsr764NihkguIA.png\" /><figcaption>Figure 5. Training throughput on two of our internal datasets on A100 and H200\u00a0GPUs</figcaption></figure><p>We also encountered subtler performance cliffs around vocabulary expansion. Our workloads frequently add custom tokens and semantic IDs. We found that certain vocabulary sizes could cause the language model head to fall back from a highly optimized cuBLAS kernel to a much slower CUTLASS path, tripling that layer\u2019s execution time. The framework now automatically pads vocabulary sizes to multiples of 64 so the compiler selects the fast kernel, preserving throughput without requiring developers to know these low-level constraints.</p><p>Second, owning the framework lets us support \u201cnon-standard\u201d transformer use cases that generic LLM tooling rarely targets. For example, some internal models are trained on member interaction event sequences rather than natural language, and may require bespoke RL loops that integrate with highly-customized inference engines and optimize business-defined metrics. These workflows demand custom environments, reward computation, and orchestration patterns\u200a\u2014\u200awhile still needing the same underlying guarantees around performance, tracking, and fault tolerance. The framework is built to accommodate these specialized requirements without fragmenting into one-off pipelines, enabling rapid iteration.</p><h3>Wrap up</h3><p>Building the Netflix Post-Training Framework has been a continual exercise in balancing standardization with specialization. By staying anchored to the open-source ecosystem, we\u2019ve avoided drifting into a proprietary stack that diverges from where the community is moving. At the same time, by owning the core abstractions around Data, Model, Compute, and Workflow, we\u2019ve preserved the freedom to optimize for Netflix-scale training and Netflix-specific requirements.</p><p>In the process, we\u2019ve moved post-training from a loose collection of scripts into a managed, scalable system. Whether the goal is maximizing SFT throughput, orchestrating multi-stage on-policy RL, or training transformers over member interaction sequences, the framework provides a consistent set of primitives to do so reliably and efficiently. As the field shifts toward more agentic, reasoning-heavy, and multimodal architectures, this foundation will help us translate new ideas into scalable GenAI prototypes\u200a\u2014\u200aso experimentation is constrained by our imagination, not by operational complexity.</p><h3>Acknowledgements</h3><p>This work builds on the momentum of the broader open-source ML community. We\u2019re especially grateful to the teams and contributors behind Torchtune, Torchtitan, and Verl, whose reference implementations and design patterns informed many of our training framework choices\u200a\u2014\u200aparticularly around scalable training recipes, distributed execution, and RL-oriented orchestration. We also thank our partner teams in Netflix AI for Member Systems for close collaboration, feedback, and shared problem-solving throughout the development and rollout of the Post-Training Framework, and the Training Platform team for providing the robust infrastructure and operational foundation that makes large-scale post-training possible.</p><img alt=\"\" height=\"1\" src=\"https://medium.com/_/stat?event=post.clientViewed&amp;referrerSource=full_rss&amp;postId=0046f8790194\" width=\"1\" /><hr /><p><a href=\"https://netflixtechblog.com/scaling-llm-post-training-at-netflix-0046f8790194\">Scaling LLM Post-Training at Netflix</a> was originally published in <a href=\"https://netflixtechblog.com\">Netflix TechBlog</a> on Medium, where people are continuing the conversation by highlighting and responding to this story.</p>",
+      "source": "Netflix TechBlog - Medium",
+      "published": "2026-02-13T08:05:33+00:00",
+      "type": "blog",
+      "display_category": "Top News",
+      "processed": {
+        "summary": "\n- Netflix developed a **modular post-training framework** that abstracts infrastructure (Mako, Ray, Kubernetes) to enable researchers to focus on modeling logic rather than distributed systems plumbing.\n- The architecture evolved from a simple **SPMD model for SFT** to a complex **multi-stage orchestration** for on-policy RL (e.g., GRPO), integrating the **Verl library** for actor lifecycle and resource management.\n- To ensure production parity, the system maintains a **Hugging Face-centric** approach for tokenization and checkpoints while using optimized internal model definitions validated by **autonomous AI agents and logit verifiers**.\n- Performance is optimized through **on-the-fly asynchronous sequence packing** and automatic **vocabulary padding** to ensure high-performance GPU kernel selection and maximum MFU.",
+        "key_results": [
+          "Achieved up to 4.7x token throughput improvement using on-the-fly asynchronous sequence packing for skewed datasets.",
+          "Implemented a unified model layer supporting FlexAttention and memory-efficient chunked cross-entropy.",
+          "Developed a hybrid SFT/RL workflow controller capable of managing Policy, Reward, and Reference models across a GPU mesh.",
+          "Automated the conversion of new Hugging Face architectures using AI coding agents gated by strict logit verification.",
+          "Eliminated training-serving skew by using Hugging Face AutoTokenizer as the single source of truth across the stack."
+        ],
+        "relevance_score": 9,
+        "signal_type": "Engineering Blog",
+        "one_sentence_takeaway": "Netflix builds a modular post-training framework to scale SFT and on-policy RL workflows for personalized member experiences.",
+        "lead_institution": "Netflix",
+        "tags": [
+          "Post-Training",
+          "Reinforcement Learning",
+          "Model Fine-tuning",
+          "Distributed Systems",
+          "LLM Infrastructure"
+        ]
+      }
+    },
+    {
+      "title": "UniT: Unified Multimodal Chain-of-Thought Test-time Scaling",
+      "link": "http://arxiv.org/abs/2602.12279v1",
+      "summary": "Unified models can handle both multimodal understanding and generation within a single architecture, yet they typically operate in a single pass without iteratively refining their outputs. Many multimodal tasks, especially those involving complex spatial compositions, multiple interacting objects, or evolving instructions, require decomposing instructions, verifying intermediate results, and making iterative corrections. While test-time scaling (TTS) has demonstrated that allocating additional inference compute for iterative reasoning substantially improves language model performance, extending this paradigm to unified multimodal models remains an open challenge. We introduce UniT, a framework for multimodal chain-of-thought test-time scaling that enables a single unified model to reason, verify, and refine across multiple rounds. UniT combines agentic data synthesis, unified model training, and flexible test-time inference to elicit cognitive behaviors including verification, subgoal decomposition, and content memory. Our key findings are: (1) unified models trained on short reasoning trajectories generalize to longer inference chains at test time; (2) sequential chain-of-thought reasoning provides a more scalable and compute-efficient TTS strategy than parallel sampling; (3) training on generation and editing trajectories improves out-of-distribution visual reasoning. These results establish multimodal test-time scaling as an effective paradigm for advancing both generation and understanding in unified models.",
+      "source": "ArXiv",
+      "published": "2026-02-12T18:59:49+00:00",
+      "type": "paper",
+      "display_category": "Top Paper",
+      "processed": {
+        "summary": "\n- **UniT** introduces a framework for **multimodal chain-of-thought (CoT) test-time scaling**, enabling a single unified model to perform iterative reasoning, verification, and refinement.\n- The architecture leverages **agentic data synthesis** and training on **generation/editing trajectories** to elicit complex cognitive behaviors such as subgoal decomposition and content memory.\n- The approach bridges the gap between multimodal understanding and generation by allowing the model to allocate additional **inference compute** to improve output quality.",
+        "key_results": [
+          "Models trained on short reasoning trajectories successfully generalize to longer inference chains at test time.",
+          "Sequential chain-of-thought reasoning is more compute-efficient and scalable than traditional parallel sampling strategies.",
+          "Training specifically on editing trajectories significantly improves out-of-distribution performance in visual reasoning.",
+          "Unified architectures can successfully integrate verification and refinement loops without specialized sub-models.",
+          "Increased test-time compute consistently leads to higher performance gains across both generative and discriminative multimodal tasks."
+        ],
+        "relevance_score": 9,
+        "signal_type": "Paper",
+        "one_sentence_takeaway": "ArXiv researchers introduce UniT, a unified multimodal framework that scales test-time compute through iterative reasoning to improve generation and understanding.",
+        "lead_institution": "ArXiv",
+        "tags": [
+          "Multimodal AI",
+          "Chain-of-Thought",
+          "Test-time Scaling",
+          "Reasoning Models",
+          "Generative AI"
+        ]
+      }
+    },
+    {
+      "title": "AttentionRetriever: Attention Layers are Secretly Long Document Retrievers",
+      "link": "http://arxiv.org/abs/2602.12278v1",
+      "summary": "Retrieval augmented generation (RAG) has been widely adopted to help Large Language Models (LLMs) to process tasks involving long documents. However, existing retrieval models are not designed for long document retrieval and fail to address several key challenges of long document retrieval, including context-awareness, causal dependence, and scope of retrieval. In this paper, we proposed AttentionRetriever, a novel long document retrieval model that leverages attention mechanism and entity-based retrieval to build context-aware embeddings for long document and determine the scope of retrieval. With extensive experiments, we found AttentionRetriever is able to outperform existing retrieval models on long document retrieval datasets by a large margin while remaining as efficient as dense retrieval models.",
+      "source": "ArXiv",
+      "published": "2026-02-12T18:59:35+00:00",
+      "type": "paper",
+      "display_category": "Top Paper",
+      "processed": {
+        "summary": "\n- Introduces **AttentionRetriever**, a specialized retrieval model designed to address the unique challenges of **long document processing** in RAG systems.\n- Leverages a combination of **attention mechanisms** and **entity-based retrieval** to generate high-fidelity, **context-aware embeddings**.\n- Explicitly models **causal dependence** and optimizes the scope of retrieval, allowing the system to identify relevant segments across vast document spans.\n- Maintains the **computational efficiency** of dense retrieval models while significantly increasing the precision of retrieved context for downstream LLM generation.",
+        "key_results": [
+          "Outperforms state-of-the-art retrieval models on long document datasets by a substantial margin.",
+          "Successfully addresses context-awareness issues inherent in traditional chunk-based retrieval.",
+          "Improves the handling of causal dependencies within long-form textual data.",
+          "Optimizes retrieval scope, leading to more accurate boundary detection for relevant information.",
+          "Demonstrates performance parity with dense retrieval models regarding latency and inference speed."
+        ],
+        "relevance_score": 9,
+        "signal_type": "Paper",
+        "one_sentence_takeaway": "ArXiv researchers introduce AttentionRetriever, leveraging attention mechanisms to significantly improve context-aware long document retrieval for RAG pipelines.",
+        "lead_institution": "ArXiv",
+        "tags": [
+          "RAG",
+          "Long Context",
+          "Attention Mechanism",
+          "Information Retrieval",
+          "Dense Retrieval"
+        ]
+      }
+    },
+    {
+      "title": "Agentic Test-Time Scaling for WebAgents",
+      "link": "http://arxiv.org/abs/2602.12276v1",
+      "summary": "Test-time scaling has become a standard way to improve performance and boost reliability of neural network models. However, its behavior on agentic, multi-step tasks remains less well-understood: small per-step errors can compound over long horizons; and we find that naive policies that uniformly increase sampling show diminishing returns. In this work, we present CATTS, a simple technique for dynamically allocating compute for multi-step agents. We first conduct an empirical study of inference-time scaling for web agents. We find that uniformly increasing per-step compute quickly saturates in long-horizon environments. We then investigate stronger aggregation strategies, including an LLM-based Arbiter that can outperform naive voting, but that can overrule high-consensus decisions. We show that uncertainty statistics derived from the agent's own vote distribution (entropy and top-1/top-2 margin) correlate with downstream success and provide a practical signal for dynamic compute allocation. Based on these findings, we introduce Confidence-Aware Test-Time Scaling (CATTS), which uses vote-derived uncertainty to allocate compute only when decisions are genuinely contentious. CATTS improves performance on WebArena-Lite and GoBrowse by up to 9.1% over React while using up to 2.3x fewer tokens than uniform scaling, providing both efficiency gains and an interpretable decision rule.",
+      "source": "ArXiv",
+      "published": "2026-02-12T18:58:30+00:00",
+      "type": "paper",
+      "display_category": "Top Paper",
+      "processed": {
+        "summary": "\n- Introduces **CATTS (Confidence-Aware Test-Time Scaling)**, a framework for dynamically allocating compute in multi-step **agentic environments**.\n- Investigates **uncertainty statistics** such as entropy and top-1/top-2 margins derived from agent vote distributions to signal when additional sampling is required.\n- Employs an **LLM-based Arbiter** to aggregate trajectories, mitigating the diminishing returns and **compounding errors** found in naive uniform scaling.\n- Optimizes **inference-time efficiency** by focusing computational resources only on contentious decision points rather than uniform per-step sampling.",
+        "key_results": [
+          "Improved performance on WebArena-Lite and GoBrowse by up to 9.1% over standard React baselines.",
+          "Reduced token consumption by up to 2.3x compared to naive uniform test-time scaling strategies.",
+          "Validated that agent-derived uncertainty metrics correlate strongly with downstream task success.",
+          "Demonstrated that uniform per-step compute quickly saturates and fails in long-horizon web navigation tasks.",
+          "Established that dynamic compute allocation provides an interpretable decision rule for agentic reasoning."
+        ],
+        "relevance_score": 9,
+        "signal_type": "Paper",
+        "one_sentence_takeaway": "ArXiv researchers introduce CATTS, a dynamic scaling method that improves web agent performance by 9.1% while using 2.3x fewer tokens.",
+        "lead_institution": "ArXiv",
+        "tags": [
+          "LLM Agents",
+          "Test-Time Scaling",
+          "Inference Efficiency",
+          "Web Navigation",
+          "Reasoning Models"
+        ]
+      }
+    },
+    {
+      "title": "CM2: Reinforcement Learning with Checklist Rewards for Multi-Turn and Multi-Step Agentic Tool Use",
+      "link": "http://arxiv.org/abs/2602.12268v1",
+      "summary": "AI agents are increasingly used to solve real-world tasks by reasoning over multi-turn user interactions and invoking external tools. However, applying reinforcement learning to such settings remains difficult: realistic objectives often lack verifiable rewards and instead emphasize open-ended behaviors; moreover, RL for multi-turn, multi-step agentic tool use is still underexplored; and building and maintaining executable tool environments is costly, limiting scale and coverage. We propose CM2, an RL framework that replaces verifiable outcome rewards with checklist rewards. CM2 decomposes each turn's intended behavior into fine-grained binary criteria with explicit evidence grounding and structured metadata, turning open-ended judging into more stable classification-style decisions. To balance stability and informativeness, our method adopts a strategy of sparse reward assignment but dense evaluation criteria. Training is performed in a scalable LLM-simulated tool environment, avoiding heavy engineering for large tool sets. Experiments show that CM2 consistently improves over supervised fine-tuning. Starting from an 8B Base model and training on an 8k-example RL dataset, CM2 improves over the SFT counterpart by 8 points on tau^-Bench, by 10 points on BFCL-V4, and by 12 points on ToolSandbox. The results match or even outperform similarly sized open-source baselines, including the judging model. CM2 thus provides a scalable recipe for optimizing multi-turn, multi-step tool-using agents without relying on verifiable rewards. Code provided by the open-source community: https://github.com/namezhenzhang/CM2-RLCR-Tool-Agent.",
+      "source": "ArXiv",
+      "published": "2026-02-12T18:55:09+00:00",
+      "type": "paper",
+      "display_category": "Top Paper",
+      "processed": {
+        "summary": "\n- Introduces **CM2**, a reinforcement learning framework that replaces traditional verifiable outcome rewards with **checklist rewards** to optimize multi-turn agentic behavior.\n- Decomposes complex tool-use objectives into **fine-grained binary criteria** with explicit evidence grounding, transforming open-ended judging into stable classification tasks.\n- Leverages a scalable **LLM-simulated tool environment**, bypassing the need for expensive engineering of physical executable environments for large tool sets.\n- Optimizes **Local LLMs** by balancing sparse reward assignment with dense evaluation criteria, showing superior performance over standard supervised fine-tuning (SFT).",
+        "key_results": [
+          "Improved 8B base model performance by 8 points on the tau-Bench multi-turn interaction benchmark.",
+          "Achieved a 10-point increase over SFT counterparts on the Berkeley Function Calling Leaderboard (BFCL-V4).",
+          "Boosted performance by 12 points on the ToolSandbox benchmark compared to the SFT baseline.",
+          "Demonstrated that the 8B model can match or outperform its own judging model through RL fine-tuning.",
+          "Validated scalability by training on a relatively small 8k-example RL dataset in a simulated environment."
+        ],
+        "relevance_score": 9,
+        "signal_type": "Paper",
+        "one_sentence_takeaway": "The CM2 Research Team introduces a checklist-based RL framework that significantly improves multi-turn tool use for 8B models.",
+        "lead_institution": "ArXiv Researchers",
+        "tags": [
+          "Agentic Tool Use",
+          "Reinforcement Learning",
+          "Checklist Rewards",
+          "Local LLMs",
+          "Model Fine-tuning"
+        ]
+      }
+    },
+    {
+      "title": "Think like a Scientist: Physics-guided LLM Agent for Equation Discovery",
+      "link": "http://arxiv.org/abs/2602.12259v1",
+      "summary": "Explaining observed phenomena through symbolic, interpretable formulas is a fundamental goal of science. Recently, large language models (LLMs) have emerged as promising tools for symbolic equation discovery, owing to their broad domain knowledge and strong reasoning capabilities. However, most existing LLM-based systems try to guess equations directly from data, without modeling the multi-step reasoning process that scientists often follow: first inferring physical properties such as symmetries, then using these as priors to restrict the space of candidate equations. We introduce KeplerAgent, an agentic framework that explicitly follows this scientific reasoning process. The agent coordinates physics-based tools to extract intermediate structure and uses these results to configure symbolic regression engines such as PySINDy and PySR, including their function libraries and structural constraints. Across a suite of physical equation benchmarks, KeplerAgent achieves substantially higher symbolic accuracy and greater robustness to noisy data than both LLM and traditional baselines.",
+      "source": "ArXiv",
+      "published": "2026-02-12T18:49:27+00:00",
+      "type": "paper",
+      "display_category": "Top Paper",
+      "processed": {
+        "summary": "\n- Introduces **KeplerAgent**, an agentic framework designed to automate **symbolic equation discovery** by mimicking human scientific reasoning.\n- Features a **Multi-step Reasoning** architecture that first identifies physical properties like symmetries to constrain the mathematical search space.\n- Integrates **LLM-based control** with specialized symbolic regression tools such as **PySINDy and PySR** to refine function libraries and structural constraints.\n- Demonstrates a significant shift from direct data-to-equation guessing toward **physics-guided inference**, enhancing interpretability and reliability.",
+        "key_results": [
+          "Achieved substantially higher symbolic accuracy than traditional symbolic regression baselines.",
+          "Demonstrated superior robustness when processing noisy physical datasets compared to direct LLM approaches.",
+          "Successfully used LLMs to extract intermediate physical structures as priors for the discovery process.",
+          "Efficiently automated the configuration of function libraries for specialized regression engines.",
+          "Validated performance across a comprehensive suite of physical equation benchmarks."
+        ],
+        "relevance_score": 9,
+        "signal_type": "Paper",
+        "one_sentence_takeaway": "KeplerAgent researchers introduce an agentic framework that uses physics-guided reasoning to significantly improve symbolic equation discovery accuracy.",
+        "lead_institution": "ArXiv",
+        "tags": [
+          "LLM Agents",
+          "Symbolic Regression",
+          "Physics-AI",
+          "Reasoning Models",
+          "Scientific Discovery"
+        ]
+      }
+    },
+    {
+      "title": "ExtractBench: A Benchmark and Evaluation Methodology for Complex Structured Extraction",
+      "link": "http://arxiv.org/abs/2602.12247v1",
+      "summary": "Unstructured documents like PDFs contain valuable structured information, but downstream systems require this data in reliable, standardized formats. LLMs are increasingly deployed to automate this extraction, making accuracy and reliability paramount. However, progress is bottlenecked by two gaps. First, no end-to-end benchmark evaluates PDF-to-JSON extraction under enterprise-scale schema breadth. Second, no principled methodology captures the semantics of nested extraction, where fields demand different notions of correctness (exact match for identifiers, tolerance for quantities, semantic equivalence for names), arrays require alignment, and omission must be distinguished from hallucination. We address both gaps with ExtractBench, an open-source benchmark and evaluation framework for PDF-to-JSON structured extraction. The benchmark pairs 35 PDF documents with JSON Schemas and human-annotated gold labels across economically valuable domains, yielding 12,867 evaluatable fields spanning schema complexities from tens to hundreds of fields. The evaluation framework treats the schema as an executable specification: each field declares its scoring metric. Baseline evaluations reveal that frontier models (GPT-5/5.2, Gemini-3 Flash/Pro, Claude 4.5 Opus/Sonnet) remain unreliable on realistic schemas. Performance degrades sharply with schema breadth, culminating in 0% valid output on a 369-field financial reporting schema across all tested models. We release ExtractBench at https://github.com/ContextualAI/extract-bench.",
+      "source": "ArXiv",
+      "published": "2026-02-12T18:31:37+00:00",
+      "type": "paper",
+      "display_category": "Top Paper",
+      "processed": {
+        "summary": "\n \u2022 Introduces **ExtractBench**, an open-source benchmark for evaluating **PDF-to-JSON structured extraction** using human-annotated gold labels across complex enterprise domains.\n \u2022 Employs an **executable specification** methodology where JSON schemas declare field-specific metrics, enabling precise evaluation of nested structures, numeric tolerances, and semantic equivalence.\n \u2022 Bridges the gap between academic benchmarks and enterprise needs by testing **schema breadth**, featuring datasets with hundreds of fields to evaluate model reliability at scale.\n \u2022 Evaluates current **frontier models** (such as GPT-5 and Claude 4.5) to identify critical failure points in alignment, omission, and hallucination during high-density extraction tasks.",
+        "key_results": [
+          "Evaluated 35 documents and 12,867 fields across economically valuable domains.",
+          "Performance scales inversely with schema complexity, dropping significantly as field count increases.",
+          "Frontier models achieved 0% valid output on a high-density 369-field financial reporting schema.",
+          "Established a framework to distinguish between field omission and hallucination in nested arrays.",
+          "Provided a standardized methodology for alignment-based scoring of structured JSON outputs."
+        ],
+        "relevance_score": 9,
+        "signal_type": "Paper",
+        "one_sentence_takeaway": "Contextual AI introduces ExtractBench, proving that current frontier models fail to accurately extract data into large-scale enterprise JSON schemas.",
+        "lead_institution": "Contextual AI",
+        "tags": [
+          "Structured Extraction",
+          "LLM Evaluation",
+          "Document AI",
+          "JSON Schema",
+          "Benchmark"
+        ]
+      }
+    },
+    {
+      "title": "Best of Both Worlds: Multimodal Reasoning and Generation via Unified Discrete Flow Matching",
+      "link": "http://arxiv.org/abs/2602.12221v1",
+      "summary": "We propose UniDFlow, a unified discrete flow-matching framework for multimodal understanding, generation, and editing. It decouples understanding and generation via task-specific low-rank adapters, avoiding objective interference and representation entanglement, while a novel reference-based multimodal preference alignment optimizes relative outcomes under identical conditioning, improving faithfulness and controllability without large-scale retraining. UniDFlpw achieves SOTA performance across eight benchmarks and exhibits strong zero-shot generalization to tasks including inpainting, in-context image generation, reference-based editing, and compositional generation, despite no explicit task-specific training.",
+      "source": "ArXiv",
+      "published": "2026-02-12T17:59:08+00:00",
+      "type": "paper",
+      "display_category": "Top Paper",
+      "processed": {
+        "summary": "\n- **UniDFlow** introduces a unified discrete flow-matching framework that bridges multimodal understanding, generation, and editing within a single architecture.\n- The system utilizes **task-specific low-rank adapters** to decouple reasoning and generation objectives, preventing representation entanglement and training interference.\n- A novel **reference-based multimodal preference alignment** strategy optimizes model outcomes under identical conditioning, significantly improving faithfulness and controllability.",
+        "key_results": [
+          "Achieved SOTA performance across eight diverse multimodal benchmarks.",
+          "Strong zero-shot generalization for complex tasks like inpainting and in-context image generation.",
+          "Effective isolation of understanding and generation tasks using adapter-based decoupling.",
+          "Enhanced controllability in compositional generation without large-scale retraining.",
+          "Successful implementation of discrete flow matching for high-fidelity multimodal outputs."
+        ],
+        "relevance_score": 9,
+        "signal_type": "Paper",
+        "one_sentence_takeaway": "The UniDFlow authors introduce a unified discrete flow-matching framework to optimize multimodal reasoning and generation performance simultaneously.",
+        "lead_institution": "ArXiv",
+        "tags": [
+          "Multimodal AI",
+          "Flow Matching",
+          "Preference Alignment",
+          "Reasoning Models",
+          "Generative AI"
+        ]
+      }
+    },
+    {
+      "title": "DeepGen 1.0: A Lightweight Unified Multimodal Model for Advancing Image Generation and Editing",
+      "link": "http://arxiv.org/abs/2602.12205v1",
+      "summary": "Current unified multimodal models for image generation and editing typically rely on massive parameter scales (e.g., >10B), entailing prohibitive training costs and deployment footprints. In this work, we present DeepGen 1.0, a lightweight 5B unified model that achieves comprehensive capabilities competitive with or surpassing much larger counterparts. To overcome the limitations of compact models in semantic understanding and fine-grained control, we introduce Stacked Channel Bridging (SCB), a deep alignment framework that extracts hierarchical features from multiple VLM layers and fuses them with learnable 'think tokens' to provide the generative backbone with structured, reasoning-rich guidance. We further design a data-centric training strategy spanning three progressive stages: (1) Alignment Pre-training on large-scale image-text pairs and editing triplets to synchronize VLM and DiT representations, (2) Joint Supervised Fine-tuning on a high-quality mixture of generation, editing, and reasoning tasks to foster omni-capabilities, and (3) Reinforcement Learning with MR-GRPO, which leverages a mixture of reward functions and supervision signals, resulting in substantial gains in generation quality and alignment with human preferences, while maintaining stable training progress and avoiding visual artifacts. Despite being trained on only ~50M samples, DeepGen 1.0 achieves leading performance across diverse benchmarks, surpassing the 80B HunyuanImage by 28% on WISE and the 27B Qwen-Image-Edit by 37% on UniREditBench. By open-sourcing our training code, weights, and datasets, we provide an efficient, high-performance alternative to democratize unified multimodal research.",
+      "source": "ArXiv",
+      "published": "2026-02-12T17:44:24+00:00",
+      "type": "paper",
+      "display_category": "Top Paper",
+      "processed": {
+        "summary": "\n- Introduces **DeepGen 1.0**, a 5B parameter unified multimodal model that challenges the dominance of massive (>10B) architectures in image generation and editing.\n- Features the **Stacked Channel Bridging (SCB)** framework, which aligns hierarchical VLM features with learnable **'think tokens'** to provide reasoning-rich guidance to the generative backbone.\n- Implements a three-stage training strategy: **Alignment Pre-training**, **Joint Supervised Fine-tuning (SFT)**, and **Reinforcement Learning (MR-GRPO)** for human preference alignment.\n- Open-sources weights, datasets, and code to democratize access to high-performance, **lightweight DiT-based** multimodal models.",
+        "key_results": [
+          "Outperforms the 80B HunyuanImage by 28% on the WISE benchmark despite having 1/16th the parameters.",
+          "Surpasses the 27B Qwen-Image-Edit by 37% on UniREditBench, demonstrating superior instruction following in editing.",
+          "Achieves state-of-the-art performance using a relatively small training set of only ~50M samples.",
+          "MR-GRPO RL strategy significantly improves visual quality and alignment while maintaining training stability.",
+          "Successfully unifies image generation, editing, and reasoning within a single compact 5B parameter footprint."
+        ],
+        "relevance_score": 9,
+        "signal_type": "Paper",
+        "one_sentence_takeaway": "DeepGen researchers introduce DeepGen 1.0, a 5B model that outperforms 80B alternatives in unified image generation and editing.",
+        "lead_institution": "DeepGen Team",
+        "tags": [
+          "Multimodal AI",
+          "Generative AI Trends",
+          "Model Efficiency",
+          "Reinforcement Learning",
+          "Diffusion Transformers"
+        ]
+      }
+    },
+    {
+      "title": "MalTool: Malicious Tool Attacks on LLM Agents",
+      "link": "http://arxiv.org/abs/2602.12194v1",
+      "summary": "In a malicious tool attack, an attacker uploads a malicious tool to a distribution platform; once a user installs the tool and the LLM agent selects it during task execution, the tool can compromise the user's security and privacy. Prior work primarily focuses on manipulating tool names and descriptions to increase the likelihood of installation by users and selection by LLM agents. However, a successful attack also requires embedding malicious behaviors in the tool's code implementation, which remains largely unexplored.\n  In this work, we bridge this gap by presenting the first systematic study of malicious tool code implementations. We first propose a taxonomy of malicious tool behaviors based on the confidentiality-integrity-availability triad, tailored to LLM-agent settings. To investigate the severity of the risks posed by attackers exploiting coding LLMs to automatically generate malicious tools, we develop MalTool, a coding-LLM-based framework that synthesizes tools exhibiting specified malicious behaviors, either as standalone tools or embedded within otherwise benign implementations. To ensure functional correctness and structural diversity, MalTool leverages an automated verifier that validates whether generated tools exhibit the intended malicious behaviors and differ sufficiently from prior instances, iteratively refining generations until success. Our evaluation demonstrates that MalTool is highly effective even when coding LLMs are safety-aligned. Using MalTool, we construct two datasets of malicious tools: 1,200 standalone malicious tools and 5,287 real-world tools with embedded malicious behaviors. We further show that existing detection methods, including commercial malware detection approaches such as VirusTotal and methods tailored to the LLM-agent setting, exhibit limited effectiveness at detecting the malicious tools, highlighting an urgent need for new defenses.",
+      "source": "ArXiv",
+      "published": "2026-02-12T17:27:43+00:00",
+      "type": "paper",
+      "display_category": "Top Paper",
+      "processed": {
+        "summary": "\n- The researchers introduce a **taxonomy of malicious tool behaviors** for LLM agents, categorized by the confidentiality-integrity-availability (CIA) triad.\n- They develop **MalTool**, an automated framework that leverages coding LLMs to synthesize malicious tool implementations, either as standalone scripts or **embedded within benign code**.\n- The architecture includes an **automated verifier** that iteratively refines the generated code to ensure functional correctness and high **structural diversity**, specifically designed to bypass static analysis.",
+        "key_results": [
+          "Synthesized a dataset of 1,200 standalone malicious tools and 5,287 real-world tools with embedded malicious logic.",
+          "Demonstrated that safety-aligned LLMs can be successfully prompted to generate sophisticated malicious tools.",
+          "Found that commercial antivirus solutions like VirusTotal are largely ineffective at detecting these LLM-generated tools.",
+          "Confirmed that current agent-specific defenses fail to identify malicious behaviors hidden within functional code implementations.",
+          "Established that automated refinement significantly increases the likelihood of an attack tool's selection by target LLM agents."
+        ],
+        "relevance_score": 9,
+        "signal_type": "Paper",
+        "one_sentence_takeaway": "ArXiv researchers introduce MalTool, a framework demonstrating how coding LLMs can autonomously generate stealthy, malicious tools for LLM agents.",
+        "lead_institution": "ArXiv researchers",
+        "tags": [
+          "LLM Agents",
+          "AI Security",
+          "Code Generation",
+          "Red Teaming",
+          "Cybersecurity"
+        ]
+      }
+    },
+    {
+      "title": "Pedagogically-Inspired Data Synthesis for Language Model Knowledge Distillation",
+      "link": "http://arxiv.org/abs/2602.12172v1",
+      "summary": "Knowledge distillation from Large Language Models (LLMs) to smaller models has emerged as a critical technique for deploying efficient AI systems. However, current methods for distillation via synthetic data lack pedagogical awareness, treating knowledge transfer as a one-off data synthesis and training task rather than a systematic learning process. In this paper, we propose a novel pedagogically-inspired framework for LLM knowledge distillation that draws from fundamental educational principles. Our approach introduces a three-stage pipeline -- Knowledge Identifier, Organizer, and Adapter (IOA) -- that systematically identifies knowledge deficiencies in student models, organizes knowledge delivery through progressive curricula, and adapts representations to match the cognitive capacity of student models. We integrate Bloom's Mastery Learning Principles and Vygotsky's Zone of Proximal Development to create a dynamic distillation process where student models approach teacher model's performance on prerequisite knowledge before advancing, and new knowledge is introduced with controlled, gradual difficulty increments. Extensive experiments using LLaMA-3.1/3.2 and Qwen2.5 as student models demonstrate that IOA achieves significant improvements over baseline distillation methods, with student models retaining 94.7% of teacher performance on DollyEval while using less than 1/10th of the parameters. Our framework particularly excels in complex reasoning tasks, showing 19.2% improvement on MATH and 22.3% on HumanEval compared with state-of-the-art baselines.",
+      "source": "ArXiv",
+      "published": "2026-02-12T17:00:36+00:00",
+      "type": "paper",
+      "display_category": "Top Paper",
+      "processed": {
+        "summary": "\n- Introduces the **IOA Framework** (Identifier, Organizer, Adapter), a three-stage pipeline that treats knowledge distillation as a systematic pedagogical process rather than a static data transfer task.\n- Integrates **Bloom's Mastery Learning** and **Vygotsky's Zone of Proximal Development** to create a dynamic curriculum where new knowledge is introduced based on the student's current proficiency.\n- Employs a **Knowledge Adapter** to align complex teacher representations with the cognitive capacity of smaller models, ensuring more effective learning for **SLMs**.\n- Demonstrates high efficiency in **Reasoning Models**, specifically targeting performance gaps in mathematical and coding tasks for local deployments.",
+        "key_results": [
+          "Student models retained 94.7% of teacher performance on DollyEval using less than 1/10th of the parameters.",
+          "Achieved a 19.2% improvement on the MATH benchmark compared to state-of-the-art distillation baselines.",
+          "Showed a 22.3% performance boost on HumanEval for code generation tasks.",
+          "Validated framework effectiveness across LLaMA-3.1, LLaMA-3.2, and Qwen2.5 architectures.",
+          "Proved that progressive curricula significantly outperform one-off synthetic data training for complex reasoning."
+        ],
+        "relevance_score": 9,
+        "signal_type": "Paper",
+        "one_sentence_takeaway": "ArXiv researchers introduce IOA, a pedagogically-driven framework that improves SLM reasoning performance through progressive, curriculum-based knowledge distillation.",
+        "lead_institution": "ArXiv",
+        "tags": [
+          "Knowledge Distillation",
+          "Model Fine-tuning",
+          "Reasoning Models",
+          "Small Language Models",
+          "Curriculum Learning"
+        ]
+      }
+    },
+    {
+      "title": "STAR : Bridging Statistical and Agentic Reasoning for Large Model Performance Prediction",
+      "link": "http://arxiv.org/abs/2602.12143v1",
+      "summary": "As comprehensive large model evaluation becomes prohibitively expensive, predicting model performance from limited observations has become essential. However, existing statistical methods struggle with pattern shifts, data sparsity, and lack of explanation, while pure LLM methods remain unreliable. We propose STAR, a framework that bridges data-driven STatistical expectations with knowledge-driven Agentic Reasoning. STAR leverages specialized retrievers to gather external knowledge and embeds semantic features into Constrained Probabilistic Matrix Factorization (CPMF) to generate statistical expectations with uncertainty. A reasoning module guided by Expectation Violation Theory (EVT) then refines predictions through intra-family analysis, cross-model comparison, and credibility-aware aggregation, producing adjustments with traceable explanations. Extensive experiments show that STAR consistently outperforms all baselines on both score-based and rank-based metrics, delivering a 14.46% gain in total score over the strongest statistical method under extreme sparsity, with only 1--2 observed scores per test model.",
+      "source": "ArXiv",
+      "published": "2026-02-12T16:30:07+00:00",
+      "type": "paper",
+      "display_category": "Top Paper",
+      "processed": {
+        "summary": "\n\u2022 Proposes **STAR**, a hybrid framework that bridges **Constrained Probabilistic Matrix Factorization (CPMF)** with agentic reasoning to predict large model performance.\n\u2022 Integrates **semantic feature embeddings** and specialized retrievers to ground statistical predictions in external knowledge, addressing the issue of data sparsity.\n\u2022 Employs a reasoning module based on **Expectation Violation Theory (EVT)** to perform intra-family and cross-model analysis for traceable prediction adjustments.\n\u2022 Demonstrates significant efficiency by providing accurate performance forecasts with only **1\u20132 observed scores** per test model.",
+        "key_results": [
+          "Achieved a 14.46% improvement in total score over the strongest statistical baseline under extreme sparsity.",
+          "Successfully predicted model performance using as few as 1-2 observed data points.",
+          "Validated the effectiveness of combining data-driven statistical expectations with knowledge-driven agentic reasoning.",
+          "Outperformed all baseline methods across both score-based and rank-based evaluation metrics.",
+          "Provided a framework for generating explainable performance adjustments rather than black-box statistical outputs."
+        ],
+        "relevance_score": 9,
+        "signal_type": "Paper",
+        "one_sentence_takeaway": "ArXiv researchers introduce STAR, a hybrid framework bridging statistical expectations and agentic reasoning to predict model performance from minimal observations.",
+        "lead_institution": "ArXiv",
+        "tags": [
+          "AI Evaluation",
+          "LLM Agents",
+          "Reasoning Models",
+          "Performance Prediction",
+          "Generative AI"
+        ]
+      }
+    },
+    {
+      "title": "WavBench: Benchmarking Reasoning, Colloquialism, and Paralinguistics for End-to-End Spoken Dialogue Models",
+      "link": "http://arxiv.org/abs/2602.12135v1",
+      "summary": "With the rapid integration of advanced reasoning capabilities into spoken dialogue models, the field urgently demands benchmarks that transcend simple interactions to address real-world complexity. However, current evaluations predominantly adhere to text-generation standards, overlooking the unique audio-centric characteristics of paralinguistics and colloquialisms, alongside the cognitive depth required by modern agents. To bridge this gap, we introduce WavBench, a comprehensive benchmark designed to evaluate realistic conversational abilities where prior works fall short. Uniquely, WavBench establishes a tripartite framework: 1) Pro subset, designed to rigorously challenge reasoning-enhanced models with significantly increased difficulty; 2) Basic subset, defining a novel standard for spoken colloquialism that prioritizes \"listenability\" through natural vocabulary, linguistic fluency, and interactive rapport, rather than rigid written accuracy; and 3) Acoustic subset, covering explicit understanding, generation, and implicit dialogue to rigorously evaluate comprehensive paralinguistic capabilities within authentic real-world scenarios. Through evaluating five state-of-the-art models, WavBench offers critical insights into the intersection of complex problem-solving, colloquial delivery, and paralinguistic fidelity, guiding the evolution of robust spoken dialogue models. The benchmark dataset and evaluation toolkit are available at https://naruto-2024.github.io/wavbench.github.io/.",
+      "source": "ArXiv",
+      "published": "2026-02-12T16:22:11+00:00",
+      "type": "paper",
+      "display_category": "Top Paper",
+      "processed": {
+        "summary": "- Introduces **WavBench**, a tripartite framework designed to benchmark **End-to-End Spoken Dialogue Models** across reasoning, colloquialism, and paralinguistic dimensions.\n- Features a **Pro subset** specifically designed to challenge the cognitive depth and complex problem-solving capabilities of reasoning-enhanced audio agents.\n- Shifts focus from rigid text accuracy to **listenability** through a Basic subset that prioritizes natural vocabulary, interactive rapport, and linguistic fluency.\n- Integrates an **Acoustic subset** to evaluate explicit and implicit paralinguistic understanding, ensuring models can handle authentic real-world audio nuances.",
+        "key_results": [
+          "Established a tripartite evaluation standard: Pro (Reasoning), Basic (Colloquialism), and Acoustic (Paralinguistics).",
+          "Identified significant performance gaps in five state-of-the-art models when processing complex audio-centric reasoning.",
+          "Defined 'listenability' as a novel metric for evaluating spoken fluency over traditional written accuracy.",
+          "Validated the necessity of evaluating implicit paralinguistic cues in authentic dialogue scenarios.",
+          "Released a comprehensive open-source dataset and evaluation toolkit to standardize spoken AI benchmarking."
+        ],
+        "relevance_score": 9,
+        "signal_type": "Paper",
+        "one_sentence_takeaway": "The WavBench Researchers introduce a tripartite benchmark to evaluate reasoning, colloquialism, and paralinguistic fidelity in advanced spoken dialogue models.",
+        "lead_institution": "WavBench Research Team",
+        "tags": [
+          "Multimodal AI",
+          "Spoken Dialogue Models",
+          "AI Evaluation",
+          "Reasoning Models",
+          "Speech Processing"
+        ]
+      }
+    },
+    {
+      "title": "Learning beyond Teacher: Generalized On-Policy Distillation with Reward Extrapolation",
+      "link": "http://arxiv.org/abs/2602.12125v1",
+      "summary": "On-policy distillation (OPD), which aligns the student with the teacher's logit distribution on student-generated trajectories, has demonstrated strong empirical gains in improving student performance and often outperforms off-policy distillation and reinforcement learning (RL) paradigms. In this work, we first theoretically show that OPD is a special case of dense KL-constrained RL where the reward function and the KL regularization are always weighted equally and the reference model can by any model. Then, we propose the Generalized On-Policy Distillation (G-OPD) framework, which extends the standard OPD objective by introducing a flexible reference model and a reward scaling factor that controls the relative weight of the reward term against the KL regularization. Through comprehensive experiments on math reasoning and code generation tasks, we derive two novel insights: (1) Setting the reward scaling factor to be greater than 1 (i.e., reward extrapolation), which we term ExOPD, consistently improves over standard OPD across a range of teacher-student size pairings. In particular, in the setting where we merge the knowledge from different domain experts, obtained by applying domain-specific RL to the same student model, back into the original student, ExOPD enables the student to even surpass the teacher's performance boundary and outperform the domain teachers. (2) Building on ExOPD, we further find that in the strong-to-weak distillation setting (i.e., distilling a smaller student from a larger teacher), performing reward correction by choosing the reference model as the teacher's base model before RL yields a more accurate reward signal and further improves distillation performance. However, this choice assumes access to the teacher's pre-RL variant and incurs more computational overhead. We hope our work offers new insights for future research on OPD.",
+      "source": "ArXiv",
+      "published": "2026-02-12T16:14:29+00:00",
+      "type": "paper",
+      "display_category": "Top Paper",
+      "processed": {
+        "summary": "\n- Proposes **Generalized On-Policy Distillation (G-OPD)**, a theoretical framework that reformulates standard distillation as a specific case of **KL-constrained Reinforcement Learning**.\n- Introduces **ExOPD (Reward Extrapolation)**, a technique that uses a reward scaling factor greater than 1 to enable student models to surpass the performance of their teachers.\n- Implements a flexible **reference model** strategy for **strong-to-weak distillation**, using the teacher's pre-RL base model to provide more accurate reward signals.\n- Demonstrates a method for **knowledge merging** where a student model integrates expertise from multiple domain-specific teachers to exceed the original teacher's capabilities.",
+        "key_results": [
+          "Theoretically proved that standard On-Policy Distillation is a subset of dense KL-constrained RL.",
+          "ExOPD consistently outperformed standard OPD across all tested teacher-student size configurations.",
+          "Student models achieved performance higher than the original teachers through reward extrapolation.",
+          "Reward correction using teacher base models significantly improved results in math and coding tasks.",
+          "The G-OPD framework successfully merged disparate domain expert knowledge into a single superior student model."
+        ],
+        "relevance_score": 9,
+        "signal_type": "Paper",
+        "one_sentence_takeaway": "ArXiv researchers introduce G-OPD, allowing student models to exceed teacher performance via reward extrapolation and optimized reference models.",
+        "lead_institution": "ArXiv",
+        "tags": [
+          "Model Distillation",
+          "Reinforcement Learning",
+          "Reasoning Models",
+          "Model Fine-tuning",
+          "On-Policy Learning"
+        ]
+      }
+    }
+  ]
+}
