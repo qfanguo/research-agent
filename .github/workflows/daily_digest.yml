@@ -57,7 +57,7 @@ jobs:
         subject: "Daily Research Agent Digest"
         to: ${{ secrets.EMAIL_RECIPIENT }}
         from: ${{ secrets.EMAIL_USERNAME }}
-        html_body: file://daily_digest.html
+        html_body: file://${{ github.workspace }}/daily_digest.html
         ignore_cert: true
         convert_markdown: true
 
