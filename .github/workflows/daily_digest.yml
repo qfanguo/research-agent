@@ -67,6 +67,7 @@ jobs:
 
     - name: Commit and Push Backlog
       run: |
+        git config --global user.name 'Research Agent Bot'
         git config --global user.email 'bot@example.com'
         git add -f backlog.json
         # Only commit if there are changes
