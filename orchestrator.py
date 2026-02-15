@@ -53,9 +53,9 @@ async def main():
     cleanup_old_logs()
 
     weekday = datetime.datetime.now().weekday()
-    is_weekend = (weekday == 5)
+    is_weekend = (weekday == 5 or weekday == 6)
     
-    print(f"Day is {weekday} (Is Weekend/Saturday mode: {is_weekend})")
+    print(f"Day is {weekday} (Is Weekend mode: {is_weekend})")
 
     # 1. Fetch
     print("Stage 1: Fetching content in parallel...")
@@ -63,24 +63,20 @@ async def main():
     raw_items = await fetcher.fetch_all()
     print(f"Fetched {len(raw_items)} items.")
 
-    if not raw_items and not is_weekend:
-        print("No items found and not weekend. Generating empty digest.")
-        # Generate an empty digest file so email can still be sent
-        designer = Designer()
-        html_content = designer.render(
-            data={'detailed_items': [], 'items': [], 'signals': []}, 
-            global_summary="No content found today.", 
-            trending_info=None
-        )
-        output_file = "daily_digest.html"
-        with open(output_file, "w") as f:
-            f.write(html_content)
-        print(f"Empty digest generated at {output_file}")
-        return
-    
     if not raw_items:
-        print("No new items fetched, but proceeding to curation (check backlog)...")
-        processed_items = []
+        # Check if backlog has anything before giving up, on any day
+        curator = Curator()
+        backlog = curator.load_backlog()
+        if not backlog:
+            print("No new items and empty backlog. Skipping email.")
+            # Remove daily_digest.html if it exists from a previous run to avoid sending stale content
+            if os.path.exists("daily_digest.html"):
+                os.remove("daily_digest.html")
+            return
+        else:
+            print(f"No new items, but {len(backlog)} items in backlog. Proceeding.")
+            processed_items = []
+            processor = Processor()
     else:
         # 2. Process (Summarize & Score)
         print("Stage 2: Processing content with Gemini in parallel...")

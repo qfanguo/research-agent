@@ -24,31 +24,25 @@ class Curator:
         """
         Curates items based on relevance and day of the week.
         """
-        # Load backlog if weekend
-        backlog = self.load_backlog() if is_weekend else []
+        # Load backlog - now always load it to allow quiet day recovery on weekdays
+        backlog = self.load_backlog()
         
-        # Combine current items with backlog if it's the weekend or we need to manage backlog
-        # First, deduplicate all available items (current + backlog) by link
-        all_pool_raw = items + (backlog if is_weekend else backlog) # Always consider backlog for potential cleanup? No, usually we just append.
-        # Let's simple: 
-        # Weekday: pool = items. Backlog remains (will be appended to).
-        # Weekend: pool = items + backlog. Backlog cleared.
+        # Combine current items with backlog
+        all_pool_raw = items + backlog
         
         all_pool = []
         seen_links = set()
         
-        # Merge items and backlog
-        # Items are current fetches, backlog is older stuff
+        # Merge items and backlog, prioritizing new items
         for item in items:
             if isinstance(item, dict) and item.get('link') not in seen_links:
                 all_pool.append(item)
                 seen_links.add(item['link'])
         
-        if is_weekend:
-            for item in backlog:
-                if isinstance(item, dict) and item.get('link') not in seen_links:
-                    all_pool.append(item)
-                    seen_links.add(item['link'])
+        for item in backlog:
+            if isinstance(item, dict) and item.get('link') not in seen_links:
+                all_pool.append(item)
+                seen_links.add(item['link'])
         
         # Filter by minimal relevance to reduce noise
         valid_items = []
@@ -57,7 +51,7 @@ class Curator:
                 continue
             
             processed = i.get('processed', {})
-            # CRITICAL FIX: Ensure 'processed' is a dict. Sometimes AI returns a singleton list.
+            # CRITICAL FIX: Ensure 'processed' is a dict
             if isinstance(processed, list) and len(processed) > 0:
                 processed = processed[0]
             
@@ -66,7 +60,6 @@ class Curator:
                 
             score = processed.get('relevance_score', 0)
             if score >= 4:
-                # Update item with the possibly flattened dict to avoid issues later
                 i['processed'] = processed
                 valid_items.append(i)
         
@@ -78,7 +71,7 @@ class Curator:
             # 1. Trending Topics (Highest scores) - Max 30 candidates
             selected = valid_items[:30]
             
-            # Clear backlog
+            # Clear backlog on weekend
             self.save_backlog([])
             
             # High-Fidelity V3 Categorization (Weekend)
@@ -100,17 +93,14 @@ class Curator:
         else:
             # Weekday Strategy: Max 15 items total pool.
             selected_pool = valid_items[:15]
-            unselected_for_backlog = valid_items[15:]
             
-            # Add unselected valid items to backlog
-            existing_backlog = self.load_backlog()
-            current_links = {i['link'] for i in existing_backlog}
-            new_backlog = existing_backlog
-            for item in unselected_for_backlog:
-                if item.get('link') not in current_links:
-                    new_backlog.append(item)
-                    current_links.add(item['link'])
+            # The new backlog should be all valid items that were NOT selected
+            # Plus any items that were below the score threshold but already in backlog (to keep them for later)
+            selected_links = {item['link'] for item in selected_pool}
+            new_backlog = [item for item in all_pool if item['link'] not in selected_links]
             
+            # Limit backlog size to prevent bloat (e.g. max 100 items)
+            new_backlog = new_backlog[:100]
             self.save_backlog(new_backlog)
             
             # High-Fidelity V3 Categorization (Weekday)
