@@ -1,1 +1,212 @@
-[]
+[
+  {
+    "title": "Anthropic opens Bengaluru office and announces new partnerships across India",
+    "link": "https://www.anthropic.com/news/bengaluru-office-partnerships-across-india",
+    "summary": "Anthropic opens Bengaluru office and announces new partnerships across India",
+    "source": "Anthropic News",
+    "published": "2026-02-16T00:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n\u2022 **Anthropic** establishes a physical presence in **Bengaluru**, India, to leverage the region's significant pool of machine learning and engineering talent.\n\u2022 The expansion focuses on fostering **strategic partnerships** with local Indian enterprises to integrate the Claude model family into regional workflows.\n\u2022 This geographic shift aims to provide **localized enterprise support** and accelerate the deployment of generative AI solutions across the Indian tech ecosystem.",
+      "key_results": [
+        "Established first physical office in Bengaluru, India.",
+        "Formalized new partnerships with leading Indian technology firms.",
+        "Increased focus on regional talent recruitment for AI development.",
+        "Expansion of enterprise support services for the Claude model suite.",
+        "Strategic positioning in one of the world's largest developer ecosystems."
+      ],
+      "relevance_score": 2,
+      "signal_type": "Release",
+      "one_sentence_takeaway": "Anthropic opens a new Bengaluru office and forms strategic partnerships to expand Claude's enterprise presence across India.",
+      "lead_institution": "Anthropic",
+      "tags": [
+        "Anthropic",
+        "Claude",
+        "India AI",
+        "Enterprise Adoption",
+        "Global Expansion"
+      ]
+    }
+  },
+  {
+    "title": "New SemiAnalysis InferenceX Data Shows NVIDIA Blackwell Ultra Delivers up to 50x Better Performance and 35x Lower Costs for Agentic AI",
+    "link": "https://blogs.nvidia.com/blog/data-blackwell-ultra-performance-lower-cost-agentic-ai/",
+    "summary": "The NVIDIA Blackwell platform has been widely adopted by leading inference providers such as Baseten, DeepInfra, Fireworks AI and Together AI to reduce cost per token by up to 10x. Now, the NVIDIA Blackwell Ultra platform is taking this momentum further for agentic AI. AI agents and coding assistants are driving explosive growth in software-programming-related\t<a class=\"read-more\" href=\"https://blogs.nvidia.com/blog/data-blackwell-ultra-performance-lower-cost-agentic-ai/\">\n\t\tRead Article\t\t<span></span>\n\t</a>",
+    "source": "NVIDIA Blog",
+    "published": "2026-02-16T17:00:40+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- The **NVIDIA Blackwell Ultra** platform introduces architectural enhancements specifically tuned for the high-concurrency demands of **Agentic AI** and autonomous coding assistants.\n- The platform achieves significant cost efficiencies, delivering up to a **10x reduction in cost per token** across major inference providers like Fireworks AI and Together AI.\n- New performance data from **SemiAnalysis InferenceX** indicates the hardware can sustain massive throughput for the iterative loops required by **generative AI agents**.\n- The release focuses on reducing the **total cost of ownership (TCO)** while scaling the compute requirements for complex, multi-step reasoning tasks.",
+      "key_results": [
+        "Delivers up to 50x better performance for agentic AI workloads compared to prior generations.",
+        "Reduces operational costs for agentic AI by up to 35x.",
+        "Enables a 10x lower cost per token for serverless inference partners.",
+        "Validated by SemiAnalysis InferenceX benchmarking data.",
+        "Rapid adoption by leading providers including Baseten, DeepInfra, and Together AI."
+      ],
+      "relevance_score": 3,
+      "signal_type": "Release",
+      "one_sentence_takeaway": "NVIDIA launches Blackwell Ultra to deliver 50x performance gains and 35x lower costs for complex agentic AI applications.",
+      "lead_institution": "NVIDIA",
+      "tags": [
+        "Blackwell Ultra",
+        "Agentic AI",
+        "Inference Performance",
+        "LLM Hardware",
+        "GPU Architecture"
+      ]
+    }
+  },
+  {
+    "title": "Canada Gives U.S. Arms Makers the Cold Shoulder on Military Spending",
+    "link": "https://www.nytimes.com/2026/02/15/world/canada/canada-military-spending.html",
+    "summary": "<p>Article URL: <a href=\"https://www.nytimes.com/2026/02/15/world/canada/canada-military-spending.html\">https://www.nytimes.com/2026/02/15/world/canada/canada-military-spending.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47029446\">https://news.ycombinator.com/item?id=47029446</a></p>\n<p>Points: 65</p>\n<p># Comments: 11</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-02-16T00:41:43+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- **Geopolitical procurement strategy** shift by Canada involves a move away from traditional reliance on U.S.-based defense contractors.\n- Impact on **defense industry architecture** centers on diversifying supply chains and prioritizing domestic or non-U.S. international partnerships.\n- The strategy reflects a broader trend of **national sovereignty** in military spending, potentially affecting bilateral defense integration between the two nations.",
+      "key_results": [
+        "Canada is reducing its military expenditure directed toward U.S. arms manufacturers.",
+        "Potential shift toward domestic aerospace and defense capabilities.",
+        "Impact on long-standing North American defense cooperation frameworks.",
+        "Increased scrutiny of U.S. defense contract pricing and delivery timelines.",
+        "Strategic diversification of military hardware sources to mitigate dependency."
+      ],
+      "relevance_score": 1,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "The New York Times reports that Canada is pivoting its military procurement strategy away from major U.S. defense contractors.",
+      "lead_institution": "The New York Times",
+      "tags": [
+        "Military Spending",
+        "Geopolitics",
+        "Procurement",
+        "International Relations",
+        "Defense Industry"
+      ]
+    }
+  },
+  {
+    "title": "Peter Thiel: 2,436 emails with Epstein from 2014 to 2019",
+    "link": "https://jmail.world/wiki/peter-thiel",
+    "summary": "<p>Article URL: <a href=\"https://jmail.world/wiki/peter-thiel\">https://jmail.world/wiki/peter-thiel</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47028369\">https://news.ycombinator.com/item?id=47028369</a></p>\n<p>Points: 260</p>\n<p># Comments: 115</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-02-15T22:29:43+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "<br>\u2022 The published archive provides a metadata-driven overview of **2,436 emails** exchanged between Peter Thiel and Jeffrey Epstein between 2014 and 2019.<br>\u2022 While not technical in nature, the data serves as a **large-scale text corpus** for those interested in social network analysis and influence mapping within the tech industry.<br>\u2022 The release emphasizes **information retrieval** from leaked or public domain archives, highlighting the role of wiki-style platforms in documenting high-profile correspondence.",
+      "key_results": [
+        "Disclosure of 2,436 emails between 2014 and 2019.",
+        "Mapping of communication frequency and meeting schedules.",
+        "Identification of specific business and social introductions.",
+        "Documentation of the timeline of interactions post-conviction.",
+        "Creation of a searchable public archive for independent analysis."
+      ],
+      "relevance_score": 1,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "JMail World documents extensive correspondence between Peter Thiel and Jeffrey Epstein, providing a metadata archive for public scrutiny.",
+      "lead_institution": "JMail World",
+      "tags": [
+        "Data Privacy",
+        "Ethical Governance",
+        "Metadata Analysis",
+        "Public Records",
+        "Cybersecurity"
+      ]
+    }
+  },
+  {
+    "title": "Show HN: Lightwave \u2013 Real-time notes app, 3.5 years of hand-rolled JavaScript",
+    "link": "https://news.ycombinator.com/item?id=47027463",
+    "summary": "<p>Hi HN!<p>I've been building this solo for about three and a half years. I kept trying every new project/notes tool (Notion, Asana, Trello, etc.) and always ended up back in a plain text file. I wanted something that felt like a text editor on first touch but could grow into real structure when you needed it.<p><a href=\"https://lightwave.so\" rel=\"nofollow\">https://lightwave.so</a> (desktop only)<p>The tech stack is Laravel, MySQL, Redis, and hand-rolled JavaScript on the client. No frameworks like React/Vue/etc. ~270 lines of jQuery (out of 80k+ total LOC) for a few legacy DOM utilities, plus IndexedDB for local persistence. Real-time collaboration uses a hybrid approach: HTTP/2 POST for resilient ops + WebSockets via Laravel Reverb for live cursors, presence, and edits.<p>This is a pre-release stress test, not a launch. Lightwave will be a paid product. Right now I'm opening it up because no amount of solo testing replicates getting punched in the mouth by real traffic.<p>The link above has a button to create a test account in 1 click.<p>Known rough edges: the cursor and selection system are built from scratch (like VS Code, not a contenteditable wrapper), so there's a lot of surface area. Some keyboard shortcuts may be missing. Desktop only, accessibility not yet implemented. I'm shipping fixes in real time.<p>There's a \"Submit Bug or Feedback\" button inside the app if something breaks. Happy to answer any questions about the architecture, or anything else.<p>Some highlights:<p>- Paste markdown in, get native blocks. Copy blocks out, get markdown back.<p>- Hierarchical document, structure. Hierarchichal file manager.<p>- Live collab with shared cursors, selection, and presence.<p>- Code blocks with syntax highlighting. LaTeX math blocks.<p>- Full data export: markdown, JSON, and attachments. No lock-in.<p>- Full undo/redo with cursor restoration.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47027463\">https://news.ycombinator.com/item?id=47027463</a></p>\n<p>Points: 46</p>\n<p># Comments: 29</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-02-15T20:57:02+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n\u2022 Lightwave is a **real-time collaborative notes application** built over 3.5 years using a **hand-rolled JavaScript** frontend, intentionally avoiding modern frameworks like React or Vue.\n\u2022 The system employs a **hybrid synchronization architecture**, utilizing HTTP/2 POST requests for resilient operation submission and **WebSockets (via Laravel Reverb)** for low-latency live cursors and presence.\n\u2022 The core editor implements a **custom cursor and selection engine** from scratch, eschewing standard contenteditable wrappers to achieve performance and control similar to high-end IDEs like VS Code.\n\u2022 The backend stack is built on **Laravel, MySQL, and Redis**, with client-side persistence managed through **IndexedDB** for offline-first capabilities.",
+      "key_results": [
+        "Development of 80,000+ lines of vanilla JavaScript for a framework-free UI.",
+        "Implementation of a block-based editor with bi-directional Markdown and LaTeX support.",
+        "Integration of a custom-built cursor/selection system to replace native browser behavior.",
+        "Creation of a resilient real-time sync engine combining WebSockets and HTTP/2.",
+        "Support for full data portability with Markdown and JSON export capabilities."
+      ],
+      "relevance_score": 3,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Lightwave launches a framework-free, real-time notes application featuring a custom-built JavaScript editor engine for high-performance block-based text editing.",
+      "lead_institution": "Lightwave",
+      "tags": [
+        "Vanilla JavaScript",
+        "Real-time Collaboration",
+        "Web Architecture",
+        "WebSockets",
+        "Block Editor"
+      ]
+    }
+  },
+  {
+    "title": "Court orders Acer and Asus to stop selling PCs in Germany over H.265 patents",
+    "link": "https://videocardz.com/newz/acer-and-asus-are-now-banned-from-selling-pcs-and-laptops-in-germany-following-nokia-hevc-patent-ruling",
+    "summary": "<p>Article URL: <a href=\"https://videocardz.com/newz/acer-and-asus-are-now-banned-from-selling-pcs-and-laptops-in-germany-following-nokia-hevc-patent-ruling\">https://videocardz.com/newz/acer-and-asus-are-now-banned-from-selling-pcs-and-laptops-in-germany-following-nokia-hevc-patent-ruling</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47027011\">https://news.ycombinator.com/item?id=47027011</a></p>\n<p>Points: 77</p>\n<p># Comments: 32</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-02-15T20:06:53+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* German courts have issued a sales injunction against **Acer** and **Asus** following a patent infringement lawsuit filed by **Nokia** regarding **H.265 (HEVC)** video coding standards.\n* The ruling effectively bans the sale of PCs and laptops that utilize the **HEVC codec** without a licensing agreement from the patent holder.\n* This legal action underscores the volatility of **Standard-Essential Patent (SEP)** licensing and its direct impact on hardware distribution within the EU market.",
+      "key_results": [
+        "German courts ruled in favor of Nokia regarding H.265 patent violations.",
+        "Acer and Asus are prohibited from selling infringing hardware in Germany.",
+        "The dispute centers on licensing fees for High Efficiency Video Coding (HEVC).",
+        "Affected products include various laptops and desktop configurations.",
+        "The ruling may force manufacturers to renegotiate licensing terms or remove specific decoding features."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Nokia secures a German court injunction banning Acer and Asus PC sales over H.265 video compression patent infringements.",
+      "lead_institution": "Nokia",
+      "tags": [
+        "H.265",
+        "HEVC",
+        "Patent Litigation",
+        "Hardware",
+        "Consumer Electronics"
+      ]
+    }
+  },
+  {
+    "title": "Palantir vs. the \"Republik\": US analytics firm takes magazine to court",
+    "link": "https://www.heise.de/en/news/Palantir-vs-the-Republik-US-analytics-firm-takes-magazine-to-court-11176508.html",
+    "summary": "<p>Article URL: <a href=\"https://www.heise.de/en/news/Palantir-vs-the-Republik-US-analytics-firm-takes-magazine-to-court-11176508.html\">https://www.heise.de/en/news/Palantir-vs-the-Republik-US-analytics-firm-takes-magazine-to-court-11176508.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47025188\">https://news.ycombinator.com/item?id=47025188</a></p>\n<p>Points: 244</p>\n<p># Comments: 69</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-02-15T16:51:17+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* **Palantir** has initiated legal proceedings against the Swiss investigative magazine **Republik** following critical reporting on its software deployments.\n* The dispute involves the company's data analytics and **AI-driven surveillance** tools used by law enforcement and government agencies.\n* This case underscores the legal pressures faced by journalists when investigating the **black-box algorithms** and proprietary software of major tech firms.\n* The litigation focuses on claims regarding the functionality and societal impact of Palantir's **big data integration** platforms.",
+      "key_results": [
+        "Palantir filed a lawsuit against the Swiss magazine Republik.",
+        "The legal action concerns investigative articles about Palantir's software.",
+        "Focuses on the use of Palantir's platforms by Swiss government authorities.",
+        "Highlights the friction between proprietary AI business models and public transparency.",
+        "Republik claims the lawsuit is an attempt to suppress critical tech reporting."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Palantir sues Swiss magazine Republik over investigative reporting on the company's data analytics and surveillance software deployments.",
+      "lead_institution": "Heise Online",
+      "tags": [
+        "Palantir",
+        "AI Ethics",
+        "Data Privacy",
+        "Surveillance Technology",
+        "Tech Law"
+      ]
+    }
+  }
+]
