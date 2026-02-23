@@ -3,6 +3,8 @@
 # Domains to exclude from digest (e.g. commercial blogs). Any item whose link contains one of these is dropped.
 EXCLUDED_SOURCE_DOMAINS = [
     "modular.com",
+    "arize.com",
+    "wandb.ai",
 ]
 
 RSS_FEEDS = [
@@ -31,8 +33,6 @@ RSS_FEEDS = [
     # --- AI Frameworks & Tools ---
     "https://blog.langchain.dev/rss/",
     "https://medium.com/feed/llamaindex-blog",
-    "https://arize.com/feed/",
-    "https://wandb.ai/feed",
 
     # --- Tech Company Engineering Blogs ---
     "https://netflixtechblog.com/feed",
