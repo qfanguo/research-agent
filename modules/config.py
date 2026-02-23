@@ -1,5 +1,10 @@
 # modules/config.py
 
+# Domains to exclude from digest (e.g. commercial blogs). Any item whose link contains one of these is dropped.
+EXCLUDED_SOURCE_DOMAINS = [
+    "modular.com",
+]
+
 RSS_FEEDS = [
     # --- Major AI Labs ---
     "https://openai.com/news/rss.xml",

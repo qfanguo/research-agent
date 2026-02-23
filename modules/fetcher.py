@@ -136,6 +136,13 @@ class Fetcher:
             results = await asyncio.gather(*tasks)
             # Flatten list of lists
             all_items = [item for sublist in results for item in sublist]
+            # Drop items from excluded domains (e.g. commercial sources)
+            excluded = getattr(config, "EXCLUDED_SOURCE_DOMAINS", [])
+            if excluded:
+                before = len(all_items)
+                all_items = [item for item in all_items if not any(d in (item.get("link") or "") for d in excluded)]
+                if len(all_items) < before:
+                    print(f"[Fetcher] Excluded {before - len(all_items)} items from excluded domains: {excluded}")
             successful_feeds = sum(1 for r in results if r)
             print(f"[Fetcher] RSS complete: {len(all_items)} items from {successful_feeds}/{len(self.rss_feeds)} feeds")
             return all_items
