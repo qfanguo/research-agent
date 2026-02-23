@@ -50,8 +50,8 @@ RSS_FEEDS = [
     "https://lilianweng.github.io/lil-log/feed.xml",
     "https://karpathy.ai/feed.xml",
 
-    # --- HN aggregation for companies without good RSS ---
-    "https://hnrss.org/newest?q=domain:perplexity.ai+OR+domain:cohere.com+OR+domain:adept.ai+OR+domain:character.ai+OR+domain:midjourney.com+OR+domain:deepseek.com+OR+domain:01.ai+OR+domain:moonshot.ai+OR+domain:baichuan-ai.com+OR+domain:minimax.io+OR+domain:bytedance.com+OR+domain:tinyfish.io",
+    # --- HN aggregation for companies without good RSS (Cursor blog has no public RSS) ---
+    "https://hnrss.org/newest?q=domain:perplexity.ai+OR+domain:cohere.com+OR+domain:adept.ai+OR+domain:character.ai+OR+domain:midjourney.com+OR+domain:deepseek.com+OR+domain:01.ai+OR+domain:moonshot.ai+OR+domain:baichuan-ai.com+OR+domain:minimax.io+OR+domain:bytedance.com+OR+domain:tinyfish.io+OR+domain:cursor.com",
     # --- HN top stories about major AI topics (36h window ensures we catch weekend news on Monday/Tuesday) ---
     "https://hnrss.org/newest?q=OpenClaw+OR+Qwen+OR+TinyFish+OR+%22Seed+2.0%22+OR+%22Seed+2%22+OR+%22MCP+support%22+OR+%22GPT-5%22+OR+%22Claude+4%22+OR+%22Gemini+3%22+OR+%22delegate+work%22+OR+%22Gemini+attackers%22+OR+%22MCP%22&points=30",
 ]
