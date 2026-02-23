@@ -1,35 +1,5 @@
 [
   {
-    "title": "Our First Proof submissions",
-    "link": "https://openai.com/index/first-proof-submissions",
-    "summary": "We share our AI model\u2019s proof attempts for the First Proof math challenge, testing research-grade reasoning on expert-level problems.",
-    "source": "OpenAI News",
-    "published": "2026-02-20T14:30:00+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n* OpenAI utilizes **reasoning models** to address the First Proof math challenge, focusing on **expert-level problem solving** in research mathematics.\n* The submission highlights the evolution of **long-chain reasoning** architectures capable of maintaining logical consistency over complex, formal derivations.\n* This initiative serves as a critical benchmark for **AI Evaluation** in specialized domains that require high-fidelity, verifiable outputs rather than simple probabilistic text generation.",
-      "key_results": [
-        "Participation in the First Proof mathematics challenge using advanced research-grade reasoning models.",
-        "Submission of AI-generated proofs for expert-level problems typically reserved for human researchers.",
-        "Demonstration of model capability in maintaining logic over multi-step mathematical inference chains.",
-        "Validation of reasoning models on non-standard, 'unseen' mathematical challenges.",
-        "Assessment of the current gap between AI reasoning capabilities and professional-level research mathematics."
-      ],
-      "relevance_score": 7,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "OpenAI submits reasoning model proof attempts to the First Proof challenge to demonstrate research-grade mathematical problem-solving capabilities.",
-      "lead_institution": "OpenAI",
-      "tags": [
-        "Reasoning Models",
-        "Mathematical Proofs",
-        "AI Evaluation",
-        "OpenAI o1",
-        "Formal Logic"
-      ]
-    }
-  },
-  {
     "title": "Amazon SageMaker AI in 2025, a year in review part 1: Flexible Training Plans and improvements to price performance for inference workloads",
     "link": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-ai-in-2025-a-year-in-review-part-1-flexible-training-plans-and-improvements-to-price-performance-for-inference-workloads/",
     "summary": "In 2025, Amazon SageMaker AI saw dramatic improvements to core infrastructure offerings along four dimensions: capacity, price performance, observability, and usability. In this series of posts, we discuss these various improvements and their benefits. In Part 1, we discuss capacity improvements with the launch of Flexible Training Plans. We also describe improvements to price performance for inference workloads. In Part 2, we discuss enhancements made to observability, model customization, and model hosting.",
@@ -38,24 +8,24 @@
     "type": "blog",
     "display_category": "Top News",
     "processed": {
-      "summary": "\n Amazon SageMaker AI introduced **Flexible Training Plans** to provide more efficient compute capacity management for large-scale training workloads.\n The platform achieved significant improvements in **inference price performance**, optimizing hardware utilization and reducing costs for hosting Generative AI models.\n Updates to **observability and model customization** tools streamline the developer workflow for fine-tuning and monitoring models in production environments.",
+      "summary": "\n- Implementation of **Flexible Training Plans** designed to address compute capacity constraints and optimize resource allocation for large-scale training jobs.\n- Architectural enhancements for **inference workloads** focusing on driving down Total Cost of Ownership (TCO) while improving latency and throughput.\n- Significant updates to **core infrastructure** spanning observability, model customization, and hosting to streamline the production ML lifecycle.",
       "key_results": [
-        "Launch of Flexible Training Plans for improved compute capacity management.",
-        "Optimization of inference workloads to enhance price-to-performance ratios.",
-        "Expanded observability features for better model performance tracking.",
-        "Streamlined model customization workflows for faster fine-tuning iterations.",
-        "Infrastructure enhancements targeting capacity and usability across the model lifecycle."
+        "Launched Flexible Training Plans for scalable compute capacity.",
+        "Improved price performance across diverse inference workloads.",
+        "Enhanced observability metrics for better infrastructure monitoring.",
+        "Streamlined model customization workflows for fine-tuning.",
+        "Upgraded model hosting capabilities for improved usability."
       ],
       "relevance_score": 4,
       "signal_type": "Engineering Blog",
-      "one_sentence_takeaway": "Amazon SageMaker launches Flexible Training Plans and inference optimizations to improve cost-performance for large-scale Generative AI workloads.",
-      "lead_institution": "Amazon Web Services",
+      "one_sentence_takeaway": "Amazon SageMaker introduces Flexible Training Plans and inference optimizations to enhance price performance and capacity for 2025 AI workloads.",
+      "lead_institution": "Amazon",
       "tags": [
-        "Cloud Infrastructure",
-        "Model Training",
+        "Amazon SageMaker",
         "Inference Optimization",
-        "AWS SageMaker",
-        "Generative AI Trends"
+        "Model Training",
+        "Cloud Infrastructure",
+        "MLOps"
       ]
     }
   },
@@ -68,24 +38,24 @@
     "type": "blog",
     "display_category": "Top News",
     "processed": {
-      "summary": "<br>\u2022 Amazon SageMaker AI introduced **enhanced observability** tools designed to provide deeper insights into generative AI workload performance during training and inference.<br>\u2022 New features for **model customization** were released to streamline the fine-tuning process for large-scale generative models.<br>\u2022 The platform's **hosting architecture** was upgraded to support more diverse and complex customer use cases, improving flexibility for multi-model deployments.",
+      "summary": "\n\u2022 Enhanced **observability** tools provide deeper monitoring and debugging capabilities for generative AI workloads within the SageMaker ecosystem.\n\u2022 New **model customization** features streamline the process of fine-tuning foundation models for specific domain requirements.\n\u2022 Improved **model hosting** infrastructure supports a wider variety of high-demand generative AI deployment scenarios with increased reliability.\n\u2022 Integrated workflows facilitate a more seamless transition between **training and inference** components for enterprise-scale AI applications.",
       "key_results": [
-        "Improved observability metrics for monitoring model health.",
-        "Streamlined workflows for generative AI model customization.",
-        "Expanded hosting capabilities for diverse AI use cases.",
-        "Better integration of tuning tools for GenAI workloads.",
-        "Enhanced infrastructure support for large-scale model deployment."
+        "Introduction of advanced observability metrics for real-time model monitoring",
+        "Streamlined workflows for more efficient model customization and tuning",
+        "Expanded hosting capabilities to support diverse generative AI use cases",
+        "Improved integration between the model development and deployment phases",
+        "Enhanced reliability for scaling complex AI workloads in production"
       ],
-      "relevance_score": 3,
+      "relevance_score": 4,
       "signal_type": "Engineering Blog",
-      "one_sentence_takeaway": "Amazon enhances SageMaker AI with improved observability and customization features to streamline generative AI training and hosting workflows.",
-      "lead_institution": "Amazon",
+      "one_sentence_takeaway": "Amazon SageMaker AI enhances observability and hosting features to simplify the customization and deployment of generative AI models.",
+      "lead_institution": "Amazon Web Services",
       "tags": [
-        "SageMaker AI",
+        "Cloud AI",
         "Model Fine-tuning",
-        "Model Hosting",
+        "LLM Hosting",
         "Observability",
-        "Generative AI"
+        "SageMaker"
       ]
     }
   },
@@ -98,24 +68,24 @@
     "type": "blog",
     "display_category": "Top News",
     "processed": {
-      "summary": "<br>\u2022 The article advocates for using **PostgreSQL** natively to leverage its full feature set rather than relying on **Object-Relational Mapping (ORM)** abstractions.<br>\u2022 It highlights that ORMs often introduce a **performance overhead** and create an \"object-relational impedance mismatch\" that complicates complex queries.<br>\u2022 Direct usage of **SQL** allows developers to utilize advanced features like **JSONB**, window functions, and full-text search more efficiently than through generic framework layers.<br>\u2022 Architecture is simplified by reducing dependency on heavy libraries, leading to more **transparent database interactions** and predictable query execution plans.",
+      "summary": "\n- The author critiques **Object-Relational Mapping (ORM)** tools for creating a \"mismatch\" between application code and the underlying relational data model.\n- Focuses on how **PostgreSQL** features like JSONB, Window Functions, and CTEs are often obscured by ORM abstractions, leading to inefficient queries.\n- Advocates for a **SQL-first architecture** to leverage the full power of the database, improving performance and reducing the complexity of data management.",
       "key_results": [
-        "ORMs frequently mask the 'N+1 query problem', leading to suboptimal application performance.",
-        "Native PostgreSQL features like JSONB and GIN indexes provide document-store capabilities without adding extra infrastructure.",
-        "Bypassing abstractions allows for more precise control over transaction isolation levels and concurrency.",
-        "Direct SQL reduces the learning curve for troubleshooting database-specific issues in production.",
-        "Schema migrations are often cleaner and more robust when managed via raw SQL rather than auto-generated ORM scripts."
+        "Identifies ORMs as a primary cause of the 'N+1' query performance problem.",
+        "Promotes Postgres JSONB as a viable alternative for semi-structured ML data storage.",
+        "Argues that direct SQL usage facilitates better index optimization and query planning.",
+        "Highlights the maintainability benefits of keeping business logic closer to the data layer.",
+        "Suggests that modern Postgres features have rendered many traditional ORM benefits obsolete."
       ],
-      "relevance_score": 4,
+      "relevance_score": 5,
       "signal_type": "Engineering Blog",
-      "one_sentence_takeaway": "Hypha.pub argues that bypassing ORMs for direct PostgreSQL usage enhances system performance and unlocks advanced database-specific features.",
-      "lead_institution": "Hypha.pub",
+      "one_sentence_takeaway": "Hypha argues that bypassing ORMs for native Postgres features optimizes database performance and simplifies complex data management architectures.",
+      "lead_institution": "Hypha",
       "tags": [
         "PostgreSQL",
-        "Database Architecture",
-        "SQL",
         "ORM",
-        "Performance Optimization"
+        "Database Engineering",
+        "Performance Tuning",
+        "Backend Infrastructure"
       ]
     }
   },
@@ -128,24 +98,24 @@
     "type": "blog",
     "display_category": "Top News",
     "processed": {
-      "summary": "\n- The article provides a **legal interpretation** of Section 122 of the Trade Act of 1974, specifically regarding presidential authority.\n- It argues that the **Executive Branch** is constrained by specific statutory triggers, such as a serious balance-of-payments deficit, which must be met to impose tariffs.\n- The analysis emphasizes that Section 122 was intended for **temporary measures** and includes strict limits on the duration and percentage of tariff increases.\n- The post highlights the **separation of powers**, suggesting that unilateral broad tariffs without Congressional approval would likely face successful legal challenges.",
+      "summary": "\n- The article evaluates the **statutory authority** granted by Section 122 of the Trade Act of 1974, determining it is restricted to specific balance-of-payments emergencies.\n- It posits that the **executive branch** cannot legally utilize this provision to impose broad tariffs for general economic or protectionist goals without meeting high evidentiary thresholds.\n- The analysis highlights the potential for **judicial review** to overturn such actions, as the law was not intended to bypass Congressional authority on trade policy.",
       "key_results": [
-        "Section 122 requires a specific balance-of-payments emergency to be legally invoked.",
-        "Tariff increases under this section are capped at 15% ad valorem.",
-        "Executive authority for these tariffs is limited to a 150-day period unless extended by Congress.",
-        "The statute requires that measures be applied on a non-discriminatory (MFN) basis with limited exceptions.",
-        "Judicial review remains a significant hurdle for any broad interpretation of this trade authority."
+        "Analysis of Section 122's specific requirement for a 'serious balance-of-payments' deficit.",
+        "Identification of legal barriers preventing unilateral tariff imposition for negotiation leverage.",
+        "Historical context showing the section's limited use since its inception.",
+        "Potential for immediate legal stays and litigation against executive misuse of trade statutes.",
+        "Clarification that general trade deficits do not qualify as balance-of-payments emergencies."
       ],
       "relevance_score": 1,
       "signal_type": "General News",
-      "one_sentence_takeaway": "WorldTradeLaw.net argues that Section 122 of the Trade Act of 1974 legally prohibits the President from imposing broad tariffs.",
-      "lead_institution": "WorldTradeLaw.net",
+      "one_sentence_takeaway": "WorldTradeLaw researchers argue that Section 122 of the Trade Act lacks the legal scope for broad tariff imposition.",
+      "lead_institution": "ielp.worldtradelaw.net",
       "tags": [
-        "Trade Law",
+        "Trade Policy",
+        "Law",
         "Tariffs",
-        "Section 122",
-        "U.S. Policy",
-        "Legal Analysis"
+        "Executive Power",
+        "Regulation"
       ]
     }
   },
@@ -158,24 +128,24 @@
     "type": "blog",
     "display_category": "Top News",
     "processed": {
-      "summary": "\n- The article contrasts the **1990s Dot-Com boom** with the current AI cycle, highlighting a shift from consumer-led optimism to widespread public **skepticism and backlash**.\n- It analyzes how the **Generative AI** narrative has transitioned from technological wonder to concerns over **job displacement**, creative degradation, and the proliferation of \"AI slop.\"\n- From an architectural and impact perspective, the article notes that while the internet brought immediate **consumer utility**, AI is often perceived as a tool for **corporate efficiency** at the expense of human labor.\n- The piece discusses the environmental and social friction caused by massive **compute requirements** and the scaling of data centers compared to the earlier era's infrastructure growth.",
+      "summary": "\n- Analysis of the **societal backlash** and public skepticism surrounding the current generative AI cycle compared to the dot-com era's optimism.\n- Examination of the **utility gap** between massive infrastructure investments and the perceived lack of tangible value for everyday consumers.\n- Discussion on how the **AI boom** is driven by enterprise push rather than the grassroots consumer pull seen in early internet adoption.",
       "key_results": [
-        "AI sentiment is significantly more negative compared to the early internet adoption phase.",
-        "The term 'AI slop' reflects growing public disdain for low-quality generated content.",
-        "Creative professionals are leading the resistance against generative model training practices.",
-        "Environmental costs of LLM training and inference are becoming major points of political friction.",
-        "Corporate-led AI deployment is viewed as a threat to labor rather than an empowerment of the individual user."
+        "Identifies a significant shift in public sentiment toward technology adoption.",
+        "Highlights the lack of a 'killer app' for generative AI that matches early web utility.",
+        "Notes that job displacement fears are much higher today than in the 1990s.",
+        "Compares the CAPEX-heavy nature of AI training to previous software-defined eras.",
+        "Discusses regulatory pressures that did not exist during the early dot-com period."
       ],
       "relevance_score": 3,
       "signal_type": "General News",
-      "one_sentence_takeaway": "The New York Times reports that the AI boom faces significantly more public backlash and skepticism than the Dot-Com era.",
-      "lead_institution": "New York Times",
+      "one_sentence_takeaway": "The New York Times reports that public skepticism toward AI grows as consumers find less utility than previous tech booms.",
+      "lead_institution": "The New York Times",
       "tags": [
         "Generative AI Trends",
-        "AI Backlash",
-        "Socio-economic Impact",
-        "Market Sentiment",
-        "AI Ethics"
+        "AI Economics",
+        "Public Perception",
+        "Market Analysis",
+        "Tech Backlash"
       ]
     }
   },
@@ -188,24 +158,24 @@
     "type": "blog",
     "display_category": "Top News",
     "processed": {
-      "summary": "\n \u2022 The article analyzes the **operational decline** of Red Robin as a consequence of \"spreadsheet-driven\" management, where cost-cutting models failed to account for complex qualitative factors.\n \u2022 It critiques the use of **static data silos** and rigid financial modeling that ignore real-world feedback loops and the \"vibe\" of the customer experience.\n \u2022 The narrative advocates for **integrated data architectures** that move beyond row-and-column thinking to incorporate holistic, multi-modal operational signals.\n \u2022 It serves as a cautionary tale for ML engineers regarding the limitations of **structured numerical data** when modeling systems with significant human and qualitative variables.",
+      "summary": "\n- The article critiques the **over-reliance on quantitative metrics** (the \"spreadsheet\" mindset) which often decouples organizational leadership from the operational reality on the ground.\n- It highlights a failure in **feedback loops** where top-down data optimization ignores qualitative user experience, mirroring current debates in **AI Evaluation** and **Vibe Coding**.\n- The narrative serves as a warning against **Goodhart's Law**, where metrics become the target and cease to be good measures, leading to systemic failure despite positive dashboard reports.",
       "key_results": [
-        "Over-reliance on spreadsheet optimization led to a quantifiable decline in food and service quality.",
-        "Data fragmentation prevented leadership from recognizing the correlation between labor cuts and brand erosion.",
-        "Static models are identified as insufficient for capturing the 'vibe' and qualitative nuances of operational health.",
-        "The article defines 'death by spreadsheet' as the systemic failure to look beyond immediate, structured financial metrics.",
-        "Modern operational success requires a shift from manual data entry to automated, AI-augmented reasoning systems."
+        "Identification of 'metric fixation' as a primary cause for the decline in service quality at Red Robin.",
+        "Analysis of how data-driven dashboards can provide a false sense of security while core value propositions erode.",
+        "Correlation between the loss of qualitative 'vibes' and the failure of automated management systems.",
+        "Argument for balancing hard data with direct, human-centric observation in complex systems.",
+        "Observation that optimizing for individual KPIs often results in sub-optimal system-wide performance."
       ],
       "relevance_score": 3,
       "signal_type": "General News",
-      "one_sentence_takeaway": "Garry's List demonstrates how rigid spreadsheet-driven decision-making leads to operational failure, highlighting the need for more holistic data architectures.",
-      "lead_institution": "Garry's List",
+      "one_sentence_takeaway": "Garryslist argues that over-indexing on quantitative spreadsheets without qualitative grounding leads to systemic organizational failure and poor evaluation.",
+      "lead_institution": "Garryslist",
       "tags": [
-        "Data Strategy",
-        "Operational Modeling",
-        "Decision Support",
-        "Vibe Coding",
-        "Business Intelligence"
+        "AI Evaluation",
+        "Goodhart's Law",
+        "Decision Science",
+        "Metric Fixation",
+        "Vibe Coding"
       ]
     }
   },
@@ -218,24 +188,24 @@
     "type": "blog",
     "display_category": "Top News",
     "processed": {
-      "summary": "<br>Analyzes Anthropic's decision to utilize the **Electron framework** for the Claude desktop application, prioritizing **cross-platform feature parity** and developer velocity over native performance.<br>Explores the technical trade-offs between **resource consumption** and the ability to rapidly ship complex UI features like **Artifacts** and local file system access.<br>Highlights the strategic importance of a unified **Node.js runtime** for implementing the **Model Context Protocol (MCP)**, allowing the LLM to interact with local development environments.",
+      "summary": "<br> Anthropic utilizes the **Electron framework** to maintain high developer velocity, ensuring that cross-platform UI features like **Artifacts** remain consistent across macOS and Windows.<br> The architecture facilitates deep OS-level integration required for **Computer Use**, allowing the LLM to interact with the local desktop environment through a secure, containerized runtime.<br> By leveraging a web-based stack, the app seamlessly integrates the **Model Context Protocol (MCP)**, serving as a local hub for agentic tool-calling and data retrieval.<br> This approach prioritizes the deployment of **Generative UI** and multimodal capabilities over the memory efficiency of native application codebases.",
       "key_results": [
-        "Accelerated deployment of new AI features across macOS and Windows simultaneously.",
-        "Seamless integration of web-based 'Artifacts' within a standalone desktop environment.",
-        "Simplified implementation of Model Context Protocol (MCP) for local tool execution.",
-        "Reduction in engineering overhead by maintaining a single TypeScript/JavaScript codebase.",
-        "Leveraging existing web security models to manage LLM interactions with local files."
+        "Rapid deployment of interactive React-based Artifacts across platforms.",
+        "Hardware-level access for 'Computer Use' agentic features.",
+        "Simplified local implementation of the Model Context Protocol (MCP).",
+        "Unified security model leveraging Chromium's established sandboxing.",
+        "Reduced engineering overhead for maintaining parity between web and desktop."
       ],
-      "relevance_score": 6,
+      "relevance_score": 7,
       "signal_type": "Engineering Blog",
-      "one_sentence_takeaway": "Anthropic utilizes Electron for the Claude desktop application to accelerate cross-platform feature parity and local tool integration.",
+      "one_sentence_takeaway": "Anthropic prioritizes developer velocity by using Electron to support complex agentic workflows and local Model Context Protocol integrations.",
       "lead_institution": "Anthropic",
       "tags": [
         "Electron",
-        "Claude",
-        "Model Context Protocol",
-        "AI UX",
-        "Desktop Architecture"
+        "Agentic UI",
+        "MCP",
+        "Computer Use",
+        "Developer Velocity"
       ]
     }
   },
@@ -248,24 +218,24 @@
     "type": "blog",
     "display_category": "Top News",
     "processed": {
-      "summary": "\n- The repository serves as a technical knowledge base for **input latency** measurement and optimization across hardware and software stacks.\n- It provides deep-dives into **click-to-photon** delays, analyzing the impact of display technologies, polling rates, and OS-level processing.\n- The architecture of the site focuses on standardizing **latency testing methodologies** using high-speed cameras and specialized hardware triggers.",
+      "summary": "<br>\n- **Inputlag.science** serves as a specialized knowledge repository focused on the technical measurement and analysis of **end-to-end latency** in computing environments.<br>\n- The platform documents **hardware-level measurement** techniques, including the use of high-speed photography and oscilloscopes to quantify delay from input trigger to pixel change.<br>\n- It provides deep dives into **system architecture bottlenecks**, such as USB polling rates, display buffer management, and operating system interrupt handling.",
       "key_results": [
-        "Comprehensive database of monitor and peripheral response times.",
-        "Technical analysis of polling rates (1000Hz vs 8000Hz) on system overhead.",
-        "Comparative data on the latency impact of V-Sync, G-Sync, and Reflex technologies.",
-        "Detailed breakdown of the Windows Desktop Window Manager (DWM) latency overhead.",
-        "Best practices for minimizing end-to-end delay in competitive gaming environments."
+        "Comprehensive methodology for quantifying USB HID device polling intervals.",
+        "Benchmarks comparing display technologies and their impact on visual response lag.",
+        "Documentation on the role of graphics pipeline optimizations in reducing system latency.",
+        "Technical guides for building DIY latency testing hardware.",
+        "Analysis of software-induced lag within different game engines and display drivers."
       ],
-      "relevance_score": 2,
+      "relevance_score": 1,
       "signal_type": "General News",
-      "one_sentence_takeaway": "Inputlag.science provides a comprehensive technical knowledge base for measuring and optimizing end-to-end latency in gaming hardware and software.",
+      "one_sentence_takeaway": "Inputlag.science provides a comprehensive technical database for measuring and minimizing latency in gaming hardware and software systems.",
       "lead_institution": "Inputlag.science",
       "tags": [
+        "Hardware Latency",
+        "System Performance",
         "Input Lag",
-        "Latency Optimization",
-        "Gaming Hardware",
-        "Display Technology",
-        "Polling Rates"
+        "Real-time Systems",
+        "Hardware Benchmarks"
       ]
     }
   },
@@ -278,24 +248,24 @@
     "type": "blog",
     "display_category": "Top News",
     "processed": {
-      "summary": "<br>The **Nekonomicon** serves as a restored digital archive of Nekochan.net, a historically significant community site for **Silicon Graphics (SGI)** hardware and the **Irix operating system**.<br>The repository preserves deep technical documentation, forum discussions, and **hardware modification guides** that were previously at risk of being lost.<br>This release acts as a **legacy knowledge base** for retro-computing enthusiasts and researchers studying specialized **MIPS-based architectures** and proprietary graphics systems.",
+      "summary": "\n- The project provides a **comprehensive digital archive** of the Nekochan.net community, focusing on **Silicon Graphics (SGI)** hardware and IRIX software.\n- It restores **historical documentation**, wiki pages, and forum threads that are critical for the maintenance and operation of **legacy MIPS-based workstations**.\n- The update ensures the continued availability of **hardware-specific drivers**, configuration guides, and troubleshooting data for the vintage computing community.",
       "key_results": [
-        "Restoration of the comprehensive Nekochan forum database and user wikis.",
-        "Centralized access to legacy **Irix installation documentation** and software patches.",
-        "Preservation of specialized hardware repair and **MIPS architecture** optimization tips.",
-        "Maintenance of a community-driven repository for high-end legacy graphics workstations.",
-        "Establishment of a permanent mirror hosted via **IrixNet** for long-term accessibility."
+        "Restoration of the Nekochan wiki database for public access.",
+        "Preservation of legacy IRIX software patches and installation guides.",
+        "Availability of niche hardware-hacking and modification documentation.",
+        "Centralization of early 2000s workstation community knowledge.",
+        "Maintenance of technical specifications for deprecated SGI systems."
       ],
       "relevance_score": 1,
       "signal_type": "General News",
-      "one_sentence_takeaway": "IrixNet restores the Nekonomicon archive to preserve critical legacy technical documentation and hardware knowledge for Silicon Graphics enthusiasts.",
-      "lead_institution": "IrixNet",
+      "one_sentence_takeaway": "Irixnet.org releases an updated archive of Nekochan.net to preserve historical documentation and software for legacy Silicon Graphics workstations.",
+      "lead_institution": "Irixnet.org",
       "tags": [
-        "Retro-computing",
+        "Retro Computing",
         "SGI",
-        "Irix",
+        "IRIX",
         "Digital Preservation",
-        "Hardware Engineering"
+        "Hardware Archiving"
       ]
     }
   },
@@ -308,24 +278,24 @@
     "type": "blog",
     "display_category": "Top News",
     "processed": {
-      "summary": "\n- Analysis of LinkedIn's partnership with third-party providers like **Persona** and **CLEAR** to implement mandatory identity verification via **Biometric Processing**.\n- Examination of the technical data flow involving **NFC passport scanning** and real-time facial liveness detection to create immutable **Identity Templates**.\n- Critical evaluation of the privacy risks associated with centralizing government ID data and the potential for it to be leveraged in **Generative AI** safety or training contexts.",
+      "summary": "<br>\u2022 The article analyzes the **Identity Verification** workflow on LinkedIn, which utilizes third-party providers like **Persona** and **CLEAR** to process government-issued IDs.<br>\u2022 From an **architectural** standpoint, the system employs **Biometric Authentication** and document OCR to validate user authenticity, creating a trust layer external to LinkedIn's core database.<br>\u2022 The investigation highlights significant **Privacy Implications** regarding the retention of sensitive PII (Personally Identifiable Information) and biometric templates by sub-processors.<br>\u2022 Concerns are raised about the lack of transparency in how this data might be integrated into broader **Identity Graphs** or used for unintended security profiling.",
       "key_results": [
-        "Verification requires high-resolution scans of government-issued IDs and biometric facial recognition.",
-        "The process utilizes NFC chip verification to authenticate passport data against digital signatures.",
-        "LinkedIn offloads liability and data management to third-party verification platforms like Persona.",
-        "Privacy policies remain vague regarding the use of biometric data for future model training or identity synthesis.",
-        "Identity verification is being positioned as a primary technical defense against AI-driven bot proliferation and deepfakes."
+        "LinkedIn requires a live selfie and government ID scans for verification badges.",
+        "Third-party providers like Persona may retain biometric data for up to three years.",
+        "Metadata collected includes device fingerprints, IP addresses, and geolocation.",
+        "The verification process is managed via an iframe or redirect, offloading liability from LinkedIn.",
+        "User consent is often bundled, obscuring the specific data sharing agreements with sub-processors."
       ],
-      "relevance_score": 4,
-      "signal_type": "Engineering Blog",
-      "one_sentence_takeaway": "TheLocalStack reports that LinkedIn's identity verification system mandates extensive biometric data collection through opaque third-party processing pipelines.",
-      "lead_institution": "TheLocalStack",
+      "relevance_score": 3,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "The Local Stack reveals how LinkedIn\u2019s identity verification hands sensitive biometric and document data to third-party providers with long-term retention.",
+      "lead_institution": "The Local Stack",
       "tags": [
-        "Biometrics",
-        "Privacy",
         "Identity Verification",
-        "Deepfake Defense",
-        "Data Governance"
+        "Data Privacy",
+        "Biometrics",
+        "Digital Identity",
+        "Third-party Risk"
       ]
     }
   },
@@ -338,24 +308,24 @@
     "type": "repo",
     "display_category": "Top Repo",
     "processed": {
-      "summary": "\u2022 **Claude Code**, Anthropic's CLI agentic tool, is under scrutiny for **excessive token consumption** during routine coding tasks.<br>\u2022 The tool's architecture employs high-frequency **agentic loops** that frequently re-ingest entire files into the context window.<br>\u2022 Inefficient **context management** strategies lead to redundant data processing, significantly increasing the cost per developer session.<br>\u2022 This issue underscores the technical challenge of balancing **autonomous agent** performance with API cost efficiency in large codebases.",
+      "summary": "\n* The GitHub issue identifies a critical inefficiency in **Claude Code**, Anthropic's agentic CLI tool, which consumes excessive **context tokens** even for minor tasks.\n* The current architecture lacks sophisticated **context management**, leading to redundant re-submission of file contents and conversation history within the **LLM Agent** loop.\n* Users report that the **agentic workflow** quickly exhausts token budgets and hits rate limits, highlighting a failure to utilize **context caching** or granular pruning effectively.\n* Impact includes significantly higher **API costs** and degraded performance for developers using the tool on medium-to-large scale repositories.",
       "key_results": [
-        "Users report unexpectedly high billing due to thousands of tokens consumed for minor edits.",
-        "The tool's recursive file-reading behavior results in context window bloat.",
-        "Lack of incremental diffing or caching in the current CLI prompt engineering logic.",
-        "High token usage impacts the scalability of using Claude Code for enterprise-level repositories.",
-        "Community feedback highlights a critical need for optimized tool-calling and context pruning."
+        "Claude Code generates unexpectedly high input token counts for small code edits.",
+        "The tool frequently re-reads the entire file context rather than utilizing incremental updates.",
+        "Manual session restarts are currently required by users to clear bloated conversation histories.",
+        "Lack of user-configurable context pruning limits the tool's utility on large projects.",
+        "The community is calling for better implementation of Anthropic's prompt caching features within the CLI."
       ],
-      "relevance_score": 7,
+      "relevance_score": 6,
       "signal_type": "Engineering Blog",
-      "one_sentence_takeaway": "Anthropic faces developer feedback regarding Claude Code's high token usage caused by inefficient agentic context management during tasks.",
+      "one_sentence_takeaway": "Anthropic's Claude Code users identify architectural inefficiencies causing excessive token consumption and high costs during agentic coding sessions.",
       "lead_institution": "Anthropic",
       "tags": [
         "Claude Code",
         "LLM Agents",
         "Token Optimization",
-        "Prompt Engineering",
-        "AI Cost Management"
+        "Cost Management",
+        "Developer Tools"
       ]
     }
   },
@@ -368,24 +338,24 @@
     "type": "repo",
     "display_category": "Top Repo",
     "processed": {
-      "summary": "\n- **Claude Code** utilizes a **compaction mechanism** designed to prune or summarize conversation history to maintain token efficiency.\n- The reported issue indicates that this process incorrectly flags **active disk files** for removal from the agent's context, even when they remain physically present.\n- This architectural oversight results in a **state desynchronization** between the model's perception of the codebase and the actual filesystem state.",
+      "summary": "\n- The report identifies a critical flaw in **Claude Code's context management** where the compaction algorithm prematurely purges file data from the LLM's active memory.\n- This architectural issue causes the **agentic workflow** to lose visibility of source code that still resides on the local disk, leading to reasoning failures.\n- The bug highlights the difficulty in balancing **context window efficiency** with the persistence of long-term state in stateful CLI tools.\n- Impacted users report that the **LLM Agent** denies the existence of specific logic or files it previously modified, necessitating manual context refreshes.",
       "key_results": [
-        "Compaction logic fails to verify disk presence before discarding context.",
-        "Identification of a risk where agents 'forget' critical files during long-running tasks.",
-        "Impact on the reliability of multi-file editing workflows in agentic tools.",
-        "Developer community highlights a gap in robust state-management for CLI agents.",
-        "Demonstration of the challenges in balancing context window size with agentic memory."
+        "Compaction logic discards active file contents from the model's 'memory' before task completion.",
+        "Data loss is limited to the LLM's context state, not the physical filesystem on disk.",
+        "Aggressive pruning in long-running sessions triggers hallucinations regarding missing code.",
+        "The discrepancy between the agent's internal world model and the actual workspace disrupts multi-turn tasks.",
+        "Temporary workarounds involve forcing the agent to re-read files to restore context."
       ],
-      "relevance_score": 7,
+      "relevance_score": 6,
       "signal_type": "Engineering Blog",
-      "one_sentence_takeaway": "Anthropic's Claude Code exhibits state desynchronization issues where context compaction logic prematurely discards valid local file references.",
+      "one_sentence_takeaway": "Anthropic's Claude Code compaction algorithm causes the agent to lose track of disk-resident data, resulting in context-driven hallucinations.",
       "lead_institution": "Anthropic",
       "tags": [
         "LLM Agents",
-        "Claude Code",
         "Context Management",
-        "Software Engineering",
-        "State Synchronization"
+        "Claude Code",
+        "Agentic Workflows",
+        "Developer Tools"
       ]
     }
   },
@@ -398,24 +368,24 @@
     "type": "blog",
     "display_category": "Top News",
     "processed": {
-      "summary": "\n* The author advocates for replacing the non-standard **.gitkeep** convention with standard **.gitignore** patterns to maintain empty directories.\n* Utilizing **native Git functionality** ensures that project structures remain consistent without relying on arbitrary file-naming hacks.\n* This architectural shift promotes a cleaner **repository metadata** layer by using the intended exclusion system to force-include specific folders.\n* Implementing this pattern involves creating a **.gitignore** file inside the target directory with a '!' negation rule to exclude itself from being ignored.",
+      "summary": "\n* The article advocates for replacing the non-standard **.gitkeep** convention with official **.gitignore** patterns for tracking empty directories.\n* It highlights that Git tracks files rather than directories, leading to the community-driven but unofficial use of empty **placeholder files**.\n* Using an empty **.gitignore** or a specific pattern (`*`, `!.gitignore`) leverages native Git behavior, reducing reliance on external conventions.\n* Implementing this practice improves **repository consistency** and aligns with standard Git documentation for cleaner project architectures.",
       "key_results": [
-        ".gitkeep is a community-invented convention, not a native Git feature.",
-        "Git inherently tracks files, not directories, requiring a file to exist for the folder to persist.",
-        "Negation patterns in .gitignore can force Git to track the directory by including the ignore file itself.",
-        "Reduces project 'cruft' by avoiding the proliferation of non-standard hidden files.",
-        "Improves compatibility with various development tools that expect standard Git configurations."
+        ".gitkeep is a community convention with no official standing in Git's codebase.",
+        "Git cannot track empty directories because its data model is based on file blobs.",
+        "An empty .gitignore file successfully forces Git to track its parent directory.",
+        "A .gitignore containing '*' and '!.gitignore' tracks a folder while keeping it empty of other files.",
+        "Native .gitignore usage reduces visual clutter and prevents the proliferation of arbitrary placeholder names."
       ],
       "relevance_score": 2,
       "signal_type": "Engineering Blog",
-      "one_sentence_takeaway": "Adam Johnson advises developers to utilize native .gitignore patterns instead of non-standard .gitkeep files for cleaner repository management.",
-      "lead_institution": "adamj.eu",
+      "one_sentence_takeaway": "Adam Johnson recommends replacing non-standard .gitkeep files with native .gitignore patterns to improve repository idiomaticity and maintenance.",
+      "lead_institution": "Adam Johnson",
       "tags": [
         "Git",
+        "Version Control",
         "Software Engineering",
         "Best Practices",
-        "Repository Management",
-        "Workflow Optimization"
+        "Repository Management"
       ]
     }
   },
@@ -428,24 +398,24 @@
     "type": "blog",
     "display_category": "Top News",
     "processed": {
-      "summary": "\u2022 Loon introduces a **functional programming architecture** that emphasizes developer ergonomics through an **invisible type system** and advanced inference.\n\u2022 The language implements **safe ownership** mechanisms to ensure memory safety and deterministic resource management without a traditional garbage collector.\n\u2022 It utilizes **algebraic effects** as a primary method for handling side effects, allowing for highly modular and composable program logic.\n\u2022 The design aims to bridge the gap between the speed of **dynamic languages** and the safety of **statically-typed systems**.",
+      "summary": "\n- **Loon** is a functional programming language that implements an **invisible type system**, providing the safety of static typing without requiring explicit type annotations from the developer.\n- The architecture features **safe ownership** and borrowing mechanics designed to provide memory safety and performance without a traditional garbage collector.\n- Native support for **algebraic effects** allows developers to manage side effects, like state and I/O, in a modular and composable fashion.\n- The language aims to reduce boilerplate and cognitive load, making it a potential target for **Vibe Coding** workflows where ergonomics and rapid iteration are prioritized.",
       "key_results": [
-        "Implementation of a 'borrow-checker' style ownership system with reduced syntactic overhead.",
-        "Development of a powerful type inference engine that makes type annotations optional for most code.",
-        "First-class support for algebraic effects to manage state, I/O, and exceptions modularly.",
-        "Elimination of manual memory management and garbage collection pauses.",
-        "Architectural focus on high-concurrency performance for system-level applications."
+        "Implementation of a high-inference 'invisible' static type system.",
+        "Integrated ownership model for deterministic memory management.",
+        "First-class support for algebraic effects to handle program control flow.",
+        "Functional paradigm focus with a syntax designed for readability and speed.",
+        "Minimization of syntactical overhead while maintaining low-level safety guarantees."
       ],
       "relevance_score": 4,
       "signal_type": "Engineering Blog",
-      "one_sentence_takeaway": "Loon introduces a functional language combining invisible types and safe ownership to streamline high-performance, memory-safe software development.",
-      "lead_institution": "Loon Team",
+      "one_sentence_takeaway": "Loon introduces a functional language with invisible types and algebraic effects to streamline safe, high-performance software development.",
+      "lead_institution": "Hacker News",
       "tags": [
         "Functional Programming",
+        "Type Inference",
         "Algebraic Effects",
         "Memory Safety",
-        "Type Inference",
-        "System Programming"
+        "Vibe Coding"
       ]
     }
   },
@@ -458,24 +428,24 @@
     "type": "blog",
     "display_category": "Top News",
     "processed": {
-      "summary": "<br>\u2022 Aggregates and visualizes **MSHA (Mine Safety and Health Administration)** public datasets to map all mining operations across the United States.<br>\u2022 Implements an interactive frontend using **Leaflet.js** to provide geographic context for site-specific operator data and safety details.<br>\u2022 Demonstrates a practical application of **public data engineering** by transforming raw government records into a searchable, spatial interface.",
+      "summary": "\n\u2022 The platform implements a **geospatial visualization** architecture using the **Leaflet** library to map extensive mining data.\n\u2022 It processes and exposes **MSHA (Mine Safety and Health Administration)** public datasets for real-time site identification.\n\u2022 The impact lies in providing a transparent, interactive interface for querying **mine operators** and site-specific operational metadata.",
       "key_results": [
-        "Mapping of all registered US mines in a single interface.",
-        "Integration of complex MSHA safety and operator datasets.",
-        "Searchable visualization for specific mining site details.",
-        "Leverages Leaflet for efficient client-side map rendering.",
-        "Achieved significant community traction on Hacker News."
+        "Comprehensive mapping of all US mine locations",
+        "Integration of official MSHA safety and health datasets",
+        "Detailed operator information available per site",
+        "High-performance frontend visualization using Leaflet",
+        "Accessibility of previously siloed government data"
       ],
       "relevance_score": 2,
       "signal_type": "General News",
-      "one_sentence_takeaway": "Mines.fyi launches an interactive visualization platform mapping all US mines using public MSHA datasets for improved data accessibility.",
+      "one_sentence_takeaway": "Mines.fyi utilizes MSHA datasets and Leaflet to create an interactive geospatial visualization of every mining operation in the US.",
       "lead_institution": "Mines.fyi",
       "tags": [
-        "Geospatial Data",
-        "Data Visualization",
+        "Geospatial Visualization",
+        "MSHA Data",
+        "Leaflet",
         "Public Datasets",
-        "MSHA",
-        "Leaflet.js"
+        "GIS"
       ]
     }
   },
@@ -488,24 +458,24 @@
     "type": "blog",
     "display_category": "Top News",
     "processed": {
-      "summary": "\n- Analyzes the **legal and ethical consequences** of vulnerability disclosure within the software industry.\n- Details the **corporate response patterns** where litigation is prioritized over patching technical security flaws.\n- Examines the **chilling effect** on independent security researchers when faced with legal intimidation instead of bug bounty cooperation.\n- Highlights the systemic lack of **Responsible Disclosure** frameworks in certain organizations, leading to increased risk for users.",
+      "summary": "\n- The article details a personal account of a **security researcher** who discovered a vulnerability and faced **legal threats** rather than technical collaboration.\n- It highlights the **architectural risks** of systems that lack a clear, safe-harbor **Vulnerability Disclosure Policy (VDP)**.\n- The impact focuses on the **chilling effect** that aggressive legal retaliation has on independent security audits and software integrity.",
       "key_results": [
-        "Security researcher identified a significant vulnerability in a commercial software product.",
-        "The organization responded with legal threats instead of a technical remediation plan.",
-        "Case study illustrates the failure of non-standardized bug reporting channels.",
-        "Community discussion highlights the necessity for stronger legal protections for whistleblowers.",
-        "Incident reinforces the trend of 'security through litigation' in under-resourced IT departments."
+        "Discovery of a software vulnerability led to immediate legal confrontation.",
+        "The target company prioritized litigation over security remediation.",
+        "Significant lack of safe-harbor protections for independent researchers.",
+        "Community consensus highlights the ongoing risk of 'shoot the messenger' corporate cultures.",
+        "Need for standardized responsible disclosure frameworks to protect technical auditors."
       ],
       "relevance_score": 2,
       "signal_type": "General News",
-      "one_sentence_takeaway": "Dixken illustrates the persistent legal risks security researchers face when reporting vulnerabilities to organizations that prioritize litigation over technical security.",
+      "one_sentence_takeaway": "Dixken details how a company responded to a vulnerability disclosure with legal threats, highlighting risks for independent security researchers.",
       "lead_institution": "Dixken.de",
       "tags": [
         "Cybersecurity",
         "Vulnerability Disclosure",
-        "Legal Ethics",
-        "Software Security",
-        "Developer Relations"
+        "Software Law",
+        "Ethical Hacking",
+        "Security Research"
       ]
     }
   },
@@ -518,24 +488,24 @@
     "type": "blog",
     "display_category": "Top News",
     "processed": {
-      "summary": "\n- **Wikipedia** has officially deprecated **Archive.today** as a source for web link preservation, citing technical and behavioral concerns.\n- The decision follows reports of the service directing **distributed denial-of-service (DDoS)** attacks against external domains.\n- This architectural shift impacts **information provenance** and the long-term reliability of digital citations on the platform.\n- The move involves the systematic **removal of existing archive links**, potentially affecting data integrity for automated citation systems.",
+      "summary": "\n* **Wikipedia** has officially deprecated **Archive.today** as a source for citations, initiating the systematic removal of existing archive links due to reliability and security concerns.\n* The decision follows allegations of the service being used to direct **DDoS attacks** against independent blogs and exhibiting non-transparent operational behavior.\n* This shift impacts the **data provenance** and stability of historical web records, which are critical for maintaining the accuracy of **RAG (Retrieval-Augmented Generation)** systems that crawl Wikipedia.\n* The deprecation increases the reliance on the **Internet Archive (Wayback Machine)**, highlighting potential single points of failure in the global web archiving infrastructure used for training datasets.",
       "key_results": [
-        "Wikipedia deprecates Archive.today as a citation archival tool.",
-        "The platform has begun the mass removal of previously archived links.",
-        "Internal discussions highlight a pattern of suspicious network behavior from the service.",
-        "Reports of DDoS-like traffic originating from Archive.today have surfaced in the community.",
-        "Reliance on more stable archival alternatives like the Internet Archive (Wayback Machine) is reinforced."
+        "Wikipedia deprecates Archive.today as a valid archival citation tool.",
+        "Removal of existing Archive.today links from the encyclopedia's database is underway.",
+        "User reports link Archive.today infrastructure to malicious DDoS traffic.",
+        "Shift in community policy prioritizes more stable and transparent archival alternatives.",
+        "Increased risk of 'link rot' for citations that were exclusively preserved on the deprecated platform."
       ],
-      "relevance_score": 2,
+      "relevance_score": 4,
       "signal_type": "General News",
-      "one_sentence_takeaway": "Wikipedia deprecates Archive.today due to reliability and security concerns, initiating a large-scale removal of existing archival links.",
-      "lead_institution": "Hacker News",
+      "one_sentence_takeaway": "Wikipedia deprecates Archive.today over security concerns, potentially impacting the long-term reliability of web-scraped data and RAG citation sources.",
+      "lead_institution": "Wikipedia",
       "tags": [
+        "Data Provenance",
         "Web Archiving",
-        "Information Provenance",
-        "Cybersecurity",
-        "Wikipedia",
-        "Digital Preservation"
+        "RAG Infrastructure",
+        "Information Integrity",
+        "Content Moderation"
       ]
     }
   },
@@ -548,24 +518,24 @@
     "type": "blog",
     "display_category": "Top News",
     "processed": {
-      "summary": "\n- Challenges the prevailing **blue light hypothesis** by demonstrating that spectral shifts in display output have a negligible effect on circadian disruption compared to **total luminance**.\n- Analyzes the response of **intrinsically photosensitive Retinal Ganglion Cells (ipRGCs)**, noting that while they are sensitive to short wavelengths, their activation is primarily a function of overall photon flux.\n- Suggests that current **software-based blue light filters** provide a false sense of security, often failing to reduce **melanopic irradiance** to levels that would prevent melatonin suppression.\n- Highlights the need for display hardware and UI design to focus on **extinction ratios** and absolute brightness reduction rather than simple chromatic shifts.",
+      "summary": "<br>\u2022 Investigates the physiological impact of **blue light filters** versus **total luminance** on the human circadian system and sleep quality.<br>\u2022 Argues that the **melanopsin** response in the retina is driven more by the total number of photons (brightness) than by the specific spectral distribution of color.<br>\u2022 Highlights that standard **Night Mode** implementations often fail because they do not sufficiently reduce the energy output of green and red sub-pixels.",
       "key_results": [
-        "Total light intensity is the primary driver of circadian rhythm disruption, not color temperature.",
-        "Blue light filters often only reduce melanopic stimulation by a fraction compared to dimming.",
-        "The human eye's sensitivity to light intensity at night is far greater than its sensitivity to color shifts.",
-        "Standard 'night mode' settings do not significantly improve sleep quality if brightness remains high.",
-        "Effective eye health and sleep hygiene require reducing total screen luminance below specific lux thresholds."
+        "Spectral filtering (color shifting) has a negligible impact on melatonin suppression if luminance remains high.",
+        "Total photon density is the primary driver of the pupillary light reflex and circadian clock phase-shifting.",
+        "Commercial software filters often provide a false sense of security while maintaining high brightness levels.",
+        "Hardware-level reduction of screen intensity is significantly more effective than software-based 'warm' color modes.",
+        "Human photoreceptors exhibit a broader spectral sensitivity than the narrow blue-peak narrative suggests."
       ],
       "relevance_score": 2,
       "signal_type": "General News",
-      "one_sentence_takeaway": "NeuroAI Science argues that reducing total screen luminance is significantly more effective than blue light filtering for protecting circadian health.",
-      "lead_institution": "NeuroAI Science",
+      "one_sentence_takeaway": "NeuroAI science reports that controlling total display luminance is more effective for sleep health than using blue light filters.",
+      "lead_institution": "NeuroAI.science",
       "tags": [
-        "Circadian Rhythm",
-        "Display Technology",
-        "Human-Computer Interaction",
         "Neuroscience",
-        "Visual Perception"
+        "HCI",
+        "Display Technology",
+        "Circadian Health",
+        "Vision Science"
       ]
     }
   },
@@ -1080,66 +1050,6 @@
     }
   },
   {
-    "title": "On the Semantic and Syntactic Information Encoded in Proto-Tokens for One-Step Text Reconstruction",
-    "link": "http://arxiv.org/abs/2602.18301v1",
-    "summary": "Autoregressive large language models (LLMs) generate text token-by-token, requiring n forward passes to produce a sequence of length n. Recent work, Exploring the Latent Capacity of LLMs for One-Step Text Reconstruction (Mezentsev and Oseledets), shows that frozen LLMs can reconstruct hundreds of tokens from only two learned proto-tokens in a single forward pass, suggesting a path beyond the autoregressive paradigm. In this paper, we study what information these proto-tokens encode and how they behave under reconstruction and controlled constraints. We perform a series of experiments aimed at disentangling semantic and syntactic content in the two proto-tokens, analyzing stability properties of the e-token, and visualizing attention patterns to the e-token during reconstruction. Finally, we test two regularization schemes for \"imposing\" semantic structure on the e-token using teacher embeddings, including an anchor-based loss and a relational distillation objective. Our results indicate that the m-token tends to capture semantic information more strongly than the e-token under standard optimization; anchor-based constraints trade off sharply with reconstruction accuracy; and relational distillation can transfer batch-level semantic relations into the proto-token space without sacrificing reconstruction quality, supporting the feasibility of future non-autoregressive seq2seq systems that predict proto-tokens as an intermediate representation.",
-    "source": "ArXiv",
-    "published": "2026-02-20T15:54:10+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- This research explores **One-Step Text Reconstruction** using frozen LLMs, aiming to bypass the computational bottleneck of **autoregressive generation** by predicting long sequences in a single pass.\n- The architecture utilizes two learned **proto-tokens** (m-token and e-token) that serve as a dense latent representation for reconstructing hundreds of tokens simultaneously.\n- The study investigates the **semantic and syntactic disentanglement** within these tokens, identifying how specialized embeddings can govern both content and structure.\n- It proposes **relational distillation** as a method to impose semantic structure on the latent space without sacrificing the fidelity of the generated text.",
-      "key_results": [
-        "Frozen LLMs can reconstruct high-fidelity text sequences from only two optimized proto-tokens.",
-        "The m-token primarily encodes semantic information, while the e-token handles structural and syntactic constraints.",
-        "Anchor-based regularization losses result in a significant drop in reconstruction accuracy.",
-        "Relational distillation effectively transfers teacher-model semantic relations into proto-tokens without quality loss.",
-        "Attention visualization confirms the e-token's role in coordinating token-to-token dependencies during the one-step pass."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "Skoltech researchers demonstrate that frozen LLMs can reconstruct full sequences from two semantic proto-tokens in a single forward pass.",
-      "lead_institution": "Skoltech",
-      "tags": [
-        "Non-Autoregressive LLMs",
-        "Latent Representations",
-        "Model Efficiency",
-        "Text Reconstruction",
-        "Proto-tokens"
-      ]
-    }
-  },
-  {
-    "title": "Analyzing and Improving Chain-of-Thought Monitorability Through Information Theory",
-    "link": "http://arxiv.org/abs/2602.18297v1",
-    "summary": "Chain-of-thought (CoT) monitors are LLM-based systems that analyze reasoning traces to detect when outputs may exhibit attributes of interest, such as test-hacking behavior during code generation. In this paper, we use information-theoretic analysis to show that non-zero mutual information between CoT and output is a necessary but not sufficient condition for CoT monitorability. We identify two sources of approximation error that may undermine the performance of CoT monitors in practice: information gap, which measures the extent to which the monitor can extract the information available in CoT, and elicitation error, which measures the extent to which the monitor approximates the optimal monitoring function. We further demonstrate that CoT monitorability can be systematically improved through targeted training objectives. To this end, we propose two complementary approaches: (a) an oracle-based method that directly rewards the monitored model for producing CoTs that maximize monitor accuracy, and (b) a more practical, label-free approach that maximizes conditional mutual information between outputs and CoTs. Across multiple different environments, we show both methods significantly improve monitor accuracy while preventing CoT degeneration even when training against a monitor, thereby mitigating reward hacking when the task reward is imperfectly specified.",
-    "source": "ArXiv",
-    "published": "2026-02-20T15:50:30+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Establishes an **Information-Theoretic Framework** for assessing Chain-of-Thought (CoT) monitorability, identifying **Mutual Information** as a necessary prerequisite for effective trace analysis.\n- Characterizes performance bottlenecks via **Information Gap** (extraction limits) and **Elicitation Error** (approximation of optimal functions), providing a formal taxonomy for monitor failure modes.\n- Proposes training methods that optimize for **Monitor Accuracy** through oracle rewards or **Conditional Mutual Information (CMI)** maximization to ensure reasoning traces remain legible.\n- Demonstrates a robust mechanism for **Mitigating Reward Hacking** by ensuring CoT transparency, preventing trace degeneration even when primary task rewards are poorly defined.",
-      "key_results": [
-        "Proved non-zero mutual information between CoT and output is a necessary condition for monitorability.",
-        "Defined 'Information Gap' as the delta between available and extractable information within a reasoning trace.",
-        "Introduced an oracle-based training method that directly rewards models for producing monitor-friendly CoTs.",
-        "Validated a label-free training objective maximizing conditional mutual information to align reasoning with outputs.",
-        "Successfully reduced test-hacking behaviors in code generation tasks while maintaining high performance."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers apply information theory to optimize Chain-of-Thought monitorability, significantly reducing reward hacking and reasoning trace degeneration.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "Chain-of-Thought",
-        "Information Theory",
-        "AI Safety",
-        "Reasoning Models",
-        "Model Evaluation"
-      ]
-    }
-  },
-  {
     "title": "Context-Aware Mapping of 2D Drawing Annotations to 3D CAD Features Using LLM-Assisted Reasoning for Manufacturing Automation",
     "link": "http://arxiv.org/abs/2602.18296v1",
     "summary": "Manufacturing automation in process planning, inspection planning, and digital-thread integration depends on a unified specification that binds the geometric features of a 3D CAD model to the geometric dimensioning and tolerancing (GD&T) callouts, datum definitions, and surface requirements carried by the corresponding 2D engineering drawing. Although Model-Based Definition (MBD) allows such specifications to be embedded directly in 3D models, 2D drawings remain the primary carrier of manufacturing intent in automotive, aerospace, shipbuilding, and heavy-machinery industries. Correctly linking drawing annotations to the corresponding 3D features is difficult because of contextual ambiguity, repeated feature patterns, and the need for transparent and traceable decisions. This paper presents a deterministic-first, context-aware framework that maps 2D drawing entities to 3D CAD features to produce a unified manufacturing specification. Drawing callouts are first semantically enriched and then scored against candidate features using an interpretable metric that combines type compatibility, tolerance-aware dimensional agreement, and conservative context consistency, along with engineering-domain heuristics. When deterministic scoring cannot resolve an ambiguity, the system escalates to multimodal and constrained large-language-model reasoning, followed by a single human-in-the-loop (HITL) review step. Experiments on 20 real CAD-drawing pairs achieve a mean precision of 83.67%, recall of 90.46%, and F1 score of 86.29%. An ablation study shows that each pipeline component contributes to overall accuracy, with the full system outperforming all reduced variants. By prioritizing deterministic rules, clear decision tracking, and retaining unresolved cases for human review, the framework provides a practical foundation for downstream manufacturing automation in real-world industrial environments.",
@@ -1196,36 +1106,6 @@
         "Higher-Order GSOS",
         "Formal Methods",
         "Compositionality"
-      ]
-    }
-  },
-  {
-    "title": "Diffusing to Coordinate: Efficient Online Multi-Agent Diffusion Policies",
-    "link": "http://arxiv.org/abs/2602.18291v1",
-    "summary": "Online Multi-Agent Reinforcement Learning (MARL) is a prominent framework for efficient agent coordination. Crucially, enhancing policy expressiveness is pivotal for achieving superior performance. Diffusion-based generative models are well-positioned to meet this demand, having demonstrated remarkable expressiveness and multimodal representation in image generation and offline settings. Yet, their potential in online MARL remains largely under-explored. A major obstacle is that the intractable likelihoods of diffusion models impede entropy-based exploration and coordination. To tackle this challenge, we propose among the first \\underline{O}nline off-policy \\underline{MA}RL framework using \\underline{D}iffusion policies (\\textbf{OMAD}) to orchestrate coordination. Our key innovation is a relaxed policy objective that maximizes scaled joint entropy, facilitating effective exploration without relying on tractable likelihood. Complementing this, within the centralized training with decentralized execution (CTDE) paradigm, we employ a joint distributional value function to optimize decentralized diffusion policies. It leverages tractable entropy-augmented targets to guide the simultaneous updates of diffusion policies, thereby ensuring stable coordination. Extensive evaluations on MPE and MAMuJoCo establish our method as the new state-of-the-art across $10$ diverse tasks, demonstrating a remarkable $2.5\\times$ to $5\\times$ improvement in sample efficiency.",
-    "source": "ArXiv",
-    "published": "2026-02-20T15:38:02+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Introduces **OMAD**, a framework that integrates **Diffusion Policies** into online multi-agent reinforcement learning to improve agent coordination and multimodal policy expressiveness.\n- Implements a **relaxed policy objective** designed to maximize scaled joint entropy, successfully bypassing the **intractable likelihood** issues typically found in diffusion-based generative models.\n- Utilizes a **joint distributional value function** within the **Centralized Training with Decentralized Execution (CTDE)** paradigm to stabilize the simultaneous updates of decentralized policies.\n- Significantly advances **sample efficiency** in online settings, providing a robust architecture for complex coordination tasks like MAMuJoCo.",
-      "key_results": [
-        "Established a new state-of-the-art (SOTA) performance across 10 diverse multi-agent benchmarks.",
-        "Achieved a 2.5x to 5x improvement in sample efficiency compared to existing MARL methods.",
-        "Successfully bypassed the need for tractable likelihoods for exploration in diffusion models.",
-        "Demonstrated superior multimodal representation capabilities in online agent coordination.",
-        "Validated the effectiveness of the joint distributional value function in stabilizing decentralized execution."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce OMAD, using diffusion policies to achieve up to 5x better sample efficiency in multi-agent coordination.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "Multi-Agent RL",
-        "Diffusion Policies",
-        "Generative AI",
-        "Sample Efficiency",
-        "CTDE"
       ]
     }
   },
@@ -1290,66 +1170,6 @@
     }
   },
   {
-    "title": "A Probabilistic Framework for LLM-Based Model Discovery",
-    "link": "http://arxiv.org/abs/2602.18266v1",
-    "summary": "Automated methods for discovering mechanistic simulator models from observational data offer a promising path toward accelerating scientific progress. Such methods often take the form of agentic-style iterative workflows that repeatedly propose and revise candidate models by imitating human discovery processes. However, existing LLM-based approaches typically implement such workflows via hand-crafted heuristic procedures, without an explicit probabilistic formulation. We recast model discovery as probabilistic inference, i.e., as sampling from an unknown distribution over mechanistic models capable of explaining the data. This perspective provides a unified way to reason about model proposal, refinement, and selection within a single inference framework. As a concrete instantiation of this view, we introduce ModelSMC, an algorithm based on Sequential Monte Carlo sampling. ModelSMC represents candidate models as particles which are iteratively proposed and refined by an LLM, and weighted using likelihood-based criteria. Experiments on real-world scientific systems illustrate that this formulation discovers models with interpretable mechanisms and improves posterior predictive checks. More broadly, this perspective provides a probabilistic lens for understanding and developing LLM-based approaches to model discovery.",
-    "source": "ArXiv",
-    "published": "2026-02-20T14:49:53+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Formalizes LLM-based **mechanistic model discovery** as a **probabilistic inference** problem, moving beyond the heuristic, hand-crafted workflows of previous agentic systems.\n- Introduces **ModelSMC**, an algorithm utilizing **Sequential Monte Carlo** (SMC) to represent candidate models as particles that evolve through iterative proposal and refinement stages.\n- Leverages **LLMs as proposal engines** while incorporating **likelihood-based criteria** to weight and select models, ensuring a rigorous mathematical foundation for the discovery process.\n- Provides a unified framework for **scientific reasoning**, enabling the generation of models with both high predictive accuracy and human-interpretable mechanisms.",
-      "key_results": [
-        "Recast model discovery from a heuristic search to a formal probabilistic sampling task.",
-        "Introduced ModelSMC, integrating Sequential Monte Carlo with Large Language Models.",
-        "Demonstrated improved performance on posterior predictive checks for scientific systems.",
-        "Showcased the ability to discover interpretable mechanisms in real-world observational data.",
-        "Established a scalable method for refining and selecting models based on objective likelihood weights."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce ModelSMC, a probabilistic framework using Sequential Monte Carlo to automate interpretable scientific model discovery via LLMs.",
-      "lead_institution": "ArXiv Researchers",
-      "tags": [
-        "LLM Agents",
-        "Sequential Monte Carlo",
-        "Scientific Discovery",
-        "Probabilistic Inference",
-        "Reasoning Models"
-      ]
-    }
-  },
-  {
-    "title": "Simplifying Outcomes of Language Model Component Analyses with ELIA",
-    "link": "http://arxiv.org/abs/2602.18262v1",
-    "summary": "While mechanistic interpretability has developed powerful tools to analyze the internal workings of Large Language Models (LLMs), their complexity has created an accessibility gap, limiting their use to specialists. We address this challenge by designing, building, and evaluating ELIA (Explainable Language Interpretability Analysis), an interactive web application that simplifies the outcomes of various language model component analyses for a broader audience. The system integrates three key techniques -- Attribution Analysis, Function Vector Analysis, and Circuit Tracing -- and introduces a novel methodology: using a vision-language model to automatically generate natural language explanations (NLEs) for the complex visualizations produced by these methods. The effectiveness of this approach was empirically validated through a mixed-methods user study, which revealed a clear preference for interactive, explorable interfaces over simpler, static visualizations. A key finding was that the AI-powered explanations helped bridge the knowledge gap for non-experts; a statistical analysis showed no significant correlation between a user's prior LLM experience and their comprehension scores, suggesting that the system reduced barriers to comprehension across experience levels. We conclude that an AI system can indeed simplify complex model analyses, but its true power is unlocked when paired with thoughtful, user-centered design that prioritizes interactivity, specificity, and narrative guidance.",
-    "source": "ArXiv",
-    "published": "2026-02-20T14:45:27+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n * **ELIA Framework**: An interactive web application designed to bridge the accessibility gap in **mechanistic interpretability** by translating complex model internals into human-readable insights.\n * **Multi-Method Integration**: The system combines **Attribution Analysis**, **Function Vector Analysis**, and **Circuit Tracing** within a unified interface to provide a holistic view of LLM components.\n * **VLM-Powered Explanations**: Introduces a novel pipeline where a **Vision-Language Model (VLM)** automatically generates **natural language explanations (NLEs)** to narrate and clarify intricate visualization outputs.\n * **User-Centered Design**: Demonstrates that **AI-guided narratives** effectively normalize comprehension scores, allowing non-experts to achieve understanding levels comparable to specialists.",
-      "key_results": [
-        "Development of ELIA, a tool integrating three advanced mechanistic interpretability techniques into one interface.",
-        "First implementation of using Vision-Language Models to automate the interpretation of complex interpretability visualizations.",
-        "User study found no significant correlation between prior LLM experience and comprehension when using ELIA's AI-powered explanations.",
-        "Empirical evidence shows users strongly prefer interactive, explorable interfaces over static, traditional visualizations.",
-        "Validation that specificity and narrative guidance are the primary drivers for making model analyses accessible to a broader audience."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce ELIA, using vision-language models to automate and simplify complex mechanistic interpretability for non-experts.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "Mechanistic Interpretability",
-        "AI Evaluation",
-        "Vision-Language Models",
-        "Explainable AI (XAI)",
-        "LLM Observability"
-      ]
-    }
-  },
-  {
     "title": "Role-Adaptive Collaborative Formation Planning for Team of Quadruped Robots in Cluttered Environments",
     "link": "http://arxiv.org/abs/2602.18260v1",
     "summary": "This paper presents a role-adaptive Leader-Follower-based formation planning and control framework for teams of quadruped robots operating in cluttered environments. Unlike conventional methods with fixed leaders or rigid formation roles, the proposed approach integrates dynamic role assignment and partial goal planning, enabling flexible, collision-free navigation in complex scenarios. Formation stability and inter-robot safety are ensured through a virtual spring-damper system coupled with a novel obstacle avoidance layer that adaptively adjusts each agent's velocity. A dynamic look-ahead reference generator further enhances flexibility, allowing temporary formation deformation to maneuver around obstacles while maintaining goal-directed motion. The Fast Marching Square (FM2) algorithm provides the global path for the leader and local paths for the followers as the planning backbone. The framework is validated through extensive simulations and real-world experiments with teams of quadruped robots. Results demonstrate smooth coordination, adaptive role switching, and robust formation maintenance in complex, unstructured environments. A video featuring the simulation and physical experiments along with their associated visualizations can be found at https://youtu.be/scq37Tua9W4.",
@@ -1406,36 +1226,6 @@
         "Multimodal AI",
         "Computer Vision",
         "Pose Estimation"
-      ]
-    }
-  },
-  {
-    "title": "On the Adversarial Robustness of Discrete Image Tokenizers",
-    "link": "http://arxiv.org/abs/2602.18252v1",
-    "summary": "Discrete image tokenizers encode visual inputs as sequences of tokens from a finite vocabulary and are gaining popularity in multimodal systems, including encoder-only, encoder-decoder, and decoder-only models. However, unlike CLIP encoders, their vulnerability to adversarial attacks has not been explored. Ours being the first work studying this topic, we first formulate attacks that aim to perturb the features extracted by discrete tokenizers, and thus change the extracted tokens. These attacks are computationally efficient, application-agnostic, and effective across classification, multimodal retrieval, and captioning tasks. Second, to defend against this vulnerability, inspired by recent work on robust CLIP encoders, we fine-tune popular tokenizers with unsupervised adversarial training, keeping all other components frozen. While unsupervised and task-agnostic, our approach significantly improves robustness to both unsupervised and end-to-end supervised attacks and generalizes well to unseen tasks and data. Unlike supervised adversarial training, our approach can leverage unlabeled images, making it more versatile. Overall, our work highlights the critical role of tokenizer robustness in downstream tasks and presents an important step in the development of safe multimodal foundation models.",
-    "source": "ArXiv",
-    "published": "2026-02-20T14:39:17+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n\u2022 This research identifies a critical security gap in **multimodal systems** that rely on **discrete image tokenizers** for visual encoding rather than traditional CLIP-style encoders.\n\u2022 The authors introduce **application-agnostic adversarial attacks** that efficiently perturb discrete tokens, successfully degrading performance in classification, retrieval, and captioning tasks.\n\u2022 To mitigate these risks, they propose **unsupervised adversarial training** to fine-tune tokenizers, allowing the models to become robust without requiring task-specific labeled data.\n\u2022 The study demonstrates that hardening the tokenizer component in isolation significantly improves the **adversarial robustness** of the entire end-to-end multimodal pipeline.",
-      "key_results": [
-        "First comprehensive study detailing the adversarial vulnerabilities of discrete image tokenizers.",
-        "Development of computationally efficient attacks that disrupt token sequences across multiple vision-language tasks.",
-        "Proposed defense mechanism utilizes unsupervised fine-tuning, keeping the rest of the model architecture frozen.",
-        "Fine-tuned tokenizers show improved robustness against both unsupervised and supervised end-to-end attacks.",
-        "The defense strategy generalizes effectively to unseen datasets and diverse downstream tasks like multimodal retrieval."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers reveal vulnerabilities in discrete image tokenizers and introduce unsupervised adversarial training to secure multimodal foundation models.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "Multimodal AI",
-        "Adversarial Robustness",
-        "Discrete Tokenizers",
-        "Computer Vision",
-        "AI Security"
       ]
     }
   },
@@ -1526,36 +1316,6 @@
         "Python",
         "Machine Learning",
         "GenAI Pedagogy"
-      ]
-    }
-  },
-  {
-    "title": "Thinking by Subtraction: Confidence-Driven Contrastive Decoding for LLM Reasoning",
-    "link": "http://arxiv.org/abs/2602.18232v1",
-    "summary": "Recent work on test-time scaling for large language model (LLM) reasoning typically assumes that allocating more inference-time computation uniformly improves correctness. However, prior studies show that reasoning uncertainty is highly localized: a small subset of low-confidence tokens disproportionately contributes to reasoning errors and unnecessary output expansion. Motivated by this observation, we propose Thinking by Subtraction, a confidence-driven contrastive decoding approach that improves reasoning reliability through targeted token-level intervention. Our method, Confidence-Driven Contrastive Decoding, detects low-confidence tokens during decoding and intervenes selectively at these positions. It constructs a contrastive reference by replacing high-confidence tokens with minimal placeholders, and refines predictions by subtracting this reference distribution at low-confidence locations. Experiments show that CCD significantly improves accuracy across mathematical reasoning benchmarks while substantially reducing output length, with minimal KV-cache overhead. As a training-free method, CCD enhances reasoning reliability through targeted low-confidence intervention without computational redundancy. Our code will be made available at: https://github.com/bolo-web/CCD.",
-    "source": "ArXiv",
-    "published": "2026-02-20T14:13:22+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Introduces **Confidence-Driven Contrastive Decoding (CCD)**, a training-free inference-time intervention that targets **low-confidence tokens** to improve reasoning reliability.\n- Utilizes a **subtractive contrastive reference** created by masking high-confidence tokens with placeholders, effectively penalizing poor reasoning paths during the decoding process.\n- Addresses the inefficiency of uniform **test-time scaling** by focusing computational intervention only on localized segments prone to errors or unnecessary verbosity.\n- Achieves significant accuracy gains on **mathematical reasoning benchmarks** while simultaneously reducing output length and maintaining minimal **KV-cache overhead**.",
-      "key_results": [
-        "Significant accuracy improvements across multiple mathematical reasoning datasets.",
-        "Substantial reduction in total output length compared to standard decoding methods.",
-        "Low-overhead implementation requiring minimal additional KV-cache memory.",
-        "Effectively identifies and corrects localized reasoning errors at the token level.",
-        "Training-free approach allows immediate application to existing LLMs without further fine-tuning."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "The CCD Research Team introduces a confidence-driven contrastive decoding method that improves LLM reasoning accuracy while reducing output length.",
-      "lead_institution": "The CCD Research Team",
-      "tags": [
-        "Contrastive Decoding",
-        "LLM Reasoning",
-        "Inference Optimization",
-        "Test-Time Scaling",
-        "Confidence Calibration"
       ]
     }
   },
@@ -1736,36 +1496,6 @@
         "Self-Organizing Maps",
         "Model Evaluation",
         "Latent Representations"
-      ]
-    }
-  },
-  {
-    "title": "RAT+: Train Dense, Infer Sparse -- Recurrence Augmented Attention for Dilated Inference",
-    "link": "http://arxiv.org/abs/2602.18196v1",
-    "summary": "Structured dilated attention has an appealing inference-time efficiency knob: it reduces the FLOPs of the attention and the KV cache size by a factor of the dilation size D, while preserving long-range connectivity. However, we find a persistent failure mode of them -- sparsifying a pretrained attention model to a dilated pattern leads to severe accuracy degradation. We introduce RAT+, a dense-pretraining architecture that augments attention with full-sequence recurrence and active recurrence learning. A single RAT+ model is pretrained densely once, then flexibly switched at inference time to dilated attention (optionally with local windows) or hybrid layer/head compositions, requiring only a short 1B-token resolution adaptation rather than retraining separate sparse models. At 1.5B parameters trained on 100B tokens, RAT+ closely matches dense accuracy at 16 and drops by about 2-3 points at 64 on commonsense reasoning and LongBench tasks, respectively. Moreover, RAT+ outperforms attention when sparsifying to the top-k block attention. We further scale to 2.6B parameters and 200B tokens and observe the same trend.",
-    "source": "ArXiv",
-    "published": "2026-02-20T13:09:49+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Introduces **RAT+**, a novel architecture that combines dense pretraining with **full-sequence recurrence** and active recurrence learning to prevent accuracy decay in sparse models.\n- Implements a **\"train dense, infer sparse\"** strategy, allowing a single model to flexibly switch to **dilated attention** or hybrid layer compositions at inference time.\n- Features a minimal **1B-token resolution adaptation** phase, eliminating the need for expensive full retraining when moving from dense to sparse configurations.\n- Optimizes inference efficiency by reducing **FLOPs** and the **KV cache size** by a factor of the dilation size D while preserving long-range connectivity.",
-      "key_results": [
-        "Matches dense model accuracy at a dilation factor of 16 on commonsense reasoning tasks.",
-        "Maintains competitive performance with only a 2-3 point drop at a dilation factor of 64 on LongBench.",
-        "Outperforms standard attention mechanisms when using top-k block attention sparsification.",
-        "Successfully scales from 1.5B to 2.6B parameters while maintaining the same efficiency trends.",
-        "Reduces the memory footprint of the KV cache proportionally to the chosen dilation factor."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce RAT+, allowing dense-trained models to switch to sparse dilated attention during inference with minimal performance loss.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "Dilated Attention",
-        "Inference Efficiency",
-        "KV Cache Optimization",
-        "Sparse Inference",
-        "Local LLMs"
       ]
     }
   },
