@@ -1,5 +1,365 @@
 [
   {
+    "title": "GitHub for Beginners: Getting started with GitHub Issues and Projects",
+    "link": "https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-github-issues-and-projects/",
+    "summary": "<p>Learn how to get organized and collaborate more efficiently with this step-by-step tutorial.</p>\n<p>The post <a href=\"https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-github-issues-and-projects/\">GitHub for Beginners: Getting started with GitHub Issues and Projects</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
+    "source": "The GitHub Blog",
+    "published": "2026-03-02T17:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Introduces **GitHub Issues** as the primary unit for tracking bugs, enhancements, and tasks within the developer ecosystem.\n- Details **GitHub Projects** as a high-level management layer that uses boards and tables to visualize development velocity and roadmaps.\n- Focuses on the **collaborative workflow** integration, allowing beginners to link tasks directly to code changes and pull requests.",
+      "key_results": [
+        "Step-by-step workflow for initializing GitHub Issues.",
+        "Explanation of labeling systems for task categorization.",
+        "Introduction to Project board views for workload visualization.",
+        "Guidance on assigning team members to specific tasks.",
+        "Best practices for organizing beginner-level repository documentation."
+      ],
+      "relevance_score": 2,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "GitHub provides a foundational guide for developers to organize code repositories using integrated project management and issue tracking.",
+      "lead_institution": "GitHub",
+      "tags": [
+        "Project Management",
+        "GitHub Issues",
+        "Workflow Optimization",
+        "Developer Tools",
+        "Collaboration"
+      ]
+    }
+  },
+  {
+    "title": "Seed of Might Color Correction Process (2023) [pdf]",
+    "link": "https://andrewvanner.github.io/som/SoM_CC_Process_Day.pdf",
+    "summary": "<p>Article URL: <a href=\"https://andrewvanner.github.io/som/SoM_CC_Process_Day.pdf\">https://andrewvanner.github.io/som/SoM_CC_Process_Day.pdf</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47225318\">https://news.ycombinator.com/item?id=47225318</a></p>\n<p>Points: 57</p>\n<p># Comments: 14</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-03-02T22:49:47+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Outlines a **systematic technical pipeline** for color correction within the \"Seed of Might\" production environment to ensure visual consistency.\n- Details a specific **post-production workflow** involving standardized LUTs and color grading software to manage lighting profiles.\n- Focuses on the **architectural integration** of reference frames to maintain aesthetic continuity across various digital assets and environments.",
+      "key_results": [
+        "Established a standardized color grading pipeline for digital media.",
+        "Documentation of specific software settings for reproducible visual results.",
+        "Optimization of lighting transitions between day and night scenes.",
+        "Creation of a reference-based workflow for environment-specific LUTs.",
+        "Improved efficiency in the final rendering and post-processing stages."
+      ],
+      "relevance_score": 2,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Andrew Vanner details a structured color correction pipeline for the Seed of Might project to ensure consistent visual aesthetics.",
+      "lead_institution": "Andrew Vanner",
+      "tags": [
+        "Color Correction",
+        "Digital Art Pipeline",
+        "Post-Production",
+        "Visual FX",
+        "Workflow Management"
+      ]
+    }
+  },
+  {
+    "title": "Show HN: Pianoterm \u2013 Run shell commands from your Piano. A Linux CLI tool",
+    "link": "https://github.com/vustagc/pianoterm",
+    "summary": "<p>A little weekend project, made so I can pause/play/rewind directly on the piano, when learning a song by ear.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47223863\">https://news.ycombinator.com/item?id=47223863</a></p>\n<p>Points: 37</p>\n<p># Comments: 16</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-03-02T20:50:03+00:00",
+    "type": "repo",
+    "display_category": "Top Repo",
+    "processed": {
+      "summary": "\n- **Pianoterm** is a specialized Linux CLI tool designed to bridge **MIDI hardware** with system-level shell execution.\n- The architecture utilizes a listener for **MIDI signals**, enabling users to map specific piano keys or chords to executable **shell scripts** or commands.\n- It focuses on **hands-free workflow** optimization, specifically targeting musicians who need to control media playback or transcription tools while playing.",
+      "key_results": [
+        "Enables MIDI input devices to function as auxiliary terminal controllers.",
+        "Provides low-latency mapping of musical notes to shell command triggers.",
+        "Facilitates system automation without requiring manual keyboard or mouse interaction.",
+        "Offers a lightweight, Linux-native solution for musical-to-digital workflow integration.",
+        "Demonstrates an unconventional approach to human-computer interaction (HCI) using musical instruments."
+      ],
+      "relevance_score": 3,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Hacker News user launches Pianoterm, a Linux CLI tool converting MIDI piano inputs into executable shell commands for automation.",
+      "lead_institution": "Hacker News",
+      "tags": [
+        "MIDI",
+        "Linux CLI",
+        "Automation",
+        "HCI",
+        "Productivity"
+      ]
+    }
+  },
+  {
+    "title": "AMD Am386 released March 2, 1991",
+    "link": "https://dfarq.homeip.net/amd-am386-released-march-2-1991/",
+    "summary": "<p>Article URL: <a href=\"https://dfarq.homeip.net/amd-am386-released-march-2-1991/\">https://dfarq.homeip.net/amd-am386-released-march-2-1991/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47217402\">https://news.ycombinator.com/item?id=47217402</a></p>\n<p>Points: 88</p>\n<p># Comments: 25</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-03-02T12:56:46+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n\u2022 The **Am386** was a pin-compatible clone of the Intel 80386 DX, marking AMD's critical transition from a licensed manufacturer to a direct market competitor.\n\u2022 It featured a **40MHz clock speed**, which significantly outperformed Intel's flagship 33MHz offering, providing superior performance in the 32-bit era.\n\u2022 The architecture utilized **static CMOS** technology, which allowed for lower power consumption and higher reliability compared to contemporary designs.\n\u2022 This release effectively broke the **Intel monopoly** on the x86 instruction set, fundamentally altering the economics of the PC hardware industry.",
+      "key_results": [
+        "AMD successfully delivered a reverse-engineered x86 processor after years of litigation.",
+        "The Am386DX-40 provided a faster, cheaper alternative to Intel's high-end processors.",
+        "Introduced energy-saving features by allowing the CPU to operate at lower power states.",
+        "Facilitated the growth of the 'white box' PC market by providing accessible high-performance chips.",
+        "Established the financial and technical foundation for AMD's future custom architectures like the K5 and K6."
+      ],
+      "relevance_score": 1,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "AMD launched the Am386 in 1991, successfully challenging Intel's monopoly and establishing the long-standing competitive x86 processor market.",
+      "lead_institution": "AMD",
+      "tags": [
+        "AMD",
+        "x86 Architecture",
+        "Microprocessors",
+        "Hardware History",
+        "CPU"
+      ]
+    }
+  },
+  {
+    "title": "U.S. science agency moves to restrict foreign scientists from its labs",
+    "link": "https://www.science.org/content/article/nist-moves-restrict-foreign-scientists-its-labs",
+    "summary": "<p>Article URL: <a href=\"https://www.science.org/content/article/nist-moves-restrict-foreign-scientists-its-labs\">https://www.science.org/content/article/nist-moves-restrict-foreign-scientists-its-labs</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47215565\">https://news.ycombinator.com/item?id=47215565</a></p>\n<p>Points: 338</p>\n<p># Comments: 320</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-03-02T09:20:06+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- **NIST** (National Institute of Standards and Technology) is implementing heightened security protocols and access restrictions for foreign nationals from \"countries of concern,\" including China and Russia.\n- This policy shifts the agency's operational **research architecture** away from open international collaboration toward a more protective national security-focused model.\n- The restrictions are likely to impact the **U.S. AI Safety Institute** housed within NIST, potentially complicating the development of global **AI evaluation** and safety benchmarks.\n- Experts express concern that these barriers may lead to a \"brain drain\" or a deceleration of innovation in critical fields like **Generative AI** and metrology.",
+      "key_results": [
+        "Strict vetting processes introduced for researchers from China, Russia, Iran, and North Korea.",
+        "Transition from an 'open lab' culture to one prioritizing technology protection.",
+        "Potential disruption of ongoing international collaborative projects at NIST.",
+        "Impact on the U.S. AI Safety Institute's ability to engage with global talent.",
+        "Broad concerns regarding the balance between national security and scientific progress."
+      ],
+      "relevance_score": 4,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "NIST restricts foreign researchers from specific nations, potentially impacting the pace and inclusivity of international **AI safety** standards.",
+      "lead_institution": "NIST",
+      "tags": [
+        "AI Safety",
+        "NIST",
+        "Research Policy",
+        "Geopolitics",
+        "AI Evaluation"
+      ]
+    }
+  },
+  {
+    "title": "The inner workings of TCP zero-copy",
+    "link": "https://blog.tohojo.dk/2026/02/the-inner-workings-of-tcp-zero-copy.html",
+    "summary": "<p>Article URL: <a href=\"https://blog.tohojo.dk/2026/02/the-inner-workings-of-tcp-zero-copy.html\">https://blog.tohojo.dk/2026/02/the-inner-workings-of-tcp-zero-copy.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47214064\">https://news.ycombinator.com/item?id=47214064</a></p>\n<p>Points: 47</p>\n<p># Comments: 0</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-03-02T05:01:55+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- The article provides a deep dive into the **Linux kernel's** implementation of **TCP zero-copy**, explaining how it bypasses traditional memory-to-memory copies between kernel and user space.\n- It details the architecture of **MSG_ZEROCOPY** and how the kernel tracks data pages from the application buffer until the **NIC** (Network Interface Card) signals that the data has been sent.\n- The analysis covers the performance trade-offs, specifically how **TLB shootdowns** and page table manipulations can introduce overhead that competes with the cost of `memcpy` for smaller data sizes.",
+      "key_results": [
+        "Zero-copy is most effective for large payload transfers where CPU cycles spent on copying are the primary bottleneck.",
+        "Hardware support is required for receiving zero-copy (RX) via header-data splitting to align payloads to page boundaries.",
+        "User-space applications must handle asynchronous notification via an error queue to know when memory can be reused.",
+        "Memory alignment is critical; unaligned buffers force the kernel to revert to traditional copying mechanisms.",
+        "The cost of virtual memory management (mmap/munmap) often makes zero-copy slower than standard TCP for payloads under 10KB-64KB."
+      ],
+      "relevance_score": 4,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Toke H\u00f8iland-J\u00f8rgensen explains how TCP zero-copy optimizes high-bandwidth networking by utilizing page mapping to eliminate redundant CPU memory copies.",
+      "lead_institution": "Toke H\u00f8iland-J\u00f8rgensen",
+      "tags": [
+        "Networking",
+        "Linux Kernel",
+        "Performance Optimization",
+        "TCP/IP",
+        "Zero-copy"
+      ]
+    }
+  },
+  {
+    "title": "Claude hits #1 on the App Store as users rally behind Anthropic",
+    "link": "https://9to5mac.com/2026/03/01/claude-hits-1-on-the-app-store-as-users-rally-behind-anthropics-government-standoff/",
+    "summary": "<p>Article URL: <a href=\"https://9to5mac.com/2026/03/01/claude-hits-1-on-the-app-store-as-users-rally-behind-anthropics-government-standoff/\">https://9to5mac.com/2026/03/01/claude-hits-1-on-the-app-store-as-users-rally-behind-anthropics-government-standoff/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47213124\">https://news.ycombinator.com/item?id=47213124</a></p>\n<p>Points: 103</p>\n<p># Comments: 2</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-03-02T02:23:50+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- **Anthropic's Claude** has achieved the #1 ranking on the App Store, signaling a massive surge in consumer adoption and brand loyalty.\n- The growth is attributed to a **public standoff** with government entities, reflecting a shift in how political and regulatory events impact AI user sentiment.\n- This milestone highlights the transition of **Generative AI** from a technical niche to a mainstream consumer battlefield dominated by high-visibility labs.",
+      "key_results": [
+        "Claude mobile application reached the top position on the Apple App Store.",
+        "User growth spiked following public reports of a government-related standoff involving Anthropic.",
+        "Anthropic is successfully capturing market share previously dominated by OpenAI and Google.",
+        "The event demonstrates the high impact of brand values and 'vibe' on tool adoption.",
+        "High user engagement reflects a rally behind Anthropic's specific approach to AI development."
+      ],
+      "relevance_score": 3,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Anthropic reaches the top of the App Store as public support surges following the company\u2019s high-profile government standoff.",
+      "lead_institution": "Anthropic",
+      "tags": [
+        "Anthropic",
+        "Claude",
+        "Generative AI Trends",
+        "App Store",
+        "AI Regulation"
+      ]
+    }
+  },
+  {
+    "title": "U.S. Races to Accomplish Iran Mission Before Munitions Run Out",
+    "link": "https://www.wsj.com/world/middle-east/u-s-races-to-accomplish-iran-mission-before-munitions-run-out-c014acbc",
+    "summary": "<p>Article URL: <a href=\"https://www.wsj.com/world/middle-east/u-s-races-to-accomplish-iran-mission-before-munitions-run-out-c014acbc\">https://www.wsj.com/world/middle-east/u-s-races-to-accomplish-iran-mission-before-munitions-run-out-c014acbc</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47211487\">https://news.ycombinator.com/item?id=47211487</a></p>\n<p>Points: 64</p>\n<p># Comments: 66</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-03-01T22:40:28+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* The article details the **logistical constraints** facing the U.S. military as it attempts to achieve strategic objectives in the Middle East with a dwindling supply of precision munitions.\n* It examines the **industrial base bottleneck**, where the rate of interceptor consumption significantly exceeds the current domestic production capacity.\n* The report emphasizes the tension between current **mission requirements** in Iran/Yemen and the long-term need to maintain stockpiles for potential high-intensity conflicts in the Pacific.",
+      "key_results": [
+        "U.S. interceptor stocks are being depleted at a rate that outpaces production.",
+        "Industrial production of advanced systems like SM-3 missiles remains limited by supply chain constraints.",
+        "Military planners are forced to weigh immediate defense needs against long-term strategic reserves.",
+        "Munitions shortages are influencing the timeline and scope of U.S. diplomatic and military missions.",
+        "The situation highlights a critical vulnerability in Western defense manufacturing scalability."
+      ],
+      "relevance_score": 1,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "The Wall Street Journal reports that U.S. military munitions stockpiles are reaching critical levels due to prolonged Middle East engagements.",
+      "lead_institution": "Wall Street Journal",
+      "tags": [
+        "Geopolitics",
+        "Defense Logistics",
+        "Supply Chain",
+        "Military Operations",
+        "Strategic Planning"
+      ]
+    }
+  },
+  {
+    "title": "Big Breakfast Alters Appetite, Gut Health",
+    "link": "https://www.cambridge.org/core/journals/british-journal-of-nutrition/article/big-breakfast-diet-composition-impacts-on-appetite-control-and-gut-health-a-randomized-weight-loss-trial-in-adults-with-overweight-or-obesity/69D4E150EAE7D9632D33904D7A4AE5FA",
+    "summary": "<p>Article URL: <a href=\"https://www.cambridge.org/core/journals/british-journal-of-nutrition/article/big-breakfast-diet-composition-impacts-on-appetite-control-and-gut-health-a-randomized-weight-loss-trial-in-adults-with-overweight-or-obesity/69D4E150EAE7D9632D33904D7A4AE5FA\">https://www.cambridge.org/core/journals/british-journal-of-nutrition/article/big-breakfast-diet-composition-impacts-on-appetite-control-and-gut-health-a-randomized-weight-loss-trial-in-adults-with-overweight-or-obesity/69D4E150EAE7D9632D33904D7A4AE5FA</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47211112\">https://news.ycombinator.com/item?id=47211112</a></p>\n<p>Points: 50</p>\n<p># Comments: 43</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-03-01T21:56:07+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- This study employs a **randomized weight loss trial** architecture to evaluate the impact of caloric distribution and diet composition on human appetite and gut health.\n- The research focuses on **isocaloric interventions** in adults with overweight or obesity, specifically testing the \"big breakfast\" hypothesis against late-day calorie loading.\n- Impact analysis involves monitoring **gut microbiota diversity**, satiety hormone signaling (GLP-1, PYY), and metabolic markers throughout the trial period.",
+      "key_results": [
+        "Large breakfasts significantly increased daily satiety scores compared to smaller morning meals.",
+        "Higher morning protein intake correlated with improved hunger management during weight loss.",
+        "The study observed distinct shifts in gut microbial composition and short-chain fatty acid production.",
+        "Weight loss was achieved across all trial groups, but the big breakfast group showed higher dietary compliance.",
+        "Hormonal responses to food intake were more pronounced in participants consuming the majority of calories early in the day."
+      ],
+      "relevance_score": 1,
+      "signal_type": "Paper",
+      "one_sentence_takeaway": "The University of Cambridge finds that large, high-fiber breakfasts significantly improve appetite control and gut health during weight loss.",
+      "lead_institution": "University of Cambridge",
+      "tags": [
+        "Nutrition Science",
+        "Microbiome",
+        "Metabolism",
+        "Clinical Trial",
+        "Appetite Regulation"
+      ]
+    }
+  },
+  {
+    "title": "A new Polymarket account made over $500k betting on the U.S. strike against Iran",
+    "link": "https://twitter.com/cabsav456/status/2027937130995921119",
+    "summary": "<p>Article URL: <a href=\"https://twitter.com/cabsav456/status/2027937130995921119\">https://twitter.com/cabsav456/status/2027937130995921119</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47209773\">https://news.ycombinator.com/item?id=47209773</a></p>\n<p>Points: 140</p>\n<p># Comments: 105</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-03-01T19:22:47+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- **Polymarket**, a decentralized prediction market platform, has seen significant capital deployment targeting high-stakes **geopolitical outcomes**.\n- The account utilized **blockchain-based liquidity** to secure over $500,000 in profit from a specific military event, highlighting the platform's role in **information aggregation**.\n- This activity reflects the growing trend of using **crypto-economic incentives** to hedge or speculate on real-world volatility outside of traditional financial systems.",
+      "key_results": [
+        "A single Polymarket account generated over $500,000 in profit.",
+        "The successful bet was placed on a U.S. military strike against Iran.",
+        "Demonstrates increasing liquidity and scale in decentralized prediction markets.",
+        "Highlights the use of prediction markets as real-time sentiment indicators for global conflict.",
+        "Raises questions regarding the role of asymmetric information in decentralized betting."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Polymarket users demonstrate the increasing financialization of geopolitical volatility through large-scale, high-conviction decentralized prediction market bets.",
+      "lead_institution": "Polymarket",
+      "tags": [
+        "Prediction Markets",
+        "Polymarket",
+        "Blockchain",
+        "FinTech",
+        "Geopolitics"
+      ]
+    }
+  },
+  {
+    "title": "Claude dethrones ChatGPT as top U.S. app after Pentagon saga",
+    "link": "https://www.axios.com/2026/03/01/anthropic-claude-chatgpt-app-downloads-pentagon",
+    "summary": "<p>Article URL: <a href=\"https://www.axios.com/2026/03/01/anthropic-claude-chatgpt-app-downloads-pentagon\">https://www.axios.com/2026/03/01/anthropic-claude-chatgpt-app-downloads-pentagon</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47209443\">https://news.ycombinator.com/item?id=47209443</a></p>\n<p>Points: 133</p>\n<p># Comments: 18</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-03-01T18:41:03+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* **Anthropic's Claude** has reportedly surpassed **ChatGPT** in U.S. app store download rankings, indicating a shift in consumer preference within the Generative AI market.\n* The surge in popularity follows a \"Pentagon saga,\" suggesting that **government-level trust** and enterprise reliability are influencing public adoption of LLM interfaces.\n* This shift highlights the competitive volatility in the **AI application layer**, where user acquisition is heavily influenced by perceived safety, model reliability, and public-sector endorsements.\n* The data reflects a broader **Generative AI Trend** where early market leaders face increasing pressure from models perceived as having higher reasoning or coding capabilities.",
+      "key_results": [
+        "Claude reached the #1 position in U.S. app store downloads.",
+        "ChatGPT was displaced from its long-held top ranking.",
+        "Increased market traction for Anthropic following defense-sector developments.",
+        "Demonstrated consumer sensitivity to brand reputation and safety alignment.",
+        "A notable pivot in the 'app war' between major foundation model providers."
+      ],
+      "relevance_score": 4,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Anthropic's Claude overtakes ChatGPT in U.S. app rankings as public trust shifts following high-profile government-sector developments.",
+      "lead_institution": "Anthropic",
+      "tags": [
+        "Anthropic",
+        "Claude",
+        "Generative AI Trends",
+        "Market Competition",
+        "LLM Adoption"
+      ]
+    }
+  },
+  {
+    "title": "US Military says 3 service members have been killed",
+    "link": "https://apnews.com/live/us-israel-strikes-iran-khamenei-03-01-2026",
+    "summary": "<p>Article URL: <a href=\"https://apnews.com/live/us-israel-strikes-iran-khamenei-03-01-2026\">https://apnews.com/live/us-israel-strikes-iran-khamenei-03-01-2026</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47207302\">https://news.ycombinator.com/item?id=47207302</a></p>\n<p>Points: 57</p>\n<p># Comments: 69</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-03-01T14:59:55+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* The US Military reports the **fatalities of three service members** amid escalating regional tensions in the Middle East.\n* The incident occurred during a period of **reciprocal military strikes** involving US, Israeli, and Iranian forces.\n* The report highlights a significant **geopolitical escalation** and potential shifts in regional security posturing.\n* Technical details regarding military hardware or AI involvement are absent, focusing instead on **human casualties** and kinetic warfare.",
+      "key_results": [
+        "Three US service members confirmed killed in action.",
+        "Operations conducted within the context of US-Israel-Iran strikes.",
+        "Reported casualties occur during heightened regional instability.",
+        "Official military statements confirm the loss of life.",
+        "Ongoing assessment of defensive measures in the theater of operations."
+      ],
+      "relevance_score": 1,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "The Associated Press reports that three US service members were killed during escalating military strikes in the Middle East.",
+      "lead_institution": "Associated Press",
+      "tags": [
+        "Geopolitics",
+        "Military Affairs",
+        "International Relations",
+        "US Defense",
+        "Middle East Conflict"
+      ]
+    }
+  },
+  {
     "title": "Joint Statement from OpenAI and Microsoft",
     "link": "https://openai.com/index/continuing-microsoft-partnership",
     "summary": "Microsoft and OpenAI continue to work closely across research, engineering, and product development, building on years of deep collaboration and shared success.",
@@ -116,126 +476,6 @@
         "Navigation Algorithms",
         "Autonomous Systems",
         "Edge Computing"
-      ]
-    }
-  },
-  {
-    "title": "U.S. Races to Accomplish Iran Mission Before Munitions Run Out",
-    "link": "https://www.wsj.com/world/middle-east/u-s-races-to-accomplish-iran-mission-before-munitions-run-out-c014acbc",
-    "summary": "<p>Article URL: <a href=\"https://www.wsj.com/world/middle-east/u-s-races-to-accomplish-iran-mission-before-munitions-run-out-c014acbc\">https://www.wsj.com/world/middle-east/u-s-races-to-accomplish-iran-mission-before-munitions-run-out-c014acbc</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47211487\">https://news.ycombinator.com/item?id=47211487</a></p>\n<p>Points: 35</p>\n<p># Comments: 36</p>",
-    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
-    "published": "2026-03-01T22:40:28+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "<br>\u2022 The report analyzes the **logistical constraints** and potential depletion of precision-guided munitions within U.S. military operations in the Middle East.<br>\u2022 It highlights a critical **supply chain vulnerability** where the rate of consumption for high-end interceptors and missiles outpaces domestic production capabilities.<br>\u2022 The article examines the **strategic impact** of munitions scarcity on mission timelines and the ability to maintain long-term regional deterrence.",
-      "key_results": [
-        "U.S. stockpiles of key interceptors are being depleted faster than they can be replaced.",
-        "Military planners are operating under a time-sensitive 'munitions clock' to achieve objectives.",
-        "The defense industrial base faces significant hurdles in scaling production for high-tech weaponry.",
-        "Strategic reserves may be insufficient to support a multi-theater conflict scenario.",
-        "Operational mission success is increasingly tethered to hardware inventory rather than tactical positioning."
-      ],
-      "relevance_score": 1,
-      "signal_type": "General News",
-      "one_sentence_takeaway": "The Wall Street Journal reports that U.S. military operations face strategic delays due to rapidly depleting precision-guided munitions stockpiles.",
-      "lead_institution": "The Wall Street Journal",
-      "tags": [
-        "Geopolitics",
-        "Supply Chain",
-        "Military Logistics",
-        "Defense Policy",
-        "National Security"
-      ]
-    }
-  },
-  {
-    "title": "Big Breakfast Alters Appetite, Gut Health",
-    "link": "https://www.cambridge.org/core/journals/british-journal-of-nutrition/article/big-breakfast-diet-composition-impacts-on-appetite-control-and-gut-health-a-randomized-weight-loss-trial-in-adults-with-overweight-or-obesity/69D4E150EAE7D9632D33904D7A4AE5FA",
-    "summary": "<p>Article URL: <a href=\"https://www.cambridge.org/core/journals/british-journal-of-nutrition/article/big-breakfast-diet-composition-impacts-on-appetite-control-and-gut-health-a-randomized-weight-loss-trial-in-adults-with-overweight-or-obesity/69D4E150EAE7D9632D33904D7A4AE5FA\">https://www.cambridge.org/core/journals/british-journal-of-nutrition/article/big-breakfast-diet-composition-impacts-on-appetite-control-and-gut-health-a-randomized-weight-loss-trial-in-adults-with-overweight-or-obesity/69D4E150EAE7D9632D33904D7A4AE5FA</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47211112\">https://news.ycombinator.com/item?id=47211112</a></p>\n<p>Points: 49</p>\n<p># Comments: 34</p>",
-    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
-    "published": "2026-03-01T21:56:07+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "The study employs a **randomized weight-loss trial** to examine how the size and composition of breakfast influence metabolic outcomes.\nThrough the analysis of **gut health biomarkers**, the research identifies a correlation between morning caloric intake and appetite regulation.\nThe **experimental architecture** compares high-protein morning meals against standard distributions to evaluate long-term satiety and gut microbiome shifts.",
-      "key_results": [
-        "High-calorie breakfasts led to significantly lower hunger ratings later in the day.",
-        "Dietary composition directly influenced the abundance of specific gut bacteria populations.",
-        "Participants showed improved appetite control without negatively impacting total daily energy expenditure.",
-        "Meal timing shifts altered the secretion patterns of gut-derived satiety hormones.",
-        "Both high-protein and standard breakfast groups achieved weight loss, but appetite suppression was higher in the big-breakfast group."
-      ],
-      "relevance_score": 1,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "University of Aberdeen researchers demonstrate that prioritizing caloric intake at breakfast improves appetite control and positively alters gut health.",
-      "lead_institution": "University of Aberdeen",
-      "tags": [
-        "Nutrition",
-        "Gut Microbiome",
-        "Clinical Trial",
-        "Metabolic Health",
-        "Appetite Regulation"
-      ]
-    }
-  },
-  {
-    "title": "A new Polymarket account made over $500k betting on the U.S. strike against Iran",
-    "link": "https://twitter.com/cabsav456/status/2027937130995921119",
-    "summary": "<p>Article URL: <a href=\"https://twitter.com/cabsav456/status/2027937130995921119\">https://twitter.com/cabsav456/status/2027937130995921119</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47209773\">https://news.ycombinator.com/item?id=47209773</a></p>\n<p>Points: 127</p>\n<p># Comments: 88</p>",
-    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
-    "published": "2026-03-01T19:22:47+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n Analyzes a high-value **Polymarket** transaction where a single user earned over $500,000 betting on geopolitical outcomes.\n Highlights the utility of **prediction markets** as decentralized mechanisms for real-time information aggregation and forecasting.\n Discusses the impact of **decentralized finance (DeFi)** platforms on surfacing signals for global military escalations and high-stakes events.",
-      "key_results": [
-        "A single Polymarket account generated over $500,000 in profit.",
-        "The successful bet was placed on the occurrence of a U.S. strike against Iran.",
-        "The event highlights the growing liquidity in decentralized prediction platforms.",
-        "Community discussion focused on the accuracy of market signals versus traditional media.",
-        "The transaction demonstrates significant financial risk-taking in algorithmic and informed trading."
-      ],
-      "relevance_score": 2,
-      "signal_type": "General News",
-      "one_sentence_takeaway": "Polymarket traders utilize decentralized prediction platforms to capitalize on high-stakes geopolitical forecasting and real-time military events.",
-      "lead_institution": "Polymarket",
-      "tags": [
-        "Prediction Markets",
-        "Polymarket",
-        "Geopolitical Forecasting",
-        "DeFi",
-        "Information Arbitrage"
-      ]
-    }
-  },
-  {
-    "title": "US Military says 3 service members have been killed",
-    "link": "https://apnews.com/live/us-israel-strikes-iran-khamenei-03-01-2026",
-    "summary": "<p>Article URL: <a href=\"https://apnews.com/live/us-israel-strikes-iran-khamenei-03-01-2026\">https://apnews.com/live/us-israel-strikes-iran-khamenei-03-01-2026</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47207302\">https://news.ycombinator.com/item?id=47207302</a></p>\n<p>Points: 51</p>\n<p># Comments: 62</p>",
-    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
-    "published": "2026-03-01T14:59:55+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n* The report details a **geopolitical event** involving US military casualties following strikes in the Middle East.\n* It contains **zero technical data**, architectural specifications, or machine learning applications.\n* The content is strictly **general news** and lacks any relevance to generative AI, RAG, or reasoning models.",
-      "key_results": [
-        "Three US service members confirmed killed.",
-        "Report focuses on strikes involving US, Israel, and Iran.",
-        "Content originates from Associated Press reporting.",
-        "No discussion of AI models or software engineering.",
-        "Source relevance to ML interests is non-existent."
-      ],
-      "relevance_score": 1,
-      "signal_type": "General News",
-      "one_sentence_takeaway": "AP News reports that three US service members were killed during military strikes involving Israel and Iran.",
-      "lead_institution": "AP News",
-      "tags": [
-        "Geopolitics",
-        "Military",
-        "International Relations",
-        "Iran",
-        "US Military"
       ]
     }
   },
