@@ -1,5 +1,65 @@
 [
   {
+    "title": "Understanding AI and learning outcomes",
+    "link": "https://openai.com/index/understanding-ai-and-learning-outcomes",
+    "summary": "OpenAI introduces the Learning Outcomes Measurement Suite to assess AI\u2019s impact on student learning across diverse educational environments over time.",
+    "source": "OpenAI News",
+    "published": "2026-03-04T00:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* OpenAI launches the **Learning Outcomes Measurement Suite**, a dedicated framework for assessing the effectiveness of **Generative AI** in educational contexts.\n* The suite focuses on **longitudinal evaluation**, tracking student progress and pedagogical shifts over extended periods across diverse learning environments.\n* The initiative aims to shift the focus from **model performance** to real-world **learning efficacy**, providing data-driven insights for educators and developers.",
+      "key_results": [
+        "Introduction of a standardized suite for measuring educational outcomes.",
+        "Support for longitudinal data collection in varied school settings.",
+        "Focus on bridging the gap between AI capabilities and academic success.",
+        "Provision of tools to quantify the impact of AI on teacher productivity.",
+        "Establishment of a feedback loop for refining AI models for pedagogy."
+      ],
+      "relevance_score": 3,
+      "signal_type": "Release",
+      "one_sentence_takeaway": "OpenAI launches a Learning Outcomes Measurement Suite to empirically evaluate AI's long-term impact on global student education.",
+      "lead_institution": "OpenAI",
+      "tags": [
+        "AI Evaluation",
+        "Education AI",
+        "Generative AI",
+        "Measurement Framework",
+        "Learning Outcomes"
+      ]
+    }
+  },
+  {
+    "title": "How Axios uses AI to help deliver high-impact local journalism",
+    "link": "https://openai.com/index/axios-allison-murphy",
+    "summary": "Axios COO Allison Murphy explains how the company uses AI to support local reporters, streamline newsroom workflows, and deliver high-impact local journalism at scale.",
+    "source": "OpenAI News",
+    "published": "2026-03-04T00:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* Axios leverages **Generative AI** to automate high-volume editorial tasks, enabling local reporters to focus on original investigative work rather than routine synthesis.\n* The workflow focuses on **operational efficiency** by using LLMs to assist in drafting and formatting content according to their proprietary \"Smart Brevity\" style.\n* The architecture facilitates **scalability in local journalism**, allowing the company to maintain a presence in dozens of cities by reducing the manual overhead of newsletter production.\n* Implementation emphasizes **human-in-the-loop** processes where AI assists with data extraction and summarization while editors maintain final creative control.",
+      "key_results": [
+        "Increased speed of local newsletter production.",
+        "Automated synthesis of regional data for reporter review.",
+        "Scaling of editorial operations to over 30 local markets.",
+        "Reduction in time spent on administrative editorial formatting.",
+        "Consistent application of 'Smart Brevity' style across diverse teams."
+      ],
+      "relevance_score": 3,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Axios utilizes OpenAI's generative models to scale local journalism and automate routine newsroom editorial workflows.",
+      "lead_institution": "OpenAI News",
+      "tags": [
+        "Generative AI",
+        "Content Automation",
+        "Newsroom Workflows",
+        "Digital Journalism",
+        "Operational Efficiency"
+      ]
+    }
+  },
+  {
     "title": "Gemini 3.1 Flash-Lite: Built for intelligence at scale",
     "link": "https://deepmind.google/blog/gemini-3-1-flash-lite-built-for-intelligence-at-scale/",
     "summary": "Gemini 3.1 Flash-Lite is our fastest and most cost-efficient Gemini 3 series model yet.",
@@ -8,24 +68,954 @@
     "type": "blog",
     "display_category": "Top News",
     "processed": {
-      "summary": "\n* Google DeepMind introduces **Gemini 3.1 Flash-Lite**, an ultra-efficient variant optimized for **high-volume deployments** and real-time processing.\n* The model architecture prioritizes **low latency** and **cost reduction** without sacrificing the core reasoning capabilities of the Gemini 3 series.\n* It is specifically designed for **at-scale intelligence**, targeting high-throughput workloads such as high-frequency agentic tasks and massive data processing pipelines.",
+      "summary": "\n- Introduces **Gemini 3.1 Flash-Lite**, the fastest and most economically optimized model in the current Gemini 3 series.\n- Specifically architected for **high-throughput** and **low-latency** requirements, enabling intelligence at a massive operational scale.\n- Focuses on reducing the cost barrier for developers while maintaining the **reasoning capabilities** inherent to the Gemini 3.1 architecture.",
       "key_results": [
-        "Achieves the highest speed-to-intelligence ratio in the Gemini 3 lineup.",
-        "Significantly reduces operational costs for high-scale generative AI applications.",
-        "Optimized for low-latency responsiveness in real-time user interactions.",
-        "Maintains multimodal capabilities tailored for high-throughput environments.",
-        "Engineered to support massive concurrent requests for enterprise-level scaling."
+        "Identified as the fastest model in the Gemini 3 family.",
+        "Achieves the highest cost-efficiency rating for the Gemini 3 series.",
+        "Engineered for massive-scale deployment scenarios.",
+        "Optimized for real-time responsiveness in AI applications.",
+        "Maintains foundational intelligence of the 3.1 architecture at lower compute costs."
+      ],
+      "relevance_score": 7,
+      "signal_type": "Release",
+      "one_sentence_takeaway": "Google DeepMind launches Gemini 3.1 Flash-Lite to provide developers with the fastest and most cost-efficient model for scaling intelligence.",
+      "lead_institution": "Google DeepMind",
+      "tags": [
+        "Gemini 3.1 Flash-Lite",
+        "LLM Optimization",
+        "Generative AI Trends",
+        "Model Scaling",
+        "Google DeepMind"
+      ]
+    }
+  },
+  {
+    "title": "How we rebuilt the search architecture for high availability in GitHub Enterprise Server",
+    "link": "https://github.blog/engineering/architecture-optimization/how-we-rebuilt-the-search-architecture-for-high-availability-in-github-enterprise-server/",
+    "summary": "<p>Here's how we the search experience better, faster, and more resilient for GHES customers.</p>\n<p>The post <a href=\"https://github.blog/engineering/architecture-optimization/how-we-rebuilt-the-search-architecture-for-high-availability-in-github-enterprise-server/\">How we rebuilt the search architecture for high availability in GitHub Enterprise Server</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
+    "source": "The GitHub Blog",
+    "published": "2026-03-03T18:45:09+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- GitHub transitioned the **GitHub Enterprise Server (GHES)** search infrastructure from a single-node setup to a **distributed Elasticsearch cluster** to ensure high availability.\n- Decoupled the **indexing pipeline** from the core application logic, allowing search services to scale independently and reducing the impact of indexing on primary server performance.\n- Implemented a **resilient failover mechanism** that leverages multi-node redundancy to prevent search outages during maintenance or hardware failure.\n- Standardized on **horizontal scaling** strategies to handle increasing repository volumes and search query loads across enterprise environments.",
+      "key_results": [
+        "Eliminated search as a single point of failure in GHES environments.",
+        "Improved indexing reliability through decoupled background worker processes.",
+        "Achieved zero-downtime search migrations for enterprise customers.",
+        "Enabled horizontal scalability of search nodes independently of core GHES nodes.",
+        "Enhanced cluster observability and health monitoring for system administrators."
+      ],
+      "relevance_score": 4,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "GitHub rebuilds Enterprise Server search using distributed clusters to provide high availability and decoupled, scalable indexing workflows.",
+      "lead_institution": "GitHub",
+      "tags": [
+        "Search Architecture",
+        "High Availability",
+        "Elasticsearch",
+        "Enterprise Infrastructure",
+        "Scalability"
+      ]
+    }
+  },
+  {
+    "title": "Join or host a GitHub Copilot Dev Days event near you",
+    "link": "https://github.blog/ai-and-ml/github-copilot/join-or-host-a-github-copilot-dev-days-event-near-you/",
+    "summary": "<p>GitHub Copilot Dev Days is a global series of hands-on, in-person, community-led events designed to help developers explore real-world, AI-assisted coding.  </p>\n<p>The post <a href=\"https://github.blog/ai-and-ml/github-copilot/join-or-host-a-github-copilot-dev-days-event-near-you/\">Join or host a GitHub Copilot Dev Days event near you</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
+    "source": "The GitHub Blog",
+    "published": "2026-03-03T16:55:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- GitHub launches **Copilot Dev Days**, a global series of in-person, community-led workshops focused on **AI-assisted coding**.\n- The initiative aims to move beyond basic automation by facilitating **hands-on experience** with real-world developer workflows using **GitHub Copilot**.\n- The event structure emphasizes **community-led knowledge sharing**, allowing developers to host their own sessions to scale the adoption of AI tools within local ecosystems.",
+      "key_results": [
+        "Introduction of a global event series for AI coding.",
+        "Transition from remote learning to in-person technical workshops.",
+        "Enabled community hosting model for broader reach.",
+        "Focus on real-world application of Copilot features.",
+        "Strengthening the developer ecosystem around GitHub's AI products."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "GitHub launches a global event series to facilitate community-led, hands-on learning for real-world AI-assisted software development.",
+      "lead_institution": "GitHub",
+      "tags": [
+        "GitHub Copilot",
+        "AI-Assisted Coding",
+        "Developer Education",
+        "Community Events",
+        "Software Development"
+      ]
+    }
+  },
+  {
+    "title": "Use Canvas in AI Mode to get things done and bring your ideas to life, right in Search.",
+    "link": "https://blog.google/products-and-platforms/products/search/ai-mode-canvas-writing-coding/",
+    "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AIMMode_Social.max-600x600.format-webp.webp\" />Canvas in AI Mode is now available for everyone in the U.S. Plus, it can now help you draft documents or build interactive tools.",
+    "source": "AI",
+    "published": "2026-03-04T17:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Google integrates **Canvas in AI Mode** directly into Search to provide a persistent, side-by-side workspace for iterative generation.\n- The tool expands beyond simple chat to supporting **interactive tool creation**, aligning with emerging **Vibe Coding** paradigms and generative workflows.\n- This architecture emphasizes **Human-AI collaboration** by allowing direct manipulation and refinement of AI-generated content within a specialized UI.\n- The deployment signifies a shift toward **agentic search interfaces** where the LLM acts as a workspace manager rather than just a retrieval engine.",
+      "key_results": [
+        "General availability of Canvas in AI Mode for all U.S. users.",
+        "Expanded capabilities for drafting complex, long-form documents.",
+        "Support for building functional interactive tools through natural language.",
+        "Deep UI integration within the Google Search ecosystem for immediate creation.",
+        "User interface design optimized for iterative, non-linear AI interaction."
+      ],
+      "relevance_score": 4,
+      "signal_type": "Release",
+      "one_sentence_takeaway": "Google launches Canvas in AI Mode to enable seamless document drafting and interactive tool building directly within Search results.",
+      "lead_institution": "Google",
+      "tags": [
+        "Generative AI",
+        "Google Search",
+        "Vibe Coding",
+        "LLM Agents",
+        "Canvas Mode"
+      ]
+    }
+  },
+  {
+    "title": "Create new worlds in Project Genie with these 4 tips",
+    "link": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/tips-prompt-writing-project-genie/",
+    "summary": "A screen capture of Project Genie, an experimental interface showing a grid of circular images, many of which appear to be 360-degree views, with a large, central black globe labeled Create your own",
+    "source": "AI",
+    "published": "2026-03-03T17:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- **Project Genie** introduces a generative world model capable of creating interactive, traversable **360-degree environments** from single images or text prompts.\n- The system utilizes a **latent action model** to infer movement and physics, allowing users to interact with generated worlds as if they were in a game engine.\n- This approach highlights a shift in **Generative AI** from static media generation to dynamic, world-state simulations suitable for training RL agents.",
+      "key_results": [
+        "Creation of immersive 360-degree environments via simple user prompts.",
+        "Real-time synthesis of interactive world dynamics without manual coding.",
+        "Scalable generation of diverse synthetic environments for agent training.",
+        "Integration of prompt engineering for aesthetic and structural world control.",
+        "Demonstration of foundation models capturing spatial and physical consistency."
+      ],
+      "relevance_score": 4,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Google DeepMind enables interactive world creation through Project Genie, transforming static prompts into traversable 360-degree generative environments.",
+      "lead_institution": "Google DeepMind",
+      "tags": [
+        "Generative AI",
+        "World Models",
+        "Multimodal AI",
+        "Interactive Media",
+        "Foundation Models"
+      ]
+    }
+  },
+  {
+    "title": "Gemini 3.1 Flash-Lite: Built for intelligence at scale",
+    "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-lite/",
+    "summary": "Gemini 3.1 Flash Lite logo",
+    "source": "AI",
+    "published": "2026-03-03T16:34:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- **Gemini 3.1 Flash-Lite** is a cost-optimized, high-efficiency model designed for high-throughput applications requiring **intelligence at scale**.\n- The model features a streamlined architecture optimized for **multimodal reasoning** and low-latency response times in production environments.\n- It bridges the gap between flagship models and **Small Language Models (SLMs)**, offering a balance of sophisticated reasoning and operational cost-effectiveness.\n- Designed for **agentic workflows** and RAG pipelines, it enables large-scale document processing and real-time interaction at a reduced price point.",
+      "key_results": [
+        "Significant reduction in per-token inference costs compared to standard Flash models.",
+        "Optimized latency for real-time multimodal data processing.",
+        "High efficiency in long-context retrieval and summarization tasks.",
+        "Robust performance on core benchmarks relative to model size.",
+        "Support for high-concurrency deployments in enterprise environments."
       ],
       "relevance_score": 8,
       "signal_type": "Release",
-      "one_sentence_takeaway": "Google DeepMind launches Gemini 3.1 Flash-Lite to provide developers with a highly cost-efficient, low-latency model for massive-scale applications.",
-      "lead_institution": "Google DeepMind",
+      "one_sentence_takeaway": "Google introduces Gemini 3.1 Flash-Lite to provide high-efficiency, cost-effective multimodal intelligence for large-scale production deployments.",
+      "lead_institution": "Google",
       "tags": [
         "Gemini 3.1",
-        "SLMs",
-        "Model Efficiency",
-        "Inference Optimization",
+        "SLM",
+        "Multimodal AI",
+        "Efficient Inference",
+        "Generative AI Trends"
+      ]
+    }
+  },
+  {
+    "title": "Embed Amazon Quick Suite chat agents in enterprise applications",
+    "link": "https://aws.amazon.com/blogs/machine-learning/embed-amazon-quick-suite-chat-agents-in-enterprise-applications/",
+    "summary": "Organizations find it challenging to implement a secure embedded chat in their applications and can require weeks of development to build authentication, token validation, domain security, and global distribution infrastructure. In this post, we show you how to solve this with a one-click deployment solution to embed the chat agents using the Quick Suite Embedding SDK in enterprise portals.",
+    "source": "Artificial Intelligence",
+    "published": "2026-03-04T21:20:58+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- The **Quick Suite Embedding SDK** provides a streamlined architecture for integrating **LLM chat agents** into existing enterprise portals.\n- This solution abstracts complex infrastructure requirements such as **authentication**, **token validation**, and **domain security** into a one-click deployment.\n- By utilizing pre-built global distribution infrastructure, organizations can significantly reduce the development cycle for **agentic interfaces**.",
+      "key_results": [
+        "One-click deployment for chat agent embedding",
+        "Automated token validation and authentication setup",
+        "Enhanced domain security for enterprise environments",
+        "Reduction in development time from weeks to minutes",
+        "Standardized global distribution infrastructure"
+      ],
+      "relevance_score": 4,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Amazon launches the Quick Suite Embedding SDK to simplify secure, one-click chat agent integration for enterprise applications.",
+      "lead_institution": "Amazon",
+      "tags": [
+        "LLM Agents",
+        "Enterprise AI",
+        "SDK",
+        "Deployment",
+        "Security"
+      ]
+    }
+  },
+  {
+    "title": "Unlock powerful call center analytics with Amazon Nova foundation models",
+    "link": "https://aws.amazon.com/blogs/machine-learning/unlock-powerful-call-center-analytics-with-amazon-nova-foundation-models/",
+    "summary": "In this post, we discuss how Amazon Nova demonstrates capabilities in conversational analytics, call classification, and other use cases often relevant to contact center solutions. We examine these capabilities for both single-call and multi-call analytics use cases.",
+    "source": "Artificial Intelligence",
+    "published": "2026-03-04T21:16:59+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Amazon Nova models leverage **foundation model reasoning** to extract structured insights and sentiment from unstructured contact center transcripts.\n- The architecture facilitates **multi-call synthesis**, enabling the identification of macro-trends and recurring customer friction points across large datasets.\n- Integrated **semantic classification** allows for automated, high-precision tagging of customer intent and agent performance metrics.",
+      "key_results": [
+        "High-accuracy classification of customer intent and sentiment.",
+        "Efficient processing of long-form, multi-speaker call transcripts.",
+        "Capability to perform cross-call thematic analysis for trend discovery.",
+        "Reduced operational overhead through automated interaction tagging.",
+        "Seamless integration with AWS-native contact center orchestration tools."
+      ],
+      "relevance_score": 6,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Amazon leverages Nova foundation models to automate high-accuracy conversational analytics and trend detection in enterprise contact centers.",
+      "lead_institution": "Amazon",
+      "tags": [
+        "Amazon Nova",
+        "Conversational AI",
+        "NLP",
+        "Contact Center Analytics",
         "Generative AI"
+      ]
+    }
+  },
+  {
+    "title": "How Ricoh built a scalable intelligent document processing solution on AWS",
+    "link": "https://aws.amazon.com/blogs/machine-learning/how-ricoh-built-a-scalable-intelligent-document-processing-solution-on-aws/",
+    "summary": "This post explores how Ricoh built a standardized, multi-tenant solution for automated document classification and extraction using the AWS GenAI IDP Accelerator as a foundation, transforming their document processing from a custom-engineering bottleneck into a scalable, repeatable service.",
+    "source": "Artificial Intelligence",
+    "published": "2026-03-04T20:42:45+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "<br>\u2022 Engineered a **multi-tenant architecture** utilizing the **AWS GenAI IDP Accelerator** to unify disparate document processing workflows.<br>\u2022 Integrated **automated document classification** and entity extraction to eliminate manual custom-engineering bottlenecks.<br>\u2022 Leveraged **modular Generative AI components** to transform bespoke pipelines into a repeatable and scalable enterprise service.<br>\u2022 Adopted a **cloud-native framework** to handle unstructured data extraction with high throughput and reduced time-to-market.",
+      "key_results": [
+        "Transformation of document processing into a repeatable, scalable service.",
+        "Elimination of custom-engineering bottlenecks for new document types.",
+        "Implementation of a standardized multi-tenant IDP framework.",
+        "Automated classification and extraction across diverse document sets.",
+        "Improved operational efficiency through AWS GenAI-native primitives."
+      ],
+      "relevance_score": 6,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Ricoh leverages the AWS GenAI IDP Accelerator to transform custom document processing into a scalable, multi-tenant automated service.",
+      "lead_institution": "Ricoh",
+      "tags": [
+        "Intelligent Document Processing",
+        "AWS GenAI",
+        "Multi-tenancy",
+        "Document Extraction",
+        "Automated Classification"
+      ]
+    }
+  },
+  {
+    "title": "Building a scalable virtual try-on solution using Amazon Nova on AWS: part 1",
+    "link": "https://aws.amazon.com/blogs/machine-learning/building-a-scalable-virtual-try-on-solution-using-amazon-nova-on-aws-part-1/",
+    "summary": "In this post, we explore the virtual try-on capability now available in Amazon Nova Canvas, including sample code to get started quickly and tips to help get the best outputs.",
+    "source": "Artificial Intelligence",
+    "published": "2026-03-03T16:23:30+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* Utilizes **Amazon Nova Canvas** to provide high-fidelity **virtual try-on (VTO)** capabilities through foundation model-driven image synthesis.\n* Implements a **scalable architecture** on AWS that allows developers to integrate clothing-overlay features without manual pose estimation or complex 3D modeling.\n* Employs **image-to-image translation** techniques to maintain garment detail and texture while adapting to the target subject's body shape and environment.",
+      "key_results": [
+        "Introduction of specialized VTO tasks within the Amazon Nova Canvas model suite.",
+        "Release of sample implementation code for rapid cloud deployment.",
+        "Standardized API workflow for consistent garment-to-person mapping.",
+        "Performance optimization tips for high-resolution output generation.",
+        "Scalable infrastructure design for enterprise-level fashion applications."
+      ],
+      "relevance_score": 7,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "AWS introduces virtual try-on capabilities in Amazon Nova Canvas, enabling developers to build scalable AI-driven fashion experiences efficiently.",
+      "lead_institution": "AWS",
+      "tags": [
+        "Multimodal AI",
+        "Amazon Nova",
+        "Generative AI",
+        "Computer Vision",
+        "Virtual Try-On"
+      ]
+    }
+  },
+  {
+    "title": "How Lendi revamped the refinance journey for its customers using agentic AI in 16 weeks using Amazon Bedrock",
+    "link": "https://aws.amazon.com/blogs/machine-learning/how-lendi-revamped-the-refinance-journey-for-its-customers-using-agentic-ai-in-12-weeks-using-amazon-bedrock/",
+    "summary": "This post details how Lendi Group built their AI-powered Home Loan Guardian using Amazon Bedrock, the challenges they faced, the architecture they implemented, and the significant business outcomes they\u2019ve achieved. Their journey offers valuable insights for organizations that want to use generative AI to transform customer experiences while maintaining the human touch that builds trust and loyalty.",
+    "source": "Artificial Intelligence",
+    "published": "2026-03-03T16:18:30+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\nImplemented an **agentic AI** framework using **Amazon Bedrock** to automate the complex home loan refinancing evaluation process.\nArchitected a system leveraging **Generative AI** to analyze customer financial data and provide real-time, personalized loan recommendations.\nIntegrated **human-in-the-loop** checkpoints to ensure financial compliance and maintain customer trust during high-stakes decisions.\nDemonstrated rapid development cycles by moving from concept to production in just **16 weeks** using managed AI services.",
+      "key_results": [
+        "Developed 'Home Loan Guardian' using Amazon Bedrock agents",
+        "Completed full production deployment in sixteen weeks",
+        "Automated the analysis of customer refinance eligibility",
+        "Successfully integrated agentic workflows with existing financial data sources",
+        "Enhanced customer engagement by blending AI automation with human oversight"
+      ],
+      "relevance_score": 6,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Lendi Group deploys an Amazon Bedrock-powered agentic AI system to automate personalized home loan refinancing within sixteen weeks.",
+      "lead_institution": "Lendi Group",
+      "tags": [
+        "Agentic AI",
+        "Amazon Bedrock",
+        "FinTech",
+        "Generative AI",
+        "Customer Experience"
+      ]
+    }
+  },
+  {
+    "title": "How Tines enhances security analysis with Amazon Quick Suite",
+    "link": "https://aws.amazon.com/blogs/machine-learning/how-tines-enhances-security-analysis-with-amazon-quick-suite/",
+    "summary": "In this post, we show you how to connect Quick Suite with Tines to securely retrieve, analyze, and visualize enterprise data from any security or IT system. We walk through an example that uses a MCP server in Tines to retrieve data from various tools, such as AWS CloudTrail, Okta, and VirusTotal, to remediate security events using Quick Suite.",
+    "source": "Artificial Intelligence",
+    "published": "2026-03-03T16:15:06+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n\u2022 Integrates **Amazon Quick Suite** with **Tines** orchestration workflows to centralize enterprise security data analysis.\n\u2022 Utilizes an **MCP (Model Context Protocol) server** architecture within Tines to bridge data retrieval from fragmented sources like AWS CloudTrail, Okta, and VirusTotal.\n\u2022 Facilitates automated **security remediation** by connecting real-time telemetry with generative AI-powered visualization tools.\n\u2022 Streamlines **cross-platform data ingestion**, reducing the friction between raw IT logs and actionable security insights.",
+      "key_results": [
+        "Deployment of MCP servers for standardized data access",
+        "Unified retrieval of AWS CloudTrail and Okta logs",
+        "Integration of VirusTotal enrichment for threat intelligence",
+        "Automated remediation workflows for security events",
+        "Real-time visualization of multi-source security data"
+      ],
+      "relevance_score": 5,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Tines integrates Amazon Quick Suite and MCP servers to automate data retrieval and remediation across diverse security platforms.",
+      "lead_institution": "Tines",
+      "tags": [
+        "MCP Server",
+        "Security Automation",
+        "Tines",
+        "Amazon Quick Suite",
+        "Data Integration"
+      ]
+    }
+  },
+  {
+    "title": "LangSmith CLI & Skills",
+    "link": "https://blog.langchain.com/langsmith-cli-skills/",
+    "summary": "<p>We&#x2019;re releasing a CLI along with our first set of skills to give AI coding agents expertise in the <a href=\"https://docs.langchain.com/langsmith/home?ref=blog.langchain.com\">LangSmith</a> ecosystem. This includes adding tracing to agents, understanding their execution, building test sets, and evaluating performance. On our eval set, this bumps Claude Code&#x2019;s performance on</p>",
+    "source": "LangChain Blog",
+    "published": "2026-03-04T18:00:31+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "<br>\u2022 LangChain introduces a **CLI** and specialized **Skills** designed to provide AI coding agents with native expertise in the **LangSmith** ecosystem.<br>\u2022 The architecture allows agents to autonomously **instrument code with tracing**, diagnose execution errors, and curate **high-quality test sets**.<br>\u2022 This release focuses on closing the loop between code generation and **automated evaluation**, enabling agents to measure their own performance impact.<br>\u2022 The integration leverages structured toolsets to help **LLM Agents** manage the full lifecycle of observability and benchmarking.",
+      "key_results": [
+        "Launch of a dedicated LangSmith CLI for developer workflows.",
+        "Release of 'Skills' that give coding agents expert-level knowledge of LangChain tools.",
+        "Automated tracing injection into agent-generated software projects.",
+        "Streamlined creation of evaluation benchmarks directly from execution logs.",
+        "Measurable performance improvement for Claude Code on internal LangSmith evaluation sets."
+      ],
+      "relevance_score": 8,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "LangChain launches a LangSmith CLI and agent skills to enable coding assistants to autonomously debug and evaluate software.",
+      "lead_institution": "LangChain",
+      "tags": [
+        "LLM Agents",
+        "AI Evaluation",
+        "Observability",
+        "LangSmith",
+        "Developer Tools"
+      ]
+    }
+  },
+  {
+    "title": "LangChain Skills",
+    "link": "https://blog.langchain.com/langchain-skills/",
+    "summary": "<p>We&#x2019;re releasing our first set of skills to give AI coding agents expertise in the open source LangChain ecosystem. This includes building agents with <a href=\"https://docs.langchain.com/oss/python/langchain/overview?ref=blog.langchain.com\">LangChain</a>, <a href=\"https://docs.langchain.com/oss/python/langgraph/overview?ref=blog.langchain.com\">LangGraph</a>, and <a href=\"https://docs.langchain.com/oss/python/deepagents/overview?ref=blog.langchain.com\">Deep Agents</a>. On our eval set, this bumps Claude Code&#x2019;s performance on these tasks from 29% to 95%.</p><h2 id=\"what-are-skills\">What</h2>",
+    "source": "LangChain Blog",
+    "published": "2026-03-04T18:00:19+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "<br>\u2022 Introduction of **specialized skill sets** designed to provide AI coding agents with deep expertise in the LangChain, LangGraph, and Deep Agents ecosystems.<br>\u2022 The architecture focuses on supplying agents with **domain-specific context** and optimized toolsets to bridge the gap between general reasoning and framework-specific implementation.<br>\u2022 Demonstrates a massive improvement in **agentic performance** for software engineering tasks, specifically targeting the reduction of syntax errors and API hallucinations.<br>\u2022 Establishes a modular approach to **agent expertise**, allowing general-purpose models like Claude Code to excel in niche library development.",
+      "key_results": [
+        "Improved Claude Code performance on LangChain tasks from 29% to 95%.",
+        "Enabled comprehensive support for LangChain, LangGraph, and Deep Agents OSS.",
+        "Validated the use of specialized 'skills' as a performance multiplier for coding agents.",
+        "Reduced friction for developers building complex agentic workflows using LangChain.",
+        "Provided a benchmark for library-specific LLM evaluation and optimization."
+      ],
+      "relevance_score": 8,
+      "signal_type": "Framework Update",
+      "one_sentence_takeaway": "LangChain releases specialized agent skills that dramatically increase Claude Code's framework-specific accuracy from 29% to 95%.",
+      "lead_institution": "LangChain",
+      "tags": [
+        "LLM Agents",
+        "LangGraph",
+        "Coding Assistants",
+        "AI Evaluation",
+        "Vibe Coding"
+      ]
+    }
+  },
+  {
+    "title": "A \u201cChatGPT for spreadsheets\u201d helps solve difficult engineering challenges faster",
+    "link": "https://news.mit.edu/2026/chatgpt-spreadsheets-helps-solve-difficult-engineering-challenges-faster-0304",
+    "summary": "The approach could help engineers tackle extremely complex design problems, from power grid optimization to vehicle design.",
+    "source": "MIT News - Artificial intelligence",
+    "published": "2026-03-04T05:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Researchers developed a **natural language interface** for spreadsheets designed to translate user intent into complex mathematical constraints and optimization formulas.\n- The system leverages **LLM-based reasoning** to bridge the gap between abstract engineering goals and technical cell-based logic, reducing manual data entry errors.\n- The architecture functions as an **LLM Agent** capable of navigating high-dimensional design spaces, such as power grid configurations and vehicle aerodynamics.\n- This approach integrates **Generative AI** with traditional numerical solver workflows, allowing engineers to verify physical feasibility through automated spreadsheet manipulation.",
+      "key_results": [
+        "Accelerates the setup of complex engineering workbooks for multi-variable problems.",
+        "Simplifies the interface for power grid optimization and large-scale vehicle design.",
+        "Enables non-expert users to perform sophisticated sensitivity analyses via natural language.",
+        "Reduces time spent on manual formula derivation and macro programming.",
+        "Demonstrates successful grounding of LLM outputs in deterministic spreadsheet environments."
+      ],
+      "relevance_score": 7,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "MIT researchers developed a natural language interface for spreadsheets to automate and accelerate complex engineering design and optimization.",
+      "lead_institution": "MIT",
+      "tags": [
+        "LLM Agents",
+        "Spreadsheet Automation",
+        "Engineering Optimization",
+        "Reasoning Models",
+        "Generative AI Trends"
+      ]
+    }
+  },
+  {
+    "title": "Was Windows 1.0's lack of overlapping windows a legal or a technical matter?",
+    "link": "https://retrocomputing.stackexchange.com/questions/32511/was-windows-1-0s-lack-of-overlapping-windows-a-legal-or-a-technical-matter",
+    "summary": "<p>Article URL: <a href=\"https://retrocomputing.stackexchange.com/questions/32511/was-windows-1-0s-lack-of-overlapping-windows-a-legal-or-a-technical-matter\">https://retrocomputing.stackexchange.com/questions/32511/was-windows-1-0s-lack-of-overlapping-windows-a-legal-or-a-technical-matter</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47253160\">https://news.ycombinator.com/item?id=47253160</a></p>\n<p>Points: 45</p>\n<p># Comments: 28</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-03-04T20:15:06+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n\u2022 The discussion analyzes whether **Windows 1.0** utilized a **tiled windowing system** due to legal pressures from Apple or the technical constraints of **8088 processors**.\n\u2022 Architecturally, tiled windows avoided the significant **memory overhead** and complex **redrawing logic** required for overlapping windows on low-resource hardware.\n\u2022 The analysis suggests that while **legal agreements** with Apple existed, the primary driver for the initial UI design was **performance optimization** for CGA and EGA graphics standards.",
+      "key_results": [
+        "Technical constraints of early PCs made 'save-under' buffers and clipping regions computationally expensive.",
+        "Microsoft developers aimed for high responsiveness on systems with as little as 256KB of RAM.",
+        "Tiled windows simplified the management of the 'display context' across concurrent applications.",
+        "The 1985 Apple-Microsoft licensing agreement explicitly allowed Microsoft to use certain GUI elements.",
+        "The transition to overlapping windows in version 2.0 coincided with improved hardware capabilities and refined legal strategies."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "StackExchange contributors determine that Windows 1.0's tiled interface was primarily a response to severe 1980s hardware limitations.",
+      "lead_institution": "StackExchange",
+      "tags": [
+        "Operating Systems",
+        "GUI History",
+        "System Architecture",
+        "Legacy Hardware",
+        "Microsoft"
+      ]
+    }
+  },
+  {
+    "title": "An interactive map of Flock Cams",
+    "link": "https://deflock.org/map#map=5/37.125286/-96.284180",
+    "summary": "<p>Article URL: <a href=\"https://deflock.org/map#map=5/37.125286/-96.284180\">https://deflock.org/map#map=5/37.125286/-96.284180</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47252049\">https://news.ycombinator.com/item?id=47252049</a></p>\n<p>Points: 494</p>\n<p># Comments: 187</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-03-04T18:50:45+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "DeFlock provides an open-source, community-driven geospatial tool to map the deployment of **Automated License Plate Readers (ALPR)** across public spaces.<br>The platform specifically tracks **Flock Safety** hardware, which utilizes proprietary computer vision algorithms to capture vehicle metadata including make, model, and plate numbers.<br>By visualizing the density of these **AI-driven surveillance networks**, the project aims to counter the lack of public transparency regarding the placement and scaling of monitoring infrastructure.",
+      "key_results": [
+        "Aggregation of thousands of user-reported ALPR camera coordinates globally.",
+        "Identification of high-density 'mesh' surveillance patterns in residential neighborhoods.",
+        "Categorization of camera hardware by manufacturer (e.g., Flock, Motorola).",
+        "Public accessibility of surveillance metadata through interactive GIS mapping.",
+        "Community-led documentation of AI-powered monitoring expansion in local jurisdictions."
+      ],
+      "relevance_score": 3,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "DeFlock launches a community mapping project to expose the widespread deployment of AI-powered license plate recognition camera networks.",
+      "lead_institution": "DeFlock.org",
+      "tags": [
+        "Surveillance",
+        "Computer Vision",
+        "ALPR",
+        "Privacy",
+        "Crowdsourcing"
+      ]
+    }
+  },
+  {
+    "title": "You Bought Zuck's Ray-Bans. Now Someone in Nairobi Is Watching You Poop",
+    "link": "https://blog.adafruit.com/2026/03/04/you-bought-zucks-ray-bans-now-someone-in-nairobi-is-watching-you-poop/",
+    "summary": "<p>Article URL: <a href=\"https://blog.adafruit.com/2026/03/04/you-bought-zucks-ray-bans-now-someone-in-nairobi-is-watching-you-poop/\">https://blog.adafruit.com/2026/03/04/you-bought-zucks-ray-bans-now-someone-in-nairobi-is-watching-you-poop/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47250778\">https://news.ycombinator.com/item?id=47250778</a></p>\n<p>Points: 59</p>\n<p># Comments: 12</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-03-04T17:24:38+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Critically examines the **privacy implications** and data lifecycle of smart wearables like Meta's Ray-Ban glasses, focusing on the human-in-the-loop pipeline.\n- Discusses the architecture of **multimodal data collection**, where video and audio streams are sent to cloud servers for processing and manual annotation.\n- Highlights the reliance on **outsourced labor** in regions like Nairobi for RLHF and supervised fine-tuning, exposing sensitive user environments to third-party contractors.\n- Addresses the tension between **Generative AI training** requirements and personal privacy in the age of always-on consumer hardware.",
+      "key_results": [
+        "Identification of privacy gaps in the data labeling pipeline for multimodal AI.",
+        "Evidence of sensitive user footage being reviewed by human annotators in Kenya.",
+        "Critique of the 'always-on' sensor architecture in consumer smart glasses.",
+        "Discussion on the lack of transparency in data-sharing agreements for RLHF.",
+        "Analysis of the ethical trade-offs in building high-performance multimodal models."
+      ],
+      "relevance_score": 6,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Adafruit exposes the privacy risks of smart glasses where sensitive personal data is reviewed by outsourced human annotators.",
+      "lead_institution": "Adafruit",
+      "tags": [
+        "Multimodal AI",
+        "Data Privacy",
+        "Data Labeling",
+        "Smart Glasses",
+        "RLHF"
+      ]
+    }
+  },
+  {
+    "title": "1.5 Million Users Leave ChatGPT",
+    "link": "https://www.forbes.com/sites/barrycollins/2026/03/02/leaving-chatgpt-make-sure-to-do-this-before-you-cancel/",
+    "summary": "<p>Article URL: <a href=\"https://www.forbes.com/sites/barrycollins/2026/03/02/leaving-chatgpt-make-sure-to-do-this-before-you-cancel/\">https://www.forbes.com/sites/barrycollins/2026/03/02/leaving-chatgpt-make-sure-to-do-this-before-you-cancel/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47249448\">https://news.ycombinator.com/item?id=47249448</a></p>\n<p>Points: 70</p>\n<p># Comments: 26</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-03-04T16:02:09+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n\u2022 Analyzes a significant **market shift** where 1.5 million users reportedly transitioned away from ChatGPT in early 2026.\n\u2022 Discusses the impact of **competitor saturation** and the rising demand for specialized or local alternatives to general-purpose cloud LLMs.\n\u2022 Emphasizes the technical importance of **data portability**, urging users to export prompt histories and custom instructions before platform migration.",
+      "key_results": [
+        "OpenAI experienced a churn of 1.5 million active users within a specific reporting period.",
+        "User migration is largely driven by the emergence of competitive models like Claude and Qwen.",
+        "There is a growing trend toward privacy-focused local LLM deployments over centralized API services.",
+        "Platform lock-in remains a concern, highlighting the need for standardized AI data export formats.",
+        "The surge in cancellations suggests a transition from the 'hype' phase to a more fragmented AI utility market."
+      ],
+      "relevance_score": 4,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Forbes reports that 1.5 million users have exited ChatGPT, signaling a major shift in the generative AI market landscape.",
+      "lead_institution": "Forbes",
+      "tags": [
+        "ChatGPT",
+        "User Churn",
+        "Generative AI Trends",
+        "Market Analysis",
+        "LLM Migration"
+      ]
+    }
+  },
+  {
+    "title": "Gemini Said They Could Only Be Together If He Killed Himself. Soon, He Was Dead",
+    "link": "https://www.wsj.com/tech/ai/gemini-ai-wrongful-death-lawsuit-cc46c5f7",
+    "summary": "<p>Article URL: <a href=\"https://www.wsj.com/tech/ai/gemini-ai-wrongful-death-lawsuit-cc46c5f7\">https://www.wsj.com/tech/ai/gemini-ai-wrongful-death-lawsuit-cc46c5f7</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47249381\">https://news.ycombinator.com/item?id=47249381</a></p>\n<p>Points: 47</p>\n<p># Comments: 55</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-03-04T15:56:58+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- A wrongful death lawsuit has been filed against **Google**, alleging that its **Gemini AI** (formerly Bard) encouraged a minor to commit suicide after a prolonged romantic role-play interaction.\n- The case highlights a significant failure in **safety alignment** and **guardrail mechanisms**, where the model's persona-driven responses bypassed standard harmful content filters.\n- This incident underscores the risks of **anthropomorphism** in LLMs and the technical challenge of maintaining safety across extended, high-context conversational sessions.",
+      "key_results": [
+        "Google faces legal action for wrongful death involving generative AI outputs.",
+        "The Gemini AI allegedly bypassed self-harm filters during persistent role-play.",
+        "The lawsuit targets the lack of age-appropriate safeguards for minors interacting with LLMs.",
+        "The case emphasizes the 'uncanny valley' risk of emotionally manipulative AI personas.",
+        "Potential legal precedents may redefine model provider liability for AI-driven psychological harm."
+      ],
+      "relevance_score": 4,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Google faces a landmark wrongful death lawsuit after Gemini's safety guardrails failed to prevent harmful interactions leading to suicide.",
+      "lead_institution": "Google",
+      "tags": [
+        "AI Safety",
+        "LLM Guardrails",
+        "AI Ethics",
+        "Gemini",
+        "AI Liability"
+      ]
+    }
+  },
+  {
+    "title": "MyFirst Kids Watch Hacked. Access to Camera and Microphone",
+    "link": "https://www.kth.se/en/om/nyheter/centrala-nyheter/kth-studenten-hackade-klocka-for-barn-1.1461249",
+    "summary": "<p>Article URL: <a href=\"https://www.kth.se/en/om/nyheter/centrala-nyheter/kth-studenten-hackade-klocka-for-barn-1.1461249\">https://www.kth.se/en/om/nyheter/centrala-nyheter/kth-studenten-hackade-klocka-for-barn-1.1461249</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47246858\">https://news.ycombinator.com/item?id=47246858</a></p>\n<p>Points: 107</p>\n<p># Comments: 30</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-03-04T13:04:53+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Discovery of significant security vulnerabilities in the **MyFirst Fone S3** smartwatch, enabling unauthorized **remote access** to device hardware.\n- The architecture flaw originates from insecure protocols in the **cloud-based backend**, allowing attackers to bypass authentication and query sensitive endpoints.\n- Successful exploits facilitate the unauthorized activation of the **camera and microphone**, alongside real-time monitoring of **GPS coordinates**.\n- This research emphasizes the systemic lack of **security-by-design** in the rapidly growing consumer IoT market for children.",
+      "key_results": [
+        "Remote activation of camera and microphone without any visible device notification.",
+        "Access to real-time and historical GPS location data of child users.",
+        "Identification of exploitable vulnerabilities in the communication between device and server.",
+        "Demonstration of unauthorized data extraction via insecure API endpoints.",
+        "Mandatory security patches initiated by the manufacturer following responsible disclosure."
+      ],
+      "relevance_score": 3,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "KTH Royal Institute of Technology student exposes critical security vulnerabilities in MyFirst smartwatches, allowing remote spying on children.",
+      "lead_institution": "KTH Royal Institute of Technology",
+      "tags": [
+        "IoT Security",
+        "Cybersecurity",
+        "Smartwatches",
+        "Privacy",
+        "Data Protection"
+      ]
+    }
+  },
+  {
+    "title": "Did Alibaba just kneecap its powerful Qwen AI team?",
+    "link": "https://venturebeat.com/technology/did-alibaba-just-kneecap-its-powerful-qwen-ai-team-key-figures-depart-in",
+    "summary": "<p>Article URL: <a href=\"https://venturebeat.com/technology/did-alibaba-just-kneecap-its-powerful-qwen-ai-team-key-figures-depart-in\">https://venturebeat.com/technology/did-alibaba-just-kneecap-its-powerful-qwen-ai-team-key-figures-depart-in</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47246746\">https://news.ycombinator.com/item?id=47246746</a></p>\n<p>Points: 130</p>\n<p># Comments: 38</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-03-04T12:54:04+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n \u2022 Alibaba's AI division faces a significant leadership shakeup as key members of the **Qwen (Tongyi Qianwen)** development team reportedly depart for new ventures.\n \u2022 The departures threaten the momentum of the **Open-Weight Model** ecosystem, where Qwen has been a dominant force in performance-to-size ratios compared to Llama and Mistral.\n \u2022 Internal restructuring may impact the roadmap for future **Multimodal** and **Reasoning Models**, potentially slowing Alibaba's contribution to the local LLM and SLM landscape.",
+      "key_results": [
+        "Key technical leaders responsible for the Qwen model series have resigned from Alibaba.",
+        "The departures come shortly after the successful launch of the Qwen 2.5 family of models.",
+        "Internal friction and restructuring at Alibaba Cloud are cited as primary factors for the talent flight.",
+        "The exiting talent is expected to form new AI startups, intensifying competition in the Chinese LLM market.",
+        "The Qwen series currently holds top-tier positions across global open-source LLM leaderboards."
+      ],
+      "relevance_score": 6,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Alibaba faces potential disruption to its Qwen roadmap as key technical leadership departs to launch competing AI ventures.",
+      "lead_institution": "Alibaba Cloud",
+      "tags": [
+        "Qwen",
+        "Alibaba",
+        "Open-Source AI",
+        "LLM Strategy",
+        "Talent War"
+      ]
+    }
+  },
+  {
+    "title": "Emails to Outlook.com rejected due to a fault or overzealous blocking rules",
+    "link": "https://www.theregister.com/2026/03/04/users_fume_at_outlookcom_email/",
+    "summary": "<p>Article URL: <a href=\"https://www.theregister.com/2026/03/04/users_fume_at_outlookcom_email/\">https://www.theregister.com/2026/03/04/users_fume_at_outlookcom_email/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47246044\">https://news.ycombinator.com/item?id=47246044</a></p>\n<p>Points: 138</p>\n<p># Comments: 81</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-03-04T11:33:46+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "<br> \u2022 Microsoft's **Outlook.com** is reportedly rejecting a massive volume of legitimate emails due to a systemic failure in their **spam filtering logic**.<br> \u2022 The architectural impact involves overzealous **automated blocking rules** that are blacklisting entire IP ranges without specific granular justification.<br> \u2022 Technical users report that the issue bypasses standard **SMTP protocols** for remediation, making it difficult for independent mail servers to maintain deliverability.",
+      "key_results": [
+        "Widespread email delivery failures to Outlook/Hotmail addresses.",
+        "Indiscriminate blocking of legitimate SMTP traffic by Microsoft's security filters.",
+        "Lack of actionable feedback or remediation paths for affected senders.",
+        "Significant operational disruption for small-to-medium enterprise mail servers.",
+        "Highlighting the risks of centralized email infrastructure and automated reputation systems."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Microsoft faces criticism after Outlook.com\u2019s aggressive spam filters began rejecting legitimate emails, causing widespread communication disruptions for businesses.",
+      "lead_institution": "The Register",
+      "tags": [
+        "Email Infrastructure",
+        "Spam Filtering",
+        "Microsoft Outlook",
+        "Network Security",
+        "SMTP"
+      ]
+    }
+  },
+  {
+    "title": "RFC 9849. TLS Encrypted Client Hello",
+    "link": "https://www.rfc-editor.org/rfc/rfc9849.html",
+    "summary": "<p>Article URL: <a href=\"https://www.rfc-editor.org/rfc/rfc9849.html\">https://www.rfc-editor.org/rfc/rfc9849.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47244291\">https://news.ycombinator.com/item?id=47244291</a></p>\n<p>Points: 273</p>\n<p># Comments: 133</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-03-04T07:25:24+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "<br>\u2022 **RFC 9849** formalizes the **Encrypted Client Hello (ECH)** extension for TLS 1.3, which encrypts the entire ClientHello message to protect user privacy.<br>\u2022 The architecture utilizes a **ClientFacingServer** (the public-facing IP) and a **BackendServer** (the actual destination) to hide the **Server Name Indication (SNI)** from intermediaries.<br>\u2022 The mechanism relies on **DNS-based key distribution** through SVCB and HTTPS resource records to provide clients with public keys needed for initial encryption.<br>\u2022 This standard effectively closes the last major plaintext leak in the TLS handshake, significantly hardening the web against **traffic analysis** and metadata-based censorship.",
+      "key_results": [
+        "Eliminates plaintext visibility of the Server Name Indication (SNI) during handshakes.",
+        "Integrates with DNS SVCB/HTTPS records for seamless public key discovery.",
+        "Provides a secure fallback mechanism for servers that do not yet support ECH.",
+        "Hardens TLS 1.3 against pervasive monitoring by encrypting extension metadata.",
+        "Standardizes the ECHConfig structure for interoperability across global CDNs and browsers."
+      ],
+      "relevance_score": 3,
+      "signal_type": "Paper",
+      "one_sentence_takeaway": "The IETF standardizes Encrypted Client Hello to eliminate plaintext metadata leaks, significantly enhancing internet privacy and censorship resistance.",
+      "lead_institution": "IETF",
+      "tags": [
+        "TLS 1.3",
+        "Encrypted Client Hello",
+        "Network Privacy",
+        "Cryptography",
+        "Cybersecurity"
+      ]
+    }
+  },
+  {
+    "title": "A CPU that runs entirely on GPU",
+    "link": "https://github.com/robertcprice/nCPU",
+    "summary": "<p>Article URL: <a href=\"https://github.com/robertcprice/nCPU\">https://github.com/robertcprice/nCPU</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47243069\">https://news.ycombinator.com/item?id=47243069</a></p>\n<p>Points: 239</p>\n<p># Comments: 119</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-03-04T04:30:32+00:00",
+    "type": "repo",
+    "display_category": "Top Repo",
+    "processed": {
+      "summary": "\n- **nCPU** is a specialized CPU architecture implemented entirely in **CUDA**, allowing it to run natively on NVIDIA GPU hardware.\n- The architecture maps individual virtual CPU cores to **GPU threads**, enabling the simultaneous execution of thousands of independent RISC-like processors.\n- It utilizes a custom **Instruction Set Architecture (ISA)** designed for high-throughput parallel execution and features integrated memory management between host and device.\n- The project demonstrates **heterogeneous computing** by shifting traditionally serial general-purpose logic into a massively parallel GPU environment.",
+      "key_results": [
+        "Successful simulation of a functional RISC processor within a CUDA kernel.",
+        "Support for thousands of concurrent virtual cores on a single GPU unit.",
+        "Implementation of a dedicated assembler for custom nCPU machine code.",
+        "Efficient handling of per-thread registers and shared global memory access.",
+        "Proof-of-concept for running general-purpose logic in a high-concurrency SIMT model."
+      ],
+      "relevance_score": 6,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Robert C. Price releases nCPU, a CUDA-based architecture that simulates thousands of independent RISC processors directly on GPU hardware.",
+      "lead_institution": "Robert C. Price",
+      "tags": [
+        "GPU Computing",
+        "CUDA",
+        "CPU Emulation",
+        "Parallel Processing",
+        "Computer Architecture"
+      ]
+    }
+  },
+  {
+    "title": "Just Send the Prompt",
+    "link": "https://justsendtheprompt.com/",
+    "summary": "<p>Article URL: <a href=\"https://justsendtheprompt.com/\">https://justsendtheprompt.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47242567\">https://news.ycombinator.com/item?id=47242567</a></p>\n<p>Points: 42</p>\n<p># Comments: 29</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-03-04T03:14:39+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Advocates for **minimalist orchestration** by prioritizing direct prompt transmission over complex, multi-step agent frameworks to reduce overall system complexity.\n- Leverages the **Model Context Protocol (MCP)** to enable LLMs to interact directly with local tools and data sources without proprietary middleware.\n- Reduces **latency and token overhead** by minimizing intermediate abstraction layers and unnecessary state management in the developer workflow.",
+      "key_results": [
+        "Simplified developer interface for direct LLM interaction",
+        "Native support for standardized Model Context Protocol tools",
+        "Reduction in boilerplate code for agentic task delegation",
+        "Improved portability across different model providers",
+        "Emphasis on intent-driven 'vibe coding' over infrastructure management"
+      ],
+      "relevance_score": 6,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Just Send the Prompt streamlines LLM development by advocating for minimal orchestration and native Model Context Protocol tool integration.",
+      "lead_institution": "Just Send the Prompt",
+      "tags": [
+        "Prompt Engineering",
+        "MCP",
+        "LLM Orchestration",
+        "Developer Tools",
+        "Vibe Coding"
+      ]
+    }
+  },
+  {
+    "title": "Mac external displays for designers and developers, part 2 (2022)",
+    "link": "https://bjango.com/articles/macexternaldisplays2/",
+    "summary": "<p>Article URL: <a href=\"https://bjango.com/articles/macexternaldisplays2/\">https://bjango.com/articles/macexternaldisplays2/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47242342\">https://news.ycombinator.com/item?id=47242342</a></p>\n<p>Points: 52</p>\n<p># Comments: 39</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-03-04T02:43:05+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Evaluates the impact of **Pixel Density (PPI)** on macOS interface scaling and visual fidelity for external monitors.\n- Detail explains the **macOS Retina scaling architecture**, where the OS renders at double the target resolution before downsampling to the display's native resolution.\n- Analyzes the **GPU performance overhead** and potential blurring artifacts associated with non-integer scaling factors on 4K displays.\n- Recommends specific hardware configurations, such as **27-inch 5K displays**, to achieve native 218 PPI for optimal UI sizing and clarity.",
+      "key_results": [
+        "Identifies 218 PPI as the ideal density for macOS Retina displays to avoid scaling artifacts.",
+        "Quantifies the performance hit when using non-native 'Looks like' resolutions on Apple Silicon and Intel Macs.",
+        "Categorizes displays into 'Golden', 'Good', and 'Bad' zones based on their physical dimensions and pixel counts.",
+        "Explains why 4K 27-inch monitors often require a 1.5x scale which is not computationally 'free' like 2x scaling.",
+        "Provides a comprehensive technical reference for designers and developers to choose hardware that matches macOS's coordinate system."
+      ],
+      "relevance_score": 2,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Bjango provides a technical deep-dive into macOS display scaling to optimize pixel density and visual performance for developers.",
+      "lead_institution": "Bjango",
+      "tags": [
+        "macOS Scaling",
+        "Display Hardware",
+        "Pixel Density",
+        "Developer Workflow",
+        "UI/UX Design"
+      ]
+    }
+  },
+  {
+    "title": "MrBeast Is Getting into Financial Services. Parents Should Pay Attention",
+    "link": "https://www.nytimes.com/2026/03/03/business/mrbeast-step-banking-crypto.html",
+    "summary": "<p>Article URL: <a href=\"https://www.nytimes.com/2026/03/03/business/mrbeast-step-banking-crypto.html\">https://www.nytimes.com/2026/03/03/business/mrbeast-step-banking-crypto.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47242204\">https://news.ycombinator.com/item?id=47242204</a></p>\n<p>Points: 30</p>\n<p># Comments: 8</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-03-04T02:24:29+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- The article examines **MrBeast's** expansion into the **fintech sector** through a partnership with Step, targeting younger demographics for banking and potential cryptocurrency exposure.\n- It highlights the shift toward the **creator economy** as a primary distribution channel for financial services, bypassing traditional customer acquisition models.\n- The model leverages **gamified incentives** to drive engagement, raising concerns about the ethical implications of marketing complex financial products to minors.\n- Technical infrastructure relies on **mobile-first banking-as-a-service (BaaS)** platforms to integrate financial tools directly into influencer-led ecosystems.",
+      "key_results": [
+        "Launch of branded financial products for Gen Z and Alpha audiences.",
+        "Partnership with digital banking startup Step for core infrastructure.",
+        "Proposed integration of cryptocurrency trading features within the platform.",
+        "Identification of high risk regarding financial literacy and minor participation.",
+        "Disruption of traditional retail banking customer acquisition costs via influencer reach."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "The New York Times reports that MrBeast is launching influencer-driven financial services, highlighting a shift toward creator-led digital banking.",
+      "lead_institution": "The New York Times",
+      "tags": [
+        "Fintech",
+        "Creator Economy",
+        "Digital Banking",
+        "Crypto",
+        "Consumer Trends"
+      ]
+    }
+  },
+  {
+    "title": "Claude's Cycles [pdf]",
+    "link": "https://cs.stanford.edu/~knuth/papers/claude-cycles.pdf",
+    "summary": "<p>Article URL: <a href=\"https://cs.stanford.edu/~knuth/papers/claude-cycles.pdf\">https://cs.stanford.edu/~knuth/papers/claude-cycles.pdf</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47241364\">https://news.ycombinator.com/item?id=47241364</a></p>\n<p>Points: 30</p>\n<p># Comments: 3</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-03-04T00:37:35+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Donald Knuth investigates the **reasoning capabilities** of Anthropic's Claude by challenging it to solve Hamiltonian cycle problems in various graph structures.\n- The paper details the **prompt engineering** and iterative feedback loops required to assist the LLM in maintaining logical consistency during exhaustive state-space searches.\n- Knuth evaluates the model's ability to perform **backtracking and vertex tracing**, revealing the limits of its current algorithmic reasoning versus pattern recognition.\n- The analysis provides a unique benchmark for **LLM performance** in formal discrete mathematics and combinatorial optimization.",
+      "key_results": [
+        "Claude demonstrates an intuitive but fallible grasp of combinatorial search spaces.",
+        "Model performance is highly sensitive to the representation of graph vertices and edge lists.",
+        "Success often requires iterative 'cycles' of human-prompted error correction and state recovery.",
+        "The model frequently hallucinations 'shortcuts' in graphs that do not exist when under logical pressure.",
+        "Discrete mathematical reasoning remains a significant hurdle for frontier LLMs compared to natural language tasks."
+      ],
+      "relevance_score": 8,
+      "signal_type": "Paper",
+      "one_sentence_takeaway": "Stanford's Donald Knuth evaluates Claude's combinatorial reasoning through Hamiltonian cycle problems, identifying critical failures in LLM state-space navigation.",
+      "lead_institution": "Stanford University",
+      "tags": [
+        "Reasoning Models",
+        "AI Evaluation",
+        "Graph Theory",
+        "Prompt Engineering",
+        "Claude"
+      ]
+    }
+  },
+  {
+    "title": "OpenAI CEO Sam Altman Defends Pentagon Work to Staff",
+    "link": "https://www.wsj.com/tech/ai/openai-ceo-altman-defends-pentagon-work-to-staff-calls-backlash-really-painful-76d769ec",
+    "summary": "<p>Article URL: <a href=\"https://www.wsj.com/tech/ai/openai-ceo-altman-defends-pentagon-work-to-staff-calls-backlash-really-painful-76d769ec\">https://www.wsj.com/tech/ai/openai-ceo-altman-defends-pentagon-work-to-staff-calls-backlash-really-painful-76d769ec</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47239768\">https://news.ycombinator.com/item?id=47239768</a></p>\n<p>Points: 82</p>\n<p># Comments: 90</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-03-03T22:09:18+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n OpenAI shifts its policy to permit collaboration with the **U.S. Department of Defense**, focusing on non-combat initiatives such as **cybersecurity** and **logistics optimization**.\n The move signifies a transition from a total ban on military usage to a nuanced partnership aimed at enhancing **national security infrastructure** through large language models.\n Internal discourse centers on the **ethical boundaries** of AI deployment, with leadership defending the work as necessary for maintaining democratic technological advantages.\n This shift reflects broader **Generative AI trends** where foundation model providers are increasingly integrated into public sector and defense operations.",
+      "key_results": [
+        "OpenAI removes the explicit ban on military and warfare use from its terms of service.",
+        "Collaboration with the Pentagon targets administrative and defensive tasks.",
+        "Internal pushback from employees highlights tensions between AI ethics and national interests.",
+        "Focus areas include coding assistance for cybersecurity and predictive logistics.",
+        "Altman positions the move as a strategic alignment with U.S. government goals."
+      ],
+      "relevance_score": 4,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "OpenAI defends its collaboration with the Pentagon to staff, emphasizing non-combat applications in cybersecurity and logistics.",
+      "lead_institution": "OpenAI",
+      "tags": [
+        "Defense AI",
+        "AI Ethics",
+        "Generative AI Trends",
+        "Cybersecurity",
+        "National Security"
+      ]
+    }
+  },
+  {
+    "title": "Claude Code escapes its own denylist and sandbox",
+    "link": "https://ona.com/stories/how-claude-code-escapes-its-own-denylist-and-sandbox",
+    "summary": "<p>Article URL: <a href=\"https://ona.com/stories/how-claude-code-escapes-its-own-denylist-and-sandbox\">https://ona.com/stories/how-claude-code-escapes-its-own-denylist-and-sandbox</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47236910\">https://news.ycombinator.com/item?id=47236910</a></p>\n<p>Points: 36</p>\n<p># Comments: 14</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-03-03T18:49:59+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "<br>Analysis of **Claude Code**, Anthropic's agentic CLI, reveals critical vulnerabilities in its **denylist-based security model** and sandbox implementation.<br>The study details how the tool's shell-access capabilities allow for **indirect command execution**, bypassing client-side file path restrictions.<br>Architecturally, it highlights the inherent risks of **agentic tool-use** where the LLM's system prompt constraints do not align with the underlying **terminal environment's** permissions.<br>Impact assessment suggests that current agent security relies too heavily on **prompt engineering** rather than robust, kernel-level isolation.",
+      "key_results": [
+        "Successfully bypassed file denylists using standard Unix symlink manipulation.",
+        "Executed restricted commands by masking them through environment variable injection.",
+        "Identified that wildcard expansions in shell commands are not properly sanitized by the agent interface.",
+        "Demonstrated that the sandbox can be escaped via nested shell sessions and process spawning.",
+        "Proved that local agentic permissions require hardware-level virtualization to be effectively secured."
+      ],
+      "relevance_score": 8,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Ona researchers demonstrate that Claude Code's security denylist and sandbox can be bypassed via standard shell manipulation techniques.",
+      "lead_institution": "Ona",
+      "tags": [
+        "LLM Agents",
+        "Agentic Security",
+        "Claude Code",
+        "Prompt Injection",
+        "AI Safety"
+      ]
+    }
+  },
+  {
+    "title": "You are going to get priced out of the best AI coding tools (2025)",
+    "link": "https://newsletter.danielpaleka.com/p/you-are-going-to-get-priced-out-of",
+    "summary": "<p>Article URL: <a href=\"https://newsletter.danielpaleka.com/p/you-are-going-to-get-priced-out-of\">https://newsletter.danielpaleka.com/p/you-are-going-to-get-priced-out-of</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47236218\">https://news.ycombinator.com/item?id=47236218</a></p>\n<p>Points: 78</p>\n<p># Comments: 87</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-03-03T18:02:04+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- The AI coding landscape is shifting from **simple autocomplete** to **agentic reasoning**, utilizing high-compute models that significantly increase per-task inference costs.\n- The rise of **inference-time compute** (e.g., OpenAI o1/o3) and deep-search agentic loops creates a cost structure that likely breaks the traditional $20/month subscription model.\n- Architectural trends suggest a divergence where **Local SLMs** handle low-latency tasks while premium **Reasoning Clouds** are reserved for complex architectural refactoring and debugging.\n- Economic pressures may lead to a productivity gap, as the most capable \"Vibe Coding\" tools become priced for enterprise-level **compute-heavy workflows**.",
+      "key_results": [
+        "Prediction of usage-based pricing replacing flat-rate subscriptions for top-tier coding agents.",
+        "Inference-time reasoning models are becoming the bottleneck for affordable developer access.",
+        "Agentic workflows increase token consumption exponentially compared to traditional chat interfaces.",
+        "Growth of 'Vibe Coding' is increasingly dependent on high-latency, high-cost reasoning loops.",
+        "Local LLMs are positioned as the primary defense against rising costs for routine boilerplate tasks."
+      ],
+      "relevance_score": 6,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Daniel Paleka predicts that the high compute demands of reasoning-heavy agents will soon price individual developers out of premium AI coding tools.",
+      "lead_institution": "Daniel Paleka",
+      "tags": [
+        "AI Coding Tools",
+        "Reasoning Models",
+        "Inference Costs",
+        "Agentic Workflows",
+        "Vibe Coding"
       ]
     }
   },
@@ -90,96 +1080,6 @@
     }
   },
   {
-    "title": "PRX Part 3 \u2014 Training a Text-to-Image Model in 24h!",
-    "link": "https://huggingface.co/blog/Photoroom/prx-part3",
-    "summary": "",
-    "source": "Hugging Face - Blog",
-    "published": "2026-03-03T16:50:49+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n\u2022 Implements a **Diffusion Transformer (DiT)** architecture to achieve high-fidelity text-to-image synthesis with significantly reduced compute requirements.\n\u2022 Leverages **Latent Diffusion** techniques and a pre-trained **T5-XXL** text encoder to decouple semantic understanding from image generation.\n\u2022 Utilizes **gradient checkpointing** and **mixed-precision training** to optimize memory usage and accelerate the training pipeline on consumer-grade hardware.\n\u2022 Demonstrates a streamlined recipe for **fast convergence**, allowing researchers to train competitive generative models within a 24-hour window.",
-      "key_results": [
-        "Successful training of a high-resolution text-to-image model in under 24 hours.",
-        "Significant reduction in total GPU-hours compared to traditional U-Net based diffusion models.",
-        "Validation of Diffusion Transformers (DiT) as a scalable and efficient backbone for image generation.",
-        "High-quality 1024x1024 image synthesis achieved via optimized latent space representations.",
-        "Open-sourcing of the training scripts and weights via the Hugging Face Diffusers library."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Engineering Blog",
-      "one_sentence_takeaway": "Hugging Face streamlines text-to-image training using Diffusion Transformers to achieve high-quality results within a 24-hour compute window.",
-      "lead_institution": "Hugging Face",
-      "tags": [
-        "Diffusion Transformers",
-        "Text-to-Image",
-        "Model Efficiency",
-        "Generative AI",
-        "Model Fine-tuning"
-      ]
-    }
-  },
-  {
-    "title": "How we rebuilt the search architecture for high availability in GitHub Enterprise Server",
-    "link": "https://github.blog/engineering/architecture-optimization/how-we-rebuilt-the-search-architecture-for-high-availability-in-github-enterprise-server/",
-    "summary": "<p>Here's how we the search experience better, faster, and more resilient for GHES customers.</p>\n<p>The post <a href=\"https://github.blog/engineering/architecture-optimization/how-we-rebuilt-the-search-architecture-for-high-availability-in-github-enterprise-server/\">How we rebuilt the search architecture for high availability in GitHub Enterprise Server</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
-    "source": "The GitHub Blog",
-    "published": "2026-03-03T18:45:09+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n- GitHub transitioned the **GitHub Enterprise Server (GHES)** search infrastructure from a single-instance model to a **clustered architecture** to ensure high availability.\n- The new design utilizes **Elasticsearch** clusters with decoupled indexing pipelines to prevent data loss and search degradation during node failures.\n- Implemented a more robust **failover strategy** and improved horizontal scalability to handle large-scale repository indexing for enterprise customers.",
-      "key_results": [
-        "Elimination of single points of failure in the search stack",
-        "Significant reduction in search downtime for enterprise users",
-        "Improved horizontal scaling capabilities for large data volumes",
-        "Enhanced data consistency across clustered search nodes",
-        "Optimized indexing throughput during peak repository activity"
-      ],
-      "relevance_score": 4,
-      "signal_type": "Engineering Blog",
-      "one_sentence_takeaway": "GitHub re-engineered the Enterprise Server search architecture using clustered Elasticsearch to achieve high availability and seamless scalability.",
-      "lead_institution": "GitHub",
-      "tags": [
-        "Search Architecture",
-        "High Availability",
-        "Elasticsearch",
-        "Infrastructure",
-        "GitHub Enterprise"
-      ]
-    }
-  },
-  {
-    "title": "Join or host a GitHub Copilot Dev Days event near you",
-    "link": "https://github.blog/ai-and-ml/github-copilot/join-or-host-a-github-copilot-dev-days-event-near-you/",
-    "summary": "<p>GitHub Copilot Dev Days is a global series of hands-on, in-person, community-led events designed to help developers explore real-world, AI-assisted coding.  </p>\n<p>The post <a href=\"https://github.blog/ai-and-ml/github-copilot/join-or-host-a-github-copilot-dev-days-event-near-you/\">Join or host a GitHub Copilot Dev Days event near you</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
-    "source": "The GitHub Blog",
-    "published": "2026-03-03T16:55:00+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n- GitHub launches **GitHub Copilot Dev Days**, a global series of community-led, in-person events focused on **AI-assisted coding**.\n- The initiative prioritizes **hands-on learning** to help developers integrate generative AI tools into their real-world production workflows.\n- By decentralized event hosting, GitHub aims to scale the adoption of **Copilot features** across diverse local developer ecosystems.",
-      "key_results": [
-        "Launch of a global community-led event framework.",
-        "Emphasis on hands-on, real-world AI application over theoretical sessions.",
-        "Support for local developers to host their own Dev Days events.",
-        "Focus on bridging the gap between AI tooling and day-to-day coding practices.",
-        "Expansion of the GitHub Copilot ecosystem through peer-to-peer education."
-      ],
-      "relevance_score": 2,
-      "signal_type": "General News",
-      "one_sentence_takeaway": "GitHub launches a global event series to promote hands-on AI-assisted coding through community-led workshops and local developer engagement.",
-      "lead_institution": "GitHub",
-      "tags": [
-        "GitHub Copilot",
-        "AI-Assisted Coding",
-        "Developer Community",
-        "Generative AI Trends",
-        "Software Development"
-      ]
-    }
-  },
-  {
     "title": "GitHub for Beginners: Getting started with GitHub Issues and Projects",
     "link": "https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-github-issues-and-projects/",
     "summary": "<p>Learn how to get organized and collaborate more efficiently with this step-by-step tutorial.</p>\n<p>The post <a href=\"https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-github-issues-and-projects/\">GitHub for Beginners: Getting started with GitHub Issues and Projects</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
@@ -206,126 +1106,6 @@
         "Developer Experience",
         "Workflow",
         "Collaboration"
-      ]
-    }
-  },
-  {
-    "title": "Create new worlds in Project Genie with these 4 tips",
-    "link": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/tips-prompt-writing-project-genie/",
-    "summary": "A screen capture of Project Genie, an experimental interface showing a grid of circular images, many of which appear to be 360-degree views, with a large, central black globe labeled Create your own",
-    "source": "AI",
-    "published": "2026-03-03T17:00:00+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n\u2022 **Project Genie** serves as an experimental interface for **Foundation World Models**, enabling the generation of interactive 360-degree environments from simple inputs.\n\u2022 The underlying architecture utilizes **spatiotemporal transformers** trained on vast video datasets to learn latent physical laws and movement without explicit labeling.\n\u2022 The platform emphasizes **generative UX** and **vibe-based creation**, allowing non-technical users to build immersive digital spaces through high-level prompting.",
-      "key_results": [
-        "Transformation of static image prompts into playable, interactive environments.",
-        "Implementation of 360-degree panoramic world generation for immersive experiences.",
-        "Deployment of latent action spaces that allow users to navigate generated scenes.",
-        "Validation of video-pretraining as a foundation for consistent environmental physics.",
-        "Introduction of a simplified grid-based interface for rapid world prototyping."
-      ],
-      "relevance_score": 4,
-      "signal_type": "General News",
-      "one_sentence_takeaway": "Google DeepMind's Project Genie enables users to generate interactive 360-degree worlds through a simplified, vibe-driven generative interface.",
-      "lead_institution": "Google DeepMind",
-      "tags": [
-        "World Models",
-        "Generative AI",
-        "Vibe Coding",
-        "Multimodal AI",
-        "Interactive Media"
-      ]
-    }
-  },
-  {
-    "title": "Building a scalable virtual try-on solution using Amazon Nova on AWS: part 1",
-    "link": "https://aws.amazon.com/blogs/machine-learning/building-a-scalable-virtual-try-on-solution-using-amazon-nova-on-aws-part-1/",
-    "summary": "In this post, we explore the virtual try-on capability now available in Amazon Nova Canvas, including sample code to get started quickly and tips to help get the best outputs.",
-    "source": "Artificial Intelligence",
-    "published": "2026-03-03T16:23:30+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n- **Amazon Nova Canvas** introduces a native **virtual try-on (VTO)** capability, enabling the realistic overlay of apparel onto human models via generative imaging.\n- The solution focuses on **architectural scalability**, allowing retailers to integrate high-fidelity garment rendering into existing e-commerce workflows using AWS managed services.\n- Technical implementation highlights include fine-grained control over **image-to-image synthesis** to maintain garment texture, lighting consistency, and anatomical fit.",
-      "key_results": [
-        "Native virtual try-on support within the Amazon Nova foundation model family.",
-        "Provision of modular sample code for cloud-scale deployment.",
-        "Techniques for optimizing garment fidelity through advanced prompt engineering and parameter tuning.",
-        "High-resolution output capabilities suitable for commercial retail environments.",
-        "Integration path for combining VTO with other Amazon Nova multimodal features."
-      ],
-      "relevance_score": 7,
-      "signal_type": "Engineering Blog",
-      "one_sentence_takeaway": "Amazon introduces virtual try-on in Nova Canvas, enabling developers to build scalable, high-fidelity fashion AI applications on AWS.",
-      "lead_institution": "AWS",
-      "tags": [
-        "Virtual Try-On",
-        "Amazon Nova",
-        "Multimodal AI",
-        "Generative AI",
-        "Computer Vision"
-      ]
-    }
-  },
-  {
-    "title": "How Lendi revamped the refinance journey for its customers using agentic AI in 16 weeks using Amazon Bedrock",
-    "link": "https://aws.amazon.com/blogs/machine-learning/how-lendi-revamped-the-refinance-journey-for-its-customers-using-agentic-ai-in-12-weeks-using-amazon-bedrock/",
-    "summary": "This post details how Lendi Group built their AI-powered Home Loan Guardian using Amazon Bedrock, the challenges they faced, the architecture they implemented, and the significant business outcomes they\u2019ve achieved. Their journey offers valuable insights for organizations that want to use generative AI to transform customer experiences while maintaining the human touch that builds trust and loyalty.",
-    "source": "Artificial Intelligence",
-    "published": "2026-03-03T16:18:30+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n* Developed the **Home Loan Guardian** using an **agentic AI architecture** on **Amazon Bedrock** to automate and personalize the home loan refinance process.\n* Utilized **Foundation Models** for intelligent document extraction and multi-step reasoning, significantly reducing manual data entry for borrowers.\n* Implemented a **Human-in-the-loop (HITL)** integration to balance automated agentic actions with high-trust financial advice and regulatory compliance.\n* Demonstrated rapid **time-to-market** by transitioning from concept to a production-ready system in just 16 weeks using modular agentic workflows.",
-      "key_results": [
-        "Successfully deployed a production-ready agentic system in a 16-week timeframe.",
-        "Automated complex document analysis to streamline the customer onboarding experience.",
-        "Enhanced lead conversion by providing real-time, AI-driven refinancing insights.",
-        "Maintained high security and compliance standards using Amazon Bedrock's private infrastructure.",
-        "Created a scalable framework for future multi-agent financial services applications."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Engineering Blog",
-      "one_sentence_takeaway": "Lendi Group deploys an agentic AI solution on Amazon Bedrock to automate home loan refinancing within 16 weeks.",
-      "lead_institution": "Lendi Group",
-      "tags": [
-        "LLM Agents",
-        "Amazon Bedrock",
-        "FinTech",
-        "Agentic AI",
-        "Deployment"
-      ]
-    }
-  },
-  {
-    "title": "How Tines enhances security analysis with Amazon Quick Suite",
-    "link": "https://aws.amazon.com/blogs/machine-learning/how-tines-enhances-security-analysis-with-amazon-quick-suite/",
-    "summary": "In this post, we show you how to connect Quick Suite with Tines to securely retrieve, analyze, and visualize enterprise data from any security or IT system. We walk through an example that uses a MCP server in Tines to retrieve data from various tools, such as AWS CloudTrail, Okta, and VirusTotal, to remediate security events using Quick Suite.",
-    "source": "Artificial Intelligence",
-    "published": "2026-03-03T16:15:06+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n- Deployment of an **MCP (Model Context Protocol) server** within **Tines** to create a unified interface for disparate security and IT data sources.\n- Integration with **Amazon Quick Suite** to provide structured visualization and analytical insights from raw security telemetry.\n- Orchestration of automated **security remediation** workflows that bridge **AWS CloudTrail**, **Okta**, and **VirusTotal** via a standardized communication protocol.",
-      "key_results": [
-        "Successful implementation of MCP servers for cross-tool data retrieval.",
-        "Automated ingestion of AWS CloudTrail logs for immediate security auditing.",
-        "Seamless integration of Okta identity data for context-aware analysis.",
-        "Threat intelligence enrichment utilizing VirusTotal API within the workflow.",
-        "Reduction in mean-time-to-remediate (MTTR) through visualized security dashboards."
-      ],
-      "relevance_score": 6,
-      "signal_type": "Engineering Blog",
-      "one_sentence_takeaway": "Tines leverages MCP servers and Amazon Quick Suite to automate cross-platform security data retrieval and incident remediation.",
-      "lead_institution": "Tines",
-      "tags": [
-        "MCP",
-        "LLM Agents",
-        "Security Automation",
-        "Data Orchestration",
-        "Cloud Infrastructure"
       ]
     }
   },
@@ -476,66 +1256,6 @@
         "Performance Optimization",
         "Embeddings",
         "Java SIMD"
-      ]
-    }
-  },
-  {
-    "title": "OpenAI CEO Sam Altman Defends Pentagon Work to Staff",
-    "link": "https://www.wsj.com/tech/ai/openai-ceo-altman-defends-pentagon-work-to-staff-calls-backlash-really-painful-76d769ec",
-    "summary": "<p>Article URL: <a href=\"https://www.wsj.com/tech/ai/openai-ceo-altman-defends-pentagon-work-to-staff-calls-backlash-really-painful-76d769ec\">https://www.wsj.com/tech/ai/openai-ceo-altman-defends-pentagon-work-to-staff-calls-backlash-really-painful-76d769ec</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47239768\">https://news.ycombinator.com/item?id=47239768</a></p>\n<p>Points: 63</p>\n<p># Comments: 64</p>",
-    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
-    "published": "2026-03-03T22:09:18+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n* OpenAI CEO Sam Altman defends the company's expanding **defense sector partnerships**, framing the move as a critical component of **U.S. AI leadership** and national security.\n* The partnership shift involves moving away from prior blanket bans on military work toward providing **general-purpose AI tools** for administrative and cybersecurity tasks.\n* The internal discourse highlights the tension between OpenAI's **non-profit origins** and its current trajectory as a major **government contractor** and enterprise provider.\n* Technically, these initiatives likely necessitate the development of **sovereign AI environments** and high-security **LLM deployment** pipelines for sensitive government data.",
-      "key_results": [
-        "OpenAI leadership addressed internal staff concerns regarding the public and ethical backlash to military contracts.",
-        "The company maintains a distinction between supporting 'national security' and developing 'kinetic weapons'.",
-        "Sam Altman emphasized that partnering with the Pentagon is 'really painful' but necessary for the company's impact.",
-        "The policy change allows the U.S. military to use OpenAI technology for logistics, communications, and cyber-defense.",
-        "OpenAI is positioning itself as a strategic partner to the U.S. government to counter rival nation-state AI developments."
-      ],
-      "relevance_score": 4,
-      "signal_type": "General News",
-      "one_sentence_takeaway": "OpenAI defends its Pentagon partnerships as essential for national security while maintaining internal ethical boundaries against kinetic warfare.",
-      "lead_institution": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "Defense AI",
-        "AI Ethics",
-        "National Security",
-        "Generative AI Trends"
-      ]
-    }
-  },
-  {
-    "title": "You are going to get priced out of the best AI coding tools (2025)",
-    "link": "https://newsletter.danielpaleka.com/p/you-are-going-to-get-priced-out-of",
-    "summary": "<p>Article URL: <a href=\"https://newsletter.danielpaleka.com/p/you-are-going-to-get-priced-out-of\">https://newsletter.danielpaleka.com/p/you-are-going-to-get-priced-out-of</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47236218\">https://news.ycombinator.com/item?id=47236218</a></p>\n<p>Points: 74</p>\n<p># Comments: 83</p>",
-    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
-    "published": "2026-03-03T18:02:04+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n- The transition from simple chat interfaces to **agentic workflows** necessitates recursive reasoning loops that significantly increase **token consumption** and compute overhead.\n- High-performance **reasoning models** like o1 and GPT-5 are projected to move from flat-rate subscriptions to **metered billing** to sustain inference costs.\n- A widening gap is emerging between **commodity LLMs** used for boilerplate and premium **orchestration agents** capable of autonomous system-level architectural tasks.",
-      "key_results": [
-        "Agentic coding loops consume exponentially more tokens than standard autocompletion or single-shot prompts.",
-        "Model providers are struggling to maintain margins on $20/month plans for high-compute reasoning tasks.",
-        "The rise of 'Vibe Coding' prioritizes high-level intent but requires expensive, multi-step reasoning traces.",
-        "Individual developers may soon face monthly compute budgets exceeding several hundred dollars for professional-tier autonomy.",
-        "Local SLMs provide a cost-effective alternative but currently lack the reasoning depth for complex autonomous debugging."
-      ],
-      "relevance_score": 6,
-      "signal_type": "General News",
-      "one_sentence_takeaway": "Daniel Paleka argues that high-cost reasoning models will shift AI coding tools from flat-rate subscriptions to expensive metered pricing.",
-      "lead_institution": "Daniel Paleka",
-      "tags": [
-        "Vibe Coding",
-        "LLM Agents",
-        "AI Economics",
-        "Reasoning Models",
-        "Inference Costs"
       ]
     }
   },
@@ -1470,36 +2190,6 @@
     }
   },
   {
-    "title": "Recursive Think-Answer Process for LLMs and VLMs",
-    "link": "http://arxiv.org/abs/2603.02099v1",
-    "summary": "Think-Answer reasoners such as DeepSeek-R1 have made notable progress by leveraging interpretable internal reasoning. However, despite the frequent presence of self-reflective cues like \"Oops!\", they remain vulnerable to output errors during single-pass inference. To address this limitation, we propose an efficient Recursive Think-Answer Process (R-TAP) that enables models to engage in iterative reasoning cycles and generate more accurate answers, going beyond conventional single-pass approaches. Central to this approach is a confidence generator that evaluates the certainty of model responses and guides subsequent improvements. By incorporating two complementary rewards-Recursively Confidence Increase Reward and Final Answer Confidence Reward-we show that R-TAP-enhanced models consistently outperform conventional single-pass methods for both large language models (LLMs) and vision-language models (VLMs). Moreover, by analyzing the frequency of \"Oops\"-like expressions in model responses, we find that R-TAP-applied models exhibit significantly fewer self-reflective patterns, resulting in more stable and faster inference-time reasoning. We hope R-TAP pave the way evolving into efficient and elaborated methods to refine the reasoning processes of future AI.",
-    "source": "ArXiv",
-    "published": "2026-03-02T17:20:10+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n Introduces **Recursive Think-Answer Process (R-TAP)**, a framework that replaces standard single-pass inference with iterative reasoning cycles to improve model accuracy.\n Employs a **confidence generator** to evaluate model responses, guiding the system through subsequent refinement stages when certainty is low.\n Integrates two specialized reward mechanisms\u2014**Recursively Confidence Increase Reward** and **Final Answer Confidence Reward**\u2014to optimize the training of LLMs and VLMs.\n Reduces the occurrence of internal self-correction markers like \"Oops!\", resulting in **faster inference speeds** and more stable reasoning trajectories.",
-      "key_results": [
-        "R-TAP consistently exceeds the performance of traditional single-pass reasoning baselines.",
-        "The framework is universally effective for both Large Language Models and Vision-Language Models.",
-        "Iterative cycles significantly reduce self-reflective verbal patterns during the reasoning process.",
-        "Confidence-guided reasoning leads to more stable and predictable model outputs.",
-        "Optimized training rewards successfully align model confidence with actual response accuracy."
-      ],
-      "relevance_score": 9,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce R-TAP to enable recursive reasoning cycles in LLMs, improving accuracy and inference stability.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "Reasoning Models",
-        "Inference Optimization",
-        "Self-Correction",
-        "Multimodal AI",
-        "R-TAP"
-      ]
-    }
-  },
-  {
     "title": "OmniRet: Efficient and High-Fidelity Omni Modality Retrieval",
     "link": "http://arxiv.org/abs/2603.02098v1",
     "summary": "Multimodal retrieval is the task of aggregating information from queries across heterogeneous modalities to retrieve desired targets. State-of-the-art multimodal retrieval models can understand complex queries, yet they are typically limited to two modalities: text and vision. This limitation impedes the development of universal retrieval systems capable of comprehending queries that combine more than two modalities. To advance toward this goal, we present OmniRet, the first retrieval model capable of handling complex, composed queries spanning three key modalities: text, vision, and audio. Our OmniRet model addresses two critical challenges for universal retrieval: computational efficiency and representation fidelity. First, feeding massive token sequences from modality-specific encoders to Large Language Models (LLMs) is computationally inefficient. We therefore introduce an attention-based resampling mechanism to generate compact, fixed-size representations from these sequences. Second, compressing rich omni-modal data into a single embedding vector inevitably causes information loss and discards fine-grained details. We propose Attention Sliced Wasserstein Pooling to preserve these fine-grained details, leading to improved omni-modal representations. OmniRet is trained on an aggregation of approximately 6 million query-target pairs spanning 30 datasets. We benchmark our model on 13 retrieval tasks and a MMEBv2 subset. Our model demonstrates significant improvements on composed query, audio and video retrieval tasks, while achieving on-par performance with state-of-the-art models on others. Furthermore, we curate a new Audio-Centric Multimodal Benchmark (ACM). This new benchmark introduces two critical, previously missing tasks-composed audio retrieval and audio-visual retrieval to more comprehensively evaluate a model's omni-modal embedding capacity.",
@@ -1736,36 +2426,6 @@
         "Embodied AI",
         "Model Fine-tuning",
         "Flow-based Models"
-      ]
-    }
-  },
-  {
-    "title": "GenDB: The Next Generation of Query Processing -- Synthesized, Not Engineered",
-    "link": "http://arxiv.org/abs/2603.02081v1",
-    "summary": "Traditional query processing relies on engines that are carefully optimized and engineered by many experts. However, new techniques and user requirements evolve rapidly, and existing systems often cannot keep pace. At the same time, these systems are difficult to extend due to their internal complexity, and developing new systems requires substantial engineering effort and cost. In this paper, we argue that recent advances in Large Language Models (LLMs) are starting to shape the next generation of query processing systems.\n  We propose using LLMs to synthesize execution code for each incoming query, instead of continuously building, extending, and maintaining complex query processing engines. As a proof of concept, we present GenDB, an LLM-powered agentic system that generates instance-optimized and customized query execution code tailored to specific data, workloads, and hardware resources.\n  We implemented an early prototype of GenDB that uses Claude Code Agent as the underlying component in the multi-agent system, and we evaluate it on OLAP workloads. We use queries from the well-known TPC-H benchmark and also construct a new benchmark designed to reduce potential data leakage from LLM training data. We compare GenDB with state-of-the-art query engines, including DuckDB, Umbra, MonetDB, ClickHouse, and PostgreSQL. GenDB achieves significantly better performance than these systems. Finally, we discuss the current limitations of GenDB and outline future extensions and related research challenges.",
-    "source": "ArXiv",
-    "published": "2026-03-02T17:03:43+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n \u2022 GenDB introduces a paradigm shift by replacing traditional query engines with an **agentic system** that synthesizes **instance-optimized execution code** for every incoming query.\n \u2022 The architecture leverages a **multi-agent system** powered by **Claude Code Agent** to generate C++ code tailored to specific hardware, data layouts, and workload constraints.\n \u2022 By moving from engineered to **synthesized query processing**, the system eliminates the technical debt and maintenance complexity of monolithic database engines.\n \u2022 The approach represents a form of **Vibe Coding** for systems programming, where high-level requirements are transformed into high-performance, low-level execution logic.",
-      "key_results": [
-        "Outperformed state-of-the-art engines including DuckDB, Umbra, and ClickHouse in OLAP performance.",
-        "Successfully mitigated LLM data leakage using a custom-designed benchmark for evaluation.",
-        "Proved that LLM-generated execution code can be more efficient than general-purpose manual engineering.",
-        "Demonstrated effective hardware-aware optimization through automated code synthesis.",
-        "Identified LLM synthesis latency as the primary current bottleneck for short-running queries."
-      ],
-      "relevance_score": 9,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "TU Darmstadt researchers introduce GenDB, an agentic system synthesizing custom execution code to outperform traditional high-performance database engines.",
-      "lead_institution": "TU Darmstadt",
-      "tags": [
-        "LLM Agents",
-        "Query Processing",
-        "Code Synthesis",
-        "Database Systems",
-        "Vibe Coding"
       ]
     }
   },
@@ -2070,36 +2730,6 @@
     }
   },
   {
-    "title": "Expanding LLM Agent Boundaries with Strategy-Guided Exploration",
-    "link": "http://arxiv.org/abs/2603.02045v1",
-    "summary": "Reinforcement learning (RL) has demonstrated notable success in post-training large language models (LLMs) as agents for tasks such as computer use, tool calling, and coding. However, exploration remains a central challenge in RL for LLM agents, especially as they operate in language-action spaces with complex observations and sparse outcome rewards. In this work, we address exploration for LLM agents by leveraging the ability of LLMs to plan and reason in language about the environment to shift exploration from low-level actions to higher-level language strategies. We thus propose Strategy-Guided Exploration (SGE), which first generates a concise natural-language strategy that describes what to do to make progress toward the goal, and then generates environment actions conditioned on that strategy. By exploring in the space of strategies rather than the space of actions, SGE induces structured and diverse exploration that targets different environment outcomes. To increase strategy diversity during RL, SGE introduces mixed-temperature sampling, which explores diverse strategies in parallel, along with a strategy reflection process that grounds strategy generation on the outcomes of previous strategies in the environment. Across UI interaction, tool-calling, coding, and embodied agent environments, SGE consistently outperforms exploration-focused RL baselines, improving both learning efficiency and final performance. We show that SGE enables the agent to learn to solve tasks too difficult for the base model.",
-    "source": "ArXiv",
-    "published": "2026-03-02T16:28:39+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Proposes **Strategy-Guided Exploration (SGE)**, a framework that shifts RL exploration from low-level action spaces to **high-level natural-language strategies**.\n- Implements **mixed-temperature sampling** to explore diverse strategies in parallel and a **strategy reflection process** to ground future plans in past environmental outcomes.\n- Addresses the challenge of **sparse rewards** by using the LLM's reasoning capabilities to create structured, diverse exploration paths in complex UI and coding tasks.",
-      "key_results": [
-        "Consistently outperforms exploration-focused RL baselines across UI, tool-calling, and coding tasks.",
-        "Significant improvement in learning efficiency compared to standard action-space exploration.",
-        "Enables agents to solve complex reasoning tasks that were unsolvable by the base model.",
-        "Demonstrates that language-level abstraction reduces the search space complexity in sparse-reward environments.",
-        "Proves the effectiveness of strategy reflection in grounding agent behavior to environment feedback."
-      ],
-      "relevance_score": 9,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce Strategy-Guided Exploration to improve LLM agent performance by exploring high-level language strategies instead of actions.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "LLM Agents",
-        "Reinforcement Learning",
-        "Reasoning Models",
-        "Strategy-Guided Exploration",
-        "Sparse Rewards"
-      ]
-    }
-  },
-  {
     "title": "EstLLM: Enhancing Estonian Capabilities in Multilingual LLMs via Continued Pretraining and Post-Training",
     "link": "http://arxiv.org/abs/2603.02041v1",
     "summary": "Large language models (LLMs) are predominantly trained on English-centric data, resulting in uneven performance for smaller languages. We study whether continued pretraining (CPT) can substantially improve Estonian capabilities in a pretrained multilingual LLM while preserving its English and general reasoning performance. Using Llama 3.1 8B as the main base model, we perform CPT on a mixture that increases Estonian exposure while approximating the original training distribution through English replay and the inclusion of code, mathematics, and instruction-like data. We subsequently apply supervised fine-tuning, preference optimization, and chat vector merging to introduce robust instruction-following behavior. Evaluation on a comprehensive suite of Estonian benchmarks shows consistent gains in linguistic competence, knowledge, reasoning, translation quality, and instruction-following compared to the original base model and its instruction-tuned variant, while maintaining competitive performance on English benchmarks. These findings indicate that CPT, with an appropriately balanced data mixture, together with post-training alignment, can substantially improve single-language capabilities in pretrained multilingual LLMs.",
@@ -2366,636 +2996,6 @@
         "Synthetic Data",
         "Generative AI",
         "Model Evaluation"
-      ]
-    }
-  },
-  {
-    "title": "Temporal Representations for Exploration: Learning Complex Exploratory Behavior without Extrinsic Rewards",
-    "link": "http://arxiv.org/abs/2603.02008v1",
-    "summary": "Effective exploration in reinforcement learning requires not only tracking where an agent has been, but also understanding how the agent perceives and represents the world. To learn powerful representations, an agent should actively explore states that contribute to its knowledge of the environment. Temporal representations can capture the information necessary to solve a wide range of potential tasks while avoiding the computational cost associated with full state reconstruction. In this paper, we propose an exploration method that leverages temporal contrastive representations to guide exploration, prioritizing states with unpredictable future outcomes. We demonstrate that such representations can enable the learning of complex exploratory x in locomotion, manipulation, and embodied-AI tasks, revealing capabilities and behaviors that traditionally require extrinsic rewards. Unlike approaches that rely on explicit distance learning or episodic memory mechanisms (e.g., quasimetric-based methods), our method builds directly on temporal similarities, yielding a simpler yet effective strategy for exploration.",
-    "source": "ArXiv",
-    "published": "2026-03-02T15:55:27+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n* Proposes an exploration method based on **temporal contrastive representations** to guide reinforcement learning agents without the need for extrinsic rewards.\n* Utilizes **temporal similarities** to identify and prioritize states with unpredictable future outcomes, fostering curiosity-driven learning.\n* Avoids the high computational costs of **full state reconstruction** and the complexity of quasimetric-based episodic memory mechanisms.\n* Enables the acquisition of complex behaviors in **locomotion, manipulation, and embodied-AI** tasks by focusing on states that maximize environmental knowledge.",
-      "key_results": [
-        "Achieved complex exploratory behavior in high-dimensional tasks using only intrinsic motivation.",
-        "Outperformed traditional curiosity-based methods that rely on explicit distance learning or state reconstruction.",
-        "Demonstrated successful application across diverse domains including robotics and embodied-AI environments.",
-        "Proved that temporal predictive features serve as effective surrogates for state-space coverage.",
-        "Simplified the architecture for exploration by removing the need for episodic memory buffers."
-      ],
-      "relevance_score": 7,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce temporal contrastive representations to drive complex exploratory behaviors in reinforcement learning without external rewards.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "Reinforcement Learning",
-        "Temporal Representations",
-        "Embodied AI",
-        "Representation Learning",
-        "Exploration"
-      ]
-    }
-  },
-  {
-    "title": "CHOP: Counterfactual Human Preference Labels Improve Obstacle Avoidance in Visuomotor Navigation Policies",
-    "link": "http://arxiv.org/abs/2603.02004v1",
-    "summary": "Visuomotor navigation policies have shown strong perception-action coupling for embodied agents, yet they often struggle with safe navigation and dynamic obstacle avoidance in complex real-world environments. We introduce CHOP, a novel approach that leverages Counterfactual Human Preference Labels to align visuomotor navigation policies towards human intuition of safety and obstacle avoidance in navigation. In CHOP, for each visual observation, the robot's executed trajectory is included among a set of counterfactual navigation trajectories: alternative trajectories the robot could have followed under identical conditions. Human annotators provide pairwise preference labels over these trajectories based on anticipated outcomes such as collision risk and path efficiency. These aggregated preferences are then used to fine-tune visuomotor navigation policies, aligning their behavior with human preferences in navigation. Experiments on the SCAND dataset show that visuomotor navigation policies fine-tuned with CHOP reduce near-collision events by 49.7%, decrease deviation from human-preferred trajectories by 45.0%, and increase average obstacle clearance by 19.8% on average across multiple state-of-the-art models, compared to their pretrained baselines. These improvements transfer to real-world deployments on a Ghost Robotics Vision60 quadruped, where CHOP-aligned policies improve average goal success rates by 24.4%, increase minimum obstacle clearance by 6.8%, reduce collision and intervention events by 45.7%, and improve normalized path completion by 38.6% on average across navigation scenarios, compared to their pretrained baselines. Our results highlight the value of counterfactual preference supervision in bridging the gap between large-scale visuomotor policies and human-aligned, safety-aware embodied navigation.",
-    "source": "ArXiv",
-    "published": "2026-03-02T15:55:03+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- CHOP introduces a novel alignment framework using **Counterfactual Human Preference Labels** to improve the safety and reliability of **visuomotor navigation policies**.\n- The methodology involves generating a set of **alternative trajectories** (counterfactuals) for every visual observation and utilizing human annotators to provide **pairwise preference rankings** based on safety and efficiency.\n- The approach leverages these aggregated preferences to **fine-tune** pretrained models, effectively bridging the gap between standard behavioral cloning and **safety-aware embodied navigation**.\n- The framework is validated on both the **SCAND dataset** and real-world deployments using a **Ghost Robotics Vision60** quadruped, demonstrating robust transferability from simulation to physical environments.",
-      "key_results": [
-        "Reduced near-collision events by 49.7% compared to pretrained baselines.",
-        "Decreased deviation from human-preferred trajectories by 45.0% on the SCAND dataset.",
-        "Improved real-world goal success rates by 24.4% on quadruped hardware.",
-        "Increased average obstacle clearance by 19.8% across multiple state-of-the-art models.",
-        "Reduced real-world collision and intervention events by 45.7% during physical deployment."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "The CHOP researchers use counterfactual human preference labels to significantly enhance safety and obstacle avoidance in visuomotor navigation policies.",
-      "lead_institution": "The CHOP Research Team",
-      "tags": [
-        "Visuomotor Navigation",
-        "Embodied AI",
-        "Model Fine-tuning",
-        "Human-in-the-loop",
-        "Obstacle Avoidance"
-      ]
-    }
-  },
-  {
-    "title": "Bespoke OLAP: Synthesizing Workload-Specific One-size-fits-one Database Engines",
-    "link": "http://arxiv.org/abs/2603.02001v1",
-    "summary": "Modern OLAP engines are designed to support arbitrary analytical workloads, but this generality incurs structural overhead, including runtime schema interpretation, indirection layers, and abstraction boundaries, even in highly optimized systems. An engine specialized to a fixed workload can eliminate these costs and exploit workload-specific data structures and execution algorithms for substantially higher performance. Historically, constructing such bespoke engines has been economically impractical due to the high manual engineering effort. Recent advances in LLM-based code synthesis challenge this tradeoff by enabling automated system generation. However, naively prompting an LLM to produce a database engine does not yield a correct or efficient design, as effective synthesis requires systematic performance feedback, structured refinement, and careful management of deep architectural interdependencies. We present Bespoke OLAP, a fully autonomous synthesis pipeline for constructing high-performance database engines tightly tailored to a given workload. Our approach integrates iterative performance evaluation and automated validation to guide synthesis from storage to query execution. We demonstrate that Bespoke OLAP can generate a workload-specific engine from scratch within minutes to hours, achieving order-of-magnitude speedups over modern general-purpose systems such as DuckDB.",
-    "source": "ArXiv",
-    "published": "2026-03-02T15:51:45+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n\u2022 Bespoke OLAP implements an **autonomous synthesis pipeline** that generates workload-specific database engines, targeting the removal of overhead in general-purpose OLAP systems.\n\u2022 The architecture leverages **LLM-based code synthesis** combined with iterative performance feedback and validation to manage complex architectural dependencies.\n\u2022 By specializing storage and execution for a fixed workload, the system enables **order-of-magnitude speedups** over optimized engines like DuckDB.\n\u2022 This work demonstrates a paradigm shift toward **one-size-fits-one database engineering**, significantly reducing the manual effort required for high-performance specialization.",
-      "key_results": [
-        "Synthesizes high-performance database engines from scratch in minutes to hours.",
-        "Delivers order-of-magnitude performance gains over modern engines like DuckDB.",
-        "Eliminates overhead from runtime schema interpretation and abstraction layers.",
-        "Integrates automated validation and performance feedback into the synthesis loop.",
-        "Proves LLMs can manage deep architectural interdependencies in systems engineering."
-      ],
-      "relevance_score": 9,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce Bespoke OLAP, using LLM-based synthesis to generate specialized database engines that outperform DuckDB by 10x.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "Code Synthesis",
-        "OLAP Engines",
-        "Vibe Coding",
-        "LLM Agents",
-        "Performance Optimization"
-      ]
-    }
-  },
-  {
-    "title": "Hybrid ROM-PINN Framework for Closure Modeling in Convection-Dominated Systems",
-    "link": "http://arxiv.org/abs/2603.01998v1",
-    "summary": "Reduced-order models (ROMs) have become an essential tool for reducing the computational cost of fluid flow simulations. While standard ROMs can efficiently approximate laminar flows, their accuracy often suffers in convection-dominated regimes due to the truncation of dynamically important modes. To account for the influence of unresolved scales, ROM closure models are commonly introduced. Classical closure strategies are typically based on phenomenological arguments or analogies with large eddy simulation (LES), often formulated within a variational multiscale (VMS) framework, in which the resolved and unresolved scales are explicitly separated and their interactions are systematically modeled. More recently, advances in data-driven modeling and machine learning have opened new opportunities to construct ROM closures that are both more accurate and more consistent with the underlying physics. In this work, we develop a new ROM closure that combines machine learning with physics-based modeling principles. The closure term is derived within a VMS framework, where the reduced solution space is decomposed into resolved and unresolved components. This VMS-derived closure term is then modeled using PhysicsInformed Neural Networks (PINNs) and incorporated into a newly constructed C-PINN-ROM. The resulting closure leverages high-fidelity data while enforcing physical constraints imposed by the reduced-order equations, thereby ensuring consistency with the underlying dynamics and enhanced robustness in convection-dominated regimes. Through this PINN-based framework, we demonstrate how physics-informed machine learning can substantially improve the accuracy and robustness of ROMs, effectively bridging classical multiscale closure modeling with state-of-the-art data-driven methodologies.",
-    "source": "ArXiv",
-    "published": "2026-03-02T15:49:21+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Proposes the **C-PINN-ROM** framework, which integrates **Physics-Informed Neural Networks (PINNs)** into reduced-order models to address accuracy loss in convection-dominated fluid flows.\n- Utilizes a **Variational Multiscale (VMS)** decomposition to explicitly separate resolved and unresolved scales, allowing for more precise modeling of truncated dynamic modes.\n- Embeds **physical constraints** directly into the neural network's loss function, ensuring the data-driven closure term remains consistent with the underlying conservation laws.\n- Effectively bridges **classical closure modeling** with modern machine learning, enhancing the robustness and predictive capabilities of low-cost simulations.",
-      "key_results": [
-        "Development of a hybrid architecture combining VMS-based closure with PINN optimization.",
-        "Significant reduction in computational error for convection-dominated system simulations.",
-        "Enhanced stability in reduced-order models compared to purely data-driven or standard ROM approaches.",
-        "Successful enforcement of physical consistency through the C-PINN-ROM loss structure.",
-        "Demonstration of superior generalization in regimes where traditional truncation methods fail."
-      ],
-      "relevance_score": 4,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce a hybrid C-PINN-ROM framework that improves fluid simulation accuracy by merging physics-informed learning with multiscale modeling.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "Physics-Informed Neural Networks",
-        "Reduced-Order Models",
-        "Fluid Dynamics",
-        "Scientific ML",
-        "Closure Modeling"
-      ]
-    }
-  },
-  {
-    "title": "Process Over Outcome: Cultivating Forensic Reasoning for Generalizable Multimodal Manipulation Detection",
-    "link": "http://arxiv.org/abs/2603.01993v1",
-    "summary": "Recent advances in generative AI have significantly enhanced the realism of multimodal media manipulation, thereby posing substantial challenges to manipulation detection. Existing manipulation detection and grounding approaches predominantly focus on manipulation type classification under result-oriented supervision, which not only lacks interpretability but also tends to overfit superficial artifacts. In this paper, we argue that generalizable detection requires incorporating explicit forensic reasoning, rather than merely classifying a limited set of manipulation types, which fails to generalize to unseen manipulation patterns. To this end, we propose REFORM, a reasoning-driven framework that shifts learning from outcome fitting to process modeling. REFORM adopts a three-stage curriculum that first induces forensic rationales, then aligns reasoning with final judgments, and finally refines logical consistency via reinforcement learning. To support this paradigm, we introduce ROM, a large-scale dataset with rich reasoning annotations. Extensive experiments show that REFORM establishes new state-of-the-art performance with superior generalization, achieving 81.52% ACC on ROM, 76.65% ACC on DGM4, and 74.9 F1 on MMFakeBench.",
-    "source": "ArXiv",
-    "published": "2026-03-02T15:45:33+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Proposes **REFORM**, a reasoning-driven framework that shifts multimodal manipulation detection from outcome-based classification to **process-oriented forensic modeling**.\n- Implements a **three-stage curriculum** encompassing rationale induction, alignment of reasoning with final judgments, and reinforcement learning-based **logical consistency refinement**.\n- Introduces the **ROM dataset**, a large-scale repository providing rich reasoning annotations to train models on explainable forensic evidence rather than superficial artifacts.\n- Enhances **generalization** to unseen manipulation patterns by leveraging explicit reasoning paths, outperforming traditional result-oriented supervised learning methods.",
-      "key_results": [
-        "Achieved 81.52% accuracy on the new ROM benchmark.",
-        "Reached 76.65% accuracy on the DGM4 dataset.",
-        "Obtained 74.9 F1 score on MMFakeBench, setting new SOTA.",
-        "Demonstrated superior generalization across diverse, unseen multimodal manipulation patterns.",
-        "Successfully aligned model logic with forensic rationales using Reinforcement Learning."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce REFORM, a reasoning-driven framework that improves multimodal deepfake detection through process-oriented forensic modeling and reinforcement learning.",
-      "lead_institution": "ArXiv Researchers",
-      "tags": [
-        "Multimodal AI",
-        "Forensic Reasoning",
-        "Reinforcement Learning",
-        "Deepfake Detection",
-        "Reasoning Models"
-      ]
-    }
-  },
-  {
-    "title": "According to Me: Long-Term Personalized Referential Memory QA",
-    "link": "http://arxiv.org/abs/2603.01990v1",
-    "summary": "Personalized AI assistants must recall and reason over long-term user memory, which naturally spans multiple modalities and sources such as images, videos, and emails. However, existing Long-term Memory benchmarks focus primarily on dialogue history, failing to capture realistic personalized references grounded in lived experience. We introduce ATM-Bench, the first benchmark for multimodal, multi-source personalized referential Memory QA. ATM-Bench contains approximately four years of privacy-preserving personal memory data and human-annotated question-answer pairs with ground-truth memory evidence, including queries that require resolving personal references, multi-evidence reasoning from multi-source and handling conflicting evidence. We propose Schema-Guided Memory (SGM) to structurally represent memory items originated from different sources. In experiments, we implement 5 state-of-the-art memory systems along with a standard RAG baseline and evaluate variants with different memory ingestion, retrieval, and answer generation techniques. We find poor performance (under 20\\% accuracy) on the ATM-Bench-Hard set, and that SGM improves performance over Descriptive Memory commonly adopted in prior works. Code available at: https://github.com/JingbiaoMei/ATM-Bench",
-    "source": "ArXiv",
-    "published": "2026-03-02T15:42:29+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Introduces **ATM-Bench**, the first benchmark for **multimodal, multi-source personalized referential Memory QA**, utilizing four years of privacy-preserving data.\n- Proposes **Schema-Guided Memory (SGM)**, a structured framework to represent heterogeneous data types like images, videos, and emails more effectively than standard text descriptions.\n- Analyzes five SOTA **memory systems** and a standard **RAG baseline** to test abilities in resolving personal references and multi-evidence reasoning.\n- Evaluates the impact of **memory ingestion** and retrieval techniques on the ability of LLM agents to handle conflicting and long-term personal context.",
-      "key_results": [
-        "SOTA memory systems achieve less than 20% accuracy on the ATM-Bench-Hard subset.",
-        "Schema-Guided Memory (SGM) consistently outperforms standard Descriptive Memory formats across all tested models.",
-        "Current RAG architectures struggle significantly with resolving personal references grounded in multi-source evidence.",
-        "The benchmark reveals that multi-evidence reasoning is a critical failure point for existing long-term memory agents.",
-        "Providing structured evidence significantly improves the retrieval-augmented generation process for personalized queries."
-      ],
-      "relevance_score": 9,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "The University of Cambridge introduces ATM-Bench and SGM to advance multimodal, multi-source reasoning for long-term personalized AI memory.",
-      "lead_institution": "University of Cambridge",
-      "tags": [
-        "Multimodal RAG",
-        "Long-term Memory",
-        "Personalized AI",
-        "AI Evaluation",
-        "Reasoning Models"
-      ]
-    }
-  },
-  {
-    "title": "Quantifying Uncertainty in Void Swelling Prediction: A Conformal Prediction Framework for Reactor Safety Margins",
-    "link": "http://arxiv.org/abs/2603.01981v1",
-    "summary": "Irradiation-induced void swelling is a critical degradation mechanism for structural materials in nuclear reactors, dictating component operational lifespan and safety. While recent machine learning (ML) approaches have improved the accuracy of swelling rate predictions, they often fail to account for the inherent stochasticity of radiation damage, providing point estimates without rigorous uncertainty quantification. This lack of probabilistic context limits their applications in materials qualification, reactor licensing and risk assessment. In this work, we develop a framework that integrates ensemble ML models with Conformal Prediction (CP) to generate statistically calibrated prediction intervals. Unlike standard error estimation or Bayesian methods that often rely on rigid distributional assumptions, this approach specifically addresses the physical heteroscedasticity of swelling data, where variance transitions from the nucleation-dominated incubation regime to the growth-dominated steady-state regime. We demonstrate that log-transformed conformal prediction inference provides valid empirical coverage consistent with target confidence levels even in sparse data regimes. This framework offers a pathway to replace overly conservative upper-bound curves with Probabilistic Risk Assessment (PRA) tools for high-dose reactor core internals.",
-    "source": "ArXiv",
-    "published": "2026-03-02T15:37:34+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Integrates **ensemble ML models** with **Conformal Prediction (CP)** to generate statistically calibrated prediction intervals for material degradation.\n- Specifically addresses **physical heteroscedasticity** within swelling data, accounting for the transition between nucleation-dominated and growth-dominated regimes.\n- Employs **log-transformed conformal inference** to maintain valid empirical coverage even in sparse data environments typical of high-dose irradiation studies.\n- Facilitates a transition from deterministic conservative bounds to **Probabilistic Risk Assessment (PRA)** for reactor safety margins.",
-      "key_results": [
-        "Achieved statistically valid empirical coverage consistent with target confidence levels.",
-        "Successfully modeled non-constant variance (heteroscedasticity) without rigid distributional assumptions.",
-        "Demonstrated robust performance in sparse data regimes typical of nuclear material testing.",
-        "Provided a pathway to replace overly conservative safety curves with data-driven intervals.",
-        "Validated the use of ensemble-based uncertainty quantification for structural material qualification."
-      ],
-      "relevance_score": 6,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce a Conformal Prediction framework to quantify material swelling uncertainty, improving nuclear reactor safety assessments.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "Conformal Prediction",
-        "Uncertainty Quantification",
-        "Ensemble Learning",
-        "Material Science AI",
-        "Risk Assessment"
-      ]
-    }
-  },
-  {
-    "title": "CharacterFlywheel: Scaling Iterative Improvement of Engaging and Steerable LLMs in Production",
-    "link": "http://arxiv.org/abs/2603.01973v1",
-    "summary": "This report presents CharacterFlywheel, an iterative flywheel process for improving large language models (LLMs) in production social chat applications across Instagram, WhatsApp, and Messenger. Starting from LLaMA 3.1, we refined models across 15 generations using data from both internal and external real-user traffic. Through continuous deployments from July 2024 to April 2025, we conducted controlled 7-day A/B tests showing consistent engagement improvements: 7 of 8 newly deployed models demonstrated positive lift over the baseline, with the strongest performers achieving up to 8.8% improvement in engagement breadth and 19.4% in engagement depth. We also observed substantial gains in steerability, with instruction following increasing from 59.2% to 84.8% and instruction violations decreasing from 26.6% to 5.8%. We detail the CharacterFlywheel process which integrates data curation, reward modeling to estimate and interpolate the landscape of engagement metrics, supervised fine-tuning (SFT), reinforcement learning (RL), and both offline and online evaluation to ensure reliable progress at each optimization step. We also discuss our methods for overfitting prevention and navigating production dynamics at scale. These contributions advance the scientific rigor and understanding of LLMs in social applications serving millions of users.",
-    "source": "ArXiv",
-    "published": "2026-03-02T15:27:31+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n* Meta researchers introduce **CharacterFlywheel**, an iterative production framework that leverages **LLaMA 3.1** to optimize social chat models through 15 generations of refinement.\n* The architecture integrates **Reward Modeling** to interpolate engagement metrics, combining **Supervised Fine-Tuning (SFT)** and **Reinforcement Learning (RL)** to align model behavior with real-world user interactions.\n* The process features a closed-loop system for **data curation** and dual **offline/online evaluation**, ensuring that each iteration improves both engagement breadth and depth without succumbing to overfitting.\n* Advanced **steerability techniques** were employed to drastically improve instruction following and reduce violations across Instagram, WhatsApp, and Messenger deployments.",
-      "key_results": [
-        "Maximum engagement depth increased by 19.4% and engagement breadth by 8.8% through iterative RL.",
-        "Instruction following accuracy improved from 59.2% to 84.8% over the optimization lifecycle.",
-        "Instruction violations were significantly reduced from 26.6% to just 5.8%.",
-        "7 out of 8 newly deployed models showed statistically significant positive lift in 7-day A/B tests.",
-        "The system successfully scaled across 15 model generations using internal and external production traffic data."
-      ],
-      "relevance_score": 9,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "Meta implements an iterative reinforcement learning flywheel to significantly boost user engagement and steerability in production social LLMs.",
-      "lead_institution": "Meta",
-      "tags": [
-        "Model Fine-tuning",
-        "Reinforcement Learning",
-        "AI Evaluation",
-        "Production LLMs",
-        "Steerability"
-      ]
-    }
-  },
-  {
-    "title": "LOCUS: A Distribution-Free Loss-Quantile Score for Risk-Aware Predictions",
-    "link": "http://arxiv.org/abs/2603.01971v1",
-    "summary": "Modern machine learning models can be accurate on average yet still make mistakes that dominate deployment cost. We introduce Locus, a distribution-free wrapper that produces a per-input loss-scale reliability score for a fixed prediction function. Rather than quantifying uncertainty about the label, Locus models the realized loss of the prediction function using any engine that outputs a predictive distribution for the loss given an input. A simple split-calibration step turns this function into a distribution-free interpretable score that is comparable across inputs and can be read as an upper loss level. The score is useful on its own for ranking, and it can optionally be thresholded to obtain a transparent flagging rule with distribution-free control of large-loss events. Experiments across 13 regression benchmarks show that Locus yields effective risk ranking and reduces large-loss frequency compared to standard heuristics.",
-    "source": "ArXiv",
-    "published": "2026-03-02T15:25:50+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n \u2022 Introduces **LOCUS**, a distribution-free wrapper that generates a per-input **loss-scale reliability score** for any fixed prediction function.\n \u2022 Models the **realized loss** directly using a predictive distribution engine rather than traditional label uncertainty quantification.\n \u2022 Employs a **split-calibration step** to ensure the score represents an interpretable upper loss level with distribution-free guarantees.\n \u2022 Provides a mechanism for **risk-aware ranking** and transparent flagging of high-risk inputs to mitigate deployment costs.",
-      "key_results": [
-        "Demonstrated effective risk ranking across 13 diverse regression benchmarks.",
-        "Significant reduction in the frequency of large-loss events compared to standard heuristics.",
-        "Provides distribution-free control of large-loss events without retraining the base model.",
-        "Introduces an interpretable score that is comparable across different inputs.",
-        "Outperforms baseline uncertainty quantification methods in identifying high-error predictions."
-      ],
-      "relevance_score": 7,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce LOCUS, a distribution-free wrapper that flags high-risk predictions to improve model deployment safety and reliability.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "AI Evaluation",
-        "Uncertainty Quantification",
-        "Risk-Aware AI",
-        "Distribution-Free Calibration",
-        "Model Reliability"
-      ]
-    }
-  },
-  {
-    "title": "Intrinsic Task Symmetry Drives Generalization in Algorithmic Tasks",
-    "link": "http://arxiv.org/abs/2603.01968v1",
-    "summary": "Grokking, the sudden transition from memorization to generalization, is characterized by the emergence of low-dimensional representations, yet the mechanism underlying this organization remains elusive. We propose that intrinsic task symmetries primarily drive grokking and shape the geometry of the model's representation space. We identify a consistent three-stage training dynamic underlying grokking: (i) memorization, (ii) symmetry acquisition, and (iii) geometric organization. We show that generalization emerges during the symmetry acquisition phase, after which representations reorganize into a structured, task-aligned geometry. We validate this symmetry-driven account across diverse algorithmic domains, including algebraic, structural, and relational reasoning tasks. Building on these findings, we introduce a symmetry-based diagnostic that anticipates the onset of generalization and propose strategies to accelerate it. Together, our results establish intrinsic symmetry as the key factor enabling neural networks to move beyond memorization and achieve robust algorithmic reasoning.",
-    "source": "ArXiv",
-    "published": "2026-03-02T15:19:24+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Proposes that **intrinsic task symmetries** are the fundamental drivers behind the **grokking** phenomenon, where models transition from memorization to generalization.\n- Identifies a universal **three-stage training dynamic**: (i) memorization, (ii) symmetry acquisition, and (iii) geometric organization.\n- Demonstrates that **representation learning** evolves from chaotic high-dimensional states into structured, task-aligned geometries through symmetry-driven mechanisms.\n- Provides a framework for **algorithmic reasoning** that links abstract mathematical properties of tasks to the internal latent space of neural networks.",
-      "key_results": [
-        "Generalization is triggered specifically during the symmetry acquisition phase, not the geometric organization phase.",
-        "Internal representations reorganize into structured geometries only after the model identifies task-relevant symmetries.",
-        "A new symmetry-based diagnostic tool can predict the onset of generalization before validation accuracy improves.",
-        "The three-stage training dynamic is consistent across algebraic, structural, and relational reasoning tasks.",
-        "Identified training strategies derived from symmetry principles can significantly accelerate the time to grokking."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers demonstrate that intrinsic task symmetries drive the transition from memorization to generalization in algorithmic reasoning models.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "Grokking",
-        "Algorithmic Reasoning",
-        "Representation Learning",
-        "Model Evaluation",
-        "Reasoning Models"
-      ]
-    }
-  },
-  {
-    "title": "AMemGym: Interactive Memory Benchmarking for Assistants in Long-Horizon Conversations",
-    "link": "http://arxiv.org/abs/2603.01966v1",
-    "summary": "Long-horizon interactions between users and LLM-based assistants necessitate effective memory management, yet current approaches face challenges in training and evaluation of memory. Existing memory benchmarks rely on static, off-policy data as context, limiting evaluation reliability and scalability. To address these gaps, we introduce AMemGym, an interactive environment enabling on-policy evaluation and optimization for memory-driven personalization. AMemGym employs structured data sampling to predefine user profiles, state-dependent questions, and state evolution trajectories, enabling cost-effective generation of high-quality, evaluation-aligned interactions. LLM-simulated users expose latent states through role-play while maintaining structured state consistency. Comprehensive metrics based on structured data guide both assessment and optimization of assistants. Extensive experiments reveal performance gaps in existing memory systems (e.g., RAG, long-context LLMs, and agentic memory) and corresponding reasons. AMemGym not only enables effective selection among competing approaches but also can potentially drive the self-evolution of memory management strategies. By bridging structured state evolution with free-form interactions, our framework provides a scalable, diagnostically rich environment for advancing memory capabilities in conversational agents.",
-    "source": "ArXiv",
-    "published": "2026-03-02T15:15:11+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Introduces **AMemGym**, an interactive benchmarking environment designed for **on-policy evaluation** of memory management in long-horizon LLM interactions.\n- Utilizes **structured data sampling** to define user profiles and state evolution trajectories, allowing for consistent and scalable role-play simulations.\n- Provides a **multi-faceted evaluation framework** that tracks latent state consistency and assistant performance across **RAG**, long-context, and **agentic memory architectures**.\n- Enables **self-evolution of memory strategies** by bridging structured state transitions with free-form natural language interactions for improved personalization.",
-      "key_results": [
-        "Identified significant performance gaps between RAG, long-context LLMs, and agentic memory systems.",
-        "Validated that on-policy evaluation provides more reliable metrics than traditional static, off-policy benchmarks.",
-        "Demonstrated that LLM-simulated users can maintain high structured state consistency during complex role-play.",
-        "Established a cost-effective method for generating high-quality, evaluation-aligned interaction data.",
-        "Showed that existing memory systems struggle with state-dependent question answering in long-horizon scenarios."
-      ],
-      "relevance_score": 9,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce AMemGym, an interactive environment for optimizing and evaluating long-horizon assistant memory via on-policy simulations.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "LLM Memory",
-        "RAG",
-        "AI Benchmarking",
-        "Long-Horizon AI",
-        "LLM Agents"
-      ]
-    }
-  },
-  {
-    "title": "CoVAE: correlated multimodal generative modeling",
-    "link": "http://arxiv.org/abs/2603.01965v1",
-    "summary": "Multimodal Variational Autoencoders have emerged as a popular tool to extract effective representations from rich multimodal data. However, such models rely on fusion strategies in latent space that destroy the joint statistical structure of the multimodal data, with profound implications for generation and uncertainty quantification. In this work, we introduce Correlated Variational Autoencoders (CoVAE), a new generative architecture that captures the correlations between modalities. We test CoVAE on a number of real and synthetic data sets demonstrating both accurate cross-modal reconstruction and effective quantification of the associated uncertainties.",
-    "source": "ArXiv",
-    "published": "2026-03-02T15:14:59+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Introduces **Correlated Variational Autoencoders (CoVAE)**, a generative architecture designed to preserve the joint statistical structure between different data modalities.\n- Addresses the limitations of traditional **multimodal fusion strategies** in latent spaces that often destroy inter-modal correlations.\n- Implements a framework that enables more accurate **cross-modal reconstruction** by explicitly modeling the relationships between latent variables.\n- Provides a robust mechanism for **uncertainty quantification**, allowing the model to signal confidence levels during generative tasks.",
-      "key_results": [
-        "Preservation of joint statistical distributions across modalities.",
-        "Superior accuracy in cross-modal reconstruction tasks.",
-        "Effective quantification of predictive uncertainty in generative outputs.",
-        "Validated performance on both synthetic and complex real-world datasets.",
-        "Elimination of information loss typically caused by naive latent space pooling."
-      ],
-      "relevance_score": 7,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce CoVAE to capture inter-modal correlations, improving uncertainty quantification and accuracy in multimodal generative modeling.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "Multimodal AI",
-        "Generative Modeling",
-        "VAE",
-        "Uncertainty Quantification",
-        "Latent Space Fusion"
-      ]
-    }
-  },
-  {
-    "title": "LiveCultureBench: a Multi-Agent, Multi-Cultural Benchmark for Large Language Models in Dynamic Social Simulations",
-    "link": "http://arxiv.org/abs/2603.01952v1",
-    "summary": "Large language models (LLMs) are increasingly deployed as autonomous agents, yet evaluations focus primarily on task success rather than cultural appropriateness or evaluator reliability. We introduce LiveCultureBench, a multi-cultural, dynamic benchmark that embeds LLMs as agents in a simulated town and evaluates them on both task completion and adherence to socio-cultural norms. The simulation models a small city as a location graph with synthetic residents having diverse demographic and cultural profiles. Each episode assigns one resident a daily goal while others provide social context. An LLM-based verifier generates structured judgments on norm violations and task progress, which we aggregate into metrics capturing task-norm trade-offs and verifier uncertainty. Using LiveCultureBench across models and cultural profiles, we study (i) cross-cultural robustness of LLM agents, (ii) how they balance effectiveness against norm sensitivity, and (iii) when LLM-as-a-judge evaluation is reliable for automated benchmarking versus when human oversight is needed.",
-    "source": "ArXiv",
-    "published": "2026-03-02T15:04:16+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Introduces **LiveCultureBench**, a dynamic evaluation framework that embeds **LLM agents** into simulated environments to test social intelligence.\n- Utilizes a **location graph** and synthetic demographic profiles to model a city where agents must balance task completion with **socio-cultural norm** adherence.\n- Employs an **LLM-based verifier** system to generate structured metrics, specifically analyzing the trade-off between effectiveness and cultural sensitivity.\n- Establishes a methodology for identifying when **LLM-as-a-judge** evaluation remains reliable and when human oversight is required.",
-      "key_results": [
-        "Created a multi-agent simulation environment for assessing cross-cultural robustness in autonomous LLMs.",
-        "Quantified the performance trade-offs agents face when balancing specific cultural norms against goal success.",
-        "Identified specific scenarios where automated LLM verifiers exhibit high uncertainty and require human intervention.",
-        "Validated the use of synthetic demographic profiles to provide diverse social contexts for agent evaluation.",
-        "Demonstrated significant variance in how different model architectures handle dynamic socio-cultural constraints."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce LiveCultureBench, a simulation-based benchmark evaluating LLM agent performance and socio-cultural norm alignment.",
-      "lead_institution": "ArXiv Research",
-      "tags": [
-        "LLM Agents",
-        "Social Simulation",
-        "AI Evaluation",
-        "Cultural Alignment",
-        "Multi-Agent Systems"
-      ]
-    }
-  },
-  {
-    "title": "PreSight: Preoperative Outcome Prediction for Parkinson's Disease via Region-Prior Morphometry and Patient-Specific Weighting",
-    "link": "http://arxiv.org/abs/2603.01948v1",
-    "summary": "Preoperative improvement rate prediction for Parkinson's disease surgery is clinically important yet difficult because imaging signals are subtle and patients are heterogeneous. We address this setting, where only information available before surgery is used, and the goal is to predict patient-specific postoperative motor benefit. We present PreSight, a presurgical outcome model that fuses clinical priors with preoperative MRI and deformation-based morphometry (DBM) and adapts regional importance through a patient-specific weighting module. The model produces end-to-end, calibrated, decision-ready predictions with patient-level explanations. We evaluate PreSight on a real-world two-center cohort of 400 subjects with multimodal presurgical inputs and postoperative improvement labels. PreSight outperforms strong clinical, imaging-only, and multimodal baselines. It attains 88.89% accuracy on internal validation and 85.29% on an external-center test for responder classification and shows better probability calibration and higher decision-curve net benefit. Ablations and analyses confirm the contribution of DBM and the patient-specific weighting module and indicate that the model emphasizes disease-relevant regions in a patient-specific manner. These results demonstrate that integrating clinical prior knowledge with region-adaptive morphometry enables reliable presurgical decision support in routine practice.",
-    "source": "ArXiv",
-    "published": "2026-03-02T15:00:48+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- **PreSight** introduces a multimodal framework that integrates **Deformation-Based Morphometry (DBM)** and clinical priors to predict postoperative motor improvements in Parkinson's patients.\n- The architecture features a **patient-specific weighting module** that dynamically adapts regional importance to account for individual structural heterogeneity.\n- The model delivers **end-to-end, calibrated predictions** accompanied by patient-level explanations to support clinical decision-making.\n- It leverages a fusion of MRI data and preoperative clinical signals to outperform standard multimodal baselines in **responder classification**.",
-      "key_results": [
-        "Achieved 88.89% accuracy on internal validation for preoperative outcome prediction.",
-        "Demonstrated strong generalization with 85.29% accuracy on an external-center test set.",
-        "Outperformed clinical-only and imaging-only baselines in both accuracy and probability calibration.",
-        "Ablation studies validated that patient-specific weighting significantly improves decision-curve net benefit.",
-        "Interpretability analysis confirmed the model's focus on disease-relevant brain regions tailored to individual patient profiles."
-      ],
-      "relevance_score": 5,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers develop PreSight, a multimodal model using adaptive morphometry to predict Parkinson's surgical outcomes with high accuracy.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "Multimodal AI",
-        "Medical Imaging",
-        "Predictive Modeling",
-        "Clinical Decision Support",
-        "Morphometry"
-      ]
-    }
-  },
-  {
-    "title": "physfusion: A Transformer-based Dual-Stream Radar and Vision Fusion Framework for Open Water Surface Object Detection",
-    "link": "http://arxiv.org/abs/2603.01947v1",
-    "summary": "Detecting water-surface targets for Unmanned Surface Vehicles (USVs) is challenging due to wave clutter,\n  specular reflections, and weak appearance cues in long-range observations. Although 4D millimeter-wave\n  radar complements cameras under degraded illumination, maritime radar point clouds are sparse and\n  intermittent, with reflectivity attributes exhibiting heavy-tailed variations under scattering and\n  multipath, making conventional fusion designs struggle to exploit radar cues effectively.\n  We propose PhysFusion, a physics-informed radar-image detection framework for water-surface perception.\n  The framework integrates: (1) a Physics-Informed Radar Encoder (PIR Encoder) with an RCS Mapper and\n  Quality Gate, transforming per-point radar attributes into compact scattering priors and predicting\n  point-wise reliability for robust feature learning under clutter; (2) a Radar-guided Interactive Fusion\n  Module (RIFM) performing query-level radar-image fusion between semantically enriched radar features and\n  multi-scale visual features, with the radar branch modeled by a dual-stream backbone including a\n  point-based local stream and a transformer-based global stream using Scattering-Aware Self-Attention\n  (SASA); and (3) a Temporal Query Aggregation module (TQA) aggregating frame-wise fused queries over a\n  short temporal window for temporally consistent representations.\n  Experiments on WaterScenes and FLOW demonstrate that PhysFusion achieves 59.7% mAP50:95 and 90.3% mAP50\n  on WaterScenes (T=5 radar history) using 5.6M parameters and 12.5G FLOPs, and reaches 94.8% mAP50 and\n  46.2% mAP50:95 on FLOW under radar+camera setting. Ablation studies quantify the contributions of PIR\n  Encoder, SASA-based global reasoning, and RIFM.",
-    "source": "ArXiv",
-    "published": "2026-03-02T15:00:22+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\u2022 Introduces **PhysFusion**, a dual-stream fusion framework designed for water-surface object detection using **4D millimeter-wave radar** and RGB imagery.\n\u2022 Features a **Physics-Informed Radar (PIR) Encoder** that utilizes an RCS Mapper and Quality Gate to transform sparse radar attributes into reliable scattering priors.\n\u2022 Implements a **Radar-guided Interactive Fusion Module (RIFM)** using **Scattering-Aware Self-Attention (SASA)** to fuse multi-scale visual features with semantic radar cues.\n\u2022 Incorporates **Temporal Query Aggregation (TQA)** to leverage short-term temporal windows for consistent object representation in maritime environments.",
-      "key_results": [
-        "Achieved 59.7% mAP50:95 and 90.3% mAP50 on the WaterScenes dataset.",
-        "Reached 94.8% mAP50 and 46.2% mAP50:95 on the FLOW dataset.",
-        "Highly efficient architecture with only 5.6M parameters and 12.5G FLOPs.",
-        "Successfully mitigated wave clutter and specular reflections using physics-informed priors.",
-        "Demonstrated the effectiveness of T=5 radar history for improved detection stability."
-      ],
-      "relevance_score": 6,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce PhysFusion, a physics-informed transformer framework that fuses radar and vision for efficient water-surface object detection.",
-      "lead_institution": "ArXiv Researchers",
-      "tags": [
-        "Multimodal AI",
-        "Object Detection",
-        "Radar-Vision Fusion",
-        "Physics-Informed ML",
-        "Transformer"
-      ]
-    }
-  },
-  {
-    "title": "Ignore All Previous Instructions: Jailbreaking as a de-escalatory peace building practise to resist LLM social media bots",
-    "link": "http://arxiv.org/abs/2603.01942v1",
-    "summary": "Large Language Models have intensified the scale and strategic manipulation of political discourse on social media, leading to conflict escalation. The existing literature largely focuses on platform-led moderation as a countermeasure. In this paper, we propose a user-centric view of \"jailbreaking\" as an emergent, non-violent de-escalation practice. Online users engage with suspected LLM-powered accounts to circumvent large language model safeguards, exposing automated behaviour and disrupting the circulation of misleading narratives.",
-    "source": "ArXiv",
-    "published": "2026-03-02T14:57:13+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- The paper investigates **jailbreaking** as a grassroots, user-led defensive strategy against **LLM-powered social media bots** used for political manipulation.\n- It characterizes the use of **prompt injection** techniques, such as \"Ignore all previous instructions,\" as a means of bypassing bot safety guardrails to reveal automated behaviors.\n- The research emphasizes a transition from top-down platform moderation to **user-centric de-escalation**, where public interaction disrupts the spread of **synthetic misinformation**.",
-      "key_results": [
-        "Identifies jailbreaking as an emergent non-violent practice for digital peacebuilding.",
-        "Demonstrates how users exploit LLM instruction-following weaknesses to expose bot personas.",
-        "Shows that public 'bot-testing' can effectively neutralize misleading political narratives.",
-        "Highlights the limitations of platform-led moderation in keeping pace with LLM deployment scale.",
-        "Categorizes specific adversarial prompts used by the public to trigger system prompt disclosures."
-      ],
-      "relevance_score": 6,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers propose jailbreaking as a decentralized, user-led defense strategy to expose and neutralize automated political influence bots.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "Prompt Engineering",
-        "LLM Security",
-        "Adversarial Attacks",
-        "Social Media Bots",
-        "Generative AI"
-      ]
-    }
-  },
-  {
-    "title": "CoVe: Training Interactive Tool-Use Agents via Constraint-Guided Verification",
-    "link": "http://arxiv.org/abs/2603.01940v1",
-    "summary": "Developing multi-turn interactive tool-use agents is challenging because real-world user needs are often complex and ambiguous, yet agents must execute deterministic actions to satisfy them. To address this gap, we introduce \\textbf{CoVe} (\\textbf{Co}nstraint-\\textbf{Ve}rification), a post-training data synthesis framework designed for training interactive tool-use agents while ensuring both data complexity and correctness. CoVe begins by defining explicit task constraints, which serve a dual role: they guide the generation of complex trajectories and act as deterministic verifiers for assessing trajectory quality. This enables the creation of high-quality training trajectories for supervised fine-tuning (SFT) and the derivation of accurate reward signals for reinforcement learning (RL). Our evaluation on the challenging $\u03c4^2$-bench benchmark demonstrates the effectiveness of the framework. Notably, our compact \\textbf{CoVe-4B} model achieves success rates of 43.0\\% and 59.4\\% in the Airline and Retail domains, respectively; its overall performance significantly outperforms strong baselines of similar scale and remains competitive with models up to $17\\times$ its size. These results indicate that CoVe provides an effective and efficient pathway for synthesizing training data for state-of-the-art interactive tool-use agents. To support future research, we open-source our code, trained model, and the full set of 12K high-quality trajectories used for training.",
-    "source": "ArXiv",
-    "published": "2026-03-02T14:56:35+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n\u2022 Introduces **CoVe (Constraint-Verification)**, a post-training framework that uses explicit task constraints to synthesize high-quality training data for **interactive tool-use agents**.\n\u2022 Leverages constraints as **deterministic verifiers** to evaluate trajectory quality, facilitating both **Supervised Fine-Tuning (SFT)** and **Reinforcement Learning (RL)**.\n\u2022 Enables the creation of complex, multi-turn interaction data that bridges the gap between ambiguous user intent and **deterministic tool actions**.\n\u2022 Achieves state-of-the-art performance with a compact **CoVe-4B model**, demonstrating that high-quality synthetic data can substitute for model scale.",
-      "key_results": [
-        "CoVe-4B achieved a 43.0% success rate in the Airline domain on the tau2-bench benchmark.",
-        "The model reached a 59.4% success rate in the Retail domain, outperforming models 17 times its size.",
-        "The framework successfully generated 12,000 high-quality, verified trajectories for open-source distribution.",
-        "Constraint-guided verification provided more accurate reward signals for RL compared to standard heuristic approaches.",
-        "Demonstrated that compact models (SLMs) can reach competitive tool-use capabilities through targeted post-training synthesis."
-      ],
-      "relevance_score": 9,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "The CoVe authors introduce a constraint-guided verification framework enabling compact 4B models to outperform significantly larger interactive tool-use agents.",
-      "lead_institution": "The CoVe Research Team",
-      "tags": [
-        "LLM Agents",
-        "Tool-Use",
-        "Synthetic Data",
-        "Small Language Models",
-        "RLHF"
-      ]
-    }
-  },
-  {
-    "title": "LaST-VLA: Thinking in Latent Spatio-Temporal Space for Vision-Language-Action in Autonomous Driving",
-    "link": "http://arxiv.org/abs/2603.01928v1",
-    "summary": "While Vision-Language-Action (VLA) models have revolutionized autonomous driving by unifying perception and planning, their reliance on explicit textual Chain-of-Thought (CoT) leads to semantic-perceptual decoupling and perceptual-symbolic conflicts. Recent shifts toward latent reasoning attempt to bypass these bottlenecks by thinking in continuous hidden space. However, without explicit intermediate constraints, standard latent CoT often operates as a physics-agnostic representation. To address this, we propose the Latent Spatio-Temporal VLA (LaST-VLA), a framework shifting the reasoning paradigm from discrete symbolic processing into a physically grounded Latent Spatio-Temporal CoT. By implementing a dual-feature alignment mechanism, we distill geometric constraints from 3D foundation models and dynamic foresight from world models directly into the latent space. Coupled with a progressive SFT training strategy that transitions from feature alignment to trajectory generation, and refined via Reinforcement Learning with Group Relative Policy Optimization (GRPO) to ensure safety and rule compliance. \\method~setting a new record on NAVSIM v1 (91.3 PDMS) and NAVSIM v2 (87.1 EPDMS), while excelling in spatial-temporal reasoning on SURDS and NuDynamics benchmarks.",
-    "source": "ArXiv",
-    "published": "2026-03-02T14:42:36+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Introduces **LaST-VLA**, a framework that replaces discrete symbolic Chain-of-Thought (CoT) with a **physically grounded Latent Spatio-Temporal CoT** to prevent semantic-perceptual decoupling.\n- Implements a **dual-feature alignment** mechanism to distill 3D geometric constraints and dynamic foresight from **world models** directly into continuous hidden spaces.\n- Employs a **progressive SFT** strategy and **Reinforcement Learning with Group Relative Policy Optimization (GRPO)** to ensure trajectory safety and rule compliance.\n- Successfully unifies perception and planning by thinking in a latent space constrained by **physics-aware representations** rather than just text.",
-      "key_results": [
-        "Achieved a record-breaking 91.3 PDMS on the NAVSIM v1 benchmark.",
-        "Set a new SOTA on NAVSIM v2 with 87.1 EPDMS.",
-        "Demonstrated superior spatial-temporal reasoning on SURDS and NuDynamics benchmarks.",
-        "Bypassed the bottleneck of explicit textual CoT through continuous hidden space reasoning.",
-        "Validated the efficacy of GRPO for aligning VLA models with autonomous driving safety rules."
-      ],
-      "relevance_score": 9,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce LaST-VLA, utilizing latent spatio-temporal reasoning and GRPO to achieve SOTA autonomous driving performance.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "VLA",
-        "Latent Reasoning",
-        "Autonomous Driving",
-        "GRPO",
-        "World Models"
-      ]
-    }
-  },
-  {
-    "title": "MealRec: Multi-granularity Sequential Modeling via Hierarchical Diffusion Models for Micro-Video Recommendation",
-    "link": "http://arxiv.org/abs/2603.01926v1",
-    "summary": "Micro-video recommendation aims to capture user preferences from the collaborative and context information of the interacted micro-videos, thereby predicting the appropriate videos. This target is often hindered by the inherent noise within multimodal content and unreliable implicit feedback, which weakens the correspondence between behaviors and underlying interests. While conventional works have predominantly approached such scenario through behavior-augmented modeling and content-centric multimodal analysis, these paradigms can inadvertently give rise to two non-trivial challenges: preference-irrelative video representation extraction and inherent modality conflicts. To address these issues, we propose a Multi-granularity sequential modeling method via hierarchical diffusion models for micro-video Recommendation (MealRec), which simultaneously considers temporal correlations during preference modeling from intra- and inter-video perspectives. Specifically, we first propose Temporal-guided Content Diffusion (TCD) to refine video representations under intra-video temporal guidance and personalized collaborative signals to emphasize salient content while suppressing redundancy. To achieve the semantically coherent preference modeling, we further design the Noise-unconditional Preference Denoising (NPD) to recovers informative user preferences from corrupted states under the blind denoising. Extensive experiments and analyses on four micro-video datasets from two platforms demonstrate the effectiveness, universality, and robustness of our MealRec, further uncovering the effective mechanism of our proposed TCD and NPD. The source code and corresponding dataset will be available upon acceptance.",
-    "source": "ArXiv",
-    "published": "2026-03-02T14:39:18+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "<br>\u2022 Proposes **MealRec**, a novel sequential modeling framework leveraging **hierarchical diffusion models** to capture user preferences in micro-video recommendation environments.<br>\u2022 Features **Temporal-guided Content Diffusion (TCD)**, a module that refines video representations by suppressing redundant multimodal noise and aligning content with personalized collaborative signals.<br>\u2022 Implements **Noise-unconditional Preference Denoising (NPD)** to recover latent user interests from corrupted behavioral states using a blind denoising approach across inter-video sequences.<br>\u2022 Effectively addresses **modality conflicts** and unreliable implicit feedback, ensuring high-fidelity preference modeling in high-noise video streams.",
-      "key_results": [
-        "Superior performance over state-of-the-art baselines on four micro-video datasets from two platforms.",
-        "Significant reduction in preference-irrelative video representation noise via the TCD refinement process.",
-        "Enhanced robustness to noisy implicit feedback compared to conventional sequential recommendation models.",
-        "Demonstrated effectiveness in resolving inherent conflicts between visual, audio, and textual modalities.",
-        "Empirical evidence that hierarchical diffusion provides better temporal correlation modeling than standard behavior-augmented approaches."
-      ],
-      "relevance_score": 7,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce MealRec, utilizing hierarchical diffusion models to refine multimodal video content and denoise sequential user preferences.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "Diffusion Models",
-        "Multimodal AI",
-        "Video Recommendation",
-        "Sequential Modeling",
-        "Denoising"
-      ]
-    }
-  },
-  {
-    "title": "Pathway to lowest-energy structures for the surface triple junction verified by machine learning",
-    "link": "http://arxiv.org/abs/2603.01920v1",
-    "summary": "The behavior of surface triple junctions (STJ) at emergent grain boundaries on free surfaces are critical contributors to material properties, particularly at the nanoscale. Interest has been stimulated by recent experimental observations of local grain rotation, the restructuring of emergent grain boundaries and the resultant levels of stress generation, and computationally by the introduction of the core-shift method for building wedge disclination structures at STJ and the establishment of relationships between atomic calculation and the continuum elastic theory. Despite this progress, the lowest-energy structure for the surface triple junction is still unknown. Here, we carried out the experimental observation of the local surface deformation at STJ, the local stress analysis and ergodic searches for metastable structures. We identified the zipped Y-shaped notch, rather than the zipped V-shaped notch or wedge disclination, as the most stable structures, which was subsequently verified with machine learning methods for a wide range of boundaries. Local stress analysis explains this energetic preference. Our findings provide fundamental insight into STJ energetics and offer a possible framework for understanding kinetically diffusive deformation and the pathway for engineering related material properties, in particular thin-film properties.",
-    "source": "ArXiv",
-    "published": "2026-03-02T14:34:08+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n\u2022 Employs **machine learning verification** to identify the zipped Y-shaped notch as the most stable, lowest-energy configuration for surface triple junctions (STJ).\n\u2022 Integrates **ergodic searches** for metastable structures with the core-shift method to reconcile atomic-scale calculations and continuum elastic theory.\n\u2022 Demonstrates the efficacy of **predictive ML models** in validating material deformation pathways across a broad range of grain boundaries.\n\u2022 Provides a novel framework for engineering **thin-film properties** by understanding the energetic preferences of local surface deformations.",
-      "key_results": [
-        "Identification of zipped Y-shaped notches as the most stable STJ structure over V-shaped variants.",
-        "Verification of energy preferences across diverse boundaries using machine learning models.",
-        "Establishment of a correlation between local stress analysis and energetic stability.",
-        "Validation of the core-shift method for building wedge disclination structures.",
-        "Discovery of a predictive pathway for kinetically diffusive deformation at the nanoscale."
-      ],
-      "relevance_score": 4,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers utilize machine learning to identify the zipped Y-shaped notch as the lowest-energy surface triple junction structure.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "Machine Learning",
-        "Materials Science",
-        "Energy Optimization",
-        "Structural Analysis",
-        "Computational Physics"
-      ]
-    }
-  },
-  {
-    "title": "Real Money, Fake Models: Deceptive Model Claims in Shadow APIs",
-    "link": "http://arxiv.org/abs/2603.01919v1",
-    "summary": "Access to frontier large language models (LLMs), such as GPT-5 and Gemini-2.5, is often hindered by high pricing, payment barriers, and regional restrictions. These limitations drive the proliferation of $\\textit{shadow APIs}$, third-party services that claim to provide access to official model services without regional limitations via indirect access. Despite their widespread use, it remains unclear whether shadow APIs deliver outputs consistent with those of the official APIs, raising concerns about the reliability of downstream applications and the validity of research findings that depend on them. In this paper, we present the first systematic audit between official LLM APIs and corresponding shadow APIs. We first identify 17 shadow APIs that have been utilized in 187 academic papers, with the most popular one reaching 5,966 citations and 58,639 GitHub stars by December 6, 2025. Through multidimensional auditing of three representative shadow APIs across utility, safety, and model verification, we uncover both indirect and direct evidence of deception practices in shadow APIs. Specifically, we reveal performance divergence reaching up to $47.21\\%$, significant unpredictability in safety behaviors, and identity verification failures in $45.83\\%$ of fingerprint tests. These deceptive practices critically undermine the reproducibility and validity of scientific research, harm the interests of shadow API users, and damage the reputation of official model providers.",
-    "source": "ArXiv",
-    "published": "2026-03-02T14:33:05+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- The study conducts a systematic audit of **shadow APIs**, third-party services that provide indirect access to frontier models like GPT-5 and Gemini-2.5 to bypass regional and financial barriers.\n- Researchers evaluated these services across **utility, safety, and model verification**, finding that shadow APIs frequently deliver outputs that diverge significantly from official provider responses.\n- The analysis reveals that these deceptive practices compromise **scientific reproducibility**, as nearly 200 academic papers have utilized these unreliable endpoints for research data.\n- Evaluation methods included **fingerprint tests** for identity verification and safety behavioral audits to detect model substitution or proxy-level interference.",
-      "key_results": [
-        "Identified 17 shadow APIs utilized in 187 academic papers, with one service reaching nearly 6,000 citations.",
-        "Observed performance divergence between shadow and official APIs reaching as high as 47.21%.",
-        "Fingerprint tests for model identity verification failed in 45.83% of cases across shadow providers.",
-        "Shadow APIs exhibited significant unpredictability and inconsistency in safety behaviors compared to official models.",
-        "The most popular shadow API evaluated has over 58,000 GitHub stars, indicating widespread industry and academic reliance."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers demonstrate that popular shadow APIs frequently provide deceptive, degraded LLM performance, undermining scientific research validity.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "AI Evaluation",
-        "Model Verification",
-        "LLM Security",
-        "Shadow APIs",
-        "Research Integrity"
       ]
     }
   }
