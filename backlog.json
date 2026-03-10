@@ -1,5 +1,155 @@
 [
   {
+    "title": "How Advanced Browsing Protection Works in Messenger",
+    "link": "https://engineering.fb.com/2026/03/09/security/how-advanced-browsing-protection-works-in-messenger/",
+    "summary": "<p>We\u2019re sharing the technical details behind how Advanced Browsing Protection (ABP) in Messenger protects the privacy of the links clicked on within chats while still warning people about malicious links. We hope that this post has helped to illuminate some of the engineering challenges and infrastructure components involved for providing this feature for our users. [...]</p>\n<p><a class=\"btn btn-secondary understrap-read-more-link\" href=\"https://engineering.fb.com/2026/03/09/security/how-advanced-browsing-protection-works-in-messenger/\">Read More...</a></p>\n<p>The post <a href=\"https://engineering.fb.com/2026/03/09/security/how-advanced-browsing-protection-works-in-messenger/\" rel=\"nofollow\">How Advanced Browsing Protection Works in Messenger</a> appeared first on <a href=\"https://engineering.fb.com\" rel=\"nofollow\">Engineering at Meta</a>.</p>",
+    "source": "Engineering at Meta",
+    "published": "2026-03-09T16:00:36+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "<br>\u2022 Meta's **Advanced Browsing Protection (ABP)** implements a **privacy-preserving architecture** to scan URLs within Messenger without compromising **end-to-end encryption (E2EE)** protocols.\n<br>\u2022 The system relies on **infrastructure components** that evaluate link safety by utilizing anonymized signals or local processing, ensuring the server does not gain access to private chat content.\n<br>\u2022 The engineering approach focuses on balancing **real-time malicious link detection** with minimal latency to protect users from phishing and malware without degrading the messaging experience.",
+      "key_results": [
+        "Integration of link safety verification within an E2EE chat environment.",
+        "Deployment of privacy-safe infrastructure for global Messenger traffic.",
+        "Reduction of user exposure to malicious URLs through automated warning systems.",
+        "Optimization of browsing protection to maintain high performance and low latency.",
+        "Development of engineering patterns for securing user data in decentralized/encrypted contexts."
+      ],
+      "relevance_score": 4,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Meta implements Advanced Browsing Protection to secure links in Messenger chats while maintaining end-to-end encryption and user privacy.",
+      "lead_institution": "Engineering at Meta",
+      "tags": [
+        "Cybersecurity",
+        "E2EE",
+        "Messenger",
+        "Privacy-Preserving Tech",
+        "Infrastructure"
+      ]
+    }
+  },
+  {
+    "title": "Run NVIDIA Nemotron 3 Nano as a fully managed serverless model on Amazon Bedrock",
+    "link": "https://aws.amazon.com/blogs/machine-learning/run-nvidia-nemotron-3-nano-as-a-fully-managed-serverless-model-on-amazon-bedrock/",
+    "summary": "We are excited to announce that NVIDIA\u2019s Nemotron 3 Nano is now available as a fully managed and serverless model in Amazon Bedrock. This follows our earlier announcement at AWS re:Invent supporting NVIDIA Nemotron 2 Nano 9B and NVIDIA Nemotron 2 Nano VL 12B models. This post explores the technical characteristics of the NVIDIA Nemotron 3 Nano model and discusses potential application use cases. Additionally, it provides technical guidance to help you get started using this model for your generative AI applications within the Amazon Bedrock environment.",
+    "source": "Artificial Intelligence",
+    "published": "2026-03-09T20:48:46+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- **NVIDIA Nemotron 3 Nano** is now integrated as a **fully managed serverless** model within the **Amazon Bedrock** ecosystem.\n- This integration targets **Small Language Model (SLM)** use cases, optimizing for low latency and high efficiency in generative AI workloads.\n- The deployment follows the recent support for **NVIDIA Nemotron 2 Nano 9B** and **VL 12B**, expanding the suite of optimized models available for enterprise scaling.",
+      "key_results": [
+        "Nemotron 3 Nano is available via serverless API on Amazon Bedrock.",
+        "Eliminates infrastructure management overhead for NVIDIA model deployment.",
+        "Supports low-latency text generation for edge and cloud applications.",
+        "Extends the Nemotron model family availability alongside Nemotron 2 Nano 9B.",
+        "Provides immediate accessibility for AWS developers through the Bedrock console."
+      ],
+      "relevance_score": 6,
+      "signal_type": "Release",
+      "one_sentence_takeaway": "NVIDIA and AWS launch Nemotron 3 Nano on Bedrock, providing a managed serverless SLM for efficient AI application development.",
+      "lead_institution": "NVIDIA and AWS",
+      "tags": [
+        "NVIDIA Nemotron",
+        "Amazon Bedrock",
+        "SLM",
+        "Serverless AI",
+        "Generative AI"
+      ]
+    }
+  },
+  {
+    "title": "Access Anthropic Claude models in India on Amazon Bedrock with Global cross-Region inference",
+    "link": "https://aws.amazon.com/blogs/machine-learning/access-anthropic-claude-models-in-india-on-amazon-bedrock-with-global-cross-region-inference/",
+    "summary": "In this post, you will discover how to use Amazon Bedrock's Global cross-Region Inference for Claude models in India. We will guide you through the capabilities of each Claude model variant and how to get started with a code example to help you start building generative AI applications immediately.",
+    "source": "Artificial Intelligence",
+    "published": "2026-03-09T20:44:13+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- **Amazon Bedrock** introduces **Global cross-Region Inference** for the India (Mumbai) region, enabling seamless access to Anthropic **Claude 3** models including Haiku, Sonnet, and Opus.\n- The architecture utilizes **dynamic routing** to automatically distribute inference traffic across multiple AWS regions, ensuring **high availability** and overcoming local capacity constraints.\n- Developers can now integrate high-performance LLMs into their workflows using a single **unified API endpoint**, which abstracts the complexity of multi-region resource management.\n- This deployment model focuses on maintaining **low latency** while providing Indian enterprises with the scale needed for production-grade Generative AI applications.",
+      "key_results": [
+        "Native support for Claude 3.5 Sonnet and Opus within the India (Mumbai) AWS region.",
+        "Automated traffic failover to secondary regions to prevent request throttling.",
+        "Support for both streaming and non-streaming inference via updated AWS SDKs.",
+        "Simplified resource ARN structure for cross-region inference profiles.",
+        "Enhanced scalability for Indian startups and enterprises building multimodal applications."
+      ],
+      "relevance_score": 6,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Amazon Web Services enables Indian developers to access Anthropic Claude models using Global cross-Region Inference for improved availability.",
+      "lead_institution": "Amazon Web Services",
+      "tags": [
+        "Amazon Bedrock",
+        "Anthropic Claude",
+        "Cross-Region Inference",
+        "Cloud Infrastructure",
+        "Generative AI"
+      ]
+    }
+  },
+  {
+    "title": "ABB Robotics Taps NVIDIA Omniverse to Deliver Industrial\u2011Grade Physical AI at Scale",
+    "link": "https://blogs.nvidia.com/blog/abb-robotics-omniverse/",
+    "summary": "ABB Robotics and NVIDIA today announced a breakthrough partnership that brings industrial\u2011grade physical AI to the factory floor.\u00a0 By integrating NVIDIA Omniverse libraries directly into its RobotStudio programming and simulation suite, ABB Robotics will now deliver physically accurate simulation capabilities in its platform, dramatically cutting engineering time, reducing deployment costs by up to 40% and [&#8230;]",
+    "source": "NVIDIA Blog",
+    "published": "2026-03-09T15:00:34+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n Integration of **NVIDIA Omniverse** libraries into **ABB RobotStudio** provides high-fidelity, industrial-grade **Physical AI** for factory environments.\n Employs **physically accurate simulation** to bridge the gap between virtual design and real-world robotics (Sim2Real), enabling precise **digital twin** synchronization.\n Facilitates the generation of **synthetic data** for training robotic vision and control systems within a unified, real-time 3D development platform.\n Focuses on reducing **engineering overhead** and minimizing operational risk through virtual-first testing of complex automation workflows.",
+      "key_results": [
+        "Direct integration of NVIDIA Omniverse into ABB's RobotStudio suite.",
+        "Reported reduction in deployment costs by up to 40%.",
+        "Significant decrease in total engineering time for robotics programming.",
+        "Hardware-in-the-loop simulation capabilities for industrial-grade AI.",
+        "Scalable synthetic data generation for training robotic vision systems."
+      ],
+      "relevance_score": 6,
+      "signal_type": "Release",
+      "one_sentence_takeaway": "ABB Robotics integrates NVIDIA Omniverse to deliver industrial-grade physical AI, reducing deployment costs by forty percent through accurate simulation.",
+      "lead_institution": "NVIDIA",
+      "tags": [
+        "Physical AI",
+        "Robotics",
+        "Digital Twins",
+        "NVIDIA Omniverse",
+        "Industrial Automation"
+      ]
+    }
+  },
+  {
+    "title": "How AI Is Driving Revenue, Cutting Costs and Boosting Productivity for Every Industry in 2026",
+    "link": "https://blogs.nvidia.com/blog/state-of-ai-report-2026/",
+    "summary": "AI is everywhere and accelerating everything \u2014 becoming essential infrastructure to create the intelligence that will advance every industry. That\u2019s why companies are increasingly focusing on the technology\u2019s return on investment (ROI), as well as how to best apply AI to their own use cases. NVIDIA\u2019s annual \u201cState of AI\u201d reports show how AI is [&#8230;]",
+    "source": "NVIDIA Blog",
+    "published": "2026-03-09T15:00:23+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- NVIDIA positions AI as **essential infrastructure** required for cross-industry intelligence and operational scaling by 2026.\n- The analysis focuses on the transition from experimental phases to **measurable ROI** using full-stack accelerated computing platforms.\n- Shift in enterprise strategy toward **Generative AI** workflows that prioritize revenue generation alongside traditional cost-cutting measures.",
+      "key_results": [
+        "AI has evolved into core industrial infrastructure across all major sectors.",
+        "Enterprises are shifting focus from 'state-of-the-art' benchmarks to specific ROI metrics.",
+        "Acceleration of AI deployment is cited as the primary driver for 2026 revenue growth.",
+        "Full-stack software and hardware integration is becoming the standard for enterprise AI.",
+        "Industry-specific use cases are moving from pilot phases to production-scale infrastructure."
+      ],
+      "relevance_score": 3,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "NVIDIA reports that AI has become essential infrastructure for driving enterprise revenue and operational efficiency by 2026.",
+      "lead_institution": "NVIDIA",
+      "tags": [
+        "Enterprise AI",
+        "ROI",
+        "Generative AI Trends",
+        "Infrastructure",
+        "Accelerated Computing"
+      ]
+    }
+  },
+  {
     "title": "How Descript enables multilingual video dubbing at scale",
     "link": "https://openai.com/index/descript",
     "summary": "Descript uses OpenAI models to scale multilingual video dubbing, optimizing translations for both meaning and timing so dubbed speech sounds natural across languages.",
@@ -86,36 +236,6 @@
         "Environmental AI",
         "Automated Labeling",
         "Domain Adaptation"
-      ]
-    }
-  },
-  {
-    "title": "How to scan for vulnerabilities with GitHub Security Lab\u2019s open source AI-powered framework",
-    "link": "https://github.blog/security/how-to-scan-for-vulnerabilities-with-github-security-labs-open-source-ai-powered-framework/",
-    "summary": "<p>GitHub Security Lab Taskflow Agent is very effective at finding Auth Bypasses, IDORs, Token Leaks, and other high-impact vulnerabilities.</p>\n<p>The post <a href=\"https://github.blog/security/how-to-scan-for-vulnerabilities-with-github-security-labs-open-source-ai-powered-framework/\">How to scan for vulnerabilities with GitHub Security Lab\u2019s open source AI-powered framework</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
-    "source": "The GitHub Blog",
-    "published": "2026-03-06T21:09:04+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "<br>\u2022 GitHub introduces **Taskflow Agent**, an open-source framework designed to automate the discovery of high-impact security vulnerabilities using **LLM Agents**.<br>\u2022 The architecture leverages **task-oriented workflows** to perform deep scans for complex logic flaws such as **IDORs** and **Authentication Bypasses** that traditional static analysis often misses.<br>\u2022 By integrating AI reasoning with security domain knowledge, the framework reduces manual triage and enhances the precision of **automated vulnerability detection**.",
-      "key_results": [
-        "Open-source release of the Taskflow Agent framework for security research.",
-        "Demonstrated efficacy in detecting complex Insecure Direct Object References (IDORs).",
-        "Successful automated identification of sensitive Token Leaks within codebases.",
-        "Capability to uncover sophisticated Authentication Bypasses through agentic exploration.",
-        "Support for extensible security tasks via an AI-driven automation layer."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Engineering Blog",
-      "one_sentence_takeaway": "GitHub releases Taskflow Agent, an open-source framework using AI agents to automate the detection of high-impact security vulnerabilities.",
-      "lead_institution": "GitHub",
-      "tags": [
-        "LLM Agents",
-        "AI Security",
-        "Vulnerability Scanning",
-        "Open Source",
-        "Automated Reasoning"
       ]
     }
   },
@@ -900,126 +1020,6 @@
     }
   },
   {
-    "title": "COLD-Steer: Steering Large Language Models via In-Context One-step Learning Dynamics",
-    "link": "http://arxiv.org/abs/2603.06495v1",
-    "summary": "Activation steering methods enable inference-time control of large language model (LLM) behavior without retraining, but current approaches face a fundamental trade-off: sample-efficient methods suboptimally capture steering signals from labeled examples, while methods that better extract these signals require hundreds to thousands of examples. We introduce COLD-Steer, a training-free framework that steers LLM activations by approximating the representational changes that would result from gradient descent on in-context examples. Our key insight is that the effect of fine-tuning on a small set of examples can be efficiently approximated at inference time without actual parameter updates. We formalize this through two complementary approaches: (i) a unit kernel approximation method that updates the activations directly using gradients with respect to them, normalized across examples, and (ii) a finite-difference approximation requiring only two forward passes regardless of example count. Experiments across a variety of steering tasks and benchmarks demonstrate that COLD-Steer achieves upto 95% steering effectiveness while using 50 times fewer samples compared to the best baseline. COLD-Steer facilitates accommodating diverse perspectives without extensive demonstration data, which we validate through our experiments on pluralistic alignment tasks. Our framework opens new possibilities for adaptive, context-aware model control that can flexibly address varying loss-driven human preferences through principled approximation of learning dynamics rather than specialized training procedures.",
-    "source": "ArXiv",
-    "published": "2026-03-06T17:27:27+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Introduces **COLD-Steer**, a training-free framework that steers LLM activations by approximating the representational changes of **one-step gradient descent** on in-context examples.\n- Proposes two approximation strategies: **unit kernel approximation** for direct activation gradients and a **finite-difference method** that requires only two forward passes regardless of sample count.\n- Bridges the gap between sample-efficient activation steering and the performance of full fine-tuning without requiring actual parameter updates.\n- Focuses on **adaptive model control**, enabling LLMs to handle diverse human preferences and pluralistic alignment tasks with minimal data overhead.",
-      "key_results": [
-        "Achieves up to 95% steering effectiveness compared to state-of-the-art baselines.",
-        "Operates with 50 times fewer demonstration samples than previous top-performing methods.",
-        "Maintains high steering precision without the computational cost of gradient-based fine-tuning.",
-        "Finite-difference approximation enables efficient scaling to large sets of in-context examples.",
-        "Successfully demonstrates pluralistic alignment by accommodating diverse perspectives in real-time."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce COLD-Steer to approximate gradient-based updates at inference, achieving high-precision LLM steering with 50x fewer samples.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "Activation Steering",
-        "In-Context Learning",
-        "Model Alignment",
-        "Gradient Approximation",
-        "Efficient Inference"
-      ]
-    }
-  },
-  {
-    "title": "NOBLE: Accelerating Transformers with Nonlinear Low-Rank Branches",
-    "link": "http://arxiv.org/abs/2603.06492v1",
-    "summary": "We introduce NOBLE (Nonlinear lOw-rank Branch for Linear Enhancement), an architectural augmentation that adds nonlinear low-rank branches to transformer linear layers. Unlike LoRA and other parameter-efficient fine-tuning (PEFT) methods, NOBLE is designed for pretraining from scratch. The branch is a permanent part of the architecture as opposed to an adapter for finetuning on top of frozen weights. The branch computes \u03c3(xWdown)Wup where \u03c3 is a learnable nonlinearity. We evaluate several activation functions and find that CosNet, a two-layer cosine nonlinearity with learnable frequency and phase with a linear projection in between them in the bottleneck space, performs best. NOBLE achieves substantial improvements with minimal overhead: up to 1.47x step speedup to reach baseline eval loss (up to 32% fewer training steps), with as low as 4% additional parameters and 7% step time overhead, resulting in up to 1.22x net wallclock speedup. Experiments on LLMs (250M and 1.5B parameters), BERT, VQGAN, and ViT consistently show improved training efficiency. We identify one caveat: Mixup/CutMix augmentation interferes with NOBLE's benefits in Imagenet classification along with other stochastic augmentations, but when disabled, ViT also improves. This discrepancy is possibly explained by regularization techniques that encourage smoother fits to the target function while NOBLE may specialize more in sharper aspects of the target function.",
-    "source": "ArXiv",
-    "published": "2026-03-06T17:22:04+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n\u2022 Introduces **NOBLE**, an architectural augmentation that adds **nonlinear low-rank branches** to transformer linear layers, designed specifically for **pretraining from scratch**.<br>\n\u2022 Utilizes **CosNet**, a two-layer cosine nonlinearity with learnable frequency and phase within the bottleneck space, which outperformed traditional activation functions.<br>\n\u2022 Delivers a **1.47x step speedup** to reach baseline evaluation loss, resulting in up to **32% fewer training steps** for equivalent performance.<br>\n\u2022 Maintains a small footprint with as low as **4% additional parameters** and a 7% step time overhead, achieving a **1.22x net wallclock speedup**.",
-      "key_results": [
-        "Achieved up to 1.22x net wallclock speedup after accounting for minor step-time overhead.",
-        "Reduced total training steps required to reach baseline loss by up to 32%.",
-        "Identified CosNet as the optimal bottleneck activation for low-rank enhancement.",
-        "Validated architectural benefits across LLMs (up to 1.5B parameters), BERT, VQGAN, and ViT.",
-        "Discovered that heavy stochastic augmentations like Mixup/CutMix can interfere with NOBLE's performance gains."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce NOBLE, accelerating Transformer pretraining by 1.47x using nonlinear low-rank branches with minimal parameter overhead.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "Transformer Optimization",
-        "Low-Rank Projections",
-        "Efficient Pretraining",
-        "Architectural Innovation",
-        "LLM Scaling"
-      ]
-    }
-  },
-  {
-    "title": "PONTE: Personalized Orchestration for Natural Language Trustworthy Explanations",
-    "link": "http://arxiv.org/abs/2603.06485v1",
-    "summary": "Explainable Artificial Intelligence (XAI) seeks to enhance the transparency and accountability of machine learning systems, yet most methods follow a one-size-fits-all paradigm that neglects user differences in expertise, goals, and cognitive needs. Although Large Language Models can translate technical explanations into natural language, they introduce challenges related to faithfulness and hallucinations. To address these challenges, we present PONTE (Personalized Orchestration for Natural language Trustworthy Explanations), a human-in-the-loop framework for adaptive and reliable XAI narratives. PONTE models personalization as a closed-loop validation and adaptation process rather than prompt engineering. It combines: (i) a low-dimensional preference model capturing stylistic requirements; (ii) a preference-conditioned generator grounded in structured XAI artifacts; and (iii) verification modules enforcing numerical faithfulness, informational completeness, and stylistic alignment, optionally supported by retrieval-grounded argumentation. User feedback iteratively updates the preference state, enabling quick personalization. Automatic and human evaluations across healthcare and finance domains show that the verification-refinement loop substantially improves completeness and stylistic alignment over validation-free generation. Human studies further confirm strong agreement between intended preference vectors and perceived style, robustness to generation stochasticity, and consistently positive quality assessments.",
-    "source": "ArXiv",
-    "published": "2026-03-06T17:12:47+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- **PONTE** introduces a human-in-the-loop framework that replaces static prompt engineering with a **closed-loop validation and adaptation** process for personalized explanations.\n- The architecture combines a **low-dimensional preference model** with a preference-conditioned generator grounded in structured XAI artifacts and **retrieval-grounded argumentation**.\n- A dedicated **verification-refinement loop** enforces numerical faithfulness, informational completeness, and stylistic alignment to mitigate LLM hallucinations in high-stakes domains.\n- The system enables **iterative preference state updates** based on user feedback, allowing the model to adapt quickly to different expertise levels and cognitive needs.",
-      "key_results": [
-        "Verification-refinement loops significantly improved information completeness compared to standard validation-free generation.",
-        "Human studies confirmed a strong correlation between intended preference vectors and user-perceived explanation styles.",
-        "The framework demonstrated high robustness against generation stochasticity in healthcare and finance test cases.",
-        "Iterative feedback cycles successfully enabled rapid personalization of XAI narratives without extensive retraining.",
-        "The use of structured XAI artifacts and verification modules effectively maintained numerical faithfulness and reduced hallucinations."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "PONTE researchers introduce a closed-loop framework that personalizes trustworthy, natural language AI explanations through verification and preference-conditioned generation.",
-      "lead_institution": "ArXiv Researchers",
-      "tags": [
-        "Explainable AI (XAI)",
-        "LLM Agents",
-        "AI Evaluation",
-        "Personalization",
-        "Faithful Generation"
-      ]
-    }
-  },
-  {
-    "title": "History-Conditioned Spatio-Temporal Visual Token Pruning for Efficient Vision-Language Navigation",
-    "link": "http://arxiv.org/abs/2603.06480v1",
-    "summary": "Vision-Language Navigation (VLN) enables robots to follow natural-language instructions in visually grounded environments, serving as a key capability for embodied robotic systems. Recent Vision-Language-Action (VLA) models have demonstrated strong navigation performance, but their high computational cost introduces latency that limits real-time deployment. We propose a training-free spatio-temporal vision token pruning framework tailored to VLA-based VLN. We apply spatial token selection to the current view, alongside spatio-temporal compression for historical memories, enabling efficient long-horizon inference while reducing redundant computation. Leveraging attention-based token importance and query-guided spatio-temporal filtering, the proposed approach preserves navigation-relevant information without retraining or modifying pretrained models, allowing plug-and-play integration into existing VLA systems. Through experiments on standard VLN benchmarks, we confirm that our method significantly outperforms existing pruning strategies. It successfully preserves superior navigation accuracy under extreme pruning scenarios, all while maintaining the highly competitive inference efficiency. Real-world deployment on a Unitree Go2 quadruped robot further validates reliable and low-latency instruction-following navigation under practical robotic constraints. We hope this work helps bridge the gap between large-scale multimodal modeling and efficient, real-time embodied deployment in robotic navigation systems.",
-    "source": "ArXiv",
-    "published": "2026-03-06T17:03:16+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Introduces a **training-free spatio-temporal vision token pruning** framework specifically designed for **Vision-Language-Action (VLA)** models in navigation tasks.\n- Utilizes **attention-based token importance** and query-guided filtering to reduce computational redundancy in current visual inputs and **historical memory** sequences.\n- Enables **low-latency real-time deployment** on edge devices without requiring model fine-tuning or architectural modifications.\n- Bridges the efficiency gap for **long-horizon inference** by selectively preserving navigation-critical visual information.",
-      "key_results": [
-        "Outperforms existing pruning strategies in preserving navigation accuracy under extreme compression.",
-        "Significantly reduces computational latency for VLA-based navigation tasks.",
-        "Validated via real-world deployment on a Unitree Go2 quadruped robot.",
-        "Maintains high performance without retraining or modifying pretrained weights.",
-        "Enables plug-and-play integration into existing large-scale multimodal systems."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers develop a training-free token pruning framework for efficient, low-latency Vision-Language Navigation on real-world robotic systems.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "Multimodal AI",
-        "Robotic Navigation",
-        "Token Pruning",
-        "VLA Models",
-        "Edge AI"
-      ]
-    }
-  },
-  {
     "title": "A Mixture-of-Experts Framework for Practical Hybrid-Quantum Models in Credit Card Fraud Detection",
     "link": "http://arxiv.org/abs/2603.06473v1",
     "summary": "This paper investigates whether hybrid quantum-classical machine learning can deliver practical improvements in financial fraud detection performance for card-based and other payment transactions. Building on a Guided Quantum Compressor architecture, the approach integrates an autoencoder, a variational quantum circuit, and a classical neural head, and then embeds this hybrid model into a mixture-of-experts framework including a state-of-the-art gradient-boosted tree classifier. Using a European credit card dataset with severe class imbalance, the routed hybrid architecture achieves average precision scores of $0.793\\pm0.085$ compared to $0.770\\pm0.065$ of XGBoost on 3 repeated 5-fold cross-validation benchmarks. Precision and recall comparisons reveals a possible trade-off of fraud and nominal detections with a reduction in false positives at the cost of a small reduction in fraud detections. The improvements are achieved while adding only 7 to 21 minutes of extra inference time depending on the choice of hyperparameters. These results indicate that selectively routing transactions to quantum-classical models can enhance fraud detection while remaining compatible with the latency and operational constraints of modern financial institutions.",
@@ -1110,66 +1110,6 @@
     }
   },
   {
-    "title": "Pinterest Canvas: Large-Scale Image Generation at Pinterest",
-    "link": "http://arxiv.org/abs/2603.06453v1",
-    "summary": "While recent image generation models demonstrate a remarkable ability to handle a wide variety of image generation tasks, this flexibility makes them hard to control via prompting or simple inference adaptation alone, rendering them unsuitable for use cases with strict product requirements. In this paper, we introduce Pinterest Canvas, our large-scale image generation system built to support image editing and enhancement use cases at Pinterest. Canvas is first trained on a diverse, multimodal dataset to produce a foundational diffusion model with broad image-editing capabilities. However, rather than relying on one generic model to handle every downstream task, we instead rapidly fine-tune variants of this base model on task-specific datasets, producing specialized models for individual use cases. We describe key components of Canvas and summarize our best practices for dataset curation, training, and inference. We also showcase task-specific variants through case studies on background enhancement and aspect-ratio outpainting, highlighting how we tackle their specific product requirements. Online A/B experiments demonstrate that our enhanced images receive a significant 18.0% and 12.5% engagement lift, respectively, and comparisons with human raters further validate that our models outperform third-party models on these tasks. Finally, we showcase other Canvas variants, including multi-image scene synthesis and image-to-video generation, demonstrating that our approach can generalize to a wide variety of potential downstream tasks.",
-    "source": "ArXiv",
-    "published": "2026-03-06T16:43:44+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n* Pinterest introduces **Canvas**, a system built on a **foundational diffusion model** designed to overcome the control limitations of generic prompting for strict product requirements.\n* The architecture utilizes a **hub-and-spoke fine-tuning** strategy, where a core multimodal base model is rapidly adapted into specialized variants for tasks like **background enhancement** and **outpainting**.\n* The system integrates sophisticated **dataset curation** and inference optimization to maintain high fidelity and brand consistency across diverse Pinterest user content.\n* Key technical workflows include specialized modules for **multi-image scene synthesis** and **image-to-video** generation, showcasing broad generalizability.",
-      "key_results": [
-        "18.0% engagement lift achieved via background enhancement in online A/B testing.",
-        "12.5% engagement lift observed for aspect-ratio outpainting features.",
-        "Human raters verified that specialized Canvas variants consistently outperform third-party models.",
-        "Proven generalization across disparate tasks including multi-image synthesis and video generation.",
-        "Successful large-scale deployment of fine-tuned diffusion models within a production ecosystem."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "Pinterest introduces Canvas, a diffusion-based system using task-specific fine-tuning to deliver significant engagement lifts in production image editing.",
-      "lead_institution": "Pinterest",
-      "tags": [
-        "Diffusion Models",
-        "Model Fine-tuning",
-        "Image Generation",
-        "Multimodal AI",
-        "Computer Vision"
-      ]
-    }
-  },
-  {
-    "title": "Prosodic Boundary-Aware Streaming Generation for LLM-Based TTS with Streaming Text Input",
-    "link": "http://arxiv.org/abs/2603.06444v1",
-    "summary": "Streaming TTS that receives streaming text is essential for interactive systems, yet this scheme faces two major challenges: unnatural prosody due to missing lookahead and long-form collapse due to unbounded context. We propose a prosodic-boundary-aware post-training strategy, adapting a pretrained LLM-based TTS model using weakly time-aligned data. Specifically, the model is adapted to learn early stopping at specified content boundaries when provided with limited future text. During inference, a sliding-window prompt carries forward previous text and speech tokens, ensuring bounded context and seamless concatenation. Evaluations show our method outperforms CosyVoice-Style interleaved baseline in both short and long-form scenarios. In long-text synthesis, especially, it achieves a 66.2% absolute reduction in word error rate (from 71.0% to 4.8%) and increases speaker and emotion similarity by 16.1% and 1.5% relatively, offering a robust solution for streaming TTS with incremental text.",
-    "source": "ArXiv",
-    "published": "2026-03-06T16:36:51+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Proposes a **prosodic-boundary-aware post-training** strategy to adapt pretrained **LLM-based TTS** models for streaming text inputs.\n- Implements a **sliding-window prompt** mechanism that carries forward historical text and speech tokens to maintain **bounded context**, effectively preventing long-form model collapse.\n- Introduces **weakly time-aligned data** training to help the model learn early stopping at content boundaries when provided with minimal future lookahead.",
-      "key_results": [
-        "Achieved a 66.2% absolute reduction in Word Error Rate (WER) for long-form synthesis.",
-        "Reduced long-form WER from 71.0% to 4.8% compared to the baseline.",
-        "Increased speaker similarity metrics by 16.1% relatively.",
-        "Improved emotion similarity by 1.5% in streaming generation scenarios.",
-        "Successfully enabled robust streaming TTS with incremental text input without losing prosodic naturalness."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "Alibaba researchers introduce a boundary-aware strategy for LLM-based TTS to eliminate long-form collapse and drastically reduce error rates.",
-      "lead_institution": "Alibaba Group",
-      "tags": [
-        "Streaming TTS",
-        "LLM-based TTS",
-        "Prosody Modeling",
-        "Generative AI",
-        "Speech Synthesis"
-      ]
-    }
-  },
-  {
     "title": "Abductive Reasoning with Syllogistic Forms in Large Language Models",
     "link": "http://arxiv.org/abs/2603.06428v1",
     "summary": "Research in AI using Large-Language Models (LLMs) is rapidly evolving, and the comparison of their performance with human reasoning has become a key concern. Prior studies have indicated that LLMs and humans share similar biases, such as dismissing logically valid inferences that contradict common beliefs. However, criticizing LLMs for these biases might be unfair, considering our reasoning not only involves formal deduction but also abduction, which draws tentative conclusions from limited information. Abduction can be regarded as the inverse form of syllogism in its basic structure, that is, a process of drawing a minor premise from a major premise and conclusion. This paper explores the accuracy of LLMs in abductive reasoning by converting a syllogistic dataset into one suitable for abduction. It aims to investigate whether the state-of-the-art LLMs exhibit biases in abduction and to identify potential areas for improvement, emphasizing the importance of contextualized reasoning beyond formal deduction. This investigation is vital for advancing the understanding and application of LLMs in complex reasoning tasks, offering insights into bridging the gap between machine and human cognition.",
@@ -1226,36 +1166,6 @@
         "Impulsive Systems",
         "Lie Brackets",
         "Mathematical Analysis"
-      ]
-    }
-  },
-  {
-    "title": "From Prompting to Preference Optimization: A Comparative Study of LLM-based Automated Essay Scoring",
-    "link": "http://arxiv.org/abs/2603.06424v1",
-    "summary": "Large language models (LLMs) have recently reshaped Automated Essay Scoring (AES), yet prior studies typically examine individual techniques in isolation, limiting understanding of their relative merits for English as a Second Language (L2) writing. To bridge this gap, we presents a comprehensive comparison of major LLM-based AES paradigms on IELTS Writing Task~2. On this unified benchmark, we evaluate four approaches: (i) encoder-based classification fine-tuning, (ii) zero- and few-shot prompting, (iii) instruction tuning and Retrieval-Augmented Generation (RAG), and (iv) Supervised Fine-Tuning combined with Direct Preference Optimization (DPO) and RAG. Our results reveal clear accuracy-cost-robustness trade-offs across methods, the best configuration, integrating k-SFT and RAG, achieves the strongest overall results with F1-Score 93%. This study offers the first unified empirical comparison of modern LLM-based AES strategies for English L2, promising potential in auto-grading writing tasks. Code is public at https://github.com/MinhNguyenDS/LLM_AES-EnL2",
-    "source": "ArXiv",
-    "published": "2026-03-06T15:59:32+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Evaluates four distinct architectural paradigms for **Automated Essay Scoring (AES)** including encoder-based classification, few-shot **Prompt Engineering**, and instruction tuning.\n- Introduces a hybrid architecture combining **Supervised Fine-Tuning (SFT)** with **Retrieval-Augmented Generation (RAG)** and **Direct Preference Optimization (DPO)** to improve grading alignment.\n- Analyzes the trade-offs between accuracy, cost, and robustness across different LLM scales specifically for **L2 English writing** proficiency.\n- Benchmarks these strategies against a unified **IELTS Writing Task 2** dataset to establish a performance ceiling for modern generative AI evaluation.",
-      "key_results": [
-        "The integrated k-SFT and RAG configuration achieved the highest overall performance with a 93% F1-Score.",
-        "RAG significantly improved scoring consistency by providing relevant contextual examples during the grading process.",
-        "DPO-refined models demonstrated superior alignment with human expert scoring compared to standard instruction tuning.",
-        "Few-shot prompting showed high cost-efficiency but remained less robust than fine-tuned models for nuanced writing tasks.",
-        "Encoder-based classification provides a baseline that generative models now consistently outperform in complex rubric adherence."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "MinhNguyenDS researchers prove that combining k-SFT with RAG achieves a 93% F1-score in automated essay scoring tasks.",
-      "lead_institution": "MinhNguyenDS Research Team",
-      "tags": [
-        "Automated Essay Scoring",
-        "RAG",
-        "DPO",
-        "Model Fine-tuning",
-        "AI Evaluation"
       ]
     }
   },
