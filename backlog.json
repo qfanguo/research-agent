@@ -1,5 +1,95 @@
 [
   {
+    "title": "New ways to learn math and science in ChatGPT",
+    "link": "https://openai.com/index/new-ways-to-learn-math-and-science-in-chatgpt",
+    "summary": "ChatGPT introduces interactive visual explanations for math and science, helping students explore formulas, variables, and concepts in real time.",
+    "source": "OpenAI News",
+    "published": "2026-03-10T10:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* OpenAI implements **Interactive Visual Explanations** that shift ChatGPT from static text output to dynamic, state-aware UI components for STEM learning.\n* The feature enables **Real-time Parameter Tuning**, allowing users to manipulate variables in formulas and observe immediate changes in visual renderings.\n* This deployment underscores a trend in **Multimodal UX**, where generative models orchestrate interactive frontend elements to improve conceptual grounding.\n* The impact focuses on **Educational Scaffolding**, leveraging the model's reasoning capabilities to drive visualization logic for complex mathematical concepts.",
+      "key_results": [
+        "Real-time interactive exploration of mathematical formulas.",
+        "Dynamic visual feedback for variable manipulation in science.",
+        "Integration of UI-based components directly into chat threads.",
+        "Enhanced pedagogical support through visual reasoning aids.",
+        "Seamless transition between text explanation and visual demonstration."
+      ],
+      "relevance_score": 5,
+      "signal_type": "Release",
+      "one_sentence_takeaway": "OpenAI introduces interactive visual explanations in ChatGPT to enable real-time exploration of complex math and science concepts.",
+      "lead_institution": "OpenAI",
+      "tags": [
+        "Multimodal AI",
+        "STEM Education",
+        "Interactive UI",
+        "Generative AI Trends",
+        "LLM UX"
+      ]
+    }
+  },
+  {
+    "title": "Sydney will become Anthropic\u2019s fourth office in Asia-Pacific",
+    "link": "https://www.anthropic.com/news/sydney-fourth-office-asia-pacific",
+    "summary": "Sydney will become Anthropic\u2019s fourth office in Asia-Pacific",
+    "source": "Anthropic News",
+    "published": "2026-03-10T00:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n\u2022 Anthropic is expanding its **global footprint** by establishing a new office in **Sydney**, marking its fourth location in the Asia-Pacific region.\n\u2022 The move signals a strategic focus on **regional enterprise adoption** and providing localized support for the **Claude** model ecosystem.\n\u2022 This expansion facilitates closer collaboration with **Australian government agencies** and local developers to ensure **AI safety** and alignment within the region.",
+      "key_results": [
+        "Sydney confirmed as Anthropic's fourth Asia-Pacific office location.",
+        "Increased focus on Australian enterprise and government sectors.",
+        "Strategic growth of the Claude model's global support network.",
+        "Strengthening of regional presence alongside existing APAC offices.",
+        "Commitment to localized AI safety and deployment initiatives."
+      ],
+      "relevance_score": 2,
+      "signal_type": "Release",
+      "one_sentence_takeaway": "Anthropic expands its Asia-Pacific presence by opening a new office in Sydney to support regional AI adoption.",
+      "lead_institution": "Anthropic",
+      "tags": [
+        "Anthropic",
+        "Sydney",
+        "APAC Expansion",
+        "Enterprise AI",
+        "Claude"
+      ]
+    }
+  },
+  {
+    "title": "From games to biology and beyond: 10 years of AlphaGo\u2019s impact",
+    "link": "https://deepmind.google/blog/10-years-of-alphago/",
+    "summary": "Ten years since AlphaGo, we explore how it is catalyzing scientific discovery and paving a path to AGI.",
+    "source": "Google DeepMind News",
+    "published": "2026-03-09T13:52:36+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- **AlphaGo** integrated **Deep Reinforcement Learning (DRL)** with **Monte Carlo Tree Search (MCTS)**, setting a new benchmark for AI in complex decision-making.\n- The architecture's shift towards **self-play** and **policy optimization** enabled AI to surpass human-level performance without expert-labeled datasets.\n- This paradigm directly informed the development of **AlphaFold**, applying game-theory principles to solve the 50-year-old **protein folding problem**.\n- The legacy of these techniques continues to influence **reasoning models**, emphasizing the importance of compute-at-inference and structured search.",
+      "key_results": [
+        "Defeated world champion Lee Sedol, proving the efficacy of neural networks in high-complexity search spaces.",
+        "Evolution into AlphaZero showcased universal mastery of games via pure self-play and zero human input.",
+        "Catalyzed AlphaFold, which has successfully predicted the structures of nearly all known proteins.",
+        "Extended RL methodologies to industrial applications, including energy-efficient data center cooling and weather prediction.",
+        "Established the 'search and learning' framework that underpins current research into LLM reasoning capabilities."
+      ],
+      "relevance_score": 6,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Google DeepMind demonstrates how AlphaGo\u2019s reinforcement learning framework evolved into a catalyst for significant scientific discovery and AGI development.",
+      "lead_institution": "Google DeepMind",
+      "tags": [
+        "Reinforcement Learning",
+        "AlphaGo",
+        "Reasoning Models",
+        "AGI",
+        "AlphaFold"
+      ]
+    }
+  },
+  {
     "title": "How Advanced Browsing Protection Works in Messenger",
     "link": "https://engineering.fb.com/2026/03/09/security/how-advanced-browsing-protection-works-in-messenger/",
     "summary": "<p>We\u2019re sharing the technical details behind how Advanced Browsing Protection (ABP) in Messenger protects the privacy of the links clicked on within chats while still warning people about malicious links. We hope that this post has helped to illuminate some of the engineering challenges and infrastructure components involved for providing this feature for our users. [...]</p>\n<p><a class=\"btn btn-secondary understrap-read-more-link\" href=\"https://engineering.fb.com/2026/03/09/security/how-advanced-browsing-protection-works-in-messenger/\">Read More...</a></p>\n<p>The post <a href=\"https://engineering.fb.com/2026/03/09/security/how-advanced-browsing-protection-works-in-messenger/\" rel=\"nofollow\">How Advanced Browsing Protection Works in Messenger</a> appeared first on <a href=\"https://engineering.fb.com\" rel=\"nofollow\">Engineering at Meta</a>.</p>",
@@ -8,24 +98,54 @@
     "type": "blog",
     "display_category": "Top News",
     "processed": {
-      "summary": "<br>\u2022 Meta's **Advanced Browsing Protection (ABP)** implements a **privacy-preserving architecture** to scan URLs within Messenger without compromising **end-to-end encryption (E2EE)** protocols.\n<br>\u2022 The system relies on **infrastructure components** that evaluate link safety by utilizing anonymized signals or local processing, ensuring the server does not gain access to private chat content.\n<br>\u2022 The engineering approach focuses on balancing **real-time malicious link detection** with minimal latency to protect users from phishing and malware without degrading the messaging experience.",
+      "summary": "\n\u2022 Meta's **Advanced Browsing Protection (ABP)** architecture implements a privacy-preserving mechanism for link verification in Messenger chats.\n\u2022 The system utilizes specialized **infrastructure components** to identify malicious URLs without compromising the end-to-end privacy of the user's conversation.\n\u2022 The engineering approach addresses the **scalability and latency** challenges of real-time URL scanning for a global user base.\n\u2022 The framework balances **user security** with privacy-centric principles by decoupling link metadata from user identity during safety checks.",
       "key_results": [
-        "Integration of link safety verification within an E2EE chat environment.",
-        "Deployment of privacy-safe infrastructure for global Messenger traffic.",
-        "Reduction of user exposure to malicious URLs through automated warning systems.",
-        "Optimization of browsing protection to maintain high performance and low latency.",
-        "Development of engineering patterns for securing user data in decentralized/encrypted contexts."
+        "Implementation of a privacy-preserving link protection layer for Messenger.",
+        "Detection of malicious URLs in real-time within encrypted messaging contexts.",
+        "Scalable engineering architecture for high-volume link traffic.",
+        "Technical framework for warning users without exposing chat history.",
+        "Integration of security signals within privacy-focused communication apps."
       ],
       "relevance_score": 4,
       "signal_type": "Engineering Blog",
-      "one_sentence_takeaway": "Meta implements Advanced Browsing Protection to secure links in Messenger chats while maintaining end-to-end encryption and user privacy.",
+      "one_sentence_takeaway": "Meta engineering details a privacy-preserving browsing protection system that secures Messenger links without exposing user chat data to central servers.",
       "lead_institution": "Engineering at Meta",
       "tags": [
         "Cybersecurity",
-        "E2EE",
-        "Messenger",
-        "Privacy-Preserving Tech",
-        "Infrastructure"
+        "Privacy Engineering",
+        "Meta Messenger",
+        "Infrastructure",
+        "Malicious Link Detection"
+      ]
+    }
+  },
+  {
+    "title": "Gemini in Google Sheets just achieved state-of-the-art performance.",
+    "link": "https://blog.google/products-and-platforms/products/workspace/gemini-google-sheets-state-of-the-art/",
+    "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Workspace_Jan_Moment_Sheets_Blo.max-600x600.format-webp.webp\" />Today we announced new beta features for Gemini in Sheets to help you create, organize and edit entire sheets, from basic tasks to complex data analysis \u2014\u00a0just describe \u2026",
+    "source": "AI",
+    "published": "2026-03-10T13:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n Google integrates **Gemini LLM** capabilities directly into Sheets, enabling **natural language processing** for end-to-end spreadsheet creation and manipulation.\n The update focuses on **automated data analysis** and structural organization, reducing the barrier for complex formatting and multi-step data tasks.\n This release marks a significant move toward **Agentic Workflows** in productivity software, where the model acts as an intermediary for data management.",
+      "key_results": [
+        "Beta launch of natural language prompts for sheet generation",
+        "Automated categorization and organization of raw data",
+        "Support for complex data analysis through descriptive prompts",
+        "Enhanced formatting and table structure automation",
+        "Deeper integration of Gemini across the Google Workspace ecosystem"
+      ],
+      "relevance_score": 5,
+      "signal_type": "Release",
+      "one_sentence_takeaway": "Google launches Gemini-powered beta features in Sheets to automate complex data analysis and organization via natural language prompts.",
+      "lead_institution": "Google",
+      "tags": [
+        "Gemini",
+        "LLM Agents",
+        "Spreadsheet Automation",
+        "Generative AI Trends",
+        "Productivity AI"
       ]
     }
   },
@@ -38,24 +158,24 @@
     "type": "blog",
     "display_category": "Top News",
     "processed": {
-      "summary": "\n- **NVIDIA Nemotron 3 Nano** is now integrated as a **fully managed serverless** model within the **Amazon Bedrock** ecosystem.\n- This integration targets **Small Language Model (SLM)** use cases, optimizing for low latency and high efficiency in generative AI workloads.\n- The deployment follows the recent support for **NVIDIA Nemotron 2 Nano 9B** and **VL 12B**, expanding the suite of optimized models available for enterprise scaling.",
+      "summary": "\n- **NVIDIA Nemotron 3 Nano** is now integrated into **Amazon Bedrock** as a fully managed, **serverless model**.\n- This **Small Language Model (SLM)** release targets high-efficiency use cases where low latency and cost-effectiveness are prioritized over massive parameter counts.\n- The integration simplifies the deployment of **Generative AI** applications by removing the need for manual infrastructure management or dedicated GPU provisioning.",
       "key_results": [
-        "Nemotron 3 Nano is available via serverless API on Amazon Bedrock.",
-        "Eliminates infrastructure management overhead for NVIDIA model deployment.",
-        "Supports low-latency text generation for edge and cloud applications.",
-        "Extends the Nemotron model family availability alongside Nemotron 2 Nano 9B.",
-        "Provides immediate accessibility for AWS developers through the Bedrock console."
+        "Nemotron 3 Nano is now available via serverless API on Amazon Bedrock.",
+        "The model provides a highly efficient Small Language Model (SLM) alternative for local-style performance in the cloud.",
+        "Follows previous releases of Nemotron 2 Nano 9B and Nemotron 2 Nano VL 12B on AWS.",
+        "Optimized for technical applications requiring fast inference and reduced computational overhead.",
+        "Integration allows developers to leverage existing Bedrock security and governance features."
       ],
       "relevance_score": 6,
       "signal_type": "Release",
-      "one_sentence_takeaway": "NVIDIA and AWS launch Nemotron 3 Nano on Bedrock, providing a managed serverless SLM for efficient AI application development.",
-      "lead_institution": "NVIDIA and AWS",
+      "one_sentence_takeaway": "NVIDIA and AWS launch Nemotron 3 Nano on Bedrock to enable serverless deployment of efficient small language models.",
+      "lead_institution": "NVIDIA",
       "tags": [
-        "NVIDIA Nemotron",
-        "Amazon Bedrock",
         "SLM",
+        "Amazon Bedrock",
+        "NVIDIA Nemotron",
         "Serverless AI",
-        "Generative AI"
+        "Model Deployment"
       ]
     }
   },
@@ -68,24 +188,144 @@
     "type": "blog",
     "display_category": "Top News",
     "processed": {
-      "summary": "\n- **Amazon Bedrock** introduces **Global cross-Region Inference** for the India (Mumbai) region, enabling seamless access to Anthropic **Claude 3** models including Haiku, Sonnet, and Opus.\n- The architecture utilizes **dynamic routing** to automatically distribute inference traffic across multiple AWS regions, ensuring **high availability** and overcoming local capacity constraints.\n- Developers can now integrate high-performance LLMs into their workflows using a single **unified API endpoint**, which abstracts the complexity of multi-region resource management.\n- This deployment model focuses on maintaining **low latency** while providing Indian enterprises with the scale needed for production-grade Generative AI applications.",
+      "summary": "\n- **Amazon Bedrock** introduces **Global cross-Region Inference** for developers in India, allowing access to **Anthropic Claude** models by dynamically routing traffic across AWS regions.\n- The architecture leverages **automated traffic management** to optimize for higher throughput and lower latency, mitigating regional capacity constraints.\n- This implementation enables **Generative AI** application scalability through a unified inference profile ID, abstracting the complexity of managing multi-region failovers.",
       "key_results": [
-        "Native support for Claude 3.5 Sonnet and Opus within the India (Mumbai) AWS region.",
-        "Automated traffic failover to secondary regions to prevent request throttling.",
-        "Support for both streaming and non-streaming inference via updated AWS SDKs.",
-        "Simplified resource ARN structure for cross-region inference profiles.",
-        "Enhanced scalability for Indian startups and enterprises building multimodal applications."
+        "Claude 3.5 Sonnet and Haiku access enabled for India-based AWS accounts.",
+        "Higher request limits via multi-region resource aggregation.",
+        "Seamless integration using existing Amazon Bedrock SDKs.",
+        "Improved resilience against regional service disruptions.",
+        "Streamlined development workflow through global inference profile IDs."
       ],
       "relevance_score": 6,
       "signal_type": "Engineering Blog",
-      "one_sentence_takeaway": "Amazon Web Services enables Indian developers to access Anthropic Claude models using Global cross-Region Inference for improved availability.",
+      "one_sentence_takeaway": "Amazon launches global cross-region inference on Bedrock, enabling Indian developers to scale Anthropic Claude model applications with improved throughput.",
       "lead_institution": "Amazon Web Services",
       "tags": [
         "Amazon Bedrock",
         "Anthropic Claude",
-        "Cross-Region Inference",
         "Cloud Infrastructure",
-        "Generative AI"
+        "Generative AI",
+        "Inference Optimization"
+      ]
+    }
+  },
+  {
+    "title": "As Open Models Spark AI Boom, NVIDIA Jetson Brings It to Life at the Edge",
+    "link": "https://blogs.nvidia.com/blog/jetson-generative-ai-edge-oss/",
+    "summary": "The Cat 306 CR mini-excavator weighs just under eight tons and fits inside a standard shipping container. It\u2019s the machine a contractor rents when the job site is tight: a utility trench near a foundation, a basement dig in a dense neighborhood. The cab is roughly the size of a phone booth. The operator sits [&#8230;]",
+    "source": "NVIDIA Blog",
+    "published": "2026-03-10T16:43:40+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* NVIDIA integrates **open-source foundation models** with the **Jetson platform** to enable low-latency, real-time inference for robotics and industrial applications.\n* The architecture utilizes **Small Language Models (SLMs)** and multimodal AI to process complex sensor data locally, bypassing the need for constant cloud connectivity.\n* Deployment focuses on **spatial reasoning** and autonomous decision-making in heavy machinery, such as the Caterpillar 306 CR mini-excavator.\n* The framework bridges the gap between high-compute cloud training and **edge deployment** using NVIDIA's Isaac and Metropolis software stacks.",
+      "key_results": [
+        "Successful deployment of generative AI on heavy industrial machinery for utility tasks.",
+        "Optimization of open-weight models for the NVIDIA Jetson Orin edge computing module.",
+        "Real-time processing of multimodal inputs to enhance situational awareness on job sites.",
+        "Reduction in operational latency for autonomous excavation and digging routines.",
+        "Standardization of edge AI workflows using popular open-source model architectures."
+      ],
+      "relevance_score": 6,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "NVIDIA deploys open-weight foundation models on Jetson modules to enable real-time, autonomous reasoning for heavy industrial machinery.",
+      "lead_institution": "NVIDIA",
+      "tags": [
+        "Edge AI",
+        "SLMs",
+        "Robotics",
+        "NVIDIA Jetson",
+        "Multimodal AI"
+      ]
+    }
+  },
+  {
+    "title": "NVIDIA Virtualizes Game Development With RTX PRO Server",
+    "link": "https://blogs.nvidia.com/blog/gdc-2026-virtual-game-development/",
+    "summary": "Game development teams are working across larger worlds, more complex pipelines and more distributed teams than ever. At the same time, many studios still rely on fixed, desk-bound GPU hardware for critical production work. At the Game Developers Conference (GDC) this week in San Francisco, NVIDIA is showcasing a new approach to bring together disparate [&#8230;]",
+    "source": "NVIDIA Blog",
+    "published": "2026-03-10T15:30:07+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "<br> NVIDIA introduces the **RTX PRO Server** to transition game development from fixed, local hardware to **virtualized, server-based architectures**.<br> The solution leverages **NVIDIA RTX GPUs** combined with virtualization software to provide high-fidelity rendering and compute power to remote and distributed teams.<br> It aims to streamline **complex production pipelines** by centralizing hardware resources, allowing studios to scale compute dynamically across global locations.",
+      "key_results": [
+        "Virtualization of professional-grade RTX GPU resources for game production.",
+        "Elimination of dependencies on desk-bound, fixed workstation hardware.",
+        "Support for highly distributed and remote game development workflows.",
+        "Centralized management of high-performance compute and graphics resources.",
+        "Optimization of multi-user pipelines for large-scale world building and simulation."
+      ],
+      "relevance_score": 3,
+      "signal_type": "Release",
+      "one_sentence_takeaway": "NVIDIA launches RTX PRO Server to virtualize high-performance GPU workflows for distributed and remote game development teams.",
+      "lead_institution": "NVIDIA",
+      "tags": [
+        "GPU Virtualization",
+        "Game Development",
+        "RTX PRO",
+        "Distributed Systems",
+        "Cloud Workstations"
+      ]
+    }
+  },
+  {
+    "title": "NVIDIA and ComfyUI Streamline Local AI Video Generation for Game Developers and Creators at GDC",
+    "link": "https://blogs.nvidia.com/blog/rtx-ai-garage-flux-ltx-video-comfyui-gdc/",
+    "summary": "Game developers and artists are building cinematic worlds and iconic characters \u2014 raising the bar for immersive experiences on NVIDIA RTX AI PCs.\u00a0 At the Game Developers Conference (GDC) in San Francisco this week, NVIDIA announced a suite of updates that streamline AI video generation for concept development and storyboarding on RTX GPUs and the [&#8230;]",
+    "source": "NVIDIA Blog",
+    "published": "2026-03-10T15:30:05+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* NVIDIA integrates **TensorRT acceleration** into ComfyUI to significantly speed up local **Stable Video Diffusion** workflows on RTX hardware.\n* The updates focus on optimizing **low-latency inference** for creators and game developers, enabling faster iteration for concept development and storyboarding.\n* By leveraging **RTX AI PCs**, the initiative aims to move generative video tasks from the cloud to local workstations for improved privacy and performance.",
+      "key_results": [
+        "Acceleration of Stable Video Diffusion using TensorRT",
+        "Enhanced performance for ComfyUI on NVIDIA RTX GPUs",
+        "Streamlined storyboarding workflows for game developers",
+        "Reduction in cloud-dependency for high-end video generation",
+        "Expansion of the local AI ecosystem for professional creators"
+      ],
+      "relevance_score": 3,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "NVIDIA streamlines local video generation by integrating ComfyUI with RTX TensorRT to accelerate creative storyboarding workflows.",
+      "lead_institution": "NVIDIA",
+      "tags": [
+        "Local AI",
+        "Video Generation",
+        "NVIDIA RTX",
+        "ComfyUI",
+        "Game Development"
+      ]
+    }
+  },
+  {
+    "title": "AI Is a 5-Layer Cake",
+    "link": "https://blogs.nvidia.com/blog/ai-5-layer-cake/",
+    "summary": "AI is one of the most powerful forces shaping the world today. It is not a clever app or a single model; it is essential infrastructure, like electricity and the internet.",
+    "source": "NVIDIA Blog",
+    "published": "2026-03-10T10:00:03+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- AI is redefined as **foundational infrastructure** rather than isolated software applications or individual models.\n- The architecture follows a **five-layer model** analogy, positioning it as a general-purpose utility similar to **electricity and the internet**.\n- The impact focuses on the transition toward **integrated AI ecosystems** that drive large-scale industrial and societal transformation.",
+      "key_results": [
+        "AI is characterized as a fundamental force of the modern era.",
+        "The '5-layer cake' model provides a framework for understanding AI's complexity.",
+        "Shift in perspective from tactical AI tools to strategic AI infrastructure.",
+        "Comparison of AI adoption to historical utility revolutions.",
+        "Emphasis on the necessity of a layered stack for global AI deployment."
+      ],
+      "relevance_score": 3,
+      "signal_type": "General_News",
+      "one_sentence_takeaway": "NVIDIA defines AI as essential multi-layered infrastructure to emphasize its role as a fundamental utility for modern global industry.",
+      "lead_institution": "NVIDIA",
+      "tags": [
+        "AI Infrastructure",
+        "Generative AI Trends",
+        "NVIDIA Stack",
+        "Ecosystem Architecture",
+        "Global Transformation"
       ]
     }
   },
@@ -98,24 +338,24 @@
     "type": "blog",
     "display_category": "Top News",
     "processed": {
-      "summary": "\n Integration of **NVIDIA Omniverse** libraries into **ABB RobotStudio** provides high-fidelity, industrial-grade **Physical AI** for factory environments.\n Employs **physically accurate simulation** to bridge the gap between virtual design and real-world robotics (Sim2Real), enabling precise **digital twin** synchronization.\n Facilitates the generation of **synthetic data** for training robotic vision and control systems within a unified, real-time 3D development platform.\n Focuses on reducing **engineering overhead** and minimizing operational risk through virtual-first testing of complex automation workflows.",
+      "summary": "<br>\u2022 ABB Robotics integrates **NVIDIA Omniverse** libraries into its **RobotStudio** suite to enable industrial-grade **Physical AI** and high-fidelity simulations.<br>\u2022 The architecture utilizes **RTX-accelerated ray tracing** and **OpenUSD** to bridge the gap between virtual digital twins and real-world physical deployments.<br>\u2022 The system enables **physically accurate synthetic data generation**, allowing for the training and testing of AI models in virtual environments before factory floor implementation.<br>\u2022 Focus is placed on accelerating **autonomous mobile robots (AMRs)** and robotic arm workflows by reducing the need for extensive physical prototyping.",
       "key_results": [
-        "Direct integration of NVIDIA Omniverse into ABB's RobotStudio suite.",
-        "Reported reduction in deployment costs by up to 40%.",
-        "Significant decrease in total engineering time for robotics programming.",
-        "Hardware-in-the-loop simulation capabilities for industrial-grade AI.",
-        "Scalable synthetic data generation for training robotic vision systems."
+        "40% reduction in deployment costs for industrial robotics.",
+        "Significant reduction in engineering lead times through virtual commissioning.",
+        "Direct integration of NVIDIA Omniverse APIs into the ABB RobotStudio ecosystem.",
+        "Enhanced synchronization between digital twins and physical robotic hardware.",
+        "Scaleable deployment of AI-driven automation for manufacturing and logistics."
       ],
       "relevance_score": 6,
       "signal_type": "Release",
-      "one_sentence_takeaway": "ABB Robotics integrates NVIDIA Omniverse to deliver industrial-grade physical AI, reducing deployment costs by forty percent through accurate simulation.",
-      "lead_institution": "NVIDIA",
+      "one_sentence_takeaway": "NVIDIA and ABB partner to integrate Omniverse into RobotStudio, enabling physically accurate digital twins and 40% lower deployment costs.",
+      "lead_institution": "NVIDIA Blog",
       "tags": [
         "Physical AI",
-        "Robotics",
         "Digital Twins",
         "NVIDIA Omniverse",
-        "Industrial Automation"
+        "Robotics",
+        "OpenUSD"
       ]
     }
   },
@@ -128,24 +368,114 @@
     "type": "blog",
     "display_category": "Top News",
     "processed": {
-      "summary": "\n- NVIDIA positions AI as **essential infrastructure** required for cross-industry intelligence and operational scaling by 2026.\n- The analysis focuses on the transition from experimental phases to **measurable ROI** using full-stack accelerated computing platforms.\n- Shift in enterprise strategy toward **Generative AI** workflows that prioritize revenue generation alongside traditional cost-cutting measures.",
+      "summary": "\n* NVIDIA highlights the transition of AI from experimental projects to **essential infrastructure**, emphasizing its role in generating intelligence across all industrial sectors.\n* The report focuses on the **Return on Investment (ROI)** of AI deployments, identifying successful architectural patterns for scaling enterprise applications.\n* Strategic implementation of **Generative AI** is cited as the primary driver for operational efficiency and the development of new revenue streams through 2026.\n* Emphasis is placed on **accelerated computing** as the foundation for the next generation of industrial productivity and multimodal reasoning.",
       "key_results": [
-        "AI has evolved into core industrial infrastructure across all major sectors.",
-        "Enterprises are shifting focus from 'state-of-the-art' benchmarks to specific ROI metrics.",
-        "Acceleration of AI deployment is cited as the primary driver for 2026 revenue growth.",
-        "Full-stack software and hardware integration is becoming the standard for enterprise AI.",
-        "Industry-specific use cases are moving from pilot phases to production-scale infrastructure."
+        "AI is evolving from a specialized tool into a fundamental utility for modern infrastructure.",
+        "Companies are prioritizing measurable ROI over purely exploratory AI research.",
+        "Accelerated computing is becoming a requirement for maintaining industry competitiveness.",
+        "State of AI reports indicate a shift toward production-ready generative workflows.",
+        "Every major industry is now integrating AI to optimize both cost structures and revenue growth."
       ],
       "relevance_score": 3,
       "signal_type": "General News",
-      "one_sentence_takeaway": "NVIDIA reports that AI has become essential infrastructure for driving enterprise revenue and operational efficiency by 2026.",
+      "one_sentence_takeaway": "NVIDIA reports that AI has become essential infrastructure, driving significant industry-wide ROI and productivity gains through accelerated computing.",
       "lead_institution": "NVIDIA",
       "tags": [
         "Enterprise AI",
         "ROI",
-        "Generative AI Trends",
-        "Infrastructure",
-        "Accelerated Computing"
+        "Generative AI",
+        "Accelerated Computing",
+        "AI Trends"
+      ]
+    }
+  },
+  {
+    "title": "How Coding Agents Are Reshaping Engineering, Product and Design",
+    "link": "https://blog.langchain.com/how-coding-agents-are-reshaping-engineering-product-and-design/",
+    "summary": "<p>EPD (Engineering, Product, and Design) at software company is about creating good software. Separate roles exist, but the end goal is functional software that solves a business problem that users can use. At the end of the day, this is just code. It is important to recognize that the output</p>",
+    "source": "LangChain Blog",
+    "published": "2026-03-10T22:34:07+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* The article examines the architectural integration of **Coding Agents** within the Engineering, Product, and Design (EPD) lifecycle.\n* It highlights the shift toward a **unified code-centric output**, where AI bridges the gap between conceptual design and functional implementation.\n* The impact focuses on how **LLM Agents** streamline the software lifecycle by converting business requirements directly into executable code.",
+      "key_results": [
+        "Coding agents are redefining the traditional boundaries between engineering, product, and design roles.",
+        "The primary deliverable for software teams is increasingly viewed as an AI-orchestrated codebase.",
+        "LLM Agents significantly reduce manual boilerplate, accelerating the transition from business logic to production.",
+        "Automated agents allow for more rapid prototyping by interpreting design specs as functional code.",
+        "Engineering workflows are shifting from low-level syntax management to high-level system orchestration."
+      ],
+      "relevance_score": 5,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "LangChain explores how autonomous coding agents reshape the EPD lifecycle by consolidating design and engineering into functional code.",
+      "lead_institution": "LangChain",
+      "tags": [
+        "LLM Agents",
+        "Vibe Coding",
+        "Software Engineering",
+        "Generative AI",
+        "Product Design"
+      ]
+    }
+  },
+  {
+    "title": "3 Questions: Building predictive models to characterize tumor progression",
+    "link": "https://news.mit.edu/2026/3-questions-building-predictive-models-characterize-tumor-progression-0310",
+    "summary": "Assistant Professor Matthew Jones is working to decode molecular processes on the genetic, epigenetic, and microenvironment levels to anticipate how and when tumors evolve to resist treatment.",
+    "source": "MIT News - Artificial intelligence",
+    "published": "2026-03-10T20:50:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Development of **predictive modeling** frameworks to integrate multi-omic data across genetic, epigenetic, and microenvironmental layers.\n- Focus on decoding the **molecular processes** that allow tumors to evolve and develop resistance to clinical treatments.\n- Implementation of **computational characterization** to shift cancer intervention from reactive responses to proactive, data-driven strategies.",
+      "key_results": [
+        "Integration of genetic and epigenetic data for tumor profiling.",
+        "Characterization of microenvironment influences on cancer progression.",
+        "Modeling of evolutionary trajectories in treatment resistance.",
+        "Establishment of multi-scale molecular decoding processes.",
+        "Development of predictive frameworks for anticipatory oncology."
+      ],
+      "relevance_score": 4,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "MIT's Matthew Jones develops predictive models to decode molecular evolution and anticipate tumor resistance to cancer treatments.",
+      "lead_institution": "MIT",
+      "tags": [
+        "Predictive Modeling",
+        "Bio-AI",
+        "Multi-omics",
+        "Cancer Research",
+        "Molecular Dynamics"
+      ]
+    }
+  },
+  {
+    "title": "How Joseph Paradiso\u2019s sensing innovations bridge the arts, medicine, and ecology",
+    "link": "https://news.mit.edu/2026/mit-professor-joseph-paradiso-sensing-innovations-0310",
+    "summary": "From early motion-sensing platforms to environmental monitoring, the professor and head of the Program in Media Arts and Sciences has turned decades of cross-disciplinary research into real-world impact.",
+    "source": "MIT News - Artificial intelligence",
+    "published": "2026-03-10T20:25:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Joseph Paradiso at MIT has pioneered **multimodal sensing architectures** that integrate physical environments with digital systems, facilitating high-fidelity data acquisition.\n- His research emphasizes **ubiquitous computing** and the deployment of dense, wireless sensor networks designed for real-world environmental and medical monitoring.\n- These innovations bridge the gap between raw sensory input and **intelligent perception**, providing a foundation for context-aware digital twins and interactive environments.\n- The architecture focuses on **cross-disciplinary integration**, blending hardware innovation with software frameworks to scale sensing impact across arts, medicine, and ecology.",
+      "key_results": [
+        "Developed early high-precision motion-sensing platforms for interactive arts and performance.",
+        "Engineered dense wireless sensor networks for longitudinal environmental and ecological monitoring.",
+        "Created wearable biometric sensor technology for advanced medical and wellness applications.",
+        "Pioneered paradigms in ubiquitous computing that allow environments to respond dynamically to human presence.",
+        "Demonstrated the scalability of heterogeneous sensor data integration into unified digital frameworks."
+      ],
+      "relevance_score": 4,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "MIT professor Joseph Paradiso integrates advanced sensing platforms to bridge physical environments with digital intelligence across diverse disciplines.",
+      "lead_institution": "MIT",
+      "tags": [
+        "Ubiquitous Computing",
+        "Multimodal Sensing",
+        "IoT",
+        "HCI",
+        "Sensor Networks"
       ]
     }
   },
@@ -1170,66 +1500,6 @@
     }
   },
   {
-    "title": "Before You Hand Over the Wheel: Evaluating LLMs for Security Incident Analysis",
-    "link": "http://arxiv.org/abs/2603.06422v1",
-    "summary": "Security incident analysis (SIA) poses a major challenge for security operations centers, which must manage overwhelming alert volumes, large and diverse data sources, complex toolchains, and limited analyst expertise. These difficulties intensify because incidents evolve dynamically and require multi-step, multifaceted reasoning. Although organizations are eager to adopt Large Language Models (LLMs) to support SIA, the absence of rigorous benchmarking creates significant risks for assessing their effectiveness and guiding design decisions. Benchmarking is further complicated by: (i) the lack of an LLM-ready dataset covering a wide spectrum of SIA tasks; (ii) the continual emergence of new tasks reflecting the diversity of analyst responsibilities; and (iii) the rapid release of new LLMs that must be incorporated into evaluations.\n  In this paper, we address these challenges by introducing SIABENCH, an agentic evaluation framework for security incident analysis. First, we construct a first-of-its-kind dataset comprising two major SIA task categories: (i) deep analysis workflows for security incidents (25 scenarios) and (ii) alert-triage tasks (135 scenarios). Second, we implement an agent capable of autonomously performing a broad spectrum of SIA tasks (including network and memory forensics, malware analysis across binary/code/PDF formats, phishing email and kit analysis, log analysis, and false-alert detection). Third, we benchmark 11 major LLMs (spanning both open- and closed-weight models) on these tasks, with extensibility to support emerging models and newly added analysis scenarios.",
-    "source": "ArXiv",
-    "published": "2026-03-06T15:58:30+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Introduces **SIABENCH**, an agentic evaluation framework designed to rigorously benchmark LLM performance in **Security Incident Analysis (SIA)**.\n- Establishes a novel dataset comprising **160 scenarios** split between deep analysis workflows (e.g., forensics, malware) and alert-triage tasks.\n- Implements an **autonomous agent** capable of multi-step reasoning across diverse domains like network forensics, binary analysis, and phishing detection.\n- Focuses on the **extensibility** of the framework to accommodate rapid releases of new models and evolving cyber threat landscapes.",
-      "key_results": [
-        "Development of the first LLM-ready dataset covering a wide spectrum of SIA tasks.",
-        "Benchmark results for 11 major open-weight and closed-source LLMs.",
-        "Identification of performance gaps in LLMs regarding multi-faceted security reasoning.",
-        "Validation of agentic tool-use for memory forensics and malware kit analysis.",
-        "Establishment of a standardized methodology for assessing AI safety in security operations."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce SIABENCH to evaluate LLM agents on complex, multi-step security incident analysis and autonomous forensic tasks.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "LLM Agents",
-        "AI Evaluation",
-        "Cybersecurity",
-        "Security Analysis",
-        "Agentic Frameworks"
-      ]
-    }
-  },
-  {
-    "title": "Evaluation of Deontic Conditional Reasoning in Large Language Models: The Case of Wason's Selection Task",
-    "link": "http://arxiv.org/abs/2603.06416v1",
-    "summary": "As large language models (LLMs) advance in linguistic competence, their reasoning abilities are gaining increasing attention. In humans, reasoning often performs well in domain specific settings, particularly in normative rather than purely formal contexts. Although prior studies have compared LLM and human reasoning, the domain specificity of LLM reasoning remains underexplored. In this study, we introduce a new Wason Selection Task dataset that explicitly encodes deontic modality to systematically distinguish deontic from descriptive conditionals, and use it to examine LLMs' conditional reasoning under deontic rules. We further analyze whether observed error patterns are better explained by confirmation bias (a tendency to seek rule-supporting evidence) or by matching bias (a tendency to ignore negation and select items that lexically match elements of the rule). Results show that, like humans, LLMs reason better with deontic rules and display matching-bias-like errors. Together, these findings suggest that the performance of LLMs varies systematically across rule types and that their error patterns can parallel well-known human biases in this paradigm.",
-    "source": "ArXiv",
-    "published": "2026-03-06T15:55:13+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "<br>\u2022 The study evaluates **deontic conditional reasoning** in LLMs using the **Wason Selection Task**, distinguishing between normative (social rules) and descriptive (formal logic) contexts. <br>\u2022 Researchers created a novel dataset to analyze model performance across different **modalities**, testing for human-like cognitive heuristics. <br>\u2022 The evaluation identifies whether LLM errors stem from **matching bias** (lexical matching) or **confirmation bias** (seeking rule-supporting evidence). <br>\u2022 Findings suggest LLM reasoning is **domain-specific**, mirroring the performance discrepancies and biases seen in human cognitive psychology.",
-      "key_results": [
-        "LLMs achieve significantly higher accuracy on **deontic rules** compared to abstract or descriptive logical rules.",
-        "Error patterns in frontier models are better explained by **matching bias** than by confirmation bias.",
-        "Models frequently ignore negation and select items that **lexically match** elements of the provided rule.",
-        "LLM performance varies systematically across rule types, indicating that reasoning is not purely formal.",
-        "The new dataset provides a specific benchmark for evaluating **normative reasoning** and cognitive alignment in LLMs."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers show LLMs perform better on deontic reasoning tasks while exhibiting human-like matching biases in logical selection.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "Reasoning Models",
-        "Cognitive AI",
-        "LLM Evaluation",
-        "Logic",
-        "Human-AI Alignment"
-      ]
-    }
-  },
-  {
     "title": "Temporal Network Creation Games: The Impact of Flexible Labels",
     "link": "http://arxiv.org/abs/2603.06406v1",
     "summary": "A crucial aspect of research is understanding how real-world networks, such as transportation and information networks, are formed. A prominent model for such networks was introduced by \\cite{fabrikant_network_2003} and extended by \\cite{bilo_temporal_2023}, incorporating temporal graphs to better represent real-world networks. In this model, there is a given host graph with $n$ agents (represented by nodes) and time labels on the edges. Each agent can establish connections by purchasing edges. This makes the edges present at the time steps given by the time labels of the host graph. The goal of each agent is to reach as many other agents as possible while minimizing the number of edges bought. However, this model makes the simplifying assumption that each edge comes with predetermined time steps. We address this deficiency by extending the model of Bilo et al. \\cite{bilo_temporal_2023} to allow agents to purchase edges and to decide when they appear. To capture a variety of real-world applications, we study two reachability models and several cost functions based on the label an agent assigns to an edge. For these settings, we provide proofs of existence of Nash equilibria, as well as lower and upper bounds on the Price of Anarchy and Price of Stability.",
@@ -1256,66 +1526,6 @@
         "Nash Equilibrium",
         "Network Design",
         "Agent-based Modeling"
-      ]
-    }
-  },
-  {
-    "title": "Adapter-Augmented Bandits for Online Multi-Constrained Multi-Modal Inference Scheduling",
-    "link": "http://arxiv.org/abs/2603.06403v1",
-    "summary": "Multi-modal large language model (MLLM) inference scheduling enables strong response quality under practical and heterogeneous budgets, beyond what a homogeneous single-backend setting can offer. Yet online MLLM task scheduling is nontrivial, as requests vary sharply in modality composition and latent reasoning difficulty, while execution backends incur distinct, time-varying costs due to system jitter and network variation. These coupled uncertainties pose two core challenges: deriving semantically faithful yet scheduling-relevant multi-modal task representations, and making low-overhead online decisions over irreversible multi-dimensional budgets. Accordingly, we propose \\emph{M-CMAB} (\\underline{M}ulti-modal \\underline{M}ulti-constraint \\underline{C}ontextual \\underline{M}ulti-\\underline{A}rmed \\underline{B}andit), a multi-adapter-enhanced MLLM inference scheduling framework with three components: (i) a CLS-attentive, frozen-backbone \\emph{Predictor} that extracts compact task representations and updates only lightweight adapters for action-specific estimation; (ii) a primal-dual \\emph{Constrainer} that maintains online Lagrange multipliers to enforce long-horizon constraints via per-round objectives; and (iii) a two-phase \\emph{Scheduler} that balances exploration and exploitation under irreversible budgets. We establish a regret guarantee under multi-dimensional knapsack constraints. On a composite multimodal benchmark with heterogeneous backends, \\emph{M-CMAB} consistently outperforms state-of-the-art baselines across budget regimes, achieving up to 14.18% higher reward and closely tracking an oracle-aided upper bound. Codes are available at https://anonymous.4open.science/r/M2CMAB/.",
-    "source": "ArXiv",
-    "published": "2026-03-06T15:45:33+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n* Introduces **M-CMAB**, a framework designed to optimize **Multimodal Large Language Model (MLLM)** inference scheduling across heterogeneous backends with time-varying costs.\n* Utilizes a **CLS-attentive Predictor** that employs frozen backbones and **lightweight adapters** to extract task representations and perform action-specific reward estimation.\n* Integrates a **primal-dual Constrainer** that applies online Lagrange multipliers to enforce long-horizon budget constraints via per-round objective optimization.\n* Employs a **two-phase Scheduler** to effectively balance exploration and exploitation under irreversible multi-dimensional budget settings, ensuring a theoretical **regret guarantee**.",
-      "key_results": [
-        "Outperformed state-of-the-art baselines by achieving up to 14.18% higher cumulative reward.",
-        "Demonstrated the ability to closely track an oracle-aided upper bound in heterogeneous budget regimes.",
-        "Successfully handled sharp variations in modality composition and latent reasoning difficulty across tasks.",
-        "Mitigated system jitter and network variation through adaptive, low-overhead online decision-making.",
-        "Validated performance on a composite multimodal benchmark using diverse backends and multi-dimensional knapsack constraints."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "Researchers introduce M-CMAB, an adapter-based bandit framework optimizing multimodal LLM inference scheduling under complex, multi-dimensional budget constraints.",
-      "lead_institution": "ArXiv Researchers",
-      "tags": [
-        "Multimodal AI",
-        "Inference Scheduling",
-        "Contextual Bandits",
-        "Adapter Tuning",
-        "Resource Optimization"
-      ]
-    }
-  },
-  {
-    "title": "Efficient, Property-Aligned Fan-Out Retrieval via RL-Compiled Diffusion",
-    "link": "http://arxiv.org/abs/2603.06397v1",
-    "summary": "Many modern retrieval problems are set-valued: given a broad intent, the system must return a collection of results that optimizes higher-order properties\n  (e.g., diversity, coverage, complementarity, coherence) while remaining grounded with respect to a fixed database. Set-valued objectives are typically\n  non-decomposable and are not captured by existing supervised (query, content) datasets which only prioritize top-1 retrieval. Consequently, fan-out\n  retrieval is often employed to generate diverse subqueries to retrieve item sets. While reinforcement learning (RL) can optimize set-level objectives via\n  interaction, deploying an RL-tuned LLM for fan-out retrieval is prohibitively expensive at inference time. Conversely, diffusion-based generative\n  retrieval enables efficient single-pass fan-out in embedding space, but requires objective-aligned training targets. To address these issues, we propose\n  R4T (Retrieve-for-Train), which uses RL once as an objective transducer in a three-step process: (i) train a fan-out LLM with composite set-level rewards,\n  (ii) synthesize objective-consistent training pairs, and (iii) train a lightweight diffusion retriever to model the conditional distribution of set-valued\n  outputs. Across large-scale fashion and music benchmarks consisting of curated item sets, we show that R4T improves retrieval quality relative to strong\n  baselines while reducing query-time fan-out latency by an order of magnitude.",
-    "source": "ArXiv",
-    "published": "2026-03-06T15:42:33+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "- Introduces **R4T (Retrieve-for-Train)**, a framework that compiles complex set-level retrieval objectives from RL-tuned LLMs into efficient **diffusion models**.\n- Employs **reinforcement learning** to optimize for non-decomposable properties such as diversity and coverage that standard top-k retrieval lacks.\n- Leverages a **diffusion retriever** for single-pass fan-out in embedding space, bypassing the high inference costs of autoregressive models.\n- Demonstrates a 10x reduction in **inference latency** while maintaining or improving retrieval quality on large-scale benchmarks.",
-      "key_results": [
-        "Reduces query-time fan-out latency by an order of magnitude compared to LLM-based retrieval.",
-        "Outperforms strong baselines in retrieval quality across fashion and music benchmarks.",
-        "Successfully optimizes higher-order set properties including diversity, coverage, and coherence.",
-        "Enables efficient single-pass generation of diverse sub-query embedding sets.",
-        "Demonstrates RL's effectiveness as an objective transducer for distilling knowledge into lightweight models."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce R4T, a framework distilling RL-optimized set retrieval into diffusion models to achieve 10x faster, diverse results.",
-      "lead_institution": "ArXiv Researchers",
-      "tags": [
-        "Diffusion Models",
-        "RLHF",
-        "Fan-out Retrieval",
-        "RAG Efficiency",
-        "Set-valued Optimization"
       ]
     }
   },
@@ -1376,36 +1586,6 @@
         "PDE Solvers",
         "Numerical Methods",
         "Derivative Learning"
-      ]
-    }
-  },
-  {
-    "title": "Doctor or Patient? Synergizing Diarization and ASR for Code-Switched Hinglish Medical Conditions Extraction",
-    "link": "http://arxiv.org/abs/2603.06373v1",
-    "summary": "Extracting patient medical conditions from code-switched clinical spoken dialogues is challenging due to rapid turn-taking and highly overlapped speech. We present a robust system evaluated on the DISPLACE-M dataset of real-world Hinglish medical conversations. We propose an End-to-End Neural Diarization with Vector Clustering approach (EEND-VC) to accurately resolve dense and speaker overlaps in Doctor-Patient Conversations (DoPaCo). For transcription, we adapt a Qwen3 ASR model via domain-specific fine-tuning, Devanagari script normalization, and dialogue-level LLM error correction, achieving an 18.59% tcpWER. We benchmark open and proprietary LLMs on medical condition extraction, comparing our text-based cascade system against a multimodal End-to-End (E2E) audio framework. While proprietary E2E models set the performance ceiling, our open cascaded architecture is highly competitive, as it achieved first place out of 25 participants in the DISPLACE-M challenge. All implementations are publicly released.",
-    "source": "ArXiv",
-    "published": "2026-03-06T15:24:52+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Proposes a **cascaded architecture** for Hinglish medical dialogue analysis, integrating **EEND-VC** (End-to-End Neural Diarization with Vector Clustering) to resolve dense speaker overlaps.\n- Utilizes a domain-tuned **Qwen3 ASR model** enhanced with Devanagari script normalization and **dialogue-level LLM error correction** for robust transcription.\n- Benchmarks the performance of open-source cascaded systems against **proprietary multimodal E2E frameworks**, specifically within the context of **Doctor-Patient Conversations (DoPaCo)**.\n- Establishes a competitive baseline for **code-switched medical entity extraction** in real-world, high-noise clinical settings.",
-      "key_results": [
-        "Achieved 1st place out of 25 participants in the DISPLACE-M challenge for medical conversation analysis.",
-        "Attained an 18.59% tcpWER (total corrected word error rate) using a fine-tuned Qwen3 ASR backbone.",
-        "Demonstrated that optimized open-source cascaded systems can effectively rival proprietary E2E performance ceilings.",
-        "Successfully addressed the challenge of rapid turn-taking and speaker overlap in Hinglish clinical dialogues via EEND-VC.",
-        "Publicly released all implementations to facilitate research in code-switched multimodal medical AI."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "The DISPLACE-M research team achieves top-tier results in Hinglish medical transcription by synergizing neural diarization with domain-tuned LLMs.",
-      "lead_institution": "IISc Bangalore",
-      "tags": [
-        "Code-switching",
-        "ASR",
-        "Speaker Diarization",
-        "Medical AI",
-        "Local LLMs"
       ]
     }
   },
@@ -2816,96 +2996,6 @@
         "DeepSeek-R1",
         "German NLP",
         "Open-weight Models"
-      ]
-    }
-  },
-  {
-    "title": "ChatShopBuddy: Towards Reliable Conversational Shopping Agents via Reinforcement Learning",
-    "link": "http://arxiv.org/abs/2603.06065v1",
-    "summary": "Conversational shopping agents represent a critical consumer-facing application of Large Language Model (LLM)-powered agents, yet how to effectively apply post-training Reinforcement Learning (RL) to optimize such agents remains underexplored. This work investigates RL-based optimization for shopping agents in real-world scenarios, where agents must simultaneously satisfy multiple interdependent objectives spanning objective metrics (product correctness), subjective qualities (persuasiveness), outcome rewards (final response quality), and process rewards (tool efficiency). We present a complete methodology to address this challenge. Specifically, we first construct SmartShopBench, a benchmark that captures diverse shopping intents with a hierarchical evaluation that decomposes complex quality requirements into measurable levels. Building on this evaluation framework, we design Hierarchical Reward Modeling (HRM) to structure mixed reward types through conditional gating that reflects their logical dependencies. To enable efficient training, we further propose Dynamic Contrastive Policy Optimization (DCPO), which balances response quality with operational efficiency through dynamic trajectory selection based on reward and reasoning length. Extensive experiments demonstrate that our RL-trained agent, namely ChatShopBuddy, consistently outperforms larger models relying on generic reasoning, achieving superior stability rather than merely higher peaks. Our work provides valuable guidance for applying RL to real-world conversational agents.",
-    "source": "ArXiv",
-    "published": "2026-03-06T09:18:51+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n\u2022 Proposes **SmartShopBench**, a new benchmark that decomposes complex shopping intents into a hierarchical evaluation framework to measure objective and subjective qualities.\n\u2022 Introduces **Hierarchical Reward Modeling (HRM)**, which uses conditional gating to manage interdependent reward types like product correctness, persuasiveness, and tool efficiency.\n\u2022 Implements **Dynamic Contrastive Policy Optimization (DCPO)**, a training method that balances response quality with operational efficiency via dynamic trajectory selection.\n\u2022 Demonstrates that **ChatShopBuddy** achieves superior stability and performance compared to larger models by focusing on RL-based post-training for specific agentic workflows.",
-      "key_results": [
-        "ChatShopBuddy outperforms larger general-purpose LLMs in specialized shopping tasks.",
-        "The HRM architecture successfully structures logical dependencies between diverse reward types.",
-        "DCPO optimization results in improved operational efficiency by balancing reasoning length with reward outcomes.",
-        "SmartShopBench provides a more granular assessment of shopping agents than existing general benchmarks.",
-        "RL-trained agents show significantly higher stability in response quality rather than just increased peak performance."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce ChatShopBuddy, leveraging hierarchical rewards and dynamic policy optimization to create highly reliable conversational shopping agents.",
-      "lead_institution": "ArXiv Researchers",
-      "tags": [
-        "LLM Agents",
-        "Reinforcement Learning",
-        "Policy Optimization",
-        "Conversational AI",
-        "Model Fine-tuning"
-      ]
-    }
-  },
-  {
-    "title": "Agentic LLM Planning via Step-Wise PDDL Simulation: An Empirical Characterisation",
-    "link": "http://arxiv.org/abs/2603.06064v1",
-    "summary": "Task planning, the problem of sequencing actions to reach a goal from an initial state, is a core capability requirement for autonomous robotic systems. Whether large language models (LLMs) can serve as viable planners alongside classical symbolic methods remains an open question. We present PyPDDLEngine, an open-source Planning Domain Definition Language (PDDL) simulation engine that exposes planning operations as LLM tool calls through a Model Context Protocol (MCP) interface. Rather than committing to a complete action sequence upfront, the LLM acts as an interactive search policy that selects one action at a time, observes each resulting state, and can reset and retry. We evaluate four approaches on 102 International Planning Competition (IPC) Blocksworld instances under a uniform 180-second budget: Fast Downward lama-first and seq-sat-lama-2011 as classical baselines, direct LLM planning (Claude Haiku 4.5), and agentic LLM planning via PyPDDLEngine. Fast Downward achieves 85.3% success. The direct and agentic LLM approaches achieve 63.7% and 66.7%, respectively, a consistent but modest three-percentage-point advantage for the agentic approach at $5.7\\times$ higher token cost per solution. Across most co-solved difficulty blocks, both LLM approaches produce shorter plans than seq-sat-lama-2011 despite its iterative quality improvement, a result consistent with training-data recall rather than generalisable planning. These results suggest that agentic gains depend on the nature of environmental feedback. Coding agents benefit from externally grounded signals such as compiler errors and test failures, whereas PDDL step feedback is self-assessed, leaving the agent to evaluate its own progress without external verification.",
-    "source": "ArXiv",
-    "published": "2026-03-06T09:16:49+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n \u2022 Introduces **PyPDDLEngine**, an open-source framework that integrates **PDDL simulation** as tool calls via the **Model Context Protocol (MCP)**.\n \u2022 Implements **Agentic LLM Planning** where models function as interactive search policies, evaluating state changes and retrying actions step-wise.\n \u2022 Compares agentic reasoning against **classical symbolic planners** (Fast Downward) to determine the viability of LLMs in autonomous robotic sequencing.\n \u2022 Identifies that agentic gains are heavily dependent on **grounded environmental feedback**, finding that self-assessed PDDL signals offer less utility than coding compiler errors.",
-      "key_results": [
-        "Classical Fast Downward planners achieved 85.3% success, outperforming all LLM-based methods.",
-        "The agentic LLM approach reached 66.7% success, a marginal 3% improvement over direct planning.",
-        "Agentic planning incurred a 5.7x higher token cost per solution compared to direct LLM generation.",
-        "LLM plans were shorter than classical iterative solutions, suggesting a reliance on training data recall.",
-        "Success rates in agentic loops are limited by the model's ability to self-verify progress without external grounded signals."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers show that agentic PDDL planning provides marginal accuracy gains while increasing token costs by five times.",
-      "lead_institution": "ArXiv Researchers",
-      "tags": [
-        "LLM Agents",
-        "PDDL",
-        "Model Context Protocol",
-        "AI Planning",
-        "Benchmarking"
-      ]
-    }
-  },
-  {
-    "title": "Limited-Precision Stochastic Rounding",
-    "link": "http://arxiv.org/abs/2603.06060v1",
-    "summary": "Stochastic rounding (SR) is a probabilistic method used to round numbers to floating-point and fixed-point representations. In length $n$ summation, the worst-case error of SR grows as $\\sqrt{n}$ with high probability, unlike for standard modes, like round-to-nearest (RN), which grows as $n$. For this reason, the former is increasingly employed in large-scale, low-precision computations as an RN alternative. Additionally, SR alleviates stagnation, whereby relatively small summands are completely rounded off and do not contribute to the sum. We provide an update to [Croci et al., Roy. Soc. Open Sci. 9.3 (2022), pp. 1-25], a survey which discusses the development and use of SR between 1949 and 2022, citing over 100 references. Since then, there has been a surge of new research, and this update covers almost four years of further progress in applying, analysing, and implementing SR. Our main focus is limited-precision stochastic rounding, a new variant that fixes the precision of the random numbers used. We provide insights into industrial and numerical analysis activities surrounding SR, highlighting the next possible steps in making this rounding mode more widely available in hardware.",
-    "source": "ArXiv",
-    "published": "2026-03-06T09:11:44+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "<br> Evaluates **Stochastic Rounding (SR)** as a probabilistic rounding mode that replaces Round-to-Nearest to improve error bounds in **low-precision computation**.<br> Addresses the **stagnation problem**, where small parameter updates are lost in standard rounding, by ensuring probabilistic accumulation in **large-scale training**.<br> Proposes **Limited-Precision Stochastic Rounding**, a hardware-optimized variant that uses fixed-precision random numbers to reduce silicon overhead.<br> Maps the transition of SR from a theoretical numerical analysis tool to a critical feature for next-generation **AI hardware accelerators**.",
-      "key_results": [
-        "SR error grows at the square root of n, whereas standard rounding error grows linearly with operation count.",
-        "Eliminates numerical stagnation in low-precision formats like FP8 or INT8 during weight updates.",
-        "Introduces Limited-Precision SR to balance hardware complexity with numerical accuracy.",
-        "Details a surge in industrial adoption for deep learning frameworks and specialized AI chips.",
-        "Provides a comprehensive roadmap for standardizing SR in future floating-point instruction sets."
-      ],
-      "relevance_score": 7,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "Oxford University researchers show how limited-precision stochastic rounding enables more efficient hardware implementation for low-precision generative AI training.",
-      "lead_institution": "Oxford University",
-      "tags": [
-        "Stochastic Rounding",
-        "Low-Precision Training",
-        "Quantization",
-        "Hardware Acceleration",
-        "Numerical Analysis"
       ]
     }
   }
