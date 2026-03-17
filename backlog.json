@@ -1,151 +1,511 @@
 [
   {
-    "title": "Patch Me If You Can: AI Codemods for Secure-by-Default Android Apps",
-    "link": "https://engineering.fb.com/2026/03/13/android/ai-codemods-secure-by-default-android-apps-meta-tech-podcast/",
-    "summary": "<p>Even seemingly simple engineering tasks \u2014 like updating an API \u2014 can become monumental undertakings when you&#8217;re dealing with millions of lines of code and thousands of engineers, especially if the changes are security-related. Nowhere is this more apparent than in mobile security, where a single class of vulnerability can be replicated across hundreds of [...]</p>\n<p><a class=\"btn btn-secondary understrap-read-more-link\" href=\"https://engineering.fb.com/2026/03/13/android/ai-codemods-secure-by-default-android-apps-meta-tech-podcast/\">Read More...</a></p>\n<p>The post <a href=\"https://engineering.fb.com/2026/03/13/android/ai-codemods-secure-by-default-android-apps-meta-tech-podcast/\" rel=\"nofollow\">Patch Me If You Can: AI Codemods for Secure-by-Default Android Apps</a> appeared first on <a href=\"https://engineering.fb.com\" rel=\"nofollow\">Engineering at Meta</a>.</p>",
-    "source": "Engineering at Meta",
-    "published": "2026-03-13T16:00:26+00:00",
+    "title": "Testing LLMs on superconductivity research questions",
+    "link": "https://research.google/blog/testing-llms-on-superconductivity-research-questions/",
+    "summary": "Education Innovation",
+    "source": "The latest research from Google",
+    "published": "2026-03-16T17:31:00+00:00",
     "type": "blog",
     "display_category": "Top News",
     "processed": {
-      "summary": "\n- Meta utilizes **AI-driven codemods** to automate security-critical API updates and refactors across massive Android codebases.\n- The architecture focuses on **secure-by-default** principles by programmatically transforming vulnerable code patterns into safe, modern alternatives.\n- By leveraging **Large Language Models (LLMs)**, the system manages complex, high-variance transformations that traditional Abstract Syntax Tree (AST) tools struggle to resolve.",
+      "summary": "\n- Evaluation of **LLM performance** in the highly specialized domain of **superconductivity**, focusing on technical accuracy and complex reasoning.\n- The study utilizes a curated dataset of research-grade questions to probe **domain-specific knowledge** and multi-step scientific inference capabilities.\n- Analysis highlights the persistent challenge of **hallucinations** in niche literature and assesses the impact of specialized **prompting techniques** on accuracy.",
       "key_results": [
-        "Automated remediation of recurring security vulnerability classes.",
-        "Streamlined migration of deprecated or insecure APIs at scale.",
-        "Significant reduction in manual engineering toil for security patches.",
-        "Consistent enforcement of security policies across millions of lines of code.",
-        "Integration of AI-powered refactoring into the standard developer workflow."
+        "LLMs exhibit a significant performance gap when transitioning from general physics to specific superconductivity parameters.",
+        "Models frequently struggle with precise data extraction from technical descriptions of material properties.",
+        "Advanced reasoning models perform better at linking conceptual theories than calculating specific physical constants.",
+        "Zero-shot accuracy remains inconsistent, necessitating specialized prompt engineering for material science queries.",
+        "The findings suggest a critical requirement for RAG-based systems to ensure accuracy in high-stakes scientific research."
       ],
-      "relevance_score": 8,
-      "signal_type": "Engineering Blog",
-      "one_sentence_takeaway": "Meta implements AI-driven codemods to automate security patches and API migrations across massive Android codebases at scale.",
-      "lead_institution": "Engineering at Meta",
+      "relevance_score": 6,
+      "signal_type": "Paper",
+      "one_sentence_takeaway": "Google Research evaluates LLMs on superconductivity, uncovering performance gaps in domain-specific reasoning and quantitative technical data.",
+      "lead_institution": "Google Research",
       "tags": [
-        "AI Codemods",
-        "Android Security",
+        "AI Evaluation",
+        "Reasoning Models",
+        "Material Science",
+        "LLM Benchmarking",
+        "Scientific AI"
+      ]
+    }
+  },
+  {
+    "title": "GitHub for Beginners: Getting started with GitHub Actions",
+    "link": "https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-github-actions/",
+    "summary": "<p>Set up your first GitHub Actions workflow in this how-to guide.</p>\n<p>The post <a href=\"https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-github-actions/\">GitHub for Beginners: Getting started with GitHub Actions</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
+    "source": "The GitHub Blog",
+    "published": "2026-03-16T16:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- **GitHub Actions** provides an integrated **CI/CD** platform for automating software development workflows directly within the GitHub ecosystem.\n- The architecture utilizes **YAML-based** configurations to define automated pipelines triggered by specific repository events like pushes or pull requests.\n- By abstracting infrastructure, it allows developers to implement **event-driven** automation for building, testing, and deploying code without managing external servers.",
+      "key_results": [
+        "Introduction to creating workflow files in the .github/workflows directory",
+        "Explanation of core components: Events, Jobs, Steps, and Actions",
+        "Guidance on using the YAML syntax for declarative workflow definitions",
+        "Demonstration of automated code testing upon repository updates",
+        "Simplified path for developers to transition from manual to automated deployments"
+      ],
+      "relevance_score": 3,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "GitHub introduces a foundational guide for developers to automate code workflows using GitHub Actions CI/CD pipelines.",
+      "lead_institution": "GitHub",
+      "tags": [
+        "CI/CD",
+        "Automation",
+        "DevOps",
+        "GitHub Actions",
+        "Workflow Orchestration"
+      ]
+    }
+  },
+  {
+    "title": "AWS and NVIDIA deepen strategic collaboration to accelerate AI from pilot to production",
+    "link": "https://aws.amazon.com/blogs/machine-learning/aws-and-nvidia-deepen-strategic-collaboration-to-accelerate-ai-from-pilot-to-production/",
+    "summary": "Today at NVIDIA GTC 2026, AWS and NVIDIA announced an expanded collaboration with new technology integrations to support growing AI compute demand and help you build and run AI solutions that are production-ready.",
+    "source": "Artificial Intelligence",
+    "published": "2026-03-16T20:51:16+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* AWS and NVIDIA expand their **strategic partnership** to address the scaling demands of **generative AI infrastructure**.\n* The collaboration focuses on integrating **NVIDIA hardware** within **AWS cloud services** to streamline the transition from pilot to enterprise production.\n* Technical integrations aim to optimize **compute efficiency** and performance for large-scale model training and inference workloads.",
+      "key_results": [
+        "Expanded AWS and NVIDIA technology integration for AI workloads.",
+        "Strategic focus on production-ready AI deployment workflows.",
+        "Support for rapidly growing global AI compute demand.",
+        "Enhanced infrastructure capabilities announced at GTC 2026.",
+        "Accelerated transition timeline for AI solutions from pilot to production."
+      ],
+      "relevance_score": 2,
+      "signal_type": "Release",
+      "one_sentence_takeaway": "AWS and NVIDIA expand their collaboration to scale compute infrastructure and accelerate production-ready generative AI deployment.",
+      "lead_institution": "Artificial Intelligence",
+      "tags": [
+        "AI Infrastructure",
+        "Cloud Compute",
+        "NVIDIA GTC",
+        "AWS",
+        "Generative AI"
+      ]
+    }
+  },
+  {
+    "title": "Agentic AI in the Enterprise Part 2: Guidance by Persona",
+    "link": "https://aws.amazon.com/blogs/machine-learning/agentic-ai-in-the-enterprise-part-2-guidance-by-persona/",
+    "summary": "This is Part II of a two-part series from the AWS Generative AI Innovation Center. In Part II, we speak directly to the leaders who must turn that shared foundation into action. Each role carries a distinct set of responsibilities, risks, and leverage points. Whether you own a P&amp;L, run enterprise architecture, lead security, govern data, or manage compliance, this section is written in the language of your job\u2014because that's where agentic AI either succeeds or quietly dies.",
+    "source": "Artificial Intelligence",
+    "published": "2026-03-16T17:55:54+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Transitioning to **Agentic AI** requires a shift from standard LLM prompts to role-specific orchestration frameworks tailored to enterprise personas.\n- Successful implementation hinges on aligning **Enterprise Architecture** with business-unit goals to mitigate technical debt and maximize P&L impact.\n- Scalable governance must embed **Security and Compliance** protocols directly into the autonomous agent decision-making loop to ensure organizational safety.",
+      "key_results": [
+        "Identifies distinct responsibilities for P&L owners, architects, and security leads in agentic deployments.",
+        "Proposes a framework for aligning agentic behavior with specific enterprise business logic.",
+        "Categorizes risks associated with autonomous agents into persona-specific action items.",
+        "Outlines a strategy for integrating agentic systems into legacy data governance models.",
+        "Establishes the 'Agentic AI' lifecycle as a critical competency for modern enterprise architecture."
+      ],
+      "relevance_score": 4,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "AWS Generative AI Innovation Center outlines strategic persona-based frameworks for implementing autonomous agentic AI across enterprise leadership roles.",
+      "lead_institution": "AWS Generative AI Innovation Center",
+      "tags": [
+        "Agentic AI",
+        "Enterprise AI",
         "LLM Agents",
-        "Automated Refactoring",
-        "DevSecOps"
+        "AI Governance",
+        "AI Strategy"
+      ]
+    }
+  },
+  {
+    "title": "How Workhuman built multi-tenant self-service reporting using Amazon Quick Sight embedded dashboards",
+    "link": "https://aws.amazon.com/blogs/machine-learning/how-workhuman-built-multi-tenant-self-service-reporting-using-amazon-quick-sight-embedded-dashboards/",
+    "summary": "This post explores how Workhuman transformed their analytics delivery model and the key lessons learned from their implementation. We go through their architecture approach, implementation strategy, and the business outcomes they achieved\u2014providing you with a practical blueprint for adding embedded analytics to your own software as a service (SaaS) applications.",
+    "source": "Artificial Intelligence",
+    "published": "2026-03-16T14:48:16+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n*   Developed a **multi-tenant architecture** utilizing **Amazon QuickSight** to provide embedded, self-service analytics within a SaaS platform.\n*   Implemented strict **data isolation** protocols and security filtering to ensure that individual customer tenants only access their specific datasets.\n*   Automated the **reporting lifecycle**, allowing end-users to generate custom insights without direct engineering intervention or manual data pulls.",
+      "key_results": [
+        "Successfully migrated to a self-service reporting model for all SaaS clients.",
+        "Achieved seamless integration of embedded dashboards into the existing application UI.",
+        "Ensured scalable multi-tenancy using QuickSight's row-level security features.",
+        "Reduced internal developer overhead for ad-hoc report generation.",
+        "Improved customer time-to-insight through real-time data visualization access."
+      ],
+      "relevance_score": 4,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Workhuman integrates Amazon QuickSight to provide secure, multi-tenant embedded analytics for self-service reporting within their SaaS application.",
+      "lead_institution": "Workhuman",
+      "tags": [
+        "Amazon QuickSight",
+        "Embedded Analytics",
+        "Multi-tenancy",
+        "SaaS Architecture",
+        "Data Engineering"
+      ]
+    }
+  },
+  {
+    "title": "Build an offline feature store using Amazon SageMaker Unified Studio and SageMaker Catalog",
+    "link": "https://aws.amazon.com/blogs/machine-learning/build-an-offline-feature-store-using-amazon-sagemaker-unified-studio-and-sagemaker-catalog/",
+    "summary": "This blog post provides step-by-step guidance on implementing an offline feature store using SageMaker Catalog within a SageMaker Unified Studio domain. By adopting a publish-subscribe pattern, data producers can use this solution to publish curated, versioned feature tables\u2014while data consumers can securely discover, subscribe to, and reuse them for model development.",
+    "source": "Artificial Intelligence",
+    "published": "2026-03-16T14:42:46+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Implements an **offline feature store** using **SageMaker Catalog** within the Unified Studio environment to manage machine learning data assets.\n- Utilizes a **publish-subscribe architecture** that separates data producers from consumers, facilitating scalable and secure feature distribution.\n- Provides a mechanism for **versioning and curating feature tables**, ensuring high-quality, reproducible data is available for model training and fine-tuning.\n- Enhances **governance and collaboration** by offering a centralized interface for data discovery and metadata management across distributed teams.",
+      "key_results": [
+        "Establishment of a centralized feature metadata repository via SageMaker Catalog.",
+        "Reduction in data redundancy through standardized cross-team feature reuse.",
+        "Support for versioned datasets to ensure reproducibility in model development.",
+        "Streamlined secure discovery and subscription workflows for data consumers.",
+        "Integration of feature management directly into the SageMaker Unified Studio domain."
+      ],
+      "relevance_score": 6,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "AWS introduces a publish-subscribe pattern for offline feature stores using SageMaker Catalog to streamline secure feature discovery and reuse.",
+      "lead_institution": "Amazon Web Services",
+      "tags": [
+        "Feature Store",
+        "SageMaker",
+        "MLOps",
+        "Data Governance",
+        "Model Development"
+      ]
+    }
+  },
+  {
+    "title": "Roche Scales NVIDIA AI Factories Globally to Accelerate Drug Discovery, Diagnostic Solutions and Manufacturing Breakthroughs",
+    "link": "https://blogs.nvidia.com/blog/roche-ai-factories-omniverse/",
+    "summary": "Roche's new deployment spans more than 3,500 NVIDIA Blackwell GPUs across its worldwide operations and embedded across the entire value chain, massively scaling R&#038;D productivity, next-generation diagnostics and manufacturing efficiencies.",
+    "source": "NVIDIA Blog",
+    "published": "2026-03-16T20:30:59+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Roche scales its global infrastructure by deploying **3,500 NVIDIA Blackwell GPUs** to establish high-performance **AI Factories**.\n- The architecture targets the **entire value chain**, focusing on accelerating R&D, improving diagnostic accuracy, and optimizing manufacturing throughput.\n- This integration facilitates massive scaling of **computational drug discovery** and the processing of complex biological datasets for **next-generation diagnostics**.",
+      "key_results": [
+        "Deployment of 3,500 NVIDIA Blackwell GPUs across global operations.",
+        "Scaling of AI-driven R&D productivity through unified AI Factory architecture.",
+        "Acceleration of computational drug discovery and high-throughput screening.",
+        "Implementation of AI-enhanced diagnostic solutions for healthcare providers.",
+        "Optimization of manufacturing efficiencies using GPU-accelerated computing pipelines."
+      ],
+      "relevance_score": 4,
+      "signal_type": "Release",
+      "one_sentence_takeaway": "Roche deploys 3,500 NVIDIA Blackwell GPUs to accelerate global drug discovery and diagnostic R&D through massive AI Factories.",
+      "lead_institution": "Roche",
+      "tags": [
+        "Blackwell GPU",
+        "Drug Discovery",
+        "AI Factories",
+        "Healthcare AI",
+        "Generative AI Trends"
+      ]
+    }
+  },
+  {
+    "title": "NVIDIA DSX Air Boosts Time to Token With Accelerated Simulation for AI Factories",
+    "link": "https://blogs.nvidia.com/blog/dsx-air-simulation-ai-factories/",
+    "summary": "Setting up AI factories in simulation \u2014 decreasing deployment time from months to days \u2014 is\u00a0 accelerating the next industrial revolution.\u00a0 Nowhere was that more apparent than at GTC 2026, in San Jose, where NVIDIA founder and CEO Jensen Huang introduced NVIDIA DSX Air. Part of NVIDIA DSX Sim in the DSX platform, NVIDIA\u2019s blueprint [&#8230;]",
+    "source": "NVIDIA Blog",
+    "published": "2026-03-16T20:00:48+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* **NVIDIA DSX Air** is a specialized blueprint within the DSX platform designed to optimize the planning and deployment of **AI factories**.\n* The architecture utilizes **accelerated simulation** to validate hardware and software stacks in a virtual environment before physical implementation.\n* The solution significantly reduces the **Time to Token** metric by streamlining the orchestration of large-scale compute clusters.",
+      "key_results": [
+        "Reduction of AI factory deployment timelines from months to days.",
+        "Launch of the DSX Air blueprint for industrial-scale simulation.",
+        "Optimization of the 'Time to Token' metric for generative AI workloads.",
+        "Integration of DSX Air within the broader NVIDIA DSX Sim environment.",
+        "Accelerated validation of complex AI infrastructure configurations."
+      ],
+      "relevance_score": 3,
+      "signal_type": "Release",
+      "one_sentence_takeaway": "NVIDIA launches DSX Air to accelerate AI factory deployment from months to days using high-fidelity simulation environments.",
+      "lead_institution": "NVIDIA",
+      "tags": [
+        "AI Factories",
+        "NVIDIA DSX",
+        "Infrastructure Simulation",
+        "Time to Token",
+        "Generative AI Trends"
+      ]
+    }
+  },
+  {
+    "title": "LangChain Announces Enterprise Agentic AI Platform Built with NVIDIA",
+    "link": "https://blog.langchain.com/nvidia-enterprise/",
+    "summary": "<p><em>Comprehensive agent engineering platform combined with NVIDIA AI enables enterprises to build, deploy, and monitor production-grade AI agents at scale</em></p><p><a href=\"https://www.prnewswire.com/news-releases/langchain-announces-enterprise-agentic-ai-platform-built-with-nvidia-302714006.html?ref=blog.langchain.com\"><em>Press Release</em></a></p><p><strong>SAN FRANCISCO, March 16, 2026 /PRNewswire/ </strong>&#x2014; LangChain, the agent engineering company behind LangSmith and open-source frameworks that have surpassed 1 billion downloads, today announced a comprehensive integration</p>",
+    "source": "LangChain Blog",
+    "published": "2026-03-16T21:31:28+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* LangChain and **NVIDIA** partner to deliver an enterprise-grade platform for **agentic AI** development and orchestration.\n* The architecture streamlines the transition from local prototyping to **production-scale deployment** using NVIDIA's accelerated computing stack.\n* Integration with **LangSmith** ensures robust observability and evaluation for complex, multi-step **agent workflows**.",
+      "key_results": [
+        "Launch of a comprehensive enterprise agentic AI platform.",
+        "Strategic integration with NVIDIA's AI software and hardware ecosystem.",
+        "Standardized frameworks for production-grade agent monitoring and evaluation.",
+        "Scalable infrastructure for managing complex LLM-based reasoning tasks.",
+        "Validated framework adoption with over 1 billion historical downloads mentioned."
+      ],
+      "relevance_score": 6,
+      "signal_type": "Release",
+      "one_sentence_takeaway": "LangChain launches an enterprise-grade agentic AI platform with NVIDIA to scale production-ready autonomous workflows.",
+      "lead_institution": "LangChain",
+      "tags": [
+        "LLM Agents",
+        "Enterprise AI",
+        "Agentic AI",
+        "NVIDIA",
+        "LangSmith"
+      ]
+    }
+  },
+  {
+    "title": "Introducing deploy cli",
+    "link": "https://blog.langchain.com/introducing-deploy-cli/",
+    "summary": "<p>We&#x2019;re excited to introduce the deploy cli, a new set of commands within the <code>langgraph-cli</code> package that makes it simple to deploy and manage agents directly from the command line.</p><p>The first command in this new set, <code>langgraph deploy</code>, lets you deploy an agent to <a href=\"https://docs.langchain.com/langsmith/deployments?ref=blog.langchain.com#langsmith-deployment\">LangSmith Deployment</a> in</p>",
+    "source": "LangChain Blog",
+    "published": "2026-03-16T17:20:21+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "<br>\u2022 Introduction of the **deploy cli** within the `langgraph-cli` package to automate agent deployment workflows.<br>\u2022 Enables the **langgraph deploy** command for seamless integration with **LangSmith Deployment** infrastructure.<br>\u2022 Enhances **architectural portability** by allowing developers to manage agent lifecycles directly from the command line interface.<br>\u2022 Focuses on reducing **deployment overhead** for complex, multi-turn LLM agentic applications.",
+      "key_results": [
+        "Launch of the deploy cli command suite within langgraph-cli.",
+        "Support for direct agent deployment to LangSmith via the terminal.",
+        "Streamlined management of agentic workflows in production environments.",
+        "Reduction in manual configuration steps for moving from local to cloud.",
+        "Standardization of CLI-driven deployment patterns for LangGraph users."
+      ],
+      "relevance_score": 7,
+      "signal_type": "Framework Update",
+      "one_sentence_takeaway": "LangChain introduces the deploy cli to simplify the transition of LangGraph agents from local development to LangSmith production.",
+      "lead_institution": "LangChain",
+      "tags": [
+        "LLM Agents",
+        "LangGraph",
+        "Deployment",
+        "MLOps",
+        "LangChain"
+      ]
+    }
+  },
+  {
+    "title": "Apideck CLI \u2013 An AI-agent interface with much lower context consumption than MCP",
+    "link": "https://www.apideck.com/blog/mcp-server-eating-context-window-cli-alternative",
+    "summary": "<p>Article URL: <a href=\"https://www.apideck.com/blog/mcp-server-eating-context-window-cli-alternative\">https://www.apideck.com/blog/mcp-server-eating-context-window-cli-alternative</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47400261\">https://news.ycombinator.com/item?id=47400261</a></p>\n<p>Points: 116</p>\n<p># Comments: 104</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-03-16T15:25:36+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Critiques the **Model Context Protocol (MCP)** for excessive **context window** consumption caused by repetitive schema and tool definition transmissions.\n- Proposes a **CLI-first architecture** for AI agents that utilizes a unified interface to discover and execute API calls with minimal token overhead.\n- Focuses on **token efficiency** and cost reduction by providing a middleware layer that abstracts over 150+ third-party integrations.\n- Facilitates better **agent performance** in long-running tasks by preserving valuable context space through optimized tool invocation methods.",
+      "key_results": [
+        "Significant reduction in token consumption per API interaction compared to standard MCP.",
+        "Unified access to 150+ SaaS integrations via a single CLI interface.",
+        "Minimization of prompt bloat through optimized resource discovery mechanisms.",
+        "Improved agent stability in complex workflows by reclaiming context for reasoning.",
+        "Standardized local developer experience for building and testing AI agents."
+      ],
+      "relevance_score": 7,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Apideck introduces a CLI-based agent interface to reduce context consumption compared to Anthropic\u2019s Model Context Protocol.",
+      "lead_institution": "Apideck",
+      "tags": [
+        "LLM Agents",
+        "MCP",
+        "Context Optimization",
+        "AI Infrastructure",
+        "Prompt Engineering"
+      ]
+    }
+  },
+  {
+    "title": "AirPods Max 2",
+    "link": "https://www.apple.com/airpods-max/",
+    "summary": "<p>Article URL: <a href=\"https://www.apple.com/airpods-max/\">https://www.apple.com/airpods-max/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47398681\">https://news.ycombinator.com/item?id=47398681</a></p>\n<p>Points: 195</p>\n<p># Comments: 367</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-03-16T13:22:03+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* **Hardware Iteration**: Apple refreshes the premium over-ear headphones by replacing the proprietary Lightning port with a universal **USB-C connector** for charging and wired audio.\n* **Computational Audio**: The architecture continues to leverage dual **H1 chips** for processing 10 audio cores, enabling low-latency Active Noise Cancellation and Adaptive EQ.\n* **Personalized Spatial Audio**: Integration with iOS 18 allows for custom ear-mapping to optimize the **multimodal spatial audio** experience for individual users.",
+      "key_results": [
+        "Transition to USB-C connectivity for standardized charging across Apple devices.",
+        "Introduction of five new colorways including Midnight, Starlight, Blue, Purple, and Orange.",
+        "Support for Personalized Spatial Audio using dynamic head tracking.",
+        "Maintenance of existing H1 silicon architecture rather than upgrading to H2.",
+        "Enhanced integration with the Apple ecosystem for seamless device switching."
+      ],
+      "relevance_score": 1,
+      "signal_type": "Release",
+      "one_sentence_takeaway": "Apple updates the AirPods Max hardware with USB-C connectivity and new colors while retaining its original computational audio silicon.",
+      "lead_institution": "Apple",
+      "tags": [
+        "Hardware",
+        "Consumer Electronics",
+        "Computational Audio",
+        "USB-C",
+        "Apple"
+      ]
+    }
+  },
+  {
+    "title": "Linux 7.1 to Retire UDP-Lite \u2013 Allows for Better Performance with Cleansed Code",
+    "link": "https://www.phoronix.com/news/Linux-7.1-Retiring-UDP-Lite",
+    "summary": "<p>Article URL: <a href=\"https://www.phoronix.com/news/Linux-7.1-Retiring-UDP-Lite\">https://www.phoronix.com/news/Linux-7.1-Retiring-UDP-Lite</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47397291\">https://news.ycombinator.com/item?id=47397291</a></p>\n<p>Points: 41</p>\n<p># Comments: 13</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-03-16T10:41:01+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- The Linux Kernel community is retiring **UDP-Lite** (RFC 3828) in the upcoming 7.1 release due to negligible adoption and low real-world utility.\n- The removal aims to **streamline the network stack** by eliminating specialized logic for partial checksums, which currently adds unnecessary complexity.\n- This architectural cleanup is expected to improve **instruction cache efficiency** and reduce the maintenance burden of the core networking codebase.",
+      "key_results": [
+        "Official deprecation and removal of the UDP-Lite protocol in Linux 7.1",
+        "Simplification of the transport layer codebase",
+        "Reduction in kernel attack surface by pruning legacy code",
+        "Minor performance gains through more efficient network packet dispatching",
+        "Elimination of technical debt related to RFC 3828 compliance"
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "The Linux Kernel community retires UDP-Lite in version 7.1 to prune legacy code and enhance networking stack performance.",
+      "lead_institution": "Linux Kernel Organization",
+      "tags": [
+        "Linux Kernel",
+        "Networking",
+        "UDP-Lite",
+        "Systems Engineering",
+        "Performance"
       ]
     }
   },
   {
     "title": "Show HN: Lux \u2013 Drop-in Redis replacement in Rust. 5.6x faster, ~1MB Docker image",
     "link": "https://github.com/lux-db/lux",
-    "summary": "<p>Article URL: <a href=\"https://github.com/lux-db/lux\">https://github.com/lux-db/lux</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47391982\">https://news.ycombinator.com/item?id=47391982</a></p>\n<p>Points: 58</p>\n<p># Comments: 22</p>",
+    "summary": "<p>Article URL: <a href=\"https://github.com/lux-db/lux\">https://github.com/lux-db/lux</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47391982\">https://news.ycombinator.com/item?id=47391982</a></p>\n<p>Points: 59</p>\n<p># Comments: 28</p>",
     "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
     "published": "2026-03-15T21:12:37+00:00",
     "type": "repo",
     "display_category": "Top Repo",
     "processed": {
-      "summary": "\n* **Lux** is a high-performance, **Redis-compatible database** written in **Rust**, engineered as a drop-in replacement for existing caching and messaging infrastructure.\n* The architecture utilizes **Rust's zero-cost abstractions** and safety features to achieve a **5.6x performance increase** over standard Redis implementations.\n* It features an extremely small **~1MB Docker image**, specifically optimized for **cloud-native environments** and microservices to reduce cold-start latency and storage overhead.\n* By maintaining **RESP protocol compatibility**, it allows for seamless integration into existing software stacks without requiring changes to client libraries or application code.",
+      "summary": "\n- **Rust-based reimplementation** of the Redis protocol designed for high-concurrency and minimal resource footprint.\n- Achieves a **5.6x performance improvement** over standard Redis, leveraging Rust's zero-cost abstractions and memory safety.\n- Features an extremely small **1MB Docker image**, optimized for cloud-native deployments, edge computing, and fast cold starts.\n- Designed as a **drop-in replacement**, maintaining compatibility with existing Redis clients and infrastructure tools.",
       "key_results": [
-        "Achieves 5.6x faster execution speeds than traditional Redis.",
-        "Minimal ~1MB Docker image size for high-density deployments.",
-        "Full drop-in compatibility with existing Redis clients via RESP support.",
-        "Memory-safe implementation utilizing the Rust programming language.",
-        "Significant reduction in infrastructure overhead for high-concurrency workloads."
+        "5.6x faster performance benchmarks compared to traditional Redis.",
+        "Ultra-lightweight Docker image size of approximately 1MB.",
+        "Full compatibility with the RESP protocol for seamless migration.",
+        "Implemented entirely in Rust to eliminate garbage collection pauses.",
+        "Optimized for high-throughput, low-latency state management."
       ],
-      "relevance_score": 5,
+      "relevance_score": 6,
       "signal_type": "Engineering Blog",
-      "one_sentence_takeaway": "Lux-DB introduces a Rust-based Redis replacement that delivers 5.6x faster performance and a minimal 1MB deployment footprint.",
-      "lead_institution": "Lux-DB",
+      "one_sentence_takeaway": "Lux-db releases a Rust-based Redis alternative achieving 5.6x speedups and ultra-low overhead for high-performance application caching.",
+      "lead_institution": "lux-db",
       "tags": [
         "Rust",
-        "Redis",
-        "Database",
-        "Performance",
-        "Caching"
+        "In-memory Database",
+        "Performance Optimization",
+        "Cloud Native",
+        "Infrastructure"
       ]
     }
   },
   {
     "title": "Office.eu launches as Europe's sovereign office platform",
     "link": "https://office.eu/media/pressrelease-20260304",
-    "summary": "<p>Article URL: <a href=\"https://office.eu/media/pressrelease-20260304\">https://office.eu/media/pressrelease-20260304</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47390233\">https://news.ycombinator.com/item?id=47390233</a></p>\n<p>Points: 254</p>\n<p># Comments: 131</p>",
+    "summary": "<p>Article URL: <a href=\"https://office.eu/media/pressrelease-20260304\">https://office.eu/media/pressrelease-20260304</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47390233\">https://news.ycombinator.com/item?id=47390233</a></p>\n<p>Points: 299</p>\n<p># Comments: 161</p>",
     "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
     "published": "2026-03-15T18:22:36+00:00",
     "type": "blog",
     "display_category": "Top News",
     "processed": {
-      "summary": "<br> \u2022 **Office.eu** debuts as a privacy-centric, European alternative to mainstream cloud suites, emphasizing **data sovereignty** and strict compliance with EU regulations.<br> \u2022 The platform architecture utilizes **Local LLMs** and **SLMs** to deliver generative features while ensuring sensitive metadata remains within regional borders.<br> \u2022 Implementation of the **Model Context Protocol (MCP)** enables secure, standardized communication between the office suite and various AI agents.<br> \u2022 Designed for **interoperability**, the system focuses on reducing vendor lock-in for government and enterprise sectors via open standards.",
+      "summary": "<br>\u2022 Office.eu introduces a **sovereign productivity suite** designed to establish digital autonomy for European enterprises and public institutions.<br>\u2022 The platform focuses on **GDPR compliance** and **local data residency**, utilizing European-owned cloud infrastructure to bypass US-based hyper-scalers.<br>\u2022 The architecture prioritizes **security and interoperability**, aiming to provide a high-performance alternative to existing global SaaS ecosystems while maintaining regional control.",
       "key_results": [
-        "Launched as a sovereign European competitor to Microsoft 365 and Google Workspace.",
-        "Integrated support for the Model Context Protocol (MCP) to facilitate agentic workflows.",
-        "Native hosting of local models including Qwen and TinyFish for private data processing.",
-        "Full compliance with the EU AI Act and GDPR for enterprise-grade security.",
-        "Hybrid deployment options supporting both on-premises and sovereign cloud infrastructure."
+        "Launch of a unified sovereign office platform specifically for the European market.",
+        "Strict adherence to EU data residency laws ensuring all metadata and content remain local.",
+        "Strategic move to reduce dependency on non-EU technology providers.",
+        "Integration of high-security collaboration tools for government and enterprise use.",
+        "High community engagement indicating strong demand for sovereign digital infrastructure."
       ],
-      "relevance_score": 6,
+      "relevance_score": 4,
       "signal_type": "Release",
-      "one_sentence_takeaway": "Office.eu launches a sovereign productivity platform integrating Model Context Protocol and local AI to ensure European data privacy.",
+      "one_sentence_takeaway": "Office.eu launches a sovereign office platform to provide European enterprises with high-security, GDPR-compliant alternatives to global tech giants.",
       "lead_institution": "Office.eu",
       "tags": [
-        "Sovereign AI",
-        "MCP",
-        "Local LLMs",
-        "GDPR",
-        "European Tech"
+        "Digital Sovereignty",
+        "Data Privacy",
+        "EU Cloud",
+        "Sovereign Infrastructure",
+        "Productivity Suite"
       ]
     }
   },
   {
     "title": "SuperTux 0.7.0",
     "link": "https://github.com/SuperTux/supertux/releases/tag/v0.7.0",
-    "summary": "<p>Article URL: <a href=\"https://github.com/SuperTux/supertux/releases/tag/v0.7.0\">https://github.com/SuperTux/supertux/releases/tag/v0.7.0</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47389292\">https://news.ycombinator.com/item?id=47389292</a></p>\n<p>Points: 56</p>\n<p># Comments: 12</p>",
+    "summary": "<p>Article URL: <a href=\"https://github.com/SuperTux/supertux/releases/tag/v0.7.0\">https://github.com/SuperTux/supertux/releases/tag/v0.7.0</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47389292\">https://news.ycombinator.com/item?id=47389292</a></p>\n<p>Points: 69</p>\n<p># Comments: 16</p>",
     "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
     "published": "2026-03-15T17:00:35+00:00",
     "type": "repo",
     "display_category": "Top Repo",
     "processed": {
-      "summary": "\n* The **SuperTux 0.7.0** release marks a significant update to the open-source 2D side-scroller, focusing on content expansion and **level design** tools.\n* The architecture utilizes **SDL2** for cross-platform rendering and introduces a redesigned **Worldmap** system for improved player navigation.\n* Technical improvements include enhancements to the **Scripting API**, allowing for more complex level interactions and custom gameplay mechanics.\n* This version integrates a revamped **Level Editor**, streamlining the community-driven content creation process.",
+      "summary": "\n- **SuperTux 0.7.0** is a major update for the open-source 2D side-scrolling platformer, focusing on engine stability and gameplay enhancements.\n- The project utilizes a **C++ and SDL2-based architecture**, ensuring cross-platform compatibility across Linux, Windows, and macOS.\n- This release introduces significant **scripting refinements** and asset optimizations to improve the rendering pipeline and interactive physics.",
       "key_results": [
-        "Introduction of a brand new Ice World worldmap and levels.",
-        "Complete redesign of the worldmap script and graphics.",
-        "Enhanced Level Editor with improved UI and stability.",
-        "Support for custom worldmaps and extended scripting capabilities.",
-        "Numerous bug fixes and performance optimizations for the physics engine."
+        "Deployment of new world map content and updated level designs.",
+        "Optimization of the game engine for better performance on legacy hardware.",
+        "Enhanced collision detection and physics handling for character movement.",
+        "Standardization of asset loading processes to reduce runtime memory overhead.",
+        "Updated level editor tools to streamline community-driven content development."
       ],
       "relevance_score": 1,
       "signal_type": "General News",
-      "one_sentence_takeaway": "SuperTux Team launches version 0.7.0, introducing a new Ice World and significant enhancements to its open-source level editor.",
-      "lead_institution": "SuperTux Community",
+      "one_sentence_takeaway": "SuperTux Development Team releases version 0.7.0, providing engine refinements and content updates to the open-source gaming community.",
+      "lead_institution": "SuperTux Project",
       "tags": [
         "Open Source",
         "Game Development",
         "C++",
         "SDL2",
-        "Level Design"
+        "Linux Gaming"
       ]
     }
   },
   {
     "title": "In Memoriam: John W. Addison, my PhD advisor",
     "link": "https://billwadge.com/2026/03/15/in-memoriam-john-w-addison-jr-my-phd-advisor/",
-    "summary": "<p>Article URL: <a href=\"https://billwadge.com/2026/03/15/in-memoriam-john-w-addison-jr-my-phd-advisor/\">https://billwadge.com/2026/03/15/in-memoriam-john-w-addison-jr-my-phd-advisor/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47388531\">https://news.ycombinator.com/item?id=47388531</a></p>\n<p>Points: 95</p>\n<p># Comments: 4</p>",
+    "summary": "<p>Article URL: <a href=\"https://billwadge.com/2026/03/15/in-memoriam-john-w-addison-jr-my-phd-advisor/\">https://billwadge.com/2026/03/15/in-memoriam-john-w-addison-jr-my-phd-advisor/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47388531\">https://news.ycombinator.com/item?id=47388531</a></p>\n<p>Points: 133</p>\n<p># Comments: 6</p>",
     "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
     "published": "2026-03-15T15:46:19+00:00",
     "type": "blog",
     "display_category": "Top News",
     "processed": {
-      "summary": "\n- The article serves as a **biographical tribute** to John W. Addison, Jr., a prominent figure in **mathematical logic** and former PhD advisor.\n- It highlights Addison's influence on the **Berkeley logic community** and his role in advancing **descriptive set theory**.\n- The narrative focuses on the **mentorship framework** and the rigorous intellectual environment required for foundational mathematical research.\n- While not an ML paper, it underscores the **logic-based roots** of modern computational theory and academic lineage.",
+      "summary": "\n- A personal memorial reflecting on the life and academic contributions of **John W. Addison Jr.**, a prominent figure in **mathematical logic** at UC Berkeley.\n- Focuses on the **pedagogical impact** and mentorship style that influenced a generation of computer scientists and logicians.\n- Highlights Addison's work in **descriptive set theory** and his role in establishing the foundational structures of the Berkeley logic group.",
       "key_results": [
-        "Memorializes the legacy of logician John W. Addison, Jr.",
-        "Details the history of the UC Berkeley Department of Mathematics logic group.",
-        "Reflects on the evolution of descriptive set theory during the mid-20th century.",
-        "Emphasizes the impact of pedagogical excellence on future researchers.",
-        "Connects foundational mathematical logic to broader academic developments."
+        "Commemorates the legacy of John W. Addison Jr. as a PhD advisor.",
+        "Details the history of the UC Berkeley Logic and Methodology of Science program.",
+        "Emphasizes the importance of academic lineage in the field of formal logic.",
+        "Reflects on the transition from pure mathematics to early computer science theory.",
+        "Acknowledges Addison's influence on the Kleene-Mostowski hierarchy research."
       ],
       "relevance_score": 1,
       "signal_type": "General News",
-      "one_sentence_takeaway": "Bill Wadge honors the legacy of John W. Addison, emphasizing the profound impact of foundational logic on academic mentorship.",
-      "lead_institution": "University of California, Berkeley",
+      "one_sentence_takeaway": "Bill Wadge honors John W. Addison Jr.'s legacy in mathematical logic and his profound impact on academic mentorship.",
+      "lead_institution": "UC Berkeley",
       "tags": [
         "Mathematics",
         "Logic",
-        "Academic Mentorship",
-        "History of Science",
-        "UC Berkeley"
+        "Academia",
+        "History",
+        "Mentorship"
       ]
     }
   },
@@ -536,36 +896,6 @@
         "Usage Limits",
         "Product Promotion",
         "LLM Trends"
-      ]
-    }
-  },
-  {
-    "title": "MCP is dead; long live MCP",
-    "link": "https://chrlschn.dev/blog/2026/03/mcp-is-dead-long-live-mcp/",
-    "summary": "<p>Article URL: <a href=\"https://chrlschn.dev/blog/2026/03/mcp-is-dead-long-live-mcp/\">https://chrlschn.dev/blog/2026/03/mcp-is-dead-long-live-mcp/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47380270\">https://news.ycombinator.com/item?id=47380270</a></p>\n<p>Points: 255</p>\n<p># Comments: 191</p>",
-    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
-    "published": "2026-03-14T19:32:13+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n* Evaluates the maturation of the **Model Context Protocol (MCP)**, moving beyond simple tool-calling to a robust framework for **context injection** and **inter-agent communication**.\n* Examines how the decoupling of the **client-server architecture** enables secure, local-first access to private datasets without compromising the integrity of **Reasoning Models**.\n* Identifies the emergence of **MCP-native ecosystems** where IDEs and agents dynamically discover and negotiate capabilities via standardized **JSON-RPC** interfaces.",
-      "key_results": [
-        "Evolution of MCP into a universal connector for RAG and agentic workflows.",
-        "Widespread adoption of the protocol across leading AI-integrated development environments like Cursor and Claude.",
-        "Shift towards a standardized ecosystem of composable, interoperable AI toolkits.",
-        "Enhanced security through localized, permissioned access to sensitive developer data.",
-        "Consolidation of the fragmented landscape of proprietary AI plugin architectures into a unified standard."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Engineering Blog",
-      "one_sentence_takeaway": "Charles Chen argues that MCP has evolved from a niche plugin system into a foundational interoperability layer for agents.",
-      "lead_institution": "chrlschn.dev",
-      "tags": [
-        "Model Context Protocol",
-        "LLM Agents",
-        "Interoperability",
-        "AI Infrastructure",
-        "Tool Use"
       ]
     }
   },
@@ -2010,36 +2340,6 @@
     }
   },
   {
-    "title": "Test-time RL alignment exposes task familiarity artifacts in LLM benchmarks",
-    "link": "http://arxiv.org/abs/2603.12875v1",
-    "summary": "Direct evaluation of LLMs on benchmarks can be misleading because comparatively strong performance may reflect task familiarity rather than capability. The train-before-test approach controls for task familiarity by giving each model task-relevant training before evaluation, originally through supervised finetuning. However, suitable training data is often hard to come by, and evaluation results vary with the data chosen. In this paper, we propose a two-stage test-time reinforcement learning (RL) alignment method for train-before-test. First, RL with a single sample provides a first alignment of the model to the task format, and second, test-time RL with majority-voting reward aligns the model to the benchmark distribution. Our test-time RL alignment method aligns similarly well as SFT-based train-before test, but without requiring a task-specific training set. On a domain-specific benchmark without training data, we show that direct evaluation underestimates base models which perform substantially better once aligned, yielding a more faithful evaluation of their capabilities. Moreover, for reasoning tasks, the performance gap between fine-tuned models and their base models largely disappears after alignment, suggesting that many gains from RLVR/SFT reported in the literature are not a difference in reasoning capability, but rather artifacts of task familiarity.",
-    "source": "ArXiv",
-    "published": "2026-03-13T10:24:19+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Proposes a **two-stage test-time RL alignment** framework for the 'train-before-test' evaluation paradigm to distinguish innate capability from task familiarity.\n- Utilizes **single-sample RL** for initial task format alignment followed by **majority-voting reward RL** to align the model to the specific benchmark distribution.\n- Eliminates the need for **task-specific training sets** or SFT data, allowing for more faithful evaluation of base models on domain-specific benchmarks.\n- Challenges the perceived superiority of fine-tuned models by showing that **reasoning performance gaps** often vanish once base models are properly aligned at test-time.",
-      "key_results": [
-        "Test-time RL alignment achieves performance parity with SFT-based methods without requiring curated training data.",
-        "Direct evaluation significantly underestimates base model capabilities on domain-specific tasks.",
-        "The performance gap between SFT/RLVR fine-tuned models and base models largely disappears after test-time alignment.",
-        "Majority-voting rewards effectively guide models to converge on benchmark-specific distributions.",
-        "Identifies that many reported gains in reasoning benchmarks are artifacts of task familiarity rather than logic improvements."
-      ],
-      "relevance_score": 9,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers demonstrate that test-time RL alignment exposes benchmark gains as task familiarity artifacts rather than reasoning improvements.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "AI Evaluation",
-        "Reasoning Models",
-        "Test-time Alignment",
-        "Reinforcement Learning",
-        "LLM Benchmarking"
-      ]
-    }
-  },
-  {
     "title": "CLARIN-PT-LDB: An Open LLM Leaderboard for Portuguese to assess Language, Culture and Civility",
     "link": "http://arxiv.org/abs/2603.12872v1",
     "summary": "This paper reports on the development of a leaderboard of Open Large Language Models (LLM) for European Portuguese (PT-PT), and on its associated benchmarks. This leaderboard comes as a way to address a gap in the evaluation of LLM for European Portuguese, which so far had no leaderboard dedicated to this variant of the language. The paper also reports on novel benchmarks, including some that address aspects of performance that so far have not been available in benchmarks for European Portuguese, namely model safeguards and alignment to Portuguese culture. The leaderboard is available at https://huggingface.co/spaces/PORTULAN/portuguese-llm-leaderboard.",
@@ -2340,36 +2640,6 @@
     }
   },
   {
-    "title": "Adaptive Vision-Language Model Routing for Computer Use Agents",
-    "link": "http://arxiv.org/abs/2603.12823v1",
-    "summary": "Computer Use Agents (CUAs) translate natural-language instructions into Graphical User Interface (GUI) actions such as clicks, keystrokes, and scrolls by relying on a Vision-Language Model (VLM) to interpret screenshots and predict grounded tool calls. However, grounding accuracy varies dramatically across VLMs, while current CUA systems typically route every action to a single fixed model regardless of difficulty. We propose \\textbf{Adaptive VLM Routing} (AVR), a framework that inserts a lightweight semantic routing layer between the CUA orchestrator and a pool of VLMs. For each tool call, AVR estimates action difficulty from multimodal embeddings, probes a small VLM to measure confidence, and routes the action to the cheapest model whose predicted accuracy satisfies a target reliability threshold. For \\textit{warm} agents with memory of prior UI interactions, retrieved context further narrows the capability gap between small and large models, allowing many actions to be handled without escalation. We formalize routing as a cost--accuracy trade-off, derive a threshold-based policy for model selection, and evaluate AVR using ScreenSpot-Pro grounding data together with the OpenClaw agent routing benchmark. Across these settings, AVR projects inference cost reductions of up to 78\\% while staying within 2 percentage points of an all-large-model baseline. When combined with the Visual Confused Deputy guardrail, AVR also escalates high-risk actions directly to the strongest available model, unifying efficiency and safety within a single routing framework. Materials are also provided Model, benchmark, and code: https://github.com/vllm-project/semantic-router.",
-    "source": "ArXiv",
-    "published": "2026-03-13T09:21:25+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Introduces **Adaptive VLM Routing (AVR)**, a framework for Computer Use Agents (CUAs) that dynamically routes GUI actions to a pool of VLMs based on estimated task difficulty.\n- Utilizes **multimodal embeddings** and a small VLM probe to determine if an action requires escalation, optimizing the **cost-accuracy trade-off** for grounded tool calls.\n- Leverages **retrieved context** from prior UI interactions to boost small model performance, allowing many actions to be handled locally without escalating to frontier models.\n- Integrates a **Visual Confused Deputy guardrail** to automatically escalate high-risk actions to the strongest model, unifying safety and inference efficiency.",
-      "key_results": [
-        "Achieved up to 78% reduction in inference costs compared to fixed-model baselines.",
-        "Maintained performance within 2 percentage points of a state-of-the-art all-large-model configuration.",
-        "Validated effectiveness on the ScreenSpot-Pro grounding dataset and OpenClaw agent routing benchmark.",
-        "Demonstrated that 'warm' agents with memory significantly narrow the capability gap between small and large VLMs.",
-        "Successfully implemented a threshold-based policy for model selection based on predicted accuracy and reliability."
-      ],
-      "relevance_score": 9,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "vLLM Project researchers introduce Adaptive VLM Routing to slash agent costs by 78% while maintaining high-tier GUI grounding accuracy.",
-      "lead_institution": "vLLM Project",
-      "tags": [
-        "Computer Use Agents",
-        "Vision-Language Models",
-        "Model Routing",
-        "Multimodal AI",
-        "LLM Agents"
-      ]
-    }
-  },
-  {
     "title": "Context is all you need: Towards autonomous model-based process design using agentic AI in flowsheet simulations",
     "link": "http://arxiv.org/abs/2603.12813v1",
     "summary": "Agentic AI systems integrating large language models (LLMs) with reasoning and tooluse capabilities are transforming various domains - in particular, software development. In contrast, their application in chemical process flowsheet modelling remains largely unexplored. In this work, we present an agentic AI framework that delivers assistance in an industrial flowsheet simulation environment. To this end, we show the capabilities of GitHub Copilot (GitHub, Inc., 2026), when using state-of-the-art LLMs, such as Claude Opus 4.6 (Anthropic, PBC, 2026), to generate valid syntax for our in-house process modelling tool Chemasim using the technical documentation and a few commented examples as context. Based on this, we develop a multi-agent system that decomposes process development tasks with one agent solving the abstract problem using engineering knowledge and another agent implementing the solution as Chemasim code. We demonstrate the effectiveness of our framework for typical flowsheet modelling examples, including (i) a reaction/separation process, (ii) a pressure-swing distillation, and (iii) a heteroazeotropic distillation including entrainer selection. Along these lines, we discuss current limitations of the framework and outline future research directions to further enhance its capabilities.",
@@ -2516,36 +2786,6 @@
         "Masked Modeling",
         "Dataset Release",
         "Glaucoma Classification"
-      ]
-    }
-  },
-  {
-    "title": "Cheers: Decoupling Patch Details from Semantic Representations Enables Unified Multimodal Comprehension and Generation",
-    "link": "http://arxiv.org/abs/2603.12793v1",
-    "summary": "A recent cutting-edge topic in multimodal modeling is to unify visual comprehension and generation within a single model. However, the two tasks demand mismatched decoding regimes and visual representations, making it non-trivial to jointly optimize within a shared feature space. In this work, we present Cheers, a unified multimodal model that decouples patch-level details from semantic representations, thereby stabilizing semantics for multimodal understanding and improving fidelity for image generation via gated detail residuals. Cheers includes three key components: (i) a unified vision tokenizer that encodes and compresses image latent states into semantic tokens for efficient LLM conditioning, (ii) an LLM-based Transformer that unifies autoregressive decoding for text generation and diffusion decoding for image generation, and (iii) a cascaded flow matching head that decodes visual semantics first and then injects semantically gated detail residuals from the vision tokenizer to refine high-frequency content. Experiments on popular benchmarks demonstrate that Cheers matches or surpasses advanced UMMs in both visual understanding and generation. Cheers also achieves 4x token compression, enabling more efficient high-resolution image encoding and generation. Notably, Cheers outperforms the Tar-1.5B on the popular benchmarks GenEval and MMBench, while requiring only 20% of the training cost, indicating effective and efficient (i.e., 4x token compression) unified multimodal modeling. We will release all code and data for future research.",
-    "source": "ArXiv",
-    "published": "2026-03-13T08:55:27+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n\u2022 **Cheers** introduces a decoupled architecture that separates high-frequency patch details from global **semantic representations**, resolving the conflicting requirements of multimodal understanding versus generation.\n\u2022 The framework employs a **unified vision tokenizer** that achieves **4x token compression**, facilitating more efficient LLM conditioning and high-resolution image processing.\n\u2022 A novel **cascaded flow matching head** is used to decode visual semantics first, subsequently injecting **gated detail residuals** to ensure high-fidelity image output.\n\u2022 The model unifies **autoregressive and diffusion decoding** within a single LLM-based Transformer, matching state-of-the-art performance while significantly reducing computational overhead.",
-      "key_results": [
-        "Achieves 4x image token compression for improved computational efficiency.",
-        "Matches or exceeds advanced unified multimodal models in understanding and generation benchmarks.",
-        "Outperforms Tar-1.5B on GenEval and MMBench with significantly lower resources.",
-        "Requires only 20% of the training cost compared to leading competitor Tar-1.5B.",
-        "Demonstrates superior high-frequency content refinement via gated detail residuals."
-      ],
-      "relevance_score": 9,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce Cheers, a unified multimodal model decoupling semantic and detail representations to optimize efficiency and generation fidelity.",
-      "lead_institution": "ArXiv researchers",
-      "tags": [
-        "Multimodal AI",
-        "Diffusion Models",
-        "Unified Modeling",
-        "Token Compression",
-        "Generative AI"
       ]
     }
   },
@@ -2756,246 +2996,6 @@
         "PEFT",
         "Low-Rank Factorization",
         "Large Multimodal Models"
-      ]
-    }
-  },
-  {
-    "title": "Taming the Long Tail: Efficient Item-wise Sharpness-Aware Minimization for LLM-based Recommender Systems",
-    "link": "http://arxiv.org/abs/2603.12752v1",
-    "summary": "Large Language Model-based Recommender Systems (LRSs) have recently emerged as a new paradigm in sequential recommendation by directly adopting LLMs as backbones. While LRSs demonstrate strong knowledge utilization and instruction-following abilities, they have not been systematically studied under the long-standing long-tail problem. In this paper, we conduct an empirical study and reveal that LRSs face two distinct types of long-tail: i) prior long-tail, inherited implicitly from pretraining corpora, and ii) data long-tail, originating from skewed recommendation datasets. Our analysis shows that both contribute to the performance disparity between head and tail items, with the intersection of the two heads exhibiting an even stronger head effect. Nevertheless, the overall performance distribution in LRSs, especially on the tail, remains dominated by the data long-tail. To address this challenge, we propose Efficient Item-wise Sharpness-Aware Minimization (EISAM), a novel optimization framework that improves tail-item performance by adaptively regularizing the loss landscape at the item level. EISAM introduces an efficient penalty design that captures fine-grained item-specific sharpness while maintaining computational scalability for LLMs. In addition, we derive a generalization bound for EISAM. Our theoretical analysis shows that the bound decreases at a faster rate under our item-wise regularization, offering theoretical support for its effectiveness. Extensive experiments on three real-world datasets demonstrate that EISAM significantly boosts tail-item recommendation performance while preserving overall quality, establishing the first systematic solution to the long-tail problem in LRSs.",
-    "source": "ArXiv",
-    "published": "2026-03-13T07:50:12+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Identifies a dual long-tail phenomenon in **LLM-based Recommender Systems (LRSs)**: the **prior long-tail** inherited from pretraining and the **data long-tail** from recommendation datasets.\n- Introduces **Efficient Item-wise Sharpness-Aware Minimization (EISAM)**, which adaptively regularizes the loss landscape at the item level to improve tail-item generalization.\n- Features a novel **penalty design** that maintains computational scalability for large-scale backbones while capturing item-specific sharpness.\n- Provides a **theoretical generalization bound** demonstrating that item-wise regularization reduces the performance gap for infrequent items more effectively than traditional optimization.",
-      "key_results": [
-        "Identified that data long-tail dominates LRS performance distribution over pretraining priors.",
-        "EISAM significantly improves tail-item recommendation accuracy across three real-world datasets.",
-        "The framework maintains overall recommendation quality while specifically boosting underrepresented items.",
-        "The derived generalization bound for EISAM decreases at a faster rate than standard SAM for tail data.",
-        "Optimization remains computationally efficient, enabling use with large-scale LLM backbones."
-      ],
-      "relevance_score": 7,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce EISAM to improve LLM-based recommender systems by adaptively smoothing the loss landscape for tail items.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "LLM Recommender Systems",
-        "Long-tail Problem",
-        "Sharpness-Aware Minimization",
-        "Model Fine-tuning",
-        "AI Evaluation"
-      ]
-    }
-  },
-  {
-    "title": "Thinking in Dynamics: How Multimodal Large Language Models Perceive, Track, and Reason Dynamics in Physical 4D World",
-    "link": "http://arxiv.org/abs/2603.12746v1",
-    "summary": "Humans inhabit a physical 4D world where geometric structure and semantic content evolve over time, constituting a dynamic 4D reality (spatial with temporal dimension). While current Multimodal Large Language Models (MLLMs) excel in static visual understanding, can they also be adept at \"thinking in dynamics\", i.e., perceive, track and reason about spatio-temporal dynamics in evolving scenes? To systematically assess their spatio-temporal reasoning and localized dynamics perception capabilities, we introduce Dyn-Bench, a large-scale benchmark built from diverse real-world and synthetic video datasets, enabling robust and scalable evaluation of spatio-temporal understanding. Through multi-stage filtering from massive 2D and 4D data sources, Dyn-Bench provides a high-quality collection of dynamic scenes, comprising 1k videos, 7k visual question answering (VQA) pairs, and 3k dynamic object grounding pairs. We probe general, spatial and region-level MLLMs to express how they think in dynamics both linguistically and visually, and find that existing models cannot simultaneously maintain strong performance in both spatio-temporal reasoning and dynamic object grounding, often producing inconsistent interpretations of motion and interaction. Notably, conventional prompting strategies (e.g., chain-of-thought or caption-based hints) provide limited improvement, whereas structured integration approaches, including Mask-Guided Fusion and Spatio-Temporal Textual Cognitive Map (ST-TCM), significantly enhance MLLMs' dynamics perception and spatio-temporal reasoning in the physical 4D world. Code and benchmark are available at https://dyn-bench.github.io/.",
-    "source": "ArXiv",
-    "published": "2026-03-13T07:42:16+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Introduces **Dyn-Bench**, a novel large-scale benchmark comprising 1k videos and 10k evaluation pairs focused on **spatio-temporal reasoning** and dynamic object grounding in 4D environments.\n- Identifies a critical failure in current **MLLMs**, where models struggle to maintain consistency between linguistic reasoning and physical **visual localization** of moving objects.\n- Proposes architectural enhancements, specifically **Mask-Guided Fusion** and the **Spatio-Temporal Textual Cognitive Map (ST-TCM)**, to improve how models integrate temporal dynamics.\n- Establishes that structured **multimodal integration** outperforms standard prompt engineering techniques like Chain-of-Thought for complex 4D scene understanding.",
-      "key_results": [
-        "Existing MLLMs show a significant performance gap between reasoning about motion and grounding dynamic objects.",
-        "Conventional prompting strategies (CoT, captions) offer minimal improvements for 4D dynamics.",
-        "The Dyn-Bench dataset provides 7k VQA pairs and 3k grounding pairs for robust evaluation.",
-        "Mask-Guided Fusion enables better region-level perception of evolving physical scenes.",
-        "ST-TCM provides a structured framework for models to achieve superior spatio-temporal reasoning."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "The Dyn-Bench researchers introduce a 4D benchmark showing that MLLMs require structured cognitive mapping for consistent spatio-temporal reasoning.",
-      "lead_institution": "Dyn-Bench Project Team",
-      "tags": [
-        "Multimodal AI",
-        "Spatio-Temporal Reasoning",
-        "AI Evaluation",
-        "4D Perception",
-        "Cognitive Mapping"
-      ]
-    }
-  },
-  {
-    "title": "TaoBench: Do Automated Theorem Prover LLMs Generalize Beyond MathLib?",
-    "link": "http://arxiv.org/abs/2603.12744v1",
-    "summary": "Automated theorem proving (ATP) benchmarks largely consist of problems formalized in MathLib, so current ATP training and evaluation are heavily biased toward MathLib's definitional framework. However, frontier mathematics is often exploratory and prototype-heavy, relying on bespoke constructions that deviate from standard libraries. In this work, we evaluate the robustness of current ATP systems when applied to a novel definitional framework, specifically examining the performance gap between standard library problems and bespoke mathematical constructions. We introduce TaoBench, an undergraduate-level benchmark derived from Terence Tao's Analysis I, which formalizes analysis by constructing core mathematical concepts from scratch, without relying on standard Mathlib definitions, as well as by mixing from-scratch and MathLib constructions. For fair evaluation, we build an agentic pipeline that automatically extracts a compilable, self-contained local environment for each problem. To isolate the effect of definitional frameworks, we additionally translate every problem into a mathematically equivalent Mathlib formulation, yielding paired TaoBench-Mathlib statements for direct comparison. While state-of-the-art ATP models perform capably within the MathLib framework, performance drops by an average of roughly 26% on the definitionally equivalent Tao formulation. This indicates that the main bottleneck is limited generalization across definitional frameworks rather than task difficulty. TaoBench thus highlights a gap between benchmark performance and applicability, and provides a concrete foundation for developing and testing provers better aligned with research mathematics.",
-    "source": "ArXiv",
-    "published": "2026-03-13T07:39:47+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n* Introduction of **TaoBench**, a specialized benchmark based on Terence Tao\u2019s Analysis I that tests **Automated Theorem Prover (ATP)** generalization by using from-scratch mathematical constructions.\n* Implementation of an **agentic pipeline** designed to extract compilable, self-contained local environments for each theorem, ensuring fair evaluation across different formalization styles.\n* Utilization of a **paired-translation methodology** where every TaoBench problem is mapped to a mathematically equivalent **Mathlib** statement to isolate the impact of definitional frameworks on model performance.\n* Analysis of **frontier LLMs** showing that performance is heavily dependent on familiarity with standard library structures rather than pure logical reasoning capabilities.",
-      "key_results": [
-        "TaoBench provides a novel undergraduate-level evaluation set using bespoke mathematical definitions.",
-        "State-of-the-art ATP models suffer an average performance drop of 26% on Tao-style formulations.",
-        "The performance gap persists even when the underlying mathematical logic remains identical to standard library problems.",
-        "The study identifies 'definitional framework bias' as a primary bottleneck for current mathematical reasoning models.",
-        "The provided agentic pipeline enables automated environment setup for complex, multi-dependency formal proofs."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce TaoBench, revealing that LLM theorem provers lose 26% accuracy when reasoning outside standard MathLib definitional frameworks.",
-      "lead_institution": "ArXiv Researchers",
-      "tags": [
-        "Automated Theorem Proving",
-        "Reasoning Models",
-        "LLM Evaluation",
-        "Formal Mathematics",
-        "Generalization"
-      ]
-    }
-  },
-  {
-    "title": "What You Prompt is What You Get: Increasing Transparency of Prompting Using Prompt Cards",
-    "link": "http://arxiv.org/abs/2603.12741v1",
-    "summary": "The rapid advancement and impressive capabilities of large language models (LLMs) have given rise to the field of prompt engineering, the practice of crafting inputs to guide LLMs toward high-quality, task-relevant outputs. A critical challenge facing the field is the lack of standardised prompt documentation and evaluation practices. Prompts can be long, complex and difficult to evaluate on subjective tasks. To address this challenge, we propose the use of prompt cards, structured summaries of prompt engineering practices inspired by the concept of model cards. Through prompt cards, the specific goals, considerations and steps taken during prompt engineering can be systematically documented and assessed. We present the prompt card approach and illustrate it on a specific task called wordalisation, in which structured numerical data is transformed into text. We argue that a well-structured prompt card can enable better reproducibility, transparency, improve prompt methodology and give an effective alternative to benchmarking for judging the quality of generated texts. By systemically capturing underlying model details, prompt intent, contextualisation strategies, evaluation practices and ethical considerations, prompt cards make explicit the often implicit design decisions that shape system behaviour. Documenting these choices is important as prompting increasingly involves complex pipelines with multiple moving parts.",
-    "source": "ArXiv",
-    "published": "2026-03-13T07:38:25+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n* Proposes **Prompt Cards**, a standardized documentation framework inspired by Model Cards to increase transparency and reproducibility in **Prompt Engineering**.\n* Targets the complexity of **LLM pipelines** by systematically recording design decisions, model versions, and contextualization strategies.\n* Provides a structured alternative to traditional **benchmarking** for subjective tasks, focusing on qualitative evaluation and ethical considerations.\n* Aims to improve **AI Evaluation** by making implicit prompting methodologies explicit for better auditing and system comparison.",
-      "key_results": [
-        "Defined a comprehensive schema for documenting prompt intent and methodology.",
-        "Introduced the 'wordalisation' task as a benchmark for data-to-text transformation.",
-        "Established a framework for capturing ethical considerations in prompt design.",
-        "Identified prompt cards as a tool to bridge the gap in subjective text evaluation.",
-        "Demonstrated how structured documentation improves reproducibility in multi-step pipelines."
-      ],
-      "relevance_score": 7,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce Prompt Cards to standardize documentation and improve transparency in complex prompt engineering and evaluation workflows.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "Prompt Engineering",
-        "AI Evaluation",
-        "Model Transparency",
-        "Documentation Frameworks",
-        "LLM Observability"
-      ]
-    }
-  },
-  {
-    "title": "ToolTree: Efficient LLM Agent Tool Planning via Dual-Feedback Monte Carlo Tree Search and Bidirectional Pruning",
-    "link": "http://arxiv.org/abs/2603.12740v1",
-    "summary": "Large Language Model (LLM) agents are increasingly applied to complex, multi-step tasks that require interaction with diverse external tools across various domains. However, current LLM agent tool planning methods typically rely on greedy, reactive tool selection strategies that lack foresight and fail to account for inter-tool dependencies. In this paper, we present ToolTree, a novel Monte Carlo tree search-inspired planning paradigm for tool planning. ToolTree explores possible tool usage trajectories using a dual-stage LLM evaluation and bidirectional pruning mechanism that enables the agent to make informed, adaptive decisions over extended tool-use sequences while pruning less promising branches before and after the tool execution. Empirical evaluations across both open-set and closed-set tool planning tasks on 4 benchmarks demonstrate that ToolTree consistently improves performance while keeping the highest efficiency, achieving an average gain of around 10\\% compared to the state-of-the-art planning paradigm.",
-    "source": "ArXiv",
-    "published": "2026-03-13T07:37:06+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Introduces **ToolTree**, an MCTS-inspired planning paradigm designed to optimize complex, multi-step tool interactions for LLM agents.\n- Employs a **dual-stage LLM evaluation** process to provide informed feedback on tool trajectories rather than relying on greedy, reactive selection.\n- Features **bidirectional pruning** which filters suboptimal paths both before and after execution, ensuring high efficiency and foresight.\n- Demonstrates a **10% performance improvement** over current SOTA methods while maintaining lower computational overhead.",
-      "key_results": [
-        "Achieved an average performance gain of 10% over state-of-the-art planning paradigms.",
-        "Significantly reduced search space through bidirectional pruning pre- and post-execution.",
-        "Maintained the highest efficiency among tested tree-based agent search methods.",
-        "Validated effectiveness across four distinct open-set and closed-set tool benchmarks.",
-        "Enabled agents to better manage inter-tool dependencies over extended execution sequences."
-      ],
-      "relevance_score": 9,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce ToolTree, using MCTS and bidirectional pruning to boost LLM agent tool-planning performance by 10%.",
-      "lead_institution": "ArXiv Researchers",
-      "tags": [
-        "LLM Agents",
-        "Tool Planning",
-        "Monte Carlo Tree Search",
-        "Efficiency",
-        "Reasoning Models"
-      ]
-    }
-  },
-  {
-    "title": "Conflict Mitigation in Shared Environments using Flow-Aware Multi-Agent Path Finding",
-    "link": "http://arxiv.org/abs/2603.12736v1",
-    "summary": "Deploying multi-robot systems in environments shared with dynamic and uncontrollable agents presents significant challenges, especially for large robot fleets. In such environments, individual robot operations can be delayed due to unforeseen conflicts with uncontrollable agents. While existing research primarily focuses on preserving the completeness of Multi-Agent Path Finding (MAPF) solutions considering delays, there is limited emphasis on utilizing additional environmental information to enhance solution quality in the presence of other dynamic agents. To this end, we propose Flow-Aware Multi-Agent Path Finding (FA-MAPF), a novel framework that integrates learned motion patterns of uncontrollable agents into centralized MAPF algorithms. Our evaluation, conducted on a diverse set of benchmark maps with simulated uncontrollable agents and on a real-world map with recorded human trajectories, demonstrates the effectiveness of FA-MAPF compared to state-of-the-art baselines. The experimental results show that FA-MAPF can consistently reduce conflicts with uncontrollable agents, up to 55%, without compromising task efficiency.",
-    "source": "ArXiv",
-    "published": "2026-03-13T07:28:36+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Proposes **Flow-Aware Multi-Agent Path Finding (FA-MAPF)**, a centralized framework that incorporates **learned motion patterns** of uncontrollable agents into robot pathfinding.\n- The architecture utilizes historical environmental data to predict high-congestion zones, effectively bridging the gap between static **MAPF completeness** and dynamic real-world environments.\n- Integrates **probabilistic motion flows** into search-based algorithms to prioritize paths that minimize potential intersections with humans or other dynamic obstacles.\n- Enhances **fleet coordination** in shared workspaces by balancing individual task efficiency with global conflict avoidance strategies.",
-      "key_results": [
-        "Reduces conflicts with uncontrollable agents by up to 55% compared to baselines.",
-        "Maintains task efficiency and throughput while increasing safety parameters.",
-        "Successfully validated on diverse benchmark maps with simulated dynamic agents.",
-        "Demonstrated effectiveness on real-world maps using recorded human trajectory data.",
-        "Outperforms current state-of-the-art centralized MAPF algorithms in high-traffic shared environments."
-      ],
-      "relevance_score": 6,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce FA-MAPF to reduce robot-human conflicts by 55% using learned motion patterns in shared environments.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "Multi-Agent Path Finding",
-        "Robotics",
-        "Motion Prediction",
-        "Autonomous Agents",
-        "Flow-Aware Systems"
-      ]
-    }
-  },
-  {
-    "title": "On Using Machine Learning to Early Detect Catastrophic Failures in Marine Diesel Engines",
-    "link": "http://arxiv.org/abs/2603.12733v1",
-    "summary": "Catastrophic failures of marine engines imply severe loss of functionality and destroy or damage the systems irreversibly. Being sudden and often unpredictable events, they pose a severe threat to navigation, crew, and passengers. The abrupt nature makes early detection the only effective countermeasure. However, research has concentrated on modeling the gradual degradation of components, with limited attention to sudden and anomalous phenomena. This work proposes a new method for early detection of catastrophic failures. Based on real data from a failed engine, the approach evaluates the derivatives of the deviation between actual sensor readings and expected values of engine variables. Predictions are obtained by a Random Forest, which is the most suitable Machine Learning algorithm among the tested ones. Traditional methods focus on deviations of monitored signals, whereas the proposed approach employs the derivatives of the deviations to provide earlier indications of abnormal dynamics, and to alert that a rapid and dangerous event is breaking out within the system. The method allows the detection of anomalies before measurements reach critical thresholds and alarms are triggered, which is the common method in industry. Consequently, operators can be warned in advance and shut down the engine, then prevent damage and unexpected power loss. Moreover, they have the time to safely change the ship route and avoid potential obstacles. Simulation results conf irm the effectiveness of the proposed approach in anticipating occurrence of catastrophic failures. Validation on real-world data further reinforces the robustness and practical applicability of the method. It is worth noting that data acquisition to train the predictive algorithm is not a problem, since a Deep Learning-based data augmentation procedure is used.",
-    "source": "ArXiv",
-    "published": "2026-03-13T07:24:06+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- The study proposes a novel early detection system for catastrophic engine failures by monitoring the **derivatives of deviations** between actual sensor readings and expected values.\n- A **Random Forest** regressor was selected as the optimal machine learning architecture after comparative testing against other algorithms for its predictive accuracy.\n- To solve the data scarcity issue inherent in catastrophic failure events, a **Deep Learning-based data augmentation** procedure was implemented for training set expansion.\n- The methodology shifts focus from **gradual degradation modeling** to sudden anomalous dynamics, allowing for preventive engine shutdown before critical thresholds are reached.",
-      "key_results": [
-        "Random Forest outperformed other ML algorithms in predicting abrupt engine anomalies.",
-        "Using derivatives of deviations provided earlier warnings compared to traditional signal monitoring.",
-        "Deep Learning augmentation effectively mitigated the lack of real-world failure datasets.",
-        "Validation on real-world failed engine data demonstrated high practical robustness.",
-        "System allows ship operators to safely reroute or shut down before irreversible damage occurs."
-      ],
-      "relevance_score": 3,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers develop a Random Forest approach using deviation derivatives to predict sudden marine engine failures before alarms trigger.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "Predictive Maintenance",
-        "Random Forest",
-        "Data Augmentation",
-        "Anomaly Detection",
-        "Marine Engineering"
-      ]
-    }
-  },
-  {
-    "title": "AnchorVLA4D: an Anchor-Based Spatial-Temporal Vision-Language-Action Model for Robotic Manipulation",
-    "link": "http://arxiv.org/abs/2603.12730v1",
-    "summary": "Since current Vision-Language-Action (VLA) systems suffer from limited spatial perception and the absence of memory throughout manipulation, we investigate visual anchors as a means to enhance spatial and temporal reasoning within VLA policies for robotic manipulation. Conventional VLAs generate actions by conditioning on a single current frame together with a language instruction. However, since the frame is encoded as a 2D image, it does not contain detailed spatial information, and the VLA similarly lacks any means to incorporate past context. As a result, it frequently forgets objects under occlusion and becomes spatially disoriented during the manipulation process. Thus, we propose AnchorVLA4D, a simple spatial-temporal VLA that augments the visual input with an anchor image to preserve the initial scene context throughout execution, and adds a lightweight spatial encoder that jointly processes the anchor and current frames to expose geometric relationships within an episode. Built on a Qwen2.5-VL backbone with a diffusion-based action head, AnchorVLA4D requires no additional sensing modalities (e.g., depth or point clouds) and introduces negligible inference overhead. Combining anchoring with a frozen pretrained spatial encoder yields further gains, realizing a 13.6% improvement on the Simpler WidowX benchmark and confirming the approach on real-world tasks, where it achieved an average success rate of 80%.",
-    "source": "ArXiv",
-    "published": "2026-03-13T07:21:16+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n\u2022 Introduces **AnchorVLA4D**, a spatial-temporal Vision-Language-Action model that incorporates an **anchor image** to preserve initial scene context and mitigate object occlusion issues.\n\u2022 Employs a **Qwen2.5-VL** backbone integrated with a **diffusion-based action head** and a lightweight spatial encoder to infer geometric relationships without depth sensors.\n\u2022 Enhances **temporal reasoning** by jointly processing anchor and current frames, allowing the model to maintain orientation throughout complex manipulation episodes.\n\u2022 Delivers a hardware-efficient solution that introduces **negligible inference overhead** while significantly boosting success rates in real-world environments.",
-      "key_results": [
-        "Achieved a 13.6% improvement on the Simpler WidowX benchmark compared to standard VLA baselines.",
-        "Reached an 80% average success rate across various real-world robotic manipulation tasks.",
-        "Successfully handled object occlusion and spatial disorientation without specialized depth or point cloud sensors.",
-        "Demonstrated that combining anchor frames with frozen pretrained encoders yields superior geometric reasoning.",
-        "Maintained high efficiency by using a lightweight spatial encoder for dual-frame processing."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers develop AnchorVLA4D, using anchor-based spatial-temporal reasoning to boost robotic manipulation success rates to 80% without extra sensors.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "Vision-Language-Action",
-        "Robotic Manipulation",
-        "Multimodal AI",
-        "Spatial Reasoning",
-        "Qwen2.5-VL"
       ]
     }
   }
