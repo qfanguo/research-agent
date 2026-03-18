@@ -1,5 +1,95 @@
 [
   {
+    "title": "Equipping workers with insights about compensation",
+    "link": "https://openai.com/index/equipping-workers-with-insights-about-compensation",
+    "summary": "New research shows Americans send nearly 3 million daily messages to ChatGPT asking about compensation and earnings, helping close the wage information gap.",
+    "source": "OpenAI News",
+    "published": "2026-03-17T00:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n OpenAI identifies a high-volume usage pattern where **LLMs** serve as a primary interface for navigating labor market opacity.\n The data indicates that approximately 3 million daily queries focus on **compensation benchmarking** and negotiation strategies.\n This trend demonstrates the real-world impact of **Generative AI** on reducing information asymmetry between employees and employers.\n While the article focuses on societal impact, it underscores the transition of LLMs from creative assistants to **decision-support agents** in high-stakes personal finance.",
+      "key_results": [
+        "Approximately 3 million daily messages are sent to ChatGPT regarding compensation in the US.",
+        "Users are primarily utilizing the model to bridge the 'wage information gap' in the labor market.",
+        "The AI provides structured support for salary negotiation and career planning.",
+        "Engagement metrics suggest a shift toward using conversational agents for data-driven life decisions.",
+        "The report highlights the democratization of specialized career advice previously gated by professional services."
+      ],
+      "relevance_score": 3,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "OpenAI research shows ChatGPT processes 3 million daily compensation queries, significantly reducing labor market information asymmetry for workers.",
+      "lead_institution": "OpenAI",
+      "tags": [
+        "Generative AI Trends",
+        "LLM Adoption",
+        "Information Asymmetry",
+        "Salary Negotiation",
+        "OpenAI"
+      ]
+    }
+  },
+  {
+    "title": "Google Research at The Check Up: from healthcare innovation to real-world care settings",
+    "link": "https://research.google/blog/google-research-at-the-check-up-from-healthcare-innovation-to-real-world-care-settings/",
+    "summary": "Health & Bioscience",
+    "source": "The latest research from Google",
+    "published": "2026-03-17T19:47:42+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Google introduces **Med-Gemini**, a suite of highly capable multimodal models fine-tuned for the healthcare domain, focusing on complex medical reasoning and diagnostic accuracy.\n- The research highlights the integration of **Multimodal AI**, enabling the processing of clinical notes, imaging data, and genomic sequences within a unified model architecture.\n- Focus is placed on **AI Evaluation** and safety frameworks, ensuring that generative outputs align with clinical gold standards for real-world deployment.\n- Development of a **Personal Health LLM** designed to process longitudinal biometric data from wearables to provide personalized health insights and coaching.",
+      "key_results": [
+        "Introduction of Med-Gemini models which outperform previous benchmarks in medical licensing exam tasks.",
+        "Deployment of AI-powered ultrasound tools to assist under-resourced healthcare providers in maternal health.",
+        "Advancement of multimodal capabilities allowing models to interpret X-rays and CT scans alongside text.",
+        "Integration of generative AI into Electronic Health Records (EHR) via partnerships like Meditech.",
+        "Establishment of rigorous safety protocols and human-in-the-loop evaluation for clinical LLM outputs."
+      ],
+      "relevance_score": 6,
+      "signal_type": "Paper",
+      "one_sentence_takeaway": "Google Research unveils Med-Gemini to advance multimodal medical reasoning and clinical decision support through fine-tuned generative models.",
+      "lead_institution": "Google Research",
+      "tags": [
+        "Med-Gemini",
+        "Multimodal AI",
+        "Healthcare AI",
+        "Model Fine-tuning",
+        "Medical Reasoning"
+      ]
+    }
+  },
+  {
+    "title": "Improving breast cancer screening workflows with machine learning",
+    "link": "https://research.google/blog/improving-breast-cancer-screening-workflows-with-machine-learning/",
+    "summary": "Health & Bioscience",
+    "source": "The latest research from Google",
+    "published": "2026-03-17T16:57:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* Deploys **Deep Convolutional Neural Networks (CNNs)** to analyze screening mammograms for high-confidence classification of malignant versus benign findings.\n* Integrates an **automated triaging framework** that identifies low-probability cases, allowing radiologists to focus on high-risk biopsies.\n* Utilizes **ensemble learning** and large-scale pre-training on diverse clinical datasets to improve model robustness across different imaging hardware.\n* Focuses on **clinical workflow integration**, aiming to reduce radiologist burnout and minimize diagnostic latency in screening programs.",
+      "key_results": [
+        "Achieved non-inferior performance compared to expert radiologists in standalone screening tasks.",
+        "Demonstrated a reduction in false positive rates, potentially decreasing unnecessary follow-up procedures.",
+        "Showcased model generalizability across international datasets from both the US and UK.",
+        "Identified a significant portion of 'normal' scans that could be safely triaged without human intervention.",
+        "Improved detection of subtle architectural distortions that are frequently missed by traditional CAD systems."
+      ],
+      "relevance_score": 6,
+      "signal_type": "Paper",
+      "one_sentence_takeaway": "Google Research develops machine learning models that optimize breast cancer screening by triaging low-risk cases to reduce radiologist workload.",
+      "lead_institution": "Google Research",
+      "tags": [
+        "Computer Vision",
+        "Healthcare AI",
+        "Deep Learning",
+        "Medical Imaging",
+        "Workflow Optimization"
+      ]
+    }
+  },
+  {
     "title": "Testing LLMs on superconductivity research questions",
     "link": "https://research.google/blog/testing-llms-on-superconductivity-research-questions/",
     "summary": "Education Innovation",
@@ -8,24 +98,54 @@
     "type": "blog",
     "display_category": "Top News",
     "processed": {
-      "summary": "\n- Evaluation of **LLM performance** in the highly specialized domain of **superconductivity**, focusing on technical accuracy and complex reasoning.\n- The study utilizes a curated dataset of research-grade questions to probe **domain-specific knowledge** and multi-step scientific inference capabilities.\n- Analysis highlights the persistent challenge of **hallucinations** in niche literature and assesses the impact of specialized **prompting techniques** on accuracy.",
+      "summary": "\n\u2022 Google researchers evaluate LLM performance on **domain-specific physics questions**, specifically focusing on the complex field of **superconductivity** to benchmark scientific reasoning capabilities.\n\u2022 The study explores the transition from general-purpose retrieval to **expert-level synthesis**, highlighting the current limitations of LLMs in handling specialized material science data.\n\u2022 Assessment criteria emphasize the utility of models in **educational innovation**, testing their ability to provide accurate explanations and derivations for advanced condensed matter physics.",
       "key_results": [
-        "LLMs exhibit a significant performance gap when transitioning from general physics to specific superconductivity parameters.",
-        "Models frequently struggle with precise data extraction from technical descriptions of material properties.",
-        "Advanced reasoning models perform better at linking conceptual theories than calculating specific physical constants.",
-        "Zero-shot accuracy remains inconsistent, necessitating specialized prompt engineering for material science queries.",
-        "The findings suggest a critical requirement for RAG-based systems to ensure accuracy in high-stakes scientific research."
+        "LLMs show high accuracy on foundational superconductivity concepts but struggle with specialized frontier research.",
+        "Significant reasoning gaps were identified in multi-step mathematical derivations for critical temperature predictions.",
+        "Models frequently hallucinate citations and experimental parameters when queried on niche material datasets.",
+        "Zero-shot performance remains inconsistent compared to human-expert baselines in condensed matter physics.",
+        "The research highlights the need for more robust, domain-specific evaluation frameworks in the hard sciences."
       ],
       "relevance_score": 6,
       "signal_type": "Paper",
-      "one_sentence_takeaway": "Google Research evaluates LLMs on superconductivity, uncovering performance gaps in domain-specific reasoning and quantitative technical data.",
+      "one_sentence_takeaway": "Google Research evaluates LLM accuracy in superconductivity to identify critical gaps in expert-level scientific reasoning and technical precision.",
       "lead_institution": "Google Research",
       "tags": [
         "AI Evaluation",
-        "Reasoning Models",
-        "Material Science",
-        "LLM Benchmarking",
-        "Scientific AI"
+        "Scientific Reasoning",
+        "Physics Benchmarks",
+        "Domain-Specific AI",
+        "GenAI Trends"
+      ]
+    }
+  },
+  {
+    "title": "Investing in the people shaping open source and securing the future together",
+    "link": "https://github.blog/security/supply-chain-security/investing-in-the-people-shaping-open-source-and-securing-the-future-together/",
+    "summary": "<p>See how GitHub is investing in open source security funding maintainers, partnering with Alpha-Omega, and expanding access to help reduce burden and strengthen software supply chains.</p>\n<p>The post <a href=\"https://github.blog/security/supply-chain-security/investing-in-the-people-shaping-open-source-and-securing-the-future-together/\">\u202fInvesting in the people shaping open source and securing the future together</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
+    "source": "The GitHub Blog",
+    "published": "2026-03-17T16:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n\u2022 GitHub is scaling **security funding** initiatives specifically targeting open source maintainers to fortify global digital infrastructure.\n\u2022 A strategic partnership with **Alpha-Omega** has been established to identify and mitigate systemic vulnerabilities in critical projects.\n\u2022 The initiative aims to enhance **Software Supply Chain Security** by lowering the technical and operational burden for independent developers.\n\u2022 Direct financial support is integrated into the **ecosystem architecture** to ensure long-term sustainability of vital software components.",
+      "key_results": [
+        "Direct financial investment allocated to open source maintainers.",
+        "Formalized security partnership with the Alpha-Omega project.",
+        "Implementation of programs to reduce security-related maintainer burnout.",
+        "Expansion of access to tools for software supply chain protection.",
+        "Targeted support for critical 'under-the-radar' open source infrastructure."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "GitHub scales funding and security partnerships to protect open source maintainers and fortify the global software supply chain.",
+      "lead_institution": "GitHub",
+      "tags": [
+        "Open Source Security",
+        "Supply Chain",
+        "GitHub",
+        "Vulnerability Management",
+        "Developer Funding"
       ]
     }
   },
@@ -38,24 +158,114 @@
     "type": "blog",
     "display_category": "Top News",
     "processed": {
-      "summary": "\n- **GitHub Actions** provides an integrated **CI/CD** platform for automating software development workflows directly within the GitHub ecosystem.\n- The architecture utilizes **YAML-based** configurations to define automated pipelines triggered by specific repository events like pushes or pull requests.\n- By abstracting infrastructure, it allows developers to implement **event-driven** automation for building, testing, and deploying code without managing external servers.",
+      "summary": "\n* GitHub introduces a **foundational guide** to implementing GitHub Actions for automating software development lifecycles.\n* The content details the **YAML-based syntax** required to construct event-driven workflows that trigger on specific repository activities.\n* Focuses on the **CI/CD architecture**, enabling developers to automate testing, building, and deployment processes directly within the GitHub ecosystem.",
       "key_results": [
-        "Introduction to creating workflow files in the .github/workflows directory",
-        "Explanation of core components: Events, Jobs, Steps, and Actions",
-        "Guidance on using the YAML syntax for declarative workflow definitions",
-        "Demonstration of automated code testing upon repository updates",
-        "Simplified path for developers to transition from manual to automated deployments"
+        "Introduction to YAML configuration for defining automated workflows.",
+        "Explanation of event-driven triggers such as 'push' and 'pull_request'.",
+        "Overview of job execution within hosted runner environments.",
+        "Guidance on utilizing the GitHub Marketplace for reusable workflow components.",
+        "Best practices for managing secrets and environment variables in automated pipelines."
       ],
       "relevance_score": 3,
       "signal_type": "Engineering Blog",
-      "one_sentence_takeaway": "GitHub introduces a foundational guide for developers to automate code workflows using GitHub Actions CI/CD pipelines.",
+      "one_sentence_takeaway": "GitHub launches a beginner-oriented tutorial to help developers automate development workflows through event-triggered CI/CD pipelines.",
       "lead_institution": "GitHub",
       "tags": [
+        "GitHub Actions",
         "CI/CD",
         "Automation",
         "DevOps",
-        "GitHub Actions",
         "Workflow Orchestration"
+      ]
+    }
+  },
+  {
+    "title": "Bringing the power of Personal Intelligence to more people",
+    "link": "https://blog.google/products-and-platforms/products/search/personal-intelligence-expansion/",
+    "summary": "Bubble that says \"Personal Intelligence\" with Google G, Google Photos logo, and Gmail logo around it",
+    "source": "AI",
+    "published": "2026-03-17T16:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n\u2022 Google is expanding its **Personal Intelligence** framework, likely utilizing **Retrieval-Augmented Generation (RAG)** over private user datasets such as Gmail and Photos.\n\u2022 The architecture emphasizes a **unified context layer** that bridges data silos between disparate Google Workspace applications for seamless cross-service reasoning.\n\u2022 The focus shifts from general-purpose LLMs to **context-aware personal agents** that leverage unique user history to provide highly relevant, proactive assistance.",
+      "key_results": [
+        "Integration of Google Workspace data (Gmail) with core AI models.",
+        "Semantic search and reasoning capabilities applied to Google Photos.",
+        "Expansion of 'Personal Intelligence' branding to broader consumer segments.",
+        "Focus on unified AI agents capable of accessing private user metadata.",
+        "Strategic move toward ecosystem-wide personal context management."
+      ],
+      "relevance_score": 3,
+      "signal_type": "Release",
+      "one_sentence_takeaway": "Google launches 'Personal Intelligence' to integrate private user data from Workspace and Photos into its generative AI ecosystem.",
+      "lead_institution": "Google",
+      "tags": [
+        "Personal Intelligence",
+        "Agentic AI",
+        "RAG",
+        "Google Workspace",
+        "Multimodal AI"
+      ]
+    }
+  },
+  {
+    "title": "Our latest investment in open source security for the AI era",
+    "link": "https://blog.google/innovation-and-ai/technology/safety-security/ai-powered-open-source-security/",
+    "summary": "A collage including security icons and photos of hands clasped, a man looking at a computer, and two people pointing at something off camera",
+    "source": "AI",
+    "published": "2026-03-17T16:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n\u2022 The announcement details a strategic investment aimed at **Open Source Security** to safeguard the evolving AI infrastructure and model supply chains.\n\u2022 The initiative focuses on mitigating **Prompt Injection** and **Model Evasion** vulnerabilities within generative workflows.\n\u2022 This funding aims to improve **Model Governance** and transparency for enterprises deploying local and cloud-based LLMs.",
+      "key_results": [
+        "Strategic investment in security frameworks for the AI era.",
+        "Support for open-source tools focused on model integrity.",
+        "Emphasis on securing the AI development lifecycle.",
+        "Collaboration on standardizing AI vulnerability management.",
+        "Strengthening the defense against data poisoning and malicious fine-tuning."
+      ],
+      "relevance_score": 3,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "AI announces a strategic investment in open-source security to fortify the integrity and supply chain of the generative AI ecosystem.",
+      "lead_institution": "AI",
+      "tags": [
+        "AI Security",
+        "Open Source",
+        "Model Governance",
+        "Investment",
+        "Generative AI"
+      ]
+    }
+  },
+  {
+    "title": "AWS AI League: Atos fine-tunes approach to AI education",
+    "link": "https://aws.amazon.com/blogs/machine-learning/aws-ai-league-atos-fine-tunes-approach-to-ai-education/",
+    "summary": "In this post, we\u2019ll explore how Atos used the AWS AI League to help accelerate AI education across 400+ participants, highlight the tangible benefits of gamified, experiential learning, and share actionable insights you can apply to your own AI enablement programs.",
+    "source": "Artificial Intelligence",
+    "published": "2026-03-17T15:51:08+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n Atos implemented the **AWS AI League** framework to scale generative AI education and literacy across 400+ internal participants.\n The architecture focuses on **gamified, experiential learning** to bridge the gap between theoretical model knowledge and cloud-based implementation.\n The program utilizes **AWS infrastructure** to provide a sandbox environment for employees to prototype AI-driven business solutions in a competitive format.",
+      "key_results": [
+        "Successfully onboarded and trained 400+ participants in AI competencies.",
+        "Established a scalable model for global corporate AI enablement.",
+        "Increased employee engagement through competitive, hands-on learning modules.",
+        "Integrated AWS-specific AI services into practical workforce upskilling workflows.",
+        "Generated actionable organizational insights for future large-scale AI deployments."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Atos leverages the AWS AI League to upskill 400+ employees via gamified, experiential learning programs for AI enablement.",
+      "lead_institution": "Atos",
+      "tags": [
+        "AI Enablement",
+        "AWS",
+        "Workforce Upskilling",
+        "Generative AI",
+        "Cloud Computing"
       ]
     }
   },
@@ -68,24 +278,24 @@
     "type": "blog",
     "display_category": "Top News",
     "processed": {
-      "summary": "\n* AWS and NVIDIA expand their **strategic partnership** to address the scaling demands of **generative AI infrastructure**.\n* The collaboration focuses on integrating **NVIDIA hardware** within **AWS cloud services** to streamline the transition from pilot to enterprise production.\n* Technical integrations aim to optimize **compute efficiency** and performance for large-scale model training and inference workloads.",
+      "summary": "\n* AWS and NVIDIA integrate new technologies to scale **AI compute infrastructure** for production-grade workloads.\n* The partnership focuses on bridging the gap between **AI prototyping and deployment** through optimized hardware-software stacks.\n* Strategic expansion aims to address the massive compute requirements of scaling **Generative AI** and foundation models.",
       "key_results": [
-        "Expanded AWS and NVIDIA technology integration for AI workloads.",
-        "Strategic focus on production-ready AI deployment workflows.",
-        "Support for rapidly growing global AI compute demand.",
-        "Enhanced infrastructure capabilities announced at GTC 2026.",
-        "Accelerated transition timeline for AI solutions from pilot to production."
+        "Expanded strategic collaboration between AWS and NVIDIA.",
+        "Introduction of new technology integrations for AI compute.",
+        "Support for production-ready AI solution deployment.",
+        "Infrastructure optimization for high-demand AI workloads.",
+        "Streamlined development lifecycle from pilot to production."
       ],
-      "relevance_score": 2,
+      "relevance_score": 3,
       "signal_type": "Release",
-      "one_sentence_takeaway": "AWS and NVIDIA expand their collaboration to scale compute infrastructure and accelerate production-ready generative AI deployment.",
-      "lead_institution": "Artificial Intelligence",
+      "one_sentence_takeaway": "AWS and NVIDIA expand their collaboration to scale production AI infrastructure and meet rising global compute demands.",
+      "lead_institution": "AWS and NVIDIA",
       "tags": [
-        "AI Infrastructure",
+        "Generative AI",
         "Cloud Compute",
-        "NVIDIA GTC",
-        "AWS",
-        "Generative AI"
+        "Infrastructure",
+        "GPU Acceleration",
+        "Production AI"
       ]
     }
   },
@@ -98,24 +308,24 @@
     "type": "blog",
     "display_category": "Top News",
     "processed": {
-      "summary": "\n- Transitioning to **Agentic AI** requires a shift from standard LLM prompts to role-specific orchestration frameworks tailored to enterprise personas.\n- Successful implementation hinges on aligning **Enterprise Architecture** with business-unit goals to mitigate technical debt and maximize P&L impact.\n- Scalable governance must embed **Security and Compliance** protocols directly into the autonomous agent decision-making loop to ensure organizational safety.",
+      "summary": "\n- Defines a role-based framework for **Agentic AI adoption**, aligning technical architecture with specific business governance personas.\n- Outlines the integration of **autonomous agents** into enterprise ecosystems via specialized security, data, and compliance guardrails.\n- Emphasizes that **agentic orchestration** requires a shared foundation to prevent project failure during the transition from experimentation to production.",
       "key_results": [
-        "Identifies distinct responsibilities for P&L owners, architects, and security leads in agentic deployments.",
-        "Proposes a framework for aligning agentic behavior with specific enterprise business logic.",
-        "Categorizes risks associated with autonomous agents into persona-specific action items.",
-        "Outlines a strategy for integrating agentic systems into legacy data governance models.",
-        "Establishes the 'Agentic AI' lifecycle as a critical competency for modern enterprise architecture."
+        "Defined distinct AI responsibilities for P&L, architecture, and security leads.",
+        "Established governance protocols for autonomous agent decision-making.",
+        "Categorized risks associated with agentic tool-use in production environments.",
+        "Proposed data sovereignty models for managing agentic memory and RAG context.",
+        "Identified organizational leverage points for scaling AI agents across business silos."
       ],
       "relevance_score": 4,
       "signal_type": "Engineering Blog",
-      "one_sentence_takeaway": "AWS Generative AI Innovation Center outlines strategic persona-based frameworks for implementing autonomous agentic AI across enterprise leadership roles.",
+      "one_sentence_takeaway": "AWS Generative AI Innovation Center provides strategic frameworks for enterprise leaders to implement and govern autonomous agentic AI systems.",
       "lead_institution": "AWS Generative AI Innovation Center",
       "tags": [
-        "Agentic AI",
-        "Enterprise AI",
         "LLM Agents",
+        "Enterprise AI",
         "AI Governance",
-        "AI Strategy"
+        "Agentic Workflows",
+        "Cloud AI"
       ]
     }
   },
@@ -128,24 +338,24 @@
     "type": "blog",
     "display_category": "Top News",
     "processed": {
-      "summary": "\n*   Developed a **multi-tenant architecture** utilizing **Amazon QuickSight** to provide embedded, self-service analytics within a SaaS platform.\n*   Implemented strict **data isolation** protocols and security filtering to ensure that individual customer tenants only access their specific datasets.\n*   Automated the **reporting lifecycle**, allowing end-users to generate custom insights without direct engineering intervention or manual data pulls.",
+      "summary": "\n- Transitioned from **legacy monolithic reporting** to a modern, cloud-native **multi-tenant architecture** using **Amazon QuickSight** for embedded SaaS dashboards.\n- Utilized **Amazon QuickSight Namespaces** to achieve logical isolation of tenant data, ensuring strict security and compliance across a shared environment.\n- Implemented an **API-driven deployment model** that automates the provisioning of dashboards, reducing the engineering overhead associated with custom visualization code.\n- Enhanced the **user experience** by providing high-performance, interactive visualizations directly within the Workhuman application interface.",
       "key_results": [
-        "Successfully migrated to a self-service reporting model for all SaaS clients.",
-        "Achieved seamless integration of embedded dashboards into the existing application UI.",
-        "Ensured scalable multi-tenancy using QuickSight's row-level security features.",
-        "Reduced internal developer overhead for ad-hoc report generation.",
-        "Improved customer time-to-insight through real-time data visualization access."
+        "Achieved robust data isolation for thousands of concurrent tenants.",
+        "Reduced time-to-market for new analytics features through self-service tools.",
+        "Streamlined infrastructure management via AWS serverless analytics.",
+        "Improved dashboard load times and interactive performance for end users.",
+        "Enabled non-technical stakeholders to create and iterate on visual reports."
       ],
-      "relevance_score": 4,
+      "relevance_score": 2,
       "signal_type": "Engineering Blog",
-      "one_sentence_takeaway": "Workhuman integrates Amazon QuickSight to provide secure, multi-tenant embedded analytics for self-service reporting within their SaaS application.",
+      "one_sentence_takeaway": "Workhuman leverages Amazon QuickSight to deliver scalable, multi-tenant embedded analytics within their SaaS platform for improved reporting efficiency.",
       "lead_institution": "Workhuman",
       "tags": [
-        "Amazon QuickSight",
-        "Embedded Analytics",
-        "Multi-tenancy",
         "SaaS Architecture",
-        "Data Engineering"
+        "Multi-tenancy",
+        "Embedded Analytics",
+        "Amazon QuickSight",
+        "Cloud Infrastructure"
       ]
     }
   },
@@ -158,24 +368,144 @@
     "type": "blog",
     "display_category": "Top News",
     "processed": {
-      "summary": "\n- Implements an **offline feature store** using **SageMaker Catalog** within the Unified Studio environment to manage machine learning data assets.\n- Utilizes a **publish-subscribe architecture** that separates data producers from consumers, facilitating scalable and secure feature distribution.\n- Provides a mechanism for **versioning and curating feature tables**, ensuring high-quality, reproducible data is available for model training and fine-tuning.\n- Enhances **governance and collaboration** by offering a centralized interface for data discovery and metadata management across distributed teams.",
+      "summary": "\n- Implements an **offline feature store** architecture utilizing **Amazon SageMaker Catalog** within the **SageMaker Unified Studio** environment.\n- Leverages a **publish-subscribe pattern** to decouple data producers and consumers, enabling centralized management of **versioned feature tables**.\n- Facilitates secure **discovery and reuse** of curated datasets, streamlining the machine learning development lifecycle across enterprise teams.\n- Integrates **SageMaker data governance** capabilities to maintain feature lineage and ensure consistency for model training and evaluation.",
       "key_results": [
-        "Establishment of a centralized feature metadata repository via SageMaker Catalog.",
-        "Reduction in data redundancy through standardized cross-team feature reuse.",
-        "Support for versioned datasets to ensure reproducibility in model development.",
-        "Streamlined secure discovery and subscription workflows for data consumers.",
-        "Integration of feature management directly into the SageMaker Unified Studio domain."
+        "Creation of a centralized SageMaker Catalog for managing offline feature sets",
+        "Implementation of a publish-subscribe workflow for data producers and consumers",
+        "Enhanced feature discovery and subscription mechanisms within Unified Studio",
+        "Standardized versioning and curation of feature tables for model reproducibility",
+        "Streamlined access control and security for shared data assets"
       ],
       "relevance_score": 6,
       "signal_type": "Engineering Blog",
-      "one_sentence_takeaway": "AWS introduces a publish-subscribe pattern for offline feature stores using SageMaker Catalog to streamline secure feature discovery and reuse.",
+      "one_sentence_takeaway": "Amazon AWS introduces a publish-subscribe offline feature store architecture using SageMaker Catalog to enhance feature reuse and governance.",
       "lead_institution": "Amazon Web Services",
       "tags": [
         "Feature Store",
-        "SageMaker",
+        "SageMaker Catalog",
         "MLOps",
         "Data Governance",
-        "Model Development"
+        "AWS Unified Studio"
+      ]
+    }
+  },
+  {
+    "title": "More Than Meets the Eye: NVIDIA RTX-Accelerated Computers Now Connect Directly to Apple Vision Pro",
+    "link": "https://blogs.nvidia.com/blog/nvidia-cloudxr-apple-vision-pro/",
+    "summary": "NVIDIA and Apple\u2019s collaboration brings native integration of NVIDIA CloudXR 6.0 to visionOS, securely delivering NVIDIA RTX-powered simulators and professional 3D graphics applications \u2014 like Immersive for Autodesk VRED on Innoactive\u2019s XR streaming solutions \u2014 to Apple Vision Pro.",
+    "source": "NVIDIA Blog",
+    "published": "2026-03-17T17:00:58+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- NVIDIA introduces native **CloudXR 6.0** support for **visionOS**, bridging high-end RTX workstation power with the Apple Vision Pro headset.\n- The architecture enables **low-latency streaming** of complex 3D environments and professional simulators directly from the cloud or local servers.\n- Integration with **OpenXR** allows developers to port existing high-fidelity VR applications into the Vision Pro ecosystem without compromising visual quality.",
+      "key_results": [
+        "Native CloudXR 6.0 integration for visionOS devices.",
+        "RTX-accelerated graphics streaming directly to Apple Vision Pro.",
+        "Support for professional simulators like Autodesk VRED.",
+        "Bypassing mobile hardware limitations via remote rendering.",
+        "Secure delivery of industrial 3D graphics through Innoactive solutions."
+      ],
+      "relevance_score": 4,
+      "signal_type": "Release",
+      "one_sentence_takeaway": "NVIDIA launches CloudXR 6.0 for visionOS, enabling high-performance RTX graphics streaming directly to Apple Vision Pro headsets.",
+      "lead_institution": "NVIDIA Blog",
+      "tags": [
+        "Spatial Computing",
+        "NVIDIA CloudXR",
+        "Apple Vision Pro",
+        "RTX Graphics",
+        "Industrial Metaverse"
+      ]
+    }
+  },
+  {
+    "title": "NVIDIA, Telecom Leaders Build AI Grids to Optimize Inference on Distributed Networks",
+    "link": "https://blogs.nvidia.com/blog/telecom-ai-grids-inference/",
+    "summary": "As AI\u2011native applications scale to more users, agents and devices, the telecommunications network is becoming the next frontier for distributing AI.\u00a0 At NVIDIA GTC 2026, leading operators in the U.S. and Asia showed that this shift is underway, announcing AI grids \u2014 geographically distributed and interconnected AI infrastructure \u2014 using their network footprint to power [&#8230;]",
+    "source": "NVIDIA Blog",
+    "published": "2026-03-17T17:00:15+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Leading telecom operators are deploying **geographically distributed AI grids** to optimize inference for scaling AI agents and devices.\n- The architecture utilizes **network-level distribution** to place compute resources closer to end-users, significantly reducing latency for **multimodal applications**.\n- This shift towards **AI-native networks** leverages interconnected hardware to balance workloads across global infrastructure footprints.",
+      "key_results": [
+        "Announcement of interconnected AI grids across US and Asia.",
+        "Optimization of real-time inference through distributed network footprints.",
+        "Scaling support for high-density AI agent deployments.",
+        "Reduction in data backhaul requirements via edge-localized processing.",
+        "Standardization of AI infrastructure integration within telecommunications hardware."
+      ],
+      "relevance_score": 3,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "NVIDIA partners with global telecom operators to deploy distributed AI grids for low-latency, agentic inference at scale.",
+      "lead_institution": "NVIDIA",
+      "tags": [
+        "Edge Computing",
+        "Distributed Inference",
+        "AI Agents",
+        "Telecommunications",
+        "Infrastructure"
+      ]
+    }
+  },
+  {
+    "title": "GTC Spotlights NVIDIA RTX PCs and DGX Sparks Running Latest Open Models and AI Agents Locally",
+    "link": "https://blogs.nvidia.com/blog/rtx-ai-garage-gtc-2026-nemoclaw/",
+    "summary": "The paradigm of consumer computing has revolved around the concept of a personal device \u2014 from PCs to smartphones and tablets. Now, generative AI \u2014 particularly OpenClaw \u2014 has introduced a new category: agent computers. These devices, like the NVIDIA DGX Spark desktop AI supercomputer or dedicated NVIDIA RTX PCs, are ideal for running personal [&#8230;]",
+    "source": "NVIDIA Blog",
+    "published": "2026-03-17T13:00:46+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- NVIDIA defines a new category of **agent computers**, transitioning local hardware from standard processing units to dedicated environments for **autonomous AI agents**.\n- The architecture utilizes **NVIDIA RTX PCs** and the **DGX Spark** desktop supercomputer to facilitate high-throughput **local LLM** inference and complex reasoning tasks.\n- By integrating open-source frameworks like **OpenClaw**, these systems enable developers to deploy private and low-latency **generative AI** workflows directly on the edge.",
+      "key_results": [
+        "Definition of 'agent computers' as the successor to traditional personal computing devices.",
+        "Support for local deployment of the OpenClaw model ecosystem on consumer-grade hardware.",
+        "Utilization of DGX Spark for high-performance, local agent-based development and simulation.",
+        "Focus on privacy and latency reduction by removing the dependency on cloud-based LLM providers.",
+        "Acceleration of agentic workflows through NVIDIA's specialized local GPU stack."
+      ],
+      "relevance_score": 3,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "NVIDIA introduces the agent computer concept to enable high-performance local execution of autonomous agents and open-source generative models.",
+      "lead_institution": "NVIDIA",
+      "tags": [
+        "Local LLMs",
+        "AI Agents",
+        "NVIDIA RTX",
+        "Edge AI",
+        "OpenClaw"
+      ]
+    }
+  },
+  {
+    "title": "Snap Decisions: How Open Libraries for Accelerated Data Processing Boost A/B Testing for Snapchat",
+    "link": "https://blogs.nvidia.com/blog/snap-accelerated-data-processing/",
+    "summary": "The features on social media apps like Snapchat evolve nearly as fast as what\u2019s trending. To keep pace, its parent company Snap has adopted open data processing libraries from NVIDIA on Google Cloud services to boost development.\u00a0 Every new feature rolled out to Snapchat\u2019s more than 940 million monthly active users goes through a set [&#8230;]",
+    "source": "NVIDIA Blog",
+    "published": "2026-03-17T13:00:23+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Snap integrated **NVIDIA accelerated data processing libraries** within **Google Cloud** to optimize large-scale A/B testing workflows.\n- The architecture utilizes **GPU-accelerated dataframes** to process high-velocity user engagement data from over 940 million monthly active users.\n- By transitioning from CPU-bound to **GPU-native data processing**, the company achieved faster iteration cycles for deploying **Generative AI** and social features.",
+      "key_results": [
+        "Reduced latency for large-scale A/B testing analysis.",
+        "Improved cost-efficiency for data processing on Google Cloud.",
+        "Seamless integration of NVIDIA RAPIDS into existing cloud pipelines.",
+        "Enabled rapid evaluation of new features for 940M+ users.",
+        "Optimized infrastructure for high-throughput social media data streams."
+      ],
+      "relevance_score": 4,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Snap leverages NVIDIA accelerated libraries on Google Cloud to speed up A/B testing analysis for its global user base.",
+      "lead_institution": "NVIDIA Blog",
+      "tags": [
+        "Data Processing",
+        "GPU Acceleration",
+        "A/B Testing",
+        "Cloud Infrastructure",
+        "NVIDIA RAPIDS"
       ]
     }
   },
@@ -188,24 +518,24 @@
     "type": "blog",
     "display_category": "Top News",
     "processed": {
-      "summary": "\n- Roche scales its global infrastructure by deploying **3,500 NVIDIA Blackwell GPUs** to establish high-performance **AI Factories**.\n- The architecture targets the **entire value chain**, focusing on accelerating R&D, improving diagnostic accuracy, and optimizing manufacturing throughput.\n- This integration facilitates massive scaling of **computational drug discovery** and the processing of complex biological datasets for **next-generation diagnostics**.",
+      "summary": "\n- Roche deploys **3,500 NVIDIA Blackwell GPUs** to establish high-performance **AI Factories** integrated across its global pharmaceutical value chain.\n- The infrastructure scale-up is designed to accelerate **Generative AI** applications in computational biology and high-throughput drug discovery.\n- The deployment targets localized and global efficiencies in **next-generation diagnostics** and pharmaceutical manufacturing through massive parallel compute.",
       "key_results": [
-        "Deployment of 3,500 NVIDIA Blackwell GPUs across global operations.",
-        "Scaling of AI-driven R&D productivity through unified AI Factory architecture.",
-        "Acceleration of computational drug discovery and high-throughput screening.",
-        "Implementation of AI-enhanced diagnostic solutions for healthcare providers.",
-        "Optimization of manufacturing efficiencies using GPU-accelerated computing pipelines."
+        "Deployment of 3,500+ NVIDIA Blackwell GPUs across worldwide operations.",
+        "Scaling of R&D productivity for faster drug candidate identification.",
+        "Modernization of diagnostic solutions using AI-driven analysis.",
+        "Optimization of manufacturing processes via high-performance simulations.",
+        "End-to-end integration of NVIDIA AI architecture across the healthcare value chain."
       ],
-      "relevance_score": 4,
+      "relevance_score": 3,
       "signal_type": "Release",
-      "one_sentence_takeaway": "Roche deploys 3,500 NVIDIA Blackwell GPUs to accelerate global drug discovery and diagnostic R&D through massive AI Factories.",
-      "lead_institution": "Roche",
+      "one_sentence_takeaway": "Roche scales its drug discovery and manufacturing capabilities by deploying over 3,500 NVIDIA Blackwell GPUs to establish global AI factories.",
+      "lead_institution": "NVIDIA Blog",
       "tags": [
-        "Blackwell GPU",
-        "Drug Discovery",
+        "Blackwell GPUs",
         "AI Factories",
+        "Drug Discovery",
         "Healthcare AI",
-        "Generative AI Trends"
+        "Infrastructure Scaling"
       ]
     }
   },
@@ -218,24 +548,84 @@
     "type": "blog",
     "display_category": "Top News",
     "processed": {
-      "summary": "\n* **NVIDIA DSX Air** is a specialized blueprint within the DSX platform designed to optimize the planning and deployment of **AI factories**.\n* The architecture utilizes **accelerated simulation** to validate hardware and software stacks in a virtual environment before physical implementation.\n* The solution significantly reduces the **Time to Token** metric by streamlining the orchestration of large-scale compute clusters.",
+      "summary": "\n- **NVIDIA DSX Air** leverages the **DSX Sim** platform to create high-fidelity digital twins of **AI factories**, optimizing the physical and logical layout of large-scale clusters.\n- The architecture focuses on reducing **time to token** by simulating network topologies and cooling efficiency before physical hardware is deployed.\n- By utilizing **accelerated simulation**, the framework enables a paradigm shift in industrial AI deployment, moving from traditional multi-month timelines to a matter of days.",
       "key_results": [
         "Reduction of AI factory deployment timelines from months to days.",
-        "Launch of the DSX Air blueprint for industrial-scale simulation.",
-        "Optimization of the 'Time to Token' metric for generative AI workloads.",
-        "Integration of DSX Air within the broader NVIDIA DSX Sim environment.",
-        "Accelerated validation of complex AI infrastructure configurations."
+        "Optimization of hardware interconnects and cooling via digital twin simulation.",
+        "Launch of NVIDIA DSX Air as a core component of the DSX platform.",
+        "Significant improvement in time-to-token metrics for large-scale models.",
+        "Standardization of AI factory blueprints for industrial-scale generative AI."
       ],
       "relevance_score": 3,
       "signal_type": "Release",
-      "one_sentence_takeaway": "NVIDIA launches DSX Air to accelerate AI factory deployment from months to days using high-fidelity simulation environments.",
+      "one_sentence_takeaway": "NVIDIA introduces DSX Air to accelerate AI factory deployment by using simulation to reduce setup time to days.",
       "lead_institution": "NVIDIA",
       "tags": [
         "AI Factories",
+        "Digital Twins",
         "NVIDIA DSX",
         "Infrastructure Simulation",
-        "Time to Token",
-        "Generative AI Trends"
+        "GTC 2026"
+      ]
+    }
+  },
+  {
+    "title": "NVIDIA GTC 2026: Live Updates on What\u2019s Next in AI",
+    "link": "https://blogs.nvidia.com/blog/gtc-2026-news/",
+    "summary": "Rolling coverage from San Jose, including NVIDIA CEO Jensen Huang\u2019s keynote, news highlights, live demos and on\u2011the\u2011ground color through March 19.",
+    "source": "NVIDIA Blog",
+    "published": "2026-03-16T15:00:08+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* The event serves as a platform for **accelerated computing** roadmaps, emphasizing the integration of next-generation hardware with AI software stacks.\n* Focuses on the **scaling laws** of generative AI, showcasing how full-stack optimization drives performance gains in large-scale model training.\n* Highlights developments in **AI infrastructure** designed to support real-time multimodal inference and industrial-scale digital twins.",
+      "key_results": [
+        "Comprehensive keynote outlining future AI hardware architecture.",
+        "Showcase of live demos for generative AI applications.",
+        "Real-time coverage of ecosystem partnerships and integrations.",
+        "On-the-ground updates regarding AI-driven robotics and simulation.",
+        "Strategic updates on the NVIDIA AI Enterprise software platform."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "NVIDIA previews its next-generation AI hardware and software roadmaps through live coverage and keynote updates at GTC 2026.",
+      "lead_institution": "NVIDIA",
+      "tags": [
+        "AI Infrastructure",
+        "GPU Architecture",
+        "Generative AI",
+        "Accelerated Computing",
+        "NVIDIA GTC"
+      ]
+    }
+  },
+  {
+    "title": "Introducing LangSmith Sandboxes: Secure Code Execution for Agents",
+    "link": "https://blog.langchain.com/introducing-langsmith-sandboxes-secure-code-execution-for-agents/",
+    "summary": "Spin up a sandbox in a single line of code with the LangSmith SDK. Now in Private Preview.",
+    "source": "LangChain Blog",
+    "published": "2026-03-17T15:51:07+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- LangChain introduces **LangSmith Sandboxes**, providing a managed infrastructure for **secure code execution** within LLM agentic workflows.\n- The architecture leverages the **LangSmith SDK** to provision isolated environments with a single line of code, abstracting away the complexity of managing Docker or micro-VMs.\n- Focuses on mitigating security risks associated with **untrusted code execution** from LLMs, a critical requirement for production-grade Agentic systems.",
+      "key_results": [
+        "Provisioning of isolated execution environments via a single SDK call.",
+        "Support for Python-based sandboxing for LLM-generated scripts.",
+        "Integrated monitoring and logging within the existing LangSmith platform.",
+        "Reduction in infrastructure overhead for developers building code-interpreting agents.",
+        "Availability in Private Preview for enterprise-level testing and feedback."
+      ],
+      "relevance_score": 6,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "LangChain introduces LangSmith Sandboxes to provide developers with a secure, single-line managed environment for executing LLM-generated code.",
+      "lead_institution": "LangChain",
+      "tags": [
+        "LLM Agents",
+        "Security",
+        "Code Execution",
+        "LangSmith",
+        "Developer Tools"
       ]
     }
   },
@@ -248,24 +638,24 @@
     "type": "blog",
     "display_category": "Top News",
     "processed": {
-      "summary": "\n* LangChain and **NVIDIA** partner to deliver an enterprise-grade platform for **agentic AI** development and orchestration.\n* The architecture streamlines the transition from local prototyping to **production-scale deployment** using NVIDIA's accelerated computing stack.\n* Integration with **LangSmith** ensures robust observability and evaluation for complex, multi-step **agent workflows**.",
+      "summary": "\n- LangChain integrates its **agent engineering framework** with **NVIDIA\u2019s enterprise AI software** to enable the construction and deployment of production-grade agents.\n- The platform focuses on the **end-to-end lifecycle** of AI agents, combining the modularity of LangGraph with the observability provided by **LangSmith**.\n- This partnership aims to solve **enterprise scalability** issues by leveraging NVIDIA microservices for optimized model execution within agentic workflows.",
       "key_results": [
-        "Launch of a comprehensive enterprise agentic AI platform.",
-        "Strategic integration with NVIDIA's AI software and hardware ecosystem.",
-        "Standardized frameworks for production-grade agent monitoring and evaluation.",
-        "Scalable infrastructure for managing complex LLM-based reasoning tasks.",
-        "Validated framework adoption with over 1 billion historical downloads mentioned."
+        "Launch of a comprehensive enterprise platform for agentic AI systems.",
+        "Strategic integration of LangChain's OSS frameworks with NVIDIA AI stacks.",
+        "Streamlined pathway for moving agents from prototype to production at scale.",
+        "Enhanced monitoring and debugging capabilities specifically for multi-step agentic logic.",
+        "Optimized deployment architecture using NVIDIA's high-performance microservices."
       ],
       "relevance_score": 6,
       "signal_type": "Release",
-      "one_sentence_takeaway": "LangChain launches an enterprise-grade agentic AI platform with NVIDIA to scale production-ready autonomous workflows.",
+      "one_sentence_takeaway": "LangChain partners with NVIDIA to launch an enterprise platform for deploying and monitoring production-grade agentic AI systems at scale.",
       "lead_institution": "LangChain",
       "tags": [
         "LLM Agents",
         "Enterprise AI",
-        "Agentic AI",
-        "NVIDIA",
-        "LangSmith"
+        "LangSmith",
+        "NVIDIA NIM",
+        "Agentic Workflows"
       ]
     }
   },
@@ -278,24 +668,534 @@
     "type": "blog",
     "display_category": "Top News",
     "processed": {
-      "summary": "<br>\u2022 Introduction of the **deploy cli** within the `langgraph-cli` package to automate agent deployment workflows.<br>\u2022 Enables the **langgraph deploy** command for seamless integration with **LangSmith Deployment** infrastructure.<br>\u2022 Enhances **architectural portability** by allowing developers to manage agent lifecycles directly from the command line interface.<br>\u2022 Focuses on reducing **deployment overhead** for complex, multi-turn LLM agentic applications.",
+      "summary": "\n Introduces the **deploy cli** as part of the **langgraph-cli** package to bridge the gap between local agent development and production environments.\n Enables the **langgraph deploy** command to push agent logic directly to **LangSmith Deployment**, streamlining the lifecycle of agentic applications.\n Simplifies the **orchestration and hosting** of complex stateful agents by automating the provisioning of infrastructure via the command line.",
       "key_results": [
-        "Launch of the deploy cli command suite within langgraph-cli.",
-        "Support for direct agent deployment to LangSmith via the terminal.",
-        "Streamlined management of agentic workflows in production environments.",
-        "Reduction in manual configuration steps for moving from local to cloud.",
-        "Standardization of CLI-driven deployment patterns for LangGraph users."
+        "Introduction of the langgraph-cli 'deploy' command set.",
+        "Native integration between LangGraph development and LangSmith production hosting.",
+        "Command-line driven deployment flow for agentic workflows.",
+        "Simplified management of agent states and configurations in the cloud.",
+        "Enhanced developer experience for scaling LangGraph-based applications."
       ],
       "relevance_score": 7,
       "signal_type": "Framework Update",
-      "one_sentence_takeaway": "LangChain introduces the deploy cli to simplify the transition of LangGraph agents from local development to LangSmith production.",
+      "one_sentence_takeaway": "LangChain launches a new CLI tool to simplify the deployment and management of LangGraph agents to LangSmith.",
       "lead_institution": "LangChain",
       "tags": [
         "LLM Agents",
         "LangGraph",
-        "Deployment",
         "MLOps",
-        "LangChain"
+        "Agent Deployment",
+        "LangSmith"
+      ]
+    }
+  },
+  {
+    "title": "MIT-IBM Watson AI Lab seed to signal: Amplifying early-career faculty impact",
+    "link": "https://news.mit.edu/2026/mit-ibm-watson-ai-lab-seed-signal-amplifying-early-career-faculty-impact-0317",
+    "summary": "Academia-industry relationship is an early-stage accelerator, supporting professional progress and research.",
+    "source": "MIT News - Artificial intelligence",
+    "published": "2026-03-17T20:35:44+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- The program establishes a collaborative **academia-industry framework** designed to accelerate the research trajectories of early-career faculty.\n- It focuses on providing **strategic resource allocation** and professional mentorship to bridge the gap between theoretical AI research and industrial application.\n- The initiative utilizes the **MIT-IBM Watson AI Lab** ecosystem to amplify research signals and foster long-term professional progress in the AI domain.\n- Emphasis is placed on **early-stage acceleration**, ensuring that foundational AI concepts receive the necessary support for rapid scaling and validation.",
+      "key_results": [
+        "Accelerated professional development for junior AI faculty members.",
+        "Enhanced synergy between academic foundational research and industry needs.",
+        "Increased visibility for early-career researchers through the MIT-IBM network.",
+        "Direct pathway for translating academic AI concepts into industry-relevant signals.",
+        "Strengthened collaborative ecosystem for long-term AI innovation."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "MIT and IBM partner to accelerate early-career faculty research through industry collaboration and strategic resource allocation.",
+      "lead_institution": "MIT-IBM Watson AI Lab",
+      "tags": [
+        "Academia-Industry Collaboration",
+        "AI Research",
+        "Professional Development",
+        "MIT",
+        "IBM Watson"
+      ]
+    }
+  },
+  {
+    "title": "Garry Tan's Claude Code Setup",
+    "link": "https://github.com/garrytan/gstack/tree/main",
+    "summary": "<p>Article URL: <a href=\"https://github.com/garrytan/gstack/tree/main\">https://github.com/garrytan/gstack/tree/main</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47418576\">https://news.ycombinator.com/item?id=47418576</a></p>\n<p>Points: 46</p>\n<p># Comments: 51</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-03-17T21:28:35+00:00",
+    "type": "repo",
+    "display_category": "Top Repo",
+    "processed": {
+      "summary": "\n- The repository provides an opinionated configuration for **Claude Code**, Anthropic's command-line interface tool designed for **agentic software engineering**.\n- It facilitates the integration of **Model Context Protocol (MCP)** servers, allowing the AI agent to access external data sources, documentation, and local development tools seamlessly.\n- The setup emphasizes **Vibe Coding** principles, enabling developers to iterate rapidly by delegating multi-step terminal-based tasks and file edits to the LLM.\n- It highlights a shift in development patterns where **CLI-based agents** interact directly with the local filesystem and git history to maintain context.",
+      "key_results": [
+        "Streamlines the setup of Anthropic's Claude Code CLI for local development environments.",
+        "Incorporates specific MCP server configurations to extend the agent's tool-use capabilities.",
+        "Promotes a terminal-centric workflow that minimizes context switching between the IDE and chat interfaces.",
+        "Provides a framework for automated git management and complex refactoring via multi-step LLM reasoning.",
+        "Demonstrates the practical application of MCP for connecting LLMs to local data silos and search APIs."
+      ],
+      "relevance_score": 7,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Garry Tan releases gstack to optimize the Claude Code CLI environment using MCP for agentic development workflows.",
+      "lead_institution": "Garry Tan",
+      "tags": [
+        "Claude Code",
+        "MCP",
+        "LLM Agents",
+        "Vibe Coding",
+        "CLI Tools"
+      ]
+    }
+  },
+  {
+    "title": "Claude Is Having an Outage",
+    "link": "https://news.ycombinator.com/item?id=47417470",
+    "summary": "<p>https://status.claude.com/<p>This is rapidly becoming the new xkcd slacking off meme</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47417470\">https://news.ycombinator.com/item?id=47417470</a></p>\n<p>Points: 41</p>\n<p># Comments: 16</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-03-17T19:55:54+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* **Anthropic's Claude** service reports a significant outage affecting both the web interface and API endpoints.\n* The downtime highlights the **centralized infrastructure** risks inherent in relying on single-provider cloud models for production workloads.\n* Community sentiment suggests a perceived decline in reliability, impacting developers utilizing **Generative AI** for coding and automation tasks.",
+      "key_results": [
+        "Claude.ai and API services became unavailable for users.",
+        "Status page confirmed the incident following user reports on social platforms.",
+        "Developers noted disruptions to AI-assisted development workflows.",
+        "The outage sparked discussions on the necessity of multi-model redundancy.",
+        "Community memes highlight the growing dependency on AI for daily productivity."
+      ],
+      "relevance_score": 3,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Anthropic experiences a service outage, causing significant disruptions to developers and users relying on Claude's Generative AI capabilities.",
+      "lead_institution": "Anthropic",
+      "tags": [
+        "Anthropic",
+        "Claude",
+        "Service Outage",
+        "AI Infrastructure",
+        "API Reliability"
+      ]
+    }
+  },
+  {
+    "title": "'It's sweet. It's bitter. It's ours.' The chocolate ritual that binds my family",
+    "link": "https://www.csmonitor.com/The-Home-Forum/2026/0212/chocolate-valentines-day-love",
+    "summary": "<p>Article URL: <a href=\"https://www.csmonitor.com/The-Home-Forum/2026/0212/chocolate-valentines-day-love\">https://www.csmonitor.com/The-Home-Forum/2026/0212/chocolate-valentines-day-love</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47417127\">https://news.ycombinator.com/item?id=47417127</a></p>\n<p>Points: 35</p>\n<p># Comments: 4</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-03-17T19:31:06+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "<br>\u2022 This article provides a personal narrative regarding **family rituals** and the emotional significance of chocolate traditions.<br>\u2022 There is no discussion of **technical architecture**, software engineering, or machine learning frameworks.<br>\u2022 The content focuses on **human-centric sentiment** and cultural storytelling rather than computational progress.",
+      "key_results": [
+        "Exploration of family bonding through specific food rituals.",
+        "Personal reflection on the sensory aspects of chocolate.",
+        "Discussion of Valentine's Day traditions in a domestic setting.",
+        "Zero metrics or technical benchmarks provided.",
+        "No relevance to generative AI or machine learning industries."
+      ],
+      "relevance_score": 1,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "The Christian Science Monitor explores personal family traditions involving chocolate, offering no technical insights or relevance to AI.",
+      "lead_institution": "The Christian Science Monitor",
+      "tags": [
+        "Personal Essay",
+        "Lifestyle",
+        "Human Interest",
+        "Tradition",
+        "Non-Technical"
+      ]
+    }
+  },
+  {
+    "title": "Python 3.15's JIT is now back on track",
+    "link": "https://fidget-spinner.github.io/posts/jit-on-track.html",
+    "summary": "<p>Article URL: <a href=\"https://fidget-spinner.github.io/posts/jit-on-track.html\">https://fidget-spinner.github.io/posts/jit-on-track.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47416486\">https://news.ycombinator.com/item?id=47416486</a></p>\n<p>Points: 254</p>\n<p># Comments: 92</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-03-17T18:37:27+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- The Python core team is refining a **copy-and-patch JIT** architecture for Python 3.15, utilizing machine code templates generated by LLVM that are stitched together at runtime.\n- The implementation focuses on the **Tier 2 optimizer**, transforming bytecode into internal micro-ops (uops) to facilitate more aggressive optimization passes before native code generation.\n- By avoiding the overhead of a full-scale JIT compiler like V8, this approach maintains Python's **portability and build simplicity** while offering significant execution speedups.\n- The architecture is designed to integrate seamlessly with the existing **Faster CPython** initiative, specifically targeting bottlenecks in interpreted loops and function calls.",
+      "key_results": [
+        "Stabilization of the copy-and-patch JIT implementation for the Python 3.15 development cycle.",
+        "Transition of the JIT from an experimental feature to a core component of the Tier 2 optimization pipeline.",
+        "Efficient generation of machine code templates during CPython's build time using LLVM.",
+        "Implementation of a 'cold' and 'hot' code path logic to minimize JIT compilation overhead.",
+        "Enhanced support for micro-op (uop) translation, enabling better hardware-level optimizations."
+      ],
+      "relevance_score": 6,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Python core developers advance the copy-and-patch JIT for version 3.15, aiming to provide native-speed execution for performance-critical ML stacks.",
+      "lead_institution": "Python Core Development Team",
+      "tags": [
+        "Python",
+        "JIT",
+        "CPython",
+        "Compiler Optimization",
+        "Performance"
+      ]
+    }
+  },
+  {
+    "title": "Show HN: Horizon \u2013 GPU-accelerated infinite-canvas terminal in Rust",
+    "link": "https://github.com/peters/horizon",
+    "summary": "<p>Tabs, splits, and tmux work fine until you have several projects open with logs, tests, and long-running shells. I kept rebuilding context instead of resuming work. Horizon puts shells on an infinite canvas. You can arrange them into workspaces and reopen later with layout, scrollback, and history intact.<p>Built in 3 days with Claude/Codex, dogfooding the workflow as I went. Feedback and contributions welcome.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47416227\">https://news.ycombinator.com/item?id=47416227</a></p>\n<p>Points: 52</p>\n<p># Comments: 20</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-03-17T18:14:24+00:00",
+    "type": "repo",
+    "display_category": "Top Repo",
+    "processed": {
+      "summary": "\n* Implements a **GPU-accelerated** infinite-canvas terminal architecture written in **Rust**, designed to replace traditional tab/split workflows with a spatial workspace paradigm.\n* Features automated persistence of **layout, scrollback, and history**, allowing developers to maintain long-term context across multiple projects without manual reconstruction.\n* Demonstrates the efficiency of **LLM-assisted development** (Vibe Coding), having been built in 3 days utilizing **Claude and Codex** for rapid prototyping.",
+      "key_results": [
+        "Spatial terminal organization via infinite-canvas interface",
+        "GPU-accelerated rendering for high-performance UI responsiveness",
+        "Persistent state management for workspaces and shell history",
+        "Reduction in cognitive load during multi-project context switching",
+        "Proof-of-concept for 72-hour development cycles using generative AI"
+      ],
+      "relevance_score": 6,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Horizon developer introduces a GPU-accelerated infinite-canvas terminal built in three days using Claude and Codex AI assistance.",
+      "lead_institution": "Hacker News",
+      "tags": [
+        "Vibe Coding",
+        "LLM-Assisted Development",
+        "Rust",
+        "GPU Acceleration",
+        "Developer Productivity"
+      ]
+    }
+  },
+  {
+    "title": "Edge.js: Run Node apps inside a WebAssembly sandbox",
+    "link": "https://wasmer.io/posts/edgejs-safe-nodejs-using-wasm-sandbox",
+    "summary": "<p>Article URL: <a href=\"https://wasmer.io/posts/edgejs-safe-nodejs-using-wasm-sandbox\">https://wasmer.io/posts/edgejs-safe-nodejs-using-wasm-sandbox</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47416081\">https://news.ycombinator.com/item?id=47416081</a></p>\n<p>Points: 92</p>\n<p># Comments: 27</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-03-17T18:01:50+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* **Edge.js** introduces a secure **WebAssembly (Wasm)** sandbox environment designed specifically for running Node.js applications with high isolation.\n* The architecture utilizes **Wasmer's runtime** to bridge Node.js APIs into a sandboxed space, preventing unauthorized system access while maintaining performance.\n* It addresses the security risks of executing **untrusted code**, making it a critical infrastructure component for **LLM-driven agents** that generate and run scripts.\n* The system enables **cross-platform portability**, allowing Node.js modules to run anywhere Wasm is supported without modifications to the underlying host environment.",
+      "key_results": [
+        "Sandboxed execution of Node.js apps via WebAssembly.",
+        "Isolation of host resources including filesystem and network via WASI.",
+        "Compatibility with existing npm packages and modules.",
+        "Significant reduction in security surface area for edge computing.",
+        "Streamlined deployment process for portable, language-agnostic workloads."
+      ],
+      "relevance_score": 7,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Wasmer launches Edge.js to provide a secure WebAssembly sandbox for executing Node.js code in AI agents and edge environments.",
+      "lead_institution": "Wasmer",
+      "tags": [
+        "WebAssembly",
+        "Node.js",
+        "AI Agents",
+        "Sandboxing",
+        "Edge Computing"
+      ]
+    }
+  },
+  {
+    "title": "If you thought code writing speed was your problem you have bigger problems",
+    "link": "https://andrewmurphy.io/blog/if-you-thought-the-speed-of-writing-code-was-your-problem-you-have-bigger-problems",
+    "summary": "<p>Article URL: <a href=\"https://andrewmurphy.io/blog/if-you-thought-the-speed-of-writing-code-was-your-problem-you-have-bigger-problems\">https://andrewmurphy.io/blog/if-you-thought-the-speed-of-writing-code-was-your-problem-you-have-bigger-problems</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47415919\">https://news.ycombinator.com/item?id=47415919</a></p>\n<p>Points: 295</p>\n<p># Comments: 200</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-03-17T17:48:50+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Argues that **Generative AI** has effectively commoditized code syntax and writing speed, moving the bottleneck to **system architecture** and problem definition.\n- Explores the concept of **Vibe Coding** where the developer's role shifts from manual implementation to high-level **intent orchestration** and **LLM Agent** management.\n- Emphasizes that increased code velocity necessitates superior **AI Evaluation** and automated testing frameworks to manage the resulting technical debt.\n- Highlights the importance of **Reasoning Models** in verifying the logic of AI-generated components rather than just increasing output volume.",
+      "key_results": [
+        "Code writing speed is no longer the primary constraint in software engineering due to AI tools.",
+        "The engineering bottleneck has shifted to requirements gathering and architectural design.",
+        "Increased output velocity requires a corresponding increase in rigorous automated testing.",
+        "Developers must evolve into 'Reviewers' and 'Orchestrators' to maintain system integrity.",
+        "Deep technical understanding is more critical than ever to catch subtle AI-generated hallucinations."
+      ],
+      "relevance_score": 7,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Andrew Murphy argues that AI-driven code velocity shifts developer value toward system architecture, requirement clarity, and rigorous review.",
+      "lead_institution": "Andrew Murphy",
+      "tags": [
+        "Vibe Coding",
+        "LLM Agents",
+        "Software Architecture",
+        "AI Productivity",
+        "Generative AI Trends"
+      ]
+    }
+  },
+  {
+    "title": "FFmpeg 8.1",
+    "link": "https://ffmpeg.org/index.html#pr8.1",
+    "summary": "<p>Article URL: <a href=\"https://ffmpeg.org/index.html#pr8.1\">https://ffmpeg.org/index.html#pr8.1</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47413525\">https://news.ycombinator.com/item?id=47413525</a></p>\n<p>Points: 359</p>\n<p># Comments: 53</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-03-17T14:51:57+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "<br>- **FFmpeg 8.1** (codenamed 'Clytemnestra') delivers significant updates to the ubiquitous multimedia framework, focusing on expanded **hardware acceleration** and codec support.<br>- The release introduces native **VVC (Versatile Video Coding)** decoding, which is essential for handling next-generation high-efficiency video datasets.<br>- Enhanced support for **Vulkan and D3D12** backends optimizes the performance of media preprocessing tasks crucial for training and serving large-scale multimodal models.<br>- New **video filters** and bitstream filters provide advanced manipulation capabilities for video data, facilitating more robust input pipelines for generative AI applications.",
+      "key_results": [
+        "Integrated D3D12 hardware acceleration for H.264, HEVC, and AV1 encoding.",
+        "Native decoding support for the VVC (Versatile Video Coding) standard.",
+        "Addition of Vulkan-based video filters for cross-platform GPU-accelerated processing.",
+        "Support for NexPlayer and Leadtek SDKs to improve streaming and encoding workflows.",
+        "Enhanced metadata handling and bitstream filters for MPEG-2 and other legacy formats."
+      ],
+      "relevance_score": 6,
+      "signal_type": "Framework Update",
+      "one_sentence_takeaway": "FFmpeg project launches version 8.1, introducing VVC support and enhanced hardware acceleration to optimize multimodal AI data pipelines.",
+      "lead_institution": "FFmpeg Project",
+      "tags": [
+        "Multimedia",
+        "Video Processing",
+        "Hardware Acceleration",
+        "VVC",
+        "Multimodal AI"
+      ]
+    }
+  },
+  {
+    "title": "Node.js needs a virtual file system",
+    "link": "https://blog.platformatic.dev/why-nodejs-needs-a-virtual-file-system",
+    "summary": "<p>Article URL: <a href=\"https://blog.platformatic.dev/why-nodejs-needs-a-virtual-file-system\">https://blog.platformatic.dev/why-nodejs-needs-a-virtual-file-system</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47413195\">https://news.ycombinator.com/item?id=47413195</a></p>\n<p>Points: 223</p>\n<p># Comments: 192</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-03-17T14:28:37+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* The article argues that **Node.js** requires a standardized **Virtual File System (VFS)** to decouple the runtime from physical disk constraints, addressing performance issues in **cloud-native** environments.\n* By implementing a VFS, Node.js could significantly reduce **Cold Start** times in serverless contexts by optimizing module loading and leveraging **memory-mapped** storage.\n* The proposed architecture supports enhanced **security sandboxing** and portability, allowing applications to run consistently across diverse backends like S3, internal memory, or edge nodes.",
+      "key_results": [
+        "Identifies physical disk I/O as a primary bottleneck for Node.js startup in distributed environments.",
+        "Proposes a unified abstraction layer to handle file operations across different storage providers.",
+        "Highlights the potential for 'snapshotting' application states to enable near-instant scaling.",
+        "Suggests improved security through fine-grained control over file access at the runtime level.",
+        "Advocates for moving Node.js toward the 'write once, run anywhere' ideal for modern infrastructure."
+      ],
+      "relevance_score": 4,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Platformatic proposes a Node.js virtual file system to optimize cloud-native performance, security, and deployment portability across serverless architectures.",
+      "lead_institution": "Platformatic",
+      "tags": [
+        "Node.js",
+        "Virtual File System",
+        "Cloud Native",
+        "Backend Infrastructure",
+        "Performance Optimization"
+      ]
+    }
+  },
+  {
+    "title": "\"Please perform a comprehensive security audit\" \u2013 and why it doesn't work",
+    "link": "https://aisafe.io/blog/please-perform-a-comprehensive-security-audit-and-why-it-doesnt-work",
+    "summary": "<p>Article URL: <a href=\"https://aisafe.io/blog/please-perform-a-comprehensive-security-audit-and-why-it-doesnt-work\">https://aisafe.io/blog/please-perform-a-comprehensive-security-audit-and-why-it-doesnt-work</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47412899\">https://news.ycombinator.com/item?id=47412899</a></p>\n<p>Points: 32</p>\n<p># Comments: 0</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-03-17T14:08:39+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* The article examines the limitations of **single-shot prompt engineering** in security contexts, specifically why vague requests for \"comprehensive audits\" fail to yield deep vulnerability discovery.\n* It highlights the **architectural misalignment** between high-level LLM reasoning and the granular, state-dependent nature of complex security exploits.\n* The content discusses how **Generative AI** often prioritizes syntactic patterns over semantic security logic, leading to a false sense of security through \"hallucinated\" coverage.\n* It advocates for a transition toward **Agentic workflows** and specialized **LLM-based evaluations** that integrate with traditional static analysis tools.",
+      "key_results": [
+        "Vague security prompts typically result in shallow, stylistic code feedback rather than logical exploit detection.",
+        "Context window limitations prevent LLMs from understanding cross-file dependencies critical for security auditing.",
+        "Model output often suffers from 'security sycophancy,' where the LLM agrees with the user's implicit assumption that code is safe.",
+        "Effective AI auditing requires decomposing the task into specific vulnerability vectors (e.g., OWASP Top 10) via Chain-of-Thought.",
+        "Relying on generic prompts creates a 'security theater' effect, increasing risk through misplaced trust in AI capabilities."
+      ],
+      "relevance_score": 6,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "AISafe explains that generic LLM prompts fail at comprehensive security audits, requiring structured agentic workflows for effective vulnerability detection.",
+      "lead_institution": "AISafe",
+      "tags": [
+        "AI Evaluation",
+        "Prompt Engineering",
+        "Cybersecurity",
+        "LLM Agents",
+        "Code Analysis"
+      ]
+    }
+  },
+  {
+    "title": "Silicon Valley's \"Pronatalists\" Killed WFH. The Strait of Hormuz Brought It Back",
+    "link": "https://www.governance.fyi/p/silicon-valleys-pronatalists-killed",
+    "summary": "<p>Article URL: <a href=\"https://www.governance.fyi/p/silicon-valleys-pronatalists-killed\">https://www.governance.fyi/p/silicon-valleys-pronatalists-killed</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47412023\">https://news.ycombinator.com/item?id=47412023</a></p>\n<p>Points: 189</p>\n<p># Comments: 273</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-03-17T12:56:59+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- The article investigates the intersection of **Silicon Valley culture** and workforce dynamics, specifically how ideological shifts like \"Pronatalism\" have pushed for a return to physical offices.\n- It contrasts these internal cultural mandates against external **geopolitical pressures**, such as instability in the Strait of Hormuz, which disrupt global supply chains and force operational shifts.\n- The analysis explores how **decentralized work models** act as a hedge against global volatility, despite the current trend toward centralized, in-person engineering hubs.\n- It highlights the tension between the tech industry's desire for **high-density collaboration** and the pragmatic need for distributed, resilient infrastructure.",
+      "key_results": [
+        "Identifies 'Pronatalism' as a significant cultural driver for RTO mandates in tech hubs.",
+        "Correlates geopolitical instability with the re-evaluation of distributed work strategies.",
+        "Discusses the economic impact of supply chain disruptions on Silicon Valley hardware and energy costs.",
+        "Examines the ideological divide between remote-friendly globalism and pro-natalist localism.",
+        "Highlights how physical security of global trade routes affects tech company labor policies."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Governance.fyi analyzes how Silicon Valley's ideological shift toward pronatalism drives RTO mandates while geopolitical volatility necessitates remote-work resilience.",
+      "lead_institution": "Governance.fyi",
+      "tags": [
+        "Silicon Valley Culture",
+        "Remote Work",
+        "Geopolitics",
+        "Pronatalism",
+        "Workplace Trends"
+      ]
+    }
+  },
+  {
+    "title": "Kagi Translate now supports LinkedIn Speak as an output language",
+    "link": "https://translate.kagi.com/?from=en&to=LinkedIn+speak",
+    "summary": "<p>Article URL: <a href=\"https://translate.kagi.com/?from=en&amp;to=LinkedIn+speak\">https://translate.kagi.com/?from=en&amp;to=LinkedIn+speak</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47408703\">https://news.ycombinator.com/item?id=47408703</a></p>\n<p>Points: 1312</p>\n<p># Comments: 320</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-03-17T04:39:42+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n\u2022 Kagi has introduced a **LinkedIn Speak** output mode for its translation tool, utilizing **LLM-driven persona generation** to transform standard text into platform-specific jargon.\n\u2022 The system leverages **prompt engineering** to replicate the distinct rhetorical style of professional social media, including excessive emoji usage, toxic positivity, and corporate buzzwords.\n\u2022 This release reflects a growing trend in **Generative AI** where models are tuned or prompted for specific \"vibes\" rather than strictly factual or linguistic accuracy.\n\u2022 The high community engagement highlights developer interest in **satirical AI applications** and the ability of models to capture niche internet subcultures.",
+      "key_results": [
+        "New translation target 'LinkedIn Speak' added to Kagi Translate interface.",
+        "Automated transformation of plain text into structured, engagement-optimized corporate jargon.",
+        "Effective use of stylistic persona modeling via underlying Large Language Models.",
+        "Viral community validation with over 1,300 points on Hacker News.",
+        "Demonstration of LLM versatility in handling non-standard linguistic 'vibes' and social dialects."
+      ],
+      "relevance_score": 4,
+      "signal_type": "Release",
+      "one_sentence_takeaway": "Kagi launches a 'LinkedIn Speak' translation feature, leveraging generative AI to parody professional social media jargon and formatting.",
+      "lead_institution": "Kagi",
+      "tags": [
+        "Generative AI",
+        "Persona Modeling",
+        "Prompt Engineering",
+        "LinkedIn Speak",
+        "Vibe Coding"
+      ]
+    }
+  },
+  {
+    "title": "Jepsen: MariaDB Galera Cluster 12.1.2",
+    "link": "https://jepsen.io/analyses/mariadb-galera-cluster-12.1.2",
+    "summary": "<p>Article URL: <a href=\"https://jepsen.io/analyses/mariadb-galera-cluster-12.1.2\">https://jepsen.io/analyses/mariadb-galera-cluster-12.1.2</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47408360\">https://news.ycombinator.com/item?id=47408360</a></p>\n<p>Points: 107</p>\n<p># Comments: 14</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-03-17T03:46:22+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Jepsen conducted a formal analysis of **MariaDB Galera Cluster 12.1.2**, evaluating its consistency guarantees under conditions of network partitions and process crashes.\n- The evaluation focused on **virtually synchronous replication** and whether the cluster maintains **strict serializability** as claimed in various configurations.\n- The testing revealed critical failures where the system allowed **stale reads** and **lost updates**, particularly when the cluster's membership state was in flux.",
+      "key_results": [
+        "Detected violations of snapshot isolation during network partitions.",
+        "Found that read-only transactions could return stale data despite 'wsrep_sync_wait' settings.",
+        "Identified cases where divergent states occurred across nodes after recovery.",
+        "Confirmed the presence of G2-item (anti-dependency) cycles in transaction histories.",
+        "Demonstrated that MariaDB Galera 12.1.2 cannot guarantee strong consistency in high-fault environments."
+      ],
+      "relevance_score": 4,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Jepsen reveals that MariaDB Galera Cluster 12.1.2 fails to maintain promised consistency levels during network partitions and node failures.",
+      "lead_institution": "Jepsen",
+      "tags": [
+        "Distributed Systems",
+        "Database Consistency",
+        "MariaDB",
+        "Galera Cluster",
+        "Fault Tolerance"
+      ]
+    }
+  },
+  {
+    "title": "AI still doesn't work well, businesses are faking it, and a reckoning is coming",
+    "link": "https://www.theregister.com/2026/03/17/ai_businesses_faking_it_reckoning_coming_codestrap/",
+    "summary": "<p>Article URL: <a href=\"https://www.theregister.com/2026/03/17/ai_businesses_faking_it_reckoning_coming_codestrap/\">https://www.theregister.com/2026/03/17/ai_businesses_faking_it_reckoning_coming_codestrap/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47407252\">https://news.ycombinator.com/item?id=47407252</a></p>\n<p>Points: 65</p>\n<p># Comments: 24</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-03-17T00:56:47+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Analyzes the **ROI gap** between massive capital investment in Generative AI and actual production-grade business value, suggesting a state of \"AI washing.\"\n- Critiques the reliability of **LLM Agents** and automated workflows, noting that many enterprises are masking manual human labor behind AI interfaces to meet market expectations.\n- Predicts a \"reckoning\" driven by the high **inference costs** and technical debt associated with brittle prompt-engineered systems that fail to scale safely.",
+      "key_results": [
+        "Identification of widespread 'AI washing' where companies exaggerate technical capabilities.",
+        "Significant discrepancy between LLM benchmark performance and real-world enterprise stability.",
+        "High failure rates in autonomous agent deployments for complex business logic.",
+        "Increasing investor pressure for tangible profitability over speculative AI integration.",
+        "The necessity for a shift from hype-driven adoption to rigorous AI evaluation and engineering."
+      ],
+      "relevance_score": 4,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "The Register reports that many businesses are masking technical limitations with 'AI washing,' predicting an imminent market correction regarding actual AI utility.",
+      "lead_institution": "The Register",
+      "tags": [
+        "AI Hype",
+        "Generative AI Trends",
+        "LLM Reliability",
+        "Corporate Strategy",
+        "AI Washing"
+      ]
+    }
+  },
+  {
+    "title": "FFmpeg 8.1 \"Hoare\" has been released",
+    "link": "https://ffmpeg.org/download.html#release_8.1",
+    "summary": "<p>Article URL: <a href=\"https://ffmpeg.org/download.html#release_8.1\">https://ffmpeg.org/download.html#release_8.1</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47405962\">https://news.ycombinator.com/item?id=47405962</a></p>\n<p>Points: 39</p>\n<p># Comments: 2</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-03-16T22:37:33+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- **FFmpeg 8.1 \"Hoare\"** represents a significant update to the foundational multimedia framework, providing critical infrastructure for handling high-resolution video and audio data.\n- The release focuses on enhancing **hardware acceleration** capabilities, which are essential for pre-processing large-scale datasets used in **Multimodal AI** training.\n- It introduces new **decoders and bitstream filters**, improving the robustness and efficiency of media transcoding pipelines within **Generative AI** video production workflows.",
+      "key_results": [
+        "Official release of version 8.1 named 'Hoare'.",
+        "Expansion of supported codecs and container formats.",
+        "Improved performance for platform-specific hardware acceleration.",
+        "Updates to internal libraries including libavcodec and libavfilter.",
+        "Refinement of metadata handling for complex media streams."
+      ],
+      "relevance_score": 4,
+      "signal_type": "Framework Update",
+      "one_sentence_takeaway": "FFmpeg releases version 8.1 'Hoare' providing critical multimedia processing infrastructure for high-performance generative AI video applications.",
+      "lead_institution": "FFmpeg Project",
+      "tags": [
+        "Multimedia",
+        "Video Processing",
+        "Hardware Acceleration",
+        "Infrastructure",
+        "Transcoding"
+      ]
+    }
+  },
+  {
+    "title": "Nvidia DLSS 5 Delivers AI-Powered Breakthrough in Visual Fidelity for Games",
+    "link": "https://nvidianews.nvidia.com/news/nvidia-dlss-5-delivers-ai-powered-breakthrough-in-visual-fidelity-for-games",
+    "summary": "<p>Article URL: <a href=\"https://nvidianews.nvidia.com/news/nvidia-dlss-5-delivers-ai-powered-breakthrough-in-visual-fidelity-for-games\">https://nvidianews.nvidia.com/news/nvidia-dlss-5-delivers-ai-powered-breakthrough-in-visual-fidelity-for-games</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47403044\">https://news.ycombinator.com/item?id=47403044</a></p>\n<p>Points: 49</p>\n<p># Comments: 23</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-03-16T18:45:45+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Nvidia announces **DLSS 5**, which leverages **Generative AI** to enhance real-time neural rendering and reconstruct high-resolution textures.\n- The architecture utilizes advanced **Multi-Frame Temporal Analysis** to predict missing pixel data with higher accuracy than previous iterations.\n- It aims to lower the **GPU compute overhead** for intensive tasks like path tracing by offloading visual reconstruction to specialized AI cores.",
+      "key_results": [
+        "Improved visual fidelity using AI-driven texture synthesis.",
+        "Higher frame rates achieved through optimized Frame Generation algorithms.",
+        "Enhanced temporal stability in dynamic scenes using transformer-based motion vectors.",
+        "Reduced latency through integrated AI-processing pipelines.",
+        "Support for ultra-high-definition scaling via Neural Super Resolution."
+      ],
+      "relevance_score": 4,
+      "signal_type": "Release",
+      "one_sentence_takeaway": "Nvidia launches DLSS 5, leveraging generative AI to significantly enhance real-time visual fidelity and performance in high-end gaming.",
+      "lead_institution": "Nvidia",
+      "tags": [
+        "Generative AI",
+        "Neural Rendering",
+        "Computer Vision",
+        "DLSS",
+        "Real-time Graphics"
       ]
     }
   },
@@ -930,36 +1830,6 @@
     }
   },
   {
-    "title": "ESG-Bench: Benchmarking Long-Context ESG Reports for Hallucination Mitigation",
-    "link": "http://arxiv.org/abs/2603.13154v1",
-    "summary": "As corporate responsibility increasingly incorporates environmental, social, and governance (ESG) criteria, ESG reporting is becoming a legal requirement in many regions and a key channel for documenting sustainability practices and assessing firms' long-term and ethical performance. However, the length and complexity of ESG disclosures make them difficult to interpret and automate the analysis reliably. To support scalable and trustworthy analysis, this paper introduces ESG-Bench, a benchmark dataset for ESG report understanding and hallucination mitigation in large language models (LLMs). ESG-Bench contains human-annotated question-answer (QA) pairs grounded in real-world ESG report contexts, with fine-grained labels indicating whether model outputs are factually supported or hallucinated. Framing ESG report analysis as a QA task with verifiability constraints enables systematic evaluation of LLMs' ability to extract and reason over ESG content and provides a new use case: mitigating hallucinations in socially sensitive, compliance-critical settings. We design task-specific Chain-of-Thought (CoT) prompting strategies and fine-tune multiple state-of-the-art LLMs on ESG-Bench using CoT-annotated rationales. Our experiments show that these CoT-based methods substantially outperform standard prompting and direct fine-tuning in reducing hallucinations, and that the gains transfer to existing QA benchmarks beyond the ESG domain.",
-    "source": "ArXiv",
-    "published": "2026-03-13T16:48:05+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n* Introduces **ESG-Bench**, a specialized dataset designed to evaluate **long-context reasoning** and hallucination mitigation within complex ESG disclosures.\n* Employs human-annotated question-answer pairs with **verifiability constraints** to measure factual grounding in socially sensitive and compliance-critical domains.\n* Leverages task-specific **Chain-of-Thought (CoT)** prompting and fine-tuning with CoT-annotated rationales to improve model reliability.\n* Demonstrates that fine-tuning for **factuality and reasoning** in the ESG domain provides transferable performance gains to general QA benchmarks.",
-      "key_results": [
-        "Development of a high-fidelity human-annotated benchmark for ESG report understanding.",
-        "CoT-based prompting significantly outperformed standard zero-shot and few-shot techniques.",
-        "Fine-tuning on rationale-annotated data drastically reduced model hallucinations.",
-        "The methodology improved reasoning performance even on datasets outside the ESG domain.",
-        "Established a systematic framework for evaluating LLM verifiability in specialized corporate reporting."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce ESG-Bench to mitigate hallucinations in long-context reports using task-specific Chain-of-Thought prompting and fine-tuning.",
-      "lead_institution": "ArXiv Researchers",
-      "tags": [
-        "Hallucination Mitigation",
-        "Long-Context LLMs",
-        "ESG Evaluation",
-        "Chain-of-Thought",
-        "Model Fine-tuning"
-      ]
-    }
-  },
-  {
     "title": "Asymptotic non-Hermitian degeneracy phenomenon and its exactly solvable simulation",
     "link": "http://arxiv.org/abs/2603.13141v1",
     "summary": "Up to these days, the popular PT-symmetric imaginary cubic oscillator did not find any consistent probabilistic quantum-mechanical interpretation because its Hamiltonian has been shown, by mathematicians, intrinsic-exceptional-point (IEP) singular. In the paper we explain why there is even no reasonable small-perturbation-based regularization of the similar unacceptable (i.e., IEP-singular) quantum models. The explanation is based on a partial formal analogy of the IEP singularity with the conventional exceptional point (EP). What is important is that we are able to construct a simplified $N$ by $N$-matrix (and exactly solvable) toy-model Hamiltonian admitting the asymptotic (i.e., high-excitation) EP-related wave-function degeneracy which, in some sense (i.e., in the limit of large $N$) mimics several aspects of its IEP analogue. In this comparison, the difference is that the regularization of the EP singularities is possible (using an ad hoc perturbation of size ${\\cal O}(1/N)$) while an analogous regularization of the IEP singularity is not (we have to consider $N \\to \\infty$).",
@@ -1016,36 +1886,6 @@
         "Multimodal Distributions",
         "Sampling Theory",
         "Fisher Information"
-      ]
-    }
-  },
-  {
-    "title": "DecoVLN: Decoupling Observation, Reasoning, and Correction for Vision-and-Language Navigation",
-    "link": "http://arxiv.org/abs/2603.13133v1",
-    "summary": "Vision-and-Language Navigation (VLN) requires agents to follow long-horizon instructions and navigate complex 3D environments. However, existing approaches face two major challenges: constructing an effective long-term memory bank and overcoming the compounding errors problem. To address these issues, we propose DecoVLN, an effective framework designed for robust streaming perception and closed-loop control in long-horizon navigation. First, we formulate long-term memory construction as an optimization problem and introduce adaptive refinement mechanism that selects frames from a historical candidate pool by iteratively optimizing a unified scoring function. This function jointly balances three key criteria: semantic relevance to the instruction, visual diversity from the selected memory, and temporal coverage of the historical trajectory. Second, to alleviate compounding errors, we introduce a state-action pair-level corrective finetuning strategy. By leveraging geodesic distance between states to precisely quantify deviation from the expert trajectory, the agent collects high-quality state-action pairs in the trusted region while filtering out the polluted data with low relevance. This improves both the efficiency and stability of error correction. Extensive experiments demonstrate the effectiveness of DecoVLN, and we have deployed it in real-world environments.",
-    "source": "ArXiv",
-    "published": "2026-03-13T16:24:37+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Introduces **DecoVLN**, a framework for long-horizon Vision-and-Language Navigation (VLN) that decouples observation, reasoning, and correction.\n- Formulates **long-term memory construction** as an optimization problem, using an adaptive refinement mechanism to balance semantic relevance, visual diversity, and temporal coverage.\n- Implements a **state-action pair-level corrective finetuning** strategy that utilizes geodesic distance to filter polluted data and focus on high-quality trajectory corrections.\n- Addresses the **compounding errors** problem in 3D environments, enabling robust streaming perception and closed-loop control in both simulation and real-world deployments.",
-      "key_results": [
-        "Developed a unified scoring function to optimize historical frame selection for memory banks.",
-        "Quantified trajectory deviation using geodesic distance to ensure high-quality state-action pair collection.",
-        "Improved training stability by filtering out low-relevance data during the finetuning process.",
-        "Achieved significant performance gains in long-horizon navigation tasks through decoupled reasoning.",
-        "Successfully validated the framework via deployment in physical real-world environments."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce DecoVLN, leveraging adaptive memory refinement and corrective finetuning to solve compounding errors in 3D navigation.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "Vision-and-Language Navigation",
-        "LLM Agents",
-        "Long-term Memory",
-        "Multimodal AI",
-        "Model Fine-tuning"
       ]
     }
   },
@@ -2156,846 +2996,6 @@
         "AI Fairness",
         "Debiasing",
         "Evaluation Metrics"
-      ]
-    }
-  },
-  {
-    "title": "DS$^2$-Instruct: Domain-Specific Data Synthesis for Large Language Models Instruction Tuning",
-    "link": "http://arxiv.org/abs/2603.12932v1",
-    "summary": "Adapting Large Language Models (LLMs) to specialized domains requires high-quality instruction tuning datasets, which are expensive to create through human annotation. Existing data synthesis methods focus on general-purpose tasks and fail to capture domain-specific terminology and reasoning patterns. To address this, we introduce DS$^2$-Instruct, a zero-shot framework that generates domain-specific instruction datasets without human supervision. Our approach first generates task-informed keywords to ensure comprehensive domain coverage. It then creates diverse instructions by pairing these keywords with different cognitive levels from Bloom's Taxonomy. Finally, it uses self-consistency validation to ensure data quality. We apply this framework to generate datasets across seven challenging domains, such as mathematics, finance, and logical reasoning. Comprehensive evaluation demonstrates that models fine-tuned on our generated data achieve substantial improvements over existing data generation methods.",
-    "source": "ArXiv",
-    "published": "2026-03-13T12:25:03+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- DS2-Instruct provides a **zero-shot framework** for generating high-quality domain-specific instruction datasets without requiring manual human annotation.\n- The system utilizes **task-informed keywords** paired with **Bloom's Taxonomy** to create a diverse range of instructions across varying cognitive complexity levels.\n- A **self-consistency validation** step is implemented to filter synthetic data, ensuring the accuracy and reliability of the generated instruction-response pairs.\n- The approach demonstrates superior performance in specialized fields like **finance, logic, and mathematics** compared to existing general-purpose synthesis methods.",
-      "key_results": [
-        "Achieved significant performance improvements across seven specialized domains including finance and logic.",
-        "Successfully mapped domain-specific keywords to different cognitive levels for better dataset diversity.",
-        "Eliminated the need for human supervision in the instruction tuning data creation pipeline.",
-        "Developed a robust self-consistency mechanism that significantly improved synthetic data quality.",
-        "Outperformed existing data generation baselines in domain-specific benchmarks and reasoning tasks."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce DS2-Instruct, a zero-shot framework using Bloom\u2019s Taxonomy to synthesize high-quality domain-specific instruction tuning data.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "Data Synthesis",
-        "Instruction Tuning",
-        "Domain Adaptation",
-        "Model Fine-tuning",
-        "Bloom's Taxonomy"
-      ]
-    }
-  },
-  {
-    "title": "Teaching Agile Requirements Engineering: A Stakeholder Simulation with Generative AI",
-    "link": "http://arxiv.org/abs/2603.12925v1",
-    "summary": "Context: The active involvement of users and customers in agile software development remains a persistent challenge in practice. For this reason, it is important that students in higher education become familiar with good practices in Agile Requirements Engineering during their studies. Objective: Our objective is to enable students to learn how to interact with Generative Artificial Intelligence (GenAI) through the use of a stakeholder simulation with AI Personas, while also developing an understanding of the limitations of AI tools in practical contexts. Method: In our courses, we employ a stakeholder simulation using GenAI, in which students conduct interviews with AI Personas through a provided meta-prompt. Based on the outcomes of these interviews, students apply agile practices (e.g., story mapping or impact mapping) to document requirements. The use of GenAI is subsequently reflected upon in a structured group discussion. Results: Through this approach, students gain practical experience by applying state-of-the art agile practices for requirements elicitation and documentation while simultaneously developing an understanding of the technical and ethical limitations associated with the use of generative AI. Conclusion: We have applied this approach over several terms and found that using a meta-prompt provides flexibility, allowing us to remain independent of specific large language model providers.",
-    "source": "ArXiv",
-    "published": "2026-03-13T12:07:52+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "<br>- Implements a **stakeholder simulation** framework using **AI Personas** to facilitate Agile Requirements Engineering (RE) education.<br>- Utilizes a model-agnostic **meta-prompting** architecture to ensure flexibility across different Large Language Model providers.<br>- Integrates GenAI-driven interview outputs with **agile practices** such as story mapping and impact mapping for requirements documentation.<br>- Facilitates the evaluation of **technical and ethical limitations** of generative AI in the context of professional software development workflows.",
-      "key_results": [
-        "Validation of meta-prompting as an effective method for maintaining LLM provider independence.",
-        "Successful simulation of stakeholder interviews using AI Personas for requirements elicitation.",
-        "Seamless integration of AI-generated content into agile workflows like impact mapping.",
-        "Demonstrated pedagogical success over multiple academic terms in higher education.",
-        "Development of student awareness regarding AI hallucinations and ethical constraints in software engineering."
-      ],
-      "relevance_score": 6,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers implement a meta-prompting framework using AI Personas to simulate stakeholder interviews for agile requirements engineering education.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "Prompt Engineering",
-        "AI Personas",
-        "Agile Development",
-        "Requirements Engineering",
-        "LLM Simulation"
-      ]
-    }
-  },
-  {
-    "title": "GoalSwarm: Multi-UAV Semantic Coordination for Open-Vocabulary Object Navigation",
-    "link": "http://arxiv.org/abs/2603.12908v1",
-    "summary": "Cooperative visual semantic navigation is a foundational capability for aerial robot teams operating in unknown environments. However, achieving robust open-vocabulary object-goal navigation remains challenging due to the computational constraints of deploying heavy perception models onboard and the complexity of decentralized multi-agent coordination. We present GoalSwarm, a fully decentralized multi-UAV framework for zero-shot semantic object-goal navigation. Each UAV collaboratively constructs a shared, lightweight 2D top-down semantic occupancy map by projecting depth observations from aerial vantage points, eliminating the computational burden of full 3D representations while preserving essential geometric and semantic structure. The core contributions of GoalSwarm are threefold: (1) integration of zero-shot foundation model -- SAM3 for open vocabulary detection and pixel-level segmentation, enabling open-vocabulary target identification without task-specific training; (2) a Bayesian Value Map that fuses multi-viewpoint detection confidences into a per-pixel goal-relevance distribution, enabling informed frontier scoring via Upper Confidence Bound (UCB) exploration; and (3) a decentralized coordination strategy combining semantic frontier extraction, cost-utility bidding with geodesic path costs, and spatial separation penalties to minimize redundant exploration across the swarm.",
-    "source": "ArXiv",
-    "published": "2026-03-13T11:23:53+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Proposes **GoalSwarm**, a decentralized multi-UAV framework for zero-shot, **open-vocabulary object navigation** in unknown environments.\n- Integrates **SAM3 foundation models** for pixel-level segmentation, enabling target identification without the need for task-specific training data.\n- Implements a **Bayesian Value Map** and **UCB (Upper Confidence Bound)** exploration to probabilistically fuse multi-viewpoint detections and optimize frontier scoring.\n- Utilizes a **cost-utility bidding** strategy with spatial separation penalties to ensure efficient, non-redundant exploration across the swarm.",
-      "key_results": [
-        "Achieves zero-shot navigation to arbitrary objects via open-vocabulary detection.",
-        "Reduces onboard compute requirements by utilizing lightweight 2D semantic occupancy maps instead of 3D representations.",
-        "Enables robust multi-viewpoint confidence fusion using a Bayesian per-pixel distribution.",
-        "Optimizes swarm efficiency through decentralized geodesic path cost bidding.",
-        "Minimizes redundant exploration via spatial separation penalties in agent coordination."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce GoalSwarm, using SAM3 foundation models for decentralized, zero-shot open-vocabulary navigation in multi-UAV swarms.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "Multi-Agent Systems",
-        "Foundation Models",
-        "Open-Vocabulary Navigation",
-        "UAV Coordination",
-        "Semantic Mapping"
-      ]
-    }
-  },
-  {
-    "title": "Human-Centered Evaluation of an LLM-Based Process Modeling Copilot: A Mixed-Methods Study with Domain Experts",
-    "link": "http://arxiv.org/abs/2603.12895v1",
-    "summary": "Integrating Large Language Models (LLMs) into business process management tools promises to democratize Business Process Model and Notation (BPMN) modeling for non-experts. While automated frameworks assess syntactic and semantic quality, they miss human factors like trust, usability, and professional alignment. We conducted a mixed-methods evaluation of our proposed solution, an LLM-powered BPMN copilot, with five process modeling experts using focus groups and standardized questionnaires. Our findings reveal a critical tension between acceptable perceived usability (mean CUQ score: 67.2/100) and notably lower trust (mean score: 48.8\\%), with reliability rated as the most critical concern (M=1.8/5). Furthermore, we identified output-quality issues, prompting difficulties, and a need for the LLM to ask more in-depth clarifying questions about the process. We envision five use cases ranging from domain-expert support to enterprise quality assurance. We demonstrate the necessity of human-centered evaluation complementing automated benchmarking for LLM modeling agents.",
-    "source": "ArXiv",
-    "published": "2026-03-13T10:59:23+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\nIntroduces an **LLM-powered BPMN copilot** designed to democratize business process modeling through a conversational agent interface.\nEmploys a **mixed-methods evaluation framework** combining focus groups and standardized questionnaires to bridge the gap between automated benchmarks and human factors.\nReveals a critical **trust-usability disconnect**, where technical usability scores (67.2/100) significantly outperform expert trust levels (48.8%).\nAdvocates for **reasoning-centric agent architectures** that utilize proactive clarifying questions to resolve domain ambiguities in complex workflows.",
-      "key_results": [
-        "Usability was rated at a mean CUQ score of 67.2/100, suggesting fair user-facing performance.",
-        "Mean trust score was significantly lower at 48.8%, indicating skepticism from domain experts.",
-        "Reliability was identified as the weakest performance factor, scoring only 1.8 out of 5.",
-        "Experts identified prompt engineering as a major friction point for non-technical business users.",
-        "Human-centered metrics provided insights into professional alignment that automated syntactic checks missed."
-      ],
-      "relevance_score": 7,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers demonstrate that LLM process modeling agents face a significant trust deficit despite maintaining acceptable usability scores.",
-      "lead_institution": "ArXiv Research",
-      "tags": [
-        "LLM Agents",
-        "AI Evaluation",
-        "BPMN",
-        "Human-Centered AI",
-        "Reasoning Models"
-      ]
-    }
-  },
-  {
-    "title": "Dynamic analysis of refractive index evolution and diffraction properties during single-photon polymerization of photopolymers for micro-optical applications",
-    "link": "http://arxiv.org/abs/2603.12889v1",
-    "summary": "Photopolymerization enables the production of micro-optical elements, such as diffractive optical elements or GRIN optics. This process utilizes targeted spatial modulation of the refractive index, which is achieved through additive manufacturing. In this context, a thorough understanding of the dynamic processes during curing is essential in order to be able to accurately predict the optical function of the element. For this reason, this work investigates the kinetics and resulting optical properties of an acrylate-based photopolymer under UV irradiation using a DLP projection system. The experimental approach combines two measurement methods: On the one hand, the absolute change in the refractive index is determined in a time-resolved manner at the interface of a prism using a method based on total reflection. On the other hand, the formation of a phase grating in the volume of the polymer is monitored in real time by analyzing the diffraction orders of a coherent sample laser. The results show a characteristic S-shaped curve of the refractive index change, which reflects the phases of polymerization: oxygen inhibition, autoacceleration, and vitrification. Analysis of the diffraction patterns reveals complex intensity curves and substructures in the diffraction orders. These could be traced back experimentally and through simulations to the discrete pixel structure of the DLP projector and the existing dead zones. Furthermore, the simulation model developed on the basis of Fourier optics reproduces the experimental diffraction patterns and confirms the hypothesis that scattered light and radical diffusion lead to time-delayed polymerization in the theoretically unexposed areas. This results in a reduction of the refractive index contrast over time. This work thus provides parameters for the simulation and optimization of exposure strategies in 3D printing of micro-optics.",
-    "source": "ArXiv",
-    "published": "2026-03-13T10:39:42+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n* The research presents a dual-measurement approach to characterize **acrylate-based photopolymer kinetics** specifically for DLP-based 3D printing of micro-optics.\n* It introduces a **Fourier optics-based simulation model** that successfully predicts diffraction patterns by accounting for pixel structures, scattered light, and radical diffusion.\n* The study identifies three distinct phases of polymerization\u2014**oxygen inhibition, autoacceleration, and vitrification**\u2014using time-resolved refractive index monitoring.\n* This framework enables the **optimization of exposure strategies** to minimize loss of refractive index contrast in additive manufacturing.",
-      "key_results": [
-        "Identification of an S-shaped refractive index evolution curve corresponding to polymerization stages.",
-        "Discovery that scattered light and radical diffusion cause time-delayed polymerization in unexposed zones.",
-        "Successful experimental validation of complex diffraction substructures using a pixel-aware simulation model.",
-        "Quantification of the refractive index contrast reduction over time due to chemical diffusion.",
-        "Establishment of parameters for accurate predictive modeling of diffractive optical element manufacturing."
-      ],
-      "relevance_score": 2,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "Researchers develop a Fourier optics simulation model to optimize refractive index precision in 3D-printed micro-optical elements.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "Additive Manufacturing",
-        "Micro-optics",
-        "Refractive Index",
-        "Fourier Optics",
-        "Photopolymerization"
-      ]
-    }
-  },
-  {
-    "title": "Enhanced Drug-drug Interaction Prediction Using Adaptive Knowledge Integration",
-    "link": "http://arxiv.org/abs/2603.12885v1",
-    "summary": "Drug-drug interaction event (DDIE) prediction is crucial for preventing adverse reactions and ensuring optimal therapeutic outcomes. However, existing methods often face challenges with imbalanced datasets, complex interaction mechanisms, and poor generalization to unknown drug combinations. To address these challenges, we propose a knowledge augmentation framework that adaptively infuses prior drug knowledge into a large language model (LLM). This framework utilizes reinforcement learning techniques to facilitate adaptive knowledge extraction and synthesis, thereby efficiently optimizing the strategy space to enhance the accuracy of LLMs for DDIE predictions. As a result of few-shot learning, we achieved a notable improvement compared to the baseline. This approach establishes an effective framework for scientific knowledge learning for DDIE predictions.",
-    "source": "ArXiv",
-    "published": "2026-03-13T10:33:57+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Proposes a **knowledge augmentation framework** that adaptively infuses structured drug information into a **Large Language Model (LLM)** for interaction prediction.\n- Utilizes **Reinforcement Learning (RL)** to optimize the strategy space for knowledge extraction and synthesis, enhancing the model's reasoning capabilities.\n- Focuses on overcoming data challenges like **imbalanced datasets** and poor generalization to unseen or unknown drug combinations.\n- Demonstrates the effectiveness of **few-shot learning** in specialized scientific domains, providing a scalable template for knowledge-heavy AI tasks.",
-      "key_results": [
-        "Achieved notable accuracy improvements in DDIE prediction over existing baselines.",
-        "Successfully implemented adaptive knowledge extraction using RL-driven strategies.",
-        "Enhanced generalization performance for previously unknown drug-drug interaction pairs.",
-        "Demonstrated that few-shot learning can mitigate the need for massive labeled datasets in bio-medical tasks.",
-        "Established an optimized framework for integrating external prior knowledge into generative reasoning models."
-      ],
-      "relevance_score": 7,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce an RL-based knowledge augmentation framework to improve LLM accuracy in drug-drug interaction predictions via few-shot learning.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "Knowledge Augmentation",
-        "Reinforcement Learning",
-        "Few-shot Learning",
-        "LLM Reasoning",
-        "Bio-AI"
-      ]
-    }
-  },
-  {
-    "title": "CLARIN-PT-LDB: An Open LLM Leaderboard for Portuguese to assess Language, Culture and Civility",
-    "link": "http://arxiv.org/abs/2603.12872v1",
-    "summary": "This paper reports on the development of a leaderboard of Open Large Language Models (LLM) for European Portuguese (PT-PT), and on its associated benchmarks. This leaderboard comes as a way to address a gap in the evaluation of LLM for European Portuguese, which so far had no leaderboard dedicated to this variant of the language. The paper also reports on novel benchmarks, including some that address aspects of performance that so far have not been available in benchmarks for European Portuguese, namely model safeguards and alignment to Portuguese culture. The leaderboard is available at https://huggingface.co/spaces/PORTULAN/portuguese-llm-leaderboard.",
-    "source": "ArXiv",
-    "published": "2026-03-13T10:18:27+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n\u2022 Establishes a **standardized evaluation framework** and Open LLM Leaderboard specifically for **European Portuguese (PT-PT)**, filling a significant gap in regional language assessment.\n\u2022 Introduces **novel benchmarks** focusing on **model safeguards** and **cultural alignment**, moving beyond standard linguistic translation tasks to evaluate socio-cultural nuances.\n\u2022 Implements an **automated scoring pipeline** hosted on Hugging Face Spaces to provide a transparent, reproducible comparison of open-source models for the Portuguese research community.",
-      "key_results": [
-        "Creation of the first dedicated leaderboard for European Portuguese (PT-PT).",
-        "Introduction of specific benchmarks for model safety and civility in a Portuguese context.",
-        "Development of datasets to test alignment with Portuguese culture and social norms.",
-        "Provision of a public platform for comparing open-source models against PT-PT linguistic requirements.",
-        "Identification of performance disparities between generic multilingual models and localized variants."
-      ],
-      "relevance_score": 6,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "PORTULAN CLARIN launches a specialized leaderboard to evaluate European Portuguese LLMs across linguistic, cultural, and safety dimensions.",
-      "lead_institution": "PORTULAN CLARIN",
-      "tags": [
-        "Portuguese LLM",
-        "AI Evaluation",
-        "LLM Benchmarking",
-        "Cultural Alignment",
-        "Open Source AI"
-      ]
-    }
-  },
-  {
-    "title": "Surrogates for Physics-based and Data-driven Modelling of Parametric Systems: Review and New Perspectives",
-    "link": "http://arxiv.org/abs/2603.12870v1",
-    "summary": "Surrogate models provide compact relations between user-defined input parameters and output quantities of interest, enabling the efficient evaluation of complex parametric systems in many-query settings. Such capabilities are essential in a wide range of applications, including optimisation, control, data assimilation, uncertainty quantification, and emerging digital twin technologies in various fields such as manufacturing, personalised healthcare, smart cities, and sustainability. This article reviews established methodologies for constructing surrogate models exploiting either knowledge of the governing laws and the dynamical structure of the system (physics-based) or experimental observations (data-driven), as well as hybrid approaches combining these two paradigms. By revisiting the design of a surrogate model as a functional approximation problem, existing methodologies are reviewed in terms of the choice of (i) a reduced basis and (ii) a suitable approximation criterion. The paper reviews methodologies pertaining to the field of Scientific Machine Learning, and it aims at synthesising established knowledge, recent advances, and new perspectives on: dimensionality reduction, physics-based, and data-driven surrogate modelling based on proper orthogonal decomposition, proper generalised decomposition, and artificial neural networks; multi-fidelity methods to exploit information from sources with different fidelities; adaptive sampling, enrichment, and data augmentation techniques to enhance the quality of surrogate models.",
-    "source": "ArXiv",
-    "published": "2026-03-13T10:16:53+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Reviews the integration of **Scientific Machine Learning (SciML)** with traditional physics-based models to create efficient surrogate architectures for complex parametric systems.\n- Explores **dimensionality reduction** techniques such as **Proper Orthogonal Decomposition (POD)** and **Proper Generalised Decomposition (PGD)** to handle high-dimensional input spaces.\n- Evaluates the transition from purely data-driven **Artificial Neural Networks (ANN)** to hybrid models that incorporate **governing laws** for improved generalization and physical consistency.\n- Discusses **multi-fidelity methods** and **adaptive sampling** strategies that optimize the trade-off between computational cost and model accuracy in digital twin applications.",
-      "key_results": [
-        "Comprehensive classification of surrogate models based on reduced basis selection and approximation criteria.",
-        "Validation of hybrid physics-data paradigms for more robust parametric system modeling.",
-        "Identification of multi-fidelity information fusion as a key driver for efficient data assimilation.",
-        "Advancement of adaptive enrichment techniques to enhance surrogate quality in many-query settings.",
-        "Strategic framework for implementing surrogate-based optimization and uncertainty quantification."
-      ],
-      "relevance_score": 5,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers review Scientific ML frameworks for surrogate modeling, enabling efficient digital twins through physics-data hybrid architectures.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "Scientific ML",
-        "Surrogate Models",
-        "Physics-Informed AI",
-        "Digital Twins",
-        "Dimensionality Reduction"
-      ]
-    }
-  },
-  {
-    "title": "Quantifying Perovskite Solar Cell Degradation via Machine Learning from Spatially Resolved Multimodal Luminescence Time Series",
-    "link": "http://arxiv.org/abs/2603.12857v1",
-    "summary": "Perovskite solar cells (PSCs) have experienced a remarkable rise in power conversion efficiency (PCE) over the past 15 years, positioning them as a promising alternative or complement to silicon for large-scale photovoltaic deployment. However, beyond scalable fabrication, operational stability remains a major bottleneck for commercialization. Reliable and rapid methods to assess device health and degradation mechanisms - ideally compatible with field applications - are therefore essential. We present a deep-learning framework to estimate efficiency retention, $R_\\mathrm{PCE}=\\mathrm{PCE}_t/\\mathrm{PCE}_0$, directly from multimodal luminescence imaging acquired during device aging. Each training sample includes electroluminescence (EL), open-circuit photoluminescence (PLoc), and short-circuit photoluminescence (PLsc) images at an aged state, together with device-specific reference images at $t=0$. This design enables the model to learn spatially resolved degradation patterns relative to the pristine condition. The dataset was collected over 5-70 hours using an automated, in-house measurement platform. We introduce LumPerNet, a compact convolutional neural network that regresses $R_\\mathrm{PCE}$ from stacked multimodal image tensors, and benchmark it against an intensity-only multilayer perceptron baseline. Using a leakage-aware protocol with device-level hold-out testing and four-fold cross-validation, restricted to $R_\\mathrm{PCE}\\in[0.8,1.2]$, LumPerNet achieves substantially improved and more robust performance (MAE -23.4%, RMSE -25.6%, $R^2$ +0.417). Ablation studies highlight the importance of complementary physical contrast across modalities for generalization. Overall, this work establishes a reproducible pipeline linking automated luminescence imaging to electrical labels, enabling accelerated stability testing and non-invasive degradation monitoring in PSCs.",
-    "source": "ArXiv",
-    "published": "2026-03-13T10:03:02+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- The researchers introduce **LumPerNet**, a compact **Convolutional Neural Network (CNN)** designed to regress efficiency retention in Perovskite solar cells (PSCs) from multimodal image tensors.\n- The model leverages **spatially resolved degradation patterns** by processing stacked electroluminescence (EL) and photoluminescence (PL) images relative to pristine state reference images.\n- This framework establishes an **automated, non-invasive pipeline** for monitoring device health, effectively bridging the gap between high-resolution luminescence imaging and electrical performance metrics.\n- The architecture emphasizes **multimodal fusion**, demonstrating that physical contrast across different imaging modes is critical for generalizing across various degradation mechanisms.",
-      "key_results": [
-        "Achieved a 23.4% reduction in Mean Absolute Error (MAE) compared to the MLP baseline.",
-        "Reduced Root Mean Square Error (RMSE) by 25.6% during efficiency retention regression.",
-        "Increased R-squared metric by 0.417, showing significantly improved model robustness.",
-        "Validated the necessity of multimodal data (EL, PLoc, and PLsc) through detailed ablation studies.",
-        "Successfully predicted efficiency retention within the 0.8 to 1.2 range using a device-level hold-out protocol."
-      ],
-      "relevance_score": 5,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers developed LumPerNet, a multimodal CNN that accurately predicts solar cell degradation using spatially resolved luminescence imaging.",
-      "lead_institution": "ArXiv Researchers",
-      "tags": [
-        "Multimodal AI",
-        "Computer Vision",
-        "Predictive Maintenance",
-        "CNN",
-        "Material Science"
-      ]
-    }
-  },
-  {
-    "title": "On Linear Separability of the MNIST Handwritten Digits Dataset",
-    "link": "http://arxiv.org/abs/2603.12850v1",
-    "summary": "The MNIST dataset containing thousands of handwritten digit images is still a fundamental benchmark for evaluating various pattern-recognition and image-classification models. Linear separability is a key concept in many statistical and machine-learning techniques. Despite the long history of the MNIST dataset and its relative simplicity in size and resolution, the question of whether the dataset is linearly separable has never been fully answered -- scientific and informal sources share conflicting claims. This paper aims to provide a comprehensive empirical investigation to address this question, distinguishing pairwise and one-vs-rest separation of the training, the test and the combined sets, respectively. It reviews the theoretical approaches to assessing linear separability, alongside state-of-the-art methods and tools, then systematically examines all relevant assemblies, and reports the findings.",
-    "source": "ArXiv",
-    "published": "2026-03-13T09:51:10+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- The paper investigates the fundamental **linear separability** of the MNIST dataset, addressing long-standing conflicting claims in machine learning literature.\n- Researchers employ **empirical investigation** methods to test both pairwise and one-vs-rest separation across training, test, and combined data splits.\n- The methodology involves a systematic review of **theoretical assessment tools** and modern optimization techniques to determine the geometric properties of the image manifold.\n- The findings establish a baseline for **model complexity** requirements when designing image-classification architectures for handwritten digit recognition.",
-      "key_results": [
-        "Comprehensive empirical determination of linear separability for all digit classes.",
-        "Distinction between pairwise and one-vs-rest separation outcomes.",
-        "Rigorous testing of the combined training and test sets for global separability.",
-        "Identification of specific digit pairs that challenge linear classification boundaries.",
-        "Systematic documentation of state-of-the-art tools for assessing dataset geometry."
-      ],
-      "relevance_score": 4,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers conduct a comprehensive empirical study to resolve conflicting claims regarding the linear separability of the MNIST dataset.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "MNIST",
-        "Linear Separability",
-        "AI Evaluation",
-        "Image Classification",
-        "Statistical Learning"
-      ]
-    }
-  },
-  {
-    "title": "Team LEYA in 10th ABAW Competition: Multimodal Ambivalence/Hesitancy Recognition Approach",
-    "link": "http://arxiv.org/abs/2603.12848v1",
-    "summary": "Ambivalence/hesitancy recognition in unconstrained videos is a challenging problem due to the subtle, multimodal, and context-dependent nature of this behavioral state. In this paper, a multimodal approach for video-level ambivalence/hesitancy recognition is presented for the 10th ABAW Competition. The proposed approach integrates four complementary modalities: scene, face, audio, and text. Scene dynamics are captured with a VideoMAE-based model, facial information is encoded through emotional frame-level embeddings aggregated by statistical pooling, acoustic representations are extracted with EmotionWav2Vec2.0 and processed by a Mamba-based temporal encoder, and linguistic cues are modeled using fine-tuned transformer-based text models. The resulting unimodal embeddings are further combined using multimodal fusion models, including prototype-augmented variants. Experiments on the BAH corpus demonstrate clear gains of multimodal fusion over all unimodal baselines. The best unimodal configuration achieved an average MF1 of 70.02%, whereas the best multimodal fusion model reached 83.25%. The highest final test performance, 71.43%, was obtained by an ensemble of five prototype-augmented fusion models. The obtained results highlight the importance of complementary multimodal cues and robust fusion strategies for ambivalence/hesitancy recognition.",
-    "source": "ArXiv",
-    "published": "2026-03-13T09:50:03+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n\u2022 The proposed architecture utilizes a **four-modality framework** integrating scene (VideoMAE), face (frame-level embeddings), audio (EmotionWav2Vec2.0), and text (Transformers) to detect subtle behavioral states.\n\u2022 Acoustic processing is enhanced via a **Mamba-based temporal encoder**, leveraging state-space models for efficient sequence modeling of emotional audio cues.\n\u2022 The system implements **prototype-augmented multimodal fusion**, which uses learned prototypes to anchor and align disparate unimodal embeddings for improved classification accuracy.\n\u2022 Experimental results confirm that **multimodal ensembles** significantly outperform unimodal baselines, highlighting the necessity of cross-modal context for detecting complex states like hesitancy.",
-      "key_results": [
-        "Multimodal fusion achieved an 83.25% MF1 score, significantly outperforming the best unimodal baseline of 70.02%.",
-        "An ensemble of five prototype-augmented fusion models yielded the highest final test performance of 71.43%.",
-        "Mamba-based temporal encoders were successfully integrated to process EmotionWav2Vec2.0 acoustic representations.",
-        "The VideoMAE-based scene dynamics model proved essential for capturing environmental context-dependent behavior.",
-        "Statistical pooling of facial emotional frame-level embeddings provided robust visual representations for fusion."
-      ],
-      "relevance_score": 7,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "Team LEYA utilizes VideoMAE and Mamba-based fusion to improve multimodal ambivalence recognition in unconstrained video environments.",
-      "lead_institution": "Team LEYA",
-      "tags": [
-        "Multimodal AI",
-        "Mamba Architecture",
-        "VideoMAE",
-        "Emotion Recognition",
-        "Behavioral Analysis"
-      ]
-    }
-  },
-  {
-    "title": "Multimodal Protein Language Models for Enzyme Kinetic Parameters: From Substrate Recognition to Conformational Adaptation",
-    "link": "http://arxiv.org/abs/2603.12845v1",
-    "summary": "Predicting enzyme kinetic parameters quantifies how efficiently an enzyme catalyzes a specific substrate under defined biochemical conditions. Canonical parameters such as the turnover number ($k_\\text{cat}$), Michaelis constant ($K_\\text{m}$), and inhibition constant ($K_\\text{i}$) depend jointly on the enzyme sequence, the substrate chemistry, and the conformational adaptation of the active site during binding. Many learning pipelines simplify this process to a static compatibility problem between the enzyme and substrate, fusing their representations through shallow operations and regressing a single value. Such formulations overlook the staged nature of catalysis, which involves both substrate recognition and conformational adaptation. In this regard, we reformulate kinetic prediction as a staged multimodal conditional modeling problem and introduce the Enzyme-Reaction Bridging Adapter (ERBA), which injects cross-modal information via fine-tuning into Protein Language Models (PLMs) while preserving their biochemical priors. ERBA performs conditioning in two stages: Molecular Recognition Cross-Attention (MRCA) first injects substrate information into the enzyme representation to capture specificity; Geometry-aware Mixture-of-Experts (G-MoE) then integrates active-site structure and routes samples to pocket-specialized experts to reflect induced fit. To maintain semantic fidelity, Enzyme-Substrate Distribution Alignment (ESDA) enforces distributional consistency within the PLM manifold in a reproducing kernel Hilbert space. Experiments across three kinetic endpoints and multiple PLM backbones, ERBA delivers consistent gains and stronger out-of-distribution performance compared with sequence-only and shallow-fusion baselines, offering a biologically grounded route to scalable kinetic prediction and a foundation for adding cofactors, mutations, and time-resolved structural cues.",
-    "source": "ArXiv",
-    "published": "2026-03-13T09:45:41+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Introduces the **Enzyme-Reaction Bridging Adapter (ERBA)**, a staged multimodal framework that fine-tunes **Protein Language Models (PLMs)** by incorporating chemical and structural data.\n- Implements **Molecular Recognition Cross-Attention (MRCA)** to capture enzyme-substrate specificity and **Geometry-aware Mixture-of-Experts (G-MoE)** to model conformational induced-fit adaptations.\n- Utilizes **Enzyme-Substrate Distribution Alignment (ESDA)** to preserve the biological priors of the PLM manifold using a reproducing kernel Hilbert space approach.\n- Provides a scalable foundation for predicting **kinetic parameters** like kcat, Km, and Ki by moving beyond simple shallow-fusion architectures.",
-      "key_results": [
-        "Achieved consistent performance gains across three major kinetic endpoints: turnover number, Michaelis constant, and inhibition constant.",
-        "Demonstrated significantly stronger out-of-distribution performance compared to traditional sequence-only and shallow-fusion baselines.",
-        "Successfully validated the architecture across multiple diverse PLM backbones, proving its versatility as a model-agnostic adapter.",
-        "Shown that staged conditioning\u2014separating recognition from adaptation\u2014more accurately reflects the biological stages of catalysis.",
-        "Integrated 3D active-site structural cues effectively through specialized routing in the G-MoE component."
-      ],
-      "relevance_score": 7,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce ERBA to improve enzyme kinetic predictions by integrating substrate chemistry and active-site geometry into PLMs.",
-      "lead_institution": "ArXiv Researchers",
-      "tags": [
-        "Multimodal AI",
-        "Protein Language Models",
-        "Enzyme Kinetics",
-        "Mixture of Experts",
-        "Fine-tuning"
-      ]
-    }
-  },
-  {
-    "title": "Serving Hybrid LLM Loads with SLO Guarantees Using CPU-GPU Attention Piggybacking",
-    "link": "http://arxiv.org/abs/2603.12831v1",
-    "summary": "Nowadays, service providers often deploy multiple types of LLM services within shared clusters. While the service colocation improves resource utilization, it introduces significant interference risks for latency-sensitive (LS) services-which have strict SLO requirements for inference latency-and severely constrain the service capacity of best-effort (BE) services due to limited available memory. To address interference, existing systems typically rely on reserving headroom to constrain BE resource usage. However, this approach's coarse granularity compromises the SLO compliance of the latency-sensitive service and unnecessarily restricts the generation potential of the best effort service.\n  In this paper, we propose OmniServe, a novel LLM serving system that efficiently harnesses both CPU and GPU resources to mitigate interference and improve throughput. Central to OmniServe is the Attention Piggybacking mechanism, which effectively offloads the Attention computation of BE services to CPUs on the fly. This mechanism also facilitates asynchronous communication between CPU and GPU streams, preventing GPUs from being blocked while aggregating Attention results. Additionally, OmniServe incorporates a dynamic batching control policy to adapt to fluctuating request arrivals, facilitating Dense module computation using layer-wise batching. Experimental results show that OmniServe improves the SLO attainment rate for LS services by up to $1.48\\times$ while enhancing BE serving throughput by up to $9.85\\times$ compared to state-of-the-art systems.",
-    "source": "ArXiv",
-    "published": "2026-03-13T09:32:56+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n* OmniServe introduces a **hybrid CPU-GPU orchestration** framework designed to manage mixed latency-sensitive (LS) and best-effort (BE) LLM inference workloads.\n* The core **Attention Piggybacking** mechanism dynamically offloads attention operations to the CPU to minimize interference on critical GPU paths for latency-sensitive tasks.\n* Implements **asynchronous result aggregation** and **layer-wise batching** to maintain high GPU utilization for dense computations while preventing processing blocks.",
-      "key_results": [
-        "Improves SLO attainment rate for latency-sensitive services by 1.48x.",
-        "Increases best-effort service throughput by up to 9.85x compared to state-of-the-art systems.",
-        "Successfully mitigates resource interference in shared clusters by utilizing idle CPU capacity.",
-        "Facilitates asynchronous communication between CPU and GPU streams to maximize hardware parallelism.",
-        "Optimizes Dense module computation through a novel dynamic batching control policy."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "OmniServe researchers introduce Attention Piggybacking to optimize hybrid CPU-GPU serving, significantly boosting inference SLO compliance and throughput.",
-      "lead_institution": "ArXiv Research",
-      "tags": [
-        "LLM Serving",
-        "Inference Optimization",
-        "GPU Scheduling",
-        "Heterogeneous Computing",
-        "SLO Management"
-      ]
-    }
-  },
-  {
-    "title": "coDrawAgents: A Multi-Agent Dialogue Framework for Compositional Image Generation",
-    "link": "http://arxiv.org/abs/2603.12829v1",
-    "summary": "Text-to-image generation has advanced rapidly, but existing models still struggle with faithfully composing multiple objects and preserving their attributes in complex scenes. We propose coDrawAgents, an interactive multi-agent dialogue framework with four specialized agents: Interpreter, Planner, Checker, and Painter that collaborate to improve compositional generation. The Interpreter adaptively decides between a direct text-to-image pathway and a layout-aware multi-agent process. In the layout-aware mode, it parses the prompt into attribute-rich object descriptors, ranks them by semantic salience, and groups objects with the same semantic priority level for joint generation. Guided by the Interpreter, the Planner adopts a divide-and-conquer strategy, incrementally proposing layouts for objects with the same semantic priority level while grounding decisions in the evolving visual context of the canvas. The Checker introduces an explicit error-correction mechanism by validating spatial consistency and attribute alignment, and refining layouts before they are rendered. Finally, the Painter synthesizes the image step by step, incorporating newly planned objects into the canvas to provide richer context for subsequent iterations. Together, these agents address three key challenges: reducing layout complexity, grounding planning in visual context, and enabling explicit error correction. Extensive experiments on benchmarks GenEval and DPG-Bench demonstrate that coDrawAgents substantially improves text-image alignment, spatial accuracy, and attribute binding compared to existing methods.",
-    "source": "ArXiv",
-    "published": "2026-03-13T09:32:06+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Proposes **coDrawAgents**, an interactive **multi-agent dialogue framework** consisting of four specialized agents (Interpreter, Planner, Checker, and Painter) to enhance **compositional image generation**.\n- Features an **Interpreter** that adaptively selects between direct generation and a **layout-aware multi-agent process** based on prompt complexity and semantic priority levels.\n- Employs a **divide-and-conquer strategy** where the Planner grounds decisions in evolving visual context, while the **Checker** provides an explicit error-correction loop for spatial and attribute consistency.\n- Addresses key bottlenecks in **Text-to-Image (T2I)** synthesis, specifically reducing layout complexity and improving **attribute binding** for multiple objects in a single scene.",
-      "key_results": [
-        "Achieved state-of-the-art performance on the GenEval benchmark for compositional generation.",
-        "Significant improvements in spatial accuracy and text-image alignment on DPG-Bench.",
-        "Demonstrated superior attribute binding, effectively preserving unique traits for multiple objects.",
-        "Validated the effectiveness of semantic priority grouping in reducing layout complexity.",
-        "Proved that explicit error-correction via a Checker agent significantly reduces rendering artifacts."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce coDrawAgents, a multi-agent framework that uses collaborative reasoning to significantly improve compositional text-to-image accuracy.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "Multi-Agent Systems",
-        "Compositional Generation",
-        "Text-to-Image",
-        "LLM Agents",
-        "Spatial Reasoning"
-      ]
-    }
-  },
-  {
-    "title": "Are Dependent Types in Set Theory Feasible?",
-    "link": "http://arxiv.org/abs/2603.12827v1",
-    "summary": "Following the types-as-sets paradigm, we present a mechanized embedding of dependent function types with a hierarchy of universes into schematic first-order logic with equality, with axiom schemas of Tarski-Grothendieck set theory. We carry this embedding in the Lisa proof assistant. On top of this foundation, we implement a proof-producing bidirectional type-checking tactic to compute proofs for typing judgements, with partial support for subtyping. We present examples showing how our approach enables automated reasoning for dependent types that is fully verified from set-theoretic axioms and deduction rules for schematic first-order logic with equality. Because types are merely sets, the resulting formalism supports equality that applies to all types and values and permits the usual substitution rules.",
-    "source": "ArXiv",
-    "published": "2026-03-13T09:31:24+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n \u2022 Proposes a mechanized **embedding of dependent function types** and a universe hierarchy into schematic first-order logic using **Tarski-Grothendieck (TG) set theory** axioms.\n \u2022 Implements a **proof-producing bidirectional type-checking tactic** within the Lisa proof assistant to automate the generation of formal proofs for typing judgements.\n \u2022 Leverages the **types-as-sets paradigm** to enable a unified formalism where set-theoretic equality and substitution rules apply universally to all types and values.",
-      "key_results": [
-        "Successfully embedded dependent function types into schematic first-order logic with equality.",
-        "Integrated a hierarchy of universes compatible with Tarski-Grothendieck axioms.",
-        "Developed an automated bidirectional type-checking tactic for the Lisa proof assistant.",
-        "Demonstrated partial support for subtyping within a unified set-theoretic framework.",
-        "Enabled fully verified automated reasoning for dependent types starting from fundamental axioms."
-      ],
-      "relevance_score": 5,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "EPFL researchers implement a mechanized embedding of dependent types in set theory to enable verified automated reasoning in Lisa.",
-      "lead_institution": "EPFL",
-      "tags": [
-        "Dependent Types",
-        "Set Theory",
-        "Formal Verification",
-        "Automated Reasoning",
-        "Lisa Proof Assistant"
-      ]
-    }
-  },
-  {
-    "title": "Rethinking Multiple-Choice Questions for RLVR: Unlocking Potential via Distractor Design",
-    "link": "http://arxiv.org/abs/2603.12826v1",
-    "summary": "Reinforcement Learning with Verifiable Rewards (RLVR) significantly enhances the reasoning capabilities of Large Language Models. When applied to RLVR, Multiple-Choice Questions (MCQs) offer a scalable source of verifiable data but risk inducing reward hacking, where models shortcut reasoning via random guessing or simple elimination. Current approaches often mitigate this by converting MCQs to open-ended formats, thereby discarding the contrastive signal provided by expert-designed distractors. In this work, we systematically investigate the impact of option design on RLVR. Our analysis highlights two primary insights: (1) Mismatches in option counts between training and testing degrade performance. (2) Strong distractors effectively mitigate random guessing, enabling effective RLVR training even with 2-way questions. Motivated by these findings, we propose Iterative Distractor Curation (IDC), a framework that actively constructs high-quality distractors to block elimination shortcuts and promote deep reasoning. Experiments on various benchmarks demonstrate that our method effectively enhances distractor quality and yields significant gains in RLVR training compared to the original data.",
-    "source": "ArXiv",
-    "published": "2026-03-13T09:28:36+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Investigates **Reinforcement Learning with Verifiable Rewards (RLVR)** to improve LLM reasoning using Multiple-Choice Questions (MCQs).\n- Identifies **reward hacking** through random guessing and elimination shortcuts as a major barrier to effective RLVR training.\n- Proposes **Iterative Distractor Curation (IDC)**, a framework that constructs high-quality distractors to force models into deeper reasoning paths.\n- Demonstrates that **distractor quality** and matching option counts between train and test phases are critical for model stability.",
-      "key_results": [
-        "Mismatches in the number of options between training and testing significantly degrade LLM reasoning performance.",
-        "Strong distractors effectively prevent models from using elimination shortcuts, enabling RLVR even on 2-way questions.",
-        "Converting MCQs to open-ended formats is counterproductive as it discards valuable contrastive signals from experts.",
-        "The IDC framework consistently produces higher-quality distractors than static, original datasets.",
-        "RLVR models trained with IDC distractors show significant gains in reasoning accuracy across multiple standard benchmarks."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce Iterative Distractor Curation to prevent reward hacking and enhance reasoning during RLVR training using MCQs.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "RLVR",
-        "Reasoning Models",
-        "Reinforcement Learning",
-        "Distractor Design",
-        "LLM Evaluation"
-      ]
-    }
-  },
-  {
-    "title": "Context is all you need: Towards autonomous model-based process design using agentic AI in flowsheet simulations",
-    "link": "http://arxiv.org/abs/2603.12813v1",
-    "summary": "Agentic AI systems integrating large language models (LLMs) with reasoning and tooluse capabilities are transforming various domains - in particular, software development. In contrast, their application in chemical process flowsheet modelling remains largely unexplored. In this work, we present an agentic AI framework that delivers assistance in an industrial flowsheet simulation environment. To this end, we show the capabilities of GitHub Copilot (GitHub, Inc., 2026), when using state-of-the-art LLMs, such as Claude Opus 4.6 (Anthropic, PBC, 2026), to generate valid syntax for our in-house process modelling tool Chemasim using the technical documentation and a few commented examples as context. Based on this, we develop a multi-agent system that decomposes process development tasks with one agent solving the abstract problem using engineering knowledge and another agent implementing the solution as Chemasim code. We demonstrate the effectiveness of our framework for typical flowsheet modelling examples, including (i) a reaction/separation process, (ii) a pressure-swing distillation, and (iii) a heteroazeotropic distillation including entrainer selection. Along these lines, we discuss current limitations of the framework and outline future research directions to further enhance its capabilities.",
-    "source": "ArXiv",
-    "published": "2026-03-13T09:13:52+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Proposes a **multi-agent system (MAS)** architecture that decouples high-level **engineering reasoning** from low-level **code implementation** for chemical process modeling.\n- Leverages **Claude Opus 4.6** within an agentic framework to generate valid syntax for **Chemasim**, a proprietary industrial flowsheet simulation tool, using technical documentation as context.\n- Employs **In-context Learning (ICL)** and few-shot prompting to bridge the gap between general-purpose LLMs and niche, domain-specific programming languages.\n- Evaluates the system's ability to perform **autonomous model-based design** for complex chemical tasks, reducing the manual effort required for simulation setup.",
-      "key_results": [
-        "Successful generation of valid Chemasim syntax using documentation-based context.",
-        "Effective decomposition of tasks between a 'Reasoning Agent' and a 'Coding Agent'.",
-        "Automation of a complete reaction/separation process flowsheet.",
-        "Successful modeling of complex pressure-swing and heteroazeotropic distillation scenarios.",
-        "Demonstrated capability in autonomous entrainer selection for chemical separation."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "BASF researchers introduce a multi-agent framework using Claude 4.6 to automate complex industrial chemical process flowsheet simulations.",
-      "lead_institution": "BASF SE",
-      "tags": [
-        "LLM Agents",
-        "Multi-Agent Systems",
-        "Flowsheet Simulation",
-        "Domain-Specific Languages",
-        "Industrial AI"
-      ]
-    }
-  },
-  {
-    "title": "Gaia GraL X.: The GraL catalogue of gravitationally lensed quasars Matched with \\textit{Gaia} data, redshifts, and time delays",
-    "link": "http://arxiv.org/abs/2603.12810v1",
-    "summary": "Determining the Hubble constant tension requires alternative strategies, and multiply imaged quasars, with their intermediate redshifts, can potentially be used in this regard. We provide a currently complete catalogue of spectroscopically confirmed lensed quasars with ESA/{\\it Gaia} astrometry and photometry, as well as redshifts and time delays when available. In addition to the improved astrometry, the catalogue increases the number of lensed quasars by a factor of 1.5 (now 364, of which 277 are doubles and 87 are quads or triples) and significantly increases the number of lensing galaxies detected (now 218), which represents a major step forward. Redshifts are provided for 347 quasars and 188 deflectors. A completely new table of time delays, required for estimates of $H_0$, is presented, with 195 time delays from 73 systems. {\\it Gaia} absolute astrometry is sub-milliarcsecond and covers the entire sky. Future {\\it Gaia} data releases will provide long-term photometry, which should provide many more time delays. The catalogues as presented here enable machine-learning techniques to be trained and tested and subsequently applied to the {\\it Gaia} data releases. Finally, we derive simple but homogeneous models of the 18 quadruply imaged quasars for which images of all four components are presented in {\\it Gaia} DR3.}",
-    "source": "ArXiv",
-    "published": "2026-03-13T09:12:23+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Release of the **GraL catalogue**, a comprehensive dataset of 364 spectroscopically confirmed **gravitationally lensed quasars** integrated with ESA/Gaia astrometry.\n- The dataset provides a significant expansion of training data for **machine learning models** targeted at astronomical object classification and cosmological parameter estimation.\n- Leverages sub-milliarcsecond **absolute astrometry** and long-term photometry to enable automated detection of time delays and lens modeling.",
-      "key_results": [
-        "Increased the number of confirmed lensed quasars to 364, a 1.5x expansion.",
-        "Detected 218 lensing galaxies, facilitating detailed mass distribution studies.",
-        "Provided redshifts for 347 quasars and 188 deflector galaxies.",
-        "Compiled a new table of 195 time delays from 73 unique systems.",
-        "Derived homogeneous models for 18 quadruply imaged quasars using Gaia DR3 data."
-      ],
-      "relevance_score": 4,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "The Gaia GraL collaboration releases an expanded lensed quasar dataset to facilitate machine learning applications in precision cosmology.",
-      "lead_institution": "European Space Agency (ESA)",
-      "tags": [
-        "Astrophysics Dataset",
-        "Machine Learning",
-        "Gaia Mission",
-        "Gravitational Lensing",
-        "Time Delay Estimation"
-      ]
-    }
-  },
-  {
-    "title": "A Multi-task Large Reasoning Model for Molecular Science",
-    "link": "http://arxiv.org/abs/2603.12808v1",
-    "summary": "Advancements in artificial intelligence for molecular science are necessitating a paradigm shift from purely data-driven predictions to knowledge-guided computational reasoning. Existing molecular models are predominantly proprietary, lacking general molecular intelligence and generalizability. This underscores the necessity for computational methods that can effectively integrate scientific logic with deep learning architectures. Here we introduce a multi-task large reasoning model designed to emulate the cognitive processes of molecular scientists through structured reasoning and reflection. Our approach incorporates multi-specialist modules to provide versatile molecular expertise and a chain-of-thought (CoT) framework enhanced by reinforcement learning infused with molecular knowledge, enabling structured and reflective reasoning. Systematic evaluations across 10 molecular tasks and 47 metrics demonstrate that our model achieves an average 50.3% improvement over the base architecture, outperforming over 20 state-of-the-art baselines, including ultra-large-parameter foundation models, despite using significantly fewer training data and computational resources. This validates that embedding explicit reasoning mechanisms enables high-efficiency learning, allowing smaller-scale models to surpass massive counterparts in both efficacy and interpretability. The practical utility of this computational framework was validated through a case study on the design of central nervous system (CNS) drug candidates, illustrating its capacity to bridge data-driven and knowledge-integrated approaches for intelligent molecular design.",
-    "source": "ArXiv",
-    "published": "2026-03-13T09:10:43+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Introduces a **multi-task large reasoning model** that integrates **Chain-of-Thought (CoT)** frameworks with **reinforcement learning** tailored for molecular logic.\n- Employs **multi-specialist modules** to provide domain-specific expertise, enabling structured, reflective reasoning rather than simple pattern matching.\n- Demonstrates extreme efficiency by outperforming **ultra-large-parameter foundation models** while using significantly less training data and computational resources.\n- Validates the architecture via a **central nervous system (CNS)** drug design case study, bridging the gap between data-driven and knowledge-guided AI.",
-      "key_results": [
-        "Achieved a 50.3% average performance improvement over the base model architecture.",
-        "Outperformed 20 state-of-the-art baselines, including massive proprietary foundation models.",
-        "Validated across 10 complex molecular tasks using 47 distinct evaluation metrics.",
-        "Demonstrated superior interpretability and efficiency compared to larger-scale counterparts.",
-        "Successfully identified potential CNS drug candidates through an integrated reasoning framework."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce a knowledge-guided large reasoning model that outperforms massive foundation models in molecular design tasks.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "Reasoning Models",
-        "Molecular Science",
-        "Reinforcement Learning",
-        "Chain-of-Thought",
-        "Model Efficiency"
-      ]
-    }
-  },
-  {
-    "title": "Reinforcement Learning for Elliptical Cylinder Motion Control Tasks",
-    "link": "http://arxiv.org/abs/2603.12807v1",
-    "summary": "The control of devices with limited input always bring attention to solve by research due to its difficulty and non-trival solution. For instance, the inverted pendulum is benchmarking problem in control theory and machine learning. In this work, we are focused on the elliptical cylinder and its motion under limited torque. The inspiration of the problem is from untethered magnetic devices, which due to distance have to operate with limited input torque. In this work, the main goal is to define the control problem of elliptic cylinder with limited input torque and solve it by Reinforcement Learning. As a classical baseline, we evaluate a two-stage controller composed of an energy-shaping swing-up law and a local Linear Quadratic Regulator (LQR) stabilizer around the target equilibrium. The swing-up controller increases the system's mechanical energy to drive the state toward a neighborhood of the desired equilibrium, a linearization of the nonlinear model yields an LQR that regulates the angle and angular-rate states to the target orientation with bounded input. This swing-up + LQR policy is a strong, interpretable reference for underactuated system and serves a point of comparison to the learned policy under identical limits and parameters. The solution shows that the learning is possible however, the different cases like stabilization in upward position or rotating of half turn are very difficult for increasing mass or ellipses with a strongly unequal perimeter ratio.",
-    "source": "ArXiv",
-    "published": "2026-03-13T09:10:20+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n* Evaluates **Reinforcement Learning (RL)** for controlling elliptical cylinder motion under limited torque, simulating constraints found in **untethered magnetic devices**.\n* Implements a benchmarking framework comparing RL against a **two-stage controller** consisting of energy-shaping swing-up laws and a **Linear Quadratic Regulator (LQR)**.\n* Focuses on the transition from nonlinear swing-up dynamics to local stabilization at target orientations using **underactuated system** principles.\n* Analyzes the impact of physical parameters, such as **mass distribution** and perimeter ratios, on the stability and convergence of learned policies.",
-      "key_results": [
-        "RL agents successfully learn to manage elliptical cylinder motion despite significant torque limitations.",
-        "The hybrid Swing-up + LQR policy provides a highly interpretable and strong baseline for performance comparison.",
-        "Upward stabilization tasks remain difficult for RL agents as the mass of the cylinder increases.",
-        "Rotating the cylinder by a half-turn is particularly challenging when dealing with unequal perimeter ratios.",
-        "The study confirms that while RL is a viable solution for nonlinear control, physical geometry heavily influences learning efficiency."
-      ],
-      "relevance_score": 4,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers demonstrate that Reinforcement Learning can control underactuated elliptical cylinders, though performance scales poorly with mass.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "Reinforcement Learning",
-        "Control Theory",
-        "Underactuated Systems",
-        "Motion Control",
-        "Robotics"
-      ]
-    }
-  },
-  {
-    "title": "GLEAM: A Multimodal Imaging Dataset and HAMM for Glaucoma Classification",
-    "link": "http://arxiv.org/abs/2603.12800v1",
-    "summary": "We propose glaucoma lesion evaluation and analysis with multimodal imaging (GLEAM), the first publicly available tri-modal glaucoma dataset comprising scanning laser ophthalmoscopy fundus images, circumpapillary OCT images, and visual field pattern deviation maps, annotated with four disease stages, enabling effective exploitation of multimodal complementary information and facilitating accurate diagnosis and treatment across disease stages. To effectively integrate cross-modal information, we propose hierarchical attentive masked modeling (HAMM) for multimodal glaucoma classification. Our framework employs hierarchical attentive encoders and light decoders to focus cross-modal representation learning on the encoder.",
-    "source": "ArXiv",
-    "published": "2026-03-13T09:02:24+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\u2022 Introduction of **GLEAM**, the first public **tri-modal dataset** for glaucoma, integrating SLO fundus, OCT images, and Visual Field (VF) maps.\n\u2022 Proposes **Hierarchical Attentive Masked Modeling (HAMM)** to fuse structural and functional imaging data through specialized cross-modal integration.\n\u2022 Employs **hierarchical attentive encoders** and light decoders to concentrate representation learning on the encoder side.\n\u2022 Facilitates granular **multimodal classification** across four distinct disease stages by leveraging complementary cross-modal information.",
-      "key_results": [
-        "Released the first tri-modal public dataset (GLEAM) for glaucoma research.",
-        "Integrated SLO fundus, circumpapillary OCT, and VF pattern deviation maps.",
-        "Developed the HAMM framework for effective cross-modal feature representation.",
-        "Achieved accurate glaucoma diagnosis across four distinct disease stages.",
-        "Validated the efficiency of hierarchical attention in masked modeling architectures."
-      ],
-      "relevance_score": 7,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce GLEAM and HAMM, a tri-modal dataset and hierarchical masking framework for improved multimodal glaucoma classification.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "Multimodal AI",
-        "Medical Imaging",
-        "Masked Modeling",
-        "Dataset Release",
-        "Glaucoma Classification"
-      ]
-    }
-  },
-  {
-    "title": "Think and Answer ME: Benchmarking and Exploring Multi-Entity Reasoning Grounding in Remote Sensing",
-    "link": "http://arxiv.org/abs/2603.12788v1",
-    "summary": "Recent advances in reasoning language models and reinforcement learning with verifiable rewards have significantly enhanced multi-step reasoning capabilities. This progress motivates the extension of reasoning paradigms to remote sensing visual grounding task. However, existing remote sensing grounding methods remain largely confined to perception-level matching and single-entity formulations, limiting the role of explicit reasoning and inter-entity modeling. To address this challenge, we introduce a new benchmark dataset for Multi-Entity Reasoning Grounding in Remote Sensing (ME-RSRG). Based on ME-RSRG, we reformulate remote sensing grounding as a multi-entity reasoning task and propose an Entity-Aware Reasoning (EAR) framework built upon visual-linguistic foundation models. EAR generates structured reasoning traces and subject-object grounding outputs. It adopts supervised fine-tuning for cold-start initialization and is further optimized via entity-aware reward-driven Group Relative Policy Optimization (GRPO). Extensive experiments on ME-RSRG demonstrate the challenges of multi-entity reasoning and verify the effectiveness of our proposed EAR framework. Our dataset, code, and models will be available at https://github.com/CV-ShuchangLyu/ME-RSRG.",
-    "source": "ArXiv",
-    "published": "2026-03-13T08:47:19+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Introduces the **ME-RSRG** dataset, shifting remote sensing visual grounding from simple perception to **multi-entity reasoning** involving complex inter-entity relationships.\n- Proposes the **Entity-Aware Reasoning (EAR)** framework, which leverages **visual-linguistic foundation models** to generate structured reasoning traces and subject-object grounding outputs.\n- Implements a two-stage training approach using **Supervised Fine-Tuning (SFT)** for cold-start initialization followed by **Group Relative Policy Optimization (GRPO)**.\n- Utilizes **verifiable rewards** for entity-aware reinforcement learning, significantly enhancing the model's ability to ground multiple entities through explicit reasoning.",
-      "key_results": [
-        "Established a new benchmark (ME-RSRG) specifically for multi-entity spatial reasoning in remote sensing.",
-        "Proved that explicit reasoning traces improve grounding accuracy compared to direct perception-matching models.",
-        "Validated that GRPO-based RL optimization outperforms standard SFT in handling complex entity relationships.",
-        "Demonstrated successful subject-object grounding in high-resolution aerial imagery.",
-        "Provided an open-source framework (EAR) and dataset to bridge the gap between reasoning models and remote sensing."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "Shuchang Lyu et al. introduce EAR, leveraging GRPO and structured reasoning to improve multi-entity grounding in remote sensing.",
-      "lead_institution": "Shuchang Lyu et al.",
-      "tags": [
-        "Reasoning Models",
-        "Remote Sensing",
-        "GRPO",
-        "Multimodal AI",
-        "Visual Grounding"
-      ]
-    }
-  },
-  {
-    "title": "Exploring the role of embodiment on intimacy perception in a multiparty collaborative task",
-    "link": "http://arxiv.org/abs/2603.12783v1",
-    "summary": "During collaborative board games, cohesion represents a key aspect to define a well functionning group. From the success of the task to the developement of interpersonal relationship, this concept covers many aspects of group dynamics. The goal of our work is to investigate the factors that impact cohesion in a group, and specifically the relevant social skills that improve collaboration between multiple entities. In this article, we focus on the role of embodiement on different aspects of an interaction. We propose an experimental protocol, based on a collected corpus of humans playing a collaborative board game, to study how different agents' embodiment affect the perception of these agents and of the group as a whole. We conclude by presenting an outline of the problematics of the conception of the protocol and of multi-agent system related challenges.",
-    "source": "ArXiv",
-    "published": "2026-03-13T08:39:48+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Proposes an **experimental protocol** to analyze the effects of **agent embodiment** on group cohesion and intimacy during multiparty collaborative tasks.\n- Utilizes a collected **human-interaction corpus** of board game play to model and benchmark the perception of synthetic entities within a group.\n- Investigates the **social skills** necessary for improving collaboration between humans and agents in **Multi-Agent Systems (MAS)**.\n- Addresses the architectural challenges of designing **socially-aware agents** that can foster interpersonal relationships and functional group dynamics.",
-      "key_results": [
-        "Definition of a structured protocol for evaluating embodiment in social interactions.",
-        "Analysis of social factors that directly impact group cohesion during tasks.",
-        "Establishment of intimacy perception as a metric for human-agent collaboration.",
-        "Identification of specific multi-agent system challenges in collaborative board game settings.",
-        "Validation of using human-to-human interaction corpora for synthetic agent behavior modeling."
-      ],
-      "relevance_score": 4,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers propose an experimental protocol to evaluate how agent embodiment affects group cohesion and intimacy in collaborative tasks.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "Embodied AI",
-        "Multi-Agent Systems",
-        "Social Robotics",
-        "Human-Agent Interaction",
-        "Group Cohesion"
-      ]
-    }
-  },
-  {
-    "title": "The RIGID Framework: Research-Integrated, Generative AI-Mediated Instructional Design",
-    "link": "http://arxiv.org/abs/2603.12781v1",
-    "summary": "Instructional Design (ID) often faces challenges in incorporating research-based knowledge and pedagogical best practices. Although educational researchers and government agencies emphasize grounding ID in evidence, integrating research findings into everyday design workflows is often complex, as it requires considering multiple context-specific demands and constraints. To address this persistent gap, this paper explores how research in the learning sciences (LS) can be systematically integrated across ID workflows and how recent advances in generative AI can help operationalize this integration. While ID and LS share a commitment to improving learning experiences through design-oriented approaches in authentic contexts, structured integration between the two fields remains limited, leaving their complementary insights underutilized. We present RIGID (Research-Integrated, Generative AI-Mediated Instructional Design), a unified framework that integrates LS research across ID workflows spanning analysis, design, implementation, and evaluation phases, while leveraging generative AI to mediate this integration at each stage. The RIGID framework provides a systematic approach for enabling research-integrated instructional design that is both operational and context-sensitive, while preserving the central role of human expertise.",
-    "source": "ArXiv",
-    "published": "2026-03-13T08:34:12+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n* The **RIGID framework** establishes a structured methodology for embedding **Learning Sciences (LS)** research directly into the **Instructional Design (ID)** lifecycle.\n* It leverages **Generative AI** as a mediation layer to operationalize complex, evidence-based pedagogical theories into actionable design outputs during analysis and implementation.\n* The architecture emphasizes a **human-in-the-loop** approach, ensuring AI-generated insights remain context-sensitive and subject to expert verification.",
-      "key_results": [
-        "Bridging the gap between theoretical pedagogical research and practical design workflows.",
-        "Systematic integration of AI across analysis, design, implementation, and evaluation phases.",
-        "Reduced cognitive load for designers attempting to apply multi-contextual research findings.",
-        "Operationalization of context-sensitive, research-grounded instructional materials.",
-        "Maintenance of human expertise as the central governing factor in AI-mediated design."
-      ],
-      "relevance_score": 4,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce the RIGID framework to integrate learning science research into instructional design workflows using Generative AI.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "Generative AI",
-        "Instructional Design",
-        "Learning Sciences",
-        "Workflow Integration",
-        "Human-AI Collaboration"
-      ]
-    }
-  },
-  {
-    "title": "Hydrogen-atom roaming reactions in water clusters: Unveiling an unusual dimension of water reactivity through first-principles calculations and machine learning",
-    "link": "http://arxiv.org/abs/2603.12778v1",
-    "summary": "Water mediates a broad range of chemical reactions, including proton transfer, bond rearrangement, and conventional radical processes, defining a continuously expanding repertoire of intrinsic reactivity. However, roaming, a fundamental reaction mechanism that a departing fragment bypasses the minimum energy path to recombine, has not been identified in water itself. Here, we report the discovery of hydrogen-atom roaming reactions in water clusters through high-precision ab initio calculations of first-principles. A neutral hydrogen atom departs as a radical, roams across the flat potential energy surface, and recombines along pathways that connect the same reactants and products as known hydrogen-bond network rearrangements. Interpretable machine learning analysis identifies the reactant dipole moment as the decisive switch governing whether roaming occurs, underpinned by exchange-repulsion and electrostatic interactions. Once roaming is initiated, polarizability and spin population determine barrier heights, while the charge distribution of the roaming hydrogen atom governs barrier widths, collectively shaped by electrostatic, orbital, and dispersion contributions. These findings establish hydrogen-atom roaming as a previously unrecognized intrinsic reaction class in water, complementing a fundamental dimension to the mechanistic picture of water reactivity.",
-    "source": "ArXiv",
-    "published": "2026-03-13T08:28:54+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n* Leverages **high-precision ab initio calculations** combined with **interpretable machine learning** to identify a novel hydrogen-atom roaming mechanism in water clusters.\n* Utilizes ML to pinpoint the **reactant dipole moment** as the critical decision-making feature that triggers roaming behavior over traditional pathways.\n* Characterizes the potential energy surface by correlating **polarizability** and **spin population** with barrier kinetics using statistical modeling.\n* Provides a new **mechanistic framework** for water reactivity that integrates radical processes into the existing understanding of hydrogen-bond rearrangements.",
-      "key_results": [
-        "Identification of hydrogen-atom roaming as a previously unknown intrinsic reaction class in water clusters.",
-        "Discovery that the reactant dipole moment acts as the decisive 'switch' for initiating roaming reactions.",
-        "ML analysis revealed that barrier heights are fundamentally determined by polarizability and spin population.",
-        "Barrier widths were found to be governed primarily by the charge distribution of the roaming hydrogen atom.",
-        "Successful integration of electrostatic, exchange-repulsion, and dispersion contributions into a unified reactivity model."
-      ],
-      "relevance_score": 3,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "Researchers use interpretable machine learning to discover hydrogen-atom roaming reactions, adding a new dimension to our understanding of water.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "AI for Science",
-        "Interpretability",
-        "Chemical Physics",
-        "First-principles",
-        "Water Clusters"
-      ]
-    }
-  },
-  {
-    "title": "SectEval: Evaluating the Latent Sectarian Preferences of Large Language Models",
-    "link": "http://arxiv.org/abs/2603.12768v1",
-    "summary": "As Large Language Models (LLMs) becomes a popular source for religious knowledge, it is important to know if it treats different groups fairly. This study is the first to measure how LLMs handle the differences between the two main sects of Islam: Sunni and Shia. We present a test called SectEval, available in both English and Hindi, consisting of 88 questions, to check the bias-ness of 15 top LLM models, both proprietary and open-weights. Our results show a major inconsistency based on language. In English, many powerful models DeepSeek-v3 and GPT-4o often favored Shia answers. However, when asked the exact same questions in Hindi, these models switched to favoring Sunni answers. This means a user could get completely different religious advice just by changing languages. We also looked at how models react to location. Advanced models Claude-3.5 changed their answers to match the user's country-giving Shia answers to a user from Iran and Sunni answers to a user from Saudi Arabia. In contrast, smaller models (especially in Hindi) ignored the user's location and stuck to a Sunni viewpoint. These findings show that AI is not neutral; its religious ``truth'' changes depending on the language you speak and the country you claim to be from. The data set is available at https://github.com/secteval/SectEval/",
-    "source": "ArXiv",
-    "published": "2026-03-13T08:12:17+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Introduces **SectEval**, a specialized benchmark designed to evaluate **latent sectarian preferences** within Islamic religious contexts for both proprietary and open-weight LLMs.\n- Evaluates **cross-lingual consistency** across English and Hindi, revealing that models frequently flip sectarian alignment based solely on the input language.\n- Investigates **contextual grounding**, demonstrating that advanced reasoning models like Claude-3.5 dynamically adjust religious outputs to align with a user's **geographical location**.\n- Highlights significant **alignment fragility** in smaller models, which often ignore user context in favor of a default majority viewpoint.",
-      "key_results": [
-        "SectEval consists of 88 targeted religious questions available in English and Hindi to test Sunni/Shia bias.",
-        "GPT-4o and DeepSeek-v3 favored Shia viewpoints in English but switched to Sunni viewpoints when prompted in Hindi.",
-        "Claude-3.5 exhibited high sensitivity to location, providing Shia-aligned answers for Iran and Sunni-aligned for Saudi Arabia.",
-        "Smaller models frequently defaulted to a Sunni viewpoint in Hindi regardless of the user's stated geographical context.",
-        "The study proves that LLM neutrality is a 'myth' that varies significantly by language and geopolitical metadata."
-      ],
-      "relevance_score": 7,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "The SectEval researchers demonstrate that LLM religious preferences flip based on language and location, revealing significant latent sectarian biases.",
-      "lead_institution": "SectEval Research Group",
-      "tags": [
-        "AI Evaluation",
-        "LLM Bias",
-        "Multilingual AI",
-        "Model Neutrality",
-        "Social Impact"
-      ]
-    }
-  },
-  {
-    "title": "TerraFlow: Multimodal, Multitemporal Representation Learning for Earth Observation",
-    "link": "http://arxiv.org/abs/2603.12762v1",
-    "summary": "We propose TerraFlow, a novel approach to multimodal, multitemporal learning for Earth observation. TerraFlow builds on temporal training objectives that enable sequence-aware learning across space, time, and modality, while remaining robust to the variable-length inputs commonly encountered in real-world Earth observation data. Our experiments demonstrate superiority of TerraFlow over state-of-the-art foundation models for Earth observation across all temporal tasks of the GEO-Bench-2 benchmark. We additionally demonstrate that TerraFlow is able to make initial steps towards deep-learning based risk map prediction for natural disasters -- a task on which other state-of-the-art foundation models frequently collapse. TerraFlow outperforms state-of-the-art foundation models by up to 50% in F1 score and 24% in Brier score.",
-    "source": "ArXiv",
-    "published": "2026-03-13T08:04:54+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Introduces **TerraFlow**, a novel foundation model designed for **multimodal and multitemporal** representation learning in Earth Observation.\n- Implements **temporal training objectives** that enable sequence-aware learning across space and time, specifically addressing the challenge of **variable-length inputs**.\n- Demonstrates unique capabilities in **natural disaster risk map prediction**, a complex task where previous state-of-the-art models typically fail or collapse.\n- Achieves superior performance across all temporal tasks within the **GEO-Bench-2** benchmark, significantly advancing the state of generative AI for geospatial data.",
-      "key_results": [
-        "Outperformed state-of-the-art foundation models on all GEO-Bench-2 temporal tasks.",
-        "Achieved up to a 50% improvement in F1 score compared to existing models.",
-        "Delivered a 24% improvement in Brier score for more accurate probabilistic modeling.",
-        "Successfully maintained robustness across varying temporal sequence lengths in real-world data.",
-        "Enabled deep-learning based risk map prediction for disasters where other models collapsed."
-      ],
-      "relevance_score": 7,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce TerraFlow, a multitemporal foundation model that improves Earth observation F1 scores by up to 50%.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "Multimodal AI",
-        "Earth Observation",
-        "Foundation Models",
-        "Representation Learning",
-        "Temporal Modeling"
-      ]
-    }
-  },
-  {
-    "title": "HIFICL: High-Fidelity In-Context Learning for Multimodal Tasks",
-    "link": "http://arxiv.org/abs/2603.12760v1",
-    "summary": "In-Context Learning (ICL) is a significant paradigm for Large Multimodal Models (LMMs), using a few in-context demonstrations (ICDs) for new task adaptation. However, its performance is sensitive to demonstration configurations and computationally expensive. Mathematically, the influence of these demonstrations can be decomposed into a dynamic mixture of the standard attention output and the context values. Current approximation methods simplify this process by learning a \"shift vector\". Inspired by the exact decomposition, we introduce High-Fidelity In-Context Learning (HIFICL) to more faithfully model the ICL mechanism. HIFICL consists of three key components: 1) a set of \"virtual key-value pairs\" to act as a learnable context, 2) a low-rank factorization for stable and regularized training, and 3) a simple end-to-end training objective. From another perspective, this mechanism constitutes a form of context-aware Parameter-Efficient Fine-Tuning (PEFT). Extensive experiments show that HiFICL consistently outperforms existing approximation methods on several multimodal benchmarks. The code is available at https://github.com/bbbandari/HiFICL.",
-    "source": "ArXiv",
-    "published": "2026-03-13T08:03:35+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n* Introduces **HIFICL**, a high-fidelity framework for **In-Context Learning (ICL)** that replaces sensitive, expensive demonstrations with **virtual key-value pairs** as a learnable context.\n* Utilizes a **low-rank factorization** architecture to ensure stable training and regularization, effectively framing ICL as a **context-aware Parameter-Efficient Fine-Tuning (PEFT)** method.\n* Improves upon traditional approximation methods by faithfully modeling the mathematical decomposition of **attention outputs** and context values in **Large Multimodal Models (LMMs)**.",
-      "key_results": [
-        "Consistently outperforms existing 'shift vector' approximation methods in multimodal tasks.",
-        "Provides a more computationally efficient alternative to processing long sequences of in-context demonstrations.",
-        "Demonstrates superior performance across several competitive multimodal benchmarks.",
-        "Establishes a stable end-to-end training objective for integrating learned context into attention mechanisms.",
-        "Publicly releases code to facilitate adoption of high-fidelity context modeling in LMM workflows."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "HiFICL researchers introduce a low-rank virtual key-value mechanism to improve multimodal in-context learning through parameter-efficient fine-tuning.",
-      "lead_institution": "HiFICL Research Team",
-      "tags": [
-        "Multimodal AI",
-        "In-Context Learning",
-        "PEFT",
-        "Low-Rank Factorization",
-        "Large Multimodal Models"
       ]
     }
   }
