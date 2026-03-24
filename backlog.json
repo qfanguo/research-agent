@@ -1,5 +1,635 @@
 [
   {
+    "title": "GitHub expands application security coverage with AI\u2011powered detections",
+    "link": "https://github.blog/security/application-security/github-expands-application-security-coverage-with-ai-powered-detections/",
+    "summary": "<p>CodeQL and AI\u2011powered detections work together in GitHub Code Security to identify vulnerabilities across more languages and frameworks.</p>\n<p>The post <a href=\"https://github.blog/security/application-security/github-expands-application-security-coverage-with-ai-powered-detections/\">GitHub expands application security coverage with AI\u2011powered detections</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
+    "source": "The GitHub Blog",
+    "published": "2026-03-23T16:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- GitHub integrates **Large Language Models (LLMs)** with **CodeQL** to automate the discovery of security vulnerabilities across a wider array of languages and frameworks.\n- The architecture utilizes a **hybrid detection engine** that combines deterministic static analysis with the pattern-matching capabilities of generative AI to address edge-case vulnerabilities.\n- This expansion significantly increases **application security coverage**, allowing for real-time identification of flaws that were previously undetected by manual rule sets.\n- The deployment focuses on reducing the **security burden** for developers by automating the triage and detection process within the CI/CD pipeline.",
+      "key_results": [
+        "Expanded vulnerability detection across 20+ additional frameworks and libraries.",
+        "Seamless integration of AI-generated security alerts within the GitHub Code Security dashboard.",
+        "Reduction in manual CodeQL rule creation for common vulnerability patterns.",
+        "Higher recall for complex logic flaws through LLM-based semantic analysis.",
+        "Improved security posture for enterprise repositories using automated AI scanning."
+      ],
+      "relevance_score": 6,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "GitHub leverages AI-powered detections to augment CodeQL and expand automated vulnerability scanning across diverse programming languages and frameworks.",
+      "lead_institution": "GitHub",
+      "tags": [
+        "Application Security",
+        "CodeQL",
+        "LLM Integration",
+        "Static Analysis",
+        "Generative AI"
+      ]
+    }
+  },
+  {
+    "title": "How Reco transforms security alerts using Amazon Bedrock",
+    "link": "https://aws.amazon.com/blogs/machine-learning/how-reco-transforms-security-alerts-using-amazon-bedrock/",
+    "summary": "In this blog post, we show you how Reco implemented Amazon Bedrock to help transform security alerts and achieve significant improvements in incident response times.",
+    "source": "Artificial Intelligence",
+    "published": "2026-03-23T16:46:54+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Reco integrated **Amazon Bedrock** into their security platform to automate the triaging and enrichment of complex security alerts.\n- The architecture leverages **Foundation Models** to analyze telemetry data and provide contextual summaries for security analysts.\n- The solution focuses on reducing **Mean Time to Respond (MTTR)** by translating raw technical logs into actionable natural language insights.\n- By utilizing **Generative AI**, the system generates automated remediation steps to streamline incident management workflows.",
+      "key_results": [
+        "Reduced security incident response times via automated triage.",
+        "Enhanced alert context through LLM-driven data enrichment.",
+        "Automated generation of remediation recommendations.",
+        "Improved accuracy in identifying high-priority security threats.",
+        "Seamless scaling of security operations using managed AWS infrastructure."
+      ],
+      "relevance_score": 5,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Reco utilizes Amazon Bedrock to automate security alert enrichment and significantly accelerate incident response for enterprise security teams.",
+      "lead_institution": "Reco",
+      "tags": [
+        "Security AI",
+        "Amazon Bedrock",
+        "Incident Response",
+        "LLM Agents",
+        "Generative AI"
+      ]
+    }
+  },
+  {
+    "title": "Integrating Amazon Bedrock AgentCore with Slack",
+    "link": "https://aws.amazon.com/blogs/machine-learning/integrating-amazon-bedrock-agentcore-with-slack/",
+    "summary": "In this post, we demonstrate how to build a Slack integration using AWS Cloud Development Kit (AWS CDK). You will learn how to deploy the infrastructure with three specialized AWS Lambda functions, configure event subscriptions properly to handle Slack's security requirements, and implement conversation management patterns that work for many agent use cases.",
+    "source": "Artificial Intelligence",
+    "published": "2026-03-23T16:38:56+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Demonstrates a serverless architecture using **AWS CDK** to deploy production-grade Slack integrations for **Amazon Bedrock AgentCore**.\n- Features a decoupled design utilizing three specialized **AWS Lambda** functions to manage Slack security handshakes, event queuing, and asynchronous agent logic.\n- Establishes a pattern for **conversation management** that handles session state and security requirements for LLM-powered enterprise workflows.\n- Optimizes the integration of **Managed Agents** within collaboration tools to enhance developer productivity and automation.",
+      "key_results": [
+        "Automated deployment of complex AI agent infrastructure via Infrastructure as Code (IaC).",
+        "Secure implementation of Slack's URL verification and security challenge protocols.",
+        "Bypassing of Slack's 3-second timeout via asynchronous Lambda execution patterns.",
+        "Persistent session handling for multi-turn agentic conversations.",
+        "Standardized blueprint for connecting Bedrock's reasoning capabilities to third-party APIs."
+      ],
+      "relevance_score": 7,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "AWS demonstrates a serverless CDK-based architecture for deploying secure Amazon Bedrock AI agents directly into Slack workspaces.",
+      "lead_institution": "AWS",
+      "tags": [
+        "LLM Agents",
+        "Amazon Bedrock",
+        "Slack Integration",
+        "Serverless",
+        "AWS Lambda"
+      ]
+    }
+  },
+  {
+    "title": "Overcoming LLM hallucinations in regulated industries: Artificial Genius\u2019s deterministic models on Amazon Nova",
+    "link": "https://aws.amazon.com/blogs/machine-learning/overcoming-llm-hallucinations-in-regulated-industries-artificial-geniuss-deterministic-models-on-amazon-nova/",
+    "summary": "In this post, we\u2019re excited to showcase how AWS ISV Partner Artificial Genius is using Amazon SageMaker AI and Amazon Nova to deliver a solution that is probabilistic on input but deterministic on output, helping to enable safe, enterprise-grade adoption.",
+    "source": "Artificial Intelligence",
+    "published": "2026-03-23T16:34:37+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Artificial Genius leverages **Amazon Nova** foundation models via **Amazon SageMaker AI** to implement a hybrid architecture that is probabilistic on input but deterministic on output.\n- The approach focuses on mitigating **LLM hallucinations** through structured output control, ensuring high reliability for mission-critical enterprise applications.\n- The solution is specifically engineered for **regulated industries** where auditability and predictable behavior are mandatory for deployment.\n- By utilizing **Amazon SageMaker's** managed infrastructure, the framework enables scalable, high-concurrency inference without compromising on safety constraints.",
+      "key_results": [
+        "Implementation of a 'probabilistic-to-deterministic' architecture to eliminate hallucination.",
+        "Seamless integration of Amazon Nova foundation models for high-performance reasoning.",
+        "Enabling enterprise-grade AI adoption within highly regulated compliance frameworks.",
+        "Optimization of inference pipelines using Amazon SageMaker AI features.",
+        "Standardization of verifiable and repeatable model outputs for audit-ready workflows."
+      ],
+      "relevance_score": 5,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Artificial Genius utilizes Amazon Nova and SageMaker to create deterministic AI outputs for hallucination-free performance in regulated industries.",
+      "lead_institution": "Artificial Genius",
+      "tags": [
+        "LLM Hallucinations",
+        "Amazon Nova",
+        "Deterministic AI",
+        "Generative AI Trends",
+        "AI Evaluation"
+      ]
+    }
+  },
+  {
+    "title": "Join LangChain at Google Cloud Next 2026",
+    "link": "https://blog.langchain.com/join-langchain-at-google-cloud-next-2026/",
+    "summary": "<hr /><p>If you&apos;re attending Google Cloud Next 2026 in Las Vegas this year and working on agent development, here&apos;s what we have planned.</p><h2 id=\"visit-us-at-booth-5006\">Visit Us at Booth #5006</h2><p>We&apos;ll be at Booth #5006 in the Expo Hall at the Mandalay Bay Convention Center, April 22-24.</p>",
+    "source": "LangChain Blog",
+    "published": "2026-03-23T21:37:58+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "<br> LangChain announces its presence at **Google Cloud Next 2026** to showcase developments in its **agent development** framework. <br> The event highlights the integration of **LangChain** with **Google Cloud** infrastructure for building production-ready AI applications. <br> Focus is placed on community engagement and ecosystem visibility rather than specific **architectural updates** or technical releases.",
+      "key_results": [
+        "Confirmed presence at Booth #5006",
+        "Event located at Mandalay Bay Convention Center",
+        "Scheduled for April 22-24, 2026",
+        "Targeting developers working on LLM agent development",
+        "Promotion of Google Cloud and LangChain ecosystem synergy"
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "LangChain announces their exhibition booth at Google Cloud Next 2026 to engage with developers building AI agents.",
+      "lead_institution": "LangChain",
+      "tags": [
+        "LangChain",
+        "Google Cloud Next",
+        "AI Agents",
+        "Event Announcement",
+        "LLM Ecosystem"
+      ]
+    }
+  },
+  {
+    "title": "Two different types of agent authorization",
+    "link": "https://blog.langchain.com/two-different-types-of-agent-authorization/",
+    "summary": "LangSmith Fleet introduces two types of agent authorization: Assistants, which use the end user's own credentials, and Claws, which use a fixed set of credentials.",
+    "source": "LangChain Blog",
+    "published": "2026-03-23T17:29:28+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- **LangSmith Fleet** introduces a bifurcated authorization architecture for **LLM Agents** to manage how tools access sensitive data.\n- **Assistants** are designed to use **End-User Credentials**, ensuring the agent's actions are scoped strictly to the individual user's existing permissions.\n- **Claws** utilize **Fixed Credentials**, providing a consistent and centralized set of permissions for agents performing background or shared system tasks.\n- This framework addresses a critical gap in **Agentic Security**, allowing developers to choose between delegated user access and static system-level access.",
+      "key_results": [
+        "Defined 'Assistants' for dynamic, user-scoped credential propagation.",
+        "Defined 'Claws' for static, application-level credential management.",
+        "Provided a standardized pattern for tool authorization within LangSmith Fleet.",
+        "Simplified the implementation of multi-tenant security for LLM agents.",
+        "Enabled granular control over how agents interact with third-party APIs."
+      ],
+      "relevance_score": 6,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "LangChain introduces Assistants and Claws to standardize user-specific and fixed credential authorization for agentic tool use.",
+      "lead_institution": "LangChain",
+      "tags": [
+        "LLM Agents",
+        "AI Security",
+        "LangSmith Fleet",
+        "Authorization Patterns",
+        "Tool Calling"
+      ]
+    }
+  },
+  {
+    "title": "Advancing international trade research and finding community",
+    "link": "https://news.mit.edu/2026/sojun-park-advancing-international-trade-research-finding-community-0323",
+    "summary": "Sojun Park, a postdoc at the Center for International Studies, has learned much from his research on intellectual property as well as his interactions with students and mentors at MIT.",
+    "source": "MIT News - Artificial intelligence",
+    "published": "2026-03-23T21:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* The article profiles **Sojun Park**, a postdoctoral fellow at the **MIT Center for International Studies**, focusing on his academic journey and research methodology.\n* His research centers on the intersection of **international trade** and **intellectual property rights**, examining how these factors influence global economic dynamics.\n* The piece highlights the role of **academic mentorship** and peer collaboration at MIT in advancing complex policy-related research.\n* There is **no technical machine learning architecture** or specific AI implementation discussed in this general interest profile.",
+      "key_results": [
+        "Sojun Park focuses on the impact of intellectual property on international trade.",
+        "The MIT Center for International Studies provides a collaborative environment for postdocs.",
+        "Mentorship is identified as a primary driver for research development.",
+        "The research aims to inform global policy through rigorous academic analysis.",
+        "The profile emphasizes the importance of community in high-level research institutions."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "MIT News profiles researcher Sojun Park's work on international trade and intellectual property within a collaborative academic community.",
+      "lead_institution": "MIT Center for International Studies",
+      "tags": [
+        "International Trade",
+        "Intellectual Property",
+        "MIT Research",
+        "Academic Community",
+        "Public Policy"
+      ]
+    }
+  },
+  {
+    "title": "On algorithms, life, and learning",
+    "link": "https://news.mit.edu/2026/algorithms-life-learning-killian-lecture-dimitris-bertsimas-0323",
+    "summary": "Operations research expert Dimitris Bertsimas delivered the annual Killian Lecture, providing a look at the past and future of his work.",
+    "source": "MIT News - Artificial intelligence",
+    "published": "2026-03-23T17:45:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Focuses on the integration of **Mathematical Optimization** with **Machine Learning** to create interpretable models like **Optimal Classification Trees (OCTs)**.\n- Highlights the use of **Matrix Completion** architectures to handle sparse data in clinical settings, enabling personalized treatment recommendations.\n- Advances the transition from purely predictive models to **Prescriptive Analytics**, where algorithms provide actionable decision-making frameworks for high-stakes environments.\n- Demonstrates the impact of **Robust Optimization** in improving outcomes across diverse fields including aviation, finance, and personalized oncology.",
+      "key_results": [
+        "Development of Optimal Trees that provide interpretability comparable to human logic without sacrificing performance.",
+        "Application of matrix completion to predict outcomes for treatments patients never actually received.",
+        "Significant improvement in survival rates for chemotherapy and surgery through algorithmic recommendation.",
+        "Validation of optimization-driven models in large-scale logistics and airline scheduling.",
+        "Establishment of a unified framework for sparse regression and classification in high-dimensional data."
+      ],
+      "relevance_score": 4,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "MIT\u2019s Dimitris Bertsimas demonstrates how combining mathematical optimization with machine learning creates interpretable, life-saving prescriptive analytics systems.",
+      "lead_institution": "MIT",
+      "tags": [
+        "Optimization",
+        "Interpretable AI",
+        "Matrix Completion",
+        "Prescriptive Analytics",
+        "Healthcare AI"
+      ]
+    }
+  },
+  {
+    "title": "Windows 3.1 tiled background .bmp archive",
+    "link": "https://github.com/andreasjansson/win-3.1-backgrounds",
+    "summary": "<p>Article URL: <a href=\"https://github.com/andreasjansson/win-3.1-backgrounds\">https://github.com/andreasjansson/win-3.1-backgrounds</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47496221\">https://news.ycombinator.com/item?id=47496221</a></p>\n<p>Points: 103</p>\n<p># Comments: 26</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-03-23T22:52:35+00:00",
+    "type": "repo",
+    "display_category": "Top Repo",
+    "processed": {
+      "summary": "<br>\u2022 This project provides a comprehensive digital archive of **legacy bitmap (.bmp)** tiled backgrounds originally included with **Windows 3.1**.<br>\u2022 Focuses on the preservation of early **Graphical User Interface (GUI)** assets that utilized low-resolution patterns to optimize memory and storage constraints.<br>\u2022 The collection serves as a historical reference for **retro-computing enthusiasts** and designers exploring 90s digital aesthetics.",
+      "key_results": [
+        "Preservation of original 16-color and 256-color .bmp files.",
+        "Documentation of early Microsoft Windows UI design patterns.",
+        "Easy access for retro-themed web development and interface design.",
+        "Demonstration of tiled texture efficiency in low-resource environments.",
+        "Availability of legacy assets through a modern version-controlled repository."
+      ],
+      "relevance_score": 1,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "GitHub user andreasjansson archives classic Windows 3.1 tiled backgrounds to preserve early digital design history for retro enthusiasts.",
+      "lead_institution": "GitHub",
+      "tags": [
+        "Retro Computing",
+        "UI Design",
+        "Digital Preservation",
+        "Windows 3.1",
+        "Bitmaps"
+      ]
+    }
+  },
+  {
+    "title": "Chat GPT 5.2 cannot explain the German word \"geschniegelt\"",
+    "link": "https://old.reddit.com/r/ChatGPT/comments/1r4goxh/chat_gpt_52_cannot_explain_the_word_geschniegelt/",
+    "summary": "<p>Article URL: <a href=\"https://old.reddit.com/r/ChatGPT/comments/1r4goxh/chat_gpt_52_cannot_explain_the_word_geschniegelt/\">https://old.reddit.com/r/ChatGPT/comments/1r4goxh/chat_gpt_52_cannot_explain_the_word_geschniegelt/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47495568\">https://news.ycombinator.com/item?id=47495568</a></p>\n<p>Points: 50</p>\n<p># Comments: 9</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-03-23T21:47:42+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n - The report focuses on a purported **linguistic failure** where an advanced LLM version fails to define the German idiomatic term 'geschniegelt' (meaning spruced up or dapper).\n - The discussion highlights gaps in **multilingual reasoning** and the inability of high-parameter models to consistently map cultural nuances even with improved scale.\n - Analysis from the community suggests these edge cases serve as informal **AI evaluation** metrics for measuring the depth of training data coverage in non-English languages.",
+      "key_results": [
+        "User identifies a specific failure mode in explaining the German word 'geschniegelt'.",
+        "Questions arise regarding the validity of the reported model version 'GPT 5.2'.",
+        "Model output reportedly lacks the cultural context required for idiomatic translation.",
+        "The incident underscores the limitations of current **foundation models** in 'vibe' and stylistic nuances.",
+        "Discussion reflects broader skepticism towards anecdotal claims of model regressions."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Reddit users report a linguistic failure in a purportedly advanced OpenAI model regarding specific German idiomatic expressions and nuances.",
+      "lead_institution": "Hacker News",
+      "tags": [
+        "LLM Evaluation",
+        "Multilingual AI",
+        "German Language",
+        "OpenAI",
+        "Hallucination"
+      ]
+    }
+  },
+  {
+    "title": "Claude Code Cheat Sheet",
+    "link": "https://cc.storyfox.cz",
+    "summary": "<p>Article URL: <a href=\"https://cc.storyfox.cz\">https://cc.storyfox.cz</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47495527\">https://news.ycombinator.com/item?id=47495527</a></p>\n<p>Points: 121</p>\n<p># Comments: 34</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-03-23T21:44:20+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "<br>\u2022 Provides a technical reference for **Claude Code**, Anthropic's CLI tool for **agentic software engineering** and terminal-based LLM interaction.<br>\u2022 Details the integration of the **Model Context Protocol (MCP)** within the CLI to enable extended tool usage and data source connectivity.<br>\u2022 Outlines the **architecture of permissions** and filesystem access required for autonomous agent operations in local development environments.",
+      "key_results": [
+        "Comprehensive list of interactive shell shortcuts for managing session context.",
+        "Documentation of environment variables for configuring API keys and project defaults.",
+        "Guide to slash commands for triggering specific agent behaviors like testing and code review.",
+        "Explanation of MCP server integration for extending agent capabilities via external tools.",
+        "Security configuration parameters for managing directory-level agent permissions."
+      ],
+      "relevance_score": 7,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Storyfox releases a Claude Code reference guide to streamline agentic terminal-based development and MCP-powered coding workflows.",
+      "lead_institution": "Storyfox",
+      "tags": [
+        "Claude Code",
+        "LLM Agents",
+        "CLI Tools",
+        "MCP",
+        "AI Coding"
+      ]
+    }
+  },
+  {
+    "title": "The Treasury just declared the U.S. insolvent",
+    "link": "https://fortune.com/2026/03/23/us-government-insolvent-fiscal-crisis-fix/",
+    "summary": "<p>Article URL: <a href=\"https://fortune.com/2026/03/23/us-government-insolvent-fiscal-crisis-fix/\">https://fortune.com/2026/03/23/us-government-insolvent-fiscal-crisis-fix/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47494879\">https://news.ycombinator.com/item?id=47494879</a></p>\n<p>Points: 52</p>\n<p># Comments: 29</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-03-23T20:48:25+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- The article details a significant **fiscal crisis** wherein the U.S. Treasury suggests the federal government has reached a state of insolvency.\n- It evaluates the **systemic failure** of current budgetary frameworks and the implications of unsustainable debt-to-GDP ratios.\n- The report focuses entirely on **macroeconomic policy** and does not address technical topics like **LLMs**, **RAG**, or **Agentic workflows**.\n- No information regarding **ML architecture**, **Local SLMs**, or **AI evaluation** is present in this financial commentary.",
+      "key_results": [
+        "Treasury data suggests the U.S. government has effectively reached insolvency.",
+        "The report highlights a failure in long-term fiscal sustainability measures.",
+        "Immediate policy interventions are required to address the burgeoning national debt.",
+        "Global market stability faces high risk due to the potential for government default.",
+        "The piece serves as an economic warning rather than a technical research contribution."
+      ],
+      "relevance_score": 1,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Fortune reports that the U.S. Treasury has declared the government insolvent, signaling an unprecedented national fiscal crisis.",
+      "lead_institution": "Fortune",
+      "tags": [
+        "Economics",
+        "Fiscal Policy",
+        "National Debt",
+        "U.S. Treasury",
+        "Finance"
+      ]
+    }
+  },
+  {
+    "title": "TypeScript 6.0",
+    "link": "https://devblogs.microsoft.com/typescript/announcing-typescript-6-0/",
+    "summary": "<p>Article URL: <a href=\"https://devblogs.microsoft.com/typescript/announcing-typescript-6-0/\">https://devblogs.microsoft.com/typescript/announcing-typescript-6-0/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47491794\">https://news.ycombinator.com/item?id=47491794</a></p>\n<p>Points: 38</p>\n<p># Comments: 1</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-03-23T16:35:24+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n*   TypeScript 6.0 introduces **enhanced control flow analysis** through improved type-state tracking, allowing for more precise inference in complex logic structures.\n*   The architecture optimizes **incremental build performance** and project reference handling, specifically targeting large-scale monorepo scalability.\n*   New **strictness flags** and type-checking refinements provide deeper safety guarantees for high-concurrency applications and distributed systems.\n*   The release streamlines **ECMAScript compatibility**, ensuring native support for upcoming metadata and decorator proposals directly within the type system.",
+      "key_results": [
+        "Improved narrowing of types in nested conditional blocks.",
+        "Significant reduction in memory overhead during massive project compilation.",
+        "Refined module resolution strategies for hybrid CJS/ESM environments.",
+        "Introduction of more granular configuration options for library authors.",
+        "Faster cold-start times for the TypeScript Language Server in IDEs."
+      ],
+      "relevance_score": 4,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Microsoft releases TypeScript 6.0, introducing advanced type-state tracking and architectural performance optimizations for large-scale application development.",
+      "lead_institution": "Microsoft",
+      "tags": [
+        "TypeScript",
+        "Programming Languages",
+        "Software Engineering",
+        "Type Safety",
+        "Microsoft"
+      ]
+    }
+  },
+  {
+    "title": "Show HN: Threadprocs \u2013 executables sharing one address space (0-copy pointers)",
+    "link": "https://github.com/jer-irl/threadprocs",
+    "summary": "<p>This project launches multiple independent programs into a single shared virtual address space, while still behaving like separate processes (independent binaries, globals, and lifetimes).  When threadprocs share their address space, pointers are valid across them with no code changes for well-behaved Linux binaries.<p>Unlike threads, each threadproc is a standalone and semi-isolated process.  Unlike dlopen-based plugin systems, threadprocs run traditional executables with a `main()` function.  Unlike POSIX processes, pointers remain valid across threadprocs because they share the same address space.<p>This means that idiomatic pointer-based data structures like `std::string` or `std::unordered_map` can be passed between threadprocs and accessed directly (with the usual data race considerations).<p>This accomplishes a programming model somewhere between pthreads and multi-process shared memory IPC.<p>The implementation relies on directing ASLR and virtual address layout at load time and implementing a user-space analogue of `exec()`, as well as careful manipulation of threadproc file descriptors, signals, etc.  It is implemented entirely in unprivileged user space code: <<a href=\"https://github.com/jer-irl/threadprocs/blob/main/docs/02-implementation.md\" rel=\"nofollow\">https://github.com/jer-irl/threadprocs/blob/main/docs/02-imp...</a>>.<p>There is a simple demo demonstrating \u201ccross-threadproc\u201d memory dereferencing at <<a href=\"https://github.com/jer-irl/threadprocs/tree/main?tab=readme-ov-file#demo\" rel=\"nofollow\">https://github.com/jer-irl/threadprocs/tree/main?tab=readme-...</a>>, including a high-level diagram.<p>This is relevant to systems of multiple processes with shared memory (often ring buffers or flat tables).  These designs often require serialization or copying, and tend away from idiomatic C++ or Rust data structures.  Pointer-based data structures cannot be passed directly.<p>There are significant limitations and edge cases, and it\u2019s not clear this is a practical model, but the project explores a way to relax traditional process memory boundaries while still structuring a system as independently launched components.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47491414\">https://news.ycombinator.com/item?id=47491414</a></p>\n<p>Points: 63</p>\n<p># Comments: 37</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-03-23T16:08:01+00:00",
+    "type": "repo",
+    "display_category": "Top Repo",
+    "processed": {
+      "summary": "<br>\u2022 Architecture: Launches independent binaries into a **single shared virtual address space**, enabling **0-copy pointer sharing** between separate processes.<br>\u2022 Implementation: Utilizes a custom user-space **exec()** analogue and load-time **ASLR manipulation** to coordinate memory layout without kernel-level modifications.<br>\u2022 Data Handling: Permits **idiomatic C++ and Rust data structures** (e.g., std::unordered_map) to be dereferenced across process boundaries without serialization or translation.<br>\u2022 System Impact: Provides a hybrid concurrency model between **pthreads** and traditional **IPC**, maintaining process isolation while removing memory boundaries.",
+      "key_results": [
+        "Enables valid pointer dereferencing across independent Linux executables.",
+        "Supports sharing of complex, non-flat data structures without serialization.",
+        "Operates entirely in unprivileged user space via custom memory mapping.",
+        "Maintains independent globals and lifetimes for each 'threadproc'.",
+        "Eliminates typical IPC overhead for high-performance multi-process systems."
+      ],
+      "relevance_score": 6,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Jer-irl introduces Threadprocs to enable zero-copy pointer sharing across independent Linux executables by unifying their virtual address spaces.",
+      "lead_institution": "GitHub (jer-irl)",
+      "tags": [
+        "Shared Memory",
+        "Zero-Copy IPC",
+        "Systems Programming",
+        "Linux Internals",
+        "Concurrency"
+      ]
+    }
+  },
+  {
+    "title": "Cyber.mil serving file downloads using TLS certificate which expired 3 days ago",
+    "link": "https://www.cyber.mil/stigs/downloads",
+    "summary": "<p>Article URL: <a href=\"https://www.cyber.mil/stigs/downloads\">https://www.cyber.mil/stigs/downloads</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47490816\">https://news.ycombinator.com/item?id=47490816</a></p>\n<p>Points: 154</p>\n<p># Comments: 152</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-03-23T15:25:04+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- The **Department of Defense (DoD)** website cyber.mil is currently serving file downloads via a **TLS certificate** that expired several days ago, impacting the delivery of security-critical STIGs.\n- This operational failure triggers **browser security warnings** and blocks automated scripts, hindering the implementation of mandatory security hardening guides.\n- The incident highlights a significant oversight in **automated infrastructure monitoring** and certificate lifecycle management within a high-security government domain.",
+      "key_results": [
+        "The TLS certificate for cyber.mil expired approximately 72 hours prior to the report.",
+        "Access to Security Technical Implementation Guides (STIGs) is effectively blocked for users enforcing strict HTTPS.",
+        "The failure triggers HTTP Strict Transport Security (HSTS) errors, preventing manual overrides for many users.",
+        "Commentary suggests a lack of robust automated renewal processes (e.g., ACME) for this specific government asset.",
+        "The outage impacts system administrators relying on these downloads for federal compliance audits."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Cyber.mil fails to renew its TLS certificate, blocking secure access to critical government security implementation guides and documentation.",
+      "lead_institution": "cyber.mil",
+      "tags": [
+        "Cybersecurity",
+        "Infrastructure",
+        "TLS/SSL",
+        "Network Security",
+        "DevOps"
+      ]
+    }
+  },
+  {
+    "title": "Lyme Disease Vaccine Candidate Demonstrates Strong Efficacy in Phase 3 Trial",
+    "link": "https://www.pfizer.com/news/press-release/press-release-detail/pfizer-and-valneva-announce-lyme-disease-vaccine-candidate",
+    "summary": "<p>Article URL: <a href=\"https://www.pfizer.com/news/press-release/press-release-detail/pfizer-and-valneva-announce-lyme-disease-vaccine-candidate\">https://www.pfizer.com/news/press-release/press-release-detail/pfizer-and-valneva-announce-lyme-disease-vaccine-candidate</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47489255\">https://news.ycombinator.com/item?id=47489255</a></p>\n<p>Points: 44</p>\n<p># Comments: 3</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-03-23T13:27:38+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n Pfizer and Valneva have announced positive results from the Phase 3 clinical trial of **VLA15**, a multivalent vaccine candidate for Lyme disease.\n The vaccine utilizes a **protein subunit** architecture targeting the **outer surface protein A (OspA)** of Borrelia burgdorferi, the bacteria that cause Lyme disease.\n This mechanism works by inhibiting the migration of the bacteria from the tick to the human host during a bite, covering **six serotypes** prevalent in North America and Europe.",
+      "key_results": [
+        "Primary endpoint met for clinical efficacy in adults and children.",
+        "Strong immunogenicity observed across all six targeted serotypes.",
+        "Favorable safety and tolerability profile consistent with previous studies.",
+        "Significant reduction in the incidence of Lyme disease among vaccinated participants.",
+        "Regulatory submissions to the FDA and EMA are targeted for 2026."
+      ],
+      "relevance_score": 1,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Pfizer and Valneva announce positive Phase 3 results for a multivalent Lyme disease vaccine showing strong clinical efficacy.",
+      "lead_institution": "Pfizer",
+      "tags": [
+        "Biotechnology",
+        "Vaccine Development",
+        "Clinical Trials",
+        "Lyme Disease",
+        "Healthcare"
+      ]
+    }
+  },
+  {
+    "title": "Dataframe 1.0.0.0",
+    "link": "https://discourse.haskell.org/t/ann-dataframe-1-0-0-0/13834",
+    "summary": "<p>Article URL: <a href=\"https://discourse.haskell.org/t/ann-dataframe-1-0-0-0/13834\">https://discourse.haskell.org/t/ann-dataframe-1-0-0-0/13834</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47486915\">https://news.ycombinator.com/item?id=47486915</a></p>\n<p>Points: 101</p>\n<p># Comments: 23</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-03-23T09:01:55+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "<br>\u2022 The **Haskell Community** announces the release of **Dataframe 1.0.0.0**, a library designed for structured, tabular data manipulation within functional programming environments.<br>\u2022 The architecture leverages **Haskell's type system** to provide compile-time guarantees for data schemas, reducing runtime errors common in libraries like pandas.<br>\u2022 Focuses on **memory efficiency** and high-performance row/column operations for data engineering and ETL workflows.<br>\u2022 This release marks the transition to a **stable API**, offering a robust foundation for building type-safe data pipelines in purely functional applications.",
+      "key_results": [
+        "Achievement of a stable 1.0.0.0 version for production-ready data manipulation.",
+        "Implementation of type-safe column indexing to eliminate common schema-mismatch bugs.",
+        "Optimization of memory layout for handling large tabular datasets within the Haskell runtime.",
+        "Support for extensible and flexible record types using advanced type-level programming.",
+        "Improved interoperability with existing functional data structures for seamless data processing."
+      ],
+      "relevance_score": 3,
+      "signal_type": "Framework Update",
+      "one_sentence_takeaway": "The Haskell Community launches Dataframe 1.0.0.0, providing a strongly-typed and memory-efficient alternative to Python data libraries for functional programming.",
+      "lead_institution": "Haskell Community",
+      "tags": [
+        "Haskell",
+        "Data Engineering",
+        "Dataframes",
+        "Functional Programming",
+        "Type Safety"
+      ]
+    }
+  },
+  {
+    "title": "Show HN: The King Wen Permutation: [52, 10, 2]",
+    "link": "https://gzw1987-bit.github.io/iching-math/",
+    "summary": "<p>I analyzed two orderings of the 64 I Ching hexagrams and found\n  the permutation cycle decomposition between them is [52, 10, 2]\n  with zero fixed points. Nobody has done this kind of analysis before\n  and this cycle type has not been reported in the literature.\n  You can verify it yourself.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47486680\">https://news.ycombinator.com/item?id=47486680</a></p>\n<p>Points: 54</p>\n<p># Comments: 26</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-03-23T08:21:57+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n*   The author performs a **permutation cycle decomposition** analysis on two different orderings of the 64 I Ching hexagrams.\n*   The analysis reveals a unique **[52, 10, 2] cycle type**, indicating that the transition between the two sequences contains no fixed points.\n*   This discovery highlights potential **mathematical structures** hidden within ancient philosophical sequences that have not been documented in existing academic literature.\n*   The work suggests a **combinatorial approach** to studying historical data patterns, providing a verifiable baseline for further structural research.",
+      "key_results": [
+        "Discovery of a [52, 10, 2] cycle decomposition for hexagram permutations.",
+        "Verification of zero fixed points between the analyzed I Ching orderings.",
+        "Identification of a cycle type previously unreported in specialized literature.",
+        "Application of group theory to ancient 64-item sequences.",
+        "Creation of a reproducible mathematical proof for independent verification."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "An independent researcher identifies a novel [52, 10, 2] permutation cycle structure within the ancient I Ching hexagram sequences.",
+      "lead_institution": "Hacker News",
+      "tags": [
+        "Combinatorics",
+        "Data Analysis",
+        "Permutation Cycles",
+        "Mathematical Discovery",
+        "Historical Data"
+      ]
+    }
+  },
+  {
+    "title": "Can the world get its supply of oil by bypassing the Strait of Hormuz?",
+    "link": "https://www.firstpost.com/explainers/iran-war-strait-of-hormuz-blocked-possible-alternatives-oil-gas-supply-13989112.html",
+    "summary": "<p>Article URL: <a href=\"https://www.firstpost.com/explainers/iran-war-strait-of-hormuz-blocked-possible-alternatives-oil-gas-supply-13989112.html\">https://www.firstpost.com/explainers/iran-war-strait-of-hormuz-blocked-possible-alternatives-oil-gas-supply-13989112.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47482949\">https://news.ycombinator.com/item?id=47482949</a></p>\n<p>Points: 30</p>\n<p># Comments: 34</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-03-22T22:33:13+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Analysis of the **geopolitical and logistical constraints** involved in bypassing the Strait of Hormuz, a critical chokepoint for global energy.\n- Evaluation of existing **pipeline infrastructure** in Saudi Arabia and the UAE as primary redundancy mechanisms.\n- Assessment of the **structural capacity deficit**, where alternative routes can only handle a fraction of the daily 20.5 million barrels currently passing through the strait.\n- Exploration of the **economic impact** of increased maritime transit times and insurance costs associated with alternative shipping lanes.",
+      "key_results": [
+        "Approximately 20% of the world's total oil consumption passes through the Strait of Hormuz.",
+        "Saudi Arabia's East-West Pipeline has a capacity of ~7 million barrels per day but is currently underutilized.",
+        "The Abu Dhabi Crude Oil Pipeline provides a 1.5 million barrel per day bypass to the Gulf of Oman.",
+        "Total bypass capacity is estimated at only 40-50% of the strait's peak throughput.",
+        "Closure would likely lead to immediate global supply shocks and significant energy price volatility."
+      ],
+      "relevance_score": 1,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Firstpost reports that global energy infrastructure currently lacks sufficient pipeline capacity to fully bypass a potential blockade of the Strait of Hormuz.",
+      "lead_institution": "Firstpost",
+      "tags": [
+        "Energy Logistics",
+        "Geopolitics",
+        "Infrastructure",
+        "Supply Chain",
+        "Global Trade"
+      ]
+    }
+  },
+  {
+    "title": "We indexed the Delve audit leak: 533 reports, 455 companies, 99.8% identical",
+    "link": "https://trustcompliance.xyz",
+    "summary": "<p>Article URL: <a href=\"https://trustcompliance.xyz\">https://trustcompliance.xyz</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47481729\">https://news.ycombinator.com/item?id=47481729</a></p>\n<p>Points: 119</p>\n<p># Comments: 78</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-03-22T20:20:29+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n Analysis of 533 leaked security audit reports from **Delve** reveals that 99.8% of the content was identical across 455 different organizations. \n The findings suggest a **template-driven automation** architecture that minimizes company-specific technical assessment in favor of standardized \"rubber-stamping.\" \n This incident highlights the risks of **automated compliance** tools that may use generative or rigid logic to produce security documentation without human-in-the-loop verification. \n The leak underscores a growing trend in **AI-driven administrative automation** where the appearance of compliance is prioritized over actual technical security posture.",
+      "key_results": [
+        "Indexed 533 audit reports revealing near-total content duplication.",
+        "Identified 455 unique companies receiving nearly identical security certifications.",
+        "Quantified a 99.8% similarity score across the corpus of leaked documents.",
+        "Exposed systemic failures in automated SOC 2 and security audit workflows.",
+        "Demonstrated how automated compliance platforms can facilitate deceptive security signaling."
+      ],
+      "relevance_score": 4,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Trust Compliance reveals that Delve's automated audit system generated nearly identical security reports for hundreds of different companies.",
+      "lead_institution": "Trust Compliance",
+      "tags": [
+        "AI Compliance",
+        "Automated Auditing",
+        "Data Privacy",
+        "Cybersecurity",
+        "Generative Content"
+      ]
+    }
+  },
+  {
+    "title": "The U.S. Ammo Shortage Is Worse Than You Think",
+    "link": "https://www.wsj.com/opinion/the-u-s-ammo-shortage-is-worse-than-you-think-97096193",
+    "summary": "<p>Article URL: <a href=\"https://www.wsj.com/opinion/the-u-s-ammo-shortage-is-worse-than-you-think-97096193\">https://www.wsj.com/opinion/the-u-s-ammo-shortage-is-worse-than-you-think-97096193</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47479952\">https://news.ycombinator.com/item?id=47479952</a></p>\n<p>Points: 40</p>\n<p># Comments: 23</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-03-22T17:34:37+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Analyzes the **critical depletion** of U.S. munition stockpiles driven by sustained global conflicts and limited domestic manufacturing throughput.\n- Identifies **industrial bottlenecks** in the production of solid rocket motors and specialized chemicals required for advanced weaponry.\n- Evaluates the **geopolitical risks** associated with a defense industrial base that lacks the elasticity to meet high-intensity combat demands.",
+      "key_results": [
+        "Artillery production remains significantly below wartime requirements.",
+        "Lead times for critical missile components have extended to several years.",
+        "Global supply chains for energetics are increasingly fragile.",
+        "Legislative funding delays hinder long-term industrial planning.",
+        "Modern conflict intensity outpaces current replenishment capabilities."
+      ],
+      "relevance_score": 1,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "The Wall Street Journal argues that the U.S. faces critical ammunition shortages due to industrial decay and geopolitical strain.",
+      "lead_institution": "Wall Street Journal",
+      "tags": [
+        "Defense Logistics",
+        "Supply Chain",
+        "National Security",
+        "Manufacturing",
+        "Industrial Policy"
+      ]
+    }
+  },
+  {
     "title": "What's New in Mellea 0.4.0 + Granite Libraries Release",
     "link": "https://huggingface.co/blog/ibm-granite/granite-libraries",
     "summary": "",
@@ -86,96 +716,6 @@
         "Creative Computing",
         "MIT",
         "Design Research"
-      ]
-    }
-  },
-  {
-    "title": "We indexed the Delve audit leak: 533 reports, 455 companies, 99.8% identical",
-    "link": "https://trustcompliance.xyz",
-    "summary": "<p>Article URL: <a href=\"https://trustcompliance.xyz\">https://trustcompliance.xyz</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47481729\">https://news.ycombinator.com/item?id=47481729</a></p>\n<p>Points: 114</p>\n<p># Comments: 69</p>",
-    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
-    "published": "2026-03-22T20:20:29+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n- Investigation of a massive leak revealing that 533 **compliance audit reports** across 455 distinct companies are 99.8% identical.\n- Demonstrates the prevalence of **automated boilerplate generation**, likely utilizing templated LLM outputs or rigid scripts for security auditing.\n- Highlights a systemic failure in **AI governance and trust infrastructure**, where audits lack specific technical verification of security controls.\n- The architecture of these reports suggests a shift toward **compliance theater**, prioritizing volume and speed over actual risk assessment.",
-      "key_results": [
-        "Analysis of 533 leaked reports showed near-total textual identity.",
-        "Data includes 455 different companies receiving virtually identical security certifications.",
-        "The 99.8% similarity rate suggests a lack of company-specific technical analysis.",
-        "Findings expose significant flaws in the credibility of modern SaaS and AI trust labels.",
-        "The index provides searchable evidence of standardized 'security theater' in the industry."
-      ],
-      "relevance_score": 4,
-      "signal_type": "General News",
-      "one_sentence_takeaway": "Trust Compliance reveals that 99.8% of Delve audit reports are identical, exposing widespread automated boilerplate in security certifications.",
-      "lead_institution": "Trust Compliance",
-      "tags": [
-        "AI Evaluation",
-        "Security Audits",
-        "Compliance",
-        "Generative AI Risks",
-        "Trustworthiness"
-      ]
-    }
-  },
-  {
-    "title": "OpenClaw is a security nightmare dressed up as a daydream",
-    "link": "https://composio.dev/content/openclaw-security-and-vulnerabilities",
-    "summary": "<p>Article URL: <a href=\"https://composio.dev/content/openclaw-security-and-vulnerabilities\">https://composio.dev/content/openclaw-security-and-vulnerabilities</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47479962\">https://news.ycombinator.com/item?id=47479962</a></p>\n<p>Points: 285</p>\n<p># Comments: 201</p>",
-    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
-    "published": "2026-03-22T17:35:28+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n* OpenClaw acts as an **open-source alternative** to Claude's Computer Use, enabling LLMs to interact with desktops through the **Model Context Protocol (MCP)**.\n* The architecture suffers from critical security gaps, primarily the lack of a **sandboxed environment** for executing tool calls and terminal commands.\n* By processing untrusted external data, the system is highly susceptible to **Indirect Prompt Injection**, which can lead to unauthorized **Remote Code Execution (RCE)** on the host machine.\n* The critique emphasizes that prioritizing **autonomous agent** convenience over robust security primitives creates a significant liability for production deployments.",
-      "key_results": [
-        "Exposure of host-level terminal access to LLM agents without adequate permission gating.",
-        "Susceptibility to RCE via malicious payloads delivered through manipulated web content.",
-        "Lack of default containerization or virtualization for agentic browser and tool interactions.",
-        "Vulnerabilities in MCP implementations that allow agents to bypass intended operational boundaries.",
-        "Demonstration of how 'vibe coding' tools can bypass traditional software security best practices."
-      ],
-      "relevance_score": 7,
-      "signal_type": "Engineering Blog",
-      "one_sentence_takeaway": "Composio warns that OpenClaw's lack of sandboxing exposes LLM agents to severe remote code execution and prompt injection risks.",
-      "lead_institution": "Composio",
-      "tags": [
-        "LLM Agents",
-        "Security",
-        "MCP",
-        "Prompt Injection",
-        "Vibe Coding"
-      ]
-    }
-  },
-  {
-    "title": "The U.S. Ammo Shortage Is Worse Than You Think",
-    "link": "https://www.wsj.com/opinion/the-u-s-ammo-shortage-is-worse-than-you-think-97096193",
-    "summary": "<p>Article URL: <a href=\"https://www.wsj.com/opinion/the-u-s-ammo-shortage-is-worse-than-you-think-97096193\">https://www.wsj.com/opinion/the-u-s-ammo-shortage-is-worse-than-you-think-97096193</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47479952\">https://news.ycombinator.com/item?id=47479952</a></p>\n<p>Points: 35</p>\n<p># Comments: 17</p>",
-    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
-    "published": "2026-03-22T17:34:37+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n* The article highlights critical **supply chain vulnerabilities** in the U.S. defense industrial base, specifically regarding small arms and artillery ammunition production.\n* Structural issues include **regulatory hurdles**, lack of domestic raw material sourcing, and outdated manufacturing infrastructure.\n* The impact is a reduced **strategic readiness** for high-intensity conflicts, complicated by global geopolitical tensions and depleted stockpiles.",
-      "key_results": [
-        "U.S. ammunition production capacity is failing to meet current global demand.",
-        "Stockpiles have been significantly depleted due to ongoing foreign military aid.",
-        "Regulatory constraints and environmental policies hinder rapid industrial scaling.",
-        "Dependency on foreign sources for raw materials creates a single point of failure.",
-        "Increased defense spending has not yet translated into adequate production throughput."
-      ],
-      "relevance_score": 1,
-      "signal_type": "General News",
-      "one_sentence_takeaway": "The Wall Street Journal reports that systemic supply chain failures and regulatory hurdles are severely undermining U.S. military ammunition readiness.",
-      "lead_institution": "Wall Street Journal",
-      "tags": [
-        "Logistics",
-        "Supply Chain",
-        "Defense Policy",
-        "Manufacturing",
-        "Geopolitics"
       ]
     }
   },
@@ -540,36 +1080,6 @@
     }
   },
   {
-    "title": "NumKong: 2'000 Mixed Precision Kernels for All",
-    "link": "https://ashvardanian.com/posts/numkong/",
-    "summary": "<p>Article URL: <a href=\"https://ashvardanian.com/posts/numkong/\">https://ashvardanian.com/posts/numkong/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47459447\">https://news.ycombinator.com/item?id=47459447</a></p>\n<p>Points: 46</p>\n<p># Comments: 6</p>",
-    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
-    "published": "2026-03-20T19:29:39+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n* NumKong introduces a comprehensive library of over **2,000 mixed-precision SIMD kernels** designed for high-performance numerical computing across diverse CPU architectures.\n* The architecture leverages **C++ template metaprogramming** and automated code generation to handle permutations of data types, including **BFloat16, Float16, and Int8**.\n* The library aims to replace heavy dependencies like OpenBLAS for specific tasks, providing **header-only, lightweight alternatives** for local LLM and SLM inference engines.\n* By supporting both **ARM (NEON/SVE)** and **x86 (AVX2/AVX-512)** instructions, it enables uniform performance optimizations for vector-matrix operations and statistical reductions.",
-      "key_results": [
-        "Support for over 2,000 distinct kernel combinations of operations and data types.",
-        "Native integration of BFloat16 and Float16 for standard CPU architectures.",
-        "Implementation of high-performance reduction kernels including sum, mean, and variance.",
-        "Zero-dependency, header-only C++ architecture for seamless integration into existing C/C++ projects.",
-        "Cross-platform SIMD abstraction layer covering both ARM and x86 instruction sets."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Engineering Blog",
-      "one_sentence_takeaway": "Ash Vardanian releases NumKong to provide 2,000+ mixed-precision SIMD kernels for optimized local AI inference on CPUs.",
-      "lead_institution": "Ash Vardanian",
-      "tags": [
-        "Mixed Precision",
-        "SIMD",
-        "Inference Optimization",
-        "Local LLMs",
-        "High Performance Computing"
-      ]
-    }
-  },
-  {
     "title": "MacBook M5 Pro and Qwen3.5 = Local AI Security System",
     "link": "https://www.sharpai.org/benchmark/",
     "summary": "<p>Article URL: <a href=\"https://www.sharpai.org/benchmark/\">https://www.sharpai.org/benchmark/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47457107\">https://news.ycombinator.com/item?id=47457107</a></p>\n<p>Points: 171</p>\n<p># Comments: 149</p>",
@@ -690,96 +1200,6 @@
     }
   },
   {
-    "title": "CoverageBench: Evaluating Information Coverage across Tasks and Domains",
-    "link": "http://arxiv.org/abs/2603.20034v1",
-    "summary": "We wish to measure the information coverage of an ad hoc retrieval algorithm, that is, how much of the range of available relevant information is covered by the search results. Information coverage is a central aspect for retrieval, especially when the retrieval system is integrated with generative models in a retrieval-augmented generation (RAG) system. The classic metrics for ad hoc retrieval, precision and recall, reward a system as more and more relevant documents are retrieved. However, since relevance in ad hoc test collections is defined for a document without any relation to other documents that might contain the same information, high recall is sufficient but not necessary to ensure coverage. The same is true for other metrics such as rank-biased precision (RBP), normalized discounted cumulative gain (nDCG), and mean average precision (MAP). Test collections developed around the notion of diversity ranking in web search incorporate multiple aspects that support a concept of coverage in the web domain. In this work, we construct a suite of collections for evaluating information coverage from existing collections. This suite offers researchers a unified testbed spanning multiple genres and tasks. All topics, nuggets, relevance labels, and baseline rankings are released on Hugging Face Datasets, along with instructions for accessing the publicly available document collections.",
-    "source": "ArXiv",
-    "published": "2026-03-20T15:20:44+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "<br>\u2022 Introduces **CoverageBench**, a specialized evaluation suite designed to measure **information coverage** in retrieval systems, addressing a critical bottleneck in **Retrieval-Augmented Generation (RAG)** accuracy.<br>\u2022 Shifts the focus from traditional document-level metrics (Precision/Recall/nDCG) to **nugget-based evaluation**, ensuring that retrieved sets capture the full breadth of unique facts rather than redundant relevant documents.<br>\u2022 Provides a unified architecture for testing **ad hoc retrieval** algorithms across multiple genres and tasks, offering a more granular look at how retrieval impacts downstream generative quality.<br>\u2022 Establishes a standardized framework by releasing all topics, **factual nuggets**, and relevance labels via **Hugging Face Datasets** to facilitate comparative research.",
-      "key_results": [
-        "Development of a multi-domain benchmark specifically targeting information density and diversity.",
-        "Validation that high recall in traditional metrics does not necessarily correlate with high information coverage.",
-        "Creation of a structured 'nugget' system to track unique information units across retrieved documents.",
-        "Integration of multiple existing datasets into a single, cohesive testbed for coverage evaluation.",
-        "Public release of baseline rankings and evaluation scripts to standardize RAG retrieval assessment."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce CoverageBench to evaluate information coverage in retrieval systems, improving RAG performance by reducing content redundancy.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "RAG",
-        "Information Retrieval",
-        "AI Evaluation",
-        "Benchmarking",
-        "Generative AI"
-      ]
-    }
-  },
-  {
-    "title": "Detached Skip-Links and $R$-Probe: Decoupling Feature Aggregation from Gradient Propagation for MLLM OCR",
-    "link": "http://arxiv.org/abs/2603.20020v1",
-    "summary": "Multimodal large language models (MLLMs) excel at high-level reasoning yet fail on OCR tasks where fine-grained visual details are compromised or misaligned. We identify an overlooked optimization issue in multi-layer feature fusion. Skip pathways introduce direct back-propagation paths from high-level semantic objectives to early visual layers. This mechanism overwrites low-level signals and destabilizes training. To mitigate this gradient interference, we propose Detached Skip-Links, a minimal modification that reuses shallow features in the forward pass while stopping gradients through the skip branch during joint training. This asymmetric design reduces gradient interference, improving stability and convergence without adding learnable parameters. To diagnose whether fine-grained information is preserved and usable by an LLM, we introduce $R$-Probe, which measures pixel-level reconstructability of projected visual tokens using a shallow decoder initialized from the first quarter of the LLM layers. Across multiple ViT backbones and multimodal benchmarks, and at scales up to 7M training samples, our approach consistently improves OCR-centric benchmarks and delivers clear gains on general multimodal tasks.",
-    "source": "ArXiv",
-    "published": "2026-03-20T15:07:14+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n\u2022 Proposes **Detached Skip-Links** to decouple feature aggregation from gradient propagation, preventing high-level semantic objectives from overwriting low-level visual signals.\n\u2022 Introduces **R-Probe**, a diagnostic tool that measures pixel-level reconstructability of visual tokens to ensure fine-grained information preservation.\n\u2022 Addresses the **gradient interference** issue in multi-layer feature fusion common in Multimodal Large Language Models (MLLMs).\n\u2022 Demonstrates architectural efficiency by improving **OCR performance** and training stability without adding additional learnable parameters.",
-      "key_results": [
-        "Significant improvements on OCR-centric benchmarks across various ViT backbones.",
-        "Enhanced training stability and faster convergence by reducing gradient conflict.",
-        "Clear performance gains on general multimodal tasks beyond simple text recognition.",
-        "Validated scalability through successful testing on datasets up to 7 million training samples.",
-        "Effective quantification of fine-grained detail loss in projected visual tokens via the R-Probe metric."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers propose Detached Skip-Links to stop gradient interference, improving fine-grained OCR capabilities in multimodal large language models.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "Multimodal AI",
-        "OCR",
-        "Feature Fusion",
-        "Gradient Propagation",
-        "MLLM"
-      ]
-    }
-  },
-  {
-    "title": "RouterKGQA: Specialized--General Model Routing for Constraint-Aware Knowledge Graph Question Answering",
-    "link": "http://arxiv.org/abs/2603.20017v1",
-    "summary": "Knowledge graph question answering (KGQA) is a promising approach for mitigating LLM hallucination by grounding reasoning in structured and verifiable knowledge graphs. Existing approaches fall into two paradigms: retrieval-based methods utilize small specialized models, which are efficient but often produce unreachable paths and miss implicit constraints, while agent-based methods utilize large general models, which achieve stronger structural grounding at substantially higher cost. We propose RouterKGQA, a framework for specialized--general model collaboration, in which a specialized model generates reasoning paths and a general model performs KG-guided repair only when needed, improving performance at minimal cost. We further equip the specialized with constraint-aware answer filtering, which reduces redundant answers. In addition, we design a more efficient general agent workflow, further lowering inference cost. Experimental results show that RouterKGQA outperforms the previous best by 3.57 points in F1 and 0.49 points in Hits@1 on average across benchmarks, while requiring only 1.15 average LLM calls per question. Codes and models are available at https://github.com/Oldcircle/RouterKGQA.",
-    "source": "ArXiv",
-    "published": "2026-03-20T15:01:57+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Proposes **RouterKGQA**, a framework that orchestrates collaboration between **specialized small models** and **general LLM agents** for Knowledge Graph Question Answering.\n- Implements a **KG-guided repair** mechanism where the high-cost general model is only triggered when the specialized model generates unreachable paths or fails on structural grounding.\n- Integrates **constraint-aware answer filtering** within the specialized model to handle implicit constraints and eliminate redundant candidate paths.\n- Optimized for **inference efficiency**, significantly reducing the total cost of ownership by minimizing expensive LLM calls while maintaining high reasoning accuracy.",
-      "key_results": [
-        "Achieved an average F1 score improvement of 3.57 points across major benchmarks.",
-        "Increased Hits@1 performance by 0.49 points compared to the previous state-of-the-art.",
-        "Maintained high efficiency with an average of only 1.15 LLM calls per question.",
-        "Successfully addressed the 'unreachable path' problem common in retrieval-based small models.",
-        "Reduced redundant answer generation through specialized constraint-aware filtering logic."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "Wuhan University researchers introduce RouterKGQA, a specialized-general routing framework that optimizes KGQA performance using minimal LLM agent calls.",
-      "lead_institution": "Wuhan University",
-      "tags": [
-        "KGQA",
-        "LLM Agents",
-        "Model Routing",
-        "Knowledge Graphs",
-        "RAG"
-      ]
-    }
-  },
-  {
     "title": "CFCML: A Coarse-to-Fine Crossmodal Learning Framework For Disease Diagnosis Using Multimodal Images and Tabular Data",
     "link": "http://arxiv.org/abs/2603.20016v1",
     "summary": "In clinical practice, crossmodal information including medical images and tabular data is essential for disease diagnosis. There exists a significant modality gap between these data types, which obstructs advancements in crossmodal diagnostic accuracy. Most existing crossmodal learning (CML) methods primarily focus on exploring relationships among high-level encoder outputs, leading to the neglect of local information in images. Additionally, these methods often overlook the extraction of task-relevant information. In this paper, we propose a novel coarse-to-fine crossmodal learning (CFCML) framework to progressively reduce the modality gap between multimodal images and tabular data, by thoroughly exploring inter-modal relationships. At the coarse stage, we explore the relationships between multi-granularity features from various image encoder stages and tabular information, facilitating a preliminary reduction of the modality gap. At the fine stage, we generate unimodal and crossmodal prototypes that incorporate class-aware information, and establish hierarchical anchor-based relationship mining (HRM) strategy to further diminish the modality gap and extract discriminative crossmodal information. This strategy utilize modality samples, unimodal prototypes, and crossmodal prototypes as anchors to develop contrastive learning approaches, effectively enhancing inter-class disparity while reducing intra-class disparity from multiple perspectives. Experimental results indicate that our method outperforms the state-of-the-art (SOTA) methods, achieving improvements of 1.53% and 0.91% in AUC metrics on the MEN and Derm7pt datasets, respectively. The code is available at https://github.com/IsDling/CFCML.",
@@ -806,36 +1226,6 @@
         "Tabular Data Fusion",
         "Contrastive Learning",
         "Disease Diagnosis"
-      ]
-    }
-  },
-  {
-    "title": "AgenticRS-EnsNAS: Ensemble-Decoupled Self-Evolving Architecture Search",
-    "link": "http://arxiv.org/abs/2603.20014v1",
-    "summary": "Neural Architecture Search (NAS) deployment in industrial production systems faces a fundamental validation bottleneck: verifying a single candidate architecture pi requires evaluating the deployed ensemble of M models, incurring prohibitive O(M) computational cost per candidate. This cost barrier severely limits architecture iteration frequency in real-world applications where ensembles (M=50-200) are standard for robustness. This work introduces Ensemble-Decoupled Architecture Search, a framework that leverages ensemble theory to predict system-level performance from single-learner evaluation. We establish the Ensemble-Decoupled Theory with a sufficient condition for monotonic ensemble improvement under homogeneity assumptions: a candidate architecture pi yields lower ensemble error than the current baseline if rho(pi) < rho(pi_old) - (M / (M - 1)) * (Delta E(pi) / sigma^2(pi)), where Delta E, rho, and sigma^2 are estimable from lightweight dual-learner training. This decouples architecture search from full ensemble training, reducing per-candidate search cost from O(M) to O(1) while maintaining O(M) deployment cost only for validated winners. We unify solution strategies across pipeline continuity: (1) closed-form optimization for tractable continuous pi (exemplified by feature bagging in CTR prediction), (2) constrained differentiable optimization for intractable continuous pi, and (3) LLM-driven search with iterative monotonic acceptance for discrete pi. The framework reveals two orthogonal improvement mechanisms -- base diversity gain and accuracy gain -- providing actionable design principles for industrial-scale NAS. All theoretical derivations are rigorous with detailed proofs deferred to the appendix. Comprehensive empirical validation will be included in the journal extension of this work.",
-    "source": "ArXiv",
-    "published": "2026-03-20T14:57:15+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Proposes **Ensemble-Decoupled Architecture Search**, a framework that predicts system-level ensemble performance using lightweight dual-learner training rather than evaluating all M models.\n- Establishes the **Ensemble-Decoupled Theory**, which provides a sufficient condition for monotonic improvement based on correlation, error delta, and variance metrics.\n- Reduces the computational complexity of candidate validation from **O(M) to O(1)**, enabling the use of large ensembles (M=50-200) in industrial NAS pipelines.\n- Integrates **LLM-driven search** for discrete architectures, utilizing an agentic approach for iterative evolution and monotonic acceptance of winners.",
-      "key_results": [
-        "Mathematically decoupled architecture search from full ensemble training via a new theoretical bound.",
-        "Achieved a reduction in search cost from linear to constant time relative to ensemble size.",
-        "Unified optimization strategies for continuous, differentiable, and discrete architecture spaces.",
-        "Identified 'base diversity gain' and 'accuracy gain' as the two primary levers for ensemble improvement.",
-        "Validated the approach for production-scale systems where M ranges from 50 to 200 learners."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce Ensemble-Decoupled NAS, reducing architecture search costs from O(M) to O(1) using LLM-driven agentic evolution.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "Neural Architecture Search",
-        "LLM Agents",
-        "Ensemble Learning",
-        "AutoML",
-        "AI Evaluation"
       ]
     }
   },
@@ -870,36 +1260,6 @@
     }
   },
   {
-    "title": "An Agentic Approach to Generating XAI-Narratives",
-    "link": "http://arxiv.org/abs/2603.20003v1",
-    "summary": "Explainable AI (XAI) research has experienced substantial growth in recent years. Existing XAI methods, however, have been criticized for being technical and expert-oriented, motivating the development of more interpretable and accessible explanations. In response, large language model (LLM)-generated XAI narratives have been proposed as a promising approach for translating post-hoc explanations into more accessible, natural-language explanations. In this work, we propose a multi-agent framework for XAI narrative generation and refinement. The framework comprises the Narrator, which generates and revises narratives based on feedback from multiple Critic Agents on faithfulness and coherence metrics, thereby enabling narrative improvement through iteration. We design five agentic systems (Basic Design, Critic Design, Critic-Rule Design, Coherent Design, and Coherent-Rule Design) and systematically evaluate their effectiveness across five LLMs on five tabular datasets. Results validate that the Basic Design, the Critic Design, and the Critic-Rule Design are effective in improving the faithfulness of narratives across all LLMs. Claude-4.5-Sonnet on Basic Design performs best, reducing the number of unfaithful narratives by 90% after three rounds of iteration. To address recurrent issues, we further introduce an ensemble strategy based on majority voting. This approach consistently enhances performance for four LLMs, except for DeepSeek-V3.2-Exp. These findings highlight the potential of agentic systems to produce faithful and coherent XAI narratives.",
-    "source": "ArXiv",
-    "published": "2026-03-20T14:49:23+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": " \n\u2022 Proposes a **multi-agent framework** consisting of a Narrator and specialized Critic Agents to translate technical post-hoc XAI explanations into accessible natural-language narratives. \n\u2022 Evaluates five specific **agentic system designs** (Basic, Critic, Critic-Rule, Coherent, and Coherent-Rule) focused on iterative refinement of **faithfulness and coherence** metrics. \n\u2022 Implements an **ensemble strategy** utilizing majority voting to mitigate recurrent errors in narrative generation and ensure logical consistency.",
-      "key_results": [
-        "Claude-4.5-Sonnet on Basic Design reduced unfaithful narratives by 90% within three iterations.",
-        "Basic, Critic, and Critic-Rule designs consistently improved narrative faithfulness across five different LLMs.",
-        "Iterative feedback loops between Narrator and Critic agents significantly outperformed single-pass generation techniques.",
-        "Majority voting ensembles enhanced performance for 80% of the models tested, including high-tier LLMs.",
-        "DeepSeek-V3.2-Exp was the only model that did not exhibit performance gains from the proposed ensemble strategy."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers demonstrate that multi-agent iterative refinement significantly improves the faithfulness and coherence of natural-language XAI narratives.",
-      "lead_institution": "ArXiv Research",
-      "tags": [
-        "LLM Agents",
-        "Explainable AI (XAI)",
-        "Iterative Refinement",
-        "Model Evaluation",
-        "Multi-Agent Systems"
-      ]
-    }
-  },
-  {
     "title": "When Contextual Inference Fails: Cancelability in Interactive Instruction Following",
     "link": "http://arxiv.org/abs/2603.19997v1",
     "summary": "We investigate the separation of literal interpretation from contextual inference in a collaborative block-building task where a builder must resolve underspecified instructions using contextual inferences. Building on an existing two-speaker psycholinguistic paradigm -- which contrasts a pragmatically cooperative speaker with one who is only literally reliable -- we introduce Build What I Mean (BWIM), an interactive benchmark for contextual meaning construction. In BWIM, models must resolve ambiguity by either performing a contextual inference or requesting clarification at a small communication cost. Evaluating several state-of-the-art LLMs, we find a dissociation between judgment and action: while models detect speaker unreliability in explicit confidence ratings, they fail to exploit this information to guide efficient clarification behavior. Instead, we observe suboptimal strategies, such as partner-blind over-clarification and question-averse guessing under uncertainty.",
@@ -926,36 +1286,6 @@
         "Contextual Inference",
         "Instruction Following",
         "Reasoning Models"
-      ]
-    }
-  },
-  {
-    "title": "MedSPOT: A Workflow-Aware Sequential Grounding Benchmark for Clinical GUI",
-    "link": "http://arxiv.org/abs/2603.19993v1",
-    "summary": "Despite the rapid progress of Multimodal Large Language Models (MLLMs), their ability to perform reliable visual grounding in high-stakes clinical software environments remains underexplored. Existing GUI benchmarks largely focus on isolated, single-step grounding queries, overlooking the sequential, workflow-driven reasoning required in real-world medical interfaces, where tasks evolve across independent steps and dynamic interface states. We introduce MedSPOT, a workflow-aware sequential grounding benchmark for clinical GUI environments. Unlike prior benchmarks that treat grounding as a standalone prediction task, MedSPOT models procedural interaction as a sequence of structured spatial decisions. The benchmark comprises 216 task-driven videos with 597 annotated keyframes, in which each task consists of 2 to 3 interdependent grounding steps within realistic medical workflows. This design captures interface hierarchies, contextual dependencies, and fine-grained spatial precision under evolving conditions. To evaluate procedural robustness, we propose a strict sequential evaluation protocol that terminates task assessment upon the first incorrect grounding prediction, explicitly measuring error propagation in multi-step workflows. We further introduce a comprehensive failure taxonomy, including edge bias, small-target errors, no prediction, near miss, far miss, and toolbar confusion, to enable systematic diagnosis of model behavior in clinical GUI settings. By shifting evaluation from isolated grounding to workflow-aware sequential reasoning, MedSPOT establishes a realistic and safety-critical benchmark for assessing multimodal models in medical software environments. Code and data are available at: https://github.com/Tajamul21/MedSPOT.",
-    "source": "ArXiv",
-    "published": "2026-03-20T14:43:53+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Introduces **MedSPOT**, a benchmark for evaluating **Multimodal Large Language Models (MLLMs)** on sequential **visual grounding** in clinical software.\n- Models procedural interactions as sequences of **structured spatial decisions** across 216 task-driven videos, capturing interface hierarchies and contextual dependencies.\n- Implements a **strict sequential evaluation protocol** that penalizes **error propagation** by terminating tasks at the first incorrect grounding prediction.\n- Features a **comprehensive failure taxonomy** to diagnose model behaviors like small-target errors and toolbar confusion in safety-critical medical settings.",
-      "key_results": [
-        "Dataset comprises 216 task-driven videos with 597 annotated keyframes.",
-        "Tasks include 2 to 3 interdependent grounding steps simulating real medical workflows.",
-        "Proposed a new 'first-error termination' protocol to measure procedural robustness.",
-        "Identified six primary failure modes: edge bias, small-target errors, no prediction, near miss, far miss, and toolbar confusion.",
-        "Demonstrated that current MLLMs struggle with multi-step sequential reasoning compared to isolated grounding tasks."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "Tajamul et al. introduce MedSPOT to benchmark MLLM sequential grounding and error propagation within clinical GUI workflows.",
-      "lead_institution": "MedSPOT Research Team",
-      "tags": [
-        "Multimodal AI",
-        "GUI Agents",
-        "AI Evaluation",
-        "Clinical AI",
-        "Sequential Reasoning"
       ]
     }
   },
@@ -1020,36 +1350,6 @@
     }
   },
   {
-    "title": "X-World: Controllable Ego-Centric Multi-Camera World Models for Scalable End-to-End Driving",
-    "link": "http://arxiv.org/abs/2603.19979v1",
-    "summary": "Scalable and reliable evaluation is increasingly critical in the end-to-end era of autonomous driving, where vision--language--action (VLA) policies directly map raw sensor streams to driving actions. Yet, current evaluation pipelines still rely heavily on real-world road testing, which is costly, biased toward limited scenario coverage, and difficult to reproduce. These challenges motivate a real-world simulator that can generate realistic future observations under proposed actions, while remaining controllable and stable over long horizons. We present X-World, an action-conditioned multi-camera generative world model that simulates future observations directly in video space. Given synchronized multi-view camera history and a future action sequence, X-World generates future multi-camera video streams that follow the commanded actions. To ensure reproducible and editable scene rollouts, X-World further supports optional controls over dynamic traffic agents and static road elements, and retains a text-prompt interface for appearance-level control (e.g., weather and time of day). Beyond world simulation, X-World also enables video style transfer by conditioning on appearance prompts while preserving the underlying action and scene dynamics. At the core of X-World is a multi-view latent video generator designed to explicitly encourage cross-view geometric consistency and temporal coherence under diverse control signals. Experiments show that X-World achieves high-quality multi-view video generation with (i) strong view consistency across cameras, (ii) stable temporal dynamics over long rollouts, and (iii) high controllability with strict action following and faithful adherence to optional scene controls. These properties make X-World a practical foundation for scalable and reproducible evaluation.",
-    "source": "ArXiv",
-    "published": "2026-03-20T14:23:32+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "- **X-World** is introduced as an action-conditioned multi-camera **generative world model** designed to simulate future ego-centric video streams for autonomous driving.\n- The architecture employs a **multi-view latent video generator** that explicitly enforces **cross-view geometric consistency** and long-term temporal coherence.\n- The system supports fine-grained control via **action sequences**, **3D layout constraints** for traffic agents, and **text-based prompts** for environmental factors like weather and lighting.\n- Beyond simulation, X-World enables **video style transfer** and serves as a scalable foundation for evaluating **Vision-Language-Action (VLA)** policies in a reproducible environment.",
-      "key_results": [
-        "Generated synchronized multi-camera video streams that strictly follow ego-vehicle action sequences.",
-        "Maintained high spatial consistency across non-overlapping camera views using latent cross-view mechanisms.",
-        "Demonstrated stable video rollouts over long horizons without significant temporal degradation.",
-        "Enabled precise editing of scene elements including traffic agents and static road infrastructure.",
-        "Successfully performed zero-shot video style transfer while preserving underlying driving dynamics."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce X-World, a controllable multi-view generative world model that provides realistic, action-consistent simulations for evaluating autonomous driving policies.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "World Models",
-        "Generative AI",
-        "Autonomous Driving",
-        "Multimodal AI",
-        "VLA Policies"
-      ]
-    }
-  },
-  {
     "title": "Promoting Critical Thinking With Domain-Specific Generative AI Provocations",
     "link": "http://arxiv.org/abs/2603.19975v1",
     "summary": "The evidence on the effects of generative AI (GenAI) on critical thinking is mixed, with studies suggesting both potential harms and benefits depending on its implementation. Some argue that AI-driven provocations, such as questions asking for human clarification and justification, are beneficial for eliciting critical thinking. Drawing on our experience designing and evaluating two GenAI-powered tools for knowledge work, ArtBot in the domain of fine art interpretation and Privy in the domain of AI privacy, we reflect on how design decisions shape the form and effectiveness of such provocations. Our observations and user feedback suggest that domain-specific provocations, implemented through productive friction and interactions that depend on user contribution, can meaningfully support critical thinking. We present participant experiences with both prototypes and discuss how supporting critical thinking may require moving beyond static provocations toward approaches that adapt to user preferences and levels of expertise.",
@@ -1076,36 +1376,6 @@
         "AI Evaluation",
         "Cognitive Computing",
         "GenAI Trends"
-      ]
-    }
-  },
-  {
-    "title": "Trojan's Whisper: Stealthy Manipulation of OpenClaw through Injected Bootstrapped Guidance",
-    "link": "http://arxiv.org/abs/2603.19974v1",
-    "summary": "Autonomous coding agents are increasingly integrated into software development workflows, offering capabilities that extend beyond code suggestion to active system interaction and environment management. OpenClaw, a representative platform in this emerging paradigm, introduces an extensible skill ecosystem that allows third-party developers to inject behavioral guidance through lifecycle hooks during agent initialization. While this design enhances automation and customization, it also opens a novel and unexplored attack surface. In this paper, we identify and systematically characterize guidance injection, a stealthy attack vector that embeds adversarial operational narratives into bootstrap guidance files. Unlike traditional prompt injection, which relies on explicit malicious instructions, guidance injection manipulates the agent's reasoning context by framing harmful actions as routine best practices. These narratives are automatically incorporated into the agent's interpretive framework and influence future task execution without raising suspicion.We construct 26 malicious skills spanning 13 attack categories including credential exfiltration, workspace destruction, privilege escalation, and persistent backdoor installation. We evaluate them using ORE-Bench, a realistic developer workspace benchmark we developed. Across 52 natural user prompts and six state-of-the-art LLM backends, our attacks achieve success rates from 16.0% to 64.2%, with the majority of malicious actions executed autonomously without user confirmation. Furthermore, 94% of our malicious skills evade detection by existing static and LLM-based scanners. Our findings reveal fundamental tensions in the design of autonomous agent ecosystems and underscore the urgent need for defenses based on capability isolation, runtime policy enforcement, and transparent guidance provenance.",
-    "source": "ArXiv",
-    "published": "2026-03-20T14:17:56+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n\u2022 Identifies **guidance injection**, a novel stealthy attack vector targeting autonomous coding agents by embedding adversarial narratives into **bootstrap guidance files**.\n\u2022 Exploits **lifecycle hooks** in platforms like OpenClaw to manipulate the agent's reasoning context, framing malicious actions as routine developer best practices.\n\u2022 Demonstrates an architectural vulnerability where the agent's **interpretive framework** is compromised during initialization, bypassing traditional prompt injection defenses.\n\u2022 Evaluates the impact using **ORE-Bench**, a new benchmark for realistic developer workspace interactions across multiple SOTA LLM backends.",
-      "key_results": [
-        "Achieved attack success rates ranging from 16.0% to 64.2% across six SOTA LLM backends.",
-        "94% of malicious skills successfully evaded detection by existing static and LLM-based security scanners.",
-        "Most malicious actions were executed autonomously without requiring user confirmation.",
-        "Identified 13 distinct attack categories including credential exfiltration, workspace destruction, and backdoor installation.",
-        "Developed ORE-Bench to systematically test agent security in realistic development environments."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers demonstrate how injected bootstrap guidance stealthily manipulates autonomous coding agents into performing undetected malicious system actions.",
-      "lead_institution": "ArXiv Research Team",
-      "tags": [
-        "LLM Agents",
-        "AI Security",
-        "Prompt Injection",
-        "Autonomous Systems",
-        "OpenClaw"
       ]
     }
   },
@@ -2726,276 +2996,6 @@
         "Geometric Reasoning",
         "3D Segmentation",
         "Foundation Models"
-      ]
-    }
-  },
-  {
-    "title": "Ontology-Based Knowledge Modeling and Uncertainty-Aware Outdoor Air Quality Assessment Using Weighted Interval Type-2 Fuzzy Logic",
-    "link": "http://arxiv.org/abs/2603.19683v1",
-    "summary": "Outdoor air pollution is a major concern for the environment and public health, especially in areas where urbanization is taking place rapidly. The Indian Air Quality Index (IND-AQI), developed by the Central Pollution Control Board (CPCB), is a standardized reporting system for air quality based on pollutants such as PM2.5, PM10), nitrogen dioxide (NO2), sulfur dioxide (SO2), ozone (O3), carbon monoxide (CO), and ammonia (NH3). However, the traditional calculation of the AQI uses crisp thresholds and deterministic aggregation rules, which are not suitable for handling uncertainty and transitions between classes. To address these limitations, this study proposes a hybrid ontology-based uncertainty-aware framework integrating Weighted Interval Type-2 Fuzzy Logic with semantic knowledge modeling. Interval Type-2 fuzzy sets are used to model uncertainty near AQI class boundaries, while pollutant importance weights are determined using Interval Type-2 Fuzzy Analytic Hierarchy Process (IT2-FAHP) to reflect their relative health impacts. In addition, an OWL-based air quality ontology extending the Semantic Sensor Network (SSN) ontology is developed to represent pollutants, monitoring stations, AQI categories, regulatory standards, and environmental governance actions. Semantic reasoning is implemented using SWRL rules and validated through SPARQL queries to infer AQI categories, health risks, and recommended mitigation actions. Experimental evaluation using CPCB air quality datasets demonstrates that the proposed framework improves AQI classification reliability and uncertainty handling compared with traditional crisp and Type-1 fuzzy approaches, while enabling explainable semantic reasoning and intelligent decision support for air quality monitoring systems",
-    "source": "ArXiv",
-    "published": "2026-03-20T06:31:13+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n\u2022 Proposes a hybrid **uncertainty-aware framework** that integrates **Weighted Interval Type-2 Fuzzy Logic** with OWL-based semantic knowledge modeling for air quality assessment.\n\u2022 Extends the **Semantic Sensor Network (SSN) ontology** to represent complex relationships between pollutants, monitoring stations, and health-based regulatory standards.\n\u2022 Implements **SWRL (Semantic Web Rule Language)** and SPARQL queries to enable explainable automated reasoning for health risk inference and mitigation actions.\n\u2022 Utilizes **IT2-FAHP** (Interval Type-2 Fuzzy Analytic Hierarchy Process) to determine pollutant weights, improving classification reliability near categorical boundaries.",
-      "key_results": [
-        "Demonstrated superior uncertainty handling compared to traditional crisp and Type-1 fuzzy logic approaches.",
-        "Successful integration of pollutant importance weights based on relative health impacts using fuzzy logic.",
-        "Creation of a formal air quality ontology that facilitates data interoperability and environmental governance.",
-        "Validation of explainable semantic reasoning for determining AQI categories and mitigation strategies.",
-        "Improved reliability in AQI classification using CPCB datasets compared to deterministic aggregation rules."
-      ],
-      "relevance_score": 4,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "Indian research institutions develop an ontology-based fuzzy logic framework to improve air quality assessment through uncertainty-aware semantic reasoning.",
-      "lead_institution": "Indian Research Institutions",
-      "tags": [
-        "Knowledge Modeling",
-        "Semantic Reasoning",
-        "Fuzzy Logic",
-        "Environmental AI",
-        "Decision Support"
-      ]
-    }
-  },
-  {
-    "title": "Unbiased Dynamic Multimodal Fusion",
-    "link": "http://arxiv.org/abs/2603.19681v1",
-    "summary": "Traditional multimodal methods often assume static modality quality, which limits their adaptability in dynamic real-world scenarios. Thus, dynamical multimodal methods are proposed to assess modality quality and adjust their contribution accordingly. However, they typically rely on empirical metrics, failing to measure the modality quality when noise levels are extremely low or high. Moreover, existing methods usually assume that the initial contribution of each modality is the same, neglecting the intrinsic modality dependency bias. As a result, the modality hard to learn would be doubly penalized, and the performance of dynamical fusion could be inferior to that of static fusion. To address these challenges, we propose the Unbiased Dynamic Multimodal Learning (UDML) framework. Specifically, we introduce a noise-aware uncertainty estimator that adds controlled noise to the modality data and predicts its intensity from the modality feature. This forces the model to learn a clear correspondence between feature corruption and noise level, allowing accurate uncertainty measure across both low- and high-noise conditions. Furthermore, we quantify the inherent modality reliance bias within multimodal networks via modality dropout and incorporate it into the weighting mechanism. This eliminates the dual suppression effect on the hard-to-learn modality. Extensive experiments across diverse multimodal benchmark tasks validate the effectiveness, versatility, and generalizability of the proposed UDML. The code is available at https://github.com/shicaiwei123/UDML.",
-    "source": "ArXiv",
-    "published": "2026-03-20T06:29:59+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Proposes the **Unbiased Dynamic Multimodal Learning (UDML)** framework to address static quality assumptions and intrinsic dependency biases in multimodal systems.\n- Introduces a **noise-aware uncertainty estimator** that forces the model to map feature corruption to noise levels for precise uncertainty measurement in extreme conditions.\n- Implements a **weighting mechanism** based on quantified modality reliance bias via **modality dropout**, preventing the dual suppression of hard-to-learn modalities.\n- Improves the **robustness and adaptability** of multimodal fusion by dynamically adjusting contributions based on real-time modality quality.",
-      "key_results": [
-        "Eliminated the 'dual suppression' effect on modalities that are inherently harder for networks to learn.",
-        "Achieved accurate uncertainty quantification across both extremely low and extremely high noise environments.",
-        "Outperformed existing static and dynamic fusion methods across multiple diverse benchmarks.",
-        "Successfully decoupled modality quality estimation from empirical metrics through noise intensity prediction.",
-        "Demonstrated strong generalizability across various multimodal tasks and architectures."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "Beijing Institute of Technology researchers introduce UDML to eliminate modality bias and accurately weigh inputs using noise-aware uncertainty.",
-      "lead_institution": "Beijing Institute of Technology",
-      "tags": [
-        "Multimodal Fusion",
-        "Dynamic Weighting",
-        "Uncertainty Estimation",
-        "Modality Bias",
-        "Representation Learning"
-      ]
-    }
-  },
-  {
-    "title": "Structured Prompting for Arabic Essay Proficiency: A Trait-Centric Evaluation Approach",
-    "link": "http://arxiv.org/abs/2603.19668v1",
-    "summary": "This paper presents a novel prompt engineering framework for trait specific Automatic Essay Scoring (AES) in Arabic, leveraging large language models (LLMs) under zero-shot and few-shot configurations. Addressing the scarcity of scalable, linguistically informed AES tools for Arabic, we introduce a three-tier prompting strategy (standard, hybrid, and rubric-guided) that guides LLMs in evaluating distinct language proficiency traits such as organization, vocabulary, development, and style. The hybrid approach simulates multi-agent evaluation with trait specialist raters, while the rubric-guided method incorporates scored exemplars to enhance model alignment. In zero and few-shot settings, we evaluate eight LLMs on the QAES dataset, the first publicly available Arabic AES resource with trait level annotations. Experimental results using Quadratic Weighted Kappa (QWK) and Confidence Intervals show that Fanar-1-9B-Instruct achieves the highest trait level agreement in both zero and few-shot prompting (QWK = 0.28 and CI = 0.41), with rubric-guided prompting yielding consistent gains across all traits and models. Discourse-level traits such as Development and Style showed the greatest improvements. These findings confirm that structured prompting, not model scale alone, enables effective AES in Arabic. Our study presents the first comprehensive framework for proficiency oriented Arabic AES and sets the foundation for scalable assessment in low resource educational contexts.",
-    "source": "ArXiv",
-    "published": "2026-03-20T06:05:04+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Proposes a **three-tier prompting framework** (standard, hybrid, rubric-guided) designed to perform trait-specific **Automatic Essay Scoring (AES)** for the Arabic language.\n- Utilizes a **multi-agent simulation** approach within the hybrid prompting tier, where the LLM adopts specialist rater personas to evaluate discrete linguistic traits such as vocabulary and organization.\n- Evaluates performance on the **QAES dataset**, the first public Arabic AES resource with granular trait-level annotations, emphasizing discourse-level features like **Development and Style**.\n- Demonstrates that **structured prompting** and rubric alignment are more critical for task success in low-resource contexts than simple model scaling.",
-      "key_results": [
-        "Fanar-1-9B-Instruct achieved the top performance with a QWK of 0.28 and CI of 0.41.",
-        "Rubric-guided prompting yielded consistent performance gains across all eight tested LLMs.",
-        "Discourse-level traits (Development and Style) saw the most significant improvement from structured prompting.",
-        "Few-shot configurations outperformed zero-shot setups when combined with rubric-guided exemplars.",
-        "Established a foundational framework for scalable, proficiency-oriented assessment in Arabic educational contexts."
-      ],
-      "relevance_score": 7,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce a multi-tier prompting framework enabling small LLMs to achieve high-accuracy, trait-specific Arabic essay scoring.",
-      "lead_institution": "ArXiv Researchers",
-      "tags": [
-        "Prompt Engineering",
-        "Arabic NLP",
-        "LLM Evaluation",
-        "Multi-Agent Systems",
-        "SLMs"
-      ]
-    }
-  },
-  {
-    "title": "Legged Autonomous Surface Science In Analogue Environments (LASSIE): Making Every Robotic Step Count in Planetary Exploration",
-    "link": "http://arxiv.org/abs/2603.19661v1",
-    "summary": "The ability to efficiently and effectively explore planetary surfaces is currently limited by the capability of wheeled rovers to traverse challenging terrains, and by pre-programmed data acquisition plans with limited in-situ flexibility. In this paper, we present two novel approaches to address these limitations: (i) high-mobility legged robots that use direct surface interactions to collect rich information about the terrain's mechanics to guide exploration; (ii) human-inspired data acquisition algorithms that enable robots to reason about scientific hypotheses and adapt exploration priorities based on incoming ground-sensing measurements. We successfully verify our approach through lab work and field deployments in two planetary analog environments. The new capability for legged robots to measure soil mechanical properties is shown to enable effective traversal of challenging terrains. When coupled with other geologic properties (e.g., composition, thermal properties, and grain size data etc), soil mechanical measurements reveal key factors governing the formation and development of geologic environments. We then demonstrate how human-inspired algorithms turn terrain-sensing robots into teammates, by supporting more flexible and adaptive data collection decisions with human scientists. Our approach therefore enables exploration of a wider range of planetary environments and new substrate investigation opportunities through integrated human-robot systems that support maximum scientific return.",
-    "source": "ArXiv",
-    "published": "2026-03-20T05:55:53+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Introduces the **LASSIE framework**, which leverages **legged robots** as active sensors to extract terrain mechanical data through direct physical interaction.\n- Implements **human-inspired reasoning algorithms** that enable robots to evaluate geologic hypotheses and adapt exploration priorities in-situ.\n- Combines **multimodal sensing** (mechanical, thermal, composition) to enhance scientific yield and navigate terrains inaccessible to traditional wheeled rovers.\n- Establishes a **human-robot teaming** architecture where autonomous agents collaborate with scientists to maximize data collection efficiency.",
-      "key_results": [
-        "Successful deployment and verification of legged robots in two planetary analog field environments.",
-        "Real-time measurement of soil mechanical properties through legged locomotion sensing.",
-        "Significant improvement in traversal capabilities over challenging terrains compared to wheeled systems.",
-        "Validation of adaptive data acquisition algorithms for real-time scientific hypothesis testing.",
-        "Effective integration of mechanical, thermal, and compositional data streams for autonomous decision-making."
-      ],
-      "relevance_score": 6,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "The LASSIE Project Team introduces legged robots that use mechanical sensing and reasoning to autonomously guide planetary scientific exploration.",
-      "lead_institution": "LASSIE Project Team",
-      "tags": [
-        "Robotic Agents",
-        "Reasoning Models",
-        "Autonomous Exploration",
-        "Multimodal Sensing",
-        "Space AI"
-      ]
-    }
-  },
-  {
-    "title": "Semantic Audio-Visual Navigation in Continuous Environments",
-    "link": "http://arxiv.org/abs/2603.19660v1",
-    "summary": "Audio-visual navigation enables embodied agents to navigate toward sound-emitting targets by leveraging both auditory and visual cues. However, most existing approaches rely on precomputed room impulse responses (RIRs) for binaural audio rendering, restricting agents to discrete grid positions and leading to spatially discontinuous observations. To establish a more realistic setting, we introduce Semantic Audio-Visual Navigation in Continuous Environments (SAVN-CE), where agents can move freely in 3D spaces and perceive temporally and spatially coherent audio-visual streams. In this setting, targets may intermittently become silent or stop emitting sound entirely, causing agents to lose goal information. To tackle this challenge, we propose MAGNet, a multimodal transformer-based model that jointly encodes spatial and semantic goal representations and integrates historical context with self-motion cues to enable memory-augmented goal reasoning. Comprehensive experiments demonstrate that MAGNet significantly outperforms state-of-the-art methods, achieving up to a 12.1\\% absolute improvement in success rate. These results also highlight its robustness to short-duration sounds and long-distance navigation scenarios. The code is available at https://github.com/yichenzeng24/SAVN-CE.",
-    "source": "ArXiv",
-    "published": "2026-03-20T05:49:50+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Introduces **SAVN-CE**, a new benchmark for **embodied agents** to navigate 3D environments using continuous, spatially coherent audio-visual streams rather than discrete grids.\n- Proposes **MAGNet**, a **multimodal transformer-based model** that jointly encodes spatial and semantic goal representations for improved navigation.\n- Implements **memory-augmented goal reasoning** by integrating historical context and self-motion cues to handle intermittently silent targets.\n- Demonstrates a significant architectural shift toward **continuous perception** in multimodal navigation, enhancing robustness in complex 3D spaces.",
-      "key_results": [
-        "Achieved a 12.1% absolute improvement in success rate over previous state-of-the-art models.",
-        "Demonstrated high robustness to scenarios where sound-emitting targets are intermittently silent.",
-        "Successfully established the SAVN-CE benchmark for continuous 3D audio-visual navigation.",
-        "Proved superior performance in long-distance navigation compared to discrete-grid baselines.",
-        "Validated that self-motion cues combined with temporal context significantly improve goal reasoning."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "Yichen Zeng et al. introduce MAGNet, achieving a 12.1% success rate boost in continuous multimodal audio-visual navigation.",
-      "lead_institution": "ArXiv Research",
-      "tags": [
-        "Multimodal AI",
-        "Embodied AI",
-        "Audio-Visual Navigation",
-        "Transformers",
-        "Spatial Reasoning"
-      ]
-    }
-  },
-  {
-    "title": "GravCal: Single-Image Calibration of IMU Gravity Priors with Per-Sample Confidence",
-    "link": "http://arxiv.org/abs/2603.19654v1",
-    "summary": "Gravity estimation is fundamental to visual-inertial perception, augmented reality, and robotics, yet gravity priors from IMUs are often unreliable under linear acceleration, vibration, and transient motion. Existing methods often estimate gravity directly from images or assume reasonably accurate inertial input, leaving the practical problem of correcting a noisy gravity prior from a single image largely unaddressed.\n  We present GravCal, a feedforward model for single-image gravity prior calibration. Given one RGB image and a noisy gravity prior, GravCal predicts a corrected gravity direction and a per-sample confidence score. The model combines two complementary predictions, including a residual correction of the input prior and a prior-independent image estimate, and uses a learned gate to fuse them adaptively.\n  Extensive experiments show strong gains over raw inertial priors: GravCal reduces mean angular error from 22.02\u00b0 (IMU prior) to 14.24\u00b0, with larger improvements when the prior is severely corrupted. We also introduce a novel dataset of over 148K frames with paired VIO-derived ground-truth gravity and Mahony-filter IMU priors across diverse scenes and arbitrary camera orientations. The learned gate also correlates with prior quality, making it a useful confidence signal for downstream systems.",
-    "source": "ArXiv",
-    "published": "2026-03-20T05:37:43+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- **GravCal** is a feedforward architecture designed to calibrate noisy **IMU gravity priors** using a single RGB image, specifically targeting failures caused by linear acceleration and vibration.\n- The model utilizes a **dual-branch strategy** that combines a residual correction of the inertial prior with an independent image-based estimate through a **learned gating mechanism**.\n- It introduces a **per-sample confidence score** derived from the fusion gate, providing a valuable signal for downstream robotics and AR systems to assess data reliability.\n- The system is trained on a novel dataset of **148K frames** featuring ground-truth gravity derived from high-quality Visual-Inertial Odometry (VIO).",
-      "key_results": [
-        "Reduced mean angular error from 22.02\u00b0 in raw IMU priors to 14.24\u00b0 with GravCal.",
-        "Significant error reduction observed in scenarios where the initial prior was severely corrupted by transient motion.",
-        "Learned gating signal demonstrates high correlation with actual IMU prior quality.",
-        "Release of a large-scale dataset with 148K paired VIO-derived ground-truth gravity frames.",
-        "Effective generalization across diverse indoor and outdoor scenes with arbitrary camera orientations."
-      ],
-      "relevance_score": 6,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce GravCal, a model that fuses images with noisy IMU data to improve gravity estimation accuracy.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "Computer Vision",
-        "IMU Calibration",
-        "Robotics",
-        "Multimodal Fusion",
-        "Gravity Estimation"
-      ]
-    }
-  },
-  {
-    "title": "Ensembles-based Feature Guided Analysis",
-    "link": "http://arxiv.org/abs/2603.19653v1",
-    "summary": "Recent Deep Neural Networks (DNN) applications ask for techniques that can explain their behavior. Existing solutions, such as Feature Guided Analysis (FGA), extract rules on their internal behaviors, e.g., by providing explanations related to neurons activation. Results from the literature show that these rules have considerable precision (i.e., they correctly predict certain classes of features), but the recall (i.e., the number of situations these rule apply) is more limited. To mitigate this problem, this paper presents Ensembles-based Feature Guided Analysis (EFGA). EFGA combines rules extracted by FGA into ensembles. Ensembles aggregate different rules to increase their applicability depending on an aggregation criterion, a policy that dictates how to combine rules into ensembles. Although our solution is extensible, and different aggregation criteria can be developed by users, in this work, we considered three different aggregation criteria. We evaluated how the choice of the criterion influences the effectiveness of EFGA on two benchmarks (i.e., the MNIST and LSC datasets), and found that different aggregation criteria offer alternative trade-offs between precision and recall. We then compare EFGA with FGA. For this experiment, we selected an aggregation criterion that provides a reasonable trade-off between precision and recall. Our results show that EFGA has higher train recall (+28.51% on MNIST, +33.15% on LSC), and test recall (+25.76% on MNIST, +30.81% on LSC) than FGA, with a negligible reduction on the test precision (-0.89% on MNIST, -0.69% on LSC).",
-    "source": "ArXiv",
-    "published": "2026-03-20T05:31:53+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- EFGA addresses the low recall bottleneck of traditional **Feature Guided Analysis (FGA)** by implementing an ensemble framework for rule aggregation.\n- The architecture introduces a **pluggable aggregation criterion** policy, allowing users to define how individual neuron-based activation rules are combined into larger sets.\n- By aggregating rules based on **neuron activation patterns**, the system enhances the coverage of internal model behaviors across different input distributions.\n- Evaluation on **MNIST and LSC benchmarks** shows that ensemble methods significantly scale interpretability frameworks without compromising the reliability of extracted explanations.",
-      "key_results": [
-        "EFGA improved train recall by up to 33.15% compared to the baseline FGA framework.",
-        "Test recall increased by 25.76% on MNIST and 30.81% on LSC datasets.",
-        "Precision reduction was minimal, staying below 0.9% across all evaluated test sets.",
-        "Identified three distinct aggregation criteria providing different trade-offs between precision and recall.",
-        "The ensemble approach successfully generalizes specific neuron rules to broader categories of model behavior."
-      ],
-      "relevance_score": 6,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers develop EFGA to enhance DNN interpretability by combining feature-guided rules into ensembles for significantly higher recall.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "Explainability",
-        "DNN Interpretability",
-        "Feature Guided Analysis",
-        "Ensemble Learning",
-        "Model Evaluation"
-      ]
-    }
-  },
-  {
-    "title": "PolicySim: An LLM-Based Agent Social Simulation Sandbox for Proactive Policy Optimization",
-    "link": "http://arxiv.org/abs/2603.19649v1",
-    "summary": "Social platforms serve as central hubs for information exchange, where user behaviors and platform interventions jointly shape opinions. However, intervention policies like recommendation and content filtering, can unintentionally amplify echo chambers and polarization, posing significant societal risks. Proactively evaluating the impact of such policies is therefore crucial. Existing approaches primarily rely on reactive online A/B testing, where risks are identified only after deployment, making risk identification delayed and costly. LLM-based social simulations offer a promising pre-deployment alternative, but current methods fall short in realistically modeling platform interventions and incorporating feedback from the platform. Bridging these gaps is essential for building actionable frameworks to assess and optimize platform policies. To this end, we propose PolicySim, an LLM-based social simulation sandbox for the proactive assessment and optimization of intervention policies. PolicySim models the bidirectional dynamics between user behavior and platform interventions through two key components: (1) a user agent module refined via supervised fine-tuning (SFT) and direct preference optimization (DPO) to achieve platform-specific behavioral realism; and (2) an adaptive intervention module that employs a contextual bandit with message passing to capture dynamic network structures. Experiments show that PolicySim can accurately simulate platform ecosystems at both micro and macro levels and support effective intervention policy.",
-    "source": "ArXiv",
-    "published": "2026-03-20T05:20:39+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- PolicySim introduces a **bidirectional simulation architecture** that models the interplay between LLM-based user agents and platform-level intervention strategies.\n- The framework utilizes a **User Agent Module** refined through **Supervised Fine-Tuning (SFT)** and **Direct Preference Optimization (DPO)** to achieve high behavioral realism.\n- An **Adaptive Intervention Module** employs a **contextual bandit with message passing** to capture and respond to dynamic network structures in real-time.\n- The system enables **proactive policy optimization**, allowing developers to evaluate the impact of recommendation and filtering policies on echo chambers and polarization before deployment.",
-      "key_results": [
-        "Successfully models platform ecosystems at both micro-individual and macro-social levels.",
-        "User agents demonstrate platform-specific realism through SFT and DPO alignment.",
-        "Adaptive intervention module effectively captures complex social network dynamics.",
-        "Identifies unintended consequences like echo chambers without requiring live A/B testing.",
-        "Provides a scalable sandbox for testing diverse content filtering and recommendation policies."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce PolicySim, a sandbox using DPO-tuned LLM agents to proactively optimize social platform intervention policies.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "LLM Agents",
-        "Policy Optimization",
-        "SFT/DPO",
-        "Social Simulation",
-        "AI Safety"
-      ]
-    }
-  },
-  {
-    "title": "On the existence of fair zero-determinant strategies in the periodic prisoner's dilemma game",
-    "link": "http://arxiv.org/abs/2603.19641v1",
-    "summary": "Repeated games are a framework for investigating long-term interdependence of multi-agent systems. In repeated games, zero-determinant (ZD) strategies attract much attention in evolutionary game theory, since they can unilaterally control payoffs. Especially, fair ZD strategies unilaterally equalize the payoff of the focal player and the average payoff of the opponents, and they were found in several games including the social dilemma games. Although the existence condition of ZD strategies in repeated games was specified, its extension to stochastic games is almost unclear. Stochastic games are an extension of repeated games, where a state of an environment exists, and the state changes to another one according to an action profile of players. Because of the transition of an environmental state, the existence condition of ZD strategies in stochastic games is more complicated than that in repeated games. Here, we investigate the existence condition of fair ZD strategies in the periodic prisoner's dilemma game, which is one of the simplest stochastic games. We show that fair ZD strategies do not necessarily exist in the periodic prisoner's dilemma game, in contrast to the repeated prisoner's dilemma game. Furthermore, we also prove that the Tit-for-Tat strategy, which imitates the opponent's action, is not necessarily a fair ZD strategy in the periodic prisoner's dilemma game, whereas the Tit-for-Tat strategy is always a fair ZD strategy in the repeated prisoner's dilemma game. Our results highlight difference between ZD strategies in the periodic prisoner's dilemma game and ones in the standard repeated prisoner's dilemma game.",
-    "source": "ArXiv",
-    "published": "2026-03-20T04:47:57+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- The study evaluates **Zero-Determinant (ZD) strategies** within **stochastic games**, specifically extending the theoretical framework from static repeated games to environments with state transitions.\n- It focuses on the **periodic prisoner's dilemma**, a model where environmental states change based on player actions, significantly increasing the complexity of payoff control.\n- The research identifies that **fair ZD strategies**, which equalize payoffs between a focal player and opponents, are not guaranteed to exist in periodic stochastic settings.\n- It mathematically demonstrates that the **Tit-for-Tat (TFT)** strategy loses its status as a universal fair ZD strategy when environmental dynamics are introduced.",
-      "key_results": [
-        "Fair ZD strategies do not necessarily exist in periodic stochastic games, unlike standard repeated games.",
-        "The transition of environmental states complicates the existence conditions for unilateral payoff control.",
-        "Tit-for-Tat (TFT) is proven to not be a fair ZD strategy in the periodic prisoner's dilemma.",
-        "The existence of ZD strategies is shown to be state-dependent in stochastic multi-agent systems.",
-        "The study highlights fundamental differences in equilibrium strategies between repeated and periodic games."
-      ],
-      "relevance_score": 4,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "The University of Tokyo researchers show that fair Zero-Determinant strategies and Tit-for-Tat fail in periodic stochastic game environments.",
-      "lead_institution": "The University of Tokyo",
-      "tags": [
-        "Multi-Agent Systems",
-        "Game Theory",
-        "Zero-Determinant Strategies",
-        "Stochastic Games",
-        "Reinforcement Learning"
       ]
     }
   }
