@@ -1,1 +1,332 @@
-[]
+[
+  {
+    "title": "STADLER reshapes knowledge work at a 230-year-old company",
+    "link": "https://openai.com/index/stadler",
+    "summary": "Learn how STADLER uses ChatGPT to transform knowledge work, saving time and accelerating productivity across 650 employees.",
+    "source": "OpenAI News",
+    "published": "2026-03-27T22:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Deployment of **ChatGPT Enterprise** across a workforce of 650 employees to modernize legacy administrative processes.\n- Focus on **knowledge management** and reducing manual effort in information retrieval within a 230-year-old industrial firm.\n- Strategic shift toward **GenAI-integrated workflows** to maintain competitive efficiency in the manufacturing sector.",
+      "key_results": [
+        "Onboarded 650 employees to AI tools",
+        "Quantifiable reduction in time spent on manual knowledge work",
+        "Accelerated internal documentation processing",
+        "Streamlined communication across legacy departments",
+        "Successful digital transformation of a multi-century-old entity"
+      ],
+      "relevance_score": 3,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "STADLER deploys ChatGPT Enterprise to 650 employees to modernize knowledge work and accelerate productivity in legacy manufacturing.",
+      "lead_institution": "OpenAI News",
+      "tags": [
+        "Enterprise AI",
+        "Productivity",
+        "Knowledge Management",
+        "Generative AI",
+        "Digital Transformation"
+      ]
+    }
+  },
+  {
+    "title": "Netscape News Feed Straight Out of the Late 00s",
+    "link": "https://isp.netscape.com/",
+    "summary": "<p>Article URL: <a href=\"https://isp.netscape.com/\">https://isp.netscape.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47565264\">https://news.ycombinator.com/item?id=47565264</a></p>\n<p>Points: 99</p>\n<p># Comments: 21</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-03-29T17:34:20+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- The content highlights a **legacy news portal** maintained by Netscape, reflecting the web design paradigms of the late 2000s.\n- The portal serves as a **functional artifact** of early internet infrastructure, primarily acting as a landing page for legacy ISP customers.\n- It demonstrates the **persistence of legacy systems** and UI layouts in a modern web environment dominated by responsive and AI-driven interfaces.",
+      "key_results": [
+        "Active preservation of late-2000s web portal aesthetics.",
+        "Functional integration of legacy ISP services and news feeds.",
+        "High engagement on social news aggregators due to nostalgic value.",
+        "Absence of modern web design elements like infinite scroll or minimalist UI.",
+        "Zero technical applicability to modern AI/ML workflows or research."
+      ],
+      "relevance_score": 1,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Netscape maintains a nostalgic ISP news portal that provides a functional time capsule of late-2000s web design aesthetics.",
+      "lead_institution": "Netscape",
+      "tags": [
+        "Retro Web",
+        "UI Design",
+        "Legacy Systems",
+        "Netscape",
+        "Internet History"
+      ]
+    }
+  },
+  {
+    "title": "The rise and fall of IBM's 4 Pi aerospace computers: an illustrated history",
+    "link": "https://www.righto.com/2026/03/ibm-4-pi-computer-history.html",
+    "summary": "<p>Article URL: <a href=\"https://www.righto.com/2026/03/ibm-4-pi-computer-history.html\">https://www.righto.com/2026/03/ibm-4-pi-computer-history.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47564579\">https://news.ycombinator.com/item?id=47564579</a></p>\n<p>Points: 70</p>\n<p># Comments: 20</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-03-29T16:26:55+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- The **IBM 4 Pi** series adapted the **System/360 architecture** for aerospace, providing a standardized instruction set and software compatibility for military and space applications.\n- These systems utilized **radiation-hardened components** and specialized read-only storage (ROS) to ensure high reliability in extreme environments like low-earth orbit.\n- The architecture evolved from 16-bit to 32-bit processing, successfully bridging the gap between **terrestrial mainframes** and miniaturized, ruggedized flight hardware.\n- Its deployment in the **Space Shuttle** and B-52 bomber established the standard for fault-tolerant, modular computing in critical avionics systems.",
+      "key_results": [
+        "Successful miniaturization of S/360 mainframe logic for aerospace use.",
+        "Provided the primary flight control for the Space Shuttle via the AP-101 model.",
+        "Integrated magnetic core memory transitioning to semiconductor memory over its lifecycle.",
+        "Achieved significant weight and power reductions compared to contemporary vacuum-tube systems.",
+        "Standardized military avionics under a unified software development ecosystem."
+      ],
+      "relevance_score": 2,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Ken Shirriff chronicles how IBM adapted mainframe architectures into the 4 Pi series to power historic aerospace missions.",
+      "lead_institution": "Righto.com",
+      "tags": [
+        "Aerospace Computing",
+        "IBM 4 Pi",
+        "Computer History",
+        "System/360",
+        "Hardware Architecture"
+      ]
+    }
+  },
+  {
+    "title": "Key E-3 AWACS Damaged in Iranian Attack",
+    "link": "https://www.airandspaceforces.com/key-e-3-awacs-aircraft-damaged-iranian-attack-saudi-air-base/",
+    "summary": "<p>Article URL: <a href=\"https://www.airandspaceforces.com/key-e-3-awacs-aircraft-damaged-iranian-attack-saudi-air-base/\">https://www.airandspaceforces.com/key-e-3-awacs-aircraft-damaged-iranian-attack-saudi-air-base/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47562927\">https://news.ycombinator.com/item?id=47562927</a></p>\n<p>Points: 43</p>\n<p># Comments: 14</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-03-29T13:21:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* Iranian forces conducted a coordinated missile and drone strike targeting the **Prince Sultan Air Base** in Saudi Arabia.\n* At least one **E-3 Sentry (AWACS)** aircraft, a vital asset for airborne early warning and command, was damaged during the engagement.\n* The attack highlights the increasing vulnerability of high-value, centralized **aerial command-and-control architecture** to long-range precision strikes.\n* The impact involves a localized degradation of **airspace surveillance** capabilities and a shift in the regional security posture.",
+      "key_results": [
+        "Iranian missiles and drones struck a major Saudi air base.",
+        "A US-manufactured E-3 AWACS aircraft sustained physical damage.",
+        "The strike demonstrates a significant escalation in regional kinetic capabilities.",
+        "Air defense systems at the site were partially bypassed or overwhelmed.",
+        "Damage assessments are ongoing to determine the operational status of the fleet."
+      ],
+      "relevance_score": 1,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Air and Space Forces Magazine reports that an Iranian strike on a Saudi air base damaged a critical AWACS aircraft.",
+      "lead_institution": "Air & Space Forces Magazine",
+      "tags": [
+        "Military Aviation",
+        "Geopolitics",
+        "Defense Industry",
+        "E-3 AWACS",
+        "Regional Security"
+      ]
+    }
+  },
+  {
+    "title": "LinkedIn uses 2.4 GB RAM across two tabs",
+    "link": "https://news.ycombinator.com/item?id=47561489",
+    "summary": "<p><a href=\"https://ibb.co/fYQVfMWp\" rel=\"nofollow\">https://ibb.co/fYQVfMWp</a>\n<a href=\"https://ibb.co/MyTNnrGQ\" rel=\"nofollow\">https://ibb.co/MyTNnrGQ</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47561489\">https://news.ycombinator.com/item?id=47561489</a></p>\n<p>Points: 601</p>\n<p># Comments: 352</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-03-29T08:58:24+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Community analysis on Hacker News highlights **significant memory consumption** in LinkedIn's web application, which was observed utilizing 2.4 GB of RAM for only two browser tabs.\n- The discussion serves as a case study in **browser resource bloat**, illustrating how complex tracking scripts and modern SPA frameworks impact overall system performance.\n- The thread underscores a growing conflict in **resource allocation**, where bloated web architectures increasingly compete with local compute tasks such as **Local LLMs** and developer environments.",
+      "key_results": [
+        "LinkedIn was documented consuming 2.4 GB of RAM across two active browser tabs.",
+        "The post received over 600 points, indicating a high level of industry concern regarding web performance.",
+        "Highlights the overhead inherent in modern JavaScript-heavy frontend application architectures.",
+        "User commentary suggests that single-page applications (SPAs) are increasingly failing to manage memory lifecycle effectively.",
+        "Reflects a broader trend of declining resource efficiency in mainstream SaaS platforms."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Hacker News reports that LinkedIn's web application consumes 2.4 GB of RAM, highlighting significant resource bloat in modern frontend architectures.",
+      "lead_institution": "Hacker News",
+      "tags": [
+        "Web Performance",
+        "Memory Management",
+        "Frontend Engineering",
+        "Browser Bloat",
+        "Resource Allocation"
+      ]
+    }
+  },
+  {
+    "title": "Show HN: PeriodicTableOfElements.org",
+    "link": "https://periodictableofelements.org/?lang=en",
+    "summary": "<p>Article URL: <a href=\"https://periodictableofelements.org/?lang=en\">https://periodictableofelements.org/?lang=en</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47559509\">https://news.ycombinator.com/item?id=47559509</a></p>\n<p>Points: 35</p>\n<p># Comments: 43</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-03-29T00:59:45+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "<br> The project introduces an **interactive web-based visualization** tool for the periodic table, providing structured data on chemical elements.<br> It features **multilingual support** and responsive design to facilitate quick access to physical and chemical properties.<br> The architecture focuses on **client-side interactivity** to display atomic structures and electron configurations without server-side latency.",
+      "key_results": [
+        "Interactive visualization of all 118 periodic elements.",
+        "Comprehensive data tables including boiling points, melting points, and electronegativity.",
+        "Support for multiple languages including English and others via URL parameters.",
+        "Optimized UI for both desktop and mobile viewing.",
+        "High performance and low latency for data retrieval on the frontend."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "PeriodicTableOfElements.org launches a web-based interactive reference tool providing comprehensive data on chemical elements for educational use.",
+      "lead_institution": "Hacker News",
+      "tags": [
+        "Web Development",
+        "Chemistry",
+        "Data Visualization",
+        "Education",
+        "Open Data"
+      ]
+    }
+  },
+  {
+    "title": "rpg.actor Game Jam",
+    "link": "https://rpg.actor/jam",
+    "summary": "<p>Article URL: <a href=\"https://rpg.actor/jam\">https://rpg.actor/jam</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47556033\">https://news.ycombinator.com/item?id=47556033</a></p>\n<p>Points: 79</p>\n<p># Comments: 6</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-03-28T16:26:08+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- The **rpg.actor** platform has announced a community game jam focused on the integration of **LLM Agents** into immersive narrative environments.\n- The initiative emphasizes the development of **autonomous NPCs** and dynamic storytelling through generative AI frameworks.\n- Participants are encouraged to explore the intersection of **vibe coding** and procedural world-building to create reactive game mechanics.",
+      "key_results": [
+        "Launch of an industry-specific game jam for AI-driven RPGs.",
+        "Promotion of the rpg.actor platform as a tool for agentic gameplay.",
+        "Focus on practical applications of Generative AI in gaming entertainment.",
+        "Encouragement of developer experimentation with autonomous agent behaviors.",
+        "Showcasing of low-barrier entry points for integrating LLMs into interactive media."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "rpg.actor launches a game jam to challenge developers to create interactive experiences using autonomous LLM agents.",
+      "lead_institution": "rpg.actor",
+      "tags": [
+        "LLM Agents",
+        "Generative AI",
+        "Game Development",
+        "AI NPCs",
+        "Vibe Coding"
+      ]
+    }
+  },
+  {
+    "title": "Canadian man says U.S. border officers made him give DNA sample",
+    "link": "https://www.cbc.ca/news/canada/windsor/us-border-dna-canadian-man-cbp-cross-larson-dingell-raskin-9.7144472",
+    "summary": "<p>Article URL: <a href=\"https://www.cbc.ca/news/canada/windsor/us-border-dna-canadian-man-cbp-cross-larson-dingell-raskin-9.7144472\">https://www.cbc.ca/news/canada/windsor/us-border-dna-canadian-man-cbp-cross-larson-dingell-raskin-9.7144472</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47555115\">https://news.ycombinator.com/item?id=47555115</a></p>\n<p>Points: 75</p>\n<p># Comments: 33</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-03-28T14:52:15+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Reports on **U.S. Customs and Border Protection (CBP)** enforcing mandatory biometric data acquisition protocols for non-U.S. citizens detained at border crossings.\n- Details the workflow where **DNA samples** are collected via cheek swabs and submitted to the FBI\u2019s **CODIS database** for permanent storage and profiling.\n- Highlights the expanding scope of the **DNA Fingerprint Act of 2005**, which has moved from criminal suspects to general detainee populations.\n- Discusses the **legal and privacy impact** of centralized genetic data collection on international relations and individual civil liberties.",
+      "key_results": [
+        "U.S. CBP mandated DNA collection from a Canadian citizen despite no criminal charges.",
+        "Data collection is authorized under the expanded DNA Fingerprint Act of 2005.",
+        "Samples are processed by the FBI and integrated into the national CODIS database.",
+        "Privacy advocates express concern over the lack of data deletion protocols for non-citizens.",
+        "Legislative pushback is emerging from U.S. representatives regarding biometric surveillance at borders."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "CBC News reports that U.S. Customs and Border Protection is enforcing mandatory DNA collection for detained non-U.S. citizens.",
+      "lead_institution": "CBC News",
+      "tags": [
+        "Biometrics",
+        "Data Privacy",
+        "CBP",
+        "Surveillance",
+        "Policy"
+      ]
+    }
+  },
+  {
+    "title": "U.S. Ambassador to EU: Stop Fining Big Tech",
+    "link": "https://www.cnbc.com/2026/03/27/big-tech-eu-fines-ai-data-centers-us-ambassador-puzder.html",
+    "summary": "<p>Article URL: <a href=\"https://www.cnbc.com/2026/03/27/big-tech-eu-fines-ai-data-centers-us-ambassador-puzder.html\">https://www.cnbc.com/2026/03/27/big-tech-eu-fines-ai-data-centers-us-ambassador-puzder.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47553438\">https://news.ycombinator.com/item?id=47553438</a></p>\n<p>Points: 30</p>\n<p># Comments: 6</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-03-28T10:56:53+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "<br>\u2022 The U.S. Ambassador to the EU calls for an end to massive fines on **Big Tech** to prioritize **AI infrastructure** and **data center** deployment.<br>\u2022 This diplomatic shift aims to reduce regulatory friction that slows down the scaling of **Generative AI** workloads and high-performance compute resources across Europe.<br>\u2022 The proposal emphasizes that heavy-handed antitrust enforcement may weaken the Western **AI ecosystem** competitiveness compared to other global power blocks.",
+      "key_results": [
+        "U.S. Ambassador Puzder urges the EU to stop fining American tech companies to foster investment.",
+        "Goal is to accelerate the construction of critical AI data center infrastructure in Europe.",
+        "Shift in diplomatic strategy from regulatory compliance to joint technological scaling.",
+        "Argues that current EU policies act as a barrier to localized AI hardware deployment.",
+        "Potential impact on the availability of high-end compute for European research and enterprise AI."
+      ],
+      "relevance_score": 3,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "The U.S. Ambassador urges the EU to halt Big Tech fines to accelerate critical AI infrastructure and data center growth.",
+      "lead_institution": "CNBC",
+      "tags": [
+        "AI Regulation",
+        "Infrastructure",
+        "Data Centers",
+        "Big Tech",
+        "EU Policy"
+      ]
+    }
+  },
+  {
+    "title": "Om Malik \u2013 'Astound'ed. Google Flips Its Fiber to PE",
+    "link": "https://om.co/2026/03/27/astounded-google-flips-its-fiber-to-pe/",
+    "summary": "<p>Article URL: <a href=\"https://om.co/2026/03/27/astounded-google-flips-its-fiber-to-pe/\">https://om.co/2026/03/27/astounded-google-flips-its-fiber-to-pe/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47549210\">https://news.ycombinator.com/item?id=47549210</a></p>\n<p>Points: 36</p>\n<p># Comments: 3</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-03-27T22:27:52+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Alphabet transitions its **Google Fiber** business to private equity ownership, specifically through **Astound Broadband**.\n- The move signals a major strategic shift to offload capital-intensive **physical infrastructure** and reduce long-term CapEx.\n- This restructuring allows the company to refocus resources and management bandwidth on **core digital services** and AI-driven growth areas.",
+      "key_results": [
+        "Alphabet divestment of Google Fiber to private equity.",
+        "Strategic shift from physical ISP infrastructure to software.",
+        "Potential consolidation within the US broadband market.",
+        "Reduction in Alphabet's 'Other Bets' operational overhead.",
+        "Capital reallocation toward AI and machine learning initiatives."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Alphabet divests Google Fiber to private equity to prioritize capital allocation for core software and artificial intelligence initiatives.",
+      "lead_institution": "Alphabet",
+      "tags": [
+        "Alphabet",
+        "Google Fiber",
+        "Private Equity",
+        "Infrastructure",
+        "Business Strategy"
+      ]
+    }
+  },
+  {
+    "title": "Show HN: Twitch Roulette \u2013 Find live streamers who need views the most",
+    "link": "https://twitchroulette.net/",
+    "summary": "<p>Hey HN, I re-launched an old site I remembered back in the day that someone made called twitchroulette.net with a lot of new features and stats and I would love for people to check it out. The idea is you can easily browse the less browsed parts of twitch and find cool and new streamers to say hi to, and maybe make some new friends.<p>I also added some real time stats and breakdowns per channel and I think some of the things they show are pretty interesting. Check it out!</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47549160\">https://news.ycombinator.com/item?id=47549160</a></p>\n<p>Points: 176</p>\n<p># Comments: 94</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-03-27T22:22:20+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "<br>\u2022 Re-launch of **Twitch Roulette**, a web-based discovery platform designed to surface low-viewership streamers via randomized search filters.<br>\u2022 Implementation of **real-time data analytics** and statistical breakdowns for individual channels to provide contextual viewer data.<br>\u2022 Focus on surfacing the **long-tail distribution** of content creators to facilitate community discovery in the less-browsed segments of the platform.",
+      "key_results": [
+        "Re-launched the twitchroulette.net platform with modernized features.",
+        "Integrated real-time channel statistics for improved streamer vetting.",
+        "Enabled browsing of the least-viewed segments of Twitch.",
+        "Provided statistical breakdowns for individual channel engagement.",
+        "Created a randomized discovery mechanism for live streaming content."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Hacker News community member re-launches Twitch Roulette to provide real-time analytics and discovery tools for smaller streamers.",
+      "lead_institution": "Hacker News",
+      "tags": [
+        "Twitch",
+        "Streaming Analytics",
+        "Content Discovery",
+        "Web Development",
+        "Real-time Data"
+      ]
+    }
+  }
+]
