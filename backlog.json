@@ -1,5 +1,245 @@
 [
   {
+    "title": "Helping disaster response teams turn AI into action across Asia",
+    "link": "https://openai.com/index/helping-disaster-response-teams-asia",
+    "summary": "AI for Disaster Response in Asia: OpenAI Workshop with Gates Foundation",
+    "source": "OpenAI News",
+    "published": "2026-03-29T22:15:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "<br>\u2022 OpenAI and the Gates Foundation convened a workshop to accelerate the deployment of **Generative AI** for disaster preparedness and emergency response in Asia.<br>\u2022 The initiative focuses on adapting **foundation models** to handle the specific linguistic and environmental contexts of the Asia-Pacific region.<br>\u2022 Discussions explored using **multimodal AI** to process diverse data streams, such as satellite imagery and social media, for real-time situational awareness.<br>\u2022 The collaboration emphasizes building **agentic workflows** that can assist humanitarian teams in resource allocation and rapid decision-making during crises.",
+      "key_results": [
+        "Established a strategic partnership between OpenAI and the Gates Foundation for regional humanitarian goals.",
+        "Identified key use cases for AI in rapid emergency information dissemination.",
+        "Promoted technical training for disaster response teams on prompt engineering and model implementation.",
+        "Highlighted the need for localized datasets to improve AI performance in diverse Asian markets.",
+        "Outlined a roadmap for future AI-driven crisis management tools in vulnerable regions."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "OpenAI and the Gates Foundation launch initiatives to integrate AI into disaster management and humanitarian efforts across Asia.",
+      "lead_institution": "OpenAI News",
+      "tags": [
+        "Disaster Response",
+        "Humanitarian AI",
+        "Social Impact",
+        "Generative AI Trends",
+        "OpenAI"
+      ]
+    }
+  },
+  {
+    "title": "AI for American-Produced Cement and Concrete",
+    "link": "https://engineering.fb.com/2026/03/30/data-center-engineering/ai-for-american-produced-cement-and-concrete/",
+    "summary": "<p>Meta is continuing its long-term roadmap to help the construction industry leverage AI to produce high-quality and more sustainable concrete mixes, as well as those exclusively produced in the United States.\u00a0 Concurrent with the 2026 American Concrete Institute (ACI) Spring Convention, Meta is releasing a new AI model for designing concrete mixes \u2013 Bayesian Optimization [...]</p>\n<p><a class=\"btn btn-secondary understrap-read-more-link\" href=\"https://engineering.fb.com/2026/03/30/data-center-engineering/ai-for-american-produced-cement-and-concrete/\">Read More...</a></p>\n<p>The post <a href=\"https://engineering.fb.com/2026/03/30/data-center-engineering/ai-for-american-produced-cement-and-concrete/\" rel=\"nofollow\">AI for American-Produced Cement and Concrete</a> appeared first on <a href=\"https://engineering.fb.com\" rel=\"nofollow\">Engineering at Meta</a>.</p>",
+    "source": "Engineering at Meta",
+    "published": "2026-03-30T16:00:34+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n Meta leverages **Bayesian Optimization** to accelerate the discovery and design of high-performance, sustainable concrete mixtures.\n The model focuses on optimizing material proportions to meet strict **carbon footprint** and quality requirements for American-produced cement.\n This approach transitions AI from digital domains into **physical infrastructure**, streamlining industrial engineering workflows for the construction sector.",
+      "key_results": [
+        "Release of a specialized Bayesian Optimization model for material science applications.",
+        "Optimization of concrete mixtures for both sustainability and high-quality mechanical properties.",
+        "Alignment of AI design outputs with US-based production requirements and local supply chains.",
+        "Integration of AI-driven material discovery into American Concrete Institute (ACI) standards.",
+        "Establishment of a long-term AI roadmap for reducing the carbon intensity of infrastructure."
+      ],
+      "relevance_score": 3,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Meta releases a Bayesian Optimization model to accelerate the design of sustainable, US-produced concrete for industrial infrastructure.",
+      "lead_institution": "Engineering at Meta",
+      "tags": [
+        "Bayesian Optimization",
+        "Generative Design",
+        "Sustainability",
+        "Industrial AI",
+        "Material Science"
+      ]
+    }
+  },
+  {
+    "title": "GitHub for Beginners: Getting started with GitHub security",
+    "link": "https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-github-security/",
+    "summary": "<p>Learn how to secure your projects and keep them safe with GitHub Advanced Security.</p>\n<p>The post <a href=\"https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-github-security/\">GitHub for Beginners: Getting started with GitHub security</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
+    "source": "The GitHub Blog",
+    "published": "2026-03-30T16:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- GitHub provides a foundational overview of **GitHub Advanced Security** (GHAS) tailored for developers and beginners.\n- The article focuses on the **automation of security workflows**, including secret scanning and vulnerability detection within repositories.\n- It highlights the importance of **DevSecOps integration** to ensure code safety throughout the entire development lifecycle.",
+      "key_results": [
+        "Introduction to the core features of GitHub Advanced Security.",
+        "Best practices for implementing automated code scanning.",
+        "Strategies for preventing secret leaks in public and private repositories.",
+        "Guidance on managing dependency vulnerabilities.",
+        "A roadmap for beginners to transition into more secure engineering practices."
+      ],
+      "relevance_score": 2,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "GitHub provides a foundational guide for developers to implement Advanced Security features and safeguard their source code repositories.",
+      "lead_institution": "GitHub",
+      "tags": [
+        "GitHub Security",
+        "DevSecOps",
+        "Application Security",
+        "Developer Tools",
+        "Secure Coding"
+      ]
+    }
+  },
+  {
+    "title": "Show HN: 30u30.fyi \u2013 Is your startup founder on Forbes' most fraudulent list?",
+    "link": "https://30u30.fyi",
+    "summary": "<p>Article URL: <a href=\"https://30u30.fyi\">https://30u30.fyi</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47580350\">https://news.ycombinator.com/item?id=47580350</a></p>\n<p>Points: 224</p>\n<p># Comments: 88</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-03-30T22:10:22+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- **30u30.fyi** is a web-based repository designed to track and catalog the legal issues and **fraud allegations** associated with individuals previously featured on the Forbes 30 Under 30 list.\n- The project highlights the systemic failure of **due diligence** in mainstream media and venture capital vetting processes by aggregating public records of criminal convictions and scandals.\n- While technically a simple database, it serves as a cultural artifact in the tech community reflecting **skepticism** toward manufactured prestige and high-profile startup hype.",
+      "key_results": [
+        "Aggregates data on notorious fraud cases involving Forbes alumni.",
+        "Provides a searchable index for startup founder legal history.",
+        "Documents high-profile failures like FTX and Theranos-related figures.",
+        "Facilitates public discourse on the 'Forbes curse' in the tech ecosystem.",
+        "Highlights the discrepancy between media accolades and actual corporate governance."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "30u30.fyi launches a tracking database to catalog the high incidence of fraud among Forbes 30 Under 30 alumni.",
+      "lead_institution": "Hacker News",
+      "tags": [
+        "Startup Fraud",
+        "Forbes 30 Under 30",
+        "Venture Capital",
+        "Corporate Governance",
+        "Due Diligence"
+      ]
+    }
+  },
+  {
+    "title": "Ghostmoon.app \u2013 A Swiss Army Knife for your macOS menu bar",
+    "link": "https://www.mgrunwald.com/ghostmoon/",
+    "summary": "<p>Article URL: <a href=\"https://www.mgrunwald.com/ghostmoon/\">https://www.mgrunwald.com/ghostmoon/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47572910\">https://news.ycombinator.com/item?id=47572910</a></p>\n<p>Points: 141</p>\n<p># Comments: 113</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-03-30T11:25:50+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "<br>\u2022 Ghostmoon is a **macOS productivity suite** that consolidates over 20 disparate utilities into a single, unified **menu bar interface**.<br>\u2022 The application leverages **native system integrations** to provide low-latency tools such as clipboard managers, color pickers, and window snappers.<br>\u2022 Its architecture emphasizes **resource efficiency** by replacing multiple standalone background processes with a single optimized executable.",
+      "key_results": [
+        "Consolidates 20+ standalone utilities into one menu bar app.",
+        "Implements high-performance native macOS clipboard history.",
+        "Provides integrated window management and snapping features.",
+        "Includes screen annotation and color selection tools.",
+        "Reduces system overhead by centralizing background tasks."
+      ],
+      "relevance_score": 2,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "M. Grunwald releases Ghostmoon, a consolidated macOS productivity suite designed to streamline developer workflows through a centralized menu bar.",
+      "lead_institution": "M. Grunwald",
+      "tags": [
+        "macOS Utility",
+        "Developer Experience",
+        "Productivity Tool",
+        "Menu Bar App",
+        "Local Software"
+      ]
+    }
+  },
+  {
+    "title": "Netscape News Feed Straight Out of the Late 00s",
+    "link": "https://isp.netscape.com/",
+    "summary": "<p>Article URL: <a href=\"https://isp.netscape.com/\">https://isp.netscape.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47565264\">https://news.ycombinator.com/item?id=47565264</a></p>\n<p>Points: 124</p>\n<p># Comments: 26</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-03-29T17:34:20+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Represents a **legacy news portal** maintained by the Netscape ISP, offering a functional time capsule of **late-2000s web design**.\n- Highlights the persistence of **monolithic portal architectures** from the pre-modern web era that relied on high-density link aggregation.\n- Serves as a cultural artifact showing the transition from **curated internet gateways** to modern algorithmic and personalized feeds.",
+      "key_results": [
+        "Preservation of AOL-era Netscape branding",
+        "Persistence of legacy HTML/CSS layout structures",
+        "Functional news aggregation from outdated API paradigms",
+        "High engagement on Hacker News due to technological nostalgia",
+        "Zero integration with modern AI or LLM-driven content summarization"
+      ],
+      "relevance_score": 1,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Netscape maintains a legacy ISP news portal that provides a functional window into late-2000s web architecture and design.",
+      "lead_institution": "Netscape",
+      "tags": [
+        "Nostalgia",
+        "Web History",
+        "Legacy Systems",
+        "UX Evolution",
+        "Internet Culture"
+      ]
+    }
+  },
+  {
+    "title": "The rise and fall of IBM's 4 Pi aerospace computers: an illustrated history",
+    "link": "https://www.righto.com/2026/03/ibm-4-pi-computer-history.html",
+    "summary": "<p>Article URL: <a href=\"https://www.righto.com/2026/03/ibm-4-pi-computer-history.html\">https://www.righto.com/2026/03/ibm-4-pi-computer-history.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47564579\">https://news.ycombinator.com/item?id=47564579</a></p>\n<p>Points: 96</p>\n<p># Comments: 25</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-03-29T16:26:55+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- The **IBM 4 Pi** was a series of radiation-hardened computers that successfully adapted the **System/360 mainframe architecture** for high-reliability aerospace and military environments.\n- The hardware utilized **monolithic integrated circuits** and core memory to survive extreme conditions, powering critical systems for the **Space Shuttle**, Skylab, and the B-52 bomber.\n- A primary architectural innovation was the use of a **standardized instruction set**, allowing developers to write and test code on mainframes before deploying to flight hardware.",
+      "key_results": [
+        "Detailed documentation of the AP-101 flight computer architecture and its evolution.",
+        "Analysis of the transition from magnetic core memory to semiconductor storage in space.",
+        "Impact of radiation hardening on CPU design and instruction set complexity.",
+        "Case study on the longevity of the 4 Pi series across multiple decades of NASA missions.",
+        "Comparison of military-spec ruggedized hardware versus commercial mainframe equivalents."
+      ],
+      "relevance_score": 2,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Ken Shirriff details how IBM's 4 Pi series brought standardized mainframe computing architecture to critical aerospace missions.",
+      "lead_institution": "Righto",
+      "tags": [
+        "Aerospace Computing",
+        "IBM 4 Pi",
+        "Computer History",
+        "Hardware Engineering",
+        "NASA History"
+      ]
+    }
+  },
+  {
+    "title": "Key E-3 AWACS Damaged in Iranian Attack",
+    "link": "https://www.airandspaceforces.com/key-e-3-awacs-aircraft-damaged-iranian-attack-saudi-air-base/",
+    "summary": "<p>Article URL: <a href=\"https://www.airandspaceforces.com/key-e-3-awacs-aircraft-damaged-iranian-attack-saudi-air-base/\">https://www.airandspaceforces.com/key-e-3-awacs-aircraft-damaged-iranian-attack-saudi-air-base/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47562927\">https://news.ycombinator.com/item?id=47562927</a></p>\n<p>Points: 44</p>\n<p># Comments: 14</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-03-29T13:21:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- The **E-3 Sentry AWACS** aircraft sustained damage during a significant **Iranian drone and missile strike** targeting a Saudi Arabian air base.\n- The incident impacts the **airborne early warning** and command-and-control infrastructure necessary for regional theater operations.\n- This loss of high-value hardware highlights the physical **vulnerabilities of specialized electronics** and sensor platforms in modern kinetic warfare.",
+      "key_results": [
+        "E-3 AWACS aircraft confirmed damaged at Prince Sultan Air Base.",
+        "Iranian strike utilized a mix of ballistic missiles and one-way attack drones.",
+        "Damage represents a setback for US and coalition situational awareness.",
+        "Saudi defense systems successfully intercepted a portion of the incoming barrage.",
+        "Recovery or replacement of such specialized airframes involves high costs and long lead times."
+      ],
+      "relevance_score": 1,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Air & Space Forces Magazine reports that an Iranian attack damaged a critical E-3 AWACS, degrading regional surveillance capabilities.",
+      "lead_institution": "Air & Space Forces Magazine",
+      "tags": [
+        "Aerospace",
+        "Geopolitics",
+        "Military Hardware",
+        "E-3 AWACS",
+        "Defense"
+      ]
+    }
+  },
+  {
     "title": "STADLER reshapes knowledge work at a 230-year-old company",
     "link": "https://openai.com/index/stadler",
     "summary": "Learn how STADLER uses ChatGPT to transform knowledge work, saving time and accelerating productivity across 650 employees.",
@@ -26,96 +266,6 @@
         "Knowledge Management",
         "Generative AI",
         "Digital Transformation"
-      ]
-    }
-  },
-  {
-    "title": "Netscape News Feed Straight Out of the Late 00s",
-    "link": "https://isp.netscape.com/",
-    "summary": "<p>Article URL: <a href=\"https://isp.netscape.com/\">https://isp.netscape.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47565264\">https://news.ycombinator.com/item?id=47565264</a></p>\n<p>Points: 99</p>\n<p># Comments: 21</p>",
-    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
-    "published": "2026-03-29T17:34:20+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n- The content highlights a **legacy news portal** maintained by Netscape, reflecting the web design paradigms of the late 2000s.\n- The portal serves as a **functional artifact** of early internet infrastructure, primarily acting as a landing page for legacy ISP customers.\n- It demonstrates the **persistence of legacy systems** and UI layouts in a modern web environment dominated by responsive and AI-driven interfaces.",
-      "key_results": [
-        "Active preservation of late-2000s web portal aesthetics.",
-        "Functional integration of legacy ISP services and news feeds.",
-        "High engagement on social news aggregators due to nostalgic value.",
-        "Absence of modern web design elements like infinite scroll or minimalist UI.",
-        "Zero technical applicability to modern AI/ML workflows or research."
-      ],
-      "relevance_score": 1,
-      "signal_type": "General News",
-      "one_sentence_takeaway": "Netscape maintains a nostalgic ISP news portal that provides a functional time capsule of late-2000s web design aesthetics.",
-      "lead_institution": "Netscape",
-      "tags": [
-        "Retro Web",
-        "UI Design",
-        "Legacy Systems",
-        "Netscape",
-        "Internet History"
-      ]
-    }
-  },
-  {
-    "title": "The rise and fall of IBM's 4 Pi aerospace computers: an illustrated history",
-    "link": "https://www.righto.com/2026/03/ibm-4-pi-computer-history.html",
-    "summary": "<p>Article URL: <a href=\"https://www.righto.com/2026/03/ibm-4-pi-computer-history.html\">https://www.righto.com/2026/03/ibm-4-pi-computer-history.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47564579\">https://news.ycombinator.com/item?id=47564579</a></p>\n<p>Points: 70</p>\n<p># Comments: 20</p>",
-    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
-    "published": "2026-03-29T16:26:55+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n- The **IBM 4 Pi** series adapted the **System/360 architecture** for aerospace, providing a standardized instruction set and software compatibility for military and space applications.\n- These systems utilized **radiation-hardened components** and specialized read-only storage (ROS) to ensure high reliability in extreme environments like low-earth orbit.\n- The architecture evolved from 16-bit to 32-bit processing, successfully bridging the gap between **terrestrial mainframes** and miniaturized, ruggedized flight hardware.\n- Its deployment in the **Space Shuttle** and B-52 bomber established the standard for fault-tolerant, modular computing in critical avionics systems.",
-      "key_results": [
-        "Successful miniaturization of S/360 mainframe logic for aerospace use.",
-        "Provided the primary flight control for the Space Shuttle via the AP-101 model.",
-        "Integrated magnetic core memory transitioning to semiconductor memory over its lifecycle.",
-        "Achieved significant weight and power reductions compared to contemporary vacuum-tube systems.",
-        "Standardized military avionics under a unified software development ecosystem."
-      ],
-      "relevance_score": 2,
-      "signal_type": "Engineering Blog",
-      "one_sentence_takeaway": "Ken Shirriff chronicles how IBM adapted mainframe architectures into the 4 Pi series to power historic aerospace missions.",
-      "lead_institution": "Righto.com",
-      "tags": [
-        "Aerospace Computing",
-        "IBM 4 Pi",
-        "Computer History",
-        "System/360",
-        "Hardware Architecture"
-      ]
-    }
-  },
-  {
-    "title": "Key E-3 AWACS Damaged in Iranian Attack",
-    "link": "https://www.airandspaceforces.com/key-e-3-awacs-aircraft-damaged-iranian-attack-saudi-air-base/",
-    "summary": "<p>Article URL: <a href=\"https://www.airandspaceforces.com/key-e-3-awacs-aircraft-damaged-iranian-attack-saudi-air-base/\">https://www.airandspaceforces.com/key-e-3-awacs-aircraft-damaged-iranian-attack-saudi-air-base/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47562927\">https://news.ycombinator.com/item?id=47562927</a></p>\n<p>Points: 43</p>\n<p># Comments: 14</p>",
-    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
-    "published": "2026-03-29T13:21:00+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n* Iranian forces conducted a coordinated missile and drone strike targeting the **Prince Sultan Air Base** in Saudi Arabia.\n* At least one **E-3 Sentry (AWACS)** aircraft, a vital asset for airborne early warning and command, was damaged during the engagement.\n* The attack highlights the increasing vulnerability of high-value, centralized **aerial command-and-control architecture** to long-range precision strikes.\n* The impact involves a localized degradation of **airspace surveillance** capabilities and a shift in the regional security posture.",
-      "key_results": [
-        "Iranian missiles and drones struck a major Saudi air base.",
-        "A US-manufactured E-3 AWACS aircraft sustained physical damage.",
-        "The strike demonstrates a significant escalation in regional kinetic capabilities.",
-        "Air defense systems at the site were partially bypassed or overwhelmed.",
-        "Damage assessments are ongoing to determine the operational status of the fleet."
-      ],
-      "relevance_score": 1,
-      "signal_type": "General News",
-      "one_sentence_takeaway": "Air and Space Forces Magazine reports that an Iranian strike on a Saudi air base damaged a critical AWACS aircraft.",
-      "lead_institution": "Air & Space Forces Magazine",
-      "tags": [
-        "Military Aviation",
-        "Geopolitics",
-        "Defense Industry",
-        "E-3 AWACS",
-        "Regional Security"
       ]
     }
   },
