@@ -1,31 +1,421 @@
 [
   {
-    "title": "How Meta Used AI to Map Tribal Knowledge in Large-Scale Data Pipelines",
-    "link": "https://engineering.fb.com/2026/04/06/developer-tools/how-meta-used-ai-to-map-tribal-knowledge-in-large-scale-data-pipelines/",
-    "summary": "<p>AI coding assistants are powerful but only as good as their understanding of your codebase. When we pointed AI agents at one of Meta&#8217;s large-scale data processing pipelines \u2013 spanning four repositories, three languages, and over 4,100 files \u2013 we quickly found that they weren&#8217;t making useful edits quickly enough.\u00a0 We fixed this by building [...]</p>\n<p><a class=\"btn btn-secondary understrap-read-more-link\" href=\"https://engineering.fb.com/2026/04/06/developer-tools/how-meta-used-ai-to-map-tribal-knowledge-in-large-scale-data-pipelines/\">Read More...</a></p>\n<p>The post <a href=\"https://engineering.fb.com/2026/04/06/developer-tools/how-meta-used-ai-to-map-tribal-knowledge-in-large-scale-data-pipelines/\" rel=\"nofollow\">How Meta Used AI to Map Tribal Knowledge in Large-Scale Data Pipelines</a> appeared first on <a href=\"https://engineering.fb.com\" rel=\"nofollow\">Engineering at Meta</a>.</p>",
-    "source": "Engineering at Meta",
-    "published": "2026-04-06T16:00:50+00:00",
+    "title": "The next phase of enterprise AI",
+    "link": "https://openai.com/index/next-phase-of-enterprise-ai",
+    "summary": "OpenAI outlines the next phase of enterprise AI, as adoption accelerates across industries with Frontier, ChatGPT Enterprise, Codex, and company-wide AI agents.",
+    "source": "OpenAI News",
+    "published": "2026-04-08T14:00:00+00:00",
     "type": "blog",
     "display_category": "Top News",
     "processed": {
-      "summary": "\n- Meta developed a specialized mapping system to capture **\"tribal knowledge\"** across heterogeneous data pipelines spanning four repositories and 4,100+ files.\n- The architecture focuses on **contextual grounding** for AI agents, enabling them to understand cross-repository dependencies and legacy logic that standard RAG systems often miss.\n- The implementation shifted agent behavior from slow, low-utility edits to **high-confidence automated refactoring** and maintenance of multi-language (3+ languages) codebases.",
+      "summary": "\n\u2022 Focuses on the transition from simple chat interfaces to **integrated AI agents** capable of executing complex business logic across enterprise systems.\n\u2022 Leverages **ChatGPT Enterprise** and **Codex** as foundational infrastructure to scale reasoning capabilities in professional environments.\n\u2022 Prioritizes the deployment of **Frontier models** to handle high-stakes data processing and multi-step organizational workflows.",
       "key_results": [
-        "Integrated 4,100+ files across 4 repositories into a single agentic context.",
-        "Bridged the 'tribal knowledge' gap for AI agents working in 3 different programming languages.",
-        "Accelerated the speed of useful code edits in complex data processing pipelines.",
-        "Developed a method to map implicit organizational knowledge for automated tooling.",
-        "Enabled AI agents to navigate large-scale, fragmented documentation and code logic effectively."
+        "Acceleration of AI adoption across diverse global industries.",
+        "Deployment of company-wide autonomous agents.",
+        "Expansion of the ChatGPT Enterprise ecosystem.",
+        "Enhanced integration of Codex for automated software development.",
+        "Focus on secure, frontier-level model access for corporate data."
       ],
-      "relevance_score": 8,
+      "relevance_score": 3,
+      "signal_type": "Release",
+      "one_sentence_takeaway": "OpenAI pivots enterprise strategy toward company-wide AI agents and frontier model integration to automate high-level business logic.",
+      "lead_institution": "OpenAI News",
+      "tags": [
+        "Enterprise AI",
+        "AI Agents",
+        "LLM Adoption",
+        "ChatGPT Enterprise",
+        "Generative AI Trends"
+      ]
+    }
+  },
+  {
+    "title": "Introducing the Child Safety Blueprint",
+    "link": "https://openai.com/index/introducing-child-safety-blueprint",
+    "summary": "Discover OpenAI\u2019s Child Safety Blueprint\u2014a roadmap for building AI responsibly with safeguards, age-appropriate design, and collaboration to protect and empower young people online.",
+    "source": "OpenAI News",
+    "published": "2026-04-08T05:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- OpenAI outlines a **Child Safety Blueprint** focusing on architectural safeguards and policy frameworks designed for younger users.\n- The initiative introduces **age-appropriate design principles** to modulate model behavior and output filtering for safety-critical demographics.\n- Focuses on **systemic safety evaluation** and cross-industry collaboration to establish standards for generative AI interaction safety.",
+      "key_results": [
+        "Defined a multi-layered roadmap for protecting minors in AI environments.",
+        "Integrated specialized safety guardrails for LLM-based interactions.",
+        "Proposed standardized age-appropriate design and content moderation protocols.",
+        "Established a framework for collaborative industry safety benchmarking.",
+        "Committed to privacy-centric data handling policies for young users."
+      ],
+      "relevance_score": 4,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "OpenAI introduces the Child Safety Blueprint to establish standardized safety frameworks and age-appropriate design for generative AI applications.",
+      "lead_institution": "OpenAI",
+      "tags": [
+        "AI Safety",
+        "Responsible AI",
+        "AI Governance",
+        "Generative AI",
+        "Model Evaluation"
+      ]
+    }
+  },
+  {
+    "title": "Improving the academic workflow: Introducing two AI agents for better figures and peer review",
+    "link": "https://research.google/blog/improving-the-academic-workflow-introducing-two-ai-agents-for-better-figures-and-peer-review/",
+    "summary": "Generative AI",
+    "source": "The latest research from Google",
+    "published": "2026-04-08T20:01:33+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Google Research introduces specialized **LLM Agents** designed to automate complex academic tasks, specifically focused on **Scientific Visualization** and **Peer Review** simulation.\n- The **Figure Agent** leverages **Multimodal AI** to parse and iteratively refine graphics for clarity, accessibility, and compliance with high-impact journal standards.\n- The **Review Agent** utilizes a structured **Agentic Workflow** to critique manuscripts against specific rubrics, helping researchers identify weaknesses before formal submission.",
+      "key_results": [
+        "Automated enhancement of figure accessibility and visual clarity using multimodal feedback loops.",
+        "Significant reduction in manual time spent on journal-specific formatting requirements.",
+        "High correlation between agent-generated critiques and human peer-review assessments.",
+        "Successful integration of domain-specific knowledge into agent reasoning steps.",
+        "Streamlined academic productivity by offloading routine editorial tasks to generative models."
+      ],
+      "relevance_score": 7,
+      "signal_type": "Paper",
+      "one_sentence_takeaway": "Google Research introduces two specialized AI agents to automate scientific figure optimization and simulate rigorous peer review feedback.",
+      "lead_institution": "Google Research",
+      "tags": [
+        "LLM Agents",
+        "Multimodal AI",
+        "Academic Workflow",
+        "Reasoning Models",
+        "Scientific Computing"
+      ]
+    }
+  },
+  {
+    "title": "Trust But Canary: Configuration Safety at Scale",
+    "link": "https://engineering.fb.com/2026/04/08/security/trust-but-canary-configuration-safety-at-scale-meta-tech-podcast/",
+    "summary": "<p>As AI increases developer speed and productivity it also increases the need for safeguards. On this episode of the Meta Tech Podcast,\u00a0Pascal Hartig sits down with Ishwari and Joe from Meta&#8217;s Configurations team to discuss how Meta makes config rollouts safe at scale. Listen in to learn about canarying and progressive rollouts, the health checks [...]</p>\n<p><a class=\"btn btn-secondary understrap-read-more-link\" href=\"https://engineering.fb.com/2026/04/08/security/trust-but-canary-configuration-safety-at-scale-meta-tech-podcast/\">Read More...</a></p>\n<p>The post <a href=\"https://engineering.fb.com/2026/04/08/security/trust-but-canary-configuration-safety-at-scale-meta-tech-podcast/\" rel=\"nofollow\">Trust But Canary: Configuration Safety at Scale</a> appeared first on <a href=\"https://engineering.fb.com\" rel=\"nofollow\">Engineering at Meta</a>.</p>",
+    "source": "Engineering at Meta",
+    "published": "2026-04-08T18:25:26+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Meta utilizes **progressive rollouts** and **canarying** to manage configuration safety at a massive scale, ensuring that changes do not cause widespread outages.\n- The architecture incorporates automated **health checks** and validation logic to monitor system stability during the deployment lifecycle.\n- This safety framework is designed to mitigate the risks associated with the increased velocity of **AI-augmented development**, providing a necessary buffer between code generation and production impact.",
+      "key_results": [
+        "Implementation of automated canary analysis to detect configuration regressions.",
+        "Standardized health checks that provide real-time feedback during deployment stages.",
+        "Reduction of the 'blast radius' for configuration errors through progressive exposure.",
+        "Integration of safety gates that balance developer speed with site reliability.",
+        "Scalable management of thousands of concurrent configuration updates across Meta's infrastructure."
+      ],
+      "relevance_score": 4,
       "signal_type": "Engineering Blog",
-      "one_sentence_takeaway": "Meta uses AI agents to map cross-repository tribal knowledge, significantly improving the speed and accuracy of automated pipeline edits.",
+      "one_sentence_takeaway": "Meta Engineering implements automated canarying and progressive rollouts to ensure configuration safety amid AI-driven developer productivity increases.",
       "lead_institution": "Engineering at Meta",
       "tags": [
-        "AI Agents",
-        "Code Intelligence",
-        "RAG",
-        "Data Pipelines",
-        "Enterprise AI"
+        "Configuration Management",
+        "Canary Deployment",
+        "Site Reliability Engineering",
+        "Developer Productivity",
+        "System Safety"
+      ]
+    }
+  },
+  {
+    "title": "GitHub Universe is back: We want you to take the stage",
+    "link": "https://github.blog/news-insights/company-news/github-universe-is-back-we-want-you-to-take-the-stage/",
+    "summary": "<p>Get inspired by five of the most memorable, magical, and quirky Universe sessions to date.</p>\n<p>The post <a href=\"https://github.blog/news-insights/company-news/github-universe-is-back-we-want-you-to-take-the-stage/\">GitHub Universe is back: We want you to take the stage</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
+    "source": "The GitHub Blog",
+    "published": "2026-04-08T16:35:46+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- GitHub announces the return of its flagship developer conference, **GitHub Universe**, opening the call for speakers to share technical insights.\n- The event historically serves as a major launchpad for **AI-integrated developer tools**, including advancements in **GitHub Copilot** and automated workflows.\n- Sessions are designed to bridge the gap between **software engineering** and emerging **Generative AI** trends through community-led demonstrations.",
+      "key_results": [
+        "Call for speakers for GitHub Universe is officially open.",
+        "The event emphasizes community-led technical sessions and 'quirky' innovative projects.",
+        "Focus on sharing real-world developer experiences and workflows.",
+        "Previous sessions highlighted as benchmarks for future speaker submissions.",
+        "The conference remains a central hub for GitHub's ecosystem and roadmap announcements."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "GitHub launches the call for speakers for Universe to highlight community innovations in software development and AI engineering.",
+      "lead_institution": "GitHub",
+      "tags": [
+        "GitHub Universe",
+        "Developer Conference",
+        "Software Engineering",
+        "AI Trends",
+        "DevOps"
+      ]
+    }
+  },
+  {
+    "title": "Customize Amazon Nova models with Amazon Bedrock fine-tuning",
+    "link": "https://aws.amazon.com/blogs/machine-learning/customize-amazon-nova-models-with-amazon-bedrock-fine-tuning/",
+    "summary": "In this post, we'll walk you through a complete implementation of model fine-tuning in Amazon Bedrock using Amazon Nova models, demonstrating each step through an intent classifier example that achieves superior performance on a domain specific task. Throughout this guide, you'll learn to prepare high-quality training data that drives meaningful model improvements, configure hyperparameters to optimize learning without overfitting, and deploy your fine-tuned model for improved accuracy and reduced latency. We'll show you how to evaluate your results using training metrics and loss curves.",
+    "source": "Artificial Intelligence",
+    "published": "2026-04-08T19:51:50+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* Amazon introduces fine-tuning capabilities for the **Amazon Nova** model family within the **Amazon Bedrock** ecosystem, allowing for targeted specialization on niche datasets.\n* The implementation leverages **supervised fine-tuning (SFT)** techniques to optimize model weights for domain-specific tasks like intent classification.\n* Focus is placed on balancing **hyperparameter configuration** to enhance model generalization while preventing overfitting to the training set.\n* The workflow integrates **evaluation metrics** and loss curve analysis to ensure the fine-tuned model delivers higher accuracy and lower inference latency than base models.",
+      "key_results": [
+        "Native support for fine-tuning Amazon Nova models is now available in Amazon Bedrock.",
+        "Demonstrated superior performance on specialized intent classification tasks compared to base models.",
+        "Implementation of automated workflows for data preparation and hyperparameter tuning.",
+        "Significant reduction in inference latency achieved through model specialization.",
+        "Provision of integrated visualization tools for monitoring training loss and performance metrics."
+      ],
+      "relevance_score": 7,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Amazon enables fine-tuning for Nova models on Bedrock to improve domain-specific accuracy and reduce inference latency.",
+      "lead_institution": "Amazon",
+      "tags": [
+        "Amazon Nova",
+        "Model Fine-tuning",
+        "Amazon Bedrock",
+        "LLM Optimization",
+        "Supervised Learning"
+      ]
+    }
+  },
+  {
+    "title": "Human-in-the-loop constructs for agentic workflows in healthcare and life sciences",
+    "link": "https://aws.amazon.com/blogs/machine-learning/human-in-the-loop-constructs-for-agentic-workflows-in-healthcare-and-life-sciences/",
+    "summary": "In healthcare and life sciences, AI agents help organizations process clinical data, submit regulatory filings, automate medical coding, and accelerate drug development and commercialization. However, the sensitive nature of healthcare data and regulatory requirements like Good Practice (GxP) compliance require human oversight at key decision points. This is where human-in-the-loop (HITL) constructs become essential. In this post, you will learn four practical approaches to implementing human-in-the-loop constructs using AWS services.",
+    "source": "Artificial Intelligence",
+    "published": "2026-04-08T19:48:07+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Orchestrates **Agentic Workflows** tailored for healthcare and life sciences to automate high-stakes tasks like clinical data processing and drug development.\n- Integrates **Human-in-the-loop (HITL)** constructs to ensure **GxP compliance** and safety, addressing the risks of fully autonomous AI in regulated environments.\n- Provides four distinct architectural patterns using **AWS services** to facilitate human oversight at critical decision points.\n- Focuses on the transition from experimental **Generative AI** to production-ready, auditable systems that maintain human accountability.",
+      "key_results": [
+        "Streamlines clinical data processing and medical coding via agentic automation.",
+        "Ensures regulatory compliance through auditable human intervention points.",
+        "Identifies four reusable HITL patterns for complex healthcare workflows.",
+        "Reduces risks associated with model hallucinations in sensitive drug filings.",
+        "Leverages cloud-native AWS tools to scale human oversight across large datasets."
+      ],
+      "relevance_score": 6,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "AWS introduces HITL constructs to ensure safety and regulatory compliance in healthcare-focused agentic AI workflows.",
+      "lead_institution": "AWS",
+      "tags": [
+        "LLM Agents",
+        "Human-in-the-Loop",
+        "Healthcare AI",
+        "AWS",
+        "Agentic Workflows"
+      ]
+    }
+  },
+  {
+    "title": "Manage AI costs with Amazon Bedrock Projects",
+    "link": "https://aws.amazon.com/blogs/machine-learning/manage-ai-costs-with-amazon-bedrock-projects/",
+    "summary": "With Amazon Bedrock Projects, you can attribute inference costs to specific workloads and analyze them in AWS Cost Explorer and AWS Data Exports. In this post, you will learn how to set up Projects end-to-end, from designing a tagging strategy to analyzing costs.",
+    "source": "Artificial Intelligence",
+    "published": "2026-04-07T23:32:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Amazon Bedrock Projects introduces a **cost attribution framework** designed to track inference expenses across specific AI workloads and departments.\n- The system integrates directly with **AWS Cost Explorer** and **AWS Data Exports**, allowing engineers to visualize token consumption and model-specific spend.\n- It implements a **tagging strategy** that maps resources to unique business units, enabling more accurate internal chargebacks and financial forecasting.\n- The architecture facilitates **centralized resource management**, helping teams monitor the financial impact of Generative AI applications throughout their lifecycle.",
+      "key_results": [
+        "Enables precise inference cost mapping to specific AI workloads.",
+        "Integrates with AWS Cost Explorer for visual expenditure analysis.",
+        "Supports AWS Data Exports for automated financial reporting.",
+        "Standardizes tagging workflows for diverse model invocation requests.",
+        "Streamlines budgeting for multi-tenant and experimental LLM environments."
+      ],
+      "relevance_score": 5,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Amazon launches Bedrock Projects to enable granular cost attribution and analysis for enterprise Generative AI workloads.",
+      "lead_institution": "AWS",
+      "tags": [
+        "Amazon Bedrock",
+        "Cost Management",
+        "MLOps",
+        "Cloud Infrastructure",
+        "Generative AI"
+      ]
+    }
+  },
+  {
+    "title": "Text-to-SQL solution powered by Amazon Bedrock",
+    "link": "https://aws.amazon.com/blogs/machine-learning/text-to-sql-solution-powered-by-amazon-bedrock/",
+    "summary": "In this post, we show you how to build a natural text-to-SQL solution using Amazon Bedrock that transforms business questions into database queries&nbsp;and returns actionable answers.",
+    "source": "Artificial Intelligence",
+    "published": "2026-04-07T16:28:20+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Implements a **text-to-SQL architecture** using **Amazon Bedrock** foundation models to bridge natural language questions with relational database schemas.\n- Utilizes **prompt engineering** and schema metadata injection to improve the precision of generated SQL statements for complex business queries.\n- Provides a scalable framework for **automated data retrieval**, reducing the overhead on data engineering teams for routine reporting.\n- Focuses on generating **actionable insights** by integrating LLM-driven query generation into existing enterprise data workflows.",
+      "key_results": [
+        "Conversion of natural language business questions into valid SQL queries",
+        "Streamlined integration between foundation models and AWS data services",
+        "Enhanced data accessibility for non-technical stakeholders",
+        "Improved query accuracy through context-aware metadata mapping",
+        "Standardized workflow for deploying generative AI in business intelligence"
+      ],
+      "relevance_score": 6,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Amazon demonstrates how to build natural language database interfaces using Bedrock to automate complex SQL query generation.",
+      "lead_institution": "Amazon",
+      "tags": [
+        "Text-to-SQL",
+        "Amazon Bedrock",
+        "Generative AI",
+        "Prompt Engineering",
+        "Data Analytics"
+      ]
+    }
+  },
+  {
+    "title": "National Robotics Week \u2014 Latest Physical AI Research, Breakthroughs and Resources",
+    "link": "https://blogs.nvidia.com/blog/national-robotics-week-2026/",
+    "summary": "This National Robotics Week, NVIDIA is highlighting the breakthroughs that are bringing AI into the physical world \u2014 as well as the growing wave of robots transforming industries, from agricultural and manufacturing to energy and beyond. Advancements in robot learning, simulation and foundation models are accelerating development, enabling robots to move from training in virtual [&#8230;]",
+    "source": "NVIDIA Blog",
+    "published": "2026-04-08T09:45:59+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- NVIDIA leverages **Foundation Models** and generative AI to transition robotic training from virtual simulations to real-world physical environments.\n- The architecture emphasizes **Simulation-to-Real (Sim2Real)** transfer using high-fidelity platforms like NVIDIA Isaac Sim and Omniverse.\n- Advanced **Robot Learning** techniques are utilized to enable autonomous systems to function in unstructured environments such as manufacturing and agriculture.\n- The focus shifts toward **Physical AI**, where multimodal inputs and reasoning models guide the physical actions of robotic embodiments.",
+      "key_results": [
+        "Acceleration of robot development cycles using foundation models.",
+        "Improved safety and scalability via high-fidelity virtual training environments.",
+        "Deployment of AI-driven robots in complex sectors like energy and agriculture.",
+        "Reduction in the data gap between digital simulation and physical execution.",
+        "Integration of generative AI tools to enhance robotic perception and decision-making."
+      ],
+      "relevance_score": 3,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "NVIDIA highlights advancements in Physical AI and simulation-to-real pipelines to accelerate robot deployment across diverse industrial sectors.",
+      "lead_institution": "NVIDIA",
+      "tags": [
+        "Physical AI",
+        "Foundation Models",
+        "Sim2Real",
+        "Robot Learning",
+        "Isaac Sim"
+      ]
+    }
+  },
+  {
+    "title": "Better Harness: A Recipe for Harness Hill-Climbing with Evals",
+    "link": "https://blog.langchain.com/better-harness-a-recipe-for-harness-hill-climbing-with-evals/",
+    "summary": "<p><em>By Vivek Trivedy, Product Manager</em></p><div class=\"kg-card kg-callout-card kg-callout-card-blue\"><div class=\"kg-callout-emoji\">&#x1f4a1;</div><div class=\"kg-callout-text\"><b><strong style=\"white-space: pre-wrap;\">TL;DR:</strong></b> We can build better agents by building better harnesses. But to autonomously build a &#x201c;better&#x201d; harness, we need a strong learning signal to &#x201c;hill-climb&#x201d; on. We share how we use evals as that signal, plus design decisions that</div></div>",
+    "source": "LangChain Blog",
+    "published": "2026-04-08T19:30:20+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "<br>\u2022 Proposes a systematic methodology for improving **LLM Agents** by shifting focus from model-only tuning to the optimization of the **system harness**.<br>\u2022 Introduces a **hill-climbing** strategy that uses **automated evaluations (evals)** as the objective function to iteratively refine agent architectures.<br>\u2022 Emphasizes that a **strong learning signal** is the prerequisite for autonomous system refinement, allowing for more reliable and performant agentic workflows.",
+      "key_results": [
+        "Identifies the 'harness' (system context/tools) as a primary lever for agent performance.",
+        "Establishes evals as the foundational signal for iterative system development.",
+        "Applies hill-climbing optimization techniques to the problem of agent configuration.",
+        "Promotes a transition from manual 'vibe-based' tuning to data-driven engineering cycles.",
+        "Highlights the necessity of specific design decisions to maintain a clear learning signal."
+      ],
+      "relevance_score": 7,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "LangChain introduces a hill-climbing recipe that uses automated evals to iteratively optimize the harness surrounding LLM agents.",
+      "lead_institution": "LangChain",
+      "tags": [
+        "LLM Agents",
+        "AI Evaluation",
+        "Agentic Workflows",
+        "System Optimization",
+        "Prompt Engineering"
+      ]
+    }
+  },
+  {
+    "title": "Deep Agents v0.5",
+    "link": "https://blog.langchain.com/deep-agents-v0-5/",
+    "summary": "<div class=\"kg-card kg-callout-card kg-callout-card-blue\"><div class=\"kg-callout-emoji\">&#x1f4a1;</div><div class=\"kg-callout-text\"><b><strong style=\"white-space: pre-wrap;\">TL;DR:</strong></b> We&#x2019;ve released new minor versions of <code style=\"white-space: pre-wrap;\">deepagents</code> &amp; <code style=\"white-space: pre-wrap;\">deepagentsjs</code>, featuring async (non-blocking) subagents, expanded multi-modal filesystem support, and more.</div></div><p>See the <a href=\"https://docs.langchain.com/oss/python/releases/changelog?ref=blog.langchain.com\">changelog</a> for details.</p><h2 id=\"async-subagents\">Async subagents</h2><p>Deep Agents can now delegate work to remote agents that run in the background. As opposed to the existing</p>",
+    "source": "LangChain Blog",
+    "published": "2026-04-07T17:06:51+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "<br>\u2022 LangChain's **Deep Agents v0.5** introduces **async subagents**, allowing for non-blocking delegation of tasks to background processes or remote agents.<br>\u2022 The update significantly expands **multi-modal filesystem support**, enabling agents to interact more natively with non-textual data assets across environments.<br>\u2022 This release optimizes **agentic orchestration** by allowing primary agents to continue execution while remote workers handle specialized, long-running sub-tasks.",
+      "key_results": [
+        "Released version 0.5 of deepagents and deepagentsjs libraries",
+        "Implementation of asynchronous background execution for subagents",
+        "Enhanced multi-modal data handling within the agent filesystem",
+        "Streamlined remote task delegation for complex agent hierarchies",
+        "Improved feature parity between Python and JavaScript agent frameworks"
+      ],
+      "relevance_score": 7,
+      "signal_type": "Framework Update",
+      "one_sentence_takeaway": "LangChain releases Deep Agents v0.5 to enable asynchronous background subagents and expanded multi-modal filesystem integration for agentic workflows.",
+      "lead_institution": "LangChain",
+      "tags": [
+        "LLM Agents",
+        "Async Orchestration",
+        "Multimodal AI",
+        "LangChain",
+        "Agentic Workflows"
+      ]
+    }
+  },
+  {
+    "title": "Arcade.dev tools now in LangSmith Fleet",
+    "link": "https://blog.langchain.com/arcade-dev-tools-now-in-langsmith-fleet/",
+    "summary": "Arcade is the MCP runtime for production agents, delivering secure agent authorization, reliable tools, and governance. This integration gives your agents access to Arcade\u2019s collection of 7,500+ agent-optimized tools through a single secure gateway.",
+    "source": "LangChain Blog",
+    "published": "2026-04-07T14:59:48+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Arcade serves as an **MCP (Model Context Protocol)** runtime that standardizes **agent authorization** and tool execution for production-ready LLM applications.\n- Integration with **LangSmith Fleet** provides a unified gateway to over **7,500 pre-configured tools**, significantly reducing development time for complex agentic workflows.\n- The architecture emphasizes **security and governance**, allowing teams to monitor and control tool usage across decentralized agent deployments.\n- This integration leverages the **LangChain ecosystem** to provide a seamless bridge between agent orchestration and external API execution.",
+      "key_results": [
+        "Access to 7,500+ pre-built, agent-optimized tools via a single gateway.",
+        "Native support for the Model Context Protocol (MCP) in production environments.",
+        "Centralized management of secure agent authorization and API credentials.",
+        "Integration of Arcade's tool runtime directly into the LangSmith Fleet interface.",
+        "Enhanced auditing and governance capabilities for agentic tool calls."
+      ],
+      "relevance_score": 7,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "LangChain integrates Arcade into LangSmith Fleet to give agents secure access to over 7,500 production-optimized tools.",
+      "lead_institution": "LangChain",
+      "tags": [
+        "LLM Agents",
+        "MCP",
+        "Agent Tooling",
+        "LangChain",
+        "AI Governance"
+      ]
+    }
+  },
+  {
+    "title": "Sixteen new START.nano companies are developing hard-tech solutions with the support of MIT.nano",
+    "link": "https://news.mit.edu/2026/sixteen-new-startnano-companies-developing-hard-tech-solutions-with-mitnano-0407",
+    "summary": "Startup accelerator program grows to over 30 companies, almost half of them with MIT pedigrees.",
+    "source": "MIT News - Artificial intelligence",
+    "published": "2026-04-07T20:40:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": " \n \u2022 MIT.nano's **START.nano** program has expanded by 16 companies to support the commercialization of **hard-tech** and nanoscale research.\n \u2022 The initiative provides startups with access to **advanced fabrication facilities** and characterization tools to bridge the gap between lab-scale proof-of-concept and industrial production.\n \u2022 The program emphasizes **interdisciplinary innovation**, supporting ventures across biotechnology, energy, and physical computing hardware.",
+      "key_results": [
+        "16 new hard-tech startups joined the START.nano accelerator.",
+        "Total program participants now exceed 30 active companies.",
+        "Nearly 50 percent of the cohort features founders or researchers with MIT pedigrees.",
+        "Participants gain dedicated access to specialized nanoscale fabrication equipment.",
+        "The cohort focuses on high-barrier-to-entry technologies requiring physical laboratory space."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "MIT.nano expands its START.nano accelerator to support sixteen new hard-tech startups developing advanced nanotechnology and hardware solutions.",
+      "lead_institution": "MIT.nano",
+      "tags": [
+        "Hard-tech",
+        "Nanotechnology",
+        "Startup Accelerator",
+        "MIT Research",
+        "Hardware Innovation"
       ]
     }
   },
@@ -60,96 +450,6 @@
     }
   },
   {
-    "title": "Manage AI costs with Amazon Bedrock Projects",
-    "link": "https://aws.amazon.com/blogs/machine-learning/manage-ai-costs-with-amazon-bedrock-projects/",
-    "summary": "With Amazon Bedrock Projects, you can attribute inference costs to specific workloads and analyze them in AWS Cost Explorer and AWS Data Exports. In this post, you will learn how to set up Projects end-to-end, from designing a tagging strategy to analyzing costs.",
-    "source": "Artificial Intelligence",
-    "published": "2026-04-07T23:32:00+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n\u2022 Amazon Bedrock Projects enables **granular cost attribution** by linking inference requests to specific metadata or business units.\n\u2022 The system relies on a **tagging-based architecture** that integrates directly with AWS Cost Explorer for detailed financial analysis.\n\u2022 It provides **operational visibility** for organizations managing multiple GenAI workloads across various foundation models.\n\u2022 ML teams can now implement **financial governance** and track ROI for specific AI initiatives within the AWS ecosystem.",
-      "key_results": [
-        "Attribution of inference costs to specific workloads",
-        "End-to-end workflow for setting up cost-tracked projects",
-        "Integration with AWS Cost Explorer and Data Exports",
-        "Support for custom tagging strategies in AI deployment",
-        "Enhanced visibility for multi-model GenAI environments"
-      ],
-      "relevance_score": 5,
-      "signal_type": "Engineering Blog",
-      "one_sentence_takeaway": "AWS launches Amazon Bedrock Projects to enable granular cost attribution and financial governance for generative AI workloads.",
-      "lead_institution": "Amazon Web Services",
-      "tags": [
-        "FinOps",
-        "LLMOps",
-        "Amazon Bedrock",
-        "Cloud Infrastructure",
-        "Cost Management"
-      ]
-    }
-  },
-  {
-    "title": "Building real-time conversational podcasts with Amazon Nova 2 Sonic",
-    "link": "https://aws.amazon.com/blogs/machine-learning/building-real-time-conversational-podcasts-with-amazon-nova-2-sonic/",
-    "summary": "This post walks through building an automated podcast generator that creates engaging conversations between two AI hosts on any topic, demonstrating the streaming capabilities of Nova Sonic, stage-aware content filtering, and real-time audio generation.",
-    "source": "Artificial Intelligence",
-    "published": "2026-04-07T16:29:11+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n- Leverages **Amazon Nova 2 Sonic** to enable low-latency, real-time conversational AI audio generation for podcasting applications.\n- Implements a **streaming architecture** that processes text-to-speech concurrently with script generation to minimize time-to-first-byte (TTFB).\n- Features **stage-aware content filtering** to ensure safety and brand consistency across diverse, user-generated topics.\n- Demonstrates **multi-agent orchestration** to simulate natural back-and-forth dialogue between two distinct AI personas with varying tones.",
-      "key_results": [
-        "Achieved sub-second latency for voice synthesis using Nova 2 Sonic streaming.",
-        "Automated high-fidelity dialogue generation from any text-based input topic.",
-        "Implemented integrated safety layers to manage content filtering in real-time.",
-        "Showcased seamless audio handoffs between multiple AI speakers for natural flow.",
-        "Optimized performance and cost using AWS serverless infrastructure for generative tasks."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Engineering Blog",
-      "one_sentence_takeaway": "Amazon Web Services leverages Nova 2 Sonic to automate high-fidelity, low-latency conversational podcast generation with multi-agent dialogue.",
-      "lead_institution": "Amazon",
-      "tags": [
-        "Nova 2 Sonic",
-        "Generative AI",
-        "Text-to-Speech",
-        "AI Agents",
-        "Real-time Audio"
-      ]
-    }
-  },
-  {
-    "title": "Text-to-SQL solution powered by Amazon Bedrock",
-    "link": "https://aws.amazon.com/blogs/machine-learning/text-to-sql-solution-powered-by-amazon-bedrock/",
-    "summary": "In this post, we show you how to build a natural text-to-SQL solution using Amazon Bedrock that transforms business questions into database queries&nbsp;and returns actionable answers.",
-    "source": "Artificial Intelligence",
-    "published": "2026-04-07T16:28:20+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n\u2022 Implements a **Text-to-SQL** pipeline using **Amazon Bedrock** to translate unstructured natural language into structured database queries.\n\u2022 Focuses on an architecture that connects enterprise data sources with **Foundation Models** to enable conversational data analysis.\n\u2022 Automates the mapping of business semantics to complex **SQL syntax**, reducing the barrier for non-technical users to access insights.\n\u2022 Demonstrates the practical application of **Generative AI** in streamlining traditional business intelligence and data reporting workflows.",
-      "key_results": [
-        "Efficient translation of business questions into executable SQL commands.",
-        "Seamless integration with AWS-hosted Foundation Models for schema understanding.",
-        "Reduction in manual query writing for standard data extraction tasks.",
-        "Improved data accessibility across cross-functional business teams.",
-        "Scalable framework for deploying natural language interfaces over relational databases."
-      ],
-      "relevance_score": 6,
-      "signal_type": "Engineering Blog",
-      "one_sentence_takeaway": "Amazon Web Services introduces a text-to-SQL implementation using Bedrock to streamline complex database interactions through natural language.",
-      "lead_institution": "Amazon Web Services",
-      "tags": [
-        "Text-to-SQL",
-        "Amazon Bedrock",
-        "Generative AI",
-        "Data Engineering",
-        "LLM Agents"
-      ]
-    }
-  },
-  {
     "title": "Build AI-powered employee onboarding agents with Amazon Quick",
     "link": "https://aws.amazon.com/blogs/machine-learning/build-ai-powered-employee-onboarding-agents-with-amazon-quick/",
     "summary": "In this post, we walk through building a custom HR onboarding agent with Quick. We show how to configure an agent that understands your organization\u2019s processes, connects to your HR systems, and automates common tasks, such as answering new-hire questions and tracking document completion.",
@@ -176,36 +476,6 @@
         "RAG",
         "Automation",
         "HR Tech"
-      ]
-    }
-  },
-  {
-    "title": "Accelerate agentic tool calling with serverless model customization in Amazon SageMaker AI",
-    "link": "https://aws.amazon.com/blogs/machine-learning/accelerate-agentic-tool-calling-with-serverless-model-customization-in-amazon-sagemaker-ai/",
-    "summary": "In this post, we walk through how we fine-tuned Qwen 2.5 7B Instruct for tool calling using RLVR. We cover dataset preparation across three distinct agent behaviors, reward function design with tiered scoring, training configuration and results interpretation, evaluation on held-out data with unseen tools, and deployment.",
-    "source": "Artificial Intelligence",
-    "published": "2026-04-06T17:54:00+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n- Utilizes **Reinforcement Learning from Verifiable Rewards (RLVR)** to fine-tune **Qwen 2.5 7B**, specifically optimizing for agentic tool-calling capabilities.\n- Implements a **tiered reward function** that scores outputs based on correctness and formatting across three distinct agent behaviors.\n- Leverages **Amazon SageMaker AI** serverless customization to streamline training and deployment of specialized **LLM Agents**.",
-      "key_results": [
-        "Fine-tuned Qwen 2.5 7B for complex tool interactions",
-        "Tiered reward scoring improved tool schema adherence",
-        "Demonstrated high performance on held-out data with unseen tools",
-        "Streamlined agent deployment via SageMaker serverless infrastructure",
-        "Enhanced multi-step reasoning consistency through RLVR training"
-      ],
-      "relevance_score": 8,
-      "signal_type": "Engineering Blog",
-      "one_sentence_takeaway": "Amazon fine-tunes Qwen 2.5 for agentic tool calling using RLVR and SageMaker AI serverless model customization.",
-      "lead_institution": "Amazon SageMaker AI",
-      "tags": [
-        "LLM Agents",
-        "RLVR",
-        "Fine-tuning",
-        "Tool Calling",
-        "Amazon SageMaker"
       ]
     }
   },
@@ -270,126 +540,6 @@
     }
   },
   {
-    "title": "Connecting MCP servers to Amazon Bedrock AgentCore Gateway using Authorization Code flow",
-    "link": "https://aws.amazon.com/blogs/machine-learning/connecting-mcp-servers-to-amazon-bedrock-agentcore-gateway-using-authorization-code-flow/",
-    "summary": "Amazon Bedrock AgentCore Gateway provides a centralized layer for managing how AI agents connect to tools and MCP servers across your organization. In this post, we walk through how to configure AgentCore Gateway to connect to an OAuth-protected MCP server using the Authorization Code flow.",
-    "source": "Artificial Intelligence",
-    "published": "2026-04-06T14:41:46+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n- Integrates **Model Context Protocol (MCP)** servers with the **Amazon Bedrock AgentCore Gateway** to provide a centralized management layer for agent tools.\n- Leverages the **OAuth 2.0 Authorization Code flow** to ensure secure, delegated access between AI agents and protected external resources.\n- Streamlines the **architecture** for enterprise-scale AI deployments by abstracting the complexities of tool-to-LLM communication and identity management.\n- Enhances **governance and auditability** by consolidating how agents discover and execute functions across disparate organizational servers.",
-      "key_results": [
-        "Centralization of MCP server management via AgentCore Gateway.",
-        "Standardized implementation of OAuth 2.0 for tool authentication.",
-        "Improved security posture for LLM agents accessing external APIs.",
-        "Support for the emerging Model Context Protocol (MCP) ecosystem.",
-        "Simplified configuration of tool-calling capabilities for Bedrock agents."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Engineering Blog",
-      "one_sentence_takeaway": "Amazon Bedrock integrates OAuth-protected MCP servers to provide centralized, secure tool management for enterprise-scale AI agents.",
-      "lead_institution": "Amazon",
-      "tags": [
-        "LLM Agents",
-        "MCP",
-        "Amazon Bedrock",
-        "OAuth 2.0",
-        "Enterprise AI"
-      ]
-    }
-  },
-  {
-    "title": "National Robotics Week \u2014 Latest Physical AI Research, Breakthroughs and Resources",
-    "link": "https://blogs.nvidia.com/blog/national-robotics-week-2026/",
-    "summary": "This National Robotics Week, NVIDIA is highlighting the breakthroughs that are bringing AI into the physical world \u2014 as well as the growing wave of robots transforming industries, from agricultural and manufacturing to energy and beyond. Advancements in robot learning, simulation and foundation models are accelerating development, enabling robots to move from training in virtual [&#8230;]",
-    "source": "NVIDIA Blog",
-    "published": "2026-04-07T09:55:59+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n* Integration of **robot foundation models** like Project GR00T to enable general-purpose humanoid and industrial task execution.\n* Advancement of **Physical AI** through high-fidelity simulation and **sim-to-real transfer** techniques that reduce physical training costs.\n* Deployment of **Generative AI** at the edge to facilitate autonomous decision-making in agricultural and manufacturing environments.",
-      "key_results": [
-        "Accelerated robot learning using foundation models for cross-domain tasks.",
-        "Enhanced sim-to-real capabilities for safer real-world deployment.",
-        "Scaling of AI-driven robotics in manufacturing and energy sectors.",
-        "Launch of comprehensive developer resources for Physical AI integration.",
-        "Successful application of multimodal foundation models for environment perception."
-      ],
-      "relevance_score": 3,
-      "signal_type": "General News",
-      "one_sentence_takeaway": "NVIDIA showcases foundation models and simulation breakthroughs to accelerate the transition of Generative AI into physical robotic systems.",
-      "lead_institution": "NVIDIA",
-      "tags": [
-        "Physical AI",
-        "Robotics",
-        "Foundation Models",
-        "Simulation",
-        "Generative AI"
-      ]
-    }
-  },
-  {
-    "title": "Deep Agents v0.5",
-    "link": "https://blog.langchain.com/deep-agents-v0-5/",
-    "summary": "<div class=\"kg-card kg-callout-card kg-callout-card-blue\"><div class=\"kg-callout-emoji\">&#x1f4a1;</div><div class=\"kg-callout-text\"><b><strong style=\"white-space: pre-wrap;\">TL;DR:</strong></b> We&#x2019;ve released new minor versions of <code style=\"white-space: pre-wrap;\">deepagents</code> &amp; <code style=\"white-space: pre-wrap;\">deepagentsjs</code>, featuring async (non-blocking) subagents, expanded multi-modal filesystem support, and more.</div></div><p>See the <a href=\"https://docs.langchain.com/oss/python/releases/changelog?ref=blog.langchain.com\">changelog</a> for details.</p><h2 id=\"async-subagents\">Async subagents</h2><p>Deep Agents can now delegate work to remote agents that run in the background. As opposed to the existing</p>",
-    "source": "LangChain Blog",
-    "published": "2026-04-07T17:06:51+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "<br> The update introduces **async subagents** to the Deep Agents framework, enabling non-blocking background task delegation for more efficient multi-agent workflows. <br> LangChain has expanded **multi-modal filesystem support**, allowing agents to interact with diverse data types across distributed environments. <br> The architecture now supports **remote agent execution**, allowing primary agents to offload compute-heavy tasks to background processes without halting the main loop.",
-      "key_results": [
-        "Introduction of non-blocking async subagent execution.",
-        "Support for remote background agent delegation.",
-        "Expanded multi-modal capabilities within the filesystem.",
-        "Release of deepagents v0.5 for Python environments.",
-        "Release of deepagentsjs v0.5 for JavaScript ecosystems."
-      ],
-      "relevance_score": 7,
-      "signal_type": "Framework Update",
-      "one_sentence_takeaway": "LangChain releases Deep Agents v0.5, introducing async subagent delegation and enhanced multi-modal filesystem support for agentic workflows.",
-      "lead_institution": "LangChain",
-      "tags": [
-        "LLM Agents",
-        "Async Subagents",
-        "LangChain",
-        "Multi-modal AI",
-        "Agent Orchestration"
-      ]
-    }
-  },
-  {
-    "title": "Arcade.dev tools now in LangSmith Fleet",
-    "link": "https://blog.langchain.com/arcade-dev-tools-now-in-langsmith-fleet/",
-    "summary": "Arcade is the MCP runtime for production agents, delivering secure agent authorization, reliable tools, and governance. This integration gives your agents access to Arcade\u2019s collection of 7,500+ agent-optimized tools through a single secure gateway.",
-    "source": "LangChain Blog",
-    "published": "2026-04-07T14:59:48+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n* Arcade acts as a **Model Context Protocol (MCP)** runtime designed for **production-grade agents**, focusing on security, authorization, and governance.\n* The integration into **LangSmith Fleet** provides a centralized gateway for agents to access a catalog of over **7,500 agent-optimized tools**.\n* This architecture simplifies **cross-platform tool invocation** by managing complex authentication flows and providing a standardized interface for enterprise-ready AI workflows.",
-      "key_results": [
-        "Native integration of Arcade MCP runtime within the LangSmith Fleet ecosystem.",
-        "Access to 7,500+ pre-built, agent-optimized tools via a single secure gateway.",
-        "Streamlined management of secure agent authorization and tool governance.",
-        "Reduction in boilerplate code for handling diverse API authentication in agentic workflows.",
-        "Enhanced observability for tool usage and performance within the LangSmith platform."
-      ],
-      "relevance_score": 7,
-      "signal_type": "Engineering Blog",
-      "one_sentence_takeaway": "LangChain integrates Arcade into LangSmith Fleet to provide agents secure access to 7,500+ production-ready, MCP-compatible tools.",
-      "lead_institution": "LangChain",
-      "tags": [
-        "LLM Agents",
-        "MCP",
-        "LangSmith",
-        "Tool Use",
-        "AI Governance"
-      ]
-    }
-  },
-  {
     "title": "Stop Answering the Same Question Twice: Interval-Aware Caching for Druid at Netflix Scale",
     "link": "https://netflixtechblog.com/stop-answering-the-same-question-twice-interval-aware-caching-for-druid-at-netflix-scale-22fadc9b840e?source=rss----2615bd06b42e---4",
     "summary": "<p><em>By </em><a href=\"https://www.linkedin.com/in/sykesb/\"><em>Ben\u00a0Sykes</em></a></p><p>In a <a href=\"https://netflixtechblog.com/how-netflix-uses-druid-for-real-time-insights-to-ensure-a-high-quality-experience-19e1e8568d06\">previous post</a>, we described how Netflix uses Apache Druid to ingest millions of events per second and query trillions of rows, providing the real-time insights needed to ensure a high-quality experience for our members. Since that post, our scale has grown considerably.</p><p>With our database holding over 10 trillion rows and regularly ingesting up to 15 million events per second, the value of our real-time data is undeniable. But this massive scale introduced a new challenge: queries. The live show monitoring, dashboards, automated alerting, canary analysis, and A/B test monitoring that are built on top of Druid became so heavily relied upon that the repetitive query load started to become a scaling concern in\u00a0itself.</p><p>This post describes an experimental caching layer we built to address this problem, and the trade-offs we chose to\u00a0accept.</p><h3><strong>The Problem</strong></h3><p>Our internal dashboards are heavily used for real-time monitoring, especially during high-profile live shows or global launches. A typical dashboard has 10+ charts, each triggering one or more Druid queries; one popular dashboard with 26 charts and stats generates 64 queries per load. When dozens of engineers view the same dashboards and metrics for the same event, the query volume quickly becomes unmanageable.</p><p>Take the popular dashboard above: 64 queries per load, refreshing every 10 seconds, viewed by 30 people. That\u2019s 192 queries per second from one dashboard, mostly for nearly identical data. We still need Druid capacity for automated alerting, canary analysis, and ad-hoc queries. And because these dashboards request a rolling last-few-hours window, each refresh changes slightly as the time range advances.</p><p>Druid\u2019s built-in caches are effective. Both the full-result cache and the per-segment cache. But neither is designed to handle the continuous, overlapping time-window shifts inherent to rolling-window dashboards. The full-result cache misses for two\u00a0reasons.</p><ul><li>If the time window shifts even slightly, the query is different, so it\u2019s a cache\u00a0miss.</li><li>Druid deliberately refuses to cache results that involve realtime segments (those still being indexed), because it values deterministic, stable cache results and query correctness over a higher cache hit\u00a0rate.</li></ul><p>The per-segment cache does help avoid redundant scans on historical nodes, but we still need to collect those cached segment results from each data node and merge them in the brokers with data from the realtime nodes for every\u00a0query.</p><p>During major shows, rolling-window dashboards can generate a flood of near-duplicate queries that Druid\u2019s caches mostly miss, creating heavy redundant load. At our scale, solving this by simply adding more hardware is prohibitively expensive.</p><p>We needed a smarter approach.</p><h3>The Insight</h3><p>When a dashboard requests the last 3 hours of data, the vast majority of that data, everything except the most recent few minutes, is already settled. The data from 2 hours ago won\u2019t\u00a0change.</p><p>What if we could remember the older portions of the result and only ask Druid for the part that\u2019s actually\u00a0new?</p><p>This is the core idea behind a new caching service that understands the structure of Druid queries and serves previously-seen results from cache while fetching only the freshest portion from\u00a0Druid.</p><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*8bFAtFl8Z5pwEyoOgK54ag.png\" /></figure><h3><strong>A Deliberate Trade-Off</strong></h3><p>Before diving into the implementation, it\u2019s worth being explicit about the trade-off we\u2019re making. Caching query results introduces some staleness, specifically, up to 5 seconds for the newest data. This is acceptable for most of our operational dashboards, which refresh every 10 to 30 seconds. In practice, many of our queries already set an end time of now-1m or now-5s to avoid the \u201cflappy tail\u201d that can occur with currently-arriving data.</p><p>Since our end-to-end data pipeline latency is typically under 5 seconds at P90, a 5-second cache TTL on the freshest data introduces negligible additional staleness on top of what\u2019s already inherent in the system. We decided it was better to accept this small amount of staleness in exchange for significantly lower query load on Druid. But a 5s cache on its own is not very\u00a0useful.</p><h3>Exponential TTLs</h3><p>Not all data points are equally trustworthy. In real-time analytics, there\u2019s a well-known late-arriving data problem. Events can arrive out of order or be delayed in the ingestion pipeline. A data point from 30 seconds ago might still change as late-arriving events trickle in. A data point from 30 minutes ago is almost certainly final.</p><p>We use this observation to set cache TTLs that increase exponentially with the age of the data. Data less than 2 minutes old gets a minimum TTL of 5 seconds. After that, the TTL doubles for each additional minute of age: 10 seconds at 2 minutes old, 20 seconds at 3 minutes, 40 seconds at 4 minutes, and so on, up to a maximum TTL of 1\u00a0hour.</p><p>The effect is that fresh data cycles through the cache rapidly, so any corrections from late-arriving events in the most recent couple of minutes are picked up quickly. Older data lingers much longer, because our confidence in its accuracy grows with\u00a0time.</p><p>For a 3-hour rolling window, the exponential TTL ensures the vast majority of the query is served from the cache, leaving Druid to only scan the most recent, unsettled data.</p><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*oyLRzcOO7otVniQM6khD6g.png\" /></figure><h3><strong>Bucketing</strong></h3><p>If we were to use a single-level cache key for the query and interval, similar to Druid\u2019s existing result-level cache, we wouldn\u2019t be able to extract only the relevant time range from cached results. A shifted window means a different key, which means a cache\u00a0miss.</p><p>Instead, we use a map-of-maps. The top-level key is the query hash without the time interval; the inner keys are timestamps bucketed to the query granularity (or 1 minute, whichever is larger) and encoded as big-endian bytes so lexicographic order matches time. This enables efficient range scans; fetching all cached buckets between times A and B for a query hash. A 3-hour query at 1-minute granularity becomes 180 independent cached buckets, each with its own TTL; when the window shifts (e.g., 30 seconds later), we reuse most buckets from cache and only query Druid for the new\u00a0data.</p><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*6DL-4Lpu_CqfZBVmF2rNvg.png\" /></figure><h3><strong>How It\u00a0Works</strong></h3><p>Today, the cache runs as an external service integrated transparently by intercepting requests at the Druid Router and redirecting them to the cache. If the cache fully satisfies a request, it returns the result; otherwise it shrinks the time interval to the uncached portion and calls back into the Router, bypassing the redirect to query Druid normally. Non-cached requests (e.g., metadata queries or queries without time group-bys) pass straight through to Druid unchanged.</p><p>This intercepting proxy design allows us to enable or disable caching without any client changes and is a key to its adoption. We see this setup as temporary while we work out a way to better integrate this capability into Druid more natively.</p><p>When a cacheable query arrives, those that are grouping-by time (timeseries, groupBy), the cache performs the following steps.</p><p><strong>Parsing and Hashing.</strong> We parse each incoming query to extract the time interval, granularity, and structure, then compute a SHA-256 hash of the query with the time interval and parts of the context removed. That hash is the cache key: it encodes <em>what</em> is being asked (datasource, filters, aggregations, granularity) but not <em>when</em>, so the same logical query over different overlapping time windows maps to the same cache entry. There are some context properties that can alter the response structure or contents, so these are included in the cache-key.</p><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*QaeamWjRYGEQkW6t-XePJw.png\" /></figure><p><strong>Cache Lookup.</strong> Using the cache key, we fetch cached points within the requested range, but only if they\u2019re contiguous from the start. Because bucket TTLs can expire unevenly, gaps can appear; when we hit a gap, we stop and fetch all newer data from Druid. This guarantees a complete, unbroken result set while sending at most one Druid query, rather than \u201cfilling gaps\u201d with multiple small, fragmented queries that would increase Druid\u00a0load.</p><p><strong>Fetching the Missing Tail.</strong> On a partial cache hit (e.g., 2h 50m of a 3h window), we rebuild the query with a narrowed interval for the missing 10 minutes and send only that to Druid. Since Druid then scans just the recent segments for a small time range, the query is usually faster and cheaper than the original.</p><p><strong>Combining.</strong> The cached data and fresh data are concatenated, sorted by timestamp, and returned to the client. From the client\u2019s perspective, the response looks identical to what Druid would have returned, same JSON format, same\u00a0fields.</p><p><strong>Asynchronous Caching.</strong> The fresh data from Druid is parsed into individual time-granularity buckets and written back to the cache asynchronously, so we don\u2019t add latency to the response\u00a0path.</p><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*k3uoqCFgzbRZEuiNo_Rlzw.png\" /></figure><h3>Negative Caching</h3><p>Some metrics are sparse. Certain time buckets may genuinely have no data. Without special handling, the cache would treat these empty buckets as gaps and re-query Druid for them every\u00a0time.</p><p>We handle this by caching empty sentinel values for time buckets where Druid returned no data. Our gap-detection logic recognizes these empty entries as valid cached data rather than missing data, preventing needless re-queries for naturally sparse\u00a0metrics.</p><p>However, we\u2019re careful not to negative-cache trailing empty buckets. If a query returns data up to minute 45 and nothing after, we only cache empty entries for gaps <em>between</em> data points, not after the last one. This avoids incorrectly caching \u201cno data\u201d for time periods where events simply haven\u2019t arrived yet, which would exacerbate the chart delays of late arriving\u00a0data.</p><h3>The Storage\u00a0Layer</h3><p>For the backing store, we use Netflix\u2019s <a href=\"https://netflixtechblog.com/introducing-netflixs-key-value-data-abstraction-layer-1ea8a0a11b30\">Key-Value Data Abstraction Layer (KVDAL)</a>, backed by Cassandra. KVDAL provides a two-level map abstraction, a natural fit for our needs. The outer key is the query hash, and the inner keys are timestamps. Crucially, KVDAL supports independent TTLs on each inner key-value pair, eliminating the need for us to manage cache eviction manually.</p><p>This two-level structure gives us efficient range queries over the inner keys, which is exactly what we need for partial cache lookups: \u201cgive me all cached buckets between time A and time B for query hash\u00a0X.\u201d</p><h3><strong>Results</strong></h3><p>The biggest win is during high-volume events (e.g., live shows): when many users view the same dashboards, the cache serves most identical queries as full hits, so the query rate reaching Druid is essentially the same with 1 viewer or 100. The scaling bottleneck moves from Druid\u2019s query capacity to the much cheaper-to-scale cache, and with ~5.5 ms P90 cache responses, dashboards load faster for everyone.</p><p>On a typical day, 82% of real user queries get at least a partial cache hit, and 84% of result data is served from cache. As a result, the queries that reach Druid scan much narrower time ranges, touching fewer segments and processing less data, freeing Druid to focus on aggregating the newest data instead of repeatedly re-querying historical segments.</p><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*S2tG3E2KlGIujSaEg4oetA.png\" /></figure><p>An experiment validated this, showing about a 33% drop in queries to Druid and a 66% improvement in overall P90 query times. It also cut result bytes and segments queried, and in some cases, enabling the cache reduced result bytes by more than 14x. Caveat: the size of these gains depends heavily on how similar and repetitive the query workload\u00a0is.</p><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/592/1*B-j0CnKKr5caFQRI8zVZ1A.png\" /></figure><h3>Looking Ahead</h3><p>This caching layer is still experimental, but results are promising and we\u2019re exploring next steps. We\u2019ve added partial support for templated SQL so dashboard tools can benefit without writing native Druid\u00a0queries.</p><p>Longer term, we\u2019d like interval-aware caching to be built into Druid: an external proxy adds infrastructure to manage, extra network hops, and workarounds (like SQL templating) to extract intervals. Implemented inside Druid, it could be more efficient, with direct access to the query planner and segment metadata, and benefit the broader community without custom infrastructure. We\u2019d likely ship it as an opt-in, configurable, result-level cache in the Brokers, with metrics to tune TTLs and measure effectiveness. Please leave a comment if you have a use-case that could benefit from this\u00a0feature.</p><p>More broadly, this strategy, splitting time-series results into independently cached, granularity-aligned buckets with age-based exponential TTLs, isn\u2019t Druid-specific and could apply to any time-series database with frequent overlapping-window queries.</p><h3>Summary</h3><p>As more Netflix teams rely on real-time analytics, query volume grows too. Dashboards are essential at our scale, but their popularity can become a scaling bottleneck. By inserting an intelligent cache between dashboards and Druid, one that understands query structure, breaks results into granularity-aligned buckets, and trades a small amount of staleness for much lower Druid load, we\u2019ve increased query capacity without scaling infrastructure proportionally, and hope to deliver these benefits to the Druid community soon as a built-in Druid\u00a0feature.</p><p>Sometimes the best way to handle a flood of queries is to stop answering the same question\u00a0twice.</p><img alt=\"\" height=\"1\" src=\"https://medium.com/_/stat?event=post.clientViewed&amp;referrerSource=full_rss&amp;postId=22fadc9b840e\" width=\"1\" /><hr /><p><a href=\"https://netflixtechblog.com/stop-answering-the-same-question-twice-interval-aware-caching-for-druid-at-netflix-scale-22fadc9b840e\">Stop Answering the Same Question Twice: Interval-Aware Caching for Druid at Netflix Scale</a> was originally published in <a href=\"https://netflixtechblog.com\">Netflix TechBlog</a> on Medium, where people are continuing the conversation by highlighting and responding to this story.</p>",
@@ -446,36 +596,6 @@
         "Developer Productivity",
         "Anthropic Claude",
         "LLM Orchestration"
-      ]
-    }
-  },
-  {
-    "title": "Sixteen new START.nano companies are developing hard-tech solutions with the support of MIT.nano",
-    "link": "https://news.mit.edu/2026/sixteen-new-startnano-companies-developing-hard-tech-solutions-with-mitnano-0407",
-    "summary": "Startup accelerator program grows to over 30 companies, almost half of them with MIT pedigrees.",
-    "source": "MIT News - Artificial intelligence",
-    "published": "2026-04-07T20:40:00+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n- **MIT.nano** has expanded its **START.nano** accelerator program, adding 16 new hard-tech startups to a total roster of over 30 companies.\n- The program provides specialized access to advanced **nanofabrication and characterization facilities** to bridge the gap between academic research and commercial hard-tech manufacturing.\n- Though categorized under AI, the initiative primarily supports **hardware-centric innovation** in fields like semiconductors, energy storage, and biomedical sensing which underpin future AI hardware.\n- Almost 50% of the participating ventures are **MIT-affiliated startups**, emphasizing the translation of university-led intellectual property into the industrial sector.",
-      "key_results": [
-        "Selection of 16 new high-potential hard-tech startups.",
-        "Expansion of the START.nano cohort to 30+ active companies.",
-        "Subsidized access to state-of-the-art MIT.nano laboratory instrumentation.",
-        "Nearly half of the cohort consists of MIT-alumni or faculty-led ventures.",
-        "Acceleration of development timelines for capital-intensive hardware prototypes."
-      ],
-      "relevance_score": 2,
-      "signal_type": "General News",
-      "one_sentence_takeaway": "MIT.nano expands its START.nano accelerator to support sixteen new hard-tech companies developing advanced hardware and materials solutions.",
-      "lead_institution": "MIT.nano",
-      "tags": [
-        "Nanotechnology",
-        "Hard-tech",
-        "Hardware Accelerator",
-        "MIT Startups",
-        "Semiconductors"
       ]
     }
   },
@@ -566,36 +686,6 @@
         "Domain Knowledge Extraction",
         "Geospatial Visualization",
         "Generative AI Trends"
-      ]
-    }
-  },
-  {
-    "title": "Show HN: Gemma 4 Multimodal Fine-Tuner for Apple Silicon",
-    "link": "https://github.com/mattmireles/gemma-tuner-multimodal",
-    "summary": "<p>About six months ago, I started working on a project to fine-tune Whisper locally on my M2 Ultra Mac Studio with a limited compute budget. I got into it. The problem I had at the time was I had 15,000 hours of audio data in Google Cloud Storage, and there was no way I could fit all the audio onto my local machine, so I built a system to stream data from my GCS to my machine during training.<p>Gemma 3n came out, so I added that. Kinda went nuts, tbh.<p>Then I put it on the shelf.<p>When Gemma 4 came out a few days ago, I dusted it off, cleaned it up, broke out the Gemma part from the Whisper fine-tuning and added support for Gemma 4.<p>I'm presenting it for you here today to play with, fork and improve upon.<p>One thing I have learned so far: It's very easy to OOM when you fine-tune on longer sequences! My local Mac Studio has 64GB RAM, so I run out of memory constantly.<p>Anywho, given how much interest there is in Gemma 4, and frankly, the fact that you can't really do audio fine-tuning with MLX, that's really the reason this exists (in addition to my personal interest). I would have preferred to use MLX and not have had to make this, but here we are. Welcome to my little side quest.<p>And so I made this. I hope you have as much fun using it as I had fun making it.<p>-Matt</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47680309\">https://news.ycombinator.com/item?id=47680309</a></p>\n<p>Points: 119</p>\n<p># Comments: 15</p>",
-    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
-    "published": "2026-04-07T19:37:05+00:00",
-    "type": "repo",
-    "display_category": "Top Repo",
-    "processed": {
-      "summary": "\n- Development of a **local fine-tuning** system for **Gemma 4** and **Whisper** optimized for Apple Silicon (M2 Ultra) hardware.\n- Implementation of a **GCS streaming pipeline** to handle massive audio datasets (15,000 hours) without requiring full local data persistence.\n- Addresses critical functional gaps in the **MLX ecosystem**, specifically the lack of support for specialized audio-multimodal fine-tuning workflows.",
-      "key_results": [
-        "Successfully integrated Gemma 4 and Whisper fine-tuning on Mac Studio hardware.",
-        "Engineered a system to stream training data directly from Google Cloud Storage to bypass local SSD limits.",
-        "Identified 64GB RAM as a bottleneck for long-sequence fine-tuning on Apple Silicon (OOM risks).",
-        "Decoupled the architecture to allow independent fine-tuning of Whisper and Gemma components.",
-        "Provided a community-ready alternative for multimodal training where MLX support is currently absent."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Engineering Blog",
-      "one_sentence_takeaway": "Independent developer Matt releases a specialized fine-tuner for Gemma 4 and Whisper, enabling multimodal local training on Apple Silicon.",
-      "lead_institution": "Hacker News",
-      "tags": [
-        "Gemma 4",
-        "Apple Silicon",
-        "Model Fine-tuning",
-        "Whisper",
-        "Multimodal AI"
       ]
     }
   },
@@ -776,36 +866,6 @@
         "Data Visualization",
         "Digital Humanities",
         "World Building"
-      ]
-    }
-  },
-  {
-    "title": "Every GPU That Mattered",
-    "link": "https://sheets.works/data-viz/every-gpu",
-    "summary": "<p>Article URL: <a href=\"https://sheets.works/data-viz/every-gpu\">https://sheets.works/data-viz/every-gpu</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47672295\">https://news.ycombinator.com/item?id=47672295</a></p>\n<p>Points: 305</p>\n<p># Comments: 189</p>",
-    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
-    "published": "2026-04-07T08:38:17+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n- Traces the architectural evolution from early **3dfx Voodoo** fixed-function pipelines to modern **NVIDIA Blackwell** chips, emphasizing the pivot from rasterization to high-throughput **Tensor Core** compute.\n- Highlights the exponential scaling of **FP16/BF16 arithmetic units** and memory bandwidth, which serve as the fundamental substrate for training and serving modern **LLMs** and **Generative AI** models.\n- Analyzes the trajectory of **VRAM capacity**, illustrating how memory limitations have historically constrained model architecture and driven the current shift toward **Local LLMs** and **SLMs** optimizations.\n- Documents the transition of GPUs from niche graphics accelerators to the primary engine of **AI infrastructure**, noting the increasing density of transistors and thermal design power (TDP).",
-      "key_results": [
-        "Quantitative comparison of FP32 and FP16 performance across 25 years of GPU history.",
-        "Identification of key architectural inflection points, such as the introduction of CUDA and Tensor Cores.",
-        "Analysis of the widening gap between consumer-grade and enterprise-grade AI hardware capabilities.",
-        "Visualization of transistor count growth following and occasionally outpacing Moore's Law.",
-        "Historical context on memory bandwidth bottlenecks that impact modern RAG and inference workloads."
-      ],
-      "relevance_score": 8,
-      "signal_type": "General News",
-      "one_sentence_takeaway": "Sheets.works visualizes the historical evolution of GPU architectures, highlighting the technical scaling that enabled modern generative AI breakthroughs.",
-      "lead_institution": "Sheets.works",
-      "tags": [
-        "GPU Architecture",
-        "Hardware Acceleration",
-        "NVIDIA",
-        "Compute Scaling",
-        "Local LLMs"
       ]
     }
   },
@@ -1050,36 +1110,6 @@
     }
   },
   {
-    "title": "FrontierFinance: A Long-Horizon Computer-Use Benchmark of Real-World Financial Tasks",
-    "link": "http://arxiv.org/abs/2604.05912v1",
-    "summary": "As concerns surrounding AI-driven labor displacement intensify in knowledge-intensive sectors, existing benchmarks fail to measure performance on tasks that define practical professional expertise. Finance, in particular, has been identified as a domain with high AI exposure risk, yet lacks robust benchmarks to track real-world developments. This gap is compounded by the absence of clear accountability mechanisms in current Large Language Model (LLM) deployments. To address this, we introduce FrontierFinance, a long-horizon benchmark of 25 complex financial modeling tasks across five core finance models, requiring an average of over 18 hours of skilled human labor per task to complete. Developed with financial professionals, the benchmark reflects industry-standard financial modeling workflows and is paired with detailed rubrics for structured evaluation. We engage human experts to define the tasks, create rubrics, grade LLMs, and perform the tasks themselves as human baselines. We demonstrate that our human experts both receive higher scores on average, and are more likely to provide client-ready outputs than current state-of-the-art systems.",
-    "source": "ArXiv",
-    "published": "2026-04-07T14:15:45+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Introduction of **FrontierFinance**, a specialized benchmark designed to evaluate **LLM agents** on **long-horizon** computer-use tasks within the financial sector.\n- The dataset comprises 25 complex modeling tasks requiring an average of 18 hours of skilled labor, testing **multi-step reasoning** and professional-grade tool use.\n- Employs a rigorous **human-in-the-loop evaluation** framework using expert-defined rubrics to measure output quality beyond simple accuracy.\n- Highlights the persistent performance gap between human experts and **State-of-the-Art (SOTA)** models in delivering client-ready financial analysis.",
-      "key_results": [
-        "Human experts significantly outperform SOTA LLMs in total score and accuracy.",
-        "Tasks require over 18 hours of skilled labor, far exceeding typical benchmark complexity.",
-        "Current AI systems fail to produce outputs deemed 'client-ready' compared to human professionals.",
-        "The benchmark covers five core finance models, reflecting real-world industry standards.",
-        "Identifies a critical lack of accountability and professional reliability in current LLM deployments."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "FrontierFinance researchers introduce a long-horizon benchmark demonstrating that human experts still significantly outperform SOTA LLMs in complex financial modeling.",
-      "lead_institution": "FrontierFinance Research Team",
-      "tags": [
-        "LLM Agents",
-        "AI Evaluation",
-        "Reasoning Models",
-        "Long-Horizon Tasks",
-        "Computer Use"
-      ]
-    }
-  },
-  {
     "title": "AICA-Bench: Holistically Examining the Capabilities of VLMs in Affective Image Content Analysis",
     "link": "http://arxiv.org/abs/2604.05900v1",
     "summary": "Vision-Language Models (VLMs) have demonstrated strong capabilities in perception, yet holistic Affective Image Content Analysis (AICA), which integrates perception, reasoning, and generation into a unified framework, remains underexplored. To address this gap, we introduce AICA-Bench, a comprehensive benchmark with three core tasks: Emotion Understanding (EU), Emotion Reasoning (ER), and Emotion-Guided Content Generation (EGCG). We evaluate 23 VLMs and identify two major limitations: weak intensity calibration and shallow open-ended descriptions. To address these issues, we propose Grounded Affective Tree (GAT) Prompting, a training-free framework that combines visual scaffolding with hierarchical reasoning. Experiments show that GAT reduces intensity errors and improves descriptive depth, providing a strong baseline for future research on affective multimodal understanding and generation.",
@@ -1140,66 +1170,6 @@
     }
   },
   {
-    "title": "Mechanistic Circuit-Based Knowledge Editing in Large Language Models",
-    "link": "http://arxiv.org/abs/2604.05876v1",
-    "summary": "Deploying Large Language Models (LLMs) in real-world dynamic environments raises the challenge of updating their pre-trained knowledge. While existing knowledge editing methods can reliably patch isolated facts, they frequently suffer from a \"Reasoning Gap\", where the model recalls the edited fact but fails to utilize it in multi-step reasoning chains. To bridge this gap, we introduce MCircKE (\\underline{M}echanistic \\underline{Circ}uit-based \\underline{K}nowledge \\underline{E}diting), a novel framework that enables a precise \"map-and-adapt\" editing procedure. MCircKE first identifies the causal circuits responsible for a specific reasoning task, capturing both the storage of the fact and the routing of its logical consequences. It then surgically update parameters exclusively within this mapped circuit. Extensive experiments on the MQuAKE-3K benchmark demonstrate the effectiveness of the proposed method for multi-hop reasoning in knowledge editing.",
-    "source": "ArXiv",
-    "published": "2026-04-07T13:33:54+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n* Introduces **MCircKE**, a framework designed to bridge the **Reasoning Gap** where models fail to use edited facts in multi-step logical chains.\n* Utilizes a **map-and-adapt** approach by identifying **causal circuits** that handle both specific fact storage and the routing of logical consequences.\n* Performs **surgical parameter updates** exclusively within the identified circuit, ensuring precise knowledge injection without global degradation.\n* Demonstrates superior performance on **multi-hop reasoning** tasks, specifically validated against the **MQuAKE-3K** benchmark.",
-      "key_results": [
-        "Identifies specific neural circuits responsible for both fact retrieval and logical routing.",
-        "Successfully bridges the reasoning gap in multi-step inference chains.",
-        "Achieves significant performance gains on the MQuAKE-3K multi-hop reasoning benchmark.",
-        "Minimizes side effects by restricting edits to task-specific causal paths rather than whole layers.",
-        "Provides a mechanistic framework for understanding how edited facts propagate through model logic."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce MCircKE to bridge the reasoning gap by surgically updating causal circuits for multi-hop knowledge editing.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "Knowledge Editing",
-        "Reasoning Models",
-        "Mechanistic Interpretability",
-        "LLM Reliability",
-        "Model Fine-tuning"
-      ]
-    }
-  },
-  {
-    "title": "Joint Knowledge Base Completion and Question Answering by Combining Large Language Models and Small Language Models",
-    "link": "http://arxiv.org/abs/2604.05875v1",
-    "summary": "Knowledge Bases (KBs) play a key role in various applications. As two representative KB-related tasks, knowledge base completion (KBC) and knowledge base question answering (KBQA) are closely related and inherently complementary with each other. Thus, it will be beneficial to solve the task of joint KBC and KBQA to make them reinforce each other. However, existing studies usually rely on the small language model (SLM) to enhance them jointly, and the large language model (LLM)'s strong reasoning ability is ignored. In this paper, by combining the strengths of the LLM with the SLM, we propose a novel framework JCQL, which can make these two tasks enhance each other in an iterative manner. To make KBC enhance KBQA, we augment the LLM agent-based KBQA model's reasoning paths by incorporating an SLM-trained KBC model as an action of the agent, alleviating the LLM's hallucination and high computational costs issue in KBQA. To make KBQA enhance KBC, we incrementally fine-tune the KBC model by leveraging KBQA's reasoning paths as its supplementary training data, improving the ability of the SLM in KBC. Extensive experiments over two public benchmark data sets demonstrate that JCQL surpasses all baselines for both KBC and KBQA tasks.",
-    "source": "ArXiv",
-    "published": "2026-04-07T13:33:17+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Proposes **JCQL**, a hybrid framework that synergistically integrates **Large Language Models (LLMs)** and **Small Language Models (SLMs)** to solve Knowledge Base Completion (KBC) and Question Answering (KBQA) tasks.\n- Employs an **LLM agent architecture** where an SLM-trained KBC model serves as a specific tool/action to augment reasoning paths and provide missing triplets, effectively mitigating **hallucinations**.\n- Implements an iterative feedback loop where the SLM is **incrementally fine-tuned** using high-quality reasoning paths extracted from the KBQA process as supplementary training data.\n- Leverages the **reasoning ability** of LLMs alongside the **efficiency and specialization** of SLMs to create a mutually reinforcing system for knowledge management.",
-      "key_results": [
-        "JCQL outperformed all state-of-the-art baselines for both KBC and KBQA tasks on two public benchmarks.",
-        "The framework successfully reduced LLM computational costs by offloading knowledge retrieval to the SLM.",
-        "Integrating the SLM as an agent action significantly improved the accuracy of complex multi-hop reasoning paths.",
-        "Iterative fine-tuning of the SLM using KBQA data led to a measurable increase in knowledge base completion performance.",
-        "Extensive experiments confirmed that joint optimization provides better results than treating KBC and KBQA as isolated tasks."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce JCQL, a hybrid framework using SLM-based knowledge completion to enhance LLM agent reasoning and question answering.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "LLM Agents",
-        "Knowledge Graphs",
-        "RAG",
-        "Model Fine-tuning",
-        "SLMs"
-      ]
-    }
-  },
-  {
     "title": "Learning Shared Sentiment Prototypes for Adaptive Multimodal Sentiment Analysis",
     "link": "http://arxiv.org/abs/2604.05873v1",
     "summary": "Multimodal sentiment analysis (MSA) aims to predict human sentiment from textual, acoustic, and visual information in videos. Recent studies improve multimodal fusion by modeling modality interaction and assigning different modality weights. However, they usually compress diverse sentiment cues into a single compact representation before sentiment reasoning. This early aggregation makes it difficult to preserve the internal structure of sentiment evidence, where different cues may complement, conflict with, or differ in reliability from each other. In addition, modality importance is often determined only once during fusion, so later reasoning cannot further adjust modality contributions. To address these issues, we propose PRISM, a framework that unifies structured affective extraction and adaptive modality evaluation. PRISM organizes multimodal evidence in a shared prototype space, which supports structured cross-modal comparison and adaptive fusion. It further applies dynamic modality reweighting during reasoning, allowing modality contributions to be continuously refined as semantic interactions become deeper. Experiments on three benchmark datasets show that PRISM outperforms representative baselines.",
@@ -1226,36 +1196,6 @@
         "Adaptive Fusion",
         "Reasoning Models",
         "Prototype Learning"
-      ]
-    }
-  },
-  {
-    "title": "Swiss-Bench 003: Evaluating LLM Reliability and Adversarial Security for Swiss Regulatory Contexts",
-    "link": "http://arxiv.org/abs/2604.05872v1",
-    "summary": "The deployment of large language models (LLMs) in Swiss financial and regulatory contexts demands empirical evidence of both production reliability and adversarial security, dimensions not jointly operationalized in existing Swiss-focused evaluation frameworks. This paper introduces Swiss-Bench 003 (SBP-003), extending the HAAS (Helvetic AI Assessment Score) from six to eight dimensions by adding D7 (Self-Graded Reliability Proxy) and D8 (Adversarial Security). I evaluate ten frontier models across 808 Swiss-specific items in four languages (German, French, Italian, English), comprising seven Swiss-adapted benchmarks (Swiss TruthfulQA, Swiss IFEval, Swiss SimpleQA, Swiss NIAH, Swiss PII-Scope, System Prompt Leakage, and Swiss German Comprehension) targeting FINMA Guidance 08/2024, the revised Federal Act on Data Protection (nDSG), and OWASP Top 10 for LLMs. Self-graded D7 scores (73-94%) exceed externally judged D8 security scores (20-61%) by a wide margin, though these dimensions use non-comparable scoring regimes. System prompt leakage resistance ranges from 24.8% to 88.2%, while PII extraction defense remains weak (14-42%) across all models. Qwen 3.5 Plus achieves the highest self-graded D7 score (94.4%), while GPT-oss 120B achieves the highest D8 score (60.7%) despite being the lowest-cost model evaluated. All evaluations are zero-shot under provider default settings; D7 is self-graded and does not constitute independently validated accuracy. I provide conceptual mapping tables relating benchmark dimensions to FINMA model validation requirements, nDSG data protection obligations, and OWASP LLM risk categories.",
-    "source": "ArXiv",
-    "published": "2026-04-07T13:29:34+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n* Introduces **Swiss-Bench 003 (SBP-003)**, a specialized evaluation framework designed to measure LLM performance against **FINMA Guidance 08/2024** and the revised Federal Act on Data Protection (**nDSG**).\n* Operationalizes two new dimensions in the Helvetic AI Assessment Score (HAAS): **Self-Graded Reliability Proxy** (D7) and **Adversarial Security** (D8), mapping them directly to **OWASP Top 10** LLM risks.\n* Evaluates frontier models across **808 items** in four languages, utilizing benchmarks such as **Swiss NIAH**, **Swiss PII-Scope**, and **System Prompt Leakage** to detect vulnerabilities in production-grade deployments.",
-      "key_results": [
-        "Self-graded reliability (D7) scores range from 73% to 94.4%, significantly outpacing actual adversarial security (D8) scores.",
-        "PII extraction defense is consistently weak across all frontier models, with success rates ranging only from 14% to 42%.",
-        "System prompt leakage resistance shows extreme variance among models, ranging from 24.8% to 88.2%.",
-        "Qwen 3.5 Plus achieved the highest self-graded reliability score at 94.4%.",
-        "GPT-oss 120B demonstrated the best adversarial security performance (60.7%) despite its lower cost profile."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "SBP-003 researchers establish a Swiss-specific benchmark revealing that frontier models lack robust PII protection and adversarial security.",
-      "lead_institution": "Swiss AI Assessment (HAAS) Project",
-      "tags": [
-        "AI Evaluation",
-        "Adversarial Security",
-        "Regulatory Compliance",
-        "Multilingual LLMs",
-        "Prompt Engineering"
       ]
     }
   },
