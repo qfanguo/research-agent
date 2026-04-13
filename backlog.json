@@ -1,1 +1,362 @@
-[]
+[
+  {
+    "title": "GitHub Copilot CLI for Beginners: Getting started with GitHub Copilot CLI",
+    "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-getting-started-with-github-copilot-cli/",
+    "summary": "<p>GitHub for Beginners: Getting started with the GitHub Copilot CLI, a step-by-step tutorial.</p>\n<p>The post <a href=\"https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-getting-started-with-github-copilot-cli/\">GitHub Copilot CLI for Beginners: Getting started with GitHub Copilot CLI</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
+    "source": "The GitHub Blog",
+    "published": "2026-04-10T16:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* GitHub introduces the **Copilot CLI**, a tool designed to integrate **Generative AI** assistance directly into the developer's terminal environment.\n* The system leverages **Natural Language Processing (NLP)** to translate human-readable requests into complex shell commands, git operations, and GitHub CLI invocations.\n* It features an interactive **command explanation** mode that provides technical breakdowns of suggested flags and parameters to improve developer education.",
+      "key_results": [
+        "Seamless integration of LLM-based command suggestions within the terminal interface.",
+        "Support for interpreting natural language into bash, zsh, git, and gh commands.",
+        "Built-in explanation functionality to demystify complex CLI syntax for users.",
+        "Streamlined 'eval' execution flow allowing users to run generated commands after verification.",
+        "Reduced cognitive overhead for developers by minimizing documentation context switching."
+      ],
+      "relevance_score": 3,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "GitHub launches a CLI integration for Copilot to simplify terminal operations through natural language command generation.",
+      "lead_institution": "GitHub",
+      "tags": [
+        "GitHub Copilot",
+        "CLI Tools",
+        "Developer Experience",
+        "LLM Integration",
+        "Terminal Automation"
+      ]
+    }
+  },
+  {
+    "title": "National Robotics Week \u2014 Latest Physical AI Research, Breakthroughs and Resources",
+    "link": "https://blogs.nvidia.com/blog/national-robotics-week-2026/",
+    "summary": "This National Robotics Week, NVIDIA is highlighting the breakthroughs that are bringing AI into the physical world \u2014 as well as the growing wave of robots transforming industries, from agricultural and manufacturing to energy and beyond. Advancements in robot learning, simulation and foundation models are accelerating development, enabling robots to move from training in virtual [&#8230;]",
+    "source": "NVIDIA Blog",
+    "published": "2026-04-10T19:40:59+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- NVIDIA leverages **Physical AI** to bridge the gap between high-fidelity digital simulations and real-world robotic deployment.\n- The integration of **Foundation Models** into robotic control systems is accelerating autonomous learning and task adaptability.\n- Enhanced **Sim2Real** workflows are enabling robots to transition more efficiently from virtual training environments to complex industrial applications.",
+      "key_results": [
+        "Acceleration of robot learning through advanced foundation model architectures.",
+        "Expansion of physical AI applications in agriculture, manufacturing, and energy.",
+        "Optimization of simulation-to-reality training pipelines for faster deployment.",
+        "Increased scalability of autonomous systems in unstructured physical environments.",
+        "Consolidation of developer resources within the NVIDIA robotics ecosystem."
+      ],
+      "relevance_score": 3,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "NVIDIA showcases physical AI breakthroughs and foundation models that accelerate robot learning and deployment during National Robotics Week.",
+      "lead_institution": "NVIDIA",
+      "tags": [
+        "Physical AI",
+        "Foundation Models",
+        "Robotics",
+        "Sim2Real",
+        "NVIDIA Isaac"
+      ]
+    }
+  },
+  {
+    "title": "European AI. A playbook to own it",
+    "link": "https://europe.mistral.ai/",
+    "summary": "<p>Article URL: <a href=\"https://europe.mistral.ai/\">https://europe.mistral.ai/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47743700\">https://news.ycombinator.com/item?id=47743700</a></p>\n<p>Points: 142</p>\n<p># Comments: 82</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-04-12T19:51:06+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "<br>\n- Advocating for **Open-Weights Models** as the primary mechanism for ensuring European digital sovereignty and preventing vendor lock-in.<br>\n- Promoting the alignment of **European compute infrastructure** (EuroHPC) with high-efficiency LLM architectures to foster a local ecosystem.<br>\n- Emphasizing the role of **Foundational Models** that are culturally and linguistically optimized for the European market.<br>\n- Highlighting the shift toward **Decentralized AI** where enterprises maintain control over their weights and data through local deployment.",
+      "key_results": [
+        "Strategic push for open-weights to ensure long-term industrial independence.",
+        "Integration of local supercomputing resources for training sovereign models.",
+        "Focus on multilingual capabilities to serve diverse European demographics natively.",
+        "Encouragement of private sector adoption via secure, on-premise AI deployments.",
+        "Policy advocacy to prioritize open ecosystems over closed-source monopolies."
+      ],
+      "relevance_score": 3,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Mistral AI outlines a strategic roadmap for European AI leadership centered on open-weights models and sovereign computing infrastructure.",
+      "lead_institution": "Mistral AI",
+      "tags": [
+        "Digital Sovereignty",
+        "Open-Weights",
+        "European AI",
+        "Mistral AI",
+        "LLM Strategy"
+      ]
+    }
+  },
+  {
+    "title": "Show HN: Oberon System 3 runs natively on Raspberry Pi 3 (with ready SD card)",
+    "link": "https://github.com/rochus-keller/OberonSystem3Native/releases",
+    "summary": "<p>Article URL: <a href=\"https://github.com/rochus-keller/OberonSystem3Native/releases\">https://github.com/rochus-keller/OberonSystem3Native/releases</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47739174\">https://news.ycombinator.com/item?id=47739174</a></p>\n<p>Points: 162</p>\n<p># Comments: 36</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-04-12T13:06:44+00:00",
+    "type": "repo",
+    "display_category": "Top Repo",
+    "processed": {
+      "summary": "\n- **Oberon System 3** has been ported to run natively on **Raspberry Pi 3** hardware, bypassing the need for a Linux kernel or underlying POSIX layer.\n- The system utilizes a **native ARM code generator** and a minimal kernel architecture to provide a clean-slate, bare-metal computing environment.\n- It brings the unique **module-based development** environment of the ETH Zurich legacy system to modern, low-cost ARM hardware for educational and experimental use.",
+      "key_results": [
+        "Successful native boot of Oberon System 3 on Raspberry Pi 3.",
+        "Provision of ready-to-use SD card images for immediate deployment.",
+        "Implementation of the gadget-based graphical user interface natively on ARM.",
+        "Direct hardware interaction without the overhead of a traditional operating system.",
+        "Open-source release of the codebase to encourage vintage OS research."
+      ],
+      "relevance_score": 2,
+      "signal_type": "Release",
+      "one_sentence_takeaway": "Rochus Keller releases a native Oberon System 3 port for Raspberry Pi 3, enabling bare-metal vintage OS experimentation.",
+      "lead_institution": "GitHub",
+      "tags": [
+        "Oberon",
+        "Raspberry Pi",
+        "Operating Systems",
+        "Bare Metal",
+        "Native Development"
+      ]
+    }
+  },
+  {
+    "title": "We have a 99% email reputation. Gmail disagrees",
+    "link": "https://blogfontawesome.wpcomstaging.com/we-have-a-99-email-reputation-gmail-disagrees/",
+    "summary": "<p>Article URL: <a href=\"https://blogfontawesome.wpcomstaging.com/we-have-a-99-email-reputation-gmail-disagrees/\">https://blogfontawesome.wpcomstaging.com/we-have-a-99-email-reputation-gmail-disagrees/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47738978\">https://news.ycombinator.com/item?id=47738978</a></p>\n<p>Points: 164</p>\n<p># Comments: 167</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-04-12T12:42:25+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "<br>\u2022 The post analyzes the technical challenges of **email deliverability**, specifically the discrepancy between **Sender Reputation Scores** and Gmail's proprietary spam filtering logic.<br>\u2022 It highlights the limitations of standard authentication protocols like **SPF, DKIM, and DMARC** when dealing with opaque, AI-driven **IP reputation** systems managed by major ISPs.<br>\u2022 The architecture transition from **shared IP pools** to a **dedicated IP** was required to isolate sender reputation and prevent \"reputation bleed\" from other high-volume senders.",
+      "key_results": [
+        "Maintained a 99% reputation score on Postmark while simultaneously being blocked by Gmail.",
+        "Google Postmaster Tools provided opaque or contradictory feedback regarding IP health.",
+        "Verified that perfect DMARC alignment is not a 'silver bullet' for bypassing automated filters.",
+        "Migration to a dedicated IP address resolved the delivery failures for transactional mail.",
+        "The lack of human recourse for automated ISP blacklisting creates significant operational risks for SaaS companies."
+      ],
+      "relevance_score": 2,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Font Awesome demonstrates that even perfect authentication metrics cannot overcome the opaque, automated IP reputation systems used by Gmail.",
+      "lead_institution": "Font Awesome",
+      "tags": [
+        "Email Infrastructure",
+        "Gmail",
+        "SMTP",
+        "Spam Filtering",
+        "DMARC"
+      ]
+    }
+  },
+  {
+    "title": "The Physics of GPS",
+    "link": "https://perthirtysix.com/how-does-gps-work",
+    "summary": "<p>Article URL: <a href=\"https://perthirtysix.com/how-does-gps-work\">https://perthirtysix.com/how-does-gps-work</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47738343\">https://news.ycombinator.com/item?id=47738343</a></p>\n<p>Points: 115</p>\n<p># Comments: 31</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-04-12T11:10:18+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* Explains the **trilateration** architecture, which utilizes distance measurements from at least four satellites to resolve 3D coordinates and precise time.\n* Details the critical role of **General and Special Relativity**, requiring constant software corrections to compensate for time dilation between earth and orbit.\n* Highlights the importance of **Atomic Clocks** and signal propagation through the atmosphere to maintain global synchronization and accuracy.",
+      "key_results": [
+        "GPS requires at least 4 satellites to solve for latitude, longitude, altitude, and time offset.",
+        "Relativistic effects shift satellite time by approximately 38 microseconds per day.",
+        "Signal delay through the ionosphere and troposphere is a major source of position error.",
+        "CDMA (Code Division Multiple Access) allows multiple satellites to share the same frequency.",
+        "Consumer-grade GPS typically achieves 5-10 meter accuracy without ground-based augmentation."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Perthirtysix explains how GPS uses relativistic physics and trilateration to provide precise global positioning for modern digital infrastructure.",
+      "lead_institution": "Perthirtysix",
+      "tags": [
+        "GPS",
+        "Physics",
+        "Relativity",
+        "Satellite Navigation",
+        "Atomic Clocks"
+      ]
+    }
+  },
+  {
+    "title": "Americans still opt for print books over digital or audio versions",
+    "link": "https://www.pewresearch.org/short-reads/2026/04/09/americans-still-opt-for-print-books-over-digital-or-audio-versions-few-are-in-book-clubs/",
+    "summary": "<p>Article URL: <a href=\"https://www.pewresearch.org/short-reads/2026/04/09/americans-still-opt-for-print-books-over-digital-or-audio-versions-few-are-in-book-clubs/\">https://www.pewresearch.org/short-reads/2026/04/09/americans-still-opt-for-print-books-over-digital-or-audio-versions-few-are-in-book-clubs/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47735606\">https://news.ycombinator.com/item?id=47735606</a></p>\n<p>Points: 71</p>\n<p># Comments: 69</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-04-12T02:14:44+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "<br>\u2022 This report analyzes **consumer behavior** trends in media consumption, revealing a significant and persistent preference for physical print media over digital alternatives.<br>\u2022 The study provides longitudinal data on the **digital-analog divide**, highlighting that technological convenience has not yet displaced the perceived value of tangible information formats.<br>\u2022 The findings suggest that the **primary data sources** for high-quality human knowledge consumption remain heavily weighted toward physical artifacts rather than digital-first platforms.",
+      "key_results": [
+        "Print books remain significantly more popular than e-books or audiobooks across all demographics.",
+        "A majority of American adults have read a book in some format in the past 12 months.",
+        "Audiobook adoption is increasing but remains a secondary format compared to print.",
+        "Only 7% of book readers participate in organized book clubs or reading groups.",
+        "Higher education and household income levels strongly correlate with higher reading frequency."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Pew Research Center reports that physical print remains the dominant medium for American readers despite the growth of digital formats.",
+      "lead_institution": "Pew Research Center",
+      "tags": [
+        "Generative AI Trends",
+        "Consumer Behavior",
+        "Media Consumption",
+        "Data Sources",
+        "Digital Trends"
+      ]
+    }
+  },
+  {
+    "title": "Hungary Is a Laboratory for Illiberal Nationalism. The Results Are In",
+    "link": "https://www.cato.org/commentary/hungary-laboratory-illiberal-nationalism-results-are",
+    "summary": "<p>Article URL: <a href=\"https://www.cato.org/commentary/hungary-laboratory-illiberal-nationalism-results-are\">https://www.cato.org/commentary/hungary-laboratory-illiberal-nationalism-results-are</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47729926\">https://news.ycombinator.com/item?id=47729926</a></p>\n<p>Points: 44</p>\n<p># Comments: 22</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-04-11T12:17:46+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* The article critiques the **illiberal nationalist model** implemented in Hungary, focusing on its systemic economic and institutional outcomes.\n* Analysis shows that despite nationalist rhetoric, the nation has experienced **economic stagnation** compared to its regional peers like Poland and Romania.\n* The framework examines the **centralization of power** and its impact on market competition and democratic safeguards.",
+      "key_results": [
+        "Hungary's GDP growth has underperformed relative to neighboring post-communist economies.",
+        "Institutional independence in the judiciary and media has been systematically eroded.",
+        "Centralized economic planning and cronyism have stifled domestic innovation.",
+        "The country has become more reliant on specific foreign geopolitical alignments.",
+        "The 'Hungarian model' is presented as a failure of policy rather than a blueprint for success."
+      ],
+      "relevance_score": 1,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Cato Institute concludes that Hungary\u2019s illiberal nationalist experiment has resulted in significant economic underperformance and democratic backsliding.",
+      "lead_institution": "Cato Institute",
+      "tags": [
+        "Political Economy",
+        "Nationalism",
+        "Hungary",
+        "Governance",
+        "Macroeconomics"
+      ]
+    }
+  },
+  {
+    "title": "Show HN: Pardonned.com \u2013 A searchable database of US Pardons",
+    "link": "https://news.ycombinator.com/item?id=47727960",
+    "summary": "<p><a href=\"https://pardonned.com\" rel=\"nofollow\">https://pardonned.com</a><p>Inspired by the videos of Liz Oyer, I wanted to be able to verify her claims and just look up all the pardons more easily.<p>Tech Stack: \n Playwright - to sccrape the DOJ website\n SQLite - local database\n Astro 6 - Build out a static website from the sqlite db<p>All code is open source and available on Github.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47727960\">https://news.ycombinator.com/item?id=47727960</a></p>\n<p>Points: 479</p>\n<p># Comments: 262</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-04-11T06:19:25+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- The architecture utilizes **Playwright** for automated, reliable scraping of unstructured pardon records from the Department of Justice website.\n- Data storage is handled via a **SQLite local database**, enabling portable, relational management of public records without the overhead of a managed database service.\n- The application leverages **Astro 6** to generate a high-performance **static website** directly from the local SQL data, ensuring fast searchability and low hosting costs.\n- By making the codebase **open source**, the project provides a reproducible pipeline for data transparency and potential use in downstream RAG indexing.",
+      "key_results": [
+        "Successful automated extraction of US Department of Justice pardon data",
+        "Deployment of a searchable web interface for historical pardon verification",
+        "Implementation of Astro 6 for data-driven static site generation",
+        "Minimalist tech stack using SQLite for efficient local data warehousing",
+        "Release of a public open-source repository for community data auditing"
+      ],
+      "relevance_score": 3,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Pardonned.com utilizes Playwright and Astro 6 to transform Department of Justice records into a searchable, open-source static database.",
+      "lead_institution": "Pardonned.com",
+      "tags": [
+        "Web Scraping",
+        "Static Site Generation",
+        "SQLite",
+        "Data Engineering",
+        "Astro"
+      ]
+    }
+  },
+  {
+    "title": "Iran Unable to Find Mines in Strait of Hormuz, U.S. Says",
+    "link": "https://www.nytimes.com/2026/04/10/us/politics/iran-mines-strait.html",
+    "summary": "<p>Article URL: <a href=\"https://www.nytimes.com/2026/04/10/us/politics/iran-mines-strait.html\">https://www.nytimes.com/2026/04/10/us/politics/iran-mines-strait.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47725584\">https://news.ycombinator.com/item?id=47725584</a></p>\n<p>Points: 31</p>\n<p># Comments: 9</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-04-11T00:11:06+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- The article reports on **geopolitical instability** in the Strait of Hormuz following failed Iranian naval operations.\n- Reports indicate a significant **technical failure** in Iranian systems used for tracking and retrieving deployed underwater ordnance.\n- The situation poses a high-risk factor for **global maritime shipping** and highlights potential deficiencies in local naval sensor technology.",
+      "key_results": [
+        "Iran is currently unable to locate or retrieve naval mines previously deployed in the Strait.",
+        "U.S. intelligence assessments suggest the mines pose an immediate threat to commercial tankers.",
+        "The failure points to a lack of sophisticated sonar or underwater geolocation capabilities within the Iranian navy.",
+        "International shipping routes are being adjusted to mitigate the risk of accidental detonations.",
+        "The disclosure aims to pressure regional actors regarding maritime safety and navigational freedom."
+      ],
+      "relevance_score": 1,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "The U.S. Government reveals Iran's inability to locate its own naval mines, creating significant navigation risks in the Strait.",
+      "lead_institution": "The New York Times",
+      "tags": [
+        "Geopolitics",
+        "Naval Warfare",
+        "Maritime Security",
+        "Intelligence Assessment",
+        "Strait of Hormuz"
+      ]
+    }
+  },
+  {
+    "title": "A Crazy Expensive U.S. Drone Just Disappeared over Strait of Hormuz",
+    "link": "https://www.forbes.com/sites/davidhambling/2026/04/10/a-crazy-expensive-us-drone-just-disappeared-over-strait-of-hormuz/",
+    "summary": "<p>Article URL: <a href=\"https://www.forbes.com/sites/davidhambling/2026/04/10/a-crazy-expensive-us-drone-just-disappeared-over-strait-of-hormuz/\">https://www.forbes.com/sites/davidhambling/2026/04/10/a-crazy-expensive-us-drone-just-disappeared-over-strait-of-hormuz/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47725366\">https://news.ycombinator.com/item?id=47725366</a></p>\n<p>Points: 32</p>\n<p># Comments: 14</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-04-10T23:43:52+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- The disappearance of a **high-cost surveillance drone** in the Strait of Hormuz suggests potential vulnerabilities in **autonomous flight architectures** against modern countermeasures.\n- Analysis indicates that high-value assets are increasingly susceptible to advanced **electronic warfare (EW)** and signal jamming techniques used in contested airspaces.\n- The event highlights a strategic shift from **monolithic expensive hardware** toward the development of cheaper, more numerous **AI-driven drone swarms** for persistence.",
+      "key_results": [
+        "Loss of a primary U.S. high-altitude long-endurance surveillance asset.",
+        "Incident occurred within the strategically sensitive Strait of Hormuz.",
+        "Evidence suggests potential compromise of encrypted command-and-control links.",
+        "Immediate reduction in regional tactical intelligence and reconnaissance capability.",
+        "Increased military interest in attritable, low-cost autonomous platforms."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Forbes reports that the disappearance of an expensive U.S. drone highlights critical vulnerabilities in existing autonomous aerial surveillance platforms.",
+      "lead_institution": "Forbes",
+      "tags": [
+        "Autonomous Systems",
+        "UAV",
+        "Electronic Warfare",
+        "Military AI",
+        "Hardware Vulnerabilities"
+      ]
+    }
+  },
+  {
+    "title": "Adobe Diddles with Your /etc./Hosts File",
+    "link": "https://old.reddit.com/r/webdev/comments/1sb6hzk/adobe_wrote_to_my_hosts_file_ive_never_had_an_app/oe1ap9h/",
+    "summary": "<p>Article URL: <a href=\"https://old.reddit.com/r/webdev/comments/1sb6hzk/adobe_wrote_to_my_hosts_file_ive_never_had_an_app/oe1ap9h/\">https://old.reddit.com/r/webdev/comments/1sb6hzk/adobe_wrote_to_my_hosts_file_ive_never_had_an_app/oe1ap9h/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47721443\">https://news.ycombinator.com/item?id=47721443</a></p>\n<p>Points: 36</p>\n<p># Comments: 3</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-04-10T17:48:10+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Users report that **Adobe software background services** are modifying system-level **hosts files** (/etc/hosts) without explicit user consent.\n- The behavior involves adding entries to redirect or block specific domains, likely used for **license verification** and telemetry enforcement.\n- This practice highlights issues with **persistent elevated privileges** in consumer software and the potential for configuration drift in local development environments.\n- The incident raises significant concerns regarding **software transparency** and the security implications of automated system file modification.",
+      "key_results": [
+        "Adobe background processes modify system hosts files silently.",
+        "Changes often reappear after manual user reversion.",
+        "Mechanism relies on elevated administrative permissions during installation.",
+        "Impacts local network routing and domain resolution.",
+        "Potential interference with web development and proxy settings."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Adobe software modifies system hosts files to enforce licensing, raising security and privacy concerns among developers and users.",
+      "lead_institution": "Hacker News",
+      "tags": [
+        "System Security",
+        "Software Permissions",
+        "Privacy",
+        "Adobe",
+        "Operating Systems"
+      ]
+    }
+  }
+]
