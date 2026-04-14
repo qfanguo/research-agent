@@ -1,5 +1,35 @@
 [
   {
+    "title": "GitHub for Beginners: Getting started with GitHub Pages",
+    "link": "https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-github-pages/",
+    "summary": "<p>Learn how to create a free website for any repository on GitHub Pages.</p>\n<p>The post <a href=\"https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-github-pages/\">GitHub for Beginners: Getting started with GitHub Pages</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
+    "source": "The GitHub Blog",
+    "published": "2026-04-13T15:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- GitHub Pages offers a **static site hosting service** that enables users to deploy websites directly from a GitHub repository.\n- The platform automates the transformation of repository files into a live URL using **GitHub Actions** or manual branch selection.\n- It is optimized for **documentation, portfolios, and project showcases**, providing integrated SSL and custom domain support.",
+      "key_results": [
+        "Simplified static site deployment for developers.",
+        "Integrated hosting for repository-specific documentation.",
+        "Support for Jekyll and other static site generators.",
+        "Automated deployment workflows via GitHub Actions.",
+        "Zero-cost hosting for public repositories."
+      ],
+      "relevance_score": 2,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "GitHub provides a beginner-friendly guide for deploying static websites directly from repositories using GitHub Pages.",
+      "lead_institution": "GitHub",
+      "tags": [
+        "GitHub Pages",
+        "Static Hosting",
+        "Web Development",
+        "Documentation",
+        "Version Control"
+      ]
+    }
+  },
+  {
     "title": "GitHub Copilot CLI for Beginners: Getting started with GitHub Copilot CLI",
     "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-getting-started-with-github-copilot-cli/",
     "summary": "<p>GitHub for Beginners: Getting started with the GitHub Copilot CLI, a step-by-step tutorial.</p>\n<p>The post <a href=\"https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-getting-started-with-github-copilot-cli/\">GitHub Copilot CLI for Beginners: Getting started with GitHub Copilot CLI</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
