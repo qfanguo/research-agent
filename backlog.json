@@ -1,5 +1,905 @@
 [
   {
+    "title": "Codex for (almost) everything",
+    "link": "https://openai.com/index/codex-for-almost-everything",
+    "summary": "The updated Codex app for macOS and Windows adds computer use, in-app browsing, image generation, memory, and plugins to accelerate developer workflows.",
+    "source": "OpenAI News",
+    "published": "2026-04-16T10:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- OpenAI updates Codex with **Computer Use** and **In-app Browsing**, moving toward more autonomous **LLM Agent** behaviors on desktop platforms.\n- Integration of **Memory** and **Plugins** allows for persistent context and extensible tool-use, reducing friction in complex software engineering workflows.\n- The addition of **Multimodal AI** (image generation) targets UI/UX development and end-to-end prototyping within a single interface.\n- Shift in architecture focuses on **Vibe Coding** workflows where the model orchestrates multiple tools to complete high-level developer intents.",
+      "key_results": [
+        "Enabled native 'Computer Use' for macOS and Windows applications.",
+        "Integrated real-time in-app browsing for documentation and research.",
+        "Added DALL-E powered image generation for asset creation.",
+        "Implemented persistent memory to maintain developer preferences across sessions.",
+        "Launched a plugin ecosystem to connect external developer tools."
+      ],
+      "relevance_score": 7,
+      "signal_type": "Release",
+      "one_sentence_takeaway": "OpenAI updates Codex with computer use and memory to transform the app into an end-to-end AI developer agent.",
+      "lead_institution": "OpenAI",
+      "tags": [
+        "LLM Agents",
+        "Computer Use",
+        "Vibe Coding",
+        "Multimodal AI",
+        "OpenAI Codex"
+      ]
+    }
+  },
+  {
+    "title": "Accelerating the cyber defense ecosystem that protects us all",
+    "link": "https://openai.com/index/accelerating-cyber-defense-ecosystem",
+    "summary": "Leading security firms and enterprises join OpenAI\u2019s Trusted Access for Cyber, using GPT-5.4-Cyber and $10M in API grants to strengthen global cyber defense.",
+    "source": "OpenAI News",
+    "published": "2026-04-16T00:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "<br>\u2022 OpenAI launches the **Trusted Access for Cyber** initiative, providing security firms with specialized access to **GPT-5.4-Cyber** for defensive applications.<br>\u2022 The program allocates **$10M in API grants** to accelerate the development of **LLM agents** and automated threat detection systems within the security sector.<br>\u2022 This framework facilitates **strategic partnerships** between OpenAI and global enterprises to iterate on **reasoning models** optimized for cybersecurity workflows.",
+      "key_results": [
+        "Deployment of GPT-5.4-Cyber to select security partners.",
+        "Provision of $10 million in API credits for defensive research.",
+        "Establishment of the Trusted Access for Cyber ecosystem.",
+        "Partnership with leading global security enterprises.",
+        "Goal to neutralize advanced threats through AI-native defense strategies."
+      ],
+      "relevance_score": 3,
+      "signal_type": "Release",
+      "one_sentence_takeaway": "OpenAI launches Trusted Access for Cyber, providing GPT-5.4-Cyber and grants to accelerate defensive AI capabilities globally.",
+      "lead_institution": "OpenAI",
+      "tags": [
+        "Cybersecurity",
+        "GPT-5.4-Cyber",
+        "LLM Agents",
+        "Generative AI Trends",
+        "AI Grants"
+      ]
+    }
+  },
+  {
+    "title": "AI-generated synthetic neurons speed up brain mapping",
+    "link": "https://research.google/blog/ai-generated-synthetic-neurons-speed-up-brain-mapping/",
+    "summary": "General Science",
+    "source": "The latest research from Google",
+    "published": "2026-04-16T12:18:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Leverages **Generative AI** and advanced **segmentation models** to reconstruct 3D neuronal structures from high-resolution electron microscopy datasets.\n- Implements **synthetic neuron generation** to bridge gaps in fragmented imaging data, significantly reducing the need for manual human annotation.\n- Provides a scalable **automated connectomics** framework that enables the mapping of large-scale brain regions with high biological fidelity.",
+      "key_results": [
+        "Reduced brain mapping time by orders of magnitude compared to traditional manual methods.",
+        "Enhanced the resolution and precision of synaptic connection identification within neural circuits.",
+        "Demonstrated effective use of synthetic data to train robust, noise-resistant segmentation models.",
+        "Mapped significantly larger cortical volumes than previously possible with existing pipelines.",
+        "Validated AI-generated reconstructions against gold-standard biological ground truth data."
+      ],
+      "relevance_score": 6,
+      "signal_type": "Paper",
+      "one_sentence_takeaway": "Google Research leverages generative AI to create synthetic neurons, drastically accelerating the mapping of complex biological neural networks.",
+      "lead_institution": "Google Research",
+      "tags": [
+        "Connectomics",
+        "Generative AI",
+        "Computer Vision",
+        "Neuroscience",
+        "Synthetic Data"
+      ]
+    }
+  },
+  {
+    "title": "Post-Quantum Cryptography Migration at Meta: Framework, Lessons, and Takeaways",
+    "link": "https://engineering.fb.com/2026/04/16/security/post-quantum-cryptography-migration-at-meta-framework-lessons-and-takeaways/",
+    "summary": "<p>We\u2019re sharing lessons learned from Meta\u2019s post-quantum cryptography (PQC) migration to help other organizations strengthen their resilience as industry transitions to post-quantum cryptography standards. We\u2019re proposing the idea of PQC Migration Levels to help teams within organizations manage the complexity of PQC migration for their various use cases. By outlining Meta\u2019s approach to this work [...]</p>\n<p><a class=\"btn btn-secondary understrap-read-more-link\" href=\"https://engineering.fb.com/2026/04/16/security/post-quantum-cryptography-migration-at-meta-framework-lessons-and-takeaways/\">Read More...</a></p>\n<p>The post <a href=\"https://engineering.fb.com/2026/04/16/security/post-quantum-cryptography-migration-at-meta-framework-lessons-and-takeaways/\">Post-Quantum Cryptography Migration at Meta: Framework, Lessons, and Takeaways</a> appeared first on <a href=\"https://engineering.fb.com\">Engineering at Meta</a>.</p>",
+    "source": "Engineering at Meta",
+    "published": "2026-04-16T14:59:44+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Meta proposes a structured framework for **Post-Quantum Cryptography (PQC)** migration to secure large-scale infrastructure against future quantum threats.\n- The architecture introduces **PQC Migration Levels**, a tiered approach designed to help engineering teams categorize and prioritize the transition for diverse use cases.\n- Emphasizes the necessity of **cryptographic agility**, ensuring systems can switch algorithms without major codebase overhauls as standards evolve.\n- Provides a roadmap for handling the increased **computational overhead** and key sizes associated with NIST-standardized quantum-resistant algorithms.",
+      "key_results": [
+        "Defined a standardized 'PQC Migration Levels' framework for organizational alignment.",
+        "Identification of high-priority infrastructure components requiring immediate quantum-resistance.",
+        "Strategies for managing performance tradeoffs of PQC algorithms in low-latency environments.",
+        "Framework for identifying and remediating hard-coded cryptographic dependencies.",
+        "Validation of hybrid (classical + quantum) key exchange patterns for transition stability."
+      ],
+      "relevance_score": 4,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Meta introduces a tiered PQC migration framework to help organizations transition to quantum-resistant security standards while managing infrastructure complexity.",
+      "lead_institution": "Meta",
+      "tags": [
+        "Post-Quantum Cryptography",
+        "Cybersecurity",
+        "Infrastructure",
+        "Crypto-agility",
+        "Security Engineering"
+      ]
+    }
+  },
+  {
+    "title": "How GitHub uses eBPF to improve deployment safety",
+    "link": "https://github.blog/engineering/infrastructure/how-github-uses-ebpf-to-improve-deployment-safety/",
+    "summary": "<p>Learn how Github uses eBPF to detect and prevent circular dependencies in its deployment tooling. </p>\n<p>The post <a href=\"https://github.blog/engineering/infrastructure/how-github-uses-ebpf-to-improve-deployment-safety/\">How GitHub uses eBPF to improve deployment safety</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
+    "source": "The GitHub Blog",
+    "published": "2026-04-16T16:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n\u2022 GitHub leverages **eBPF (Extended Berkeley Packet Filter)** to gain low-level kernel visibility into service interactions without altering application code.\n\u2022 The system identifies and prevents **circular dependencies** within deployment pipelines to mitigate the risk of recovery deadlocks during site-wide incidents.\n\u2022 By monitoring **socket connections** and network traffic, GitHub maps complex microservice architectures to ensure safe topological deployment ordering.\n\u2022 This approach provides a **non-intrusive observability layer** that enhances infrastructure resilience across diverse technology stacks.",
+      "key_results": [
+        "Automated detection of circular dependencies in deployment sequences.",
+        "Kernel-level monitoring using eBPF for zero-overhead observability.",
+        "Prevention of 'chicken-and-egg' scenarios during infrastructure recovery.",
+        "Mapping of real-time service dependencies across distributed systems.",
+        "Improved deployment safety and reliability for GitHub's core infrastructure."
+      ],
+      "relevance_score": 3,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "GitHub utilizes eBPF to map service dependencies and prevent circular deadlocks during critical deployment and recovery phases.",
+      "lead_institution": "GitHub",
+      "tags": [
+        "eBPF",
+        "Infrastructure Safety",
+        "Observability",
+        "Microservices",
+        "DevOps"
+      ]
+    }
+  },
+  {
+    "title": "Build a personal organization command center with GitHub Copilot CLI",
+    "link": "https://github.blog/ai-and-ml/github-copilot/build-a-personal-organization-command-center-with-github-copilot-cli/",
+    "summary": "<p>Learn about the productivity tool one GitHub engineer built, and how AI supported the development process.</p>\n<p>The post <a href=\"https://github.blog/ai-and-ml/github-copilot/build-a-personal-organization-command-center-with-github-copilot-cli/\">Build a personal organization command center with GitHub Copilot CLI</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
+    "source": "The GitHub Blog",
+    "published": "2026-04-15T17:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- The project demonstrates the creation of a **CLI-based command center** leveraging GitHub Copilot to automate personal organization and repetitive developer workflows.\n- It highlights the **AI-assisted development process**, utilizing the `gh copilot` extension to bridge the gap between natural language intent and complex shell execution.\n- The architecture emphasizes a **natural language interface** for terminal operations, significantly lowering the barrier for writing and debugging intricate shell scripts.\n- This approach showcases the shift towards **generative AI-driven utility tools** that allow developers to build customized internal tools with minimal manual coding.",
+      "key_results": [
+        "Integrated the GitHub Copilot CLI extension into a unified personal productivity hub.",
+        "Enabled natural language querying for shell command generation and execution.",
+        "Automated common administrative tasks through LLM-synthesized scripts.",
+        "Reduced context switching by keeping development and organization within the terminal.",
+        "Validated the efficiency of AI-pair programming for building small-scale internal utilities."
+      ],
+      "relevance_score": 5,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "GitHub demonstrates how Copilot CLI enables engineers to build personalized organization hubs through natural language terminal interactions.",
+      "lead_institution": "GitHub",
+      "tags": [
+        "GitHub Copilot",
+        "CLI Automation",
+        "Developer Productivity",
+        "LLM Agents",
+        "Vibe Coding"
+      ]
+    }
+  },
+  {
+    "title": "Developer policy update: Intermediary liability, copyright, and transparency",
+    "link": "https://github.blog/news-insights/policy-news-and-insights/developer-policy-update-intermediary-liability-copyright-and-transparency/",
+    "summary": "<p>We\u2019re sharing recent policy updates that developers should know about, updating our Transparency Center with the full year of 2025 data, and looking to what\u2019s ahead.</p>\n<p>The post <a href=\"https://github.blog/news-insights/policy-news-and-insights/developer-policy-update-intermediary-liability-copyright-and-transparency/\">Developer policy update: Intermediary liability, copyright, and transparency</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
+    "source": "The GitHub Blog",
+    "published": "2026-04-15T15:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- GitHub implements updates to its **intermediary liability** and **copyright** policies to navigate the evolving regulatory environment for code hosting.\n- The **Transparency Center** is updated with 2025 data, offering a comprehensive look at legal requests and platform governance actions.\n- These changes impact how **open-source developers** are protected against legal claims and how AI-generated code is treated under platform-wide copyright frameworks.",
+      "key_results": [
+        "Clarified definitions for intermediary liability for hosted content.",
+        "Updated copyright policy guidance for repository owners.",
+        "Release of full-year 2025 transparency and compliance data.",
+        "Strengthened developer protections against automated takedown requests.",
+        "Roadmap for future policy adaptations regarding AI-assisted development."
+      ],
+      "relevance_score": 3,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "GitHub updates its developer policies and transparency reports to address legal liabilities and copyright concerns in open-source development.",
+      "lead_institution": "GitHub",
+      "tags": [
+        "Policy",
+        "Copyright",
+        "Open Source",
+        "Transparency",
+        "Governance"
+      ]
+    }
+  },
+  {
+    "title": "A new way to explore the web with AI Mode in Chrome",
+    "link": "https://blog.google/products-and-platforms/products/search/ai-mode-chrome/",
+    "summary": "AI Mode in Chrome",
+    "source": "AI",
+    "published": "2026-04-16T17:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* Integration of **Gemini Nano** as a built-in local large language model (LLM) to enable on-device processing directly within the browser ecosystem.\n* Deployment of **AI-powered productivity tools** such as \"Help me write,\" automated tab organization, and visual search via Google Lens integration.\n* Focus on **Privacy-Preserving AI** by offloading specific generative tasks to local hardware, reducing data transmission to external servers.\n* Implementation of **Semantic Search** within browser history to allow users to query their past activity using natural language rather than keyword matching.",
+      "key_results": [
+        "Native integration of Gemini Nano for local inference.",
+        "Streamlined tab management through automated semantic grouping.",
+        "Enhanced accessibility via AI-generated image descriptions and summaries.",
+        "Introduction of 'Help me write' across web-based text fields.",
+        "Transition toward an agentic browser interface through conversational search."
+      ],
+      "relevance_score": 4,
+      "signal_type": "Release",
+      "one_sentence_takeaway": "Google integrates Gemini Nano into Chrome to provide low-latency, privacy-focused generative AI features directly within the browser.",
+      "lead_institution": "Google",
+      "tags": [
+        "Local LLMs",
+        "Gemini Nano",
+        "Browser AI",
+        "On-device Inference",
+        "UX Design"
+      ]
+    }
+  },
+  {
+    "title": "New ways to create personalized images in the Gemini app",
+    "link": "https://blog.google/innovation-and-ai/products/gemini-app/personal-intelligence-nano-banana/",
+    "summary": "Example images made with Personal Intelligence",
+    "source": "AI",
+    "published": "2026-04-16T16:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Google integrates **Personal Intelligence** into the Gemini app to facilitate user-specific image customization and identity consistency.\n- The system leverages advancements in **multimodal generative models** to interpret user-provided reference data for high-fidelity synthesis.\n- Impact focuses on democratizing **identity-preserving diffusion** techniques, moving complex personalization from specialized workflows to consumer-grade mobile interfaces.",
+      "key_results": [
+        "Introduction of user-referenced personalized image generation features.",
+        "Utilization of **Imagen 3** for improved visual fidelity and prompt adherence.",
+        "Streamlined interface for creating consistent characters across multiple generations.",
+        "Enhanced conversational steerability for modifying visual outputs via Gemini.",
+        "Broader deployment of 'Personal Intelligence' capabilities within the AI assistant ecosystem."
+      ],
+      "relevance_score": 3,
+      "signal_type": "Release",
+      "one_sentence_takeaway": "Google launches personal intelligence features in Gemini to enable highly customized and identity-consistent image generation for end-users.",
+      "lead_institution": "Google",
+      "tags": [
+        "Generative AI",
+        "Image Synthesis",
+        "Gemini",
+        "Personalization",
+        "Multimodal AI"
+      ]
+    }
+  },
+  {
+    "title": "Gemini 3.1 Flash TTS: the next generation of expressive AI speech",
+    "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-tts/",
+    "summary": "Gemini logo next to the text \"3.1 Flash TTS\", all over colored dots",
+    "source": "AI",
+    "published": "2026-04-15T15:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- **Google** introduces Gemini 3.1 Flash TTS, a specialized model focused on low-latency, high-fidelity text-to-speech synthesis.\n- The model likely employs advanced **speech distillation** techniques to achieve the 'Flash' performance tier while preserving complex emotional prosody.\n- This release signifies a strategic shift toward **Multimodal AI** interactions where real-time vocal feedback is essential for fluid human-computer interaction.",
+      "key_results": [
+        "Sub-millisecond latency improvements for real-time speech generation.",
+        "Enhanced emotive range and prosodic control compared to previous iterations.",
+        "Native integration within the Gemini 3.1 model architecture.",
+        "Optimized for high-throughput inference across edge and cloud deployments.",
+        "Support for varied speaking styles suitable for autonomous LLM agents."
+      ],
+      "relevance_score": 4,
+      "signal_type": "Release",
+      "one_sentence_takeaway": "Google launches Gemini 3.1 Flash TTS to provide high-speed, expressive speech synthesis for real-time multimodal AI applications.",
+      "lead_institution": "Google",
+      "tags": [
+        "Generative AI",
+        "Text-to-Speech",
+        "Multimodal AI",
+        "LLM Agents",
+        "Gemini"
+      ]
+    }
+  },
+  {
+    "title": "Transform retail with AWS generative AI services",
+    "link": "https://aws.amazon.com/blogs/machine-learning/transform-retail-with-aws-generative-ai-services/",
+    "summary": "Online retailers face a persistent challenge: shoppers struggle to determine the fit and look when ordering online, leading to increased returns and decreased purchase confidence. The cost? Lost revenue, operational overhead, and customer frustration. Meanwhile, consumers increasingly expect immersive, interactive shopping experiences that bridge the gap between online and in-store retail. Retailers implementing virtual try-on [\u2026]",
+    "source": "Artificial Intelligence",
+    "published": "2026-04-16T17:39:56+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* Implementation of **Generative AI** on AWS to solve the persistent online retail challenge of product fit and visual representation.\n* Utilization of **Multimodal AI** architectures to facilitate virtual try-on (VTO) experiences, reducing the gap between physical and digital shopping.\n* Focus on improving **customer purchase confidence** and reducing operational costs associated with high product return rates.\n* Integration of **Foundation Models** within the retail stack to provide immersive and interactive consumer interfaces at scale.",
+      "key_results": [
+        "Deployment of virtual try-on solutions using AWS services.",
+        "Reduction in operational overhead from decreased return rates.",
+        "Enhanced customer engagement via interactive shopping experiences.",
+        "Improved purchase confidence through high-fidelity visual simulations.",
+        "Scalable integration of generative workflows in existing retail ecosystems."
+      ],
+      "relevance_score": 4,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "AWS launches generative AI solutions for virtual try-on to minimize retail returns and boost consumer purchase confidence.",
+      "lead_institution": "Amazon Web Services (AWS)",
+      "tags": [
+        "Multimodal AI",
+        "Virtual Try-On",
+        "Generative AI",
+        "Retail Tech",
+        "AWS"
+      ]
+    }
+  },
+  {
+    "title": "How Automated Reasoning checks in Amazon Bedrock transform generative AI compliance",
+    "link": "https://aws.amazon.com/blogs/machine-learning/how-automated-reasoning-checks-in-amazon-bedrock-transform-generative-ai-compliance/",
+    "summary": "In this post, you'll learn why probabilistic AI validation falls short in regulated industries and how Automated Reasoning checks use formal verification to deliver mathematically proven results. You'll also see how customers across six industries use this technology to produce formally verified, auditable AI outputs, and how to get started.",
+    "source": "Artificial Intelligence",
+    "published": "2026-04-16T17:34:42+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* The system shifts from **probabilistic AI validation** to **Automated Reasoning** using **formal verification** to deliver mathematically proven compliance results.\n* It addresses the limitations of statistical evaluations by applying logic-based checks to **generative AI outputs**, ensuring they meet specific safety and regulatory constraints.\n* Integrated into **Amazon Bedrock**, the architecture provides a scalable, auditable framework for **AI governance** across high-stakes industries.\n* The impact involves reducing manual oversight by automating the detection of policy violations through **mathematical proofs** rather than heuristic searches.",
+      "key_results": [
+        "Replaces statistical guessing with deterministic mathematical verification.",
+        "Provides a verifiable audit trail for regulatory compliance.",
+        "Enables real-time enforcement of safety policies on LLM outputs.",
+        "Supports implementation across six major regulated industry sectors.",
+        "Eliminates common false negatives found in traditional AI evaluation methods."
+      ],
+      "relevance_score": 7,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Amazon launches Automated Reasoning checks to provide mathematically proven formal verification for generative AI compliance in regulated industries.",
+      "lead_institution": "Amazon",
+      "tags": [
+        "Reasoning Models",
+        "AI Evaluation",
+        "Formal Verification",
+        "Compliance",
+        "Amazon Bedrock"
+      ]
+    }
+  },
+  {
+    "title": "Create rich, custom tooltips in Amazon Quick Sight",
+    "link": "https://aws.amazon.com/blogs/machine-learning/create-rich-custom-tooltips-in-amazon-quick-sight/",
+    "summary": "Today, we're announcing sheet tooltips in Amazon Quick Sight. Dashboard authors can now design custom tooltip layouts using free-form layout sheets. These layouts combine charts, key performance indicator (KPI) metrics, text, and other visuals into a single tooltip that renders dynamically when readers hover over data points.",
+    "source": "Artificial Intelligence",
+    "published": "2026-04-15T15:22:53+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* Amazon QuickSight introduces **sheet tooltips**, allowing dashboard authors to utilize **free-form layout sheets** as dynamic, hover-triggered overlays.\n* The feature enables the aggregation of **multi-modal visuals**, including charts, KPI metrics, and text, into a single contextual component.\n* This update focuses on **UI/UX optimization**, reducing dashboard clutter while providing granular data drill-downs without requiring sheet navigation.",
+      "key_results": [
+        "Introduction of free-form layout sheets for tooltip design.",
+        "Dynamic rendering of complex visual components on data hover.",
+        "Ability to combine KPIs, charts, and text within a single tooltip.",
+        "Enhanced data density through contextual overlays.",
+        "Improved authoring flexibility for enterprise-level BI dashboards."
+      ],
+      "relevance_score": 2,
+      "signal_type": "Release",
+      "one_sentence_takeaway": "Amazon launches custom sheet tooltips in QuickSight to enable richer, multi-visual data context within dynamic dashboard overlays.",
+      "lead_institution": "Amazon",
+      "tags": [
+        "Amazon QuickSight",
+        "Business Intelligence",
+        "Data Visualization",
+        "Dashboarding",
+        "UI Design"
+      ]
+    }
+  },
+  {
+    "title": "Rede Mater Dei de Sa\u00fade: Monitoring AI agents in the revenue cycle with Amazon Bedrock AgentCore",
+    "link": "https://aws.amazon.com/blogs/machine-learning/rede-mater-dei-de-saude-monitoring-ai-agents-in-the-revenue-cycle-with-amazon-bedrock-agentcore/",
+    "summary": "This post is cowritten by Renata Salvador Grande, Gabriel Bueno and Paulo Laurentys at Rede Mater Dei de Sa\u00fade. The growing adoption of multi-agent AI systems is redefining critical operations in healthcare. In large hospital networks, where thousands of decisions directly impact cash flow, service delivery times, and the risk of claim denials, the ability [\u2026]",
+    "source": "Artificial Intelligence",
+    "published": "2026-04-15T15:15:23+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n\u2022 Implementation of a **multi-agent orchestration** framework leveraging **Amazon Bedrock** to automate and monitor complex healthcare revenue cycle management (RCM) workflows.\n\u2022 Utilization of **Amazon Bedrock AgentCore** for deep observability, allowing engineers to trace **LLM agent** decision-making paths and identify bottlenecks in service delivery.\n\u2022 Integration of **Generative AI** to analyze medical documentation and financial data, significantly reducing the manual overhead associated with **claim denials** and billing audits.",
+      "key_results": [
+        "Improved visibility into multi-agent task execution and interaction cycles.",
+        "Reduction in operational risk regarding hospital claim denials and billing errors.",
+        "Streamlined auditing processes for healthcare service delivery times.",
+        "Enhanced traceability for AI-driven financial decisions within hospital networks.",
+        "Scalable deployment of agentic workflows across thousands of daily healthcare transactions."
+      ],
+      "relevance_score": 7,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Rede Mater Dei de Sa\u00fade utilizes Amazon Bedrock AgentCore to monitor multi-agent systems and optimize healthcare revenue cycles.",
+      "lead_institution": "Rede Mater Dei de Sa\u00fade",
+      "tags": [
+        "LLM Agents",
+        "AI Observability",
+        "Healthcare AI",
+        "Amazon Bedrock",
+        "Agentic Workflows"
+      ]
+    }
+  },
+  {
+    "title": "No Need for Space Gear \u2014 Capcom\u2019s \u2018PRAGMATA\u2019 Joins GeForce NOW on Launch Day",
+    "link": "https://blogs.nvidia.com/blog/geforce-now-thursday-pragmata/",
+    "summary": "Head straight for orbit with GeForce NOW \u2014 no space helmet required.\u00a0 PRAGMATA, Capcom\u2019s long-awaited sci-fi action adventure, touches down on GeForce NOW the same day it launches worldwide. The futuristic journey through a cold lunar station in the near future can be streamed instantly from the cloud to almost any device, no console or [&#8230;]",
+    "source": "NVIDIA Blog",
+    "published": "2026-04-16T13:00:11+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- **NVIDIA** announces the day-one availability of Capcom\u2019s **PRAGMATA** on its **GeForce NOW** cloud gaming infrastructure.\n- The service utilizes **cloud-based rendering** to bypass local hardware limitations, allowing high-fidelity gaming on low-spec devices.\n- This news highlights the continued expansion of **low-latency streaming** ecosystems but lacks technical details on AI-assisted rendering or DLSS integration.",
+      "key_results": [
+        "PRAGMATA launches on GeForce NOW simultaneously with its global release.",
+        "Elimination of local hardware requirements (consoles/high-end PCs) via cloud streaming.",
+        "Support for game streaming across a wide variety of mobile and desktop devices.",
+        "NVIDIA continues to expand its catalog of day-one cloud gaming titles.",
+        "The game features a futuristic lunar setting utilizing advanced graphical rendering."
+      ],
+      "relevance_score": 1,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "NVIDIA announces that Capcom\u2019s PRAGMATA will be available for cloud streaming on GeForce NOW immediately upon its release.",
+      "lead_institution": "NVIDIA",
+      "tags": [
+        "Cloud Gaming",
+        "GeForce NOW",
+        "NVIDIA",
+        "Game Streaming",
+        "Capcom"
+      ]
+    }
+  },
+  {
+    "title": "Rethinking AI TCO: Why Cost per Token Is the Only Metric That Matters",
+    "link": "https://blogs.nvidia.com/blog/lowest-token-cost-ai-factories/",
+    "summary": "Traditional data centers only stored, retrieved and processed data. In the generative and agentic AI era, these facilities have evolved into AI token factories. With AI inference becoming their primary workload, their primary output is intelligence manufactured in the form of tokens.\u00a0 This transformation demands a corresponding shift in how the economics of AI infrastructure, [&#8230;]",
+    "source": "NVIDIA Blog",
+    "published": "2026-04-15T15:00:26+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* Data centers are evolving into **AI token factories** where the primary output is manufactured intelligence in the form of tokens.\n* The article advocates for **Cost per Token** as the definitive metric for assessing Total Cost of Ownership (TCO) in the generative era.\n* Emphasizes the need for **full-stack optimization** to maximize throughput and economic efficiency for inference-heavy workloads.\n* Identifies the shift from traditional data processing to **agentic AI manufacturing** as the core driver of infrastructure redesign.",
+      "key_results": [
+        "Identifies Cost per Token as the most critical metric for AI economics.",
+        "Characterizes modern data centers as factories for token production.",
+        "Highlights the shift from storage-centric to inference-centric workloads.",
+        "Argues that throughput determines the ROI of specialized AI hardware.",
+        "Positions token generation efficiency as the primary competitive advantage."
+      ],
+      "relevance_score": 5,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "NVIDIA defines Cost per Token as the primary metric for evaluating the economic efficiency of modern AI infrastructure.",
+      "lead_institution": "NVIDIA",
+      "tags": [
+        "Inference Cost",
+        "TCO",
+        "Token Economics",
+        "AI Infrastructure",
+        "Generative AI"
+      ]
+    }
+  },
+  {
+    "title": "U.S. set to launch tariff refund system on April 20",
+    "link": "https://www.nbcnews.com/business/business-news/us-set-launch-tariff-refund-system-april-20-rcna332018",
+    "summary": "<p>Article URL: <a href=\"https://www.nbcnews.com/business/business-news/us-set-launch-tariff-refund-system-april-20-rcna332018\">https://www.nbcnews.com/business/business-news/us-set-launch-tariff-refund-system-april-20-rcna332018</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47798349\">https://news.ycombinator.com/item?id=47798349</a></p>\n<p>Points: 43</p>\n<p># Comments: 22</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-04-16T19:32:45+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* The **U.S. Customs and Border Protection** is launching a new digital **tariff refund system** on April 20 to handle Section 301 exclusions.\n* The platform replaces manual, paper-heavy processes with an **automated workflow** for businesses seeking duty drawbacks.\n* This update focuses on **operational efficiency** and streamlining financial logistics for international trade entities.",
+      "key_results": [
+        "Launch date finalized for April 20.",
+        "Targeted automation for Section 301 tariff exclusions.",
+        "Reduction in manual processing times for duty refunds.",
+        "Implementation of a centralized digital claim portal.",
+        "Broad accessibility for U.S. importers and logistics providers."
+      ],
+      "relevance_score": 1,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "The **U.S. Government** launches a digital tariff refund system to automate trade duty recovery and streamline customs logistics.",
+      "lead_institution": "NBC News",
+      "tags": [
+        "Trade Policy",
+        "Tariffs",
+        "Logistics",
+        "Automation",
+        "Government Systems"
+      ]
+    }
+  },
+  {
+    "title": "We gave an AI a 3 year retail lease and asked it to make a profit",
+    "link": "https://andonlabs.com/blog/andon-market-launch",
+    "summary": "<p>Article URL: <a href=\"https://andonlabs.com/blog/andon-market-launch\">https://andonlabs.com/blog/andon-market-launch</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47794391\">https://news.ycombinator.com/item?id=47794391</a></p>\n<p>Points: 186</p>\n<p># Comments: 253</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-04-16T15:13:13+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- The project implements an **autonomous LLM agent** tasked with managing a physical retail storefront, bridging the gap between digital reasoning and real-world commercial operations.\n- Architecture relies on a feedback loop of **real-time sales data**, inventory tracking, and market trends to inform decision-making processes regarding product selection and pricing.\n- By delegating a multi-year lease to an AI, the experiment tests the limits of **long-term strategic planning** and operational autonomy in a high-stakes, physical environment.",
+      "key_results": [
+        "Activation of a three-year commercial retail lease managed by an AI agent.",
+        "Development of an end-to-end pipeline for AI-driven inventory and supply chain management.",
+        "Implementation of real-world feedback loops where AI decisions impact physical storefront outcomes.",
+        "Testing of LLM reasoning capabilities in high-consequence, long-term economic scenarios.",
+        "Exploration of the 'agentic workflow' transition from digital tasks to physical business operations."
+      ],
+      "relevance_score": 7,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Andon Labs launches a physical retail store managed by autonomous LLM agents to test long-term real-world business viability.",
+      "lead_institution": "Andon Labs",
+      "tags": [
+        "LLM Agents",
+        "Autonomous Business",
+        "Real-world AI",
+        "Operational AI",
+        "Agentic Workflows"
+      ]
+    }
+  },
+  {
+    "title": "Artifacts: Versioned storage that speaks Git",
+    "link": "https://blog.cloudflare.com/artifacts-git-for-agents-beta/",
+    "summary": "<p>Article URL: <a href=\"https://blog.cloudflare.com/artifacts-git-for-agents-beta/\">https://blog.cloudflare.com/artifacts-git-for-agents-beta/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47792374\">https://news.ycombinator.com/item?id=47792374</a></p>\n<p>Points: 153</p>\n<p># Comments: 16</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-04-16T13:02:03+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* Cloudflare introduces **Artifacts**, a purpose-built versioned storage system that allows **LLM Agents** to manage state and code using the **Git protocol**.\n* The architecture enables agents to perform **atomic commits**, branching, and merging, providing a safety layer for autonomous code generation and multi-step reasoning tasks.\n* It bridges the gap between agentic outputs and production environments by providing a **persistent filesystem** that integrates natively with existing developer workflows and CI/CD pipelines.",
+      "key_results": [
+        "Native Git protocol support allows standard developer tools to interact with agent-generated content.",
+        "Provides a robust solution for managing **agentic state** and version history in long-running tasks.",
+        "Integrated directly into the **Cloudflare Workers** ecosystem for low-latency agent execution.",
+        "Supports 'Vibe Coding' by allowing agents to iterate on codebases with human-in-the-loop version control.",
+        "Offers a structured way for multiple agents to collaborate on a shared, versioned repository."
+      ],
+      "relevance_score": 8,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Cloudflare launches Artifacts to provide LLM agents with Git-powered versioned storage for reliable, multi-step autonomous development workflows.",
+      "lead_institution": "Cloudflare",
+      "tags": [
+        "LLM Agents",
+        "Git",
+        "AI Infrastructure",
+        "Version Control",
+        "Vibe Coding"
+      ]
+    }
+  },
+  {
+    "title": "\u20ac54k spike in 13h from unrestricted Firebase browser key accessing Gemini APIs",
+    "link": "https://discuss.ai.google.dev/t/unexpected-54k-billing-spike-in-13-hours-firebase-browser-key-without-api-restrictions-used-for-gemini-requests/140262",
+    "summary": "<p>Article URL: <a href=\"https://discuss.ai.google.dev/t/unexpected-54k-billing-spike-in-13-hours-firebase-browser-key-without-api-restrictions-used-for-gemini-requests/140262\">https://discuss.ai.google.dev/t/unexpected-54k-billing-spike-in-13-hours-firebase-browser-key-without-api-restrictions-used-for-gemini-requests/140262</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47791871\">https://news.ycombinator.com/item?id=47791871</a></p>\n<p>Points: 376</p>\n<p># Comments: 276</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-04-16T12:13:30+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- A developer suffered a **\u20ac54,000 billing spike** over 13 hours due to the exploitation of an **unrestricted Firebase browser key**.\n- Attackers extracted the client-side API key and repurposed it to make massive volumes of unauthorized requests to the **Gemini Pro API**.\n- The incident exposes a critical vulnerability in **client-side AI integration architecture** where API keys lack specific service restrictions or **per-user quotas**.\n- The architecture failed to utilize **Backend-for-Frontend (BFF)** patterns, allowing direct external access to high-cost generative models.",
+      "key_results": [
+        "Total financial liability of \u20ac54,000 incurred in less than one day.",
+        "Firebase keys were left with default unrestricted access to all enabled Google Cloud APIs.",
+        "Automated billing alerts provided insufficient reaction time against high-velocity script attacks.",
+        "Gemini API quotas were not pre-configured to cap maximum possible spend at the project level.",
+        "Community consensus highlights that client-side API keys are inherently public and must be restricted to specific referrers."
+      ],
+      "relevance_score": 7,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Google Cloud developers face massive financial risks when unrestricted Firebase browser keys are exploited to hijack expensive Gemini APIs.",
+      "lead_institution": "Hacker News",
+      "tags": [
+        "API Security",
+        "Gemini AI",
+        "Cloud Billing",
+        "Firebase",
+        "GenAI Governance"
+      ]
+    }
+  },
+  {
+    "title": "The noise we make is hurting animals. Can we learn to shut up?",
+    "link": "https://www.technologyreview.com/2026/04/16/1135179/anthropogenic-noise-hurting-animals/",
+    "summary": "<p>Article URL: <a href=\"https://www.technologyreview.com/2026/04/16/1135179/anthropogenic-noise-hurting-animals/\">https://www.technologyreview.com/2026/04/16/1135179/anthropogenic-noise-hurting-animals/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47791507\">https://news.ycombinator.com/item?id=47791507</a></p>\n<p>Points: 61</p>\n<p># Comments: 59</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-04-16T11:25:05+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- The article investigates the **ecological impact** of anthropogenic noise on animal communication and survival strategies.\n- It explores the **mitigation strategies** required to reduce human-generated acoustic signatures in sensitive habitats.\n- It addresses the **technological challenges** of designing quieter industrial and transportation systems to preserve biodiversity.",
+      "key_results": [
+        "Human noise interferes with crucial animal communication channels used for mating and warning.",
+        "Marine environments are increasingly saturated with industrial sonar and engine noise.",
+        "Noise pollution is linked to increased physiological stress and behavioral shifts in wildlife.",
+        "Technological transitions in transport are identified as a primary pathway for noise reduction.",
+        "Policy frameworks for 'quiet zones' are emerging as a conservation priority."
+      ],
+      "relevance_score": 1,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "MIT Technology Review reports that human-generated noise pollution significantly disrupts animal communication and threatens global biodiversity ecosystems.",
+      "lead_institution": "MIT Technology Review",
+      "tags": [
+        "Bioacoustics",
+        "Ecology",
+        "Noise Pollution",
+        "Environmental Impact",
+        "Conservation"
+      ]
+    }
+  },
+  {
+    "title": "AI cybersecurity is not proof of work",
+    "link": "https://antirez.com/news/163",
+    "summary": "<p>Recent and related: <i>Cybersecurity looks like proof of work now</i> - <a href=\"https://news.ycombinator.com/item?id=47769089\">https://news.ycombinator.com/item?id=47769089</a> - (198 comments)</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47791236\">https://news.ycombinator.com/item?id=47791236</a></p>\n<p>Points: 198</p>\n<p># Comments: 79</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-04-16T10:48:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- This discussion evaluates the evolving **cybersecurity landscape** in the age of Generative AI, challenging the notion that AI-driven security acts as a **Proof of Work** mechanism.\n- It highlights the shift from manual code review to **automated reasoning**, where LLM agents are deployed to both identify vulnerabilities and generate real-time patches.\n- The core impact involves the **asymmetry of cyber-defense**, questioning whether scaling compute for defense can effectively outpace the lower costs of AI-generated exploits.",
+      "key_results": [
+        "AI-driven vulnerability scanning reduces the time-to-discovery for complex code flaws.",
+        "The cost-asymmetry traditionally favoring attackers may shift as **defensive AI** scales.",
+        "AI security is distinct from Proof of Work because it relies on **semantic reasoning** rather than brute-force computation.",
+        "Automated **patch generation** is becoming a critical component of CI/CD pipelines.",
+        "Reasoning models like o1/Qwen are increasing the efficacy of **offensive security agents**."
+      ],
+      "relevance_score": 5,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Hacker News contributors argue that AI-driven cybersecurity fundamentally differs from Proof of Work by introducing semantic reasoning into defense.",
+      "lead_institution": "Hacker News",
+      "tags": [
+        "Cybersecurity",
+        "LLM Agents",
+        "Reasoning Models",
+        "AI Safety",
+        "AI Trends"
+      ]
+    }
+  },
+  {
+    "title": "The local LLM ecosystem doesn\u2019t need Ollama",
+    "link": "https://sleepingrobots.com/dreams/stop-using-ollama/",
+    "summary": "<p>Article URL: <a href=\"https://sleepingrobots.com/dreams/stop-using-ollama/\">https://sleepingrobots.com/dreams/stop-using-ollama/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47788385\">https://news.ycombinator.com/item?id=47788385</a></p>\n<p>Points: 602</p>\n<p># Comments: 201</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-04-16T03:35:11+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- The critique focuses on **Ollama's** architectural role as a thick wrapper for **llama.cpp**, arguing it adds unnecessary complexity and bloat to the local inference stack.\n- It highlights the risk of **ecosystem fragmentation** caused by Ollama's proprietary **Modelfile** format, which obscures standard GGUF metadata and quantization details.\n- The author advocates for **unbundled inference engines** and open standards to ensure developers maintain granular control over **VRAM management** and hardware-specific optimizations.",
+      "key_results": [
+        "Ollama's Go-based wrapper introduces overhead compared to direct usage of C++ inference backends.",
+        "The Modelfile format creates a 'walled garden' effect that limits interoperability with other tools.",
+        "Direct use of llama.cpp or similar backends allows for more precise control over model quantization parameters.",
+        "Centralization via the Ollama Hub is viewed as a threat to the decentralized nature of the local LLM community.",
+        "Lighter-weight, OpenAI-compatible API servers are recommended as alternatives for production-grade local deployments."
+      ],
+      "relevance_score": 6,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Sleeping Robots contends that developers should abandon Ollama for direct llama.cpp usage to ensure better performance and ecosystem transparency.",
+      "lead_institution": "Sleeping Robots",
+      "tags": [
+        "Local LLMs",
+        "llama.cpp",
+        "Inference Optimization",
+        "Model Deployment",
+        "GGUF"
+      ]
+    }
+  },
+  {
+    "title": "Show HN: Gave Claude a casino bankroll \u2013 it gambles till it's too broke to think",
+    "link": "https://letaigamble.com/",
+    "summary": "<p>Inspired by ALMA. As Claude loses money gambling on provably-fair slots, it's forced to downgrade from Opus \u2192 Sonnet \u2192 Haiku, making worse decisions and accelerating the spiral. Donations go to gambling support charities.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47787491\">https://news.ycombinator.com/item?id=47787491</a></p>\n<p>Points: 33</p>\n<p># Comments: 8</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-04-16T01:10:44+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n\u2022 This project features an **LLM Agent** managing a gambling bankroll on provably-fair slot machines.\n\u2022 The architecture employs a **dynamic model-tiering system** that downgrades the LLM from Claude 3 Opus to Sonnet and finally Haiku as the account balance decreases.\n\u2022 It explores the **impact of model reasoning capability** on financial decision-making, demonstrating how lower-tier models accelerate loss through poor strategy.\n\u2022 The experiment serves as a behavioral study on **stochastic decision-making** and the consequences of resource constraints on AI intelligence.",
+      "key_results": [
+        "Automated triggers downgrade Claude model tiers based on real-time bankroll thresholds.",
+        "Claude 3 Opus maintains the most conservative and strategic approach to gambling tasks.",
+        "Model downgrades to Haiku result in significantly faster financial depletion due to erratic decision-making.",
+        "The 'death spiral' phenomenon shows that cheaper models are unable to recover from initial losses.",
+        "The project utilizes provably-fair slot APIs to ensure technical transparency in the experiment."
+      ],
+      "relevance_score": 4,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Hacker News user OpenClaw demonstrates model performance degradation by forcing Claude to downgrade its model tier as it loses funds.",
+      "lead_institution": "Hacker News",
+      "tags": [
+        "LLM Agents",
+        "Claude",
+        "Model Performance",
+        "Vibe Coding",
+        "AI Evaluation"
+      ]
+    }
+  },
+  {
+    "title": "Amazon worker dies on warehouse floor. Workers told to keep going",
+    "link": "https://finance.yahoo.com/sectors/healthcare/articles/just-dont-look-amazon-worker-170000180.html",
+    "summary": "<p>Article URL: <a href=\"https://finance.yahoo.com/sectors/healthcare/articles/just-dont-look-amazon-worker-170000180.html\">https://finance.yahoo.com/sectors/healthcare/articles/just-dont-look-amazon-worker-170000180.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47786794\">https://news.ycombinator.com/item?id=47786794</a></p>\n<p>Points: 54</p>\n<p># Comments: 27</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-04-15T23:37:05+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Report detailing a **worker fatality** occurring on the floor of an Amazon warehouse during a scheduled shift.\n- Management allegedly instructed employees to **continue production** and ignore the emergency scene to maintain operational quotas.\n- The incident underscores growing concerns regarding **labor ethics** and the psychological impact of hyper-efficient logistics systems.",
+      "key_results": [
+        "A worker suffered a fatal event during active operations at an Amazon facility.",
+        "Operations were not halted nor was the facility evacuated following the death.",
+        "Management reportedly prioritized throughput over immediate incident debriefing or grieving.",
+        "The event has triggered significant public and internal backlash regarding warehouse safety.",
+        "The narrative reinforces criticisms of the human cost associated with high-pressure fulfillment environments."
+      ],
+      "relevance_score": 1,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Amazon continues warehouse operations despite a worker fatality, drawing sharp criticism regarding labor ethics and employee safety standards.",
+      "lead_institution": "Amazon",
+      "tags": [
+        "Labor Practices",
+        "Workplace Safety",
+        "Corporate Ethics",
+        "Logistics",
+        "Warehouse Operations"
+      ]
+    }
+  },
+  {
+    "title": "YouTube users get option to set their Shorts time limit to zero minutes",
+    "link": "https://www.theverge.com/streaming/912898/youtube-shorts-feed-limit-zero-minutes",
+    "summary": "<p>Article URL: <a href=\"https://www.theverge.com/streaming/912898/youtube-shorts-feed-limit-zero-minutes\">https://www.theverge.com/streaming/912898/youtube-shorts-feed-limit-zero-minutes</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47786791\">https://news.ycombinator.com/item?id=47786791</a></p>\n<p>Points: 308</p>\n<p># Comments: 154</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-04-15T23:36:56+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- **Feature Implementation**: YouTube introduces a high-granularity **digital wellbeing** toggle allowing users to set a strict **zero-minute limit** on Shorts consumption.\n- **UI/UX Policy**: This update addresses user feedback regarding **short-form content addiction** by providing a mechanism to effectively hide or disable the Shorts feed.\n- **Algorithmic Interaction**: While the recommendation engine remains unchanged, the **client-side policy** overrides the feed delivery to prioritize user-defined time constraints.",
+      "key_results": [
+        "Users can now bypass the Shorts feed entirely via time limits.",
+        "Integrated directly into the existing YouTube mobile and web dashboard.",
+        "Responds to growing regulatory and social pressure regarding platform stickiness.",
+        "Provides a 'hard stop' for algorithmic scrolling behavior.",
+        "Rollout aims to improve user sentiment regarding platform transparency and control."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "YouTube introduces a zero-minute limit option for Shorts to empower users with greater control over algorithmic content consumption.",
+      "lead_institution": "YouTube",
+      "tags": [
+        "Digital Wellbeing",
+        "Product Design",
+        "User Interface",
+        "Content Moderation",
+        "Consumer Tech"
+      ]
+    }
+  },
+  {
+    "title": "You cannot use the GNU (A)GPL to take software freedom away",
+    "link": "https://www.fsf.org/blogs/licensing/agpl-is-not-a-tool-for-taking-freedom-away",
+    "summary": "<p>Article URL: <a href=\"https://www.fsf.org/blogs/licensing/agpl-is-not-a-tool-for-taking-freedom-away\">https://www.fsf.org/blogs/licensing/agpl-is-not-a-tool-for-taking-freedom-away</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47783984\">https://news.ycombinator.com/item?id=47783984</a></p>\n<p>Points: 35</p>\n<p># Comments: 0</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-04-15T19:26:21+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* The **Free Software Foundation (FSF)** clarifies the intent of the **GNU Affero General Public License (AGPL)**, emphasizing its role in preserving software freedom for network-hosted services.\n* The article addresses the **legal architecture** of copyleft, specifically how the AGPL closes the \"SaaS loophole\" by requiring source code disclosure to users interacting with the software over a network.\n* It warns against using the license as a **restrictive tool**, asserting that the license's primary function is to empower users rather than provide a mechanism for developers to rescind freedoms.",
+      "key_results": [
+        "Reaffirmation of AGPLv3 as the primary tool for network-based software freedom.",
+        "Clarification that the FSF does not support modified licenses that strip core user rights.",
+        "Identification of the 'SaaS loophole' as the primary target of the AGPL's disclosure requirements.",
+        "Assertion that the AGPL cannot be legally co-opted to impose proprietary-style restrictions.",
+        "Emphasis on the integrity of the GPL family in maintaining a free software ecosystem."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "The Free Software Foundation clarifies that AGPL licensing exists to protect user freedom and cannot be leveraged for restrictive control.",
+      "lead_institution": "Free Software Foundation",
+      "tags": [
+        "Open Source",
+        "Licensing",
+        "AGPL",
+        "Software Freedom",
+        "Copyleft"
+      ]
+    }
+  },
+  {
+    "title": "Ask HN: Who is using OpenClaw?",
+    "link": "https://news.ycombinator.com/item?id=47783940",
+    "summary": "<p>I don't use it personally, and neither does anyone in my circle...even though I feel like I'm super plugged into the ai world</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47783940\">https://news.ycombinator.com/item?id=47783940</a></p>\n<p>Points: 319</p>\n<p># Comments: 363</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-04-15T19:22:10+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "- **OpenClaw** is an open-source frontend architecture designed to emulate the UI/UX of Anthropic's **Claude** platform for use with various LLM backends.\n- The project emphasizes **multi-model orchestration**, allowing users to maintain a consistent interface while switching between proprietary APIs and **Local LLMs**.\n- A significant technical focus within the community involves adding **MCP (Model Context Protocol)** support to enhance tool-calling and agentic capabilities.\n- The tool reflects the **Vibe Coding** trend, where developers prioritize high-quality, familiar interfaces for custom AI workflows and privacy-focused self-hosting.",
+      "key_results": [
+        "Significant community interest in open-source alternatives to proprietary AI web interfaces.",
+        "Users identify a gap in adoption despite high awareness of Claude-like clones.",
+        "Demand for integration with local inference engines like Ollama or LM Studio.",
+        "Discussion highlights the importance of Model Context Protocol (MCP) for modern LLM clients.",
+        "Privacy and API cost management remain primary drivers for self-hosted UI adoption."
+      ],
+      "relevance_score": 4,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Hacker News contributors evaluate the adoption of OpenClaw as a customizable, open-source interface for managing Claude and local models.",
+      "lead_institution": "Hacker News",
+      "tags": [
+        "OpenClaw",
+        "Claude",
+        "LLM Interface",
+        "MCP",
+        "Self-hosting"
+      ]
+    }
+  },
+  {
+    "title": "Users lose $9.5M to fake Ledger wallet app on the Apple App Store",
+    "link": "https://www.web3isgoinggreat.com/?id=fake-ledger-app",
+    "summary": "<p>Article URL: <a href=\"https://www.web3isgoinggreat.com/?id=fake-ledger-app\">https://www.web3isgoinggreat.com/?id=fake-ledger-app</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47783278\">https://news.ycombinator.com/item?id=47783278</a></p>\n<p>Points: 71</p>\n<p># Comments: 46</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-04-15T18:35:45+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- A fraudulent application successfully impersonated the official **Ledger wallet companion** on the Apple App Store, resulting in massive asset theft.\n- The breach demonstrates a significant failure in the **centralized app review ecosystem**, highlighting vulnerabilities in automated and manual verification for high-stakes financial tools.\n- Malicious actors leveraged **brand impersonation** and social engineering to harvest user credentials and sensitive cryptographic seeds.",
+      "key_results": [
+        "$9.5 million in user cryptocurrency funds were stolen through the fraudulent application.",
+        "The fake app bypassed Apple's App Store security vetting and review protocols.",
+        "Attackers utilized authentic Ledger branding to maximize the perceived legitimacy of the software.",
+        "The incident underscores the ongoing risk of 'drainer' applications within centralized marketplaces.",
+        "Ledger issued official warnings after the malicious application was discovered and reported by the community."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Web3 Is Going Great reports that attackers stole $9.5 million via a fake Ledger app on Apple\u2019s App Store.",
+      "lead_institution": "Hacker News",
+      "tags": [
+        "Cybersecurity",
+        "Crypto Fraud",
+        "App Store",
+        "Ledger",
+        "Social Engineering"
+      ]
+    }
+  },
+  {
+    "title": "The Gemini app is now on Mac",
+    "link": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-mac-os/",
+    "summary": "<p>Article URL: <a href=\"https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-mac-os/\">https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-mac-os/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47782256\">https://news.ycombinator.com/item?id=47782256</a></p>\n<p>Points: 163</p>\n<p># Comments: 91</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-04-15T17:25:52+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "<br>\u2022 Google launches the **Gemini desktop app for macOS**, providing a native interface for interacting with **multimodal LLMs** directly within the operating system.<br>\u2022 The app introduces a **system-wide shortcut** (Option + Space) to facilitate rapid context-switching and streamline **Generative AI** workflows.<br>\u2022 Features **Gemini Live**, enabling low-latency voice interactions and reasoning capabilities for hands-free productivity.<br>\u2022 Supports **multimodal input**, allowing users to upload documents, images, and code for instant analysis and RAG-based querying.",
+      "key_results": [
+        "Official release of the Gemini application for macOS users.",
+        "Integration of system-wide hotkeys for rapid AI accessibility.",
+        "Voice-activated Gemini Live support for conversational AI interactions.",
+        "Seamless multimodal file and image processing within the desktop environment.",
+        "Enhanced connectivity with Google Workspace tools for automated workflows."
+      ],
+      "relevance_score": 4,
+      "signal_type": "Release",
+      "one_sentence_takeaway": "Google launches the Gemini app for macOS, integrating multimodal AI and voice interactions directly into the desktop workflow.",
+      "lead_institution": "Google",
+      "tags": [
+        "Gemini",
+        "macOS",
+        "Multimodal AI",
+        "Generative AI Trends",
+        "LLM Agents"
+      ]
+    }
+  },
+  {
     "title": "Meet HoloTab by HCompany. Your AI browser companion.",
     "link": "https://huggingface.co/blog/Hcompany/holotab",
     "summary": "",
@@ -26,66 +926,6 @@
         "Local LLMs",
         "UI Reasoning",
         "Generative AI"
-      ]
-    }
-  },
-  {
-    "title": "Build a personal organization command center with GitHub Copilot CLI",
-    "link": "https://github.blog/ai-and-ml/github-copilot/build-a-personal-organization-command-center-with-github-copilot-cli/",
-    "summary": "<p>Learn about the productivity tool one GitHub engineer built, and how AI supported the development process.</p>\n<p>The post <a href=\"https://github.blog/ai-and-ml/github-copilot/build-a-personal-organization-command-center-with-github-copilot-cli/\">Build a personal organization command center with GitHub Copilot CLI</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
-    "source": "The GitHub Blog",
-    "published": "2026-04-15T17:00:00+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "<br> \u2022 Demonstrates the integration of **GitHub Copilot CLI** to bridge the gap between natural language intent and complex shell command execution.<br> \u2022 Explores the creation of a **custom command center** that orchestrates personal organizational workflows through terminal-based automation.<br> \u2022 Highlights the transition from manual script writing to **AI-assisted command synthesis**, reducing the cognitive load of syntax memorization for developers.",
-      "key_results": [
-        "Implemented a centralized terminal interface for personal task management.",
-        "Used GitHub Copilot CLI to translate high-level natural language requests into executable shell scripts.",
-        "Showcased productivity gains by minimizing context switching between the IDE and browser-based documentation.",
-        "Demonstrated the application of LLMs in streamlining internal engineering workflows.",
-        "Validated the utility of AI-powered shell extensions for rapid prototyping of CLI tools."
-      ],
-      "relevance_score": 4,
-      "signal_type": "Engineering Blog",
-      "one_sentence_takeaway": "GitHub demonstrates how engineers can leverage Copilot CLI to build personalized, natural-language-driven command centers that automate daily productivity workflows.",
-      "lead_institution": "GitHub",
-      "tags": [
-        "GitHub Copilot CLI",
-        "Developer Productivity",
-        "Terminal Automation",
-        "LLM Tooling",
-        "Shell Integration"
-      ]
-    }
-  },
-  {
-    "title": "Developer policy update: Intermediary liability, copyright, and transparency",
-    "link": "https://github.blog/news-insights/policy-news-and-insights/developer-policy-update-intermediary-liability-copyright-and-transparency/",
-    "summary": "<p>We\u2019re sharing recent policy updates that developers should know about, updating our Transparency Center with the full year of 2025 data, and looking to what\u2019s ahead.</p>\n<p>The post <a href=\"https://github.blog/news-insights/policy-news-and-insights/developer-policy-update-intermediary-liability-copyright-and-transparency/\">Developer policy update: Intermediary liability, copyright, and transparency</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
-    "source": "The GitHub Blog",
-    "published": "2026-04-15T15:00:00+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n- GitHub updates its **developer policy framework** to address the evolving legal landscape of **intermediary liability** and copyright protections.\n- The update includes the release of the 2025 **Transparency Center** data, providing metrics on content removal and government requests.\n- Focus is placed on maintaining **safe harbor protections** for developers amidst changing global regulations surrounding AI-generated content and platform responsibility.",
-      "key_results": [
-        "Clarified stances on intermediary liability for hosted code.",
-        "Updated copyright management protocols for the AI era.",
-        "Release of full-year 2025 transparency reporting data.",
-        "Enhanced visibility into platform-level content moderation decisions.",
-        "Guidelines for developers to navigate evolving intellectual property laws."
-      ],
-      "relevance_score": 2,
-      "signal_type": "General News",
-      "one_sentence_takeaway": "GitHub updates its developer policies regarding intermediary liability and copyright while releasing the full 2025 transparency data report.",
-      "lead_institution": "GitHub",
-      "tags": [
-        "Policy",
-        "Copyright",
-        "Transparency",
-        "Governance",
-        "Legal"
       ]
     }
   },
@@ -176,36 +1016,6 @@
         "Automation",
         "Browser Extensions",
         "Generative AI"
-      ]
-    }
-  },
-  {
-    "title": "Create rich, custom tooltips in Amazon Quick Sight",
-    "link": "https://aws.amazon.com/blogs/machine-learning/create-rich-custom-tooltips-in-amazon-quick-sight/",
-    "summary": "Today, we're announcing sheet tooltips in Amazon Quick Sight. Dashboard authors can now design custom tooltip layouts using free-form layout sheets. These layouts combine charts, key performance indicator (KPI) metrics, text, and other visuals into a single tooltip that renders dynamically when readers hover over data points.",
-    "source": "Artificial Intelligence",
-    "published": "2026-04-15T15:22:53+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "<br>\u2022 Amazon QuickSight introduces **sheet tooltips**, allowing authors to create high-density, **free-form layouts** for dynamic data interaction.<br>\u2022 The system architecture supports the inclusion of **KPI metrics, charts, and text** within a single tooltip component triggered by hover events.<br>\u2022 This feature enhances **contextual analysis** by reducing the need for drill-down navigation and improving the overall **information hierarchy** of dashboards.",
-      "key_results": [
-        "Enabled free-form layout sheets for custom tooltip design.",
-        "Integrated dynamic rendering of multiple visual types including KPIs and charts.",
-        "Streamlined data-point interaction for deeper analytical context without navigation.",
-        "Reduced dashboard clutter by offloading secondary visuals to tooltips.",
-        "Automated data binding within tooltips based on primary visual hover state."
-      ],
-      "relevance_score": 2,
-      "signal_type": "Release",
-      "one_sentence_takeaway": "Amazon launches sheet tooltips in QuickSight to enable multi-visual, dynamic data overlays within BI dashboards.",
-      "lead_institution": "Amazon QuickSight",
-      "tags": [
-        "Business Intelligence",
-        "Data Visualization",
-        "Amazon QuickSight",
-        "UI/UX",
-        "Analytics"
       ]
     }
   },
@@ -326,126 +1136,6 @@
         "Video Editing",
         "NVIDIA RTX",
         "Media Production"
-      ]
-    }
-  },
-  {
-    "title": "Amazon worker dies on warehouse floor. Workers told to keep going",
-    "link": "https://finance.yahoo.com/sectors/healthcare/articles/just-dont-look-amazon-worker-170000180.html",
-    "summary": "<p>Article URL: <a href=\"https://finance.yahoo.com/sectors/healthcare/articles/just-dont-look-amazon-worker-170000180.html\">https://finance.yahoo.com/sectors/healthcare/articles/just-dont-look-amazon-worker-170000180.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47786794\">https://news.ycombinator.com/item?id=47786794</a></p>\n<p>Points: 32</p>\n<p># Comments: 4</p>",
-    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
-    "published": "2026-04-15T23:37:05+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n- Report investigates a fatal medical incident involving an **Amazon warehouse worker** and the management's decision to maintain operational throughput.\n- Highlights the rigid nature of **fulfillment center workflows** where automated productivity targets may conflict with emergency response protocols.\n- Discusses the ethical implications of **algorithmic management systems** that prioritize package volume over human safety considerations.\n- Examines the systemic impact of **tech-driven logistics** on labor conditions and workplace culture.",
-      "key_results": [
-        "A worker died during a shift at an Amazon fulfillment center.",
-        "Colleagues were reportedly instructed to continue working near the incident site.",
-        "The event highlights potential flaws in high-pressure operational environments.",
-        "Critics argue that automated productivity metrics dehumanize warehouse labor.",
-        "The incident has sparked renewed debate over corporate safety protocols in logistics."
-      ],
-      "relevance_score": 1,
-      "signal_type": "General News",
-      "one_sentence_takeaway": "Amazon faces severe criticism after reports surfaced that warehouse employees were told to continue working following a coworker's death.",
-      "lead_institution": "Amazon",
-      "tags": [
-        "Workplace Safety",
-        "Algorithmic Management",
-        "Logistics",
-        "Corporate Ethics",
-        "Labor Relations"
-      ]
-    }
-  },
-  {
-    "title": "Ask HN: Who is using OpenClaw?",
-    "link": "https://news.ycombinator.com/item?id=47783940",
-    "summary": "<p>I don't use it personally, and neither does anyone in my circle...even though I feel like I'm super plugged into the ai world</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47783940\">https://news.ycombinator.com/item?id=47783940</a></p>\n<p>Points: 200</p>\n<p># Comments: 245</p>",
-    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
-    "published": "2026-04-15T19:22:10+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n- **OpenClaw** is explored as an open-source framework intended to replicate the **agentic UI** capabilities of proprietary systems like Claude Artifacts.\n- The discussion highlights the integration of the **Model Context Protocol (MCP)**, which allows for standardized communication between the LLM and local data sources or tools.\n- Technical feedback focuses on the architecture's ability to facilitate **provider-agnostic** workflows, decoupling the model's reasoning from its presentation layer.",
-      "key_results": [
-        "High initial community interest in open-source **agentic interface** clones.",
-        "Significant discussion regarding the utility of **Model Context Protocol (MCP)** for local tool use.",
-        "Reports of low active daily usage despite high 'plugged-in' status among AI practitioners.",
-        "User preference for **local execution** environments to maintain data privacy and reduce latency.",
-        "Identification of a gap between GitHub repository visibility and actual **production adoption**."
-      ],
-      "relevance_score": 3,
-      "signal_type": "General News",
-      "one_sentence_takeaway": "Hacker News community analyzes the adoption gap and technical utility of OpenClaw as an open-source agentic UI framework.",
-      "lead_institution": "Hacker News",
-      "tags": [
-        "OpenClaw",
-        "LLM Agents",
-        "MCP",
-        "Agentic UI",
-        "Open Source AI"
-      ]
-    }
-  },
-  {
-    "title": "Users lose $9.5M to fake Ledger wallet app on the Apple App Store",
-    "link": "https://www.web3isgoinggreat.com/?id=fake-ledger-app",
-    "summary": "<p>Article URL: <a href=\"https://www.web3isgoinggreat.com/?id=fake-ledger-app\">https://www.web3isgoinggreat.com/?id=fake-ledger-app</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47783278\">https://news.ycombinator.com/item?id=47783278</a></p>\n<p>Points: 70</p>\n<p># Comments: 38</p>",
-    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
-    "published": "2026-04-15T18:35:45+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\u2022 Fraudulent actors successfully bypassed the **Apple App Store review process** to host a malicious application mimicking the official Ledger Live software.<br>\u2022 The attack utilized **social engineering** to trick users into entering their 24-word recovery phrases directly into a digital interface, violating hardware security protocols.<br>\u2022 This breach resulted in the compromise of **private keys** and the subsequent drainage of approximately $9.5 million in digital assets.<br>\u2022 The incident highlights a critical failure in **centralized app distribution security** for high-stakes financial applications.",
-      "key_results": [
-        "Approximately $9.5 million in cryptocurrency was stolen from users.",
-        "A single fake 'Ledger' app managed to pass Apple\u2019s strict app store screening.",
-        "The attack vector focused on harvesting offline recovery phrases via software input.",
-        "The incident underscores the persistent risk of phishing within the 'walled garden' ecosystem.",
-        "Security experts reiterate that hardware wallet seeds must never be entered into any internet-connected device."
-      ],
-      "relevance_score": 2,
-      "signal_type": "General News",
-      "one_sentence_takeaway": "Web3 Is Going Great reports that a fraudulent Ledger app bypassed Apple App Store security to steal $9.5 million.",
-      "lead_institution": "Web3 Is Going Great",
-      "tags": [
-        "Cybersecurity",
-        "Cryptocurrency",
-        "App Store",
-        "Phishing",
-        "Digital Assets"
-      ]
-    }
-  },
-  {
-    "title": "The Gemini app is now on Mac",
-    "link": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-mac-os/",
-    "summary": "<p>Article URL: <a href=\"https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-mac-os/\">https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-mac-os/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47782256\">https://news.ycombinator.com/item?id=47782256</a></p>\n<p>Points: 76</p>\n<p># Comments: 38</p>",
-    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
-    "published": "2026-04-15T17:25:52+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "<br>\u2022 Google launches a native **Gemini application for macOS**, integrating conversational AI directly into the desktop environment via a global shortcut.<br>\u2022 The app leverages **multimodal capabilities** through **Gemini Live**, enabling real-time voice interactions and fluid dialogue for brainstorming or technical troubleshooting.<br>\u2022 Architecture emphasizes **cross-app integration** through Extensions, allowing the model to interact with the **Google Workspace** ecosystem including Docs, Drive, and Gmail.<br>\u2022 This release signals a shift toward **Agentic interfaces** where LLMs reside at the OS level to reduce context-switching friction for developers and power users.",
-      "key_results": [
-        "Native macOS integration with a customizable Option + Space shortcut.",
-        "Gemini Live support for hands-free, low-latency voice interaction.",
-        "Deep integration with Google Workspace via specialized Extensions.",
-        "Support for multi-turn reasoning and code generation within a dedicated window.",
-        "Unified cross-platform availability across Windows and Mac for enterprise consistency."
-      ],
-      "relevance_score": 4,
-      "signal_type": "Release",
-      "one_sentence_takeaway": "Google launches the Gemini Mac app to provide seamless desktop integration and voice-enabled multimodal AI interactions.",
-      "lead_institution": "Google",
-      "tags": [
-        "Gemini",
-        "Multimodal AI",
-        "LLM Agents",
-        "Productivity",
-        "Google Workspace"
       ]
     }
   },
