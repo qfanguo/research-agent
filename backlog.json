@@ -1,5 +1,785 @@
 [
   {
+    "title": "Making ChatGPT better for clinicians",
+    "link": "https://openai.com/index/making-chatgpt-better-for-clinicians",
+    "summary": "OpenAI makes ChatGPT for Clinicians free for verified U.S. physicians, nurse practitioners, and pharmacists, supporting clinical care, documentation, and research.",
+    "source": "OpenAI News",
+    "published": "2026-04-22T15:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- OpenAI expands access to **ChatGPT for Clinicians**, providing a specialized interface and tools for verified healthcare professionals to assist with **clinical care**.\n- The initiative aims to streamline **clinical documentation** and administrative workflows, potentially leveraging domain-specific system prompts or fine-tuned safety guardrails.\n- Focuses on increasing the efficiency of **medical research** and data synthesis within a compliant framework for high-stakes professional environments.",
+      "key_results": [
+        "Free access granted to verified U.S. physicians and pharmacists.",
+        "Support for automated clinical documentation workflows.",
+        "Tools provided for medical research and data analysis.",
+        "Verified access system to ensure professional use.",
+        "Integration into daily clinical care and patient-facing workflows."
+      ],
+      "relevance_score": 4,
+      "signal_type": "Release",
+      "one_sentence_takeaway": "OpenAI provides free access to ChatGPT for Clinicians to streamline medical documentation and enhance clinical research workflows.",
+      "lead_institution": "OpenAI",
+      "tags": [
+        "Healthcare AI",
+        "LLM Deployment",
+        "Clinical Documentation",
+        "Generative AI Trends",
+        "OpenAI"
+      ]
+    }
+  },
+  {
+    "title": "Workspace agents",
+    "link": "https://openai.com/academy/workspace-agents",
+    "summary": "Learn how to build, use, and scale workspace agents in ChatGPT to automate repeatable workflows, connect tools, and streamline team operations.",
+    "source": "OpenAI News",
+    "published": "2026-04-22T10:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n\u2022 Introduces **Workspace Agents** as a specialized framework for scaling **agentic workflows** within collaborative enterprise environments.\n\u2022 Utilizes **tool-calling architectures** and custom API integrations to bridge the gap between LLM reasoning and internal business data.\n\u2022 Focuses on **operational orchestration**, allowing teams to deploy multiple domain-specific agents that handle repeatable tasks and cross-functional hand-offs.\n\u2022 Enhances **collaborative intelligence** by centralizing agent governance and tool access within the ChatGPT workspace infrastructure.",
+      "key_results": [
+        "Deployment of automated, multi-step workflows across organizational units.",
+        "Seamless integration of internal enterprise tools via secure API connectors.",
+        "Scaling of domain-specific expertise through custom-built workspace agents.",
+        "Centralized management of agent permissions and shared team knowledge.",
+        "Reduction in manual task latency through proactive AI-driven automation."
+      ],
+      "relevance_score": 6,
+      "signal_type": "Release",
+      "one_sentence_takeaway": "OpenAI launches workspace agents to automate complex team workflows and integrate external enterprise tools directly within ChatGPT.",
+      "lead_institution": "OpenAI",
+      "tags": [
+        "LLM Agents",
+        "Enterprise AI",
+        "Workflow Automation",
+        "Tool Calling",
+        "ChatGPT"
+      ]
+    }
+  },
+  {
+    "title": "Partnering with industry leaders to accelerate AI transformation",
+    "link": "https://deepmind.google/blog/partnering-with-industry-leaders-to-accelerate-ai-transformation/",
+    "summary": "Google DeepMind partners with global consultancies to bring the power of frontier AI to organizations around the world.",
+    "source": "Google DeepMind News",
+    "published": "2026-04-21T14:54:15+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* Google DeepMind is expanding the reach of its **frontier AI models** by establishing strategic partnerships with global consulting firms.\n* The collaboration aims to facilitate **enterprise AI transformation**, allowing organizations to leverage large-scale reasoning and multimodal capabilities.\n* This initiative focuses on the practical application of **foundation models** within complex corporate infrastructures through expert third-party implementation.",
+      "key_results": [
+        "Establishment of global consultancy partnerships.",
+        "Accelerated deployment of frontier AI in enterprise settings.",
+        "Creation of a support ecosystem for organizational AI adoption.",
+        "Focus on bridging research models with industry-specific use cases.",
+        "Enhanced scaling of Google's AI technologies across various sectors."
+      ],
+      "relevance_score": 2,
+      "signal_type": "Release",
+      "one_sentence_takeaway": "Google DeepMind partners with global consultancies to scale the implementation of frontier AI across diverse enterprise environments.",
+      "lead_institution": "Google DeepMind",
+      "tags": [
+        "Enterprise AI",
+        "Partnerships",
+        "AI Transformation",
+        "Frontier Models",
+        "Generative AI"
+      ]
+    }
+  },
+  {
+    "title": "3 new ways Ads Advisor is making Google Ads safer and faster",
+    "link": "https://blog.google/products/ads-commerce/ads-advisor-google-ads/",
+    "summary": "The Road to Google Marketing Live graphic. May 20, 2026, 9am PT. White background with colorful bottom gradient.",
+    "source": "AI",
+    "published": "2026-04-21T14:30:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* Google announces updates to **Ads Advisor**, focusing on enhancing safety protocols and processing speed for advertisers.\n* The system leverages **Generative AI** to automate complex campaign advisory and policy compliance checks.\n* Integration into the **Google Ads** ecosystem aims to reduce manual overhead and improve the accuracy of ad placements.\n* The announcement serves as a precursor to broader **AI-driven marketing** updates scheduled for May 2026.",
+      "key_results": [
+        "Introduction of AI-driven safety features for Google Ads.",
+        "Optimization of processing speed for marketing advisory tools.",
+        "Strategic alignment with the upcoming Google Marketing Live event.",
+        "Automation of campaign-level policy and safety enforcement.",
+        "Enhanced integration of generative tools into the advertiser workflow."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Google announces Ads Advisor updates to improve marketing safety and speed ahead of its upcoming Marketing Live event.",
+      "lead_institution": "Google",
+      "tags": [
+        "Google Ads",
+        "Ads Advisor",
+        "Generative AI",
+        "Marketing Automation",
+        "AI Safety"
+      ]
+    }
+  },
+  {
+    "title": "Amazon SageMaker AI now supports optimized generative AI inference recommendations",
+    "link": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-ai-now-supports-optimized-generative-ai-inference-recommendations/",
+    "summary": "Today, Amazon SageMaker AI&nbsp; supports optimized generative AI inference recommendations. By delivering validated, optimal deployment configurations with performance metrics, Amazon SageMaker AI keeps your model developers focused on building accurate models, not managing infrastructure.",
+    "source": "Artificial Intelligence",
+    "published": "2026-04-22T19:15:08+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "<br>\u2022 Amazon SageMaker AI introduces **optimized inference recommendations** designed to automate the selection of infrastructure for generative AI models.<br>\u2022 The system provides **validated deployment configurations** paired with performance metrics to streamline the transition from model training to production.<br>\u2022 This architectural update aims to reduce the **infrastructure management burden**, allowing ML engineers to focus on model accuracy rather than hardware tuning.",
+      "key_results": [
+        "Automated identification of optimal instance types for LLMs",
+        "Provision of validated performance benchmarks for specific configurations",
+        "Reduction in manual experimentation for hardware provisioning",
+        "Streamlined deployment workflows for generative AI models",
+        "Enhanced focus on model accuracy over infrastructure management"
+      ],
+      "relevance_score": 4,
+      "signal_type": "Release",
+      "one_sentence_takeaway": "Amazon SageMaker AI introduces optimized inference recommendations to automate hardware selection and performance validation for generative model deployments.",
+      "lead_institution": "Amazon SageMaker AI",
+      "tags": [
+        "Inference Optimization",
+        "Model Deployment",
+        "AWS SageMaker",
+        "Infrastructure Automation",
+        "Generative AI"
+      ]
+    }
+  },
+  {
+    "title": "Get to your first working agent in minutes: Announcing new features in Amazon Bedrock AgentCore",
+    "link": "https://aws.amazon.com/blogs/machine-learning/get-to-your-first-working-agent-in-minutes-announcing-new-features-in-amazon-bedrock-agentcore/",
+    "summary": "Today, we're introducing new capabilities that further streamline the agent building experience, removing the infrastructure barriers that slow teams down at every stage of agent development from the first prototype through production deployment.",
+    "source": "Artificial Intelligence",
+    "published": "2026-04-22T19:13:56+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* **Amazon Bedrock AgentCore** introduces streamlined capabilities for building **autonomous agents** by abstracting complex backend infrastructure requirements.\n* The update facilitates a seamless transition from **rapid prototyping** to **production-grade deployment** environments within the AWS ecosystem.\n* By providing managed **workflow orchestration**, the framework allows developers to focus on agentic logic and task execution rather than manual resource management.",
+      "key_results": [
+        "Reduction in initial agent setup time to minutes via simplified interfaces",
+        "Removal of manual infrastructure provisioning for scaling agentic workflows",
+        "Unified development experience across the entire agent lifecycle",
+        "Improved abstraction layer for connecting agents to enterprise data and tools",
+        "Lowered technical barriers for teams deploying multi-step generative AI applications"
+      ],
+      "relevance_score": 4,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Amazon Bedrock launches AgentCore features to accelerate development of production-ready LLM agents by removing infrastructure barriers.",
+      "lead_institution": "Amazon Bedrock",
+      "tags": [
+        "LLM Agents",
+        "Amazon Bedrock",
+        "Agentic Workflows",
+        "Generative AI",
+        "Cloud Infrastructure"
+      ]
+    }
+  },
+  {
+    "title": "From developer desks to the whole organization: Running Claude Cowork in Amazon Bedrock",
+    "link": "https://aws.amazon.com/blogs/machine-learning/from-developer-desks-to-the-whole-organization-running-claude-cowork-in-amazon-bedrock/",
+    "summary": "Today, we're excited to announce Claude Cowork in Amazon Bedrock. You can now run Cowork and Claude Code Desktop through Amazon Bedrock, directly or using an LLM gateway. In this post, we walk through how Claude Cowork integrates with Amazon Bedrock and show an example of how knowledge workers use it in practice.",
+    "source": "Artificial Intelligence",
+    "published": "2026-04-21T19:13:49+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* Anthropic integrates **Claude Cowork** and **Claude Code Desktop** into **Amazon Bedrock**, enabling enterprise-grade scalability for AI developer tools.\n* The architecture utilizes **managed APIs** or **LLM gateways** to provide secure, governed access to Claude models within existing AWS environments.\n* This release transitions AI productivity tools from individual developer environments to broader **organizational workflows** for knowledge workers.\n* Leverage Bedrock's infrastructure to ensure **security, compliance, and centralized management** of generative AI agent deployments.",
+      "key_results": [
+        "Native availability of Claude Cowork on Amazon Bedrock.",
+        "Support for Claude Code Desktop through Bedrock infrastructure.",
+        "Flexible integration via direct API or custom LLM gateways.",
+        "Expansion of Claude-powered tools to non-technical knowledge workers.",
+        "Streamlined enterprise deployment of Anthropic's agentic capabilities."
+      ],
+      "relevance_score": 6,
+      "signal_type": "Release",
+      "one_sentence_takeaway": "Anthropic launches Claude Cowork on Amazon Bedrock to provide enterprise-scale access to AI-powered coding and knowledge worker tools.",
+      "lead_institution": "Anthropic",
+      "tags": [
+        "Claude Cowork",
+        "Amazon Bedrock",
+        "LLM Agents",
+        "Enterprise AI",
+        "Claude Code"
+      ]
+    }
+  },
+  {
+    "title": "End-to-end lineage with DVC and Amazon SageMaker AI MLflow apps",
+    "link": "https://aws.amazon.com/blogs/machine-learning/end-to-end-lineage-with-dvc-and-amazon-sagemaker-ai-mlflow-apps/",
+    "summary": "In this post, we show how to combine DVC (Data Version Control), Amazon SageMaker AI, and Amazon SageMaker AI MLflow Apps to build end-to-end ML model lineage. We walk through two deployable patterns \u2014 dataset-level lineage and record-level lineage \u2014 that you can run in your own AWS account using the companion notebooks.",
+    "source": "Artificial Intelligence",
+    "published": "2026-04-21T16:43:03+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Integrates **DVC (Data Version Control)** with **Amazon SageMaker AI** and **MLflow Apps** to establish a robust framework for end-to-end machine learning lineage.\n- Introduces two distinct architectural patterns: **dataset-level lineage** for broad version tracking and **record-level lineage** for granular data auditing.\n- Utilizes **S3-backed storage** and **MLflow tracking servers** to bridge the gap between raw data versioning and experiment metadata.",
+      "key_results": [
+        "Synchronization between DVC data hashes and MLflow run parameters for reproducibility.",
+        "Implementation of dataset-level lineage for standard MLOps workflows.",
+        "Development of advanced record-level lineage mapping data points to model versions.",
+        "Automated metadata logging within Amazon SageMaker AI managed environments.",
+        "Provision of deployable companion notebooks for immediate AWS infrastructure integration."
+      ],
+      "relevance_score": 5,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Amazon Web Services demonstrates how to integrate DVC and MLflow for comprehensive data-to-model lineage tracking on SageMaker.",
+      "lead_institution": "Amazon Web Services",
+      "tags": [
+        "MLOps",
+        "Model Lineage",
+        "DVC",
+        "Amazon SageMaker",
+        "MLflow"
+      ]
+    }
+  },
+  {
+    "title": "From Rainforests to Recycling Plants: 5 Ways NVIDIA AI Is Protecting the Planet",
+    "link": "https://blogs.nvidia.com/blog/earth-day-2026-ai-accelerated-computing/",
+    "summary": "Across climate, conservation, disaster monitoring and recycling, NVIDIA AI is enabling applications protecting the planet.",
+    "source": "NVIDIA Blog",
+    "published": "2026-04-22T13:00:42+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "<br> Deployment of **NVIDIA Earth-2** digital twin technology to simulate and visualize global climate patterns with unprecedented speed and resolution. <br> Integration of **NVIDIA Modulus**, a physics-informed machine learning framework, to accelerate environmental forecasting and disaster monitoring workflows. <br> Implementation of **NVIDIA Jetson** edge AI modules for real-time bioacoustic monitoring in rainforests and automated material classification in recycling facilities. <br> Use of **Computer Vision** and **Generative AI** to enhance species identification and optimize resource management in conservation efforts.",
+      "key_results": [
+        "Achieved 1,000x acceleration in climate simulation speeds using physics-ML models.",
+        "Automated identification of endangered species through edge-based bioacoustic analysis.",
+        "Optimization of waste sorting efficiency in recycling plants via AI-powered robotics.",
+        "Real-time predictive modeling for wildfire spread and flood risk management.",
+        "Scalable deployment of environmental digital twins for global-scale conservation."
+      ],
+      "relevance_score": 4,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "NVIDIA showcases how its Earth-2 digital twin and Jetson edge platforms accelerate global climate and conservation efforts.",
+      "lead_institution": "NVIDIA",
+      "tags": [
+        "Digital Twins",
+        "Edge AI",
+        "Climate Modeling",
+        "Physics-AI",
+        "Computer Vision"
+      ]
+    }
+  },
+  {
+    "title": "NVIDIA and Google Cloud Collaborate to Advance Agentic and Physical AI",
+    "link": "https://blogs.nvidia.com/blog/google-cloud-agentic-physical-ai-factories/",
+    "summary": "NVIDIA and Google Cloud have collaborated for more than a decade, co\u2011engineering a full\u2011stack AI platform that spans every technology layer \u2014 from performance\u2011optimized libraries and frameworks to enterprise\u2011grade cloud services.\u00a0 This foundation enables developers, startups and enterprises to push agentic and physical AI out of the lab and into production \u2014 from agents that [&#8230;]",
+    "source": "NVIDIA Blog",
+    "published": "2026-04-22T12:00:42+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "<br>\u2022 Integration of **NVIDIA's performance-optimized libraries** with **Google Cloud's infrastructure** creates a unified platform for deploying **Agentic AI** at scale.<br>\u2022 The architecture focuses on bridging the gap between research and production for **Physical AI**, leveraging high-performance compute and enterprise services.<br>\u2022 Optimization spans every layer of the stack, enabling more efficient execution of **Reasoning Models** and large-scale **Generative AI** applications.",
+      "key_results": [
+        "Co-engineered full-stack platform optimized for enterprise AI production.",
+        "Acceleration of Agentic AI workflows from experimental labs to cloud deployment.",
+        "Enhanced support for Physical AI integration in industrial and commercial sectors.",
+        "Deep software library optimization across NVIDIA and Google Cloud technology layers.",
+        "Streamlined development lifecycle for developers using generative AI and autonomous agents."
+      ],
+      "relevance_score": 3,
+      "signal_type": "Release",
+      "one_sentence_takeaway": "NVIDIA and Google Cloud integrate their AI stacks to accelerate the deployment of agentic and physical AI systems.",
+      "lead_institution": "NVIDIA",
+      "tags": [
+        "Agentic AI",
+        "Physical AI",
+        "Enterprise AI",
+        "NVIDIA",
+        "Google Cloud"
+      ]
+    }
+  },
+  {
+    "title": "Apple Machine Learning Research at ICLR 2026",
+    "link": "https://machinelearning.apple.com/research/iclr-2026",
+    "summary": "Apple is advancing AI and ML with fundamental research, much of which is shared through publications and engagement at conferences in order to accelerate progress in this important field and support the broader community. This week, the Fourteenth International Conference on Learning Representations (ICLR) will be held in Rio de Janeiro, Brazil, and Apple is proud to again participate in this important event for the research community and to support it with sponsorship.\nAt the main conference and associated workshops, Apple researchers will present new research across a variety of topics\u2026",
+    "source": "Apple Machine Learning Research",
+    "published": "2026-04-22T00:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Apple announces its sponsorship and participation at the **ICLR 2026** conference to showcase advancements in fundamental AI and ML research.\n- The organization highlights a commitment to **open publications** and community engagement to accelerate global progress in machine learning.\n- Apple researchers will present multi-topic research at the main conference and associated workshops, focusing on **innovative learning representations**.",
+      "key_results": [
+        "Official sponsorship of the Fourteenth International Conference on Learning Representations (ICLR) 2026.",
+        "Strategic participation in the Rio de Janeiro event to engage with the broader research community.",
+        "Presentation of new research papers across a variety of machine learning domains.",
+        "Participation in specialized workshops to discuss emerging AI trends and architectures.",
+        "Emphasis on sharing fundamental research to support community-driven ML advancement."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Apple announces its participation and sponsorship of ICLR 2026 to showcase new machine learning research and community support.",
+      "lead_institution": "Apple Machine Learning Research",
+      "tags": [
+        "Apple",
+        "ICLR 2026",
+        "Machine Learning Research",
+        "AI Conference",
+        "Sponsorship"
+      ]
+    }
+  },
+  {
+    "title": "US saw record high of 5,668 books banned in libraries in 2025, says agency",
+    "link": "https://www.theguardian.com/us-news/2026/apr/22/us-libraries-banned-books",
+    "summary": "<p>Article URL: <a href=\"https://www.theguardian.com/us-news/2026/apr/22/us-libraries-banned-books\">https://www.theguardian.com/us-news/2026/apr/22/us-libraries-banned-books</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47868991\">https://news.ycombinator.com/item?id=47868991</a></p>\n<p>Points: 40</p>\n<p># Comments: 28</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-04-22T20:37:21+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* The article documents a **record-breaking surge** in book bans within the United States library system during 2025.\n* It highlights the **sociopolitical climate** and legislative pressures driving the removal of 5,668 specific titles.\n* The report focuses on **information access** and social policy rather than technical infrastructure or machine learning architecture.",
+      "key_results": [
+        "A total of 5,668 books were banned or challenged in 2025.",
+        "The figures represent the highest level of library censorship recorded in US history.",
+        "Challenges frequently targeted diverse literature and educational materials.",
+        "Data was compiled and released by a specialized reporting agency.",
+        "The trend reflects increasing local and state-level political intervention in public institutions."
+      ],
+      "relevance_score": 1,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "The Guardian reports that US libraries reached a record high of 5,668 book bans in 2025.",
+      "lead_institution": "The Guardian",
+      "tags": [
+        "Censorship",
+        "Public Libraries",
+        "Information Access",
+        "US Policy",
+        "Social Trends"
+      ]
+    }
+  },
+  {
+    "title": "DuckDB 1.5.2 \u2013 SQL database that runs on laptop, server, in the browser",
+    "link": "https://duckdb.org/2026/04/13/announcing-duckdb-152",
+    "summary": "<p>Article URL: <a href=\"https://duckdb.org/2026/04/13/announcing-duckdb-152\">https://duckdb.org/2026/04/13/announcing-duckdb-152</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47864454\">https://news.ycombinator.com/item?id=47864454</a></p>\n<p>Points: 144</p>\n<p># Comments: 49</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-04-22T14:49:02+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- **DuckDB 1.5.2** continues the evolution of the in-process analytical SQL engine, focusing on high-performance **OLAP workloads** within host processes without a separate server.\n- The release reinforces its **cross-platform architecture**, supporting seamless execution across local laptops, high-performance servers, and **WebAssembly (WASM)** in browser environments.\n- Improvements target **data interoperability**, allowing for more efficient querying of Parquet, CSV, and JSON formats which are foundational for local **LLM training and RAG** data pipelines.\n- Enhanced memory management and stability ensure reliability when running alongside resource-intensive **local models (SLMs)** and AI agents.",
+      "key_results": [
+        "Improved SQL dialect compatibility for complex analytical queries.",
+        "Enhanced WASM support for high-performance data processing in the browser.",
+        "Optimized storage layer performance for large-scale Parquet file ingestion.",
+        "Refined memory handling for concurrent execution in constrained local environments.",
+        "Strengthened integration with Python and Arrow for seamless data science workflows."
+      ],
+      "relevance_score": 6,
+      "signal_type": "Release",
+      "one_sentence_takeaway": "DuckDB Labs releases version 1.5.2, optimizing the embeddable SQL engine for high-performance analytical workloads across local and web environments.",
+      "lead_institution": "DuckDB Labs",
+      "tags": [
+        "SQL Engine",
+        "OLAP",
+        "Data Engineering",
+        "WebAssembly",
+        "Local Data"
+      ]
+    }
+  },
+  {
+    "title": "3.4M Solar Panels",
+    "link": "https://tech.marksblogg.com/american-solar-farms-v2.html",
+    "summary": "<p>Article URL: <a href=\"https://tech.marksblogg.com/american-solar-farms-v2.html\">https://tech.marksblogg.com/american-solar-farms-v2.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47862386\">https://news.ycombinator.com/item?id=47862386</a></p>\n<p>Points: 287</p>\n<p># Comments: 221</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-04-22T12:04:30+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* Employs **Computer Vision** models to perform large-scale object detection on satellite imagery to identify and map solar panel arrays.\n* Utilizes a scalable pipeline to process massive **Geospatial Data**, successfully cataloging 3.4 million individual panels across the United States.\n* The project provides a high-resolution **Open-Source Dataset** designed for renewable energy production modeling and infrastructure research.\n* Focuses on the engineering challenge of handling **High-Resolution Imagery** at a national scale to improve detection accuracy over previous versions.",
+      "key_results": [
+        "Identified and mapped 3.4 million solar panels across the US",
+        "Release of a comprehensive open-source geospatial dataset",
+        "Significant increase in detection coverage compared to version 1",
+        "Standardized methodology for large-scale infrastructure monitoring via CV",
+        "Verification of solar farm boundaries for energy capacity analysis"
+      ],
+      "relevance_score": 4,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "MarksBlogg maps 3.4 million US solar panels using computer vision to provide a comprehensive open-source renewable energy dataset.",
+      "lead_institution": "MarksBlogg",
+      "tags": [
+        "Computer Vision",
+        "Geospatial Data",
+        "Renewable Energy",
+        "Dataset Release",
+        "Object Detection"
+      ]
+    }
+  },
+  {
+    "title": "Nobody got fired for Uber's $8M ledger mistake?",
+    "link": "https://news.alvaroduran.com/p/nobody-got-fired-for-ubers-8-million",
+    "summary": "<p>Article URL: <a href=\"https://news.alvaroduran.com/p/nobody-got-fired-for-ubers-8-million\">https://news.alvaroduran.com/p/nobody-got-fired-for-ubers-8-million</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47861731\">https://news.ycombinator.com/item?id=47861731</a></p>\n<p>Points: 122</p>\n<p># Comments: 80</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-04-22T10:54:49+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- The incident stemmed from a **distributed system failure** in Uber's financial ledger, where a race condition caused an $8M accounting discrepancy.\n- Architectural weaknesses were identified in the **asynchronous event processing** pipeline, specifically regarding a lack of **idempotent operations** during high-concurrency states.\n- The resolution focused on **systemic remediation** and atomic transaction guarantees rather than individual culpability, highlighting the importance of **psychological safety** in high-scale engineering.",
+      "key_results": [
+        "Uber identified an $8 million discrepancy in their internal financial ledger system.",
+        "Root cause analysis traced the error to failure in handling duplicate events in a distributed architecture.",
+        "The engineering team implemented stricter idempotency keys to prevent future double-counting.",
+        "Management opted for a blameless post-mortem approach to encourage transparency and long-term stability.",
+        "The case study highlights the risk of eventual consistency in financial data pipelines."
+      ],
+      "relevance_score": 3,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Uber leverages a blameless engineering culture to address systemic distributed ledger failures without resorting to individual terminations.",
+      "lead_institution": "Uber",
+      "tags": [
+        "Distributed Systems",
+        "Technical Debt",
+        "Engineering Culture",
+        "System Reliability",
+        "Post-mortem"
+      ]
+    }
+  },
+  {
+    "title": "How does GPS work?",
+    "link": "https://perthirtysix.com/how-the-heck-does-gps-work",
+    "summary": "<p>Article URL: <a href=\"https://perthirtysix.com/how-the-heck-does-gps-work\">https://perthirtysix.com/how-the-heck-does-gps-work</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47861087\">https://news.ycombinator.com/item?id=47861087</a></p>\n<p>Points: 217</p>\n<p># Comments: 48</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-04-22T09:22:05+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- The system utilizes **Trilateration** to calculate precise locations by measuring the time delay of signals from at least four satellites simultaneously.\n- High-precision **Atomic Clocks** on satellites are synchronized to provide timing accuracy within nanoseconds, which is essential for calculating distance at the speed of light.\n- The architecture must account for **Relativistic Effects**, correcting for both time dilation from orbital velocity and gravitational frequency shifts to maintain accuracy.\n- A global **Control Segment** of ground stations continuously monitors satellite health and updates orbital parameters to prevent cumulative positioning errors.",
+      "key_results": [
+        "Positioning requires intersection of four spheres of signal range.",
+        "Fourth satellite signal resolves timing offsets in consumer-grade clocks.",
+        "General Relativity causes satellite clocks to run faster than Earth clocks.",
+        "Special Relativity causes satellite clocks to run slower due to high speed.",
+        "System maintenance requires constant ephemeris updates from ground stations."
+      ],
+      "relevance_score": 2,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Perthirtysix explains how GPS leverages satellite trilateration and relativistic time corrections to deliver precise global navigation and timing.",
+      "lead_institution": "Perthirtysix",
+      "tags": [
+        "GPS",
+        "Trilateration",
+        "Atomic Clocks",
+        "General Relativity",
+        "Signal Processing"
+      ]
+    }
+  },
+  {
+    "title": "Irony as Meta staff unhappy about running surveillance software on work PCs",
+    "link": "https://www.theregister.com/2026/04/22/meta_employee_surveillance_software/",
+    "summary": "<p>Article URL: <a href=\"https://www.theregister.com/2026/04/22/meta_employee_surveillance_software/\">https://www.theregister.com/2026/04/22/meta_employee_surveillance_software/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47860742\">https://news.ycombinator.com/item?id=47860742</a></p>\n<p>Points: 218</p>\n<p># Comments: 166</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-04-22T08:33:17+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- **Meta** has reportedly mandated the installation of intrusive **employee surveillance software** on internal work PCs, leading to significant friction within the engineering workforce.\n- The software is designed to monitor **productivity metrics**, potentially including keystrokes, application focus time, and active hours to enforce stricter corporate oversight.\n- The deployment has triggered internal debate regarding **corporate hypocrisy**, as staff note the irony of a data-privacy-focused public stance versus internal monitoring practices.\n- The impact focuses on **workplace culture** and employee retention, signaling a shift away from high-trust development environments towards metric-driven management.",
+      "key_results": [
+        "Meta mandates internal surveillance tools on employee hardware.",
+        "Widespread internal backlash from staff regarding privacy and trust.",
+        "Monitoring focuses on granular activity tracking and application usage.",
+        "Hypocrisy highlighted regarding Meta's public data collection reputation.",
+        "Potential risk to retention of high-level engineering talent."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Meta implements internal employee surveillance software, sparking irony-fueled backlash regarding privacy and corporate trust among technical staff.",
+      "lead_institution": "The Register",
+      "tags": [
+        "Employee Surveillance",
+        "Meta",
+        "Workplace Privacy",
+        "Corporate Culture",
+        "Data Monitoring"
+      ]
+    }
+  },
+  {
+    "title": "You don't need advice from editors on rejected manuscripts",
+    "link": "https://twitter.com/orsonscottcard/status/2046702294406680751",
+    "summary": "<p><a href=\"https://xcancel.com/orsonscottcard/status/2046702294406680751\" rel=\"nofollow\">https://xcancel.com/orsonscottcard/status/204670229440668075...</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47860682\">https://news.ycombinator.com/item?id=47860682</a></p>\n<p>Points: 106</p>\n<p># Comments: 65</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-04-22T08:25:32+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "<br>Discusses the **rejection-feedback loop** in creative industries, specifically within the context of professional publishing.<br>Analyzes why **editorial feedback** on rejected manuscripts is often counterproductive and misaligned with the creator's vision.<br>Argues for **creative autonomy**, suggesting that creators should prioritize finding the right market fit over iterative refinement based on non-committal critique.<br>Draws a parallel to **decision-making frameworks** where noise from non-stakeholders can degrade the quality of the final output.",
+      "key_results": [
+        "Feedback from editors who reject work is often structurally flawed because they are not the target audience.",
+        "Attempting to 'fix' a manuscript based on rejection notes often dilutes the original intent.",
+        "The primary goal of a creator should be finding an editor who 'buys' the vision, not convincing one who doesn't.",
+        "High-volume submission is more effective than high-frequency micro-adjustment based on negative signals.",
+        "The 'vibe' and original voice of a work are its strongest assets and should be protected from external dilution."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Orson Scott Card argues that authors should ignore feedback on rejected manuscripts to maintain their original creative vision.",
+      "lead_institution": "Orson Scott Card",
+      "tags": [
+        "Creative Process",
+        "Feedback Loops",
+        "Decision Making",
+        "Publishing",
+        "Authorship"
+      ]
+    }
+  },
+  {
+    "title": "XOR'ing a register with itself is the idiom for zeroing it out. Why not sub?",
+    "link": "https://devblogs.microsoft.com/oldnewthing/20260421-00/?p=112247",
+    "summary": "<p>Article URL: <a href=\"https://devblogs.microsoft.com/oldnewthing/20260421-00/?p=112247\">https://devblogs.microsoft.com/oldnewthing/20260421-00/?p=112247</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47859861\">https://news.ycombinator.com/item?id=47859861</a></p>\n<p>Points: 202</p>\n<p># Comments: 202</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-04-22T06:38:05+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Explores the microarchitectural reasoning for using **XOR** instead of **SUB** or **MOV** to zero out registers in x86 assembly.\n- Explains that modern CPU front-ends recognize the **XOR register, register** pattern as a special idiom that breaks false data dependencies.\n- Highlights that **XOR** instructions are smaller in binary size (2 bytes) compared to **MOV** (5-7 bytes), improving instruction cache density.\n- Details how the processor's **Register Alias Table (RAT)** can handle zeroing-idioms during the rename stage, effectively executing them with zero latency.",
+      "key_results": [
+        "XOR EAX, EAX is the standard idiom for register zeroing due to instruction density.",
+        "Modern processors optimize XOR idioms to break dependency chains at the rename stage.",
+        "SUB is functionally equivalent but lacks the universal architectural optimization path of XOR.",
+        "Using MOV to zero a register consumes more space and does not signal a dependency break to the hardware.",
+        "Zeroing idioms allow for better superscalar execution by freeing up execution units."
+      ],
+      "relevance_score": 2,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Microsoft's Raymond Chen explains how XORing registers serves as a hardware-optimized dependency breaker for efficient zeroing in assembly.",
+      "lead_institution": "Microsoft",
+      "tags": [
+        "x86 Assembly",
+        "Microarchitecture",
+        "Performance Optimization",
+        "Instruction Latency",
+        "Low-level Programming"
+      ]
+    }
+  },
+  {
+    "title": "Claude Code Removed from $20-a-Month \"Pro\" Subscription for New Users",
+    "link": "https://www.wheresyoured.at/news-anthropic-removes-pro-cc/",
+    "summary": "<p>Article URL: <a href=\"https://www.wheresyoured.at/news-anthropic-removes-pro-cc/\">https://www.wheresyoured.at/news-anthropic-removes-pro-cc/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47855832\">https://news.ycombinator.com/item?id=47855832</a></p>\n<p>Points: 76</p>\n<p># Comments: 37</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-04-21T22:56:09+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "<br>Anthropic has modified its **monetization strategy** by removing the Claude Code CLI tool from the standard $20-a-month Pro subscription for new users.<br>The move highlights the **economic sustainability** challenges of providing high-token-usage **LLM Agents** within a flat-rate consumer pricing model.<br>This shift signals a transition toward **usage-based billing** or specialized tiers for compute-intensive **agentic workflows** to manage high inference costs.",
+      "key_results": [
+        "Claude Code access is no longer bundled with the standard $20/month 'Pro' tier for new subscribers.",
+        "The change addresses the high operational costs associated with autonomous agentic loops and terminal-based coding.",
+        "Reflects a broader industry trend where agentic tools are separated from basic chat interfaces.",
+        "Indicates a strategic pivot to protect margins as users adopt more token-heavy developer tools.",
+        "Signals the end of 'unlimited' or heavily subsidized high-compute agent usage for consumer-level accounts."
+      ],
+      "relevance_score": 6,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Anthropic removes Claude Code from Pro subscriptions to address the high compute costs of autonomous agentic coding workflows.",
+      "lead_institution": "Anthropic",
+      "tags": [
+        "Claude Code",
+        "LLM Agents",
+        "AI Economics",
+        "Vibe Coding",
+        "Monetization"
+      ]
+    }
+  },
+  {
+    "title": "Claude Code to be removed from Pro Tier?",
+    "link": "https://bsky.app/profile/edzitron.com/post/3mjzxwfx3qs2a",
+    "summary": "<p><a href=\"https://x.com/TheAmolAvasare/status/2046725498592722972\" rel=\"nofollow\">https://x.com/TheAmolAvasare/status/2046725498592722972</a><p><a href=\"https://xcancel.com/TheAmolAvasare/status/2046725498592722972\" rel=\"nofollow\">https://xcancel.com/TheAmolAvasare/status/204672549859272297...</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47855565\">https://news.ycombinator.com/item?id=47855565</a></p>\n<p>Points: 265</p>\n<p># Comments: 2</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-04-21T22:36:24+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n\u2022 Speculation indicates **Anthropic** may transition **Claude Code** from a flat-rate Pro subscription to a usage-based or separate pricing model.\n\u2022 This potential shift underscores the economic challenge of scaling **LLM Agents** that consume significantly more tokens than standard chat interfaces.\n\u2022 The architecture of **Claude Code** involves high-frequency iterative loops, making it difficult to sustain under current **GenAI consumer pricing** structures.\n\u2022 Such a move would likely signal a broader industry trend toward decoupling **Agentic AI** tools from traditional chat-based subscriptions.",
+      "key_results": [
+        "Speculation regarding Claude Code being removed from the $20/month Pro tier.",
+        "Potential transition toward API-based usage billing for CLI developer tools.",
+        "High compute and token costs identified as a primary driver for tier adjustments.",
+        "Significant community response highlights the friction between developer experience and cost.",
+        "Evolution of LLM delivery from unified platforms to fragmented, purpose-built agentic tiers."
+      ],
+      "relevance_score": 6,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Anthropic considers decoupling Claude Code from its Pro subscription to manage the heavy compute costs of agentic workflows.",
+      "lead_institution": "Anthropic",
+      "tags": [
+        "Claude Code",
+        "LLM Agents",
+        "Developer Tools",
+        "Agentic AI",
+        "Vibe Coding"
+      ]
+    }
+  },
+  {
+    "title": "Cal.diy: open-source community edition of cal.com",
+    "link": "https://github.com/calcom/cal.diy",
+    "summary": "<p>Article URL: <a href=\"https://github.com/calcom/cal.diy\">https://github.com/calcom/cal.diy</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47852155\">https://news.ycombinator.com/item?id=47852155</a></p>\n<p>Points: 250</p>\n<p># Comments: 65</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-04-21T17:58:21+00:00",
+    "type": "repo",
+    "display_category": "Top Repo",
+    "processed": {
+      "summary": "<br>\n- **Cal.diy** is the official open-source community edition of Cal.com, designed specifically for **self-hosting** and individual developers.<br>\n- The project provides a **modular architecture** that decouples core scheduling logic from enterprise-grade features, facilitating easier deployment on personal infrastructure.<br>\n- It leverages a modern stack including **Next.js**, **Prisma**, and **PostgreSQL**, emphasizing **data sovereignty** and privacy for end-users.<br>\n- Impact centers on lowering the barrier to entry for developers wanting to integrate **scheduling APIs** into their own local or custom environments.",
+      "key_results": [
+        "Launch of a dedicated community-driven repository for the Cal.com ecosystem.",
+        "Simplification of the self-hosting process for individual use cases.",
+        "Removal of enterprise complexity to streamline performance on local servers.",
+        "Full access to scheduling primitives for custom integration and extension.",
+        "Adoption of a licensing model that favors open-source community contributions."
+      ],
+      "relevance_score": 3,
+      "signal_type": "Release",
+      "one_sentence_takeaway": "Cal.com launches Cal.diy to provide a streamlined, self-hostable scheduling solution for developers and the open-source community.",
+      "lead_institution": "Cal.com",
+      "tags": [
+        "Open Source",
+        "Self-Hosting",
+        "Scheduling Infrastructure",
+        "Developer Tools",
+        "Data Privacy"
+      ]
+    }
+  },
+  {
+    "title": "Britannica11.org \u2013 a structured edition of the 1911 Encyclop\u00e6dia Britannica",
+    "link": "https://britannica11.org/",
+    "summary": "<p>Article URL: <a href=\"https://britannica11.org/\">https://britannica11.org/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47851885\">https://news.ycombinator.com/item?id=47851885</a></p>\n<p>Points: 339</p>\n<p># Comments: 115</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-04-21T17:33:50+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n\u2022 The project provides a **digitally structured and searchable edition** of the 1911 Encyclop\u00e6dia Britannica, transforming historical public domain text into a machine-readable format.\n\u2022 This resource serves as a high-quality **Knowledge Base (KB)** for **Retrieval-Augmented Generation (RAG)** systems, offering fact-dense data for grounding LLM responses.\n\u2022 By providing structured entries, it enables better **entity extraction** and semantic parsing than traditional flat OCR text files.\n\u2022 The data is highly relevant for developers building **Local LLMs** or SLMs that require a comprehensive, royalty-free corpus for fine-tuning or specialized world-knowledge tasks.",
+      "key_results": [
+        "Conversion of over 40,000 historical entries into structured digital formats.",
+        "Significant improvement in text cleanliness and metadata organization over existing OCR sources.",
+        "Facilitates the creation of high-fidelity RAG benchmarks using verified historical facts.",
+        "Provides a compact yet wide-ranging dataset for local knowledge-intensive tasks.",
+        "Enables more efficient hierarchical search and retrieval through structured sectioning."
+      ],
+      "relevance_score": 6,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Britannica11.org releases a structured public domain dataset to enhance historical knowledge grounding in modern RAG and LLM applications.",
+      "lead_institution": "Britannica11.org",
+      "tags": [
+        "RAG",
+        "Dataset",
+        "NLP",
+        "Knowledge Base",
+        "Local LLMs"
+      ]
+    }
+  },
+  {
+    "title": "A Periodic Map of Cheese",
+    "link": "https://cheesemap.netlify.app/",
+    "summary": "<p>Article URL: <a href=\"https://cheesemap.netlify.app/\">https://cheesemap.netlify.app/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47851077\">https://news.ycombinator.com/item?id=47851077</a></p>\n<p>Points: 159</p>\n<p># Comments: 80</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-04-21T16:31:21+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "<br>\u2022 An interactive **web-based visualization** tool that categorizes global cheese varieties into a structure mimicking the **periodic table of elements**.<br>\u2022 Organizes entries based on **texture**, **aging process**, and **rind characteristics** to provide a structured discovery interface.<br>\u2022 Features a **data-driven UI** for exploring culinary metadata but contains no integration with **Large Language Models (LLMs)** or **Generative AI** systems.",
+      "key_results": [
+        "Visualizes dozens of cheese types in a structured grid format.",
+        "Groups entries by milk source, hardness, and moisture content.",
+        "Provides interactive metadata for each specific cheese 'element'.",
+        "Maps geographic origins across a unified information architecture.",
+        "Demonstrates creative front-end data representation without AI backend components."
+      ],
+      "relevance_score": 1,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Cheesemap.netlify.app provides an interactive, grid-based visualization for exploring the classifications and characteristics of various global cheese varieties.",
+      "lead_institution": "Hacker News",
+      "tags": [
+        "Data Visualization",
+        "Information Architecture",
+        "Web Development",
+        "UI Design",
+        "General Interest"
+      ]
+    }
+  },
+  {
+    "title": "Kasane: New drop-in Kakoune front end with GPU rendering and WASM Plugins",
+    "link": "https://github.com/Yus314/kasane",
+    "summary": "<p>Article URL: <a href=\"https://github.com/Yus314/kasane\">https://github.com/Yus314/kasane</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47850542\">https://news.ycombinator.com/item?id=47850542</a></p>\n<p>Points: 53</p>\n<p># Comments: 6</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-04-21T15:53:22+00:00",
+    "type": "repo",
+    "display_category": "Top Repo",
+    "processed": {
+      "summary": "\n* **Kasane** is a high-performance, drop-in front end for the **Kakoune** text editor, utilizing hardware-accelerated **GPU rendering** to minimize latency.\n* The architecture features a sandboxed **WASM plugin system**, enabling developers to extend editor functionality using any language that compiles to WebAssembly.\n* It communicates via the **Kakoune JSON-RPC** protocol, ensuring full compatibility with the core editor's client-server model while modernizing the user interface layer.",
+      "key_results": [
+        "GPU-accelerated text rendering for near-zero input lag.",
+        "Native support for WASM-based extensions and themes.",
+        "Seamless drop-in replacement for standard Kakoune terminal clients.",
+        "Cross-platform compatibility via modern graphics APIs.",
+        "Enhanced UI capabilities beyond traditional terminal-cell constraints."
+      ],
+      "relevance_score": 3,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Yus314 releases Kasane, a GPU-accelerated Kakoune frontend providing high-performance text rendering and a flexible WASM-based plugin architecture.",
+      "lead_institution": "GitHub (Yus314)",
+      "tags": [
+        "Text Editors",
+        "WebAssembly",
+        "GPU Rendering",
+        "Developer Tools",
+        "Software Architecture"
+      ]
+    }
+  },
+  {
+    "title": "Brands got worse on purpose",
+    "link": "https://www.worseonpurpose.com/p/your-favorite-brands-got-worse-on-purpose",
+    "summary": "<p>Article URL: <a href=\"https://www.worseonpurpose.com/p/your-favorite-brands-got-worse-on-purpose\">https://www.worseonpurpose.com/p/your-favorite-brands-got-worse-on-purpose</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47849221\">https://news.ycombinator.com/item?id=47849221</a></p>\n<p>Points: 228</p>\n<p># Comments: 173</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-04-21T14:19:49+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Analyzes the **economic incentives** behind the systematic degradation of product quality and service standards in established consumer brands.\n- Explores the concept of **value harvesting**, where companies trade long-term brand equity for short-term profit maximization once market dominance is secured.\n- Highlights the role of **market consolidation** and information asymmetry in preventing consumers from effectively punishing brands that reduce quality.",
+      "key_results": [
+        "Identifies a recurring cycle where brands prioritize growth first, then monetization at the expense of user experience.",
+        "Discusses how venture-backed business models often necessitate a 'pivot to enshittification' to satisfy exit requirements.",
+        "Notes that legacy brand reputation acts as a lagging indicator, allowing quality to drop while prices remain high.",
+        "Highlights that digital platforms use network effects to increase switching costs, trapping users in lower-quality ecosystems.",
+        "Argues that the decline in brand quality is a deliberate feature of modern corporate strategy rather than an accidental failure."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "WorseOnPurpose.com argues that brands systematically degrade product quality to harvest accumulated reputation and maximize shareholder value at consumer expense.",
+      "lead_institution": "WorseOnPurpose.com",
+      "tags": [
+        "Product Strategy",
+        "Market Economics",
+        "Brand Enshittification",
+        "Consumer Trends",
+        "Business Models"
+      ]
+    }
+  },
+  {
     "title": "Scaling Codex to enterprises worldwide",
     "link": "https://openai.com/index/scaling-codex-to-enterprises-worldwide",
     "summary": "OpenAI launches Codex Labs, partners with with Accenture, PwC, Infosys, and others to help enterprises deploy and scale Codex across the software development lifecycle, and hits 4M Codex WAU.",
@@ -120,126 +900,6 @@
     }
   },
   {
-    "title": "3 new ways Ads Advisor is making Google Ads safer and faster",
-    "link": "https://blog.google/products/ads-commerce/ads-advisor-google-ads/",
-    "summary": "The Road to Google Marketing Live graphic. May 20, 2026, 9am PT. White background with colorful bottom gradient.",
-    "source": "AI",
-    "published": "2026-04-21T14:30:00+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n* Google is positioning **Ads Advisor** as a core component for enhancing safety and speed within the **Google Ads ecosystem** through GenAI.\n* The update implies a move towards **automated workflows** where LLMs handle sensitive safety filtering and performance optimizations.\n* The platform likely leverages **multimodal models** to scan ad creative and copy against policy requirements in real-time.\n* This shift signals a broader trend in **Generative AI Trends** toward enterprise-scale, agentic marketing assistants.",
-      "key_results": [
-        "Announcement of the upcoming Google Marketing Live event.",
-        "Integration of three new safety-focused AI features.",
-        "Optimization of backend processing for faster ad deployments.",
-        "Focus on brand safety through automated AI auditing.",
-        "Introduction of conversational AI interfaces for ad management."
-      ],
-      "relevance_score": 2,
-      "signal_type": "General News",
-      "one_sentence_takeaway": "Google announces upcoming Marketing Live updates focusing on AI-driven safety and performance enhancements for the Google Ads platform.",
-      "lead_institution": "Google",
-      "tags": [
-        "Google Ads",
-        "Generative AI",
-        "AI Safety",
-        "Marketing Automation",
-        "LLM Agents"
-      ]
-    }
-  },
-  {
-    "title": "From developer desks to the whole organization: Running Claude Cowork in Amazon Bedrock",
-    "link": "https://aws.amazon.com/blogs/machine-learning/from-developer-desks-to-the-whole-organization-running-claude-cowork-in-amazon-bedrock/",
-    "summary": "Today, we're excited to announce Claude Cowork in Amazon Bedrock. You can now run Cowork and Claude Code Desktop through Amazon Bedrock, directly or using an LLM gateway. In this post, we walk through how Claude Cowork integrates with Amazon Bedrock and show an example of how knowledge workers use it in practice.",
-    "source": "Artificial Intelligence",
-    "published": "2026-04-21T19:13:49+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n- Integration of **Claude Cowork** and **Claude Code Desktop** within **Amazon Bedrock** provides a managed environment for deploying enterprise agentic tools.\n- The architecture supports both direct API access and **LLM gateway** configurations, ensuring secure and scalable model consumption across large organizations.\n- The release focuses on operationalizing **agentic workflows** for knowledge workers by embedding Claude's reasoning capabilities into standardized AWS infrastructure.",
-      "key_results": [
-        "Seamless integration of Claude Cowork into the Amazon Bedrock ecosystem.",
-        "Managed access to Claude Code Desktop for centralized developer environments.",
-        "Support for LLM gateways to manage organizational model traffic and security.",
-        "Empowerment of non-technical workers through reasoning-based agentic tools.",
-        "Standardization of Claude deployment patterns within AWS-managed services."
-      ],
-      "relevance_score": 6,
-      "signal_type": "Release",
-      "one_sentence_takeaway": "Anthropic launches Claude Cowork in Amazon Bedrock to enable organization-wide deployment of agentic coding and productivity tools.",
-      "lead_institution": "Anthropic",
-      "tags": [
-        "Claude Cowork",
-        "Amazon Bedrock",
-        "LLM Agents",
-        "Developer Tools",
-        "Enterprise AI"
-      ]
-    }
-  },
-  {
-    "title": "End-to-end lineage with DVC and Amazon SageMaker AI MLflow apps",
-    "link": "https://aws.amazon.com/blogs/machine-learning/end-to-end-lineage-with-dvc-and-amazon-sagemaker-ai-mlflow-apps/",
-    "summary": "In this post, we show how to combine DVC (Data Version Control), Amazon SageMaker AI, and Amazon SageMaker AI MLflow Apps to build end-to-end ML model lineage. We walk through two deployable patterns \u2014 dataset-level lineage and record-level lineage \u2014 that you can run in your own AWS account using the companion notebooks.",
-    "source": "Artificial Intelligence",
-    "published": "2026-04-21T16:43:03+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n- Integrates **DVC (Data Version Control)** with **Amazon SageMaker AI MLflow Apps** to establish a robust metadata bridge between raw data versions and model artifacts.\n- Implements two scalable architectural patterns: **dataset-level lineage** for versioning entire datasets and **record-level lineage** for granular data provenance.\n- Utilizes **MLflow Tracking** within the SageMaker environment to log DVC data hashes, ensuring that every model run is mapped to an immutable state of the training data.\n- Enhances **MLOps reproducibility** by providing a standardized workflow for tracking experimental changes across distributed AWS cloud resources.",
-      "key_results": [
-        "Seamless synchronization between DVC data versioning and SageMaker MLflow experiment tracking.",
-        "Implementation of dataset-level lineage using DVC metadata in MLflow run parameters.",
-        "Development of record-level lineage for high-precision auditing of individual training samples.",
-        "Automated storage of data hashes in S3 to prevent training on 'stale' or untracked data.",
-        "Availability of deployable SageMaker notebooks for rapid enterprise adoption of lineage patterns."
-      ],
-      "relevance_score": 5,
-      "signal_type": "Engineering Blog",
-      "one_sentence_takeaway": "Amazon Web Services integrates DVC and SageMaker MLflow to provide standardized end-to-end lineage for dataset and model versioning.",
-      "lead_institution": "Amazon Web Services",
-      "tags": [
-        "MLOps",
-        "Model Lineage",
-        "DVC",
-        "SageMaker",
-        "MLflow"
-      ]
-    }
-  },
-  {
-    "title": "Claude Code to be removed from Pro Tier?",
-    "link": "https://bsky.app/profile/edzitron.com/post/3mjzxwfx3qs2a",
-    "summary": "<p><a href=\"https://x.com/TheAmolAvasare/status/2046725498592722972\" rel=\"nofollow\">https://x.com/TheAmolAvasare/status/2046725498592722972</a><p><a href=\"https://xcancel.com/TheAmolAvasare/status/2046725498592722972\" rel=\"nofollow\">https://xcancel.com/TheAmolAvasare/status/204672549859272297...</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47855565\">https://news.ycombinator.com/item?id=47855565</a></p>\n<p>Points: 245</p>\n<p># Comments: 166</p>",
-    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
-    "published": "2026-04-21T22:36:24+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n* Anthropic is reportedly considering a transition for **Claude Code** from a flat-rate **Claude Pro** subscription model to a usage-based **pay-as-you-go** billing system.\n* This shift highlights the architectural challenge of managing **LLM Agents** that utilize high **token volume** and recursive loops which exceed standard subscription margins.\n* The change would likely require users to fund their accounts with **API credits**, aligning the cost of the CLI tool with direct resource consumption of **Claude 3.5 Sonnet**.\n* This move signals a broader trend in **Generative AI** where high-compute developer tools are being decoupled from general-purpose consumer chat tiers.",
-      "key_results": [
-        "Claude Code may be removed from the $20/month flat-rate Pro tier.",
-        "Proposed billing shift moves toward consumption-based pricing via API credits.",
-        "Autonomous agent workflows are identified as high-cost compute tasks.",
-        "Potential impact on 'vibe coding' workflows that rely on frequent, high-context prompts.",
-        "Reflects the economic difficulty of offering 'unlimited' agentic tools to power users."
-      ],
-      "relevance_score": 6,
-      "signal_type": "General News",
-      "one_sentence_takeaway": "Anthropic considers shifting Claude Code to usage-based billing to manage the high compute costs of automated agentic workflows.",
-      "lead_institution": "Anthropic",
-      "tags": [
-        "Claude Code",
-        "LLM Agents",
-        "Pricing Strategy",
-        "Developer Tools",
-        "AI Economics"
-      ]
-    }
-  },
-  {
     "title": "Claude Code removed from Anthropic's Pro plan",
     "link": "https://claude.com/pricing",
     "summary": "<p>Article URL: <a href=\"https://claude.com/pricing\">https://claude.com/pricing</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47854477\">https://news.ycombinator.com/item?id=47854477</a></p>\n<p>Points: 339</p>\n<p># Comments: 207</p>",
@@ -266,156 +926,6 @@
         "AI Monetization",
         "Vibe Coding",
         "Anthropic"
-      ]
-    }
-  },
-  {
-    "title": "Cal.diy: open-source community edition of cal.com",
-    "link": "https://github.com/calcom/cal.diy",
-    "summary": "<p>Article URL: <a href=\"https://github.com/calcom/cal.diy\">https://github.com/calcom/cal.diy</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47852155\">https://news.ycombinator.com/item?id=47852155</a></p>\n<p>Points: 146</p>\n<p># Comments: 39</p>",
-    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
-    "published": "2026-04-21T17:58:21+00:00",
-    "type": "repo",
-    "display_category": "Top Repo",
-    "processed": {
-      "summary": "<br>\u2022 Cal.com introduces **Cal.diy**, a dedicated **open-source community edition** designed to simplify the self-hosting and deployment of their scheduling infrastructure.<br>\u2022 The project focuses on a **decoupled architecture** that minimizes the overhead typically associated with the enterprise-grade main repository.<br>\u2022 It aims to provide a **developer-centric baseline** for building custom booking workflows while maintaining compatibility with core calendar integrations.",
-      "key_results": [
-        "Release of a lightweight, community-focused scheduling repository.",
-        "Reduction in deployment complexity for local and self-hosted environments.",
-        "Establishment of a clear distinction between enterprise and community features.",
-        "Maintenance of core calendar synchronization and API functionality.",
-        "Increased accessibility for independent developers and small-scale integrations."
-      ],
-      "relevance_score": 3,
-      "signal_type": "Release",
-      "one_sentence_takeaway": "Cal.com launches Cal.diy to provide a streamlined, open-source community edition for self-hosted scheduling infrastructure.",
-      "lead_institution": "Cal.com",
-      "tags": [
-        "Open Source",
-        "Self-Hosting",
-        "Developer Tools",
-        "Scheduling Infrastructure",
-        "Infrastructure"
-      ]
-    }
-  },
-  {
-    "title": "Britannica11.org \u2013 a structured edition of the 1911 Encyclop\u00e6dia Britannica",
-    "link": "https://britannica11.org/",
-    "summary": "<p>Article URL: <a href=\"https://britannica11.org/\">https://britannica11.org/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47851885\">https://news.ycombinator.com/item?id=47851885</a></p>\n<p>Points: 212</p>\n<p># Comments: 89</p>",
-    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
-    "published": "2026-04-21T17:33:50+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n* The project provides a **digitized and structured edition** of the 1911 Encyclop\u00e6dia Britannica, converting it into a machine-readable format suitable for modern computational tasks.\n* It addresses the limitations of previous OCR versions by implementing a **consistent metadata schema** and cleaning raw text to improve data quality for **LLM training and fine-tuning**.\n* The architecture allows for seamless integration into **RAG (Retrieval-Augmented Generation)** systems, offering a massive, copyright-free historical knowledge base.\n* This release serves as a critical resource for **Small Language Models (SLMs)** requiring high-density, high-quality factual information without licensing restrictions.",
-      "key_results": [
-        "Transformation of 40,000+ entries into a structured digital repository.",
-        "Creation of a high-quality, public domain dataset for historical AI research.",
-        "Significant improvement over Project Gutenberg OCR quality through systematic cleaning.",
-        "Deployment of a searchable web interface designed for programmatic access.",
-        "Provision of a clean corpus for evaluating historical reasoning in LLMs."
-      ],
-      "relevance_score": 6,
-      "signal_type": "General News",
-      "one_sentence_takeaway": "Britannica11.org releases a structured digital archive of the 1911 Encyclop\u00e6dia, providing a high-quality public domain dataset for RAG applications.",
-      "lead_institution": "Britannica11.org",
-      "tags": [
-        "Dataset",
-        "RAG",
-        "Public Domain",
-        "NLP",
-        "Knowledge Base"
-      ]
-    }
-  },
-  {
-    "title": "A Periodic Map of Cheese",
-    "link": "https://cheesemap.netlify.app/",
-    "summary": "<p>Article URL: <a href=\"https://cheesemap.netlify.app/\">https://cheesemap.netlify.app/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47851077\">https://news.ycombinator.com/item?id=47851077</a></p>\n<p>Points: 155</p>\n<p># Comments: 73</p>",
-    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
-    "published": "2026-04-21T16:31:21+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n- The project presents an **interactive data visualization** that organizes various cheese types into a grid structure inspired by the **Periodic Table of Elements**.\n- It employs a **taxonomy-based categorization** system to group cheeses by milk source, texture, and aging process rather than chemical properties.\n- The implementation serves as a **static web application** focused on educational accessibility and information design for culinary data.",
-      "key_results": [
-        "Categorization of dozens of cheese varieties into a structured grid.",
-        "Mapping of cheese families including soft, hard, blue, and fresh types.",
-        "Identification of milk sources such as cow, goat, and sheep for each entry.",
-        "Integration of metadata regarding country of origin and flavor profiles.",
-        "Successful community engagement on technical forums for niche data visualization."
-      ],
-      "relevance_score": 1,
-      "signal_type": "General News",
-      "one_sentence_takeaway": "Cheesemap.netlify.app organizes international cheese varieties into an interactive periodic table to visualize culinary taxonomy and data relationships.",
-      "lead_institution": "Cheesemap.netlify.app",
-      "tags": [
-        "Data Visualization",
-        "Taxonomy",
-        "Web Design",
-        "Information Architecture",
-        "Infographics"
-      ]
-    }
-  },
-  {
-    "title": "Kasane: New drop-in Kakoune front end with GPU rendering and WASM Plugins",
-    "link": "https://github.com/Yus314/kasane",
-    "summary": "<p>Article URL: <a href=\"https://github.com/Yus314/kasane\">https://github.com/Yus314/kasane</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47850542\">https://news.ycombinator.com/item?id=47850542</a></p>\n<p>Points: 47</p>\n<p># Comments: 5</p>",
-    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
-    "published": "2026-04-21T15:53:22+00:00",
-    "type": "repo",
-    "display_category": "Top Repo",
-    "processed": {
-      "summary": "\n* Kasane is a **high-performance front end** for the Kakoune text editor, utilizing **GPU acceleration** to deliver a more responsive and fluid editing experience.\n* The architecture features a **WASM-based plugin system**, which allows developers to extend editor functionality using any language that targets WebAssembly, ensuring portability and safety.\n* It is designed as a **drop-in replacement**, maintaining full compatibility with the existing Kakoune client-server protocol while modernizing the rendering stack.",
-      "key_results": [
-        "Implementation of a hardware-accelerated text rendering engine.",
-        "Introduction of a language-agnostic plugin architecture via WASM.",
-        "Seamless integration with existing Kakoune workflows and configurations.",
-        "Enhanced UI responsiveness compared to traditional terminal-based rendering.",
-        "Creation of a sandboxed environment for third-party editor extensions."
-      ],
-      "relevance_score": 4,
-      "signal_type": "Engineering Blog",
-      "one_sentence_takeaway": "Yus314 releases Kasane, a GPU-accelerated Kakoune front end with WASM support to modernize modal editing performance and extensibility.",
-      "lead_institution": "Yus314",
-      "tags": [
-        "GPU Rendering",
-        "WebAssembly",
-        "Text Editor",
-        "Kakoune",
-        "Developer Tools"
-      ]
-    }
-  },
-  {
-    "title": "Brands got worse on purpose",
-    "link": "https://www.worseonpurpose.com/p/your-favorite-brands-got-worse-on-purpose",
-    "summary": "<p>Article URL: <a href=\"https://www.worseonpurpose.com/p/your-favorite-brands-got-worse-on-purpose\">https://www.worseonpurpose.com/p/your-favorite-brands-got-worse-on-purpose</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47849221\">https://news.ycombinator.com/item?id=47849221</a></p>\n<p>Points: 204</p>\n<p># Comments: 157</p>",
-    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
-    "published": "2026-04-21T14:19:49+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n* Explores the socio-economic phenomenon of **intentional product degradation**, commonly referred to as enshittification, where companies sacrifice quality for **short-term profit margins**.\n* Analyzes the transition from a **growth-oriented architecture** focused on user acquisition to an **extraction-based model** targeting established customer bases.\n* Discusses how **market consolidation** and information asymmetry allow legacy brands to diminish value while relying on historical brand equity and high switching costs.",
-      "key_results": [
-        "Identifies systematic quality reduction as a deliberate business strategy for mature brands.",
-        "Highlights the prioritization of quarterly financial metrics over long-term customer lifetime value.",
-        "Examines how venture capital pressure accelerates the pivot from value creation to value capture.",
-        "Notes that digital platforms utilize algorithm-driven friction to monetize existing user flows.",
-        "Argues that brand reputation is increasingly managed as a depletable asset rather than a growing investment."
-      ],
-      "relevance_score": 2,
-      "signal_type": "General News",
-      "one_sentence_takeaway": "Worseonpurpose.com claims that established brands systematically reduce product quality to extract maximum profit from legacy customer trust.",
-      "lead_institution": "Worseonpurpose.com",
-      "tags": [
-        "Business Strategy",
-        "Enshittification",
-        "Product Lifecycle",
-        "Consumer Economics",
-        "Brand Equity"
       ]
     }
   },
