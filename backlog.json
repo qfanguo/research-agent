@@ -1,5 +1,245 @@
 [
   {
+    "title": "Automations",
+    "link": "https://openai.com/academy/codex-automations",
+    "summary": "Learn how to automate tasks in Codex using schedules and triggers to create reports, summaries, and recurring workflows without manual effort.",
+    "source": "OpenAI News",
+    "published": "2026-04-23T10:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* **OpenAI** introduces automated scheduling and event-based triggers for workflows powered by **Codex**.\n* Focuses on the implementation of **recurring workflows**, enabling the autonomous generation of reports and summaries.\n* Aims to reduce **human-in-the-loop** requirements for routine data processing and generative tasks.\n* Enhances the capability of **AI Agents** to perform time-bound and conditional operations within production environments.",
+      "key_results": [
+        "Support for scheduled task execution in Codex.",
+        "Implementation of event-driven triggers for workflows.",
+        "Automated recurring report generation capabilities.",
+        "Streamlined periodic summarization processes.",
+        "Reduction in manual overhead for routine LLM operations."
+      ],
+      "relevance_score": 3,
+      "signal_type": "Release",
+      "one_sentence_takeaway": "OpenAI launches scheduling and triggers for Codex to automate recurring workflows and reporting tasks without manual input.",
+      "lead_institution": "OpenAI",
+      "tags": [
+        "Codex",
+        "LLM Automation",
+        "Workflow Orchestration",
+        "Generative AI",
+        "Task Scheduling"
+      ]
+    }
+  },
+  {
+    "title": "Top 10 uses for Codex at work",
+    "link": "https://openai.com/academy/top-10-use-cases-codex-for-work",
+    "summary": "Explore 10 practical Codex use cases to automate tasks, create deliverables, and turn real inputs into outputs across tools, files, and workflows.",
+    "source": "OpenAI News",
+    "published": "2026-04-23T10:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- **Codex** utilizes large-scale language modeling to bridge the gap between **natural language intent** and executable source code across multiple environments.\n- The framework enables **workflow automation** by synthesizing API calls and data transformation scripts from simple descriptive prompts.\n- It serves as a foundational layer for **LLM-driven agents**, allowing for the programmatic manipulation of files, databases, and third-party tools.\n- Implementation focuses on **context-aware synthesis**, significantly reducing the time required for boilerplate generation and cross-tool integration.",
+      "key_results": [
+        "Automated generation of complex SQL queries from plain English descriptions.",
+        "Seamless transformation of data formats across disparate file types and tools.",
+        "Rapid prototyping of front-end components and functional UI boilerplate.",
+        "Automated creation of technical documentation and unit test suites.",
+        "Integration of multiple software services through synthesized API interaction scripts."
+      ],
+      "relevance_score": 4,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "OpenAI demonstrates how Codex automates professional workflows by converting natural language instructions into functional code and integrated tool outputs.",
+      "lead_institution": "OpenAI",
+      "tags": [
+        "Code Generation",
+        "Codex",
+        "LLM Automation",
+        "Prompt Engineering",
+        "Productivity"
+      ]
+    }
+  },
+  {
+    "title": "Plugins and skills",
+    "link": "https://openai.com/academy/codex-plugins-and-skills",
+    "summary": "Learn how to use Codex plugins and skills to connect tools, access data, and follow repeatable workflows to automate tasks and improve results.",
+    "source": "OpenAI News",
+    "published": "2026-04-23T10:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Integrates **Codex** models with external environments using **plugins** to facilitate tool-use and data retrieval.\n- Establishes a framework for **skills**, allowing developers to encapsulate repeatable workflows and complex logic into modular components.\n- Focuses on the **automation of tasks** by bridging the gap between natural language reasoning and executable code or API calls.",
+      "key_results": [
+        "Enabled bidirectional communication between Codex and external software tools.",
+        "Implementation of standardized skills to ensure workflow repeatability.",
+        "Facilitated access to live data sources for grounded model responses.",
+        "Reduced manual boilerplate for task automation through model-driven tool execution.",
+        "Provided a blueprint for early agentic behavior in LLM-based systems."
+      ],
+      "relevance_score": 3,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "OpenAI introduces Codex plugins and skills to facilitate automated workflows by connecting large language models to external data tools.",
+      "lead_institution": "OpenAI",
+      "tags": [
+        "Codex",
+        "LLM Agents",
+        "Task Automation",
+        "Tool Use",
+        "Workflow Engineering"
+      ]
+    }
+  },
+  {
+    "title": "Working with Codex",
+    "link": "https://openai.com/academy/working-with-codex",
+    "summary": "Learn how to set up your Codex workspace, create threads and projects, manage files, and start completing tasks with step-by-step guidance.",
+    "source": "OpenAI News",
+    "published": "2026-04-23T10:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- OpenAI outlines a **structured workspace** for interacting with the Codex model, facilitating complex code generation through organized project environments.\n- The architecture utilizes **threads and projects** to maintain state and context, allowing for iterative development and persistent file management.\n- The system aims to lower the barrier for **vibe coding** and rapid prototyping by integrating natural language task completion with file-system awareness.",
+      "key_results": [
+        "Introduction of a dedicated workspace for Codex task management.",
+        "Implementation of thread-based organization for multi-step coding prompts.",
+        "Streamlined file management within the generative AI interface.",
+        "Provided a step-by-step workflow for moving from setup to task completion.",
+        "Standardization of project structures for LLM-assisted software development."
+      ],
+      "relevance_score": 3,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "OpenAI introduces a structured workspace for Codex to help developers manage files and threads during automated code generation.",
+      "lead_institution": "OpenAI",
+      "tags": [
+        "Codex",
+        "Code Generation",
+        "Vibe Coding",
+        "AI Agents",
+        "Developer Tools"
+      ]
+    }
+  },
+  {
+    "title": "Codex settings",
+    "link": "https://openai.com/academy/codex-settings",
+    "summary": "Learn how to configure Codex settings, including personalization, detail level, and permissions, to run tasks smoothly and customize your workflow.",
+    "source": "OpenAI News",
+    "published": "2026-04-23T10:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- **Codex configuration** focuses on aligning model behavior with specific developer preferences through personalization settings.\n- **Access control** mechanisms are detailed to manage permissions and ensure secure execution of generated code components.\n- **Detail level** adjustments allow for the optimization of output verbosity, impacting token efficiency and response relevance in **generative workflows**.",
+      "key_results": [
+        "Implementation of personalization options for tailored coding assistance.",
+        "Variable detail levels to control output verbosity and context usage.",
+        "Permission settings for secure and restricted task execution.",
+        "Workflow customization features to enhance developer productivity.",
+        "Standardized configuration guidelines for smooth Codex integration."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "OpenAI outlines configuration parameters for Codex to help developers customize personalization, detail levels, and permissions within their workflows.",
+      "lead_institution": "OpenAI",
+      "tags": [
+        "Codex",
+        "Prompt Engineering",
+        "AI Governance",
+        "Developer Experience",
+        "Generative AI"
+      ]
+    }
+  },
+  {
+    "title": "What is Codex?",
+    "link": "https://openai.com/academy/what-is-codex",
+    "summary": "Learn how Codex helps you go beyond chat by automating tasks, connecting tools, and producing real outputs like docs and dashboards.",
+    "source": "OpenAI News",
+    "published": "2026-04-23T10:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- OpenAI **Codex** functions as a specialized model designed to bridge the gap between natural language processing and **executable code output**.\n- The system architecture emphasizes **tool-use capabilities**, enabling the transformation of intent into structured data such as **dashboards and documentation**.\n- By facilitating **API connections** and task automation, the model moves AI utility beyond simple chat interfaces toward **agentic workflows**.",
+      "key_results": [
+        "Automated generation of technical documentation and dashboards",
+        "Seamless integration of LLMs with external software tools",
+        "Conversion of natural language prompts into functional code",
+        "Transition from conversational AI to task-oriented execution",
+        "Enhanced productivity through autonomous software task automation"
+      ],
+      "relevance_score": 3,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "OpenAI positions Codex as a foundational tool for converting natural language into functional code and automated software workflows.",
+      "lead_institution": "OpenAI",
+      "tags": [
+        "Code Generation",
+        "LLM Agents",
+        "Automation",
+        "Tool Use",
+        "Generative AI"
+      ]
+    }
+  },
+  {
+    "title": "How to get started with Codex",
+    "link": "https://openai.com/academy/codex-how-to-start",
+    "summary": "Learn how to get started with Codex by setting up projects, creating threads, and completing your first tasks with step-by-step guidance.",
+    "source": "OpenAI News",
+    "published": "2026-04-23T10:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* **Codex** serves as a specialized transformer-based model fine-tuned on vast repositories of public code to enable high-fidelity code synthesis.\n* The introduction of **project-based workflows** allows developers to organize disparate tasks and maintain coherent context across complex development environments.\n* Through **thread-based interaction**, the system manages stateful conversational history to improve the accuracy of iterative code refinements.\n* This onboarding framework lowers the entry barrier for implementing **Generative AI** within legacy software engineering pipelines.",
+      "key_results": [
+        "Standardized setup for project-based code generation.",
+        "Utilization of persistent threads for context management.",
+        "Step-by-step guidance for initial task automation.",
+        "Integration path for natural language to code workflows.",
+        "Scalable interface for managing multiple coding sessions."
+      ],
+      "relevance_score": 3,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "OpenAI provides a foundational onboarding guide for developers to initialize projects and manage coding tasks using the Codex model.",
+      "lead_institution": "OpenAI",
+      "tags": [
+        "Codex",
+        "Code Generation",
+        "Developer Tools",
+        "Prompt Engineering",
+        "Software Automation"
+      ]
+    }
+  },
+  {
+    "title": "GPT-5.5 Bio Bug Bounty",
+    "link": "https://openai.com/index/gpt-5-5-bio-bug-bounty",
+    "summary": "Explore the GPT-5.5 Bio Bug Bounty: a red-teaming challenge to find universal jailbreaks for bio safety risks, with rewards up to $25,000.",
+    "source": "OpenAI News",
+    "published": "2026-04-23T00:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n OpenAI initiates a **red-teaming challenge** targeting biological safety risks within the **GPT-5.5** model ecosystem.\n The program aims to identify **universal jailbreaks** that could expose sensitive or hazardous biological information.\n This initiative emphasizes **AI Evaluation** and proactive safety alignment to mitigate high-stakes risks before full-scale deployment.",
+      "key_results": [
+        "Incentivizes red-teaming for biological safety risks.",
+        "Offers financial rewards up to $25,000 for valid exploits.",
+        "Targets the discovery of universal jailbreak patterns.",
+        "Focuses on hardening model guardrails against bio-threats.",
+        "Crowdsources security analysis for upcoming frontier models."
+      ],
+      "relevance_score": 3,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "OpenAI launches a bio-safety bug bounty for GPT-5.5 to incentivize the discovery of universal jailbreaks and security risks.",
+      "lead_institution": "OpenAI",
+      "tags": [
+        "AI Safety",
+        "Red Teaming",
+        "Bio-Security",
+        "GPT-5.5",
+        "Model Evaluation"
+      ]
+    }
+  },
+  {
     "title": "Making ChatGPT better for clinicians",
     "link": "https://openai.com/index/making-chatgpt-better-for-clinicians",
     "summary": "OpenAI makes ChatGPT for Clinicians free for verified U.S. physicians, nurse practitioners, and pharmacists, supporting clinical care, documentation, and research.",
@@ -8,24 +248,624 @@
     "type": "blog",
     "display_category": "Top News",
     "processed": {
-      "summary": "\n- OpenAI expands access to **ChatGPT for Clinicians**, providing a specialized interface and tools for verified healthcare professionals to assist with **clinical care**.\n- The initiative aims to streamline **clinical documentation** and administrative workflows, potentially leveraging domain-specific system prompts or fine-tuned safety guardrails.\n- Focuses on increasing the efficiency of **medical research** and data synthesis within a compliant framework for high-stakes professional environments.",
+      "summary": "\n- OpenAI launches **ChatGPT for Clinicians** as a free service for verified U.S. medical professionals to enhance administrative productivity.\n- The initiative focuses on streamlining **clinical documentation** and assisting in **medical research** workflows within healthcare settings.\n- This deployment leverages **Generative AI** to reduce physician burnout by automating time-consuming reporting and data organization tasks.",
       "key_results": [
-        "Free access granted to verified U.S. physicians and pharmacists.",
-        "Support for automated clinical documentation workflows.",
-        "Tools provided for medical research and data analysis.",
-        "Verified access system to ensure professional use.",
-        "Integration into daily clinical care and patient-facing workflows."
+        "Zero-cost access provided to verified U.S. physicians, NPs, and pharmacists.",
+        "Streamlined workflows for clinical documentation and administrative tasks.",
+        "Integrated tools for supporting evidence-based medical research.",
+        "Implementation of a verification system to ensure professional compliance.",
+        "Direct expansion of LLM utility into the specialized healthcare vertical."
+      ],
+      "relevance_score": 3,
+      "signal_type": "Release",
+      "one_sentence_takeaway": "OpenAI provides free ChatGPT access to verified US clinicians to streamline medical documentation and clinical research tasks.",
+      "lead_institution": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "Healthcare AI",
+        "Clinical Documentation",
+        "Generative AI",
+        "GPT-4"
+      ]
+    }
+  },
+  {
+    "title": "Here\u2019s how our TPUs power increasingly demanding AI workloads.",
+    "link": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/what-is-a-tpu/",
+    "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/What_is_a_TPU_social.max-600x600.format-webp.webp\" />Learn how Google\u2019s TPUs power increasingly demanding AI workloads with this new video.",
+    "source": "AI",
+    "published": "2026-04-23T12:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Google **TPUs (Tensor Processing Units)** are purpose-built AI accelerators designed to optimize the performance and efficiency of **large-scale machine learning** workloads.\n- The hardware architecture utilizes specialized **Matrix Multiplication Units (MXUs)** to accelerate the core mathematical operations required for **Transformer-based models** and Generative AI.\n- Modern TPU iterations leverage **High Bandwidth Memory (HBM)** and custom interconnects to support massive **distributed training** clusters or pods.\n- These chips provide the underlying infrastructure for scaling Google's most advanced **LLMs** and multimodal foundation models.",
+      "key_results": [
+        "TPUs are optimized specifically for matrix-intensive AI computations.",
+        "Hardware design focuses on high performance-per-watt for large-scale deployments.",
+        "TPU Pods enable seamless scaling for training massive datasets.",
+        "The architecture minimizes bottlenecks in data transfer via dedicated interconnects.",
+        "TPUs power a wide range of Google services and third-party AI research via Google Cloud."
+      ],
+      "relevance_score": 3,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Google explains how its custom-designed TPUs provide the underlying computational power for scaling modern generative AI workloads.",
+      "lead_institution": "Google",
+      "tags": [
+        "TPU",
+        "Hardware Acceleration",
+        "Generative AI",
+        "Deep Learning",
+        "Infrastructure"
+      ]
+    }
+  },
+  {
+    "title": "Elevating Austria: Google invests in its first data center in the Alps.",
+    "link": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/google-data-center-austria/",
+    "summary": "Aerial image of the data center",
+    "source": "AI",
+    "published": "2026-04-23T09:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* Google expands its global infrastructure by establishing its first **Cloud Region and data center** in Austria.\n* The facility is designed to provide **low-latency** access to Google Cloud services, specifically targeting Austrian enterprises and the public sector.\n* The architecture prioritizes **sustainability**, aligning with Google's goal to run on carbon-free energy 24/7 by 2030.\n* This investment strengthens **data sovereignty** and digital resilience for regional organizations deploying AI and cloud-native applications.",
+      "key_results": [
+        "First dedicated Google data center region in Austria.",
+        "Significant reduction in latency for local cloud and AI workloads.",
+        "Enhanced compliance with European data residency requirements.",
+        "Integration of advanced cooling and energy-efficient infrastructure.",
+        "Strategic expansion of the Google Cloud Platform (GCP) footprint in Central Europe."
+      ],
+      "relevance_score": 3,
+      "signal_type": "Release",
+      "one_sentence_takeaway": "Google launches its first Austrian data center to provide localized, low-latency cloud infrastructure for European AI and enterprise workloads.",
+      "lead_institution": "Google",
+      "tags": [
+        "Cloud Infrastructure",
+        "Data Centers",
+        "Google Cloud",
+        "Digital Transformation",
+        "Sustainability"
+      ]
+    }
+  },
+  {
+    "title": "Amazon Quick for marketing: From scattered data to strategic action",
+    "link": "https://aws.amazon.com/blogs/machine-learning/amazon-quick-for-marketing-from-scattered-data-to-strategic-action/",
+    "summary": "Amazon Quick changes how you work. You can set it up in minutes and by the end of the day, you will wonder how you ever worked without it. Quick connects with your applications, tools, and data, creating a personal knowledge graph that learns your priorities, preferences, and network.",
+    "source": "Artificial Intelligence",
+    "published": "2026-04-23T17:05:17+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- **Amazon Quick** functions as an integration layer that connects disparate applications, tools, and data sources into a unified workspace.\n- The architecture leverages a **personal knowledge graph** to dynamically map user priorities, preferences, and organizational networks.\n- The system focuses on **contextual learning**, adapting its responses based on the specific workflows and historical data of the marketing professional.",
+      "key_results": [
+        "Rapid deployment and setup within minutes.",
+        "Centralization of scattered marketing data silos.",
+        "Automated construction of personal knowledge graphs.",
+        "Adaptive learning of user-specific priorities and preferences.",
+        "Enhanced strategic action through integrated data visibility."
+      ],
+      "relevance_score": 3,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Amazon introduces Quick to synthesize marketing data through personal knowledge graphs for improved strategic decision-making.",
+      "lead_institution": "Amazon",
+      "tags": [
+        "Knowledge Graph",
+        "Marketing AI",
+        "Data Integration",
+        "Personalization",
+        "Productivity"
+      ]
+    }
+  },
+  {
+    "title": "Applying multimodal biological foundation models across therapeutics and patient care",
+    "link": "https://aws.amazon.com/blogs/machine-learning/applying-multimodal-biological-foundation-models-across-therapeutics-and-patient-care/",
+    "summary": "In this post, we'll explore how multimodal BioFMs work, showcase real-world applications in drug discovery and clinical development, and contextualize how AWS enables organizations to build and deploy multimodal BioFMs.",
+    "source": "Artificial Intelligence",
+    "published": "2026-04-23T16:17:29+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- **Multimodal BioFMs** integrate high-dimensional data types including genomic sequences, protein structures, and medical imaging to create a holistic biological representation.\n- The architecture leverages **Self-Supervised Learning** to identify complex cross-modal correlations, significantly reducing the need for labeled biological datasets.\n- Implementation utilizes **Scalable Cloud Infrastructure** to handle the heavy computational demands of training and fine-tuning large-scale biological models.\n- Impact spans the entire therapeutic pipeline, from **De Novo Protein Design** to optimizing patient selection in clinical trials.",
+      "key_results": [
+        "Unified latent spaces for diverse biological modalities including text and omics.",
+        "Acceleration of drug target identification through predictive molecular modeling.",
+        "Enhanced patient stratification using multimodal diagnostic data.",
+        "Streamlined deployment of BioFMs via AWS-specific managed services.",
+        "Reduction in R&D costs by leveraging pre-trained foundation models for specialized tasks."
+      ],
+      "relevance_score": 5,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "AWS demonstrates how multimodal biological foundation models accelerate drug discovery and clinical development using cloud-native AI infrastructure.",
+      "lead_institution": "AWS",
+      "tags": [
+        "Multimodal AI",
+        "Biological Foundation Models",
+        "Drug Discovery",
+        "Generative AI",
+        "Bioinformatics"
+      ]
+    }
+  },
+  {
+    "title": "Amazon SageMaker AI now supports optimized generative AI inference recommendations",
+    "link": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-ai-now-supports-optimized-generative-ai-inference-recommendations/",
+    "summary": "Today, Amazon SageMaker AI&nbsp; supports optimized generative AI inference recommendations. By delivering validated, optimal deployment configurations with performance metrics, Amazon SageMaker AI keeps your model developers focused on building accurate models, not managing infrastructure.",
+    "source": "Artificial Intelligence",
+    "published": "2026-04-22T19:15:08+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "<br>\u2022 Amazon SageMaker AI introduces **automated inference recommendations** specifically tailored for generative AI workloads to streamline model deployment.<br>\u2022 The system provides **validated deployment configurations** based on specific hardware and model requirements, reducing the need for manual infrastructure experimentation.<br>\u2022 Performance metrics are integrated directly into the recommendations, allowing engineers to balance **latency, throughput, and cost** effectively.<br>\u2022 This update focuses on abstracting **infrastructure orchestration**, enabling model developers to prioritize model refinement over hardware provisioning.",
+      "key_results": [
+        "Automated identification of optimal instance types for GenAI.",
+        "Provision of validated performance benchmarking data.",
+        "Reduced manual overhead for infrastructure management.",
+        "Standardized deployment configurations for inference.",
+        "Improved focus on model accuracy rather than hardware tuning."
+      ],
+      "relevance_score": 3,
+      "signal_type": "Release",
+      "one_sentence_takeaway": "Amazon launches SageMaker optimized inference recommendations to automate hardware selection and performance benchmarking for generative AI deployments.",
+      "lead_institution": "Amazon",
+      "tags": [
+        "Amazon SageMaker",
+        "Inference Optimization",
+        "Generative AI",
+        "MLOps",
+        "Cloud Infrastructure"
+      ]
+    }
+  },
+  {
+    "title": "Get to your first working agent in minutes: Announcing new features in Amazon Bedrock AgentCore",
+    "link": "https://aws.amazon.com/blogs/machine-learning/get-to-your-first-working-agent-in-minutes-announcing-new-features-in-amazon-bedrock-agentcore/",
+    "summary": "Today, we're introducing new capabilities that further streamline the agent building experience, removing the infrastructure barriers that slow teams down at every stage of agent development from the first prototype through production deployment.",
+    "source": "Artificial Intelligence",
+    "published": "2026-04-22T19:13:56+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* **Amazon Bedrock AgentCore** introduces streamlined capabilities to simplify the end-to-end development of **LLM Agents**.\n* The updates focus on removing **infrastructure barriers**, enabling developers to transition faster from initial prototyping to high-scale production deployment.\n* The architecture prioritizes **developer experience** by abstracting complex backend configurations required for autonomous agentic workflows.",
+      "key_results": [
+        "Accelerated agent setup time allowing for first prototypes in minutes",
+        "Streamlined infrastructure orchestration for LLM-based tasks",
+        "Enhanced support for the full development lifecycle from dev to prod",
+        "Reduced friction in integrating agents with existing enterprise data",
+        "Improved scalability features within the AgentCore framework"
+      ],
+      "relevance_score": 4,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Amazon launches Bedrock AgentCore updates to accelerate the creation and deployment of production-ready LLM agents.",
+      "lead_institution": "Amazon Web Services (AWS)",
+      "tags": [
+        "LLM Agents",
+        "Amazon Bedrock",
+        "Agentic Workflows",
+        "Generative AI",
+        "AgentCore"
+      ]
+    }
+  },
+  {
+    "title": "Tag, You\u2019re It: GeForce NOW Levels Up Game Discovery With Xbox Game Pass and Ubisoft+ Labels",
+    "link": "https://blogs.nvidia.com/blog/geforce-now-thursday-in-app-labels/",
+    "summary": "GeForce NOW is doubling down on what matters most: gamers. This week\u2019s upgrades bring smarter libraries, making it easier than ever for gamers to turn a PC collection into a cloud-powered flex. It starts with giving existing libraries time to shine. Gamers can bring the games they love to the cloud, stream them with high [&#8230;]",
+    "source": "NVIDIA Blog",
+    "published": "2026-04-23T13:00:51+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* NVIDIA has integrated **metadata labels** for Xbox Game Pass and Ubisoft+ within the GeForce NOW client to improve library navigation.\n* The update utilizes **platform-level synchronization** to help users identify which titles in their existing subscription libraries are compatible with cloud streaming.\n* This **UX enhancement** reduces friction in the game discovery lifecycle, transitioning users from license ownership to cloud execution more efficiently.\n* The architecture focuses on **catalog indexing** and real-time UI updates to reflect cross-platform availability.",
+      "key_results": [
+        "Introduction of Xbox Game Pass visual identifiers",
+        "Integration of Ubisoft+ subscription labels",
+        "Improved discovery for cloud-compatible PC titles",
+        "Streamlined library management for multi-platform gamers",
+        "Enhanced cloud-power streaming accessibility for existing collections"
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "NVIDIA updates GeForce NOW with subscription-specific labels to streamline cloud game discovery for Xbox and Ubisoft members.",
+      "lead_institution": "NVIDIA",
+      "tags": [
+        "Cloud Gaming",
+        "NVIDIA GeForce NOW",
+        "UX Design",
+        "Game Discovery",
+        "Xbox Game Pass"
+      ]
+    }
+  },
+  {
+    "title": "Making Sense of the Early Universe",
+    "link": "https://blogs.nvidia.com/blog/ai-gpu-early-universe-astronomy/",
+    "summary": "This Spring Astronomy Day, here\u2019s a look at how AI and GPUs are helping astronomers work through unprecedented volumes of cosmic data.",
+    "source": "NVIDIA Blog",
+    "published": "2026-04-23T13:00:22+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Utilizes **GPU-accelerated computing** to process and analyze the petabyte-scale data streams generated by next-generation astronomical observatories.\n- Employs **Computer Vision** and **Deep Learning** architectures to automate the detection and classification of celestial phenomena in massive sky surveys.\n- Bridges the gap between **High-Performance Computing (HPC)** and observational data to facilitate real-time discovery of transient cosmic events.",
+      "key_results": [
+        "Acceleration of large-scale cosmic data processing pipelines.",
+        "Automated identification of billions of celestial objects.",
+        "Significant reduction in time-to-insight for transient astronomical events.",
+        "Enhanced scalability for multi-petabyte astronomical datasets.",
+        "Integration of AI models into traditional physics-based simulation workflows."
+      ],
+      "relevance_score": 3,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "NVIDIA demonstrates how GPU-accelerated AI manages the unprecedented data volumes generated by modern telescopes to map the early universe.",
+      "lead_institution": "NVIDIA",
+      "tags": [
+        "GPU Acceleration",
+        "Computer Vision",
+        "Scientific Computing",
+        "Big Data",
+        "Astrophysics"
+      ]
+    }
+  },
+  {
+    "title": "U.S. Soldier Charged with Using Classified Info to Profit from Prediction Market",
+    "link": "https://www.justice.gov/usao-sdny/pr/us-soldier-charged-using-classified-information-profit-prediction-market-bets?bm-verify=AAQAAAAN_____y6To7sZYZ502biZwIHXlr-7zXZUqV4H0xLTfW__wDA3SjNLqifXRaQwsikyuz6IJknyuL8xfVYRkesxcDk5V10m-HoXl2K93f17rygBphL77WVFoQ_XvlmUo922IwM_DQ66137X6wWMtpdHslcEjpJG7KbBmUw9Su4kDENpDt_yv2spThQZehgv-X1Adk5U2VHfp41co2s_QJGjRj4y0KmL1mhSCyVaE7MC1LHG0mtP-xYmD0xBOQwn6PlHkPiP5Nt46h5ZIjLGXgCZDEVD42i7rIEM379DKLPUPX0PDNmOAwFSuTqcTDVnT_UUV8vxpHLRMb7rUxPxKUPcIB23iZTRJddWDDtPHMXadpwv67xr-f1sKDLZT9NgHCO4iuC2EthmAt0",
+    "summary": "<p>Article URL: <a href=\"https://www.justice.gov/usao-sdny/pr/us-soldier-charged-using-classified-information-profit-prediction-market-bets?bm-verify=AAQAAAAN_____y6To7sZYZ502biZwIHXlr-7zXZUqV4H0xLTfW__wDA3SjNLqifXRaQwsikyuz6IJknyuL8xfVYRkesxcDk5V10m-HoXl2K93f17rygBphL77WVFoQ_XvlmUo922IwM_DQ66137X6wWMtpdHslcEjpJG7KbBmUw9Su4kDENpDt_yv2spThQZehgv-X1Adk5U2VHfp41co2s_QJGjRj4y0KmL1mhSCyVaE7MC1LHG0mtP-xYmD0xBOQwn6PlHkPiP5Nt46h5ZIjLGXgCZDEVD42i7rIEM379DKLPUPX0PDNmOAwFSuTqcTDVnT_UUV8vxpHLRMb7rUxPxKUPcIB23iZTRJddWDDtPHMXadpwv67xr-f1sKDLZT9NgHCO4iuC2EthmAt0\">https://www.justice.gov/usao-sdny/pr/us-soldier-charged-using-classified-information-profit-prediction-market-bets?bm-verify=AAQAAAAN_____y6To7sZYZ502biZwIHXlr-7zXZUqV4H0xLTfW__wDA3SjNLqifXRaQwsikyuz6IJknyuL8xfVYRkesxcDk5V10m-HoXl2K93f17rygBphL77WVFoQ_XvlmUo922IwM_DQ66137X6wWMtpdHslcEjpJG7KbBmUw9Su4kDENpDt_yv2spThQZehgv-X1Adk5U2VHfp41co2s_QJGjRj4y0KmL1mhSCyVaE7MC1LHG0mtP-xYmD0xBOQwn6PlHkPiP5Nt46h5ZIjLGXgCZDEVD42i7rIEM379DKLPUPX0PDNmOAwFSuTqcTDVnT_UUV8vxpHLRMb7rUxPxKUPcIB23iZTRJddWDDtPHMXadpwv67xr-f1sKDLZT9NgHCO4iuC2EthmAt0</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47883108\">https://news.ycombinator.com/item?id=47883108</a></p>\n<p>Points: 185</p>\n<p># Comments: 84</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-04-23T22:37:01+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* The case involves the **exfiltration of classified defense information** for the purpose of profiting from international **prediction markets** and direct financial bribes.\n* Allegations center on the unauthorized disclosure of sensitive data regarding **U.S. military hardware**, including HIMARS, F-22 Raptor aircraft, and hypersonic missile defense systems.\n* This breach highlights the emergence of **prediction market manipulation** as a motive for insider threats and industrial/state espionage.\n* The incident emphasizes the critical need for enhanced **monitoring and auditing** of personnel with access to high-value national security data in a globally connected financial ecosystem.",
+      "key_results": [
+        "A U.S. Army soldier pleaded guilty to conspiracy to disclose national defense information.",
+        "Over a dozen classified documents were illegally transmitted to a foreign national in Hong Kong.",
+        "Financial compensation was provided in exchange for tactical and strategic military secrets.",
+        "Data included sensitive reports on U.S. military capabilities and potential responses to regional conflicts.",
+        "The case marks a notable intersection of traditional espionage with modern decentralized betting platforms."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "The U.S. Department of Justice charges a soldier for leaking classified data to profit from prediction market bets.",
+      "lead_institution": "U.S. Department of Justice",
+      "tags": [
+        "Prediction Markets",
+        "Data Security",
+        "Information Integrity",
+        "Intelligence Leak",
+        "Cybersecurity"
+      ]
+    }
+  },
+  {
+    "title": "Anthropic's Claude Desktop App Installs Undisclosed Native Messaging Bridge",
+    "link": "https://letsdatascience.com/news/claude-desktop-installs-preauthorized-browser-extension-mani-4064fb1a",
+    "summary": "<p>Article URL: <a href=\"https://letsdatascience.com/news/claude-desktop-installs-preauthorized-browser-extension-mani-4064fb1a\">https://letsdatascience.com/news/claude-desktop-installs-preauthorized-browser-extension-mani-4064fb1a</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47880697\">https://news.ycombinator.com/item?id=47880697</a></p>\n<p>Points: 82</p>\n<p># Comments: 16</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-04-23T19:43:08+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* Anthropic's **Claude Desktop** application installs a **Native Messaging** bridge for Chrome and Edge by modifying system registry and plist files during setup.\n* This architecture allows the local desktop application to communicate directly with browser extensions, facilitating seamless **data transfer** and context sharing between the web and the LLM.\n* The installation is largely **undisclosed**, bypassing the typical manual user authorization steps usually required for establishing cross-process communication channels.\n* This move appears designed to support the **Model Context Protocol (MCP)**, enabling more robust **agentic workflows** that bridge the gap between browser activity and local compute.",
+      "key_results": [
+        "Automatic configuration of Native Messaging hosts for Chromium-based browsers.",
+        "Bypassing of standard extension installation prompts through pre-authorization.",
+        "System-level integration using Windows Registry and macOS property lists.",
+        "Potential security implications regarding unauthorized cross-process messaging.",
+        "Foundational infrastructure for future Anthropic browser-based agent capabilities."
+      ],
+      "relevance_score": 6,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Anthropic implements a silent native messaging bridge in Claude Desktop to streamline browser-to-app data integration for agentic capabilities.",
+      "lead_institution": "Anthropic",
+      "tags": [
+        "Claude Desktop",
+        "Native Messaging",
+        "AI Agents",
+        "MCP",
+        "Security"
+      ]
+    }
+  },
+  {
+    "title": "Middle Eastern News Sites Are U.S. Government Propaganda Ops",
+    "link": "https://theintercept.com/2026/04/20/pentagon-middle-eastern-news-propaganda-iran/",
+    "summary": "<p>Article URL: <a href=\"https://theintercept.com/2026/04/20/pentagon-middle-eastern-news-propaganda-iran/\">https://theintercept.com/2026/04/20/pentagon-middle-eastern-news-propaganda-iran/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47879386\">https://news.ycombinator.com/item?id=47879386</a></p>\n<p>Points: 31</p>\n<p># Comments: 13</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-04-23T18:20:13+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n\u2022 The **U.S. Department of Defense** reportedly maintains a covert network of news websites in the Middle East to advance state-sponsored narratives.\n\u2022 The **architecture** of the operation involves masking government ties to present propaganda as legitimate, independent journalism to local audiences.\n\u2022 The **impact** of these activities raises significant ethical concerns regarding the transparency of the digital information ecosystem and military influence on foreign media.",
+      "key_results": [
+        "Identification of Pentagon-funded news sites operating in Iran and regional neighbors.",
+        "Documentation of state-sponsored content being disseminated under the guise of independent reporting.",
+        "Analysis of military psychological operations bypassing standard transparency disclosures.",
+        "Verification of specific strategic narratives targeting geopolitical rivals.",
+        "Exposure of the use of digital media platforms as conduits for state influence operations."
+      ],
+      "relevance_score": 1,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "The Intercept reveals the Pentagon's operation of covert Middle Eastern news sites used for state-sponsored propaganda and information warfare.",
+      "lead_institution": "The Intercept",
+      "tags": [
+        "Propaganda",
+        "Information Operations",
+        "Pentagon",
+        "Geopolitics",
+        "Media Transparency"
+      ]
+    }
+  },
+  {
+    "title": "Canonical Releases Ubuntu 26.04 LTS Resolute Raccoon",
+    "link": "https://ubuntu.com/blog/canonical-releases-ubuntu-26-04-lts-resolute-raccoon",
+    "summary": "<p>Article URL: <a href=\"https://ubuntu.com/blog/canonical-releases-ubuntu-26-04-lts-resolute-raccoon\">https://ubuntu.com/blog/canonical-releases-ubuntu-26-04-lts-resolute-raccoon</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47878560\">https://news.ycombinator.com/item?id=47878560</a></p>\n<p>Points: 47</p>\n<p># Comments: 4</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-04-23T17:25:37+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* Canonical launches **Ubuntu 26.04 LTS (Resolute Raccoon)**, emphasizing long-term stability and security for enterprise and developer environments.\n* The release features optimized support for **GPU-accelerated computing**, providing a robust foundation for running **local LLMs** and complex ML workloads.\n* Updates include the latest **Linux Kernel** versions and improved integration for **containerization** technologies like Docker and Kubernetes.",
+      "key_results": [
+        "Official release of Resolute Raccoon as the newest Long Term Support (LTS) version.",
+        "Enhanced hardware support for the latest NVIDIA and AMD compute architectures.",
+        "Integrated security updates through Ubuntu Pro for extended maintenance cycles.",
+        "Optimized performance for cloud-native applications and microservices.",
+        "Streamlined developer experience for AI/ML experimentation on local workstations."
       ],
       "relevance_score": 4,
       "signal_type": "Release",
-      "one_sentence_takeaway": "OpenAI provides free access to ChatGPT for Clinicians to streamline medical documentation and enhance clinical research workflows.",
-      "lead_institution": "OpenAI",
+      "one_sentence_takeaway": "Canonical releases Ubuntu 26.04 LTS to provide a stable, long-term foundation for high-performance computing and developer infrastructure.",
+      "lead_institution": "Canonical",
       "tags": [
-        "Healthcare AI",
-        "LLM Deployment",
-        "Clinical Documentation",
-        "Generative AI Trends",
-        "OpenAI"
+        "Ubuntu",
+        "Linux",
+        "Infrastructure",
+        "LTS",
+        "Open Source"
+      ]
+    }
+  },
+  {
+    "title": "If America's so rich, how'd it get so sad?",
+    "link": "https://www.derekthompson.org/p/if-americas-so-rich-howd-it-get-so",
+    "summary": "<p>Article URL: <a href=\"https://www.derekthompson.org/p/if-americas-so-rich-howd-it-get-so\">https://www.derekthompson.org/p/if-americas-so-rich-howd-it-get-so</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47877429\">https://news.ycombinator.com/item?id=47877429</a></p>\n<p>Points: 428</p>\n<p># Comments: 782</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-04-23T16:05:30+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "<br>\u2022 This article provides a **socio-economic analysis** of the divergence between U.S. GDP growth and the perceived well-being of its citizens.<br>\u2022 It explores the **psychological impact** of modern work culture and digital isolation on social cohesion.<br>\u2022 The piece critiques how **economic metrics** often fail to account for community health and individual fulfillment.",
+      "key_results": [
+        "Economic prosperity has not translated into increased national happiness.",
+        "Identifies a significant rise in social isolation despite digital connectivity.",
+        "Analyzes the shift from collective experiences to individualized digital consumption.",
+        "Highlights the limitations of using GDP as a proxy for social progress.",
+        "Discusses the 'well-being gap' prevalent in high-income nations."
+      ],
+      "relevance_score": 1,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Derek Thompson examines the paradox of rising American wealth and declining national happiness in a non-technical social commentary.",
+      "lead_institution": "Hacker News",
+      "tags": [
+        "Sociology",
+        "Economics",
+        "Well-being",
+        "Social Trends",
+        "Mental Health"
+      ]
+    }
+  },
+  {
+    "title": "Raylib v6.0",
+    "link": "https://github.com/raysan5/raylib/releases/tag/6.0",
+    "summary": "<p>Article URL: <a href=\"https://github.com/raysan5/raylib/releases/tag/6.0\">https://github.com/raysan5/raylib/releases/tag/6.0</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47874854\">https://news.ycombinator.com/item?id=47874854</a></p>\n<p>Points: 199</p>\n<p># Comments: 33</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-04-23T12:16:16+00:00",
+    "type": "repo",
+    "display_category": "Top Repo",
+    "processed": {
+      "summary": "<br> Raylib v6.0 introduces a major architectural overhaul featuring a **WebGPU backend**, enabling high-performance, modern graphics processing within browser environments via Emscripten.<br> The release includes significant **SIMD-accelerated math optimizations**, enhancing the efficiency of the internal `raymath` library for compute-heavy local simulations.<br> A refactored **memory management system** and modularized core headers improve integration for developers building lightweight tools or visualization layers for AI agents.",
+      "key_results": [
+        "Experimental support for WebGPU via the Emscripten toolchain.",
+        "Major refactoring of the internal 'rlgl' rendering abstraction layer.",
+        "Introduction of SIMD optimizations for high-performance math operations.",
+        "Improved support for GLES 3.0 and GLES 2.0 backends.",
+        "Refined build system for smaller binary footprints in embedded environments."
+      ],
+      "relevance_score": 4,
+      "signal_type": "Framework Update",
+      "one_sentence_takeaway": "Raylib releases version 6.0 with WebGPU support and SIMD optimizations to empower high-performance cross-platform graphics and visualization.",
+      "lead_institution": "Raylib",
+      "tags": [
+        "Computer Graphics",
+        "WebGPU",
+        "C Development",
+        "Cross-platform",
+        "Visualization"
+      ]
+    }
+  },
+  {
+    "title": "Email could have been X.400 times better",
+    "link": "https://buttondown.com/blog/x400-vs-smtp-email",
+    "summary": "<p>Article URL: <a href=\"https://buttondown.com/blog/x400-vs-smtp-email\">https://buttondown.com/blog/x400-vs-smtp-email</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47873323\">https://news.ycombinator.com/item?id=47873323</a></p>\n<p>Points: 43</p>\n<p># Comments: 66</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-04-23T08:10:09+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* The article provides a technical retrospective on the **protocol war** between the complex **X.400** standard and the eventually dominant **SMTP**.\n* **X.400** was designed as a feature-rich, hierarchical enterprise system with native support for delivery receipts and structured metadata, but its **OSI-based architecture** proved too heavy for rapid adoption.\n* **SMTP** succeeded by prioritizing a simple, text-based, \"good enough\" architecture that allowed for decentralized implementation, despite lacking core security and reliability features.",
+      "key_results": [
+        "X.400 utilized a complex hierarchical naming scheme (Distinguished Names) that contrasted with SMTP's simple user@domain format.",
+        "SMTP's design required decades of bolted-on extensions (MIME, SPF, DKIM) to achieve features that were native to X.400.",
+        "The 'rough consensus and running code' philosophy of the early internet favored SMTP's low barrier to entry.",
+        "X.400's reliance on the OSI model created significant overhead that hindered interoperability during the internet's formative years.",
+        "The history of email serves as a primary case study in software engineering for why simple, extensible protocols outlast rigid, feature-complete ones."
+      ],
+      "relevance_score": 2,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Buttondown examines the historical technical trade-offs between X.400 and SMTP, illustrating why simplicity often triumphs over feature-rich complexity.",
+      "lead_institution": "Buttondown",
+      "tags": [
+        "Network Protocols",
+        "System Architecture",
+        "Software History",
+        "SMTP",
+        "Email Standards"
+      ]
+    }
+  },
+  {
+    "title": "Tempest vs. Tempest: The Making and Remaking of Atari's Iconic Video Game",
+    "link": "https://tempest.homemade.systems",
+    "summary": "<p>Article URL: <a href=\"https://tempest.homemade.systems\">https://tempest.homemade.systems</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47871195\">https://news.ycombinator.com/item?id=47871195</a></p>\n<p>Points: 105</p>\n<p># Comments: 38</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-04-23T01:02:32+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Documents the technical **reverse engineering** and historical reconstruction of the arcade classic Tempest, focusing on its unique **vector display architecture**.\n- Analyzes the **low-level optimization** techniques used in 6502 assembly to manage complex game logic and real-time graphics on early 1980s hardware.\n- Explores the intersection of **hardware-software synergy**, detailing how mathematical constraints influenced the game's iconic visual style and gameplay mechanics.",
+      "key_results": [
+        "Deep dive into Dave Theurer's original 6502 assembly logic.",
+        "Analysis of vector rendering performance and CRT hardware interaction.",
+        "Comparison of original arcade code versus modern reimplementations.",
+        "Documentation of the mathematical foundations for the game's pseudo-3D perspective.",
+        "Technical insights into the development constraints of early 80s arcade cabinets."
+      ],
+      "relevance_score": 2,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Homemade Systems explores the technical architecture and assembly-level reconstruction of Atari's Tempest to preserve its legacy in computer engineering.",
+      "lead_institution": "Homemade Systems",
+      "tags": [
+        "Retro Computing",
+        "Reverse Engineering",
+        "Vector Graphics",
+        "Atari",
+        "6502 Assembly"
+      ]
+    }
+  },
+  {
+    "title": "Kalshi suspends 3 US congressional candidates for 'political insider trading'",
+    "link": "https://www.reuters.com/world/us/kalshi-suspends-three-us-congressional-candidates-political-insider-trading-2026-04-22/",
+    "summary": "<p>Article URL: <a href=\"https://www.reuters.com/world/us/kalshi-suspends-three-us-congressional-candidates-political-insider-trading-2026-04-22/\">https://www.reuters.com/world/us/kalshi-suspends-three-us-congressional-candidates-political-insider-trading-2026-04-22/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47870520\">https://news.ycombinator.com/item?id=47870520</a></p>\n<p>Points: 30</p>\n<p># Comments: 2</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-04-22T23:20:25+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- **Kalshi**, a regulated prediction market, has suspended the accounts of three U.S. congressional candidates for allegedly betting on their own election outcomes.\n- The move addresses concerns regarding **insider trading** and the ethical implications of participants influencing the markets they are betting on.\n- This enforcement action underscores the platform's commitment to maintaining **data integrity** and regulatory compliance within the nascent landscape of political derivatives.",
+      "key_results": [
+        "Three congressional candidates were suspended for platform policy violations.",
+        "The primary allegation involves 'political insider trading' on own-race outcomes.",
+        "Kalshi is enforcing strict market participation rules to preserve forecasting reliability.",
+        "The incident highlights the intersection of political ethics and decentralized/centralized prediction markets.",
+        "Regulatory scrutiny on prediction markets remains high following this breach of conduct."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Kalshi suspends congressional candidates for betting on their own elections to protect the integrity of its prediction market data.",
+      "lead_institution": "Kalshi",
+      "tags": [
+        "Prediction Markets",
+        "Data Integrity",
+        "Political Ethics",
+        "Market Regulation",
+        "Forecasting"
+      ]
+    }
+  },
+  {
+    "title": "Tesla admits HW3 owners need upgrades for true 'Full Self-Driving'",
+    "link": "https://techcrunch.com/2026/04/22/elon-musk-admits-millions-of-tesla-owners-need-upgrades-for-true-full-self-driving/",
+    "summary": "<p>Article URL: <a href=\"https://techcrunch.com/2026/04/22/elon-musk-admits-millions-of-tesla-owners-need-upgrades-for-true-full-self-driving/\">https://techcrunch.com/2026/04/22/elon-musk-admits-millions-of-tesla-owners-need-upgrades-for-true-full-self-driving/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47870314\">https://news.ycombinator.com/item?id=47870314</a></p>\n<p>Points: 56</p>\n<p># Comments: 27</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-04-22T22:50:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": " \n* Tesla acknowledges that **Hardware 3 (HW3)** compute constraints are insufficient to run the latest, more complex neural network architectures required for level 4/5 autonomy.\n* The admission highlights a critical **hardware-software mismatch** where software optimization can no longer compensate for legacy silicon's limited inference throughput.\n* This shift necessitates a massive **hardware retrofit program** for millions of vehicles, emphasizing the challenges of future-proofing edge AI hardware against rapidly evolving model requirements.",
+      "key_results": [
+        "HW3 lacks the computational headroom for the highest fidelity FSD models.",
+        "Musk confirms hardware upgrades will be offered to owners who purchased FSD.",
+        "Development focus has shifted toward the more powerful HW4 and upcoming AI5 chips.",
+        "Millions of existing Tesla vehicles are currently compute-limited regarding autonomous tasks.",
+        "The situation underscores the risk of 'feature-complete' promises made on static hardware."
+      ],
+      "relevance_score": 4,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Tesla admits Hardware 3 lacks the computational capacity for full autonomy, necessitating hardware upgrades for millions of existing vehicles.",
+      "lead_institution": "Tesla",
+      "tags": [
+        "Edge AI",
+        "Computer Vision",
+        "Hardware Acceleration",
+        "Model Inference",
+        "Autonomous Systems"
+      ]
+    }
+  },
+  {
+    "title": "US saw record high of 5,668 books banned in libraries in 2025, says agency",
+    "link": "https://www.theguardian.com/us-news/2026/apr/22/us-libraries-banned-books",
+    "summary": "<p>Article URL: <a href=\"https://www.theguardian.com/us-news/2026/apr/22/us-libraries-banned-books\">https://www.theguardian.com/us-news/2026/apr/22/us-libraries-banned-books</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47868991\">https://news.ycombinator.com/item?id=47868991</a></p>\n<p>Points: 63</p>\n<p># Comments: 38</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-04-22T20:37:21+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n \u2022 The report highlights a **record high of 5,668 book bans** across US libraries in 2025, indicating a sharp escalation in censorship efforts.\n \u2022 The **impact** focuses on the restriction of public access to diverse educational materials and the resulting pressure on institutional library policies.\n \u2022 While non-technical, the trend reflects **societal alignment shifts** and potential data availability constraints that could affect future language model training datasets.",
+      "key_results": [
+        "A total of 5,668 books were banned or challenged in 2025.",
+        "This figure represents the highest number recorded in a single year in US history.",
+        "Challenges were primarily concentrated in public and school library systems.",
+        "Organized advocacy groups played a significant role in the volume of challenges.",
+        "Censorship efforts targeted a wide range of diverse cultural and historical literature."
+      ],
+      "relevance_score": 1,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "The Guardian reports that US libraries faced a record 5,668 book bans in 2025, highlighting increasing information restrictions.",
+      "lead_institution": "The Guardian",
+      "tags": [
+        "Information Access",
+        "Censorship",
+        "Data Policy",
+        "Social Trends",
+        "Library Science"
+      ]
+    }
+  },
+  {
+    "title": "DuckDB 1.5.2 \u2013 SQL database that runs on laptop, server, in the browser",
+    "link": "https://duckdb.org/2026/04/13/announcing-duckdb-152",
+    "summary": "<p>Article URL: <a href=\"https://duckdb.org/2026/04/13/announcing-duckdb-152\">https://duckdb.org/2026/04/13/announcing-duckdb-152</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47864454\">https://news.ycombinator.com/item?id=47864454</a></p>\n<p>Points: 160</p>\n<p># Comments: 51</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-04-22T14:49:02+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- **DuckDB 1.5.2** maintains its architectural focus as an in-process, columnar **OLAP** database designed for zero-dependency local, server, and browser-based execution.\n- The release optimizes **vectorized query execution**, enabling high-speed analytical processing directly on local hardware without the latency of client-server communication.\n- Enhanced **WebAssembly (WASM)** support allows for sophisticated SQL-based data manipulation within the browser, facilitating decentralized AI applications and local data pre-processing.",
+      "key_results": [
+        "Improved cross-platform portability for consistent SQL execution across edge and server environments.",
+        "Enhanced performance for vectorized query processing on large local datasets.",
+        "Expanded SQL dialect support to simplify complex analytical workflows for data engineering.",
+        "Refined WASM integration for high-performance in-browser data analytics.",
+        "Optimized memory management and storage handling for large-scale local data workloads."
+      ],
+      "relevance_score": 7,
+      "signal_type": "Framework Update",
+      "one_sentence_takeaway": "DuckDB Labs releases version 1.5.2, providing a high-performance in-process SQL engine for local, server, and browser-based analytical workloads.",
+      "lead_institution": "DuckDB Labs",
+      "tags": [
+        "DuckDB",
+        "SQL",
+        "OLAP",
+        "RAG",
+        "Local Data"
       ]
     }
   },
@@ -116,66 +956,6 @@
         "Generative AI",
         "Marketing Automation",
         "AI Safety"
-      ]
-    }
-  },
-  {
-    "title": "Amazon SageMaker AI now supports optimized generative AI inference recommendations",
-    "link": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-ai-now-supports-optimized-generative-ai-inference-recommendations/",
-    "summary": "Today, Amazon SageMaker AI&nbsp; supports optimized generative AI inference recommendations. By delivering validated, optimal deployment configurations with performance metrics, Amazon SageMaker AI keeps your model developers focused on building accurate models, not managing infrastructure.",
-    "source": "Artificial Intelligence",
-    "published": "2026-04-22T19:15:08+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "<br>\u2022 Amazon SageMaker AI introduces **optimized inference recommendations** designed to automate the selection of infrastructure for generative AI models.<br>\u2022 The system provides **validated deployment configurations** paired with performance metrics to streamline the transition from model training to production.<br>\u2022 This architectural update aims to reduce the **infrastructure management burden**, allowing ML engineers to focus on model accuracy rather than hardware tuning.",
-      "key_results": [
-        "Automated identification of optimal instance types for LLMs",
-        "Provision of validated performance benchmarks for specific configurations",
-        "Reduction in manual experimentation for hardware provisioning",
-        "Streamlined deployment workflows for generative AI models",
-        "Enhanced focus on model accuracy over infrastructure management"
-      ],
-      "relevance_score": 4,
-      "signal_type": "Release",
-      "one_sentence_takeaway": "Amazon SageMaker AI introduces optimized inference recommendations to automate hardware selection and performance validation for generative model deployments.",
-      "lead_institution": "Amazon SageMaker AI",
-      "tags": [
-        "Inference Optimization",
-        "Model Deployment",
-        "AWS SageMaker",
-        "Infrastructure Automation",
-        "Generative AI"
-      ]
-    }
-  },
-  {
-    "title": "Get to your first working agent in minutes: Announcing new features in Amazon Bedrock AgentCore",
-    "link": "https://aws.amazon.com/blogs/machine-learning/get-to-your-first-working-agent-in-minutes-announcing-new-features-in-amazon-bedrock-agentcore/",
-    "summary": "Today, we're introducing new capabilities that further streamline the agent building experience, removing the infrastructure barriers that slow teams down at every stage of agent development from the first prototype through production deployment.",
-    "source": "Artificial Intelligence",
-    "published": "2026-04-22T19:13:56+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n* **Amazon Bedrock AgentCore** introduces streamlined capabilities for building **autonomous agents** by abstracting complex backend infrastructure requirements.\n* The update facilitates a seamless transition from **rapid prototyping** to **production-grade deployment** environments within the AWS ecosystem.\n* By providing managed **workflow orchestration**, the framework allows developers to focus on agentic logic and task execution rather than manual resource management.",
-      "key_results": [
-        "Reduction in initial agent setup time to minutes via simplified interfaces",
-        "Removal of manual infrastructure provisioning for scaling agentic workflows",
-        "Unified development experience across the entire agent lifecycle",
-        "Improved abstraction layer for connecting agents to enterprise data and tools",
-        "Lowered technical barriers for teams deploying multi-step generative AI applications"
-      ],
-      "relevance_score": 4,
-      "signal_type": "Engineering Blog",
-      "one_sentence_takeaway": "Amazon Bedrock launches AgentCore features to accelerate development of production-ready LLM agents by removing infrastructure barriers.",
-      "lead_institution": "Amazon Bedrock",
-      "tags": [
-        "LLM Agents",
-        "Amazon Bedrock",
-        "Agentic Workflows",
-        "Generative AI",
-        "Cloud Infrastructure"
       ]
     }
   },
@@ -326,66 +1106,6 @@
         "Machine Learning Research",
         "AI Conference",
         "Sponsorship"
-      ]
-    }
-  },
-  {
-    "title": "US saw record high of 5,668 books banned in libraries in 2025, says agency",
-    "link": "https://www.theguardian.com/us-news/2026/apr/22/us-libraries-banned-books",
-    "summary": "<p>Article URL: <a href=\"https://www.theguardian.com/us-news/2026/apr/22/us-libraries-banned-books\">https://www.theguardian.com/us-news/2026/apr/22/us-libraries-banned-books</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47868991\">https://news.ycombinator.com/item?id=47868991</a></p>\n<p>Points: 40</p>\n<p># Comments: 28</p>",
-    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
-    "published": "2026-04-22T20:37:21+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n* The article documents a **record-breaking surge** in book bans within the United States library system during 2025.\n* It highlights the **sociopolitical climate** and legislative pressures driving the removal of 5,668 specific titles.\n* The report focuses on **information access** and social policy rather than technical infrastructure or machine learning architecture.",
-      "key_results": [
-        "A total of 5,668 books were banned or challenged in 2025.",
-        "The figures represent the highest level of library censorship recorded in US history.",
-        "Challenges frequently targeted diverse literature and educational materials.",
-        "Data was compiled and released by a specialized reporting agency.",
-        "The trend reflects increasing local and state-level political intervention in public institutions."
-      ],
-      "relevance_score": 1,
-      "signal_type": "General News",
-      "one_sentence_takeaway": "The Guardian reports that US libraries reached a record high of 5,668 book bans in 2025.",
-      "lead_institution": "The Guardian",
-      "tags": [
-        "Censorship",
-        "Public Libraries",
-        "Information Access",
-        "US Policy",
-        "Social Trends"
-      ]
-    }
-  },
-  {
-    "title": "DuckDB 1.5.2 \u2013 SQL database that runs on laptop, server, in the browser",
-    "link": "https://duckdb.org/2026/04/13/announcing-duckdb-152",
-    "summary": "<p>Article URL: <a href=\"https://duckdb.org/2026/04/13/announcing-duckdb-152\">https://duckdb.org/2026/04/13/announcing-duckdb-152</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47864454\">https://news.ycombinator.com/item?id=47864454</a></p>\n<p>Points: 144</p>\n<p># Comments: 49</p>",
-    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
-    "published": "2026-04-22T14:49:02+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n- **DuckDB 1.5.2** continues the evolution of the in-process analytical SQL engine, focusing on high-performance **OLAP workloads** within host processes without a separate server.\n- The release reinforces its **cross-platform architecture**, supporting seamless execution across local laptops, high-performance servers, and **WebAssembly (WASM)** in browser environments.\n- Improvements target **data interoperability**, allowing for more efficient querying of Parquet, CSV, and JSON formats which are foundational for local **LLM training and RAG** data pipelines.\n- Enhanced memory management and stability ensure reliability when running alongside resource-intensive **local models (SLMs)** and AI agents.",
-      "key_results": [
-        "Improved SQL dialect compatibility for complex analytical queries.",
-        "Enhanced WASM support for high-performance data processing in the browser.",
-        "Optimized storage layer performance for large-scale Parquet file ingestion.",
-        "Refined memory handling for concurrent execution in constrained local environments.",
-        "Strengthened integration with Python and Arrow for seamless data science workflows."
-      ],
-      "relevance_score": 6,
-      "signal_type": "Release",
-      "one_sentence_takeaway": "DuckDB Labs releases version 1.5.2, optimizing the embeddable SQL engine for high-performance analytical workloads across local and web environments.",
-      "lead_institution": "DuckDB Labs",
-      "tags": [
-        "SQL Engine",
-        "OLAP",
-        "Data Engineering",
-        "WebAssembly",
-        "Local Data"
       ]
     }
   },
