@@ -1,1 +1,392 @@
-[]
+[
+  {
+    "title": "Our principles",
+    "link": "https://openai.com/index/our-principles",
+    "summary": "Our mission is to ensure that AGI benefits all of humanity. Sam Altman shares five principles that guide our work.",
+    "source": "OpenAI News",
+    "published": "2026-04-26T16:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- OpenAI establishes a high-level **governance framework** to align the development of **Artificial General Intelligence (AGI)** with human interests.\n- The principles prioritize **safety-first deployment**, ensuring that technical progress does not bypass rigorous alignment protocols.\n- The architecture of their mission focuses on **broad benefit distribution**, aiming to mitigate risks associated with power concentration in advanced AI systems.\n- These guidelines serve as a strategic roadmap for balancing **rapid innovation** with ethical accountability in generative AI.",
+      "key_results": [
+        "Commitment to ensuring AGI benefits all of humanity.",
+        "Prioritization of long-term safety research over short-term gains.",
+        "Establishment of cooperative frameworks with other research institutions.",
+        "Emphasis on transparency regarding model capabilities and risks.",
+        "Focus on technical alignment as a prerequisite for scaled deployment."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "OpenAI defines five foundational principles to ensure Artificial General Intelligence development remains safe and globally beneficial.",
+      "lead_institution": "OpenAI",
+      "tags": [
+        "AGI",
+        "AI Ethics",
+        "AI Safety",
+        "Governance",
+        "Strategic Planning"
+      ]
+    }
+  },
+  {
+    "title": "8 Gemini tips for organizing your space (and life)",
+    "link": "https://blog.google/products-and-platforms/products/gemini/gemini-spring-cleaning-tips/",
+    "summary": "Black screen with illustrations including a laptop with document and email icons streaming out, a smiling person holding a phone and looking at a checklist, and a user activating Gemini Live",
+    "source": "AI",
+    "published": "2026-04-24T19:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* The article highlights the integration of **Gemini Live**, a low-latency multimodal interface designed for real-time conversational task management.\n* It showcases the use of **cross-app orchestration** between Google Workspace (Gmail, Docs) and Gemini to manage personal data silos via natural language.\n* The workflow leverages **zero-shot prompting** for organizational tasks, such as checklist generation and schedule optimization from unstructured inputs.",
+      "key_results": [
+        "Gemini Live enables hands-free multimodal interaction for productivity.",
+        "Workspace extensions facilitate seamless information retrieval across email and documents.",
+        "Prompt-based checklist generation simplifies complex organizational workflows.",
+        "Mobile-first AI integration enhances real-time assistant accessibility.",
+        "Contextual awareness is utilized to categorize and prioritize personal tasks."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Google demonstrates consumer-oriented Gemini features focusing on multimodal voice interaction and Workspace integration for daily life management.",
+      "lead_institution": "Google",
+      "tags": [
+        "Multimodal AI",
+        "LLM Agents",
+        "Productivity",
+        "Gemini Live",
+        "Consumer AI"
+      ]
+    }
+  },
+  {
+    "title": "U.S. Mint Buys Drug Cartel Gold and Sells It as 'American'",
+    "link": "https://www.nytimes.com/2026/04/26/world/americas/us-mint-gold-drug-cartel-colombia.html",
+    "summary": "<p>Article URL: <a href=\"https://www.nytimes.com/2026/04/26/world/americas/us-mint-gold-drug-cartel-colombia.html\">https://www.nytimes.com/2026/04/26/world/americas/us-mint-gold-drug-cartel-colombia.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47914686\">https://news.ycombinator.com/item?id=47914686</a></p>\n<p>Points: 36</p>\n<p># Comments: 14</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-04-26T21:24:19+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Investigative report revealing that the **U.S. Mint** allegedly acquired gold sourced from **illegal mining operations** run by Colombian drug cartels.\n- Details the lack of robust **supply chain verification** and the failure of current **audit protocols** to detect the origin of illicit precious metals.\n- Examines the impact of the **\"American\" branding** on gold products that are actually tied to international money laundering and environmental destruction.",
+      "key_results": [
+        "Evidence suggests the U.S. Mint purchased gold tied to Colombian criminal organizations.",
+        "Illegal mining operations are using the U.S. financial system to launder drug profits.",
+        "Current due diligence frameworks in the precious metals industry are insufficient.",
+        "Conflict gold is being rebranded as legitimate 'American' bullion.",
+        "Potential legal and reputational risks for the U.S. Treasury Department."
+      ],
+      "relevance_score": 1,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "The New York Times reveals that the U.S. Mint allegedly sources gold from drug cartels, exposing major regulatory failures.",
+      "lead_institution": "The New York Times",
+      "tags": [
+        "Supply Chain",
+        "Regulatory Compliance",
+        "Investigations",
+        "Finance",
+        "Geopolitics"
+      ]
+    }
+  },
+  {
+    "title": "1:59:30: Sabastian Sawe Shatters the 2-Hour Barrier at 2026 London Marathon",
+    "link": "https://www.letsrun.com/news/2026/04/15930-sabastian-sawe-shatters-the-2-hour-barrier-at-2026-london-marathon/",
+    "summary": "<p>Article URL: <a href=\"https://www.letsrun.com/news/2026/04/15930-sabastian-sawe-shatters-the-2-hour-barrier-at-2026-london-marathon/\">https://www.letsrun.com/news/2026/04/15930-sabastian-sawe-shatters-the-2-hour-barrier-at-2026-london-marathon/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47914496\">https://news.ycombinator.com/item?id=47914496</a></p>\n<p>Points: 38</p>\n<p># Comments: 3</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-04-26T21:08:17+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "<br>\u2022 The article chronicles **Sabastian Sawe's** historic performance at the 2026 London Marathon, where he finished in 1:59:30.<br>\u2022 It focuses on the **human physiological limits** and the shattering of the sub-two-hour barrier in a competitive racing environment.<br>\u2022 The content is centered on **athletic achievement** and sports history, lacking any connection to machine learning or generative AI.<br>\u2022 There is no technical mention of **AI-driven training** or biometric modeling that would align with senior engineering interests.",
+      "key_results": [
+        "Sabastian Sawe set a new world record of 1:59:30.",
+        "The sub-two-hour barrier was officially broken in a sanctioned marathon race.",
+        "The event occurred at the 2026 London Marathon.",
+        "The performance validates long-standing theories on human endurance capacity.",
+        "The milestone represents a pinnacle in sports science and professional distance running."
+      ],
+      "relevance_score": 1,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "LetsRun reports that Sabastian Sawe became the first human to officially run a sub-two-hour marathon in London 2026.",
+      "lead_institution": "LetsRun",
+      "tags": [
+        "Athletics",
+        "Marathon",
+        "World Record",
+        "Human Performance",
+        "Sports Science"
+      ]
+    }
+  },
+  {
+    "title": "Two Athletes Break Sub-2-HR Marathon in Adizero Adios Pro Evo 3",
+    "link": "https://news.adidas.com/running/two-adidas-athletes-sabastian-sawe-and-yomif-kejelcha-break-the-sub-2-hour-marathon-barrier-in-the-r/s/d4be4eac-a3b8-47d5-835f-9cbd685638ca",
+    "summary": "<p>Article URL: <a href=\"https://news.adidas.com/running/two-adidas-athletes-sabastian-sawe-and-yomif-kejelcha-break-the-sub-2-hour-marathon-barrier-in-the-r/s/d4be4eac-a3b8-47d5-835f-9cbd685638ca\">https://news.adidas.com/running/two-adidas-athletes-sabastian-sawe-and-yomif-kejelcha-break-the-sub-2-hour-marathon-barrier-in-the-r/s/d4be4eac-a3b8-47d5-835f-9cbd685638ca</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47914438\">https://news.ycombinator.com/item?id=47914438</a></p>\n<p>Points: 73</p>\n<p># Comments: 1</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-04-26T21:04:39+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* The achievement highlights the role of **advanced material science** and high-performance footwear architecture in surpassing human physiological limits.\n* The **Adizero Adios Pro Evo 3** design leverages ultralight foam and carbon-plate technology to maximize **energy return** and minimize athlete fatigue.\n* This event marks a significant milestone in **sports engineering**, demonstrating how specialized equipment can disrupt long-standing performance benchmarks.",
+      "key_results": [
+        "Two Adidas athletes, Sabastian Sawe and Yomif Kejelcha, broke the sub-2-hour marathon barrier.",
+        "The record-breaking runs were achieved using the Adizero Adios Pro Evo 3 running shoes.",
+        "The shoes are designed for extreme weight efficiency and mechanical energy conservation.",
+        "This performance validates the impact of 'super shoe' technology on elite athletic competition.",
+        "The event signifies a major shift in the technological requirements for professional marathon racing."
+      ],
+      "relevance_score": 1,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Adidas reports that two athletes broke the sub-2-hour marathon barrier using the Adizero Adios Pro Evo 3 footwear technology.",
+      "lead_institution": "Adidas",
+      "tags": [
+        "Sports Engineering",
+        "Material Science",
+        "Performance Optimization",
+        "Footwear Technology",
+        "Marathon Records"
+      ]
+    }
+  },
+  {
+    "title": "Fast16: High-precision software sabotage 5 years before Stuxnet",
+    "link": "https://www.sentinelone.com/labs/fast16-mystery-shadowbrokers-reference-reveals-high-precision-software-sabotage-5-years-before-stuxnet/",
+    "summary": "<p>Article URL: <a href=\"https://www.sentinelone.com/labs/fast16-mystery-shadowbrokers-reference-reveals-high-precision-software-sabotage-5-years-before-stuxnet/\">https://www.sentinelone.com/labs/fast16-mystery-shadowbrokers-reference-reveals-high-precision-software-sabotage-5-years-before-stuxnet/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47913855\">https://news.ycombinator.com/item?id=47913855</a></p>\n<p>Points: 140</p>\n<p># Comments: 43</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-04-26T20:18:37+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- **Fast16** is a highly specialized binary modification tool discovered in the ShadowBrokers leaks, designed for high-precision **software sabotage** targeting industrial or scientific computations.\n- Unlike destructive malware, it employs **automated static analysis** to identify and patch specific mathematical constants or algorithms, introducing subtle errors that evade detection.\n- The architecture demonstrates that nation-state actors were utilizing advanced **binary instrumentation** for silent algorithmic tampering as early as 2005, predating Stuxnet's complexity.\n- It highlights a shift in cyber-warfare toward **precision corruption** of data rather than system crashes, focusing on integrity compromise in critical software environments.",
+      "key_results": [
+        "Identification of Fast16 as a precursor to modern ICS/SCADA sabotage tools.",
+        "Discovery of automated patching capabilities for 32-bit Windows executables.",
+        "Evidence of targeting specific mathematical floating-point operations to induce calculation drift.",
+        "Confirmation of operational use by the Equation Group circa 2005-2006.",
+        "Analysis of the 'bit-flip' strategy used to compromise software integrity without causing crashes."
+      ],
+      "relevance_score": 2,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "SentinelOne Labs reveals Fast16 as a sophisticated precursor to Stuxnet that automated high-precision algorithmic sabotage via binary patching.",
+      "lead_institution": "SentinelOne Labs",
+      "tags": [
+        "Cybersecurity",
+        "Binary Instrumentation",
+        "Software Integrity",
+        "Malware Forensics",
+        "Industrial Sabotage"
+      ]
+    }
+  },
+  {
+    "title": "If more than 50% press blue, everyone survives. Red pressers always survive",
+    "link": "https://shankwiler.com/posts/button-survival-hypothetical/",
+    "summary": "<p>Article URL: <a href=\"https://shankwiler.com/posts/button-survival-hypothetical/\">https://shankwiler.com/posts/button-survival-hypothetical/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47912065\">https://news.ycombinator.com/item?id=47912065</a></p>\n<p>Points: 45</p>\n<p># Comments: 219</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-04-26T17:28:58+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* Explores a **game theory** thought experiment involving collective survival thresholds versus individual safety guarantees.\n* Analyzes the mathematical and **logical reasoning** required to navigate a social dilemma where self-interest conflicts with group optimization.\n* Serves as a qualitative benchmark for **Reasoning Models** to test their ability to handle complex conditional logic and ethical trade-offs.\n* Highlights the intersection of **AI alignment** and human behavioral modeling through the lens of a classic coordination problem.",
+      "key_results": [
+        "Individual survival is absolute for 'Red' pressers regardless of group outcome.",
+        "Collective survival of 'Blue' pressers depends entirely on a >50% altruistic threshold.",
+        "The scenario mirrors the 'Prisoner's Dilemma' but with a specific majority-trigger mechanism.",
+        "Logic puzzles like this are increasingly used to evaluate the 'system 2' thinking of LLMs.",
+        "HN community discussion centers on the mathematical probability of survival in non-cooperative games."
+      ],
+      "relevance_score": 3,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Shankwiler presents a survival hypothetical that challenges reasoning models to navigate complex game theory and social coordination logic.",
+      "lead_institution": "Shankwiler.com",
+      "tags": [
+        "Reasoning Models",
+        "Game Theory",
+        "AI Evaluation",
+        "Logic Puzzles",
+        "Social Dilemma"
+      ]
+    }
+  },
+  {
+    "title": "Dillo Browser Release 3.3.0",
+    "link": "https://dillo-browser.org/release/3.3.0/",
+    "summary": "<p>Article URL: <a href=\"https://dillo-browser.org/release/3.3.0/\">https://dillo-browser.org/release/3.3.0/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47911977\">https://news.ycombinator.com/item?id=47911977</a></p>\n<p>Points: 155</p>\n<p># Comments: 24</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-04-26T17:18:14+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- **Dillo 3.3.0** introduces a significant update to the lightweight graphical web browser, focusing on performance for resource-constrained hardware.\n- The release integrates support for **FLTK 1.4**, improving UI stability and cross-platform compatibility for Unix-like environments.\n- Architecture enhancements include refined **CSS rendering** and improved HTML table handling to increase compatibility with modern web standards while maintaining a minimal footprint.",
+      "key_results": [
+        "Full support for FLTK 1.4 UI toolkit.",
+        "Improved CSS selector matching and rendering logic.",
+        "Fixed critical bugs in HTML table layout calculations.",
+        "Enhanced portability for embedded systems and legacy hardware.",
+        "Refined build system for better integration with modern toolchains."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Dillo releases version 3.3.0 as a highly efficient, lightweight browser alternative with improved CSS rendering and toolkit support.",
+      "lead_institution": "Dillo Project",
+      "tags": [
+        "Web Browser",
+        "Lightweight Software",
+        "Open Source",
+        "Embedded Systems",
+        "UI Toolkit"
+      ]
+    }
+  },
+  {
+    "title": "Iran caused more extensive damage to U.S. military bases than publicly known",
+    "link": "https://www.nbcnews.com/world/iran/iran-caused-extensive-damage-us-military-bases-publicly-known-rcna331853",
+    "summary": "<p>Article URL: <a href=\"https://www.nbcnews.com/world/iran/iran-caused-extensive-damage-us-military-bases-publicly-known-rcna331853\">https://www.nbcnews.com/world/iran/iran-caused-extensive-damage-us-military-bases-publicly-known-rcna331853</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47902746\">https://news.ycombinator.com/item?id=47902746</a></p>\n<p>Points: 135</p>\n<p># Comments: 204</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-04-25T16:44:51+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "<br>\u2022 Investigation reveals that **Iranian missile strikes** on U.S. military installations resulted in significantly higher physical destruction than originally stated in official public briefings.<br>\u2022 The report highlights the **tactical precision** of the strikes, suggesting a strategic shift in regional kinetic capabilities that challenged existing air defense protocols.<br>\u2022 Discrepancies in the **damage assessment** are attributed to political optics and the sensitive nature of military readiness reporting during ongoing geopolitical tensions.",
+      "key_results": [
+        "Actual physical damage to hangars and infrastructure was far more severe than initially disclosed.",
+        "The precision of Iranian guidance systems exceeded previous intelligence estimates.",
+        "Internal military reports showed critical vulnerabilities in certain base defense architectures.",
+        "Public messaging by officials downplayed the impact to avoid immediate escalation.",
+        "The event marks a significant evolution in the regional threat model for U.S. personnel."
+      ],
+      "relevance_score": 1,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "NBC News reports that Iranian strikes on U.S. bases caused extensive damage that far exceeded initial public government accounts.",
+      "lead_institution": "NBC News",
+      "tags": [
+        "Geopolitics",
+        "Defense",
+        "Iran",
+        "U.S. Military",
+        "Intelligence"
+      ]
+    }
+  },
+  {
+    "title": "Niri 26.04: Scrollable-tiling Wayland compositor",
+    "link": "https://github.com/niri-wm/niri/releases/tag/v26.04",
+    "summary": "<p>Article URL: <a href=\"https://github.com/niri-wm/niri/releases/tag/v26.04\">https://github.com/niri-wm/niri/releases/tag/v26.04</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47902416\">https://news.ycombinator.com/item?id=47902416</a></p>\n<p>Points: 241</p>\n<p># Comments: 82</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-04-25T15:59:15+00:00",
+    "type": "repo",
+    "display_category": "Top Repo",
+    "processed": {
+      "summary": "\n* Niri is a **scrollable-tiling Wayland compositor** that organizes windows in a horizontal ribbon, diverging from traditional static grid layouts.\n* The v26.04 release focuses on architectural stability and **dynamic window management**, allowing for flexible window widths within a continuous workspace.\n* It leverages **Rust** for safety and performance, targeting advanced Linux users who require high-performance desktop environments.\n* The impact is centered on **developer productivity** and workflow ergonomics by providing a modern alternative to traditional window managers like i3 or Sway.",
+      "key_results": [
+        "Introduction of version 26.04 with enhanced scrollable-tiling logic.",
+        "Improved Wayland protocol compatibility for better application stability.",
+        "Refined input handling and gesture support for workspace navigation.",
+        "Optimized rendering performance for high-refresh-rate displays.",
+        "Expanded configuration options for window decorations and layout behavior."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "niri-wm releases version 26.04 of its scrollable-tiling Wayland compositor to provide a unique, ergonomic horizontal-ribbon window management workflow.",
+      "lead_institution": "niri-wm",
+      "tags": [
+        "Wayland",
+        "Linux Desktop",
+        "Window Manager",
+        "Rust",
+        "Productivity Tools"
+      ]
+    }
+  },
+  {
+    "title": "Only one side will be the true successor to MS-DOS \u2013 Windows 2.x",
+    "link": "https://blisscast.wordpress.com/2026/04/21/windows-2-gui-wonderland-12a/",
+    "summary": "<p>Article URL: <a href=\"https://blisscast.wordpress.com/2026/04/21/windows-2-gui-wonderland-12a/\">https://blisscast.wordpress.com/2026/04/21/windows-2-gui-wonderland-12a/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47900451\">https://news.ycombinator.com/item?id=47900451</a></p>\n<p>Points: 85</p>\n<p># Comments: 72</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-04-25T11:03:15+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* Analyzes the **architectural transition** from the character-based MS-DOS environment to the graphical **Windows 2.x** framework.\n* Details the shift from tiled window management to **overlapping windows**, establishing the standard desktop metaphor still in use today.\n* Evaluates early **memory management** strategies required to maintain backward compatibility with legacy 16-bit software while scaling performance.",
+      "key_results": [
+        "Introduction of overlapping windows as a core GUI primitive.",
+        "Implementation of early inter-process communication via Dynamic Data Exchange (DDE).",
+        "Standardization of keyboard shortcuts that formed the basis of CUA standards.",
+        "Support for early VGA graphics hardware to improve visual fidelity.",
+        "Bridge functionality provided for legacy MS-DOS applications within a graphical shell."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Blisscast examines how Windows 2.x architectural decisions defined the modern graphical user interface and superseded the MS-DOS era.",
+      "lead_institution": "Blisscast",
+      "tags": [
+        "Operating Systems",
+        "GUI History",
+        "Retro Computing",
+        "Software Architecture",
+        "MS-DOS"
+      ]
+    }
+  },
+  {
+    "title": "Turbo Vision 2.0 \u2013 a modern port",
+    "link": "https://github.com/magiblot/tvision",
+    "summary": "<p>Article URL: <a href=\"https://github.com/magiblot/tvision\">https://github.com/magiblot/tvision</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47898597\">https://news.ycombinator.com/item?id=47898597</a></p>\n<p>Points: 201</p>\n<p># Comments: 58</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-04-25T04:18:01+00:00",
+    "type": "repo",
+    "display_category": "Top Repo",
+    "processed": {
+      "summary": "<br>\u2022 Turbo Vision 2.0 is a **modern C++17 port** of the classic Borland Turbo Vision framework, designed to bring 1990s-era **Text-based User Interface (TUI)** development to modern operating systems.<br>\u2022 The architecture replaces legacy DOS-specific assembly and real-mode code with **platform-independent abstractions**, enabling native execution on Linux, Windows, and macOS.<br>\u2022 This port implements modern terminal features like **UTF-8 support**, 24-bit TrueColor, and dynamic window resizing that were technically impossible in the original 1990s implementation.",
+      "key_results": [
+        "Native support for C++17 compilers and modern CMake build systems.",
+        "Implementation of UTF-8 and multi-byte character support for internationalization.",
+        "Integration of 24-bit TrueColor and mouse-scroll wheel event handling.",
+        "Cross-platform compatibility across various terminal emulators (xterm, Windows Console, etc.).",
+        "Maintenance of the original event-driven, object-oriented API for retro-style UI development."
+      ],
+      "relevance_score": 3,
+      "signal_type": "Framework Update",
+      "one_sentence_takeaway": "Magiblot releases a modern C++17 port of Turbo Vision, enabling developers to build retro-inspired terminal interfaces with Unicode support.",
+      "lead_institution": "magiblot",
+      "tags": [
+        "TUI",
+        "C++17",
+        "Vibe Coding",
+        "Terminal UI",
+        "Retro Computing"
+      ]
+    }
+  },
+  {
+    "title": "Rectal cancer deaths rising rapidly among millennials: 'It's a medical crisis.'",
+    "link": "https://www.nbcnews.com/health/health-news/rectal-cancer-rates-deaths-rising-millennials-30s-40s-rcna341389",
+    "summary": "<p>Article URL: <a href=\"https://www.nbcnews.com/health/health-news/rectal-cancer-rates-deaths-rising-millennials-30s-40s-rcna341389\">https://www.nbcnews.com/health/health-news/rectal-cancer-rates-deaths-rising-millennials-30s-40s-rcna341389</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47895160\">https://news.ycombinator.com/item?id=47895160</a></p>\n<p>Points: 33</p>\n<p># Comments: 1</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-04-24T20:08:31+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "<br>\u2022 The report highlights a significant **demographic shift** in rectal cancer mortality, specifically affecting adults in their 30s and 40s.<br>\u2022 Medical experts classify the trend as a **medical crisis** due to the rapid rise in late-stage diagnoses among younger populations.<br>\u2022 The **impact** of these findings suggests a critical need for updated clinical screening guidelines and earlier diagnostic interventions.",
+      "key_results": [
+        "Rectal cancer death rates for millennials are increasing significantly while falling in older adults.",
+        "Younger patients are more likely to be diagnosed with late-stage disease.",
+        "Mortality rates in the 30-44 age bracket have risen consistently since the late 1990s.",
+        "Environmental factors and dietary habits are suspected contributors to the trend.",
+        "Screening ages have been officially lowered to 45 in response to rising incidence."
+      ],
+      "relevance_score": 1,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "NBC News reports that millennial rectal cancer deaths are rising rapidly, signaling an urgent public health and screening crisis.",
+      "lead_institution": "NBC News",
+      "tags": [
+        "Public Health",
+        "Oncology",
+        "Medical Trends",
+        "Healthcare",
+        "Epidemiology"
+      ]
+    }
+  }
+]
