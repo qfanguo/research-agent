@@ -1,5 +1,425 @@
 [
   {
+    "title": "How OpenAI delivers low-latency voice AI at scale",
+    "link": "https://openai.com/index/delivering-low-latency-voice-ai-at-scale",
+    "summary": "How OpenAI rebuilt its WebRTC stack to power real-time Voice AI with low latency, global scale, and seamless conversational turn-taking.",
+    "source": "OpenAI News",
+    "published": "2026-05-04T00:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs",
+    "link": "https://www.anthropic.com/news/enterprise-ai-services-company",
+    "summary": "Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs",
+    "source": "Anthropic News",
+    "published": "2026-05-04T00:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Register now for OpenClaw: After Hours @ GitHub",
+    "link": "https://github.blog/open-source/register-now-for-openclaw-after-hours-github/",
+    "summary": "<p>OpenClaw builders will gather at GitHub HQ during Microsoft Build 2026 for demos and conversations. Join in person, or watch the livestream on Twitch.</p>\n<p>The post <a href=\"https://github.blog/open-source/register-now-for-openclaw-after-hours-github/\">Register now for OpenClaw: After Hours @ GitHub</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
+    "source": "The GitHub Blog",
+    "published": "2026-05-04T15:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "The latest AI news we announced in April 2026",
+    "link": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-april-2026/",
+    "summary": "mp4 featuring an underwater video and a mobile AI video mockup.",
+    "source": "AI",
+    "published": "2026-05-04T17:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Reduce friction and latency for long-running jobs with Webhooks in Gemini API",
+    "link": "https://blog.google/innovation-and-ai/technology/developers-tools/event-driven-webhooks/",
+    "summary": "Gemini API",
+    "source": "AI",
+    "published": "2026-05-04T15:30:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Beyond BI: How the Dataset Q&A feature of Amazon Quick powers the next generation of data decisions",
+    "link": "https://aws.amazon.com/blogs/machine-learning/beyond-bi-how-the-dataset-qa-feature-of-amazon-quick-powers-the-next-generation-of-data-decisions/",
+    "summary": "Business leaders across industries rely on operational dashboards as the shared source of truth that their teams execute against daily. But dashboards are built to answer known questions. When teams need to explore further, ad-hoc, multi-dimensional, or unforeseen questions, they hit a bottleneck. They wait hours or days for BI teams to build new views [\u2026]",
+    "source": "Artificial Intelligence",
+    "published": "2026-05-04T17:46:32+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Introducing the agent quality loop: AgentCore Optimization now in preview",
+    "link": "https://aws.amazon.com/blogs/machine-learning/introducing-the-agent-quality-loop-agentcore-optimization-now-in-preview/",
+    "summary": "Generate recommendations from production traces, validate them with batch evaluation and A/B testing, and ship with confidence. AI agents that perform well at launch don\u2019t stay that way. As models evolve, user behavior shifts, and prompts get reused in new contexts they were never designed for. Agent quality quietly degrades. In most teams, the improvement [\u2026]",
+    "source": "Artificial Intelligence",
+    "published": "2026-05-04T17:13:42+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Agent-guided workflows to accelerate model customization in Amazon SageMaker AI",
+    "link": "https://aws.amazon.com/blogs/machine-learning/agent-guided-workflows-to-accelerate-model-customization-in-amazon-sagemaker-ai/",
+    "summary": "Amazon SageMaker AI now offers an agentic experience that changes this. Developers describe their use case using natural language, and the AI coding agent streamlines the entire journey, from use case definition and data preparation through technique selection, evaluation, and deployment. In this post, we walk you through the model customization lifecycle using SageMaker AI agent skills.",
+    "source": "Artificial Intelligence",
+    "published": "2026-05-04T17:10:46+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Generate dashboards from natural language prompts in Amazon Quick",
+    "link": "https://aws.amazon.com/blogs/machine-learning/generate-dashboards-from-natural-language-prompts-in-amazon-quick/",
+    "summary": "Building meaningful dashboards demands hours of manual setup, even for experienced BI professionals.&nbsp;Amazon Quick now generates complete multi-sheet dashboards from natural language prompts, taking you from one or more datasets to a production-ready analysis in minutes. Data analysts building recurring operations reports, program managers preparing a leadership review, or engineers exploring a new dataset can [\u2026]",
+    "source": "Artificial Intelligence",
+    "published": "2026-05-04T16:51:37+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "From data lake to AI-ready analytics: Introducing new data source with S3 Tables in Amazon Quick",
+    "link": "https://aws.amazon.com/blogs/machine-learning/from-data-lake-to-ai-ready-analytics-introducing-direct-query-with-s3-tables-in-amazon-quick/",
+    "summary": "Amazon Quick introduces Amazon S3 Tables (Apache Iceberg tables) as a new data source. With this feature, customers can directly query and visualize Apache Iceberg tables stored in an Amazon S3 table bucket without the need for intermediate data layers. In this post, we explored how Amazon Quick\u2019s new Amazon S3 Tables data source enables near real-time analytics while streamlining modern data architectures.",
+    "source": "Artificial Intelligence",
+    "published": "2026-05-04T16:12:37+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Introducing Dataset Q&A: Expanding natural language querying for structured datasets in Amazon Quick",
+    "link": "https://aws.amazon.com/blogs/machine-learning/introducing-dataset-qa-expanding-natural-language-querying-for-structured-datasets-in-amazon-quick/",
+    "summary": "In this post, you learn how to get started with Dataset Q&amp;A, explore real-world use cases with hands-on examples, and discover advanced capabilities like auto-discovery across all your data assets and multi-dataset querying in a single conversation.",
+    "source": "Artificial Intelligence",
+    "published": "2026-05-04T16:08:12+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Capacity-aware inference: Automatic instance fallback for SageMaker AI endpoints",
+    "link": "https://aws.amazon.com/blogs/machine-learning/capacity-aware-inference-automatic-instance-fallback-for-sagemaker-ai-endpoints/",
+    "summary": "Today, Amazon SageMaker AI introduces capacity aware instance pool for new and existing inference endpoints. You define a prioritized list of instance types, and SageMaker AI automatically works through your list whenever capacity is constrained at creation, during scale-out, and during scale-in. Your endpoint provisions on available AI Infrastructure without manual intervention. This capability is available for Single Model Endpoints, Inference Component-based endpoints, and Asynchronous Inference&nbsp;endpoints.",
+    "source": "Artificial Intelligence",
+    "published": "2026-05-04T16:05:02+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "PORTool: Importance-Aware Policy Optimization with Rewarded Tree for Multi-Tool-Integrated Reasoning",
+    "link": "https://machinelearning.apple.com/research/portool-policy-optimization",
+    "summary": "Multi-tool-integrated reasoning enables LLM-empowered tool-use agents to solve complex tasks by interleaving natural-language reasoning with calls to external tools. However, training such agents using outcome-only rewards suffers from credit-assignment ambiguity, obscuring which intermediate steps (or tool-use decisions) lead to success or failure. In this paper, we propose PORTool, an importance-aware policy-optimization algorithm that reinforces agents\u2019 tool-use competence from outcome-level supervision while assigning reward at the step level. Specifically, PORTool generates a rewarded\u2026",
+    "source": "Apple Machine Learning Research",
+    "published": "2026-05-04T00:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Democratizing Machine Learning at Netflix: Building the Model Lifecycle Graph",
+    "link": "https://netflixtechblog.com/democratizing-machine-learning-at-netflix-building-the-model-lifecycle-graph-5cc6d5828bb1?source=rss----2615bd06b42e---4",
+    "summary": "<p><a href=\"https://www.linkedin.com/in/saishsali/\">Saish Sali</a>, <a href=\"https://www.linkedin.com/in/nipunk/\">Nipun Kumar</a>, <a href=\"https://www.linkedin.com/in/suraelamurugu/\">Sura Elamurugu</a></p><h3>Introduction</h3><p>As Netflix has grown, machine learning continues to support our ability to deliver value to members and drive excellence across multiple areas of our business. When Netflix began investing in machine learning over a decade ago, it was primarily focused on a single domain: personalization. Scala was the industry standard, our ML teams were relatively small, and optimizing member engagement was our primary use case. Fast forward to today, and machine learning has become the backbone of Netflix\u2019s business transformation. We now apply ML across various business domains, including:</p><ul><li><strong>Personalization</strong>: Optimizing engagement and helping members discover content they\u2019ll\u00a0love</li><li><strong>Studio</strong>: Pre and post-production workflows</li><li><strong>Payments</strong><em>: </em>Fraud detection, payment routing, and recurring billing optimization</li><li><strong>Ads</strong>: Our newest domain, requiring real-time decisioning and targeting</li></ul><p>\u2026 and a growing number of additional use cases across the\u00a0company</p><p>Each domain operates with a different tech stack, different business metrics, and a distinct organizational structure. While this diversity is a testament to how machine learning has evolved to drive value across many verticals at Netflix, this growth introduces a new challenge: <strong>enabling cross-pollination of models and data across\u00a0domains.</strong></p><h3>The Challenge: A Fragmented ML Landscape</h3><p>As our ML investments scaled across these domains, a critical problem emerged: the models produced largely became black boxes. Without any discovery infrastructure, ML practitioners couldn\u2019t easily collaborate or share work across business verticals.</p><p>Consider a concrete example: <a href=\"https://netflixtechblog.com/mediafm-the-multimodal-ai-foundation-for-media-understanding-at-netflix-e8c28df82e2d\">content embeddings</a>. Our Studio teams create sophisticated embeddings that identify scene boundaries, detect visual transitions, and understand content structure. These embeddings were originally built for production workflows.</p><p>But those same embeddings could be incredibly valuable elsewhere. Ads could hypothetically use content embeddings for context matching (ensuring advertisements align with the tone and content of what\u2019s currently playing). Personalization could leverage them for episodic merchandising and recommendations (matching the topic or mood of an episode with a user\u2019s preferred viewing preferences). Yet making this cross-pollination happen is extraordinarily difficult.</p><p>Why? Our ML tools exist in silos, each with its own backend services and user interface. The model registry is unaware of which A/B tests were using its models, and the pipeline orchestrator is unaware of downstream model dependencies. ML practitioners have to traverse multiple systems to answer basic questions about their work. Finding a model requires opening the model registry, understanding its lineage means switching to the pipeline orchestrator, and tracking which A/B tests use that model requires navigating to the experimentation platform. This fragmentation prevents practitioners from answering critical questions:</p><ul><li><strong>Discovery: </strong>What features exist? What data sources are available for generating features for a\u00a0model?</li><li><strong>Lineage:</strong> Which pipeline is generating data for a specific model? What data sources feed those features?</li><li><strong>Impact:</strong> Which A/B tests are running this model? Which models will break if I change this feature? Who owns each piece of this\u00a0chain?</li></ul><h3>The Hard Problem: Connecting everything</h3><p>The real challenge wasn\u2019t just building a consolidated UI. We needed to connect the different pieces of infrastructure our ML practitioners were using to perform different parts of the ML lifecycle.</p><p>Our ML ecosystem generates metadata from dozens of\u00a0sources:</p><ul><li>Pipeline orchestration systems emit execution details, stage dependencies, and data transformations</li><li>Deployed model registry tracks model versions, artifacts, staleness, and deployment history</li><li>Experimentation platform manages A/B tests and their configurations</li><li>Feature store catalog feature definitions and\u00a0usage</li><li>AI Dataset platform tracks the creation, management, discovery, and loading of datasets.</li><li>Identity platform maintains user, team, and organization metadata</li></ul><p>Each system employs different formats, identifiers, and mental models. The hard technical problem we had to solve was: <strong>How do we collect this heterogeneous metadata, transform it into a unified entity model, and build a connected graph that enables true exploration and collaboration across business\u00a0domains?</strong></p><h4>The Solution: Metadata Service and the Model Lifecycle Graph</h4><p>Our answer was the Metadata Service (MDS), which builds a Model Lifecycle Graph that indexes and connects ML-related entities across Netflix. MDS is optimized for real-time ingestion of ML metadata (e.g., models, features, pipelines, experiments, datasets) and to answer cross-domain questions such as \u201cWhich experiments are running this model?\u201d or \u201cWhich models share these features?\u201d It is the foundation that enables discovery, ingesting events from diverse sources, enriching them with context, and materializing relationships across entities.</p><p>Our vision: to make every ML asset at Netflix discoverable, understandable, and reusable by every ML practitioner, regardless of their team or\u00a0domain.</p><h3>Core Abstractions: The Vocabulary of the\u00a0System</h3><p>Before diving into the technical implementation, it\u2019s helpful to understand the conceptual model that underpins MDS. This vocabulary enables consistent communication across teams and\u00a0systems:</p><p><strong>Component:</strong> Any object that is uniquely addressable using an AI Platform\u2019s (AIP) Uniform Resource Identifier (URI). An AIP URI follows the formataip://&lt;componentType&gt;/&lt;platformId&gt;/&lt;resourceId&gt;, ensuring global uniqueness. For\u00a0example:</p><ul><li>Models: aip://model/registry/ranking-v5</li><li>Users: aip://user/identity/alice</li><li>Pipelines: aip://pipeline/orchestrator/weekly-training</li></ul><p><strong>Entity:</strong> A component within the ML ecosystem, characterized by additional properties such as name, description, creation date, and owners. Entities represent ML-specific assets, such as models, features, and pipelines.</p><p><strong>Entity Type:</strong> A group of entities that share the same data shape. A data shape is a set of property constraints that specify the attributes and relationships an entity must\u00a0have.</p><p><strong>Domain:</strong> A functional grouping of related entity types that defines the abstract interface for a category of ML assets. For example, the Models domain defines what a Model and Model Instance look like, while the Pipelines domain defines Schedules, Requests, and Executions.</p><p><strong>Provider:</strong> A concrete implementation of a domain, backed by a specific source system. For example, the Models domain is currently backed by our internal model registry. This separation allows MDS to support multiple providers for the same domain. If a new model registry were introduced, it could be added as an additional provider without changing the domain interface.</p><p>We can summarize these concepts with a concrete\u00a0example:</p><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*RQuXyzwooTZcUZ5rCejOug.png\" /></figure><p>This URI-based addressing scheme is crucial as it allows any service to reference any ML asset with a single string, and MDS can resolve that reference back to rich, connected metadata.</p><h3><strong>From Events to Entities to\u00a0Graph</strong></h3><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*dXe2XJMjTpZ6o5wwvVxGUA.png\" /></figure><p>The journey from raw system events to a queryable graph happens in stages. Let\u2019s walk through each with a concrete example: connecting a model to its A/B tests through relationship inference.</p><h4>1 Event Ingestion</h4><p>MDS integrates with various source systems via Kafka and AWS SNS/SQS, consuming events in real-time. Source systems emit thin events that include an identifier and an event\u00a0type.</p><p>Example event:</p><pre>{<br />  &quot;event_type&quot;: &quot;model_instance_created&quot;,<br />  &quot;instance_id&quot;: &quot;ranking-model-v5-20XX0101&quot;,<br />  ...<br />}</pre><p>This design keeps producers simple. Source systems only need to announce that a change occurred, without building complete payloads or understanding downstream requirements.</p><p>Each source system has dedicated event handlers in\u00a0MDS:</p><ul><li><strong>Pipeline Orchestration</strong>: Ingests pipeline execution events, including node definitions, schedules, requests, and job\u00a0attempts</li><li><strong>Model Registry</strong>: Captures model deployments, configurations, and version\u00a0updates</li><li><strong>Feature Store</strong>: Tracks feature definitions and their\u00a0versions</li><li><strong>Experimentation Platform</strong>: Monitors A/B test configurations and allocations</li><li><strong>Datasets:</strong> Tracks ML datasets and their\u00a0versions</li><li><strong>Identity Platform</strong>: Maintains ownership and team membership information</li></ul><h4>2 Entity Enrichment</h4><p>MDS implements a hydration contract for each event type. When an event arrives,\u00a0MDS:</p><ol><li>Validates the event\u00a0schema</li><li>Calls the source system\u2019s API to fetch the complete, current\u00a0state</li><li>Transforms the response into a normalized entity</li></ol><p>This design has a crucial property: the order of events doesn\u2019t matter. MDS always fetches the latest facts from the source of truth. This pattern decouples the event stream from state consistency. If the event bus drops a message or delivers it out of order, the next event corrects the state. The event stream becomes a notification of change rather than a log of\u00a0changes.</p><p>This notification of change pattern has a few important tradeoffs. On the plus side, it keeps producers simple, makes us robust to out-of-order or dropped events, and ensures that MDS can always reconcile to the latest state by reading from the source of truth. The tradeoff is that we place additional read load on source systems during hydration and need to be deliberate about rate limiting, caching, and backoff in our enrichment workers so that we don\u2019t overload\u00a0them.</p><p>For our ranking model example, when the model_instance_created event arrives, MDS calls the Model Registry API: GET /api/v1/instances/ranking-model-v5-20XX0101</p><p>The registry responds with a full descriptor. Example response (key fields\u00a0only):</p><pre>{<br />  &quot;id&quot;: &quot;ranking-model-v5-20XX0101&quot;,<br />  &quot;pipeline_run_id&quot;: &quot;train-weekly-ranking-20XX0101&quot;,<br />  &quot;owner_emails&quot;: [&quot;alice@netflix.com&quot;],<br />  &quot;labels&quot;: [{&quot;key&quot;: &quot;team&quot;, &quot;value&quot;: &quot;personalization&quot;}],<br />  ...<br />}</pre><h4>3 Data Transformation and Normalization</h4><p>Raw events are heterogeneous and each source system has its own schema and semantics. MDS workers transform these events into a unified entity model with standardized fields.</p><p>Without normalization, downstream consumers would need to understand every source system\u2019s schema. Normalization creates a consistent interface, allowing queries and relationships to work across all entity types. Here is an\u00a0example.</p><p>Normalized MDS\u00a0entity:</p><pre>{<br />  &quot;id&quot;: &quot;aip://model/registry/ranking-model-v5-20XX0101&quot;,<br />  &quot;pipeline_run&quot;: &quot;aip://pipeline-run/orchestrator/train-weekly-ranking-20XX0101&quot;,<br />  &quot;entity_type&quot;: &quot;ModelInstance&quot;,<br />  &quot;owners&quot;: [&quot;aip://user/identity/alice&quot;],<br />  &quot;tags&quot;: [{&quot;tag&quot;: &quot;team&quot;, &quot;value&quot;: &quot;personalization&quot;}],<br />  ...<br />}</pre><p>The normalization process standardizes field names and formats. For example, platform-specific IDs become global AIP URIs, owner_emails becomes owners with resolved user URIs, and labels become tags. Foreign keys like pipeline_run_id are transformed into entity references. However, there\u2019s still no reference to which A/B tests are using this model. The Model Registry doesn\u2019t track experiments, and the Experimentation Platform doesn\u2019t track which pipeline produced a given model. This is where knowledge enrichment becomes critical.</p><h4>4 Storage and\u00a0Indexing</h4><p>Once normalized, entities are persisted to Datomic and immediately indexed in Elasticsearch. This happens synchronously within the event processing flow.</p><p><strong>Datomic for Caching and Relationships</strong><br />Normalized entities are first written to Datomic, which serves as both a local cache and a graph database.</p><p>Why Datomic? Datomic serves as both the system of record for MDS and the working dataset for enrichment processes. Its immutable fact model means we can continuously add relationships without losing the original entity\u00a0state.</p><p><strong>What we\u00a0store:</strong></p><ul><li>All entity attributes as\u00a0facts</li><li>Entity references (foreign keys that may point to entities not yet fully resolved)</li><li>All relationships as reified edges (added by enrichment processes)</li><li>Entity lifecycle state (tracking which entities are fully enriched vs awaiting hydration)</li></ul><p><strong>This enables:</strong></p><ul><li><strong>Complex graph traversals:</strong> Navigate from a model to its features to their data sources in a single\u00a0query</li><li><strong>Entity relationships:</strong> Join across multiple domains without N+1 query\u00a0problems</li><li><strong>Flexible schema evolution:</strong> Easy to add new entity types and attributes as the catalog\u00a0grows</li><li><strong>Progressive enrichment</strong>: Background jobs efficiently identify and process entities requiring additional hydration, enabling gradual graph completion without reprocessing fully enriched\u00a0entities</li></ul><p>In practice, we use Datomic for relationship-heavy, navigational queries such\u00a0as:</p><ul><li>Starting from this model instance, show me all upstream datasets and downstream experiments.</li><li>Given this feature, list all consuming models and their owning\u00a0teams.</li></ul><p>These queries often span multiple hops in the graph and benefit from Datomic\u2019s immutable fact model and efficient joins across entity relationships.</p><p><strong>Elasticsearch for Discovery</strong><br />Immediately after writing to Datomic, entities are indexed in Elasticsearch to power fast, full-text search across the\u00a0catalog.</p><p><strong>What we\u00a0index:</strong></p><ul><li>Primary fields: Entity name, description, entity type, owner\u00a0names</li><li>Relationship metadata: Names of related entities (e.g., a model\u2019s features, pipelines, A/B tests) stored in the related\u00a0field</li><li>Tags: Domain-specific metadata stored as key-value pairs (e.g., <em>team::personalization, env::production, model.state::released</em>)</li></ul><p><strong>Index structure:</strong></p><ul><li>Single entities index: All entity types (models, features, pipelines, etc.) are indexed in one unified index, differentiated by the entityType field</li><li>Separate owners index: Dedicated index for users and groups to enable cross-entity owner\u00a0searches</li><li>Relevance boosting: Exact name matches score higher than other relevant\u00a0matches</li></ul><p><strong>This enables:</strong></p><ul><li>Multi-field text search across entity names, descriptions, tags, and related\u00a0metadata</li><li>Relevance ranking with boosting (exact name matches score significantly higher)</li><li>Complex filtering by entity type, ownership, tags, and domain-specific attributes (stored as\u00a0tags)</li><li>Fuzzy matching to handle typos and partial\u00a0queries</li></ul><p>Elasticsearch powers the entry point into the system: users typically start with a free-text search in the AIP Portal (for a model name, a team, or a domain term), and then switch to graph navigation once they land on an entity page. Indexing happens in near real-time as part of the ingestion and enrichment workflows, so changes are usually visible in the Portal with a short delay that is acceptable for interactive use.</p><h4>5 Knowledge Enrichment and Graph Formation</h4><p>Once entity metadata is persisted in Datomic, scheduled background processes take over to discover and materialize relationships. These enrichment jobs run periodically, scanning for uncached or partially resolved entities (entities that exist only as references without full metadata).</p><p>The enrichment workflow:</p><ul><li><strong>Identify candidates:</strong> Find entities marked as uncached or with unresolved references</li><li><strong>Hydrate relationships:</strong> Query source-of-truth systems to fetch related entity\u00a0details</li><li><strong>Materialize edges:</strong> Write discovered relationships back to\u00a0Datomic</li><li><strong>Re-index:</strong> Trigger Elasticsearch indexing for updated\u00a0entities</li><li><strong>Mark as enriched:</strong> Update entity status to prevent redundant processing</li></ul><p>This asynchronous approach allows MDS to handle the computational cost of graph formation without blocking real-time event ingestion. It also enables retry logic and gradual enrichment as new entities become available.</p><p>Because enrichment is asynchronous, newly discovered relationships may appear with a short delay after the underlying entities are created (typically minutes rather than seconds). We track when each entity was last enriched and surface this timestamp in the AIP Portal, so practitioners can reason about staleness and know when it\u2019s safe to rely on a particular relationship for debugging or impact analysis.</p><p><strong>Why enrich?</strong> Source systems are purpose-built and don\u2019t know about entities in other domains. Enrichment discovers and materializes cross-system relationships that enable powerful lineage and impact\u00a0queries.</p><h4>Example: Connecting Models to A/B\u00a0Tests</h4><p>When MDS processes a new model instance, background enrichment jobs discover relationships through multi-hop inference:</p><p><strong>Step 1: Direct link to\u00a0pipeline</strong></p><p>The model references a pipeline_run_id. An enrichment job hydrates the pipeline and discovers its A/B test associations: GET /api/v1/pipeline-runs/train-weekly-ranking-20XX0101</p><p>Response:</p><pre>{<br />&quot;run_id&quot;: &quot;train-weekly-ranking-20XX0101&quot;, &quot;pipeline&quot;:  &quot;weekly-ranking-trainer&quot;,<br />&quot;ab_test_cells&quot;: [<br />   {&quot;test_id&quot;: &quot;12345&quot;,&quot;cell_number&quot;: 2,&quot;cell_name&quot;: &quot;treatment_ranking_v5&quot;}<br /> ]<br /> ...<br />}</pre><p><strong>Step 2: Discover A/B test context</strong><br />The enrichment job discovers the pipeline ran for A/B test cell #2 and queries the Experimentation Platform for test details: GET /api/v1/tests/12345</p><pre>{<br /> &quot;test_id&quot;: &quot;12345&quot;,<br /> &quot;name&quot;: &quot;Ranking Model v5 vs v4&quot;,<br /> &quot;status&quot;: &quot;ACTIVE&quot;,<br /> &quot;cells&quot;: [{&quot;cell_number&quot;: 1, &quot;name&quot;: &quot;control_ranking_v4&quot;}],<br /> ...<br />}</pre><p><strong>Step 3: Infer transitive relationships</strong><br />The enrichment job now has the complete\u00a0chain:</p><ul><li>Model Instance was produced by Pipeline\u00a0Run</li><li>Pipeline Run was executed for A/B Test Cell\u00a0#2</li><li>The A/B Test Cell #2 belongs to A/B Test \u201cRanking Model v5 vs\u00a0v4\u201d</li><li>Model Instance now gets associated with this A/B\u00a0Test</li></ul><p>The job writes the inferred relationship back to Datomic and triggers re-indexing, and materializes these edges in the graph. MDS doesn\u2019t just store what it\u2019s told; it derives new knowledge by <em>walking</em> the graph in the background.</p><p><strong>Why this matters:</strong> Without MDS, answering \u201cWhich A/B tests are using this model?\u201d requires:</p><ol><li>Looking up the model in the Model\u00a0Registry</li><li>Finding which pipeline produced\u00a0it</li><li>Checking the Pipeline Orchestrator for A/B test\u00a0tags</li><li>Querying the Experimentation Platform for test\u00a0details</li></ol><p>With the model lifecycle graph, it\u2019s a single\u00a0query:</p><pre>query {<br />  model(id: &quot;aip://model/registry/ranking-model-v5-20XX0101&quot;) {<br />    name<br />    owners { name }<br />    currentInstance {<br />      version<br />      pipeline {<br />        name<br />        owners { name }<br />      }<br />      features {<br />        edges {<br />          node {<br />            name<br />            data { edges { node { name } } }<br />          }<br />        }<br />      }<br />      associatedAbTests {<br />        name<br />        cells { number name }<br />      }<br />    }<br />  }<br />}</pre><p>The reverse query also works: \u201cWhat models are being tested in experiment 12345?\u201d</p><h3>Enabling Exploration, Not Just\u00a0Search</h3><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/682/1*j8moOl19CHOfIDRvfnPk5A.png\" /></figure><p>With the Model Lifecycle Graph in place, we shift from entity search to entity exploration. Discovery isn\u2019t just about finding a model; It\u2019s about traversing relationships:</p><ul><li>Start with a model, explore its\u00a0features</li><li>From features, navigate to the core data driving\u00a0them</li><li>From the data, trace back to the pipelines generating it</li><li>From pipelines, see which teams own and depend on\u00a0them</li><li>From experiments, understand which models are being\u00a0tested</li></ul><p>For example, imagine an engineer investigating a degraded engagement metric for a personalization model. They\u00a0might:</p><ol><li>Start with the model instance powering the affected recommendations in the AIP\u00a0Portal.</li><li>Inspect the model\u2019s features and follow a suspicious feature to its upstream\u00a0dataset.</li><li>From the dataset page, see that its pipeline recently had failed runs and identify the owning\u00a0team.</li><li>Confirm which A/B tests are currently running this model instance to understand which members and surfaces are impacted.</li></ol><p>Before MDS and the Model Lifecycle Graph, this required manual checks across multiple tools (model registry, pipeline orchestrator, experiment platform). Now it\u2019s a contiguous journey in a single interface.</p><p>This graph-based exploration answers questions that were previously impossible:</p><ul><li>Lineage queries: What is the complete lineage of this model, from training data to production experiments?</li><li>Impact analysis: Which models will be affected if I change this\u00a0feature?</li><li>Usage discovery: Which A/B tests are using this\u00a0model?</li><li>Dependency mapping: What data sources does my pipeline transitively depend\u00a0on?</li><li>Deprecation planning: Which entities are no longer being used and can be\u00a0retired?</li></ul><p>Every entity has deep context: its creation time, ownership, update history, and most importantly, its relationships to other entities.</p><p>The Model Lifecycle Graph is surfaced to practitioners through the AIP Portal, a unified interface that provides full-text search across all entity types, detailed entity pages with navigable relationships, and personalized views for teams and individuals.</p><p>A typical interaction in the AIP Portal looks\u00a0like:</p><ul><li><strong>Search:</strong> Type a model, feature, dataset, or team name into the single search box backed by Elasticsearch.</li><li><strong>Inspect:</strong> Land on an entity page that shows key metadata (description, owners, domains, tags) alongside a relationships panel.</li><li><strong>Explore:</strong> Click through to related entities (upstream datasets, downstream experiments, and sibling model versions) to navigate the Model Lifecycle Graph without leaving the\u00a0portal.</li></ul><p>When new entity types are introduced into MDS, the portal automatically provides baseline search, entity pages, and relationship navigation, and we can then layer on domain-specific visualizations (such as model deployment history or dataset version timelines) over\u00a0time.</p><h3>The Road Ahead: Open Challenges</h3><p>Building the ML lifecycle graph is an ongoing journey. Significant challenges remain, and these represent the future opportunities for\u00a0us:</p><ul><li><strong>Tool Proliferation:</strong> As new ML tools emerge, we need robust integration patterns that scale. How do we design plugin architectures that make adding new sources seamless? If we don\u2019t keep up with new tools, practitioners will be forced back into fragmented views, and the Model Lifecycle Graph will lose coverage and\u00a0trust.</li><li><strong>Domain-Specific Visualizations:</strong> Different entity types require distinct visualization experiences. Model pages should display deployment history, A/B test associations, and performance metrics. Feature pages should highlight data lineage and consuming models. Pipeline pages must show execution history, dependencies, and schedules. Dataset pages require versioning timelines and downstream consumers. How do we design a flexible UI framework that allows each entity type to have its own tailored experience while maintaining consistent navigation and interaction patterns across the portal? Without rich, domain-specific experiences, the portal risks becoming a generic catalog rather than a tool that ML practitioners rely on in their daily workflows.</li><li><strong>Metadata Quality:</strong> Today, MDS ensures data consistency through source-of-truth hydration and schema validation at ingestion. Background enrichment jobs continuously infer relationships and materialize entities from source systems. However, challenges remain in ensuring completeness and timeliness at scale. When source systems fail to emit events, when ownership information becomes stale, or when entities lack descriptions and contextual metadata, the graph\u2019s utility degrades. How do we build automated validation and enrichment systems to detect metadata anomalies, suggest missing relationships, and maintain quality benchmarks across millions of entities? Poor or stale metadata erodes practitioner trust: if the graph is incomplete or incorrect, teams will revert to ad hoc knowledge and one-off integrations rather than using MDS as their source of\u00a0truth.</li><li><strong>Advanced Relationship Inference:</strong> Beyond explicit relationships declared in source systems, how do we infer implicit connections? Can we detect that two models serve similar purposes based on shared features? Can we recommend features based on usage patterns from similar pipelines? We are in the early stages of exploring these ideas. Done well, they would turn MDS from a passive catalog into an active recommendation engine for ML assets, accelerating reuse and reducing duplicate work across\u00a0domains.</li></ul><h3>Acknowledgments</h3><p>This work represents the collective effort of stunning colleagues across the AI Platform organization: <a href=\"https://www.linkedin.com/in/emma-carney-6a700b17a/\">Emma Carney</a>, <a href=\"https://www.linkedin.com/in/megan-ren-7b78a81a8/\">Megan Ren</a>, <a href=\"https://www.linkedin.com/in/nadeem-ahmad-80000983/\">Nadeem Ahmad</a>, <a href=\"https://www.linkedin.com/in/poleniuk/\">Pat Olenik</a>, <a href=\"https://www.linkedin.com/in/prateekagarwal17/\">Prateek Agarwal</a>, <a href=\"https://www.linkedin.com/in/tikhakobyan/\">Tigran Hakobyan</a>, <a href=\"https://www.linkedin.com/in/yinglao-liu-6b48b6126/\">Yinglao\u00a0Liu</a></p><img alt=\"\" height=\"1\" src=\"https://medium.com/_/stat?event=post.clientViewed&amp;referrerSource=full_rss&amp;postId=5cc6d5828bb1\" width=\"1\" /><hr /><p><a href=\"https://netflixtechblog.com/democratizing-machine-learning-at-netflix-building-the-model-lifecycle-graph-5cc6d5828bb1\">Democratizing Machine Learning at Netflix: Building the Model Lifecycle Graph</a> was originally published in <a href=\"https://netflixtechblog.com\">Netflix TechBlog</a> on Medium, where people are continuing the conversation by highlighting and responding to this story.</p>",
+    "source": "Netflix TechBlog - Medium",
+    "published": "2026-05-04T16:01:02+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Canadian election databases use \"canary traps\"\u2013and they work",
+    "link": "https://arstechnica.com/tech-policy/2026/05/in-canada-a-canary-trap-springs-shut-and-ids-election-database-leak/",
+    "summary": "<p>Article URL: <a href=\"https://arstechnica.com/tech-policy/2026/05/in-canada-a-canary-trap-springs-shut-and-ids-election-database-leak/\">https://arstechnica.com/tech-policy/2026/05/in-canada-a-canary-trap-springs-shut-and-ids-election-database-leak/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48015226\">https://news.ycombinator.com/item?id=48015226</a></p>\n<p>Points: 32</p>\n<p># Comments: 4</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-05-04T21:26:35+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "White House Considers Vetting A.I. Models Before They Are Released",
+    "link": "https://www.nytimes.com/2026/05/04/technology/trump-ai-models.html",
+    "summary": "<p>Article URL: <a href=\"https://www.nytimes.com/2026/05/04/technology/trump-ai-models.html\">https://www.nytimes.com/2026/05/04/technology/trump-ai-models.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48013608\">https://news.ycombinator.com/item?id=48013608</a></p>\n<p>Points: 82</p>\n<p># Comments: 90</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-05-04T19:18:22+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "The Visible Zorker: Zork 3",
+    "link": "https://eblong.com/infocom/visi/zork3/",
+    "summary": "<p>Article URL: <a href=\"https://eblong.com/infocom/visi/zork3/\">https://eblong.com/infocom/visi/zork3/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48011440\">https://news.ycombinator.com/item?id=48011440</a></p>\n<p>Points: 52</p>\n<p># Comments: 3</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-05-04T16:59:28+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Homebridge 2.0 is here, and it speaks Matter",
+    "link": "https://www.theverge.com/tech/922877/homebridge-2-0-matter-update-robot-vacuums",
+    "summary": "<p>Article URL: <a href=\"https://www.theverge.com/tech/922877/homebridge-2-0-matter-update-robot-vacuums\">https://www.theverge.com/tech/922877/homebridge-2-0-matter-update-robot-vacuums</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48010597\">https://news.ycombinator.com/item?id=48010597</a></p>\n<p>Points: 46</p>\n<p># Comments: 7</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-05-04T16:12:25+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "How Monero\u2019s proof of work works",
+    "link": "https://blog.alcazarsec.com/tech/posts/how-moneros-proof-of-work-works",
+    "summary": "<p>Article URL: <a href=\"https://blog.alcazarsec.com/tech/posts/how-moneros-proof-of-work-works\">https://blog.alcazarsec.com/tech/posts/how-moneros-proof-of-work-works</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48009020\">https://news.ycombinator.com/item?id=48009020</a></p>\n<p>Points: 237</p>\n<p># Comments: 181</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-05-04T14:10:50+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "PyInfra 3.8.0",
+    "link": "https://github.com/pyinfra-dev/pyinfra/releases/tag/v3.8.0",
+    "summary": "<p>Article URL: <a href=\"https://github.com/pyinfra-dev/pyinfra/releases/tag/v3.8.0\">https://github.com/pyinfra-dev/pyinfra/releases/tag/v3.8.0</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48008083\">https://news.ycombinator.com/item?id=48008083</a></p>\n<p>Points: 220</p>\n<p># Comments: 82</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-05-04T12:53:46+00:00",
+    "type": "repo",
+    "display_category": "Top Repo",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "GameStop makes $55.5B takeover offer for eBay",
+    "link": "https://www.bbc.co.uk/news/articles/cn0p8yled1do",
+    "summary": "<p>Article URL: <a href=\"https://www.bbc.co.uk/news/articles/cn0p8yled1do\">https://www.bbc.co.uk/news/articles/cn0p8yled1do</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48006402\">https://news.ycombinator.com/item?id=48006402</a></p>\n<p>Points: 640</p>\n<p># Comments: 606</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-05-04T09:31:12+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Over 8M Thermos jars and bottles recalled after 3 people lost vision",
+    "link": "https://www.goodmorningamerica.com/living/story/8-million-thermos-jars-bottles-recalled-after-3-132568152",
+    "summary": "<p>Article URL: <a href=\"https://www.goodmorningamerica.com/living/story/8-million-thermos-jars-bottles-recalled-after-3-132568152\">https://www.goodmorningamerica.com/living/story/8-million-thermos-jars-bottles-recalled-after-3-132568152</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48006123\">https://news.ycombinator.com/item?id=48006123</a></p>\n<p>Points: 110</p>\n<p># Comments: 105</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-05-04T08:40:41+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Every American interacting with chatbot would need to upload a government ID",
+    "link": "https://reclaimthenet.org/senate-panel-backs-guard-act-ai-age-verification-bill",
+    "summary": "<p>Article URL: <a href=\"https://reclaimthenet.org/senate-panel-backs-guard-act-ai-age-verification-bill\">https://reclaimthenet.org/senate-panel-backs-guard-act-ai-age-verification-bill</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48002681\">https://news.ycombinator.com/item?id=48002681</a></p>\n<p>Points: 39</p>\n<p># Comments: 7</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-05-03T23:22:11+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "DeepClaude \u2013 Claude Code agent loop with DeepSeek V4 Pro",
+    "link": "https://github.com/aattaran/deepclaude",
+    "summary": "<p>Article URL: <a href=\"https://github.com/aattaran/deepclaude\">https://github.com/aattaran/deepclaude</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48002136\">https://news.ycombinator.com/item?id=48002136</a></p>\n<p>Points: 650</p>\n<p># Comments: 274</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-05-03T22:13:20+00:00",
+    "type": "repo",
+    "display_category": "Top Repo",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "How Kepler built verifiable AI for financial services with Claude",
+    "link": "https://claude.com/blog/how-kepler-built-verifiable-ai-for-financial-services-with-claude",
+    "summary": "<p>Article URL: <a href=\"https://claude.com/blog/how-kepler-built-verifiable-ai-for-financial-services-with-claude\">https://claude.com/blog/how-kepler-built-verifiable-ai-for-financial-services-with-claude</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47999754\">https://news.ycombinator.com/item?id=47999754</a></p>\n<p>Points: 43</p>\n<p># Comments: 23</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-05-03T18:14:56+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Show HN: Ableton Live MCP",
+    "link": "https://github.com/bschoepke/ableton-live-mcp",
+    "summary": "<p>Ever wanted to control Ableton with just your voice? Me too! I made this MCP server so I could just ask Codex to do anything in Ableton Live for me, while I was nap-trapped by my baby.<p>The chat messages I sent to Codex to make this:<p><i>in ableton, make a self reflective song, with audio vocals (via macos say) and chip tunes and 80's drum machines. should be a real edm banger<p>i want midi for everything but vocals please, with ableton devices. not prerendered audio for instruments<p>needs some fills<p>and should hit way harder after \"3-2-1 i become the sound\"<p>the vocals are squished too much (read too quickly), give them a little more length<p>add some dynamics, the song is basically one volume. and some pumping side chain<p>improve dynamics of the clap, seems a bit flat and indistinguished, want it harder after the 3-2-1 drop<p>introduce a new element on a new track after the 3-2-1 drop, that comes in but then recedes before the final exit<p>doesn't seem like the new thing has any notes<p>the element is a bit muddy/indistinct. perhaps it needs simplification and more space, different instrument choice, i dunno</i></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47999656\">https://news.ycombinator.com/item?id=47999656</a></p>\n<p>Points: 112</p>\n<p># Comments: 77</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-05-03T18:05:28+00:00",
+    "type": "repo",
+    "display_category": "Top Repo",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Metal Gear Solid 2's source code has been leaked on 4chan",
+    "link": "https://www.thegamer.com/mgs2-hd-edition-source-code-massive-leak/",
+    "summary": "<p>Article URL: <a href=\"https://www.thegamer.com/mgs2-hd-edition-source-code-massive-leak/\">https://www.thegamer.com/mgs2-hd-edition-source-code-massive-leak/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47998790\">https://news.ycombinator.com/item?id=47998790</a></p>\n<p>Points: 305</p>\n<p># Comments: 143</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-05-03T16:48:11+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Testing macOS on the Apple Network Server 2.0 ROMs",
+    "link": "http://oldvcr.blogspot.com/2026/05/testing-macos-on-apple-network-server.html",
+    "summary": "<p>Article URL: <a href=\"http://oldvcr.blogspot.com/2026/05/testing-macos-on-apple-network-server.html\">http://oldvcr.blogspot.com/2026/05/testing-macos-on-apple-network-server.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47998158\">https://news.ycombinator.com/item?id=47998158</a></p>\n<p>Points: 59</p>\n<p># Comments: 8</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-05-03T15:49:33+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
     "title": "Catalyzing scientific impact through global partnerships and open resources",
     "link": "https://research.google/blog/catalyzing-scientific-impact-through-global-partnerships-and-open-resources/",
     "summary": "Data Mining & Modeling",
@@ -95,66 +515,6 @@
     "summary": "MIT senior Olivia Honeycutt investigates how the ways we communicate can shape our views of the world.",
     "source": "MIT News - Artificial intelligence",
     "published": "2026-05-01T04:00:00+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "DeepClaude \u2013 Claude Code agent loop with DeepSeek V4 Pro, 17x cheaper",
-    "link": "https://github.com/aattaran/deepclaude",
-    "summary": "<p>Article URL: <a href=\"https://github.com/aattaran/deepclaude\">https://github.com/aattaran/deepclaude</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48002136\">https://news.ycombinator.com/item?id=48002136</a></p>\n<p>Points: 160</p>\n<p># Comments: 71</p>",
-    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
-    "published": "2026-05-03T22:13:20+00:00",
-    "type": "repo",
-    "display_category": "Top Repo",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "How Kepler built verifiable AI for financial services with Claude",
-    "link": "https://claude.com/blog/how-kepler-built-verifiable-ai-for-financial-services-with-claude",
-    "summary": "<p>Article URL: <a href=\"https://claude.com/blog/how-kepler-built-verifiable-ai-for-financial-services-with-claude\">https://claude.com/blog/how-kepler-built-verifiable-ai-for-financial-services-with-claude</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47999754\">https://news.ycombinator.com/item?id=47999754</a></p>\n<p>Points: 34</p>\n<p># Comments: 21</p>",
-    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
-    "published": "2026-05-03T18:14:56+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "Show HN: Ableton Live MCP",
-    "link": "https://github.com/bschoepke/ableton-live-mcp",
-    "summary": "<p>Article URL: <a href=\"https://github.com/bschoepke/ableton-live-mcp\">https://github.com/bschoepke/ableton-live-mcp</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47999656\">https://news.ycombinator.com/item?id=47999656</a></p>\n<p>Points: 67</p>\n<p># Comments: 47</p>",
-    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
-    "published": "2026-05-03T18:05:28+00:00",
-    "type": "repo",
-    "display_category": "Top Repo",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "Metal Gear Solid 2's source code has been leaked on 4chan",
-    "link": "https://www.thegamer.com/mgs2-hd-edition-source-code-massive-leak/",
-    "summary": "<p>Article URL: <a href=\"https://www.thegamer.com/mgs2-hd-edition-source-code-massive-leak/\">https://www.thegamer.com/mgs2-hd-edition-source-code-massive-leak/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47998790\">https://news.ycombinator.com/item?id=47998790</a></p>\n<p>Points: 227</p>\n<p># Comments: 95</p>",
-    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
-    "published": "2026-05-03T16:48:11+00:00",
     "type": "blog",
     "display_category": "Top News",
     "processed": {
@@ -1130,366 +1490,6 @@
     "summary": "Prevailing machine-learned interatomic potential (MLIP) uncertainty-quantification methods rely on ensembles of independently trained backbones. These methods scale unfavorably with foundation-scale MLIPs, and their member-disagreement signals correlate weakly with per-molecule prediction error. Here we probe the frozen per-atom representations of a pretrained MLIP with a compact discriminative classifier, recasting MLIP uncertainty quantification as selective classification rather than error regression. The resulting method, PROBE (Post-hoc Reliability frOm Backbone Embeddings), produces a per-prediction reliability probability that monotonically tracks actual error without modification to the underlying model. Across large held-out evaluation sets and two structurally distinct MLIP architectures, PROBE outperforms ensemble disagreement as a binary reliability signal, which strengthens with the expressiveness of the backbone representation, implying a favorable scaling trajectory toward foundation-scale MLIPs. Multi-head self-attention additionally yields per-atom importance maps, providing chemically interpretable diagnostics at no additional computational cost. PROBE is post-hoc and architecture-agnostic, and is directly deployable on any MLIP that exposes per-atom representations.",
     "source": "ArXiv",
     "published": "2026-05-01T13:21:56+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "BlenderRAG: High-Fidelity 3D Object Generation via Retrieval-Augmented Code Synthesis",
-    "link": "http://arxiv.org/abs/2605.00632v1",
-    "summary": "Automatic generation of executable Blender code from natural language remains challenging, with state-of-the-art LLMs producing frequent syntactic errors and geometrically inconsistent objects. We present BlenderRAG, a retrieval-augmented generation system that operates on a curated multimodal dataset of 500 expert-validated examples (text, code, image) across 50 object categories. By retrieving semantically similar examples during generation, BlenderRAG improves compilation success rates from 40.8% to 70.0% and semantic normalized alignment from 0.41 to 0.77 (CLIP similarity) across four state-of-the-art LLMs, without requiring fine-tuning or specialized hardware, making it immediately accessible for deployment. The dataset and code will be available at https://github.com/MaxRondelli/BlenderRAG.",
-    "source": "ArXiv",
-    "published": "2026-05-01T13:09:30+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "H-RAG at SemEval-2026 Task 8: Hierarchical Parent-Child Retrieval for Multi-Turn RAG Conversations",
-    "link": "http://arxiv.org/abs/2605.00631v1",
-    "summary": "We present H-RAG, our submission to SemEval-2026 Task 8 (MTRAGEval), addressing both Task A (Retrieval) and Task C (Generation with Retrieved Passages). Task A evaluates standalone retrieval quality, while Task C assesses end-to-end retrieval-augmented generation (RAG) in multi-turn conversational settings, requiring both accurate answer generation and faithful grounding in retrieved evidence. Our approach implements a hierarchical parent-child RAG pipeline that separates fine-grained child-level retrieval from parent-level context reconstruction during generation. Documents are segmented into overlapping sentence-based child chunks, while full documents are preserved as parent units to provide coherent context. Retrieval combines hybrid dense-sparse search, tunable weighting, and embedding-based similarity rescoring over child chunks. Retrieved evidence is aggregated at the parent level and supplied to an instruction-tuned language model for response generation. H-RAG achieves an nDCG@5 score of 0.4271 on Task A and a harmonic mean score of 0.3241 on Task C (RB_agg: 0.2488, RL_F: 0.2703, RB_llm: 0.6508), underscoring the importance of retrieval configuration and parent-level aggregation in multi-turn RAG performance.",
-    "source": "ArXiv",
-    "published": "2026-05-01T13:07:19+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "SC-Taxo: Hierarchical Taxonomy Generation under Semantic Consistency Constraints using Large Language Models",
-    "link": "http://arxiv.org/abs/2605.00620v1",
-    "summary": "Scientific literature is expanding at an unprecedented pace, making it increasingly challenging to efficiently organize and access domain knowledge. A high-quality scientific taxonomy offers a structured and hierarchical representation of a research field, facilitating literature exploration and topic navigation, as well as enabling downstream applications such as trend analysis, idea generation, and information retrieval. However, existing taxonomy generation approaches often suffer from structural inconsistencies and semantic misalignment across hierarchical levels. Through empirical analysis, we find that these issues largely stem from inadequate modeling of hierarchical semantic consistency. To address this limitation, we propose a semantic-consistent taxonomy generation (SC-Taxo) framework that leverages large language models (LLMs) with hierarchy-aware refinement stages to ensure semantic consistency. Specifically, SC-Taxo introduces a bidirectional heading generation mechanism that jointly performs bottom-up abstraction and top-down semantic constraint, while further capturing peer-level semantic dependencies to enhance horizontal consistency. Experiments on multiple benchmark datasets demonstrate consistent improvements in hierarchy alignment and heading quality, and additional evaluation on Chinese scientific literature validates its robust cross-lingual generalization.",
-    "source": "ArXiv",
-    "published": "2026-05-01T12:42:44+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "LLM-Emu: Native Runtime Emulation of LLM Inference via Profile-Driven Sampling",
-    "link": "http://arxiv.org/abs/2605.00616v1",
-    "summary": "Realistic evaluation of LLM serving systems requires online workloads, dynamic arrivals, queueing, and the serving engine's local scheduling for execution batching, but running such experiments on GPUs is expensive. Existing simulators reduce this cost, but often operate offline or in time-warped mode, re-implement serving-engine schedulers, or require accurate operator/kernel-level latency models. We present LLM-Emu, a serving-native emulator for vLLM that preserves the production HTTP, scheduling, KV-cache, and output-processing paths while replacing only GPU forward execution with profile-sampled latency and synthetic output tokens. Tested on two different GPUs, four model variants, two model families, two attention backends, and both Poisson and bursty ShareGPT workloads, LLM-Emu closely tracks real vLLM serving behavior: TPOT and ITL stay within $4.8\\%$ absolute error, E2E latency within $5.3\\%$, and output throughput within $1.9\\%$; TTFT is less stable, with maximum error $10.4\\%$, reflecting its sensitivity to admission and queue state. These results suggest that lightweight, serving-native emulation can support practical online experimentation for LLM-serving systems. LLM-Emu is open sourced at https://github.com/AKafakA/llm-emu.",
-    "source": "ArXiv",
-    "published": "2026-05-01T12:35:21+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "Decouple before Integration: Test-time Synthesis of SFT and RLVR Task Vectors",
-    "link": "http://arxiv.org/abs/2605.00610v1",
-    "summary": "SFT and RLVR represent two fundamental yet distinct paradigms for LLM post-training, each excelling in distinct dimensions. SFT expands knowledge breadth while RLVR enhances reasoning depth. Yet integrating these complementary strengths remains a formidable challenge. Sequential training can cause catastrophic forgetting, and joint optimization often suffers from severe gradient conflicts. We analyze SFT and RLVR through the lens of task vectors and reveal three structural properties behind these failures: a 30* magnitude disparity, 45* sign interference, and heterogeneous module-wise update distributions. These findings show SFT and RLVR are difficult to integrate directly, but they also suggest that the two paradigms modify partly complementary components of the model. Motivated by these observations, we propose Decoupled Test-time Synthesis (DoTS), a post-hoc framework allows SFT and RLVR checkpoints to be trained independently and synthesizes their capabilities only at inference time via task vector arithmetic, without updating model parameters. To reduce interference, DOTS applies selective sparsification with norm-preserving rescaling. It then uses Bayesian optimization on a small set of unlabeled queries to search for combination coefficients on the Pareto frontier of consistency and perplexity. Empirically, \\ours matches or exceeds the performance of training-based SFT--RLVR integration methods across multiple mathematical reasoning benchmarks, incurring only $\\sim$3\\% of the computational cost. When applied to stronger post-trained checkpoints, DOTS surpasses SOTA models and generalizes to out-of-domain benchmarks without re-tuning. Code is available at https://github.com/chaohaoyuan/DoTS.",
-    "source": "ArXiv",
-    "published": "2026-05-01T12:20:44+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "Coordination Engineering of Dual-Atom Catalysts for Overall Water Splitting: Mechanistic Insights from Constant-Potential First-Principles and Machine Learning",
-    "link": "http://arxiv.org/abs/2605.00609v1",
-    "summary": "The rational design of bifunctional electrocatalysts for the hydrogen evolution reaction (HER) and oxygen evolution reaction (OER) is essential for achieving efficient and cost-effective overall water splitting. Atomically dispersed transition-metal catalysts, including single-atom catalysts and dual-atom catalysts (DACs), have emerged as a prominent class of heterogeneous catalysts, in which coordination engineering plays a decisive role in tuning catalytic performance. Herein, we explore coordination-engineered bifunctional overall water splitting electrocatalysts using graphene-supported DACs (TM1TM2-C6-xNx) as model systems. By tuning C/N coordination and dual-metal combinations (Fe, Co, Ni, and Cu), a library of 228 structures was constructed. A three-step screening strategy, combining constant-charge and constant-potential density functional theory with kinetic analysis of proton-coupled electron transfer (PCET), identifies 24 highly active candidates (TM1TM2 = CoNi, CoCu and Co2) with mixed C/N coordination for OER. These catalysts exhibit overpotentials comparable to that of IrO2 and low PCET barriers (lower than 0.40 eV), among which 22 also show high HER activity. Machine learning reveals clear coordination-dependent structure-performance relationships. Such bifunctionality arises from coordination engineering that enables the simultaneous optimization of OER intermediate adsorption and the hydrogen binding strength for HER. This work establishes coordination engineering as an effective strategy for designing high-performance bifunctional dual-atom electrocatalysts for overall water splitting.",
-    "source": "ArXiv",
-    "published": "2026-05-01T12:20:22+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "Fairness of Classifiers in the Presence of Constraints between Features",
-    "link": "http://arxiv.org/abs/2605.00592v1",
-    "summary": "In Machine Learning, an accepted definition of fairness of a decision taken by a classifier is that it should not depend on protected features, such as gender. Unfortunately, when constraints exist between features, such dependencies can be obscured by the constraints.\n  To avoid this problem, we propose that a decision be considered fair if it has a fair explanation. We define a fair explanation as a prime-implicant reason for the decision that does not contain any protected feature (where the constraints are taken into account in the definition of prime-implicant). Surprisingly, ignoring constraints can completely change the fairness of a decision (according to this definition) even in the absence of constraints between protected and unprotected features.\n  Three possible definitions of fairness of a classifier are that for all its decisions (1) there are only fair explanations, (2) there is at least one fair explanation, or (3) changing protected features does not change the outcome. We identify the relationships between these different definitions of fairness and study the computational complexity of testing fairness of classifiers.",
-    "source": "ArXiv",
-    "published": "2026-05-01T11:58:18+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "Gradient Regularized Newton Boosting Trees with Global Convergence",
-    "link": "http://arxiv.org/abs/2605.00581v1",
-    "summary": "Gradient Boosting Decision Trees (GBDTs) dominate tabular machine learning, with modern implementations like XGBoost, LightGBM, and CatBoost being based on Newton boosting: a second-order descent step in the space of decision trees. Despite its empirical success, the global convergence of Newton boosting is poorly understood compared to first-order boosting. In this paper, we introduce Restricted Newton Descent, which studies convex optimization with Newton's method on Hilbert spaces with inexact iterates, based on the concepts of cosine angle and weak gradient edge. Within this framework, we recover Newton boosting with GBDTs and classical finite-dimensional theory as special cases. We first prove that vanilla Newton boosting achieves a linear rate of convergence for smooth, strongly convex losses that satisfy a Hessian-dominance condition. To handle general convex losses with Lipschitz Hessians, we extend a recent gradient regularized Newton scheme to the restricted weak learner setting. This scheme minimally modifies the classical algorithm by introducing an adaptive $\\ell_2$-regularization term proportional to the square root of the gradient norm at each iteration. We establish a $\\mathcal{O}(\\frac{1}{k^2})$ rate for this scheme, thereby obtaining a globally convergent second-order GBDT algorithm with a rate matching that of first-order boosting with Nesterov momentum. In numerical experiments, we show that our scheme converges while vanilla Newton boosting may diverge.",
-    "source": "ArXiv",
-    "published": "2026-05-01T11:37:17+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "DySRec: Dynamic Context-Aware Psychometric Scale Recommendation via Multi-Agent Collaboration",
-    "link": "http://arxiv.org/abs/2605.00574v1",
-    "summary": "Choosing suitable psychometric scales is an essential and difficult step in psychological consultation, which requires clinicians to integrate patient information, behaviors, and dynamic contextual information. Existing systems mainly use static pipelines to choose scale, or directly predict symptoms according to user inputs, limiting their ability to support dynamic assessment, risk management, and transparent decision-making. To address these limitations, we propose DySRec, a multi-agent conversational system for dynamic psychometric scale recommendation. DySRec operates as an interactive chatbot that engages users in multi-turn dialogue, models scale selection as a continuous conversational decision process, and coordinates specialized agents to maintain user context, recommend assessment scales, monitor psychological risk, and log decision trajectories. In this way, DySRec can integrate and capture heterogeneous signals, including semantic, interaction behaviors, assessment history, and content state, to dynamically update user representations and calculate scale-context compatibility score for recommending most matched scales. Moreover, DySRec incorporates a closed-loop refinement mechanism. Recommendation agent will feedback the missing or uncertain attributes and guide the conversation to elicit the targeted information. In this paper, we showcase the prototype design and architecture of DySRec, and this system has been verified in a real-world application.",
-    "source": "ArXiv",
-    "published": "2026-05-01T11:17:10+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "Dynamical magnetotropic susceptibility as a new probe of Kitaev materials and beyond",
-    "link": "http://arxiv.org/abs/2605.00568v1",
-    "summary": "The magnetotropic susceptibility $k(\u03c9)$ probes ultra-low-frequency uniform fluctuations. For a crystal mounted on an oscillating cantilever in a magnetic field, it is defined as the ratio of torque to angular-displacement amplitude. Its real and imaginary parts determine the oscillation-frequency shift and crystal-induced damping. It is a low-energy probe of uniform $q=0$ spin and charge degrees of freedom. We demonstrate this by deriving $k(\u03c9)$ within linear response theory for a generic correlated-electron Hamiltonian with charge and spin degrees of freedom. Although it covers metallic and insulating magnets, correlated paramagnets, and exotic quantum critical points, we focus on limiting cases. For insulating spin systems $k(0)$ is sensitive to magnetic anisotropy whereas its finite-frequency imaginary part probes uniform dynamical spin susceptibility even in spin-symmetric models. For metallic systems we identify when eddy currents cause low-frequency damping. Our numerical results focus on Kitaev-material magnetotropic response. Using auxiliary-field quantum Monte Carlo with machine-learning-based sign-problem optimization we compute $k(\u03c9)$ for several models proposed for $\u03b1$-RuCl$_3$. The observed low-temperature scaling of $k(0)/T$ with $B/T$ results from dominant Kitaev couplings: parameter sets without dominant Kitaev coupling do not exhibit this scaling. It remains robust upon inclusion of optical phonons. Beyond the static response, $k''(\u03c9)$ for the $\u03b1$-RuCl$_3$ parameter set reproducing the experimental $k(0)$ data shows local-moment features at high and low $T$, with a single peak at the Larmor frequency. Beyond Kitaev systems we highlight broader applications. Probing ultra-low-energy uniform charge fluctuations is pertinent to Kondo destruction quantum criticality, of broad interest in strange metallicity and unconventional superconductivity.",
-    "source": "ArXiv",
-    "published": "2026-05-01T11:07:08+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "Structure Liberates: How Constrained Sensemaking Produces More Novel Research Output",
-    "link": "http://arxiv.org/abs/2605.00557v1",
-    "summary": "Scientific discovery is an extended process of ideation--surveying prior work, forming hypotheses, and refining reasoning--yet existing approaches treat this phase as a brief preamble despite its central role in research. We introduce SCISENSE, a sensemaking-grounded framework that operationalizes ideation as a structured sequence of eight cognitive stages (Pirolli \\& Card, 2005). We construct SCISENSE-Traj, a 100K-scale dataset of citation-conditioned research trajectories in two modes: Target, where an LLM reconstructs the ideation path leading to a known paper from its cited works, and Infer, where the LLM proposes novel directions from the same citations. We distill these into SCISENSE-LM, a family of sensemaking LLMs spanning 3B to 70B parameters. Contrary to the assumption that looser supervision promotes greater exploration, Target-trained models achieve a 2.0\\% improvement in trajectory quality over Infer-trained models while also producing more novel and diverse outputs. This advantage propagates downstream: coding agents conditioned on Target trajectories produce research artifacts with higher executability and quality than those conditioned on Infer trajectories. This suggests that targeted ideation reduces cognitive burden on downstream agents, freeing them to explore more creatively. SCISENSE offers both a practical tool for augmenting LLM-driven research workflows and a principled testbed for studying how planning shapes scientific discovery.",
-    "source": "ArXiv",
-    "published": "2026-05-01T10:50:59+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "Sim-FA: A Simulator Frontend for Asynchronous Pipelines",
-    "link": "http://arxiv.org/abs/2605.00555v1",
-    "summary": "To efficiently support Large Language Models (LLMs), modern GPGPU architectures have introduced new features and programming paradigms, such as warp specialization. These features enable temporal overlap between the producer and consumer, as well as between matrix multiplication and activation function operations, substantially improving performance. To conduct effective AI infrastructure and computer architecture research, cycle-accurate simulators that support these new features, together with analytical models that faithfully capture workload characteristics, are essential.\n  However, existing academic tools provide limited support for these emerging requirements. Existing cycle-accurate simulators do not incorporate new NVIDIA GPU features, such as the Tensor Memory Accelerator (TMA), in a timely manner. Moreover, existing analytical models can misestimate DRAM traffic under certain configurations.\n  In this paper, we build a simulation pipeline from FlashAttention-3 kernel instrumentation to cycle-accurate simulation. The simulator achieves a mean absolute percentage error (MAPE) of 5.7\\% and a maximum absolute percentage error of 12.7\\% against H800. We also provide a theoretical analysis of FlashAttention-3 and explain why existing analytical models can produce inaccurate traffic estimates.",
-    "source": "ArXiv",
-    "published": "2026-05-01T10:46:38+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "Stable-GFlowNet: Toward Diverse and Robust LLM Red-Teaming via Contrastive Trajectory Balance",
-    "link": "http://arxiv.org/abs/2605.00553v1",
-    "summary": "Large Language Model (LLM) Red-Teaming, which proactively identifies vulnerabilities of LLMs, is an essential process for ensuring safety. Finding effective and diverse attacks in red-teaming is important, but achieving both is challenging. Generative Flow Networks (GFNs) that perform distribution matching are a promising methods, but they are notorious for training instability and mode collapse. In particular, unstable rewards in red-teaming accelerate mode collapse. We propose Stable-GFN (S-GFN), which eliminates partition function $Z$ estimation in GFN and reduces training instability. S-GFN avoids Z-estimation through pairwise comparisons and employs a robust masking methodology against noisy rewards. Additionally, we propose a fluency stabilizer to prevent the model from getting stuck in local optima that produce gibberish. S-GFN provides more stable training while maintaining the optimal policy of GFN. We demonstrate the overwhelming attack performance and diversity of S-GFN across various settings.",
-    "source": "ArXiv",
-    "published": "2026-05-01T10:42:08+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "A11y-Compressor: A Framework for Enhancing the Efficiency of GUI Agent Observations through Visual Context Reconstruction and Redundancy Reduction",
-    "link": "http://arxiv.org/abs/2605.00551v1",
-    "summary": "AI agents that interact with graphical user interfaces (GUIs) require effective observation representations for reliable grounding. The accessibility tree is a commonly used text-based format that encodes UI element attributes, but it suffers from redundancy and lacks structural information such as spatial relationships among elements. We propose A11y-Compressor, a framework that transforms linearized accessibility trees into compact and structured representations. Our implementation, Compressed-a11y, applies a lightweight and structured transformation pipeline with modal detection, redundancy reduction, and semantic structuring. Experiments on the OSWorld benchmark show that Compressed-a11y reduces input tokens to 22% of the original while improving task success rates by 5.1 percentage points on average.",
-    "source": "ArXiv",
-    "published": "2026-05-01T10:16:00+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "An Unsupervised Machine Learning-based Framework for Wafer Scale Variability Analysis and Performance Prediction of Ferroelectric Hf0.5Zr0.5O2 Thin Film Capacitors",
-    "link": "http://arxiv.org/abs/2605.00544v1",
-    "summary": "Fabrication process-induced performance variability remains a formidable barrier in the high-volume manufacturing of semiconductor chips. With skyrocketing Artificial Intelligence (AI) workload, demand for non-volatile and computational memories is growing exponentially. As embedded non-volatile memory, ferroelectric Hf0.5Zr0.5O2 emerged as a strong candidate due to their CMOS back-end-of-line (BEOL) compatibility, scalability and high performance. However, their sensitive crystallization kinetics leads to significant device-to-device (D2D) non-uniformity leading to unpredictability of performance over wafer scale. In this work, we demonstrate unsupervised machine learning can analyze intra-die D2D variations and predict performance of \"unseen\" dies efficiently. We present a framework utilizing Principal Component Analysis (PCA) and K-Means clustering to analyze D2D performance variations in HZO capacitors and building on data from multiple dies, we move beyond traditional descriptive statistics to a predictive \"Virtual Metrology\" approach that separates performance categories, defined by key parameters like remanent polarization (Pr) and coercive voltage (Vc). The analysis further extends to comparing uniformity across different dies across the wafer showing the proposed methodology can accurately predict device performance on untested dies with a low Mean Absolute Percentage Error (MAPE) in the range of 5-10%, suggesting a robust path for accelerated yield improvement and reduced metrology overhead.",
-    "source": "ArXiv",
-    "published": "2026-05-01T09:51:04+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "AGoQ: Activation and Gradient Quantization for Memory-Efficient Distributed Training of LLMs",
-    "link": "http://arxiv.org/abs/2605.00539v1",
-    "summary": "Quantization is a key method for reducing the GPU memory requirement of training large language models (LLMs). Yet, current approaches are ineffective for 4-bit activations and 8-bit gradients, which would easily cause slow convergence or accuracy loss. To address this, we introduce AGoQ, incorporating two new techniques: 1) a layer-aware activation quantization algorithm that allocates appropriate bit-widths for activations of various layers based on their types and pipeline stages to achieve near 4-bit activation storage, and 2) a gradient quantization algorithm that reduces memory usage and shortens communication time by employing 8-bit gradient storage and precision-preserving 8-bit All-Reduce communication. We conduct extensive experiments using different sizes of LLMs on two GPU clusters (up to 64 GPUs), and the experimental results show that our AGoQ reduces the memory by up to 52\\% and achieves up to 1.34$\\times$ improvement of training speed compared to state-of-the-art training systems Megatron-LM (w/ or w/o ZeRO), COAT and DeepSpeed with 8B to 32B LLaMA models, while achieving convergence loss on pretraining and comparable accuracy on downstream tasks with LLaMA architectures.",
-    "source": "ArXiv",
-    "published": "2026-05-01T09:39:03+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "Tempus: A Temporally Scalable Resource-Invariant GEMM Streaming Framework for Versal AI Edge",
-    "link": "http://arxiv.org/abs/2605.00536v1",
-    "summary": "Scaling laws for Large Language Models (LLMs) establish that model quality improves with computational scale, yet edge deployment imposes strict constraints on compute, memory, and power. Since General Matrix Multiplication (GEMM) accounts for up to 90\\% of inference time, efficient GEMM acceleration is critical for edge AI. The Adaptive Intelligent Engines available in the AMD Versal adaptive SoCs are well suited for this task, but existing state-of-the-art (SOTA) frameworks maximize performance through spatial scaling, distributing workloads across hundreds of cores -- an approach that fails on resource-limited edge SoCs due to physical implementation failures, bandwidth saturation, and excessive resource consumption. We propose Tempus, a Resource-Invariant Temporal GEMM framework for the AMD Versal AI Edge SoC. Rather than expanding hardware resources with matrix size, Tempus employs a fixed compute block of 16 AIE-ML cores, achieving scalability through iterative graph execution and algorithmic data tiling and replication in the Programmable Logic. High-speed cascade streaming ensures low-latency partial sum reduction at Initiation Interval (II) of 1, while a deadlock-free DATAFLOW protocol maximizes transfer-compute overlap and PLIO reuse. Evaluated on GEMM workloads, Tempus achieves 607 GOPS at 10.677 W total on-chip power. By characterizing system-level efficiency through the Platform-Aware Utility (PAU) metric, we prove that Tempus achieves a 211.2x higher prominence factor than the leading spatial SOTA (ARIES). Furthermore, the framework maintains a 0.00\\% utilization of URAM/DSP, yielding 22.0x core frugality, 7.1x power frugality, and a 6.3x reduction in I/O demand, establishing a sustainable, scalable foundation for edge LLM inference.",
-    "source": "ArXiv",
-    "published": "2026-05-01T09:28:34+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "Hierarchical Abstract Tree for Cross-Document Retrieval-Augmented Generation",
-    "link": "http://arxiv.org/abs/2605.00529v1",
-    "summary": "Retrieval-augmented generation (RAG) enhances large language models with external knowledge, and tree-based RAG organizes documents into hierarchical indexes to support queries at multiple granularities. However, existing Tree-RAG methods designed for single-document retrieval face critical challenges in scaling to cross-document multi-hop questions: (1) poor distribution adaptability, where $k$-means clustering introduces noise due to rigid distribution assumptions; (2) structural isolation, as tree indexes lack explicit cross-document connections; and (3) coarse abstraction, which obscures fine-grained details. To address these limitations, we propose $\u03a8$-RAG, a tree-RAG framework with two key components. First, a hierarchical abstract tree index built through an iterative \"merging and collapse\" process that adapts to data distributions without a priori assumption. Second, a multi-granular retrieval agent that intelligently interacts with the knowledge base with reorganized queries and an agent-powered hybrid retriever. $\u03a8$-RAG supports diverse tasks from token-level question answering to document-level summarization. On cross-document multi-hop QA benchmarks, it outperforms RAPTOR by 25.9% and HippoRAG 2 by 7.4% in average F1 score. Code is available at https://github.com/Newiz430/Psi-RAG.",
-    "source": "ArXiv",
-    "published": "2026-05-01T09:06:23+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "SAGA: Workflow-Atomic Scheduling for AI Agent Inference on GPU Clusters",
-    "link": "http://arxiv.org/abs/2605.00528v1",
-    "summary": "AI agents execute tens to hundreds of chained LLM calls per task, yet GPU schedulers treat each call as independent, discarding gigabytes of intermediate state between steps and inflating end-to-end latency by 3-8x. We argue that this request-level abstraction is fundamentally mismatched to compound AI workloads, and propose a shift to program-level scheduling: treating the entire agent workflow (not individual inference calls) as the first-class schedulable unit. We present SAGA, a distributed scheduler that implements this abstraction through three mechanisms: (1) Agent Execution Graphs that capture workflow structure to predict KV cache reuse across tool-call boundaries, achieving within 1.31x of B\u00e9l\u00e1dy's optimal offline policy; (2) session-affinity batching with work stealing that co-locates correlated requests while maintaining global load balance; and (3) Agent Fair Share, a task-completion-time fairness metric with provable bounded-deviation guarantees. On a 64-GPU cluster serving SWE-bench coding agents and WebArena browser tasks, SAGA reduces task completion time by 1.64x (geometric mean, p < 0.001) over vLLM v0.15.1 with prefix caching and affinity routing, while improving GPU memory utilization by 1.22x and achieving 99.2% SLO attainment under multi-tenant interference. These latency gains come at a quantified cost: approximately 30% lower peak throughput than throughput-optimal batch scheduling, a tradeoff appropriate for the latency-sensitive interactive deployments that dominate compound AI usage. Our results demonstrate that workflow-aware scheduling is essential for efficient compound AI serving.",
-    "source": "ArXiv",
-    "published": "2026-05-01T09:05:28+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "Intuitionistic Common Knowledge",
-    "link": "http://arxiv.org/abs/2605.00523v1",
-    "summary": "We study an intuitionistic version of common knowledge logic (CK), called ICK, which was introduced by J\u00e4ger and Marti. ICK extends intuitionistic propositional logic (IPL) by multiple box modalities interpreted as knowledge operators for various agents and a common knowledge operator. Formulae are interpreted over birelational Kripke models satisfying a simple interaction principle between the intuitionistic order and the modal accessibility relations. Furthermore, we consider the restriction to reflexive, S4 and S5 models. We present axiomatizations as well as analytic cyclic sequent calculi for all considered logics and prove them to be sound and complete. Furthermore, we establish the finite model property and decidability, show that proof-search in the cyclic calculi can be automated, provide a translation of CK over S5 into ICK over S5 and establish that the proof-search and validity problems of all considered logics can be solved in exponential time.",
-    "source": "ArXiv",
-    "published": "2026-05-01T09:00:09+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "The impact of coercive, normative, and mimetic Stress on Chinese teachers' continuance intention to use generative AI: An integrated perspective of the Expectation-Confirmation Model and Institutional Theory",
-    "link": "http://arxiv.org/abs/2605.00522v1",
-    "summary": "This study investigates Chinese teachers' continuance intention to use generative artificial intelligence (AI) by integrating the Expectation-Confirmation Model with Institutional Theory. A sequential explanatory mixed-methods design was employed. Questionnaire data from 437 teachers were analysed using structural equation modelling, followed by semi-structured interviews with 15 teachers to further interpret the findings. The results indicate that confirmation, perceived usefulness, and satisfaction play important roles in shaping teachers' continuance intention, while institutional pressures, including coercive, normative, and mimetic influences, also contribute to continued use. Qualitative findings further reveal that teachers often use generative AI pragmatically to support tasks such as lesson preparation and idea generation, while simultaneously exercising caution and critically evaluating the reliability of AI-generated content. These findings highlight the combined influence of individual evaluations and institutional contexts on teachers' sustained engagement with generative AI in education.",
-    "source": "ArXiv",
-    "published": "2026-05-01T08:56:13+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "Silicon Showdown: Performance, Efficiency, and Ecosystem Barriers in Consumer-Grade LLM Inference",
-    "link": "http://arxiv.org/abs/2605.00519v1",
-    "summary": "The operational landscape of local Large Language Model (LLM) inference has shifted from lightweight models to datacenter-class weights exceeding 70B parameters, creating profound systems challenges for consumer hardware. This paper presents a systematic empirical analysis of the Nvidia and Apple Silicon ecosystems, specifically characterizing the distinct intra-architecture trade-offs required to deploy these massive models. On the Nvidia Blackwell architecture, we identify a critical \"Backend Dichotomy\" within the TensorRT-LLM stack: while the new NVFP4 quantization format delivers a 1.6x throughput advantage over optimized BF16 baselines (151 tokens/s vs. 92 tokens/s), realizing this performance requires navigating complex runtime constraints that trade startup latency for generation speed. Furthermore, we characterize the \"VRAM Wall\" for 70B+ models: on discrete GPUs, users face a destructive choice between aggressive quantization (e.g., Q2) that degrades model intelligence to fit in VRAM, or PCIe-bottlenecked CPU offloading, which reduces throughput by over 90% compared to full-GPU execution. Conversely, Apple's Unified Memory Architecture (UMA) circumvents these bottlenecks, enabling linear scaling for 80B parameter models at practical 4-bit precisions. This architectural divergence extends to operational sustainability, where Apple's SoC design demonstrates up to a 23x advantage in energy efficiency (tokens/joule). We conclude that for consumer-grade inference, the optimal hardware is defined by a complex interplay between compute density (Nvidia) and memory capacity (Apple), moderated by the significant \"ecosystem friction\" of proprietary quantization workflows.",
-    "source": "ArXiv",
-    "published": "2026-05-01T08:45:47+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "Space Network of Experts: Architecture and Expert Placement",
-    "link": "http://arxiv.org/abs/2605.00515v1",
-    "summary": "Leveraging continuous solar energy harvesting at high efficiency, space data centers are envisioned as a promising platform for executing energy-intensive large language models (LLMs). Recognizing this advantage, space and AI conglomerates (e.g., SpaceX, Google) are actively investing in this vision. One key challenge, however, is the efficient distributed deployment of a large-scale LLM in a satellite network due to the limited onboard computing and communication resources. This gives rise to a placement problem that involves partitioning and mapping model components to satellites such that the fundamentally different model architecture and network topology can be reconciled to ensure low-latency token generation. To address this problem, we present the Space Network of Experts (Space-XNet) framework targeting the distributed execution of a popular mixture-of-experts (MoE) model in space. The proposed placement strategies are two-level: (1) layer placement, which assigns MoE layers to satellite subnets; and (2) intra-layer expert placement, which assigns individual experts to satellites associated with the same layer/subnet. For layer placement, we exploit the ring-like communication pattern of autoregressive inference to partition the satellite constellation along the orbiting direction into subnets arranged on a ring, each hosting one MoE layer. Based on this architecture, we formulate and solve an optimization problem for intra-layer expert placement to map experts with heterogeneous activation probabilities onto satellites. The derived strategy reveals an intuitive principle: a frequently activated expert should be mapped to a satellite on a routing path with low expected latency. Experiments over a thousand-satellite constellation show that Space-XNet achieves at least a threefold latency reduction compared with conventional random and ablation-based placement strategies.",
-    "source": "ArXiv",
-    "published": "2026-05-01T08:40:31+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "Scale-Aware Adversarial Analysis: A Diagnostic for Generative AI in Multiscale Complex Systems",
-    "link": "http://arxiv.org/abs/2605.00510v1",
-    "summary": "Complex physical systems, from supersonic turbulence to the macroscopic structure of the universe, are governed by continuous multiscale dynamics. While modern machine learning architectures excel at mapping the high-dimensional observables of these systems, it remains unclear whether they internalize the governing physical laws or merely interpolate discrete statistical correlations. Standard Explainable AI (XAI) architectures, particularly perturbation-based and gradient-saliency methods, rely on pixel-wise perturbations, which generate unphysical artifacts and push inputs off the valid empirical distribution. To resolve this, we introduce a diagnostic framework driven by Constrained Diffusion Decomposition (CDD), a diffusion-based multiscale data decomposition algorithm that enables physically constrained data generation and model evaluation via scale-aware modifications. Applying this framework to a Denoising Diffusion Probabilistic Model (DDPM), we execute deterministic interventions directly within the continuous, CDD-based scale space. We demonstrate that under moderate physical perturbations, the unconstrained generative model exhibits localized structural freezing and non-linear instability rather than continuous PDE-like responses. The network fails to maintain cross-scale continuity, causing the generative trajectory to diverge when pushed into unseen physical states. By synthesizing a continuum of physically coherent states, this scale-informed methodology establishes a controlled test ground to evaluate algorithmic vulnerabilities, providing the rigorous physical constraints necessary for future architectures to respect the multiscale causality of the natural universe.",
-    "source": "ArXiv",
-    "published": "2026-05-01T08:36:52+00:00",
     "type": "paper",
     "display_category": "Top Paper",
     "processed": {
