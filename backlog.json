@@ -1,10 +1,10 @@
 [
   {
-    "title": "How OpenAI delivers low-latency voice AI at scale",
-    "link": "https://openai.com/index/delivering-low-latency-voice-ai-at-scale",
-    "summary": "How OpenAI rebuilt its WebRTC stack to power real-time Voice AI with low latency, global scale, and seamless conversational turn-taking.",
+    "title": "GPT-5.5 Instant System Card",
+    "link": "https://openai.com/index/gpt-5-5-instant-system-card",
+    "summary": "",
     "source": "OpenAI News",
-    "published": "2026-05-04T00:00:00+00:00",
+    "published": "2026-05-05T10:00:00+00:00",
     "type": "blog",
     "display_category": "Top News",
     "processed": {
@@ -15,11 +15,71 @@
     }
   },
   {
-    "title": "Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs",
-    "link": "https://www.anthropic.com/news/enterprise-ai-services-company",
-    "summary": "Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs",
+    "title": "GPT-5.5 Instant: smarter, clearer, and more personalized",
+    "link": "https://openai.com/index/gpt-5-5-instant",
+    "summary": "GPT-5.5 Instant updates ChatGPT\u2019s default model with smarter, more accurate answers, reduced hallucinations, and improved personalization controls.",
+    "source": "OpenAI News",
+    "published": "2026-05-05T10:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "New ways to buy ChatGPT ads",
+    "link": "https://openai.com/index/new-ways-to-buy-chatgpt-ads",
+    "summary": "OpenAI expands ChatGPT ads with a beta self-serve Ads Manager, CPC bidding, and enhanced measurement tools\u2014built to protect privacy and keep conversations separate from ads.",
+    "source": "OpenAI News",
+    "published": "2026-05-05T00:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "OpenAI and PwC collaborate to reimagine the office of the CFO",
+    "link": "https://openai.com/index/openai-pwc-finance-collaboration",
+    "summary": "OpenAI and PwC are partnering to help enterprises use AI agents to automate finance workflows, improve forecasting, strengthen controls, and modernize the CFO function.",
+    "source": "OpenAI News",
+    "published": "2026-05-04T21:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Agents for financial services",
+    "link": "https://www.anthropic.com/news/finance-agents",
+    "summary": "Agents for financial services",
     "source": "Anthropic News",
-    "published": "2026-05-04T00:00:00+00:00",
+    "published": "2026-05-05T00:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Welcome to Maintainer Month: Celebrating the people behind the code",
+    "link": "https://github.blog/open-source/maintainers/welcome-to-maintainer-month-celebrating-the-people-behind-the-code/",
+    "summary": "<p>What maintainers are telling us, what we've shipped, and how to celebrate the people behind open source.</p>\n<p>The post <a href=\"https://github.blog/open-source/maintainers/welcome-to-maintainer-month-celebrating-the-people-behind-the-code/\">Welcome to Maintainer Month: Celebrating the people behind the code</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
+    "source": "The GitHub Blog",
+    "published": "2026-05-05T14:30:00+00:00",
     "type": "blog",
     "display_category": "Top News",
     "processed": {
@@ -35,6 +95,21 @@
     "summary": "<p>OpenClaw builders will gather at GitHub HQ during Microsoft Build 2026 for demos and conversations. Join in person, or watch the livestream on Twitch.</p>\n<p>The post <a href=\"https://github.blog/open-source/register-now-for-openclaw-after-hours-github/\">Register now for OpenClaw: After Hours @ GitHub</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
     "source": "The GitHub Blog",
     "published": "2026-05-04T15:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Google is partnering with XPRIZE and Range Media Partners on the $3.5 million Future Vision film competition.",
+    "link": "https://blog.google/innovation-and-ai/technology/ai/future-vision-film-competition-xprize/",
+    "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/futurevisionxprize_social.max-600x600.format-webp.webp\" />Google is partnering with XPRIZE and Range Media Partners on the $3.5 million Future Vision film competition.",
+    "source": "AI",
+    "published": "2026-05-05T16:00:00+00:00",
     "type": "blog",
     "display_category": "Top News",
     "processed": {
@@ -75,6 +150,81 @@
     }
   },
   {
+    "title": "How Hapag-Lloyd uses Amazon Bedrock to transform customer feedback into actionable insights",
+    "link": "https://aws.amazon.com/blogs/machine-learning/how-hapag-lloyd-uses-amazon-bedrock-to-transform-customer-feedback-into-actionable-insights/",
+    "summary": "Hapag-Lloyd's Digital Customer Experience and Engineering team, distributed between Hamburg and Gda\u0144sk, drives digital innovation by developing and maintaining customer-facing web and mobile products. In this post, we walk you through our generative AI\u2013powered feedback analysis solution built using Amazon Bedrock, Elasticsearch, and open-source frameworks like LangChain and LangGraph",
+    "source": "Artificial Intelligence",
+    "published": "2026-05-05T16:55:42+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Streamlining generative AI development with MLflow v3.10 on Amazon SageMaker AI",
+    "link": "https://aws.amazon.com/blogs/machine-learning/streamlining-generative-ai-development-with-mlflow-v3-10-on-amazon-sagemaker-ai/",
+    "summary": "Today, we\u2019re excited to announce that Amazon SageMaker AI MLflow Apps now support MLflow version 3.10, bringing enhanced capabilities for generative AI development and streamlined experiment tracking to your generative AI workflows. Building on the foundations established with Amazon SageMaker AI MLflow Apps, this latest version introduces powerful new features for observability, evaluation, and generative [\u2026]",
+    "source": "Artificial Intelligence",
+    "published": "2026-05-05T16:55:18+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Introducing OS Level Actions in Amazon Bedrock AgentCore Browser",
+    "link": "https://aws.amazon.com/blogs/machine-learning/introducing-os-level-actions-in-amazon-bedrock-agentcore-browser/",
+    "summary": "We\u2019re announcing OS Level Actions for AgentCore Browser. This new capability unblocks these scenarios by exposing direct OS control through the InvokeBrowser API, so agents can interact with content visible on the screen, not only what's accessible through the browser's web layer. By combining full-desktop screenshots with mouse and keyboard control at the OS level, agents can observe native UI, reason about it, and act on it within the same session. This post walks through how OS Level Actions work, what actions are supported, and how to get started.",
+    "source": "Artificial Intelligence",
+    "published": "2026-05-05T16:54:35+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Secure AI agents with Amazon Bedrock AgentCore Identity on Amazon ECS",
+    "link": "https://aws.amazon.com/blogs/machine-learning/secure-ai-agents-with-amazon-bedrock-agentcore-identity-on-amazon-ecs/",
+    "summary": "AI agents in production require secure access to external services. Amazon Bedrock AgentCore Identity, available as a standalone service, secures how your AI agents access external services whether they run on compute platforms like Amazon ECS, Amazon EKS, AWS Lambda, or on-premises. This post implements Authorization Code Grant (3-legged OAuth) on Amazon ECS with secure session binding and scoped tokens.",
+    "source": "Artificial Intelligence",
+    "published": "2026-05-05T15:27:30+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Intelligence-driven message defense and insights using Amazon Bedrock",
+    "link": "https://aws.amazon.com/blogs/machine-learning/intelligence-driven-message-defense-and-insights-using-amazon-bedrock/",
+    "summary": "In this post, you will learn how you can use Amazon Nova Foundation Models in Amazon Bedrock to apply generative AI techniques for both business protection and enhancement. You can identify obvious and disguised attempts at direct contact while gaining valuable insights into customer sentiment and service improvement opportunities.",
+    "source": "Artificial Intelligence",
+    "published": "2026-05-05T15:20:54+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
     "title": "Beyond BI: How the Dataset Q&A feature of Amazon Quick powers the next generation of data decisions",
     "link": "https://aws.amazon.com/blogs/machine-learning/beyond-bi-how-the-dataset-qa-feature-of-amazon-quick-powers-the-next-generation-of-data-decisions/",
     "summary": "Business leaders across industries rely on operational dashboards as the shared source of truth that their teams execute against daily. But dashboards are built to answer known questions. When teams need to explore further, ad-hoc, multi-dimensional, or unforeseen questions, they hit a bottleneck. They wait hours or days for BI teams to build new views [\u2026]",
@@ -90,8 +240,8 @@
     }
   },
   {
-    "title": "Introducing the agent quality loop: AgentCore Optimization now in preview",
-    "link": "https://aws.amazon.com/blogs/machine-learning/introducing-the-agent-quality-loop-agentcore-optimization-now-in-preview/",
+    "title": "Introducing agent quality optimization in AgentCore, now in preview",
+    "link": "https://aws.amazon.com/blogs/machine-learning/introducing-agent-quality-optimization-in-agentcore-now-in-preview/",
     "summary": "Generate recommendations from production traces, validate them with batch evaluation and A/B testing, and ship with confidence. AI agents that perform well at launch don\u2019t stay that way. As models evolve, user behavior shifts, and prompts get reused in new contexts they were never designed for. Agent quality quietly degrades. In most teams, the improvement [\u2026]",
     "source": "Artificial Intelligence",
     "published": "2026-05-04T17:13:42+00:00",
@@ -180,11 +330,26 @@
     }
   },
   {
-    "title": "PORTool: Importance-Aware Policy Optimization with Rewarded Tree for Multi-Tool-Integrated Reasoning",
-    "link": "https://machinelearning.apple.com/research/portool-policy-optimization",
-    "summary": "Multi-tool-integrated reasoning enables LLM-empowered tool-use agents to solve complex tasks by interleaving natural-language reasoning with calls to external tools. However, training such agents using outcome-only rewards suffers from credit-assignment ambiguity, obscuring which intermediate steps (or tool-use decisions) lead to success or failure. In this paper, we propose PORTool, an importance-aware policy-optimization algorithm that reinforces agents\u2019 tool-use competence from outcome-level supervision while assigning reward at the step level. Specifically, PORTool generates a rewarded\u2026",
+    "title": "NVIDIA and ServiceNow Partner on New Autonomous AI Agents for Enterprises",
+    "link": "https://blogs.nvidia.com/blog/servicenow-autonomous-ai-agents-enterprises/",
+    "summary": "Enterprise AI has learned to generate. It has learned to reason. Now companies are asking the next question: How should AI act? Early agent systems have shown what\u2019s possible, moving beyond simple prompts to take on more complex tasks. The next step is bringing those capabilities into enterprise environments \u2014 where agents must operate with [&#8230;]",
+    "source": "NVIDIA Blog",
+    "published": "2026-05-05T17:00:40+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Stochastic KV Routing: Enabling Adaptive Depth-Wise Cache Sharing",
+    "link": "https://machinelearning.apple.com/research/stochastic-kv-routing",
+    "summary": "Serving transformer language models with high throughput requires caching Key-Values (KVs) to avoid redundant computation during autoregressive generation. The memory footprint of KV caching is significant and heavily impacts serving costs. This work proposes to lessen these memory requirements. While recent work has largely addressed KV cache reduction via compression and eviction along the temporal axis, we argue that the depth dimension offers an orthogonal and robust avenue for optimization. Although prior research suggests that a full cache for every layer is redundant, implementing\u2026",
     "source": "Apple Machine Learning Research",
-    "published": "2026-05-04T00:00:00+00:00",
+    "published": "2026-05-05T00:00:00+00:00",
     "type": "blog",
     "display_category": "Top News",
     "processed": {
@@ -210,9 +375,279 @@
     }
   },
   {
+    "title": "Games people \u2014 and machines \u2014 play: Untangling strategic reasoning to advance AI",
+    "link": "https://news.mit.edu/2026/untangling-strategic-reasoning-to-advance-ai-gabriele-farina-0505",
+    "summary": "Assistant Professor Gabriele Farina mines the foundations of decision-making in complex multi-agent scenarios.",
+    "source": "MIT News - Artificial intelligence",
+    "published": "2026-05-05T21:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Why most product tours get skipped",
+    "link": "https://productonboarding.com/articles/why-product-tours-get-skipped",
+    "summary": "<p>Article URL: <a href=\"https://productonboarding.com/articles/why-product-tours-get-skipped\">https://productonboarding.com/articles/why-product-tours-get-skipped</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48028546\">https://news.ycombinator.com/item?id=48028546</a></p>\n<p>Points: 65</p>\n<p># Comments: 55</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-05-05T21:05:19+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": ".de TLD offline due to DNSSEC?",
+    "link": "https://dnssec-analyzer.verisignlabs.com/nic.de",
+    "summary": "<p>Article URL: <a href=\"https://dnssec-analyzer.verisignlabs.com/nic.de\">https://dnssec-analyzer.verisignlabs.com/nic.de</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48027897\">https://news.ycombinator.com/item?id=48027897</a></p>\n<p>Points: 523</p>\n<p># Comments: 242</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-05-05T20:16:35+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Buy and Sell Monero \u2013 Cash. Crypto. P2P",
+    "link": "https://retoswap.com",
+    "summary": "<p>Article URL: <a href=\"https://retoswap.com\">https://retoswap.com</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48025397\">https://news.ycombinator.com/item?id=48025397</a></p>\n<p>Points: 30</p>\n<p># Comments: 0</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-05-05T17:10:08+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "GPT\u20115.5 Instant",
+    "link": "https://openai.com/index/gpt-5-5-instant/",
+    "summary": "<p>Article URL: <a href=\"https://openai.com/index/gpt-5-5-instant/\">https://openai.com/index/gpt-5-5-instant/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48025274\">https://news.ycombinator.com/item?id=48025274</a></p>\n<p>Points: 75</p>\n<p># Comments: 17</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-05-05T17:02:23+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Why is Cloudflare protecting the DDoS'er (beamed.st) attacking Ubuntu servers?",
+    "link": "https://infosec.exchange/@mttaggart/116518022621367937",
+    "summary": "<p>Article URL: <a href=\"https://infosec.exchange/@mttaggart/116518022621367937\">https://infosec.exchange/@mttaggart/116518022621367937</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48025001\">https://news.ycombinator.com/item?id=48025001</a></p>\n<p>Points: 74</p>\n<p># Comments: 29</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-05-05T16:45:09+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Accelerating Gemma 4: faster inference with multi-token prediction drafters",
+    "link": "https://blog.google/innovation-and-ai/technology/developers-tools/multi-token-prediction-gemma-4/",
+    "summary": "<p>Article URL: <a href=\"https://blog.google/innovation-and-ai/technology/developers-tools/multi-token-prediction-gemma-4/\">https://blog.google/innovation-and-ai/technology/developers-tools/multi-token-prediction-gemma-4/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48024540\">https://news.ycombinator.com/item?id=48024540</a></p>\n<p>Points: 446</p>\n<p># Comments: 199</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-05-05T16:14:17+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "It's official: Utah is the U.S. state closest to banning VPNs",
+    "link": "https://tech.yahoo.com/vpn/article/its-official-utah-is-the-us-state-closest-to-banning-vpns-153556814.html",
+    "summary": "<p>Article URL: <a href=\"https://tech.yahoo.com/vpn/article/its-official-utah-is-the-us-state-closest-to-banning-vpns-153556814.html\">https://tech.yahoo.com/vpn/article/its-official-utah-is-the-us-state-closest-to-banning-vpns-153556814.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48023473\">https://news.ycombinator.com/item?id=48023473</a></p>\n<p>Points: 149</p>\n<p># Comments: 156</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-05-05T15:01:30+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Simple Meta-Harness on Islo.dev",
+    "link": "https://zozo123.github.io/meta-harness-on-islo-page/",
+    "summary": "<p>Article URL: <a href=\"https://zozo123.github.io/meta-harness-on-islo-page/\">https://zozo123.github.io/meta-harness-on-islo-page/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48022596\">https://news.ycombinator.com/item?id=48022596</a></p>\n<p>Points: 47</p>\n<p># Comments: 18</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-05-05T13:55:45+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Google, Microsoft and xAI agree to share early AI models with U.S.",
+    "link": "https://www.wsj.com/tech/ai/google-microsoft-and-xai-agree-to-share-early-ai-models-with-u-s-f95a88d1",
+    "summary": "<p>Article URL: <a href=\"https://www.wsj.com/tech/ai/google-microsoft-and-xai-agree-to-share-early-ai-models-with-u-s-f95a88d1\">https://www.wsj.com/tech/ai/google-microsoft-and-xai-agree-to-share-early-ai-models-with-u-s-f95a88d1</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48022551\">https://news.ycombinator.com/item?id=48022551</a></p>\n<p>Points: 40</p>\n<p># Comments: 63</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-05-05T13:51:01+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Richard Dawkins and the Claude Delusion",
+    "link": "https://flux.community/matthew-sheffield/2026/05/richard-dawkins-and-the-claude-delusion/",
+    "summary": "<p>Article URL: <a href=\"https://flux.community/matthew-sheffield/2026/05/richard-dawkins-and-the-claude-delusion/\">https://flux.community/matthew-sheffield/2026/05/richard-dawkins-and-the-claude-delusion/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48022266\">https://news.ycombinator.com/item?id=48022266</a></p>\n<p>Points: 32</p>\n<p># Comments: 45</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-05-05T13:26:46+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Google Chrome silently installs a 4 GB AI model on your device without consent",
+    "link": "https://www.thatprivacyguy.com/blog/chrome-silent-nano-install/",
+    "summary": "<p>Article URL: <a href=\"https://www.thatprivacyguy.com/blog/chrome-silent-nano-install/\">https://www.thatprivacyguy.com/blog/chrome-silent-nano-install/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48019219\">https://news.ycombinator.com/item?id=48019219</a></p>\n<p>Points: 1243</p>\n<p># Comments: 840</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-05-05T07:34:55+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Async Rust never left the MVP state",
+    "link": "https://tweedegolf.nl/en/blog/237/async-rust-never-left-the-mvp-state",
+    "summary": "<p>Article URL: <a href=\"https://tweedegolf.nl/en/blog/237/async-rust-never-left-the-mvp-state\">https://tweedegolf.nl/en/blog/237/async-rust-never-left-the-mvp-state</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48019163\">https://news.ycombinator.com/item?id=48019163</a></p>\n<p>Points: 425</p>\n<p># Comments: 229</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-05-05T07:26:03+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "2-D Mathematical Curves",
+    "link": "https://www.2dcurves.com/",
+    "summary": "<p>Article URL: <a href=\"https://www.2dcurves.com/\">https://www.2dcurves.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48018034\">https://news.ycombinator.com/item?id=48018034</a></p>\n<p>Points: 85</p>\n<p># Comments: 11</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-05-05T04:27:32+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "CVE-2026-31431: Copy Fail vs. rootless containers",
+    "link": "https://www.dragonsreach.it/2026/05/04/cve-2026-31431-copy-fail-rootless-containers/",
+    "summary": "<p>Article URL: <a href=\"https://www.dragonsreach.it/2026/05/04/cve-2026-31431-copy-fail-rootless-containers/\">https://www.dragonsreach.it/2026/05/04/cve-2026-31431-copy-fail-rootless-containers/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48017813\">https://news.ycombinator.com/item?id=48017813</a></p>\n<p>Points: 184</p>\n<p># Comments: 110</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-05-05T03:43:08+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Grove.el \u2013 An Obsidian-like note-taking mode for Emacs",
+    "link": "https://jonathanchu.is/posts/introducing-grove/",
+    "summary": "<p>Article URL: <a href=\"https://jonathanchu.is/posts/introducing-grove/\">https://jonathanchu.is/posts/introducing-grove/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48016809\">https://news.ycombinator.com/item?id=48016809</a></p>\n<p>Points: 30</p>\n<p># Comments: 1</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-05-05T00:59:03+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Y Combinator's Stake in OpenAI (0.6%?)",
+    "link": "https://daringfireball.net/2026/05/y_combinators_stake_in_openai",
+    "summary": "<p>Article URL: <a href=\"https://daringfireball.net/2026/05/y_combinators_stake_in_openai\">https://daringfireball.net/2026/05/y_combinators_stake_in_openai</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48016534\">https://news.ycombinator.com/item?id=48016534</a></p>\n<p>Points: 371</p>\n<p># Comments: 67</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-05-05T00:09:01+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Apple confirms iOS 26.5 Messages app adds RCS end-to-end encryption",
+    "link": "https://9to5mac.com/2026/05/04/apple-confirms-ios-26-5-messages-app-adds-rcs-end-to-end-encryption/",
+    "summary": "<p>Article URL: <a href=\"https://9to5mac.com/2026/05/04/apple-confirms-ios-26-5-messages-app-adds-rcs-end-to-end-encryption/\">https://9to5mac.com/2026/05/04/apple-confirms-ios-26-5-messages-app-adds-rcs-end-to-end-encryption/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48015443\">https://news.ycombinator.com/item?id=48015443</a></p>\n<p>Points: 43</p>\n<p># Comments: 4</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-05-04T21:46:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
     "title": "Canadian election databases use \"canary traps\"\u2013and they work",
     "link": "https://arstechnica.com/tech-policy/2026/05/in-canada-a-canary-trap-springs-shut-and-ids-election-database-leak/",
-    "summary": "<p>Article URL: <a href=\"https://arstechnica.com/tech-policy/2026/05/in-canada-a-canary-trap-springs-shut-and-ids-election-database-leak/\">https://arstechnica.com/tech-policy/2026/05/in-canada-a-canary-trap-springs-shut-and-ids-election-database-leak/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48015226\">https://news.ycombinator.com/item?id=48015226</a></p>\n<p>Points: 32</p>\n<p># Comments: 4</p>",
+    "summary": "<p>Article URL: <a href=\"https://arstechnica.com/tech-policy/2026/05/in-canada-a-canary-trap-springs-shut-and-ids-election-database-leak/\">https://arstechnica.com/tech-policy/2026/05/in-canada-a-canary-trap-springs-shut-and-ids-election-database-leak/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48015226\">https://news.ycombinator.com/item?id=48015226</a></p>\n<p>Points: 50</p>\n<p># Comments: 10</p>",
     "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
     "published": "2026-05-04T21:26:35+00:00",
     "type": "blog",
@@ -225,11 +660,86 @@
     }
   },
   {
+    "title": "When networking doesn't work",
+    "link": "https://www.os2museum.com/wp/when-networking-doesnt-work/",
+    "summary": "<p>Article URL: <a href=\"https://www.os2museum.com/wp/when-networking-doesnt-work/\">https://www.os2museum.com/wp/when-networking-doesnt-work/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48014868\">https://news.ycombinator.com/item?id=48014868</a></p>\n<p>Points: 93</p>\n<p># Comments: 15</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-05-04T20:56:19+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
     "title": "White House Considers Vetting A.I. Models Before They Are Released",
     "link": "https://www.nytimes.com/2026/05/04/technology/trump-ai-models.html",
-    "summary": "<p>Article URL: <a href=\"https://www.nytimes.com/2026/05/04/technology/trump-ai-models.html\">https://www.nytimes.com/2026/05/04/technology/trump-ai-models.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48013608\">https://news.ycombinator.com/item?id=48013608</a></p>\n<p>Points: 82</p>\n<p># Comments: 90</p>",
+    "summary": "<p>Article URL: <a href=\"https://www.nytimes.com/2026/05/04/technology/trump-ai-models.html\">https://www.nytimes.com/2026/05/04/technology/trump-ai-models.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48013608\">https://news.ycombinator.com/item?id=48013608</a></p>\n<p>Points: 97</p>\n<p># Comments: 105</p>",
     "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
     "published": "2026-05-04T19:18:22+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "How OpenAI delivers low-latency voice AI at scale",
+    "link": "https://openai.com/index/delivering-low-latency-voice-ai-at-scale",
+    "summary": "How OpenAI rebuilt its WebRTC stack to power real-time Voice AI with low latency, global scale, and seamless conversational turn-taking.",
+    "source": "OpenAI News",
+    "published": "2026-05-04T00:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs",
+    "link": "https://www.anthropic.com/news/enterprise-ai-services-company",
+    "summary": "Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs",
+    "source": "Anthropic News",
+    "published": "2026-05-04T00:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Introducing the agent quality loop: AgentCore Optimization now in preview",
+    "link": "https://aws.amazon.com/blogs/machine-learning/introducing-the-agent-quality-loop-agentcore-optimization-now-in-preview/",
+    "summary": "Generate recommendations from production traces, validate them with batch evaluation and A/B testing, and ship with confidence. AI agents that perform well at launch don\u2019t stay that way. As models evolve, user behavior shifts, and prompts get reused in new contexts they were never designed for. Agent quality quietly degrades. In most teams, the improvement [\u2026]",
+    "source": "Artificial Intelligence",
+    "published": "2026-05-04T17:13:42+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "PORTool: Importance-Aware Policy Optimization with Rewarded Tree for Multi-Tool-Integrated Reasoning",
+    "link": "https://machinelearning.apple.com/research/portool-policy-optimization",
+    "summary": "Multi-tool-integrated reasoning enables LLM-empowered tool-use agents to solve complex tasks by interleaving natural-language reasoning with calls to external tools. However, training such agents using outcome-only rewards suffers from credit-assignment ambiguity, obscuring which intermediate steps (or tool-use decisions) lead to success or failure. In this paper, we propose PORTool, an importance-aware policy-optimization algorithm that reinforces agents\u2019 tool-use competence from outcome-level supervision while assigning reward at the step level. Specifically, PORTool generates a rewarded\u2026",
+    "source": "Apple Machine Learning Research",
+    "published": "2026-05-04T00:00:00+00:00",
     "type": "blog",
     "display_category": "Top News",
     "processed": {
@@ -980,516 +1490,6 @@
     "summary": "Infrastructure protocols like Congestion Control (CC) seek to provide reliable performance across a wide range of Internet environments. Currently, protocol designers assess performance through hand-designed test cases or data sets captured from real environments. However, such approaches may inadvertently overlook critical facets of the algorithm's behavior when they encounter an unanticipated environment or workload.\n  We seek to understand the unanticipated with \\sys, a system that automatically generates adversarial network environments that cause a target protocol implementation to perform poorly. AdvNet employs machine learning-based optimization to generate environments, and incorporates a robust noise-handling mechanism to mitigate the variability inherent in real-world protocol performance. Although our approach is more general, this paper focuses specifically on transport protocols and their CC implementations. We showcase AdvNet's capability to create adversarial scenarios for 27 kernel-space implementations of both single-path and multi-path CC protocols, for several use cases with different performance goals. AdvNet identifies problematic network conditions that expose previously unnoticed Linux kernel bugs and uncovers hidden limitations in CC implementations, and provides insights about robustness. These results suggest that automated adversarial testing can be a valuable tool in protocol development, and that robustness is a useful new dimension for benchmarking CC protocols.",
     "source": "ArXiv",
     "published": "2026-05-01T16:12:27+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "NonZero: Interaction-Guided Exploration for Multi-Agent Monte Carlo Tree Search",
-    "link": "http://arxiv.org/abs/2605.00751v1",
-    "summary": "Monte Carlo Tree Search (MCTS) scales poorly in cooperative multi-agent domains because expansion must consider an exponentially large set of joint actions, severely limiting exploration under realistic search budgets. We propose NonZero, which keeps multi-agent MCTS tractable by running surrogate-guided selection over a low-dimensional nonlinear representation using an interaction-guided proposal rule, instead of directly exploring the full joint-action space. Our exploration uses an interaction score: single-agent deviations are ranked by predicted gain, while two-agent deviations are scored by a mixed-difference measure that reveals coordination benefits even when no single agent can improve alone. We formalize candidate proposal as a bandit problem over local deviations and derive a proposal rule, NonZero, with a sublinear local-regret guarantee for reaching approximate graph-local optima without enumerating the joint-action space. Empirically, NonZero improves sample efficiency and final performance on MatGame, SMAC, and SMACv2 relative to strong model-based and model-free baselines under matched search budgets.",
-    "source": "ArXiv",
-    "published": "2026-05-01T16:02:58+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "Quantum Interval Bound Propagation for Certified Training of Quantum Neural Networks",
-    "link": "http://arxiv.org/abs/2605.00747v1",
-    "summary": "Quantum machine learning is a promising field for efficiently learning features of a dataset to perform a specified task, such as classification. Interval bound propagation (IBP) is a popular certified training method in classical machine learning, where the lower and upper bounds are tracked throughout the model. These bounds are used during training to ensure that the model is certified to predict the correct label even under adversarial perturbations. While IBP is successful in classical domain, there are limited certified training efforts in quantum domain. In this paper, we present quantum interval bound propagation (QIBP) to establish a certified training routine for quantum machine learning, certifying the accuracy of models under adversarial perturbations. We implement QIBP using both interval and affine arithmetic to explore the tradeoffs between the two implementations in terms of accuracy and other design considerations. Extensive evaluation demonstrates that the resulting certified trained models have robust decision boundaries, guaranteed to predict the correct class for the samples within the trained adversarial robustness bounds.",
-    "source": "ArXiv",
-    "published": "2026-05-01T15:55:40+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "Position: agentic AI orchestration should be Bayes-consistent",
-    "link": "http://arxiv.org/abs/2605.00742v1",
-    "summary": "LLMs excel at predictive tasks and complex reasoning tasks, but many high-value deployments rely on decisions under uncertainty, for example, which tool to call, which expert to consult, or how many resources to invest. While the usefulness and feasibility of Bayesian approaches remain unclear for LLM inference, this position paper argues that the control layer of an agentic AI system (that orchestrates LLMs and tools) is a clear case where Bayesian principles should shine. Bayesian decision theory provides a framework for agentic systems that can help to maintain beliefs over task-relevant latent quantities, to update these beliefs from observed agentic and human-AI interactions, and to choose actions. Making LLMs themselves explicitly Bayesian belief-updating engines remains computationally intensive and conceptually nontrivial as a general modeling target. In contrast, this paper argues that coherent decision-making requires Bayesian principles at the orchestration level of the agentic system, not necessarily the LLM agent parameters. This paper articulates practical properties for Bayesian control that fit modern agentic AI systems and human-AI collaboration, and provides concrete examples and design patterns to illustrate how calibrated beliefs and utility-aware policies can improve agentic AI orchestration.",
-    "source": "ArXiv",
-    "published": "2026-05-01T15:43:43+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "Self-Adaptive Multi-Agent LLM-Based Security Pattern Selection for IoT Systems",
-    "link": "http://arxiv.org/abs/2605.00741v1",
-    "summary": "The adoption of Internet of Things (IoT) systems at the network edge of smart architectures is increasing rapidly, intensifying the need for security mechanisms that are both adaptive and resource-efficient. In such environments, runtime defence mechanisms are no longer limited to detection alone but become a resource-constrained task of selecting mitigation actions. Security controls must be carefully selected, combined, and executed under latency, energy, and computational constraints, while preventing unsafe interactions between controls. Existing approaches predominantly rely on static rule sets and learned policies, which provide limited guarantees of feasibility, conflict safety, and execution correctness in resource-constrained edge settings. To address this limitation, we introduce ASPO, a self-adaptive multi-agent security pattern selection that integrates Large Language Model (LLM)-based reasoning with deterministic enforcement within a MAPE-K control loop. ASPO explicitly separates stochastic decision generation from execution: LLM agents propose candidate mitigation portfolios, while a deterministic optimisation core enforces closed-world action integrity, conflict-free composition, and resource feasibility at every decision epoch. We deploy ASPO on a distributed edge-gateway testbed and evaluate it across two workloads, each comprising 500 and 1000 runtime security decisions, using replayed IoT attack traffic. In addition, the results demonstrate invariant safety properties, including 100% conflict-free activation, consistent resource feasibility across workloads, and stable pattern dominance with perfect rank preservation. Importantly, deeper decision exploration reduces extreme-case execution costs, compressing tail latency and energy overheads by 21.9% and 23.1%, respectively, without increasing mean energy consumption.",
-    "source": "ArXiv",
-    "published": "2026-05-01T15:42:54+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "Temporal Data Requirement for Predicting Unplanned Hospital Readmissions",
-    "link": "http://arxiv.org/abs/2605.00738v1",
-    "summary": "With the proliferation of Electronic Health Records (EHRs), a critical challenge in building predictive models is determining the optimal historical data time window to maximize accuracy. This study investigates the impact of various observation windows ranging from the day of surgery to three years prior on predicting 30-day readmission following hip and knee arthroplasties. The dataset encompasses both structured encounter records (over 4 million) and unstructured clinical notes (80,000) from 7,174 patients. To extract meaning from the clinical notes, we employed a suite of non neural (BOW, count BOW, TF IDF, LDA) and neural encoders (BERT, 1D CNN, BiLSTM, Average). We subsequently evaluated models utilizing clinical notes alone, structured data alone, and a combination of both modalities. Our results demonstrate that the optimal time window for unstructured clinical notes is significantly shorter than for structured data, maximum predictive performance was achieved using notes from just three to six months prior to surgery. In contrast, performance using structured data improved as the time window lengthened, but strictly plateaued after twelve months. These modality-specific temporal patterns remained consistent regardless of model complexity or encoder type. Ultimately, these findings challenge the general assumption that more historical data inherently yields better machine learning predictions, establishing targeted time-window guidelines for optimizing readmission prediction models.",
-    "source": "ArXiv",
-    "published": "2026-05-01T15:38:16+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "To Call or Not to Call: A Framework to Assess and Optimize LLM Tool Calling",
-    "link": "http://arxiv.org/abs/2605.00737v1",
-    "summary": "Agentic AI architectures augment LLMs with external tools, unlocking strong capabilities. However, tool use is not always beneficial; some calls may be redundant or even harmful. Effective tool use, therefore, hinges on a core LLM decision: whether to call or not call a tool, when performing a task. This decision is particularly challenging for web search tools, where the benefits of external information depend on the model's internal knowledge and its ability to integrate potentially noisy tool responses. We introduce a principled framework inspired by decision-making theory to evaluate web search tool-use decisions along three key factors: necessity, utility, and affordability. Our analysis combines two complementary lenses: a normative perspective that infers true need and utility from an optimal allocation of tool calls, and a descriptive perspective that infers the model's self-perceived need and utility from their observed behaviors. We find that models' perceived need and utility of tool calls are often misaligned with their true need and utility. Building on this framework, we train lightweight estimators of need and utility based on models' hidden states. Our estimators enable simple controllers that can improve decision quality and lead to stronger task performance than the self-perceived set up across three tasks and six models.",
-    "source": "ArXiv",
-    "published": "2026-05-01T15:38:13+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "EASE: Federated Multimodal Unlearning via Entanglement-Aware Anchor Closure",
-    "link": "http://arxiv.org/abs/2605.00733v1",
-    "summary": "Federated Multimodal Learning (FML) trains multimodal models across decentralized clients while keeping their image-text pairs private. However, joint embedding training entangles forgotten knowledge across both modalities and client gradient subspaces, hindering federated unlearning. Previous federated unlearning approaches neither sever the cross-modal reconstruction channel mediated by bilinear coupling nor separate forget-exclusive update directions from those shared with retained clients. We identify an Anchor Principle for federated multimodal contrastive unlearning: forgotten alignments persist through three residual anchors arising from bilinear cross-modal coupling, principal-angle subspace entanglement, and continued federated updates. At the modality level, we show that bilateral displacement of both visual and language branches closes the cross-modal reconstruction channel. Correspondingly, our method addresses subspace entanglement through Cosine--Sine decomposition of client-update subspaces, isolating forget-exclusive directions from retain support. Moreover, we propose a direction-selective Forget Lock that bounds residual drift across rounds. Combining these strategies, we present EASE, an Entanglement-Aware Subspace Excision framework that closes all three anchor channels under a unified design. EASE demonstrates consistent superiority across multiple datasets and unlearning scenarios, for instance, matching the retrain reference to within 0.2 and 4.2 R@1 points on the forget and retain sides under client unlearning on Flickr30K with CLIP-B/32.",
-    "source": "ArXiv",
-    "published": "2026-05-01T15:33:38+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "Decentralized Proximal Stochastic Gradient Langevin Dynamics",
-    "link": "http://arxiv.org/abs/2605.00723v1",
-    "summary": "We propose Decentralized Proximal Stochastic Gradient Langevin Dynamics (DE-PSGLD), a decentralized Markov chain Monte Carlo (MCMC) algorithm for sampling from a log-concave probability distribution constrained to a convex domain. Constraints are enforced through a shared proximal regularization based on the Moreau-Yosida envelope, enabling unconstrained updates while preserving consistency with the target constrained posterior. We establish non-asymptotic convergence guarantees in the 2-Wasserstein distance for both individual agent iterates and their network averages. Our analysis shows that DE-PSGLD converges to a regularized Gibbs distribution and quantifies the bias introduced by the proximal approximation. We evaluate DE-PSGLD for different sampling problems on synthetic and real datasets. As the first decentralized approach for constrained domains, our algorithm exhibits fast posterior concentration and high predictive accuracy.",
-    "source": "ArXiv",
-    "published": "2026-05-01T15:11:06+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "Leveraging Climate Services to Build Climate Resilient Power Systems",
-    "link": "http://arxiv.org/abs/2605.00717v1",
-    "summary": "We explore the crucial interplay between climate change and power system planning, highlighting the urgent need to systematically integrate climate information into energy system studies. Climate change impacts the energy sector on multiple fronts. Short-term weather variability drives daily and seasonal fluctuations in supply and demand. Long-term trends and increased frequency of extremes pose risks to infrastructure performance, asset lifetimes, and system adequacy. Representing compound events and spatial correlations across borders is a complex challenge, and uncertainties persist due to uncertainties from different models, scenarios, and downscaling methodologies.\n  The Pan-European Climate Database (PECD4.2), developed in partnership between ENTSO-E and C3S, marks a change in how energy system planning is conducted. The PECD4.2 integrates historical reanalysis and six climate models across four SSP's, providing harmonised, openly available datasets tailored for power system studies. The physical conversion models for wind and solar energy better reflect technological progression than machine learning methods trained on historical data, improving robustness under changing future conditions.\n  Despite these advances, challenges remain. Particularly in hydropower modelling and the lack of public harmonised energy datasets that are required to train these models. Complex processing chains from raw climate data to actionable insights and the lack of standardized integration of climate information lengthen lead times for energy-sector adoption. This leads to diverging approaches and variable consideration of climate risks. Closer, more generalised collaboration and communication between climate service providers and energy stakeholders are therefore necessary, as are the development of user-friendly tools for data manipulation and analysis and robust feedback loops.",
-    "source": "ArXiv",
-    "published": "2026-05-01T15:05:38+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "Aitchison Embeddings for Learning Compositional Graph Representations",
-    "link": "http://arxiv.org/abs/2605.00716v1",
-    "summary": "Representation learning is central to graph machine learning, powering tasks such as link prediction and node classification. However, most graph embeddings are hard to interpret, offering limited insight into how learned features relate to graph structure. Many networks naturally admit a role-mixture view, where nodes are best described as mixtures over latent archetypal factors. Motivated by this structure, we propose a compositional graph embedding framework grounded in Aitchison geometry, the canonical geometry for comparing mixtures. Nodes are represented as simplex-valued compositions and embedded via isometric log-ratio (ILR) coordinates, which preserve Aitchison distances while enabling unconstrained optimization in Euclidean space. This yields intrinsically interpretable embeddings whose geometry reflects relative trade-offs among archetypes and supports coherent behavior under component restriction; we consider both fixed and learnable ILR bases. Across node classification and link prediction, our method achieves competitive performance with strong baselines while providing explainability by construction rather than post-hoc. Finally, subcompositional coherence enables principled component restriction: removing and renormalizing subsets preserves a well-defined geometry, which we exploit via subcompositional dimensionality removal to probe how archetype groups influence representations and predictions.",
-    "source": "ArXiv",
-    "published": "2026-05-01T15:05:23+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "A Line-search-free Method for Adaptive Decentralized Optimization",
-    "link": "http://arxiv.org/abs/2605.00711v1",
-    "summary": "We study decentralized optimization over networks where agents cooperatively minimize a smooth (strongly) convex sum of local losses while communicating only with immediate neighbors. Prevailing decentralized methods require either centralized knowledge of global problem and network parameters for stepsize tuning--hence impractical, or costly per-iteration line-searches that demand access to local function values. We propose line-search-free, fully decentralized algorithms in which each agent adapts its stepsize using only past local iterates and gradients--with no extra function evaluations and no global tuning. The key technical ingredient is a new Lyapunov function, from which a natural adaptive stepsize rule emerges: at each iteration, each agent selects the largest stepsize that guarantees descent, based solely on a local curvature estimate built from successive gradients. The proposed algorithms enjoy strong theoretical guarantees: sublinear convergence rates for merely convex objectives and linear rates under strong convexity. Numerical experiments on standard benchmarks show consistent improvements over the state of the art, both adaptive and non-adaptive.",
-    "source": "ArXiv",
-    "published": "2026-05-01T14:55:31+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "Deep Kernel Learning for Stratifying Glaucoma Trajectories",
-    "link": "http://arxiv.org/abs/2605.00708v1",
-    "summary": "Effectively stratifying patient risk in chronic diseases like glaucoma is a major clinical challenge. Clinicians need tools to identify patients at high risk of progression from sparse and irregularly-sampled electronic health records (EHRs). We propose a novel deep kernel learning (DKL) architecture that leverages a Gaussian Process (GP) backend. The GP's kernel is defined by a transformer-based feature extractor applied to clinical-BERT embeddings to model glaucoma patient trajectories from multimodal EHR data. Our method successfully identifies three clinically distinct patient subgroups. Crucially, the model learns to decouple disease progression from current severity, identifying a high-risk group with a worsening trajectory despite having better average visual acuity than a second, stably poor group. This reveals that the model learns to identify progression risk rather than just the current disease state. This ability to stratify patients based on their risk trajectory progression offers a powerful tool for clinical decision support, enabling targeted interventions for high-risk individuals and improving the management of glaucoma care.",
-    "source": "ArXiv",
-    "published": "2026-05-01T14:51:55+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "PhysEdit: Physically-Consistent Region-Aware Image Editing via Adaptive Spatio-Temporal Reasoning",
-    "link": "http://arxiv.org/abs/2605.00707v1",
-    "summary": "Image editing instructions are heterogeneous: a color swap, an object insertion, and a physical-action edit all demand different spatial coverage and different reasoning depth, yet existing reasoning-based editors apply a single fixed inference recipe to every instruction. We argue that adaptivity along both the spatial and temporal axes is the missing degree of freedom, and we present PhysEdit, an editing framework built around this principle. PhysEdit introduces two inference-time modules that compose without retraining the backbone. At its core, (1) Complexity-Adaptive Reasoning Depth (CARD) predicts edit complexity directly from the instruction and reference image and allocates the reasoning step count N_r and reasoning-token length r per sample -- turning a previously fixed inference schedule into a conditional-computation problem. CARD is supported by (2) a Spatial Reasoning Mask (SRM) that extracts an instruction-conditioned spatial prior from cross-attention to confine reasoning to regions that semantically require it. On the full 737-case ImgEdit Basic-Edit Suite, PhysEdit delivers a 1.18x wall-clock speedup (64.3s vs. 76.1s per sample) over a strong reasoning baseline while slightly improving instruction adherence (CLIP-T 0.2283 vs. 0.2266, +0.7%) and matching identity preservation within noise (CLIP-I 0.8246 vs. 0.8280). The speedup is category-dependent and reaches 1.52x on appearance-level edits, validating CARD's adaptive allocation as the principal source of efficiency gain. A 30-sample pilot with full ablations isolates the contribution of each module.",
-    "source": "ArXiv",
-    "published": "2026-05-01T14:51:52+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "FinSafetyBench: Evaluating LLM Safety in Real-World Financial Scenarios",
-    "link": "http://arxiv.org/abs/2605.00706v1",
-    "summary": "Large language models (LLMs) are increasingly applied in financial scenarios. However, they may produce harmful outputs, including facilitating illegal activities or unethical behavior, posing serious compliance risks. To systematically evaluate LLM safety in finance, we propose FinSafetyBench, a bilingual (English-Chinese) red-teaming benchmark designed to test an LLM's refusal of requests that violate financial compliance. Grounded in real-world financial crime cases and ethics standards, the benchmark comprises 14 subcategories spanning financial crimes and ethical violations. Through extensive experiments on general-purpose and finance-specialized LLMs under three representative attack settings, we identify critical vulnerabilities that allow adversarial prompts to bypass compliance safeguards. Further analysis reveals stronger susceptibility in Chinese contexts and highlights the limitations of prompt-level defenses against sophisticated or implicit manipulation strategies.",
-    "source": "ArXiv",
-    "published": "2026-05-01T14:51:24+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "Learning How and What to Memorize: Cognition-Inspired Two-Stage Optimization for Evolving Memory",
-    "link": "http://arxiv.org/abs/2605.00702v1",
-    "summary": "Large language model (LLM) agents require long-term user memory for consistent personalization, but limited context windows hinder tracking evolving preferences over long interactions. Existing memory systems mainly rely on static, hand-crafted update rules; although reinforcement learning (RL)-based agents learn memory updates, sparse outcome rewards provide weak supervision, resulting in unstable long-horizon optimization. Drawing on memory schema theory and the functional division between prefrontal regions and hippocampus regions, we introduce MemCoE, a cognition-inspired two-stage optimization framework that learns how memory should be organized and what information to update. In the first stage, we propose Memory Guideline Induction to optimize a global guideline via contrastive feedback interpreted as textual gradients; in the second stage, Guideline-Aligned Memory Policy Optimization uses the induced guideline to define structured process rewards and performs multi-turn RL to learn a guideline-following memory evolution policy. We evaluate on three personalization memory benchmarks, covering explicit/implicit preference and different sizes and noise, and observe consistent improvements over strong baselines with favorable robustness, transferability, and efficiency.",
-    "source": "ArXiv",
-    "published": "2026-05-01T14:45:20+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "Learning to Act and Cooperate for Distributed Black-Box Consensus Optimization",
-    "link": "http://arxiv.org/abs/2605.00691v1",
-    "summary": "Distributed blackbox consensus optimization is a fundamental problem in multi-agent systems, where agents must improve a global objective using only local objective queries and limited neighbor communication. Existing methods largely rely on handcrafted update rules and static cooperation patterns, which often struggle to balance local adaptation, global coordination, and communication efficiency in heterogeneous nonconvex environments. In this paper, we take an initial step toward trajectory-driven self-design for distributed black-box consensus optimization. We first redesign the agent-level swarm dynamics with an adaptive internal mechanism tailored to decentralized consensus settings, improving the balance between exploration, convergence, and local escape. Built on top of this adaptive execution layer, we propose Learning to Act and Cooperate (LACMAS), a trajectorydriven framework in which large language models provide sparse highlevel guidance for shaping both agentinternal action behaviors and agentexternal cooperation patterns from historical optimization trajectories. We further introduce a phased cognitive scheduling strategy to activate different forms of adaptation in a resource-aware manner. Experiments on standard distributed black-box benchmarks and real-world distributed tasks show that LAC-MAS consistently improves solution quality, convergence efficiency, and communication efficiency over strong baselines, suggesting a practical route from handcrafted distributed coordination toward self-designing multi-agent optimization systems.",
-    "source": "ArXiv",
-    "published": "2026-05-01T14:30:38+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "The Potential Welfare Gains from Curtailment Trading Under Non-Firm Interconnection",
-    "link": "http://arxiv.org/abs/2605.00690v1",
-    "summary": "Rapid growth of large loads led by data centers is straining grid capacity. These loads increasingly accept curtailment risk through non-firm interconnection agreements to gain faster grid access, expanding the pool of consumers subject to mandatory disconnection during supply shortfalls. Yet, blunt rules assign curtailment without reference to the wide variation in the value consumers place on avoiding curtailment, often captured by the value of lost load (VOLL). This paper introduces the network-constrained Curtailment Credit Market (CCM), a mechanism in which agents submit bids that determine bilateral credit flows, subject to transmission network constraints. We prove that the bilateral credit flow representation can reach every curtailment allocation available to an omniscient central planner (feasible-set equivalence), so the bilateral flow structure introduces no loss of allocative capability. Under truthful bidding, the CCM achieves the planner's total value of served load, matching the planner's allocative benchmark when bids reflect true interruption costs. The CCM is formulated as a bilevel clearing problem that admits an exact single-level mixed-integer linear program (MILP), solved in 0.01 to 83 seconds. Numerical experiments on three test systems validate the mechanism at increasing scale and complexity: a 3-bus toy network that isolates the core trading logic, the IEEE 24-bus reliability test system as a standard benchmark, and a reduced New York (NY) grid that captures coordination across NY load zones. Our simulations show that the CCM increases the total value of served load by 1.24 to 1.83 times relative to pro-rata curtailment. On the three test systems examined here, no participant is worse off under incentive-compatible benchmark payments than under the administrative baseline.",
-    "source": "ArXiv",
-    "published": "2026-05-01T14:27:18+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "ML-Bench&Guard: Policy-Grounded Multilingual Safety Benchmark and Guardrail for Large Language Models",
-    "link": "http://arxiv.org/abs/2605.00689v1",
-    "summary": "As Large Language Models (LLMs) are increasingly deployed in cross-linguistic contexts, ensuring safety in diverse regulatory and cultural environments has become a critical challenge. However, existing multilingual benchmarks largely rely on general risk taxonomies and machine translation, which confines guardrail models to these predefined categories and hinders their ability to align with region-specific regulations and cultural nuances. To bridge these gaps, we introduce ML-Bench, a policy-grounded multilingual safety benchmark covering 14 languages. ML-Bench is constructed directly from regional regulations, where risk categories and fine-grained rules derived from jurisdiction-specific legal texts are directly used to guide the generation of multilingual safety data, enabling culturally and legally aligned evaluation across languages. Building on ML-Bench, we develop ML-Guard, a Diffusion Large Language Model (dLLM)-based guardrail model that supports multilingual safety judgment and policy-conditioned compliance assessment. ML-Guard has two variants, one 1.5B lightweight model for fast `safe/unsafe' checking and a more capable 7B model for customized compliance checking with detailed explanations. We conduct extensive experiments against 11 strong guardrail baselines across 6 existing multilingual safety benchmarks and our ML-Bench, and show that ML-Guard consistently outperforms prior methods. We hope that ML-Bench and ML-Guard can help advance the development of regulation-aware and culturally aligned multilingual guardrail systems.",
-    "source": "ArXiv",
-    "published": "2026-05-01T14:24:14+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "Static and Dynamic Graph Alignment Network for Temporal Video Grounding",
-    "link": "http://arxiv.org/abs/2605.00684v1",
-    "summary": "Temporal Video Grounding (TVG) aims to localize temporal moments in an untrimmed video that semantically correspond to given natural language queries. Recently, Graph Convolutional Networks (GCN) have been widely adopted in TVG to model temporal relations among video clips and enhance contextual reasoning by constructing clip-level graphs. Despite their effectiveness, existing GCN-based TVG methods encounter three critical bottlenecks: 1) Most methods construct graph nodes using either static or dynamic features alone, resulting in incomplete visual representation and overlooking complementary semantics, 2) Most methods construct temporal graphs in a query-agnostic manner, leading to inefficient feature interaction within the temporal graph representation, and 3) Most methods often suffer from a single-granularity semantic matching, while direct training on complex temporal localization task may lead to slow convergence and suboptimal precision. To address these challenges, we propose Static and Dynamic Graph Alignment Network (SDGAN). First, SDGAN jointly exploits static and dynamic visual features to construct two complementary temporal graphs and performs Position-wise Nodes Alignment, enabling more expressive and robust visual representation. Second, SDGAN introduces Query-Clip Contrastive Learning and Adaptive Graph Modeling to explicitly align visual clips with their corresponding textual queries, yielding query-aware visual representations. Third, SDGAN incorporates multi-granularity temporal proposals within Progressive Easy-to-Hard Training Strategy, effectively bridging coarse-grained semantic localization and fine-grained temporal boundary refinement. Extensive experiments on three benchmark datasets demonstrate that SDGAN achieves superior performance across complex TVG scenarios. Codes and datasets are available at https://github.com/ZhanJieHu/SDGAN.",
-    "source": "ArXiv",
-    "published": "2026-05-01T14:16:42+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "Evaluating the Architectural Reasoning Capabilities of LLM Provers via the Obfuscated Natural Number Game",
-    "link": "http://arxiv.org/abs/2605.00677v1",
-    "summary": "While Large Language Models have achieved notable success on formal mathematics benchmarks such as MiniF2F, it remains unclear whether these results stem from genuine logical reasoning or semantic pattern matching against pre-training data. This paper identifies Architectural Reasoning: the ability to synthesize formal proofs using exclusively local axioms and definitions within an alien math domain, as the necessary ability for future automated theorem discovery AI. We use the Obfuscated Natural Number Game, a benchmark to evaluate Architectural Reasoning. By renaming identifiers in the Natural Number Game in Lean 4, we created a zero-knowledge, closed environment. We evaluate state-of-the-art models, finding a universal latency tax where obfuscation increases inference time. The results also reveal a divergence in robustness: while general models (Claude-Sonnet-4.5, GPT-4o) suffer performance degradation, reasoning models (DeepSeek-R1, GPT-5, DeepSeek-Prover-V2) maintain the same accuracy despite the absence of semantic cues. These findings provide a quantitative metric for assessing the true capacity for mathematical reasoning.",
-    "source": "ArXiv",
-    "published": "2026-05-01T14:03:05+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "Living Databases: A Unified Model for Continuous Schema Evolution, Versioning, and Transformations",
-    "link": "http://arxiv.org/abs/2605.00676v1",
-    "summary": "Databases, and datasets more generally, evolve continuously through updates, transformations, versioning, schema changes, streaming operations, and other mechanisms. While prior work has noted connections among some of these areas, they have traditionally been studied in isolation, each with its own abstractions, algorithms, and system implementations. In this paper, we argue for unifying these diverse functionalities under a single abstraction and a common set of computational primitives. We present such an abstraction, powerful enough to encompass existing use cases and to support new ones. Going beyond previous approaches, our framework seamlessly integrates provenance tracking for system-visible operations, conditional propagation of updates, and configurable alerts on change events. It also offers a principled treatment of dependent objects such as views and derived artifacts like machine learning models, by providing declarative mechanisms to control their evolution. Finally, we sketch a prototype implementation in a relational-like database system based on an adaptation of the \"Prolly Tree\", a Merkle tree-inspired data structure with tunable parameters to meet varying performance requirements, and present some initial experimental results.",
-    "source": "ArXiv",
-    "published": "2026-05-01T14:02:35+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "Beyond Benchmarks: MathArena as an Evaluation Platform for Mathematics with LLMs",
-    "link": "http://arxiv.org/abs/2605.00674v1",
-    "summary": "Large language models (LLMs) are becoming increasingly capable mathematical collaborators, but static benchmarks are no longer sufficient for evaluating progress: they are often narrow in scope, quickly saturated, and rarely updated. This makes it hard to compare models reliably and track progress over time. Instead, we need evaluation platforms: continuously maintained systems that run, aggregate, and analyze evaluations across many benchmarks to give a comprehensive picture of model performance within a broad domain. In this work, we build on the original MathArena benchmark by substantially broadening its scope from final-answer olympiad problems to a continuously maintained evaluation platform for mathematical reasoning with LLMs. MathArena now covers a much wider range of tasks, including proof-based competitions, research-level arXiv problems, and formal proof generation in Lean. Additionally, we maintain a clear evaluation protocol for all models and regularly design new benchmarks as model capabilities improve to ensure that MathArena remains challenging. Notably, the strongest model, GPT-5.5, now reaches 98% on the 2026 USA Math Olympiad and 74% on research-level questions, showing that frontier models can now comfortably solve extremely challenging mathematical problems. This highlights the importance of continuously maintained evaluation platforms like MathArena to track the rapid progress of LLMs in mathematical reasoning.",
-    "source": "ArXiv",
-    "published": "2026-05-01T13:56:34+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "Efficient Incremental #SAT via Cross-Instance Knowledge Reuse",
-    "link": "http://arxiv.org/abs/2605.00671v1",
-    "summary": "Model counting ($\\#\\text{SAT}$) is a fundamental yet $\\#\\text{P}$-complete problem central to probabilistic reasoning. In this work, we address \\textit{incremental model counting}, where sequences of structurally similar formulas must be counted. We propose an approach that amortizes computation via a persistent caching mechanism, retaining component data across solver calls to avoid redundant search. Additionally, we investigate branching heuristics adapted for this setting. We focus on the problems of argumentation and soft core, for which incremental model counting is natural. Experiments demonstrate that our method improves performance compared to current model counters, highlighting the capability of structure-aware reuse in dynamic environments.",
-    "source": "ArXiv",
-    "published": "2026-05-01T13:55:03+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "Robust Multimodal Recommendation via Graph Retrieval-Enhanced Modality Completion",
-    "link": "http://arxiv.org/abs/2605.00670v1",
-    "summary": "Multimodal data plays a critical role in web-based recommendation systems, where information from diverse modalities such as vision and text enhances representation learning. However, real-world multimodal datasets often suffer from modality incompleteness due to sensor failures, annotation scarcity, or privacy constraints, which substantially degrade model performance and reliability. One effective solution to address this issue is modality completion, which reconstructs missing features to provide modality-complete graphs for downstream tasks. Given a query node with missing multimodal features, existing modality completion methods typically infer information from the node itself or its neighbors to reconstruct the missing modality. However, these methods may overlook semantically relevant context in the graph, which contains valuable cues that are non-trivial to capture through simple methods like neighborhood aggregation. In this work, we propose GRE-MC, a Graph Retrieval-Enhanced Modality Completion framework, to overcome these limitations. By introducing a modality-aware subgraph retrieval mechanism, GRE-MC selects semantically relevant subgraphs from the entire graph, providing richer contextual information for completing missing modalities. Subsequently, a graph transformer jointly encodes the query node and the retrieved subgraph via global attention to complete the missing features, while a learnable sparse-routing codebook regularizes latent embeddings into compact bases for improved robustness. Extensive experiments on multimodal recommendation benchmarks demonstrate that GRE-MC consistently outperforms state-of-the-art methods, validating the effectiveness of subgraph retrieval and joint-encoding graph transformer for robust modality completion.",
-    "source": "ArXiv",
-    "published": "2026-05-01T13:50:52+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "Prediction of Alzheimer's Disease Risk Factors from Retinal Images via Deep Learning: Development and Validation of Biologically Relevant Morphological Associations in the UK Biobank",
-    "link": "http://arxiv.org/abs/2605.00665v1",
-    "summary": "The systemic, metabolic, lifestyle factors have established associations with Alzheimer's Disease (AD) through epidemiologic and AD-specific biomarker studies. Whether colored fundus photography (CFP) contains retinal structural signatures corresponding to these AD-related risk domains remains unclear. To determine whether deep learning (DL) models can predict 12 AD-related risk factors from CFP and to characterize the retinal structures underlying these predictions, thereby assessing whether CFP reflects pathways to AD vulnerability. Using UK Biobank CFPs, DL models were trained using 62,876 images from 44,501 unique participants to predict 12 factors linked to AD incidence: 6 categorical (sex, smoking, sleeplessness, economic status, alcohol use, depression) and 6 continuous (age, age at completing education, BMI, systolic, diastolic blood pressure, HbA1c). Model performance, model saliency, and saliency-derived scores (CAM-Score) were evaluated and compared to retinal morphometry. The scores were also compared between incident-AD cases (average 8.55 years before onset) and matched controls. Performance of DL ranged from AUROC= 0.5654-0.9480 for categorical and R2=-0.0291-0.7620 for continuous factors, outperforming most of the morphometry-machine learning models. Saliency-based score consistently highlighted biologically meaningful regions, particularly the optic nerve head and retinal vasculature. It also aligned with present morphometric variations. Several saliency-based scores differed significantly between incident AD and matched controls, suggesting potential overlap between retinal correlates of risk factors and preclinical AD-associated changes. CFP encodes retinal signatures linked to AD risk factors. Although not diagnostic, DL-derived retinal representations may uncover biologically meaningful risk-related structural changes mirroring the potential AD vulnerability.",
-    "source": "ArXiv",
-    "published": "2026-05-01T13:45:37+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "Affordance Agent Harness: Verification-Gated Skill Orchestration",
-    "link": "http://arxiv.org/abs/2605.00663v1",
-    "summary": "Affordance grounding requires identifying where and how an agent should interact in open-world scenes, where actionable regions are often small, occluded, reflective, and visually ambiguous. Recent systems therefore combine multiple skills (e.g., detection, segmentation, interaction-imagination), yet most orchestrate them with fixed pipelines that are poorly matched to per-instance difficulty, offer limited targeted recovery from intermediate errors, and fail to reuse experience from recurring objects. These failures expose a systems problem: test-time grounding must acquire the right evidence, decide whether that evidence is reliable enough to commit, and do so under bounded inference cost without access to labels. We propose Affordance Agent Harness, a closed-loop runtime that unifies heterogeneous skills with an evidence store and cost control, retrieves episodic memories to provide priors for recurring categories, and employs a Router to adaptively select and parameterize skills. An affordance-specific Verifier then gates commitments using self-consistency, cross-scale stability, and evidence sufficiency, triggering targeted retries before a final judge fuses accumulated evidence and trajectories into the prediction. Experiments on multiple affordance benchmarks and difficulty-controlled subsets show a stronger accuracy-cost Pareto frontier than fixed-pipeline baselines, improving grounding quality while reducing average skill calls and latency. Project page: https://tenplusgood.github.io/a-harness-page/.",
-    "source": "ArXiv",
-    "published": "2026-05-01T13:45:16+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "UniVidX: A Unified Multimodal Framework for Versatile Video Generation via Diffusion Priors",
-    "link": "http://arxiv.org/abs/2605.00658v1",
-    "summary": "Recent progress has shown that video diffusion models (VDMs) can be repurposed for diverse multimodal graphics tasks. However, existing methods often train separate models for each problem setting, which fixes the input-output mapping and limits the modeling of correlations across modalities. We present UniVidX, a unified multimodal framework that leverages VDM priors for versatile video generation. UniVidX formulates pixel-aligned tasks as conditional generation in a shared multimodal space, adapts to modality-specific distributions while preserving the backbone's native priors, and promotes cross-modal consistency during synthesis. It is built on three key designs. Stochastic Condition Masking (SCM) randomly partitions modalities into clean conditions and noisy targets during training, enabling omni-directional conditional generation instead of fixed mappings. Decoupled Gated LoRA (DGL) introduces per-modality LoRAs that are activated when a modality serves as the generation target, preserving the strong priors of the VDM. Cross-Modal Self-Attention (CMSA) shares keys and values across modalities while keeping modality-specific queries, facilitating information exchange and inter-modal alignment. We instantiate UniVidX in two domains: UniVid-Intrinsic, for RGB videos and intrinsic maps including albedo, irradiance, and normal; and UniVid-Alpha, for blended RGB videos and their constituent RGBA layers. Experiments show that both models achieve performance competitive with state-of-the-art methods across distinct tasks and generalize robustly to in-the-wild scenarios, even when trained on fewer than 1,000 videos. Project page: https://houyuanchen111.github.io/UniVidX.github.io/",
-    "source": "ArXiv",
-    "published": "2026-05-01T13:40:56+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "EQSANS-CLI: A natural-language, agent-ready command-line tool for small-angle neutron scattering data reduction at EQ-SANS",
-    "link": "http://arxiv.org/abs/2605.00651v1",
-    "summary": "Small-angle neutron scattering (SANS) data reduction at user facilities follows a largely repetitive workflow. Runs are first classified in the catalog and matched to transmission, background, and empty-beam references within the same instrument configuration. The data are then reduced, placed on an absolute scale using a standard, and stitched across configurations. Although these steps are individually well understood, they remain weakly connected, producing a coordination burden that scales with the number of runs and configurations. This paper describes EQSANS-CLI, a command-line tool that organizes this workflow into a coherent, scriptable, and agent-addressable system. The design rests on four principles: a shared command-handler layer that all input paths converge on; a persistent \\emph{working table} that holds every reduction decision as editable rows; two input surfaces (an interactive terminal and a headless JSON mode) that compile to the same handler entry point; and a status-driven re-reduction model that treats parameter changes as first-class events. An \\texttt{/autopilot} command chains the full pipeline from the IPTS number to stitched $I(Q)$ curves in one invocation. A Slack bot demonstrates that the headless interface, together with a single skill document loaded into an external agent's system prompt, is sufficient to drive complete reductions by natural language from a mobile device. The architecture is intentionally minimal on the agent side: the CLI is the authoritative executor, and the agent's only job is to translate human intent into commands on a stable contract.",
-    "source": "ArXiv",
-    "published": "2026-05-01T13:32:22+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "AdaMeZO: Adam-style Zeroth-Order Optimizer for LLM Fine-tuning Without Maintaining the Moments",
-    "link": "http://arxiv.org/abs/2605.00650v1",
-    "summary": "Fine-tuning LLMs is necessary for various dedicated downstream tasks, but classic backpropagation-based fine-tuning methods require substantial GPU memory. To this end, a recent work, MeZO, which relies solely on forward passes to fine-tune LLMs, significantly reduces GPU requirements at the cost of slower convergence due to its indifference to loss landscapes. Standard solutions, such as Adam, explore loss landscapes by estimating the first- and second-order moments and storing them in memory to guide the model's movement through dimensions with lower curvature and vice versa. However, directly applying Adam negates MeZO's advantage as it will triple the memory requirement. In light of this, we propose AdaMeZO, a zeroth-order optimizer that leverages Adam-style first- and second-moment estimates without maintaining them in memory. We present a theoretical analysis of AdaMeZO, corroborated by extensive experiments demonstrating AdaMeZO's performance, showing that AdaMeZO can outperform MeZO while requiring up to $70\\%$ fewer forward passes. Trajectory visualizations affirm AdaMeZO's ability to adapt to diverse loss landscapes.",
-    "source": "ArXiv",
-    "published": "2026-05-01T13:31:35+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "Budget Constraints as Riemannian Manifolds",
-    "link": "http://arxiv.org/abs/2605.00649v1",
-    "summary": "Assigning one of K options to each of N groups under a total cost budget is a recurring problem in machine learning, appearing in mixed-precision quantization, non-uniform pruning, and expert selection. The objective (model loss) depends jointly on all assignments and does not decompose across groups, which prevents combinatorial solvers from optimizing the true objective directly and limits them to proxy objectives. Evolutionary search evaluates the actual loss but lacks gradient information, while penalty-based methods provide gradients but enforce the budget only approximately and require sensitive hyperparameter tuning. We observe that under softmax relaxation, the budget constraint defines a smooth Riemannian manifold in logit space with particularly simple geometry: the normal vector is available in closed form, shifting logits along the cost vector changes expected cost monotonically, allowing binary-search retraction, and vector transport reduces to a single inner product. Building on this structure, we propose Riemannian Constrained Optimization (RCO), which augments a standard Adam update with tangent projection, binary-search retraction, and momentum transport. Combined with Gumbel straight-through estimation and budget-constrained dynamic programming for discrete feasibility, RCO enables first-order optimization of the true objective under exact budget enforcement, without introducing constraint hyperparameters. On synthetic knapsack problems with known optima, the manifold-based constraint handling recovers optimal solutions, whereas penalty methods plateau at 83% of optimal. On LLM compression tasks, including mixed-precision quantization and MoE expert pruning, RCO matches or exceeds evolutionary search methods while requiring 3x to 16x lower wall-clock cost on the evaluated configurations.",
-    "source": "ArXiv",
-    "published": "2026-05-01T13:30:23+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "From Prediction to Practice: A Task-Aware Evaluation Framework for Blood Glucose Forecasting",
-    "link": "http://arxiv.org/abs/2605.00645v1",
-    "summary": "Clinical time-series forecasting is increasingly studied for decision support, yet standard aggregate metrics can obscure whether a model is actually useful for the task it is meant to serve. In safety-critical settings, low average error can coexist with dangerous failures in exactly the high-risk regimes that matter most. We present a task-aware evaluation framework for blood glucose forecasting built around two downstream uses: hypoglycemia early warning and insulin dosing decision support. For early warning, we evaluate on real data from three clinical cohorts using event-level recall and false alarms per patient-day, metrics that reflect operational alarm burden rather than aggregate accuracy. We show that models appearing acceptable overall, with recall above 0.9 on the full test set, can fail badly in the post-bolus slice, where insulin-on-board is elevated and missed warnings carry the greatest clinical consequences. Standard forecasting evaluation, however, does not test whether a model can reason about the effects of actions, a requirement for supporting insulin dosing decisions. We therefore add a second, interventional arm using the FDA-accepted UVA/Padova simulator, where we evaluate whether forecasters can predict glucose responses to altered insulin plans in paired factual/counterfactual scenarios. We show that models that look strong on real-data forecasting often fail to predict the direction, magnitude, or ranking of intervention effects, and choose poor insulin doses when evaluated under a clinically motivated cost. Taken together, the two arms reveal a consistent gap between forecasting accuracy and task-relevant usefulness. We release the benchmark, the standardized preprocessing pipeline for public cohorts, and the simulator-based interventional dataset as a reproducible toolkit.",
-    "source": "ArXiv",
-    "published": "2026-05-01T13:26:28+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "Learning Multimodal Energy-Based Model with Multimodal Variational Auto-Encoder via MCMC Revision",
-    "link": "http://arxiv.org/abs/2605.00644v1",
-    "summary": "Energy-based models (EBMs) are a flexible class of deep generative models and are well-suited to capture complex dependencies in multimodal data. However, learning multimodal EBM by maximum likelihood requires Markov Chain Monte Carlo (MCMC) sampling in the joint data space, where noise-initialized Langevin dynamics often mixes poorly and fails to discover coherent inter-modal relationships. Multimodal VAEs have made progress in capturing such inter-modal dependencies by introducing a shared latent generator and a joint inference model. However, both the shared latent generator and joint inference model are parameterized as unimodal Gaussian (or Laplace), which severely limits their ability to approximate the complex structure induced by multimodal data. In this work, we study the learning problem of the multimodal EBM, shared latent generator, and joint inference model. We present a learning framework that effectively interweaves their MLE updates with corresponding MCMC refinements in both the data and latent spaces. Specifically, the generator is learned to produce coherent multimodal samples that serve as strong initial states for EBM sampling, while the inference model is learned to provide informative latent initializations for generator posterior sampling. Together, these two models serve as complementary models that enable effective EBM sampling and learning, yielding realistic and coherent multimodal EBM samples. Extensive experiments demonstrate superior performance for multimodal synthesis quality and coherence compared to various baselines. We conduct various analyses and ablation studies to validate the effectiveness and scalability of the proposed multimodal framework.",
-    "source": "ArXiv",
-    "published": "2026-05-01T13:25:11+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "Learn where to Click from Yourself: On-Policy Self-Distillation for GUI Grounding",
-    "link": "http://arxiv.org/abs/2605.00642v1",
-    "summary": "Graphical User Interface (GUI) grounding maps natural language instructions to the visual coordinates of target elements and serves as a core capability for autonomous GUI agents. Recent reinforcement learning methods (e.g., GRPO) have achieved strong performance, but they rely on expensive multiple rollouts and suffer from sparse signals on hard samples. These limitations make on-policy self-distillation (OPSD), which provides dense token-level supervision from a single rollout, a promising alternative. However, its applicability to GUI grounding remains unexplored. In this paper, we present GUI-SD, the first OPSD framework tailored for GUI grounding. First, it constructs a visually enriched privileged context for the teacher using a target bounding box and a Gaussian soft mask, providing informative guidance without leaking exact coordinates. Second, it employs entropy-guided distillation, which adaptively weights tokens based on digit significance and teacher confidence, concentrating optimization on the most impactful and reliable positions. Extensive experiments on six representative GUI grounding benchmarks show that GUI-SD consistently outperforms GRPO-based methods and naive OPSD in both accuracy and training efficiency. Code and training data are available at https://zhangyan-ucas.github.io/GUI-SD/.",
-    "source": "ArXiv",
-    "published": "2026-05-01T13:23:26+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "Knowing when to trust machine-learned interatomic potentials",
-    "link": "http://arxiv.org/abs/2605.00640v1",
-    "summary": "Prevailing machine-learned interatomic potential (MLIP) uncertainty-quantification methods rely on ensembles of independently trained backbones. These methods scale unfavorably with foundation-scale MLIPs, and their member-disagreement signals correlate weakly with per-molecule prediction error. Here we probe the frozen per-atom representations of a pretrained MLIP with a compact discriminative classifier, recasting MLIP uncertainty quantification as selective classification rather than error regression. The resulting method, PROBE (Post-hoc Reliability frOm Backbone Embeddings), produces a per-prediction reliability probability that monotonically tracks actual error without modification to the underlying model. Across large held-out evaluation sets and two structurally distinct MLIP architectures, PROBE outperforms ensemble disagreement as a binary reliability signal, which strengthens with the expressiveness of the backbone representation, implying a favorable scaling trajectory toward foundation-scale MLIPs. Multi-head self-attention additionally yields per-atom importance maps, providing chemically interpretable diagnostics at no additional computational cost. PROBE is post-hoc and architecture-agnostic, and is directly deployable on any MLIP that exposes per-atom representations.",
-    "source": "ArXiv",
-    "published": "2026-05-01T13:21:56+00:00",
     "type": "paper",
     "display_category": "Top Paper",
     "processed": {
