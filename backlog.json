@@ -1,5 +1,125 @@
 [
   {
+    "title": "How finance teams use Codex",
+    "link": "https://openai.com/academy/how-finance-teams-use-codex",
+    "summary": "See how finance teams can use Codex to build MBRs, reporting packs, variance bridges, model checks, and planning scenarios from real work inputs.",
+    "source": "OpenAI News",
+    "published": "2026-05-12T15:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* The implementation leverages **Codex** to translate natural language prompts into technical financial artifacts, such as **Monthly Business Reviews (MBRs)** and **reporting packs**.\n* The architecture focuses on the automation of **variance bridges** and **model checks**, using the model as a bridge between raw data inputs and structured analytical outputs.\n* The primary impact is the reduction of manual effort in **planning scenarios**, allowing finance teams to generate complex data visualizations and reports through **code generation**.",
+      "key_results": [
+        "Automated generation of structured Monthly Business Reviews",
+        "Conversion of raw inputs into dynamic variance bridges",
+        "Streamlined creation of financial reporting packs",
+        "Implementation of automated integrity checks for financial models",
+        "Rapid iteration of planning scenarios using natural language"
+      ],
+      "relevance_score": 3,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "OpenAI demonstrates how Codex automates financial reporting and modeling by translating natural language into executable data structures.",
+      "lead_institution": "OpenAI",
+      "tags": [
+        "Codex",
+        "Code Generation",
+        "Financial AI",
+        "Workflow Automation",
+        "OpenAI"
+      ]
+    }
+  },
+  {
+    "title": "How NVIDIA engineers and researchers build with Codex",
+    "link": "https://openai.com/index/nvidia",
+    "summary": "Teams use Codex with GPT-5.5 to ship production systems and turn research ideas into runnable experiments.",
+    "source": "OpenAI News",
+    "published": "2026-05-12T00:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- NVIDIA engineers integrate **Codex** and **GPT-5.5** to streamline the transition from theoretical research to **runnable experiments**.\n- The architecture focuses on the deployment of **production systems**, leveraging advanced code generation to reduce engineering friction.\n- The implementation highlights the impact of **LLM-driven automation** on the software development lifecycle for high-performance computing.",
+      "key_results": [
+        "Acceleration of the research-to-production pipeline.",
+        "Enhanced developer velocity using GPT-5.5 reasoning capabilities.",
+        "Automated generation of functional experiment scripts from conceptual ideas.",
+        "Successful deployment of Codex-assisted systems in production environments.",
+        "Standardization of LLM-based engineering workflows across NVIDIA teams."
+      ],
+      "relevance_score": 6,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "NVIDIA utilizes OpenAI Codex and GPT-5.5 to bridge the gap between research concepts and production-grade software.",
+      "lead_institution": "OpenAI News",
+      "tags": [
+        "Codex",
+        "GPT-5.5",
+        "NVIDIA",
+        "LLM Engineering",
+        "Generative AI"
+      ]
+    }
+  },
+  {
+    "title": "What Parameter Golf taught us about AI-assisted research",
+    "link": "https://openai.com/index/what-parameter-golf-taught-us",
+    "summary": "Parameter Golf brought together 1,000+ participants and 2,000+ submissions to explore AI-assisted machine learning research, coding agents, quantization, and novel model design under strict constraints.",
+    "source": "OpenAI News",
+    "published": "2026-05-12T00:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* The competition evaluated how **coding agents** can accelerate machine learning research by automating the discovery of novel **architectural designs**.\n* Participants utilized advanced **quantization** and pruning techniques to fit high-performance models into extremely small **parameter budgets**.\n* The event demonstrated a shift toward **autonomous research agents** capable of iterative model improvement and hardware-aware optimization.",
+      "key_results": [
+        "Over 1,000 participants generated 2,000+ unique model submissions.",
+        "Showcased the viability of sub-100M parameter models for specific tasks.",
+        "Identified successful patterns in AI-assisted hyperparameter optimization.",
+        "Validated coding agents' ability to handle complex ML implementation constraints.",
+        "Established a new benchmark format for evaluating AI research autonomy."
+      ],
+      "relevance_score": 3,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "OpenAI's Parameter Golf demonstrates how AI agents can autonomously optimize model architectures and quantization under tight constraints.",
+      "lead_institution": "OpenAI",
+      "tags": [
+        "LLM Agents",
+        "Model Optimization",
+        "Quantization",
+        "SLMs",
+        "AI Research"
+      ]
+    }
+  },
+  {
+    "title": "AutoScout24 scales engineering with AI-powered workflows",
+    "link": "https://openai.com/index/autoscout24",
+    "summary": "Learn how AutoScout24 Group uses Codex and ChatGPT to speed development cycles, improve code quality, and expand AI adoption.",
+    "source": "OpenAI News",
+    "published": "2026-05-12T00:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- AutoScout24 integrates **Codex** and **ChatGPT** into its engineering ecosystem to automate **boilerplate code generation** and unit testing.\n- The architecture focuses on **Developer Experience (DevEx)**, leveraging AI to facilitate the migration of **legacy codebases** to modern frameworks.\n- The implementation utilizes **Generative AI** to maintain high **code quality** standards while significantly reducing the time required for routine debugging and documentation tasks.",
+      "key_results": [
+        "Accelerated software development lifecycles across engineering teams.",
+        "Reduction in manual effort for unit test creation and documentation.",
+        "Improved consistency in code standards across distributed services.",
+        "Faster refactoring and migration of legacy services to modern stacks.",
+        "Widespread internal adoption of AI-driven developer workflows."
+      ],
+      "relevance_score": 4,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "AutoScout24 adopts OpenAI's generative models to automate routine coding tasks and accelerate the modernization of its legacy software architecture.",
+      "lead_institution": "OpenAI News",
+      "tags": [
+        "Generative AI",
+        "Codex",
+        "Developer Productivity",
+        "Code Refactoring",
+        "AI Adoption"
+      ]
+    }
+  },
+  {
     "title": "How ChatGPT adoption broadened in early 2026",
     "link": "https://openai.com/signals/research/2026q1-update",
     "summary": "ChatGPT adoption surged in Q1 2026, with fastest growth among users over 35 and more balanced gender usage, signaling broader mainstream AI adoption.",
@@ -8,24 +128,504 @@
     "type": "blog",
     "display_category": "Top News",
     "processed": {
-      "summary": "\n* **ChatGPT adoption** metrics indicate a rapid transition from technical early adopters to a **mainstream demographic** profile.\n* Fastest growth was observed in the **35+ age bracket**, suggesting increased integration of LLMs into professional and personal workflows for non-digital natives.\n* The achievement of **gender-balanced usage** reflects the evolving accessibility and broad utility of **Generative AI** interfaces.\n* Market data suggests a shift where **UX design** and multi-generational utility are driving the next phase of LLM scaling.",
+      "summary": "\n- OpenAI reports a significant surge in **ChatGPT adoption** during Q1 2026, marking a shift toward **mainstream market penetration**.\n- Demographic analysis shows the fastest growth in the **35+ age bracket**, moving beyond the initial technical early-adopter segments.\n- The user base has achieved more **balanced gender usage**, indicating the product's successful transition into a general-purpose consumer utility.",
       "key_results": [
-        "Significant surge in ChatGPT user adoption during Q1 2026.",
-        "Demographic shift showing highest growth among users over age 35.",
-        "Achievement of more balanced gender distribution across the platform.",
-        "Transition of AI tools from niche technical use-cases to mainstream utility.",
-        "Consolidation of ChatGPT's position as a dominant consumer AI product."
+        "Overall ChatGPT usage surged in Q1 2026.",
+        "Highest growth rate observed in users aged 35 and older.",
+        "Significant improvement in gender distribution across the platform.",
+        "Transition from niche tech tool to a broad mainstream application.",
+        "Evidence of Large Language Models becoming a core component of daily consumer activity."
       ],
-      "relevance_score": 4,
-      "signal_type": "Release",
-      "one_sentence_takeaway": "OpenAI reports that ChatGPT has transitioned to mainstream adoption through significant growth in older and more diverse demographics.",
+      "relevance_score": 3,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "OpenAI reports that ChatGPT achieved mainstream parity in Q1 2026 through significant growth in older and diverse demographics.",
       "lead_institution": "OpenAI News",
       "tags": [
         "Generative AI Trends",
         "LLM Adoption",
-        "Market Analysis",
-        "User Demographics",
-        "Consumer AI"
+        "OpenAI",
+        "Consumer AI",
+        "Market Demographics"
+      ]
+    }
+  },
+  {
+    "title": "Migrating Data Ingestion Systems at Meta Scale",
+    "link": "https://engineering.fb.com/2026/05/12/data-infrastructure/migrating-data-ingestion-systems-at-meta-scale/",
+    "summary": "<p>Meta\u2019s data ingestion system, which our engineering teams leverage for up-to-date snapshots of the social graph, has recently undergone a significant revamp to enhance its reliability at scale.\u00a0 Moving from our legacy system to our new architecture required a large-scale migration of our entire data ingestion system.\u00a0 We\u2019re sharing the solutions and strategies that enabled [...]</p>\n<p><a class=\"btn btn-secondary understrap-read-more-link\" href=\"https://engineering.fb.com/2026/05/12/data-infrastructure/migrating-data-ingestion-systems-at-meta-scale/\">Read More...</a></p>\n<p>The post <a href=\"https://engineering.fb.com/2026/05/12/data-infrastructure/migrating-data-ingestion-systems-at-meta-scale/\">Migrating Data Ingestion Systems at Meta Scale</a> appeared first on <a href=\"https://engineering.fb.com\">Engineering at Meta</a>.</p>",
+    "source": "Engineering at Meta",
+    "published": "2026-05-12T16:00:57+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n\u2022 Meta overhauled its **data ingestion system** to provide more reliable snapshots of the social graph for downstream consumption. \n\u2022 The revamp involved a massive **architectural migration** from legacy pipelines to a new system designed for extreme scalability. \n\u2022 The new architecture prioritizes **data consistency** and reliability, forming a critical foundation for high-scale discovery and AI applications.",
+      "key_results": [
+        "Successfully migrated the entire social graph data ingestion ecosystem.",
+        "Enhanced system reliability for critical data snapshots at Meta scale.",
+        "Streamlined infrastructure to reduce technical debt from legacy pipelines.",
+        "Implemented strategies for large-scale architectural transitions without downtime.",
+        "Improved throughput capacity for high-volume social graph data processing."
+      ],
+      "relevance_score": 6,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Meta migrates its data ingestion infrastructure to a more reliable architecture, improving social graph snapshotting for massive-scale systems.",
+      "lead_institution": "Meta",
+      "tags": [
+        "Data Infrastructure",
+        "Data Ingestion",
+        "Social Graph",
+        "Scalability",
+        "System Migration"
+      ]
+    }
+  },
+  {
+    "title": "Labyrinth 1.1: Making End-to-End Encrypted Backups Even More Reliable",
+    "link": "https://engineering.fb.com/2026/05/11/security/labyrinth-1-1-end-to-end-encrypted-e2ee-backups-more-reliable/",
+    "summary": "<p>We\u2019re rolling out version 1.1 of Labyrinth, the encrypted storage system and protocol that secures messages and history on Messenger. Labyrinth 1.1 enhances the reliability of end-to-end encrypted backups with a new sub-protocol that helps messages survive the loss of a device, a switched device, and long gaps between sign-ins. Read our updated white paper, [...]</p>\n<p><a class=\"btn btn-secondary understrap-read-more-link\" href=\"https://engineering.fb.com/2026/05/11/security/labyrinth-1-1-end-to-end-encrypted-e2ee-backups-more-reliable/\">Read More...</a></p>\n<p>The post <a href=\"https://engineering.fb.com/2026/05/11/security/labyrinth-1-1-end-to-end-encrypted-e2ee-backups-more-reliable/\">Labyrinth 1.1: Making End-to-End Encrypted Backups Even More Reliable\u00a0</a> appeared first on <a href=\"https://engineering.fb.com\">Engineering at Meta</a>.</p>",
+    "source": "Engineering at Meta",
+    "published": "2026-05-11T16:00:55+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Meta updates its **Labyrinth** encrypted storage system to version 1.1 to enhance **End-to-End Encrypted (E2EE)** backup reliability.\n- The update introduces a new **sub-protocol** specifically engineered to ensure message history persistence during device loss or hardware migration.\n- Focuses on maintaining **cryptographic integrity** and data availability during extended periods of user inactivity or sign-in gaps.",
+      "key_results": [
+        "Improved message survival during total device loss scenarios.",
+        "Streamlined data restoration for users switching to new hardware.",
+        "Enhanced resilience for accounts with long gaps between active sessions.",
+        "Release of an updated technical white paper for security auditing.",
+        "Deployment of more robust E2EE message history syncing across the Messenger platform."
+      ],
+      "relevance_score": 4,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Meta releases Labyrinth 1.1 to improve the reliability and persistence of end-to-end encrypted message backups across device migrations.",
+      "lead_institution": "Meta",
+      "tags": [
+        "E2EE",
+        "Data Privacy",
+        "Cybersecurity",
+        "Meta",
+        "Infrastructure"
+      ]
+    }
+  },
+  {
+    "title": "Building Blocks for Foundation Model Training and Inference on AWS",
+    "link": "https://huggingface.co/blog/amazon/foundation-model-building-blocks",
+    "summary": "",
+    "source": "Hugging Face - Blog",
+    "published": "2026-05-11T23:18:26+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n\u2022 **Amazon SageMaker** and **Hugging Face Deep Learning Containers (DLCs)** provide a managed environment for training and deploying foundation models with minimal infrastructure overhead.\n\u2022 Support for specialized hardware like **AWS Trainium (Trn1)** and **Inferentia2 (Inf2)** is facilitated through the **Optimum Neuron** library, optimizing price-performance for LLM workloads.\n\u2022 The architecture leverages **Amazon S3** and **FSx for Lustre** to maintain high-throughput data feeding for distributed, multi-node training clusters.\n\u2022 Integration of **Text Generation Inference (TGI)** enables advanced serving features like continuous batching and PagedAttention on managed AWS endpoints.",
+      "key_results": [
+        "Streamlined workflow for migrating Hugging Face Hub models to AWS production environments.",
+        "Hardware-specific optimizations for Llama and Mistral architectures using AWS Neuron SDK.",
+        "Efficient multi-node scaling for foundation model pre-training and fine-tuning.",
+        "Reduced inference latency through Inf2-optimized model partitioning and quantization.",
+        "Automated infrastructure orchestration via SageMaker's Python SDK and Terraform modules."
+      ],
+      "relevance_score": 7,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Hugging Face collaborates with AWS to deliver optimized infrastructure and libraries for cost-effective foundation model training and inference.",
+      "lead_institution": "Hugging Face",
+      "tags": [
+        "AWS SageMaker",
+        "Model Deployment",
+        "Trainium",
+        "Inferentia",
+        "Distributed Training"
+      ]
+    }
+  },
+  {
+    "title": "GitHub Copilot individual plans: Introducing flex allotments in Pro and Pro+, and a new Max plan",
+    "link": "https://github.blog/news-insights/company-news/github-copilot-individual-plans-introducing-flex-allotments-in-pro-and-pro-and-a-new-max-plan/",
+    "summary": "<p>Starting June 1, our lineup of individual plans will update based on your feedback.</p>\n<p>The post <a href=\"https://github.blog/news-insights/company-news/github-copilot-individual-plans-introducing-flex-allotments-in-pro-and-pro-and-a-new-max-plan/\">GitHub Copilot individual plans: Introducing flex allotments in Pro and Pro+, and a new Max plan</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
+    "source": "The GitHub Blog",
+    "published": "2026-05-12T17:35:41+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "<br>\u2022 GitHub updates its subscription architecture with the introduction of **Pro**, **Pro+**, and **Max** individual plans to accommodate diverse developer needs.<br>\u2022 The **Max plan** represents a new high-tier offering designed for intensive users requiring advanced access to **Generative AI** capabilities and potentially larger usage windows.<br>\u2022 The implementation of **flex allotments** shifts the service toward a more dynamic resource allocation model, allowing for variable usage patterns across the Copilot ecosystem.",
+      "key_results": [
+        "Introduction of the high-tier GitHub Copilot Max plan.",
+        "Restructuring of existing Individual plans into Pro and Pro+ versions.",
+        "Implementation of 'flex allotments' for more elastic usage limits.",
+        "Shift toward usage-based customization for individual developers.",
+        "Planned rollout and transition date set for June 1."
+      ],
+      "relevance_score": 3,
+      "signal_type": "Release",
+      "one_sentence_takeaway": "GitHub launches new Copilot plan tiers to offer developers flexible usage allotments and premium feature access.",
+      "lead_institution": "GitHub",
+      "tags": [
+        "GitHub Copilot",
+        "Generative AI",
+        "Developer Tools",
+        "LLM Subscriptions",
+        "Productivity AI"
+      ]
+    }
+  },
+  {
+    "title": "Dungeons & Desktops: Building a procedurally generated roguelike with GitHub Copilot CLI",
+    "link": "https://github.blog/ai-and-ml/github-copilot/dungeons-desktops-building-a-procedurally-generated-roguelike-with-github-copilot-cli/",
+    "summary": "<p>Learn how one Hubber used GitHub Copilot CLI to build an extension that turns any codebase into a unique, roguelike dungeon.  </p>\n<p>The post <a href=\"https://github.blog/ai-and-ml/github-copilot/dungeons-desktops-building-a-procedurally-generated-roguelike-with-github-copilot-cli/\">Dungeons &amp; Desktops: Building a procedurally generated roguelike with GitHub Copilot CLI</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
+    "source": "The GitHub Blog",
+    "published": "2026-05-12T15:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Employs **GitHub Copilot CLI** to interpret codebase structures and file metadata, converting static directories into interactive **procedurally generated** game environments.\n- Integrates **natural language commands** via terminal interfaces to automate the creation of game assets and logic based on the user's current development context.\n- Demonstrates a novel use case for **LLM-assisted CLI tools**, bridging the gap between developer productivity tools and creative software engineering.",
+      "key_results": [
+        "Transformation of codebase hierarchies into functional roguelike dungeon maps.",
+        "Mapping of code complexity metrics to in-game enemy difficulty and loot systems.",
+        "Successful integration of GitHub Copilot CLI for rapid prototyping of game mechanics.",
+        "Showcase of AI-driven terminal extensions to enhance the developer experience.",
+        "Implementation of a procedural generation logic that interprets source code as game data."
+      ],
+      "relevance_score": 4,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "GitHub demonstrates building a procedurally generated roguelike game by leveraging the GitHub Copilot CLI to analyze codebase structures.",
+      "lead_institution": "GitHub",
+      "tags": [
+        "GitHub Copilot",
+        "CLI Tools",
+        "Procedural Generation",
+        "LLM Agents",
+        "Developer Productivity"
+      ]
+    }
+  },
+  {
+    "title": "GitHub for Beginners: Getting started with OSS contributions",
+    "link": "https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-oss-contributions/",
+    "summary": "<p>Learn how to find opportunities to contribute to the open source community.</p>\n<p>The post <a href=\"https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-oss-contributions/\">GitHub for Beginners: Getting started with OSS contributions</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
+    "source": "The GitHub Blog",
+    "published": "2026-05-11T16:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\u2022 Provides a **foundational roadmap** for developers to begin contributing to **Open Source Software (OSS)** by navigating the GitHub ecosystem.<br>\u2022 Focuses on leveraging **GitHub metadata** like labels and topics to discover accessible entry points for new contributors.<br>\u2022 Highlights the importance of **documentation standards** and community guidelines as the primary interface for collaborative engineering.",
+      "key_results": [
+        "Identifies 'good first issue' and 'help wanted' labels as primary discovery mechanisms.",
+        "Emphasizes the role of CONTRIBUTING.md files in streamlining the onboarding process.",
+        "Outlines the workflow for forking, cloning, and submitting Pull Requests to external repositories.",
+        "Discusses the value of non-code contributions such as documentation and issue triaging.",
+        "Explains how OSS participation builds professional visibility and technical proficiency."
+      ],
+      "relevance_score": 2,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "GitHub outlines a structured approach for novice developers to find and contribute to open-source projects using platform-native discovery tools.",
+      "lead_institution": "GitHub",
+      "tags": [
+        "Open Source",
+        "GitHub",
+        "Developer Relations",
+        "Software Engineering",
+        "OSS Contributions"
+      ]
+    }
+  },
+  {
+    "title": "How Amazon Finance streamlines regulatory inquiries by using generative AI on AWS",
+    "link": "https://aws.amazon.com/blogs/machine-learning/how-amazon-finance-streamlines-regulatory-inquiries-by-using-generative-ai-on-aws/",
+    "summary": "In this post, we demonstrate how Amazon FinTech teams are using Amazon Bedrock and other AWS services to build a scalable AI application to transform how regulatory inquiries are handled. Each team using this solution creates and maintains its own dedicated knowledge base, populated with that team's specific documents and reference materials.",
+    "source": "Artificial Intelligence",
+    "published": "2026-05-12T16:41:33+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n\u2022 Amazon FinTech leverages **Amazon Bedrock** to implement a decentralized **RAG (Retrieval-Augmented Generation)** architecture for automating complex regulatory inquiry workflows.\n\u2022 Each department maintains its own **dedicated knowledge base**, ensuring that team-specific context and proprietary documents are prioritized during the retrieval process.\n\u2022 The system utilizes **AWS managed services** to provide a scalable, secure framework for processing sensitive financial and legal documentation across multiple business units.\n\u2022 This approach transforms manual information retrieval into an AI-driven synthesis process, significantly reducing the overhead associated with regulatory audits.",
+      "key_results": [
+        "Implementation of scalable AI applications using Amazon Bedrock.",
+        "Deployment of decentralized knowledge bases for team-specific documentation.",
+        "Automation of manual regulatory inquiry response workflows.",
+        "Standardized architecture for multi-team document management.",
+        "Enhanced data isolation by providing dedicated reference repositories per department."
+      ],
+      "relevance_score": 5,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Amazon FinTech streamlines regulatory compliance by deploying a decentralized RAG architecture using Amazon Bedrock for scalable inquiry management.",
+      "lead_institution": "Amazon",
+      "tags": [
+        "RAG",
+        "Amazon Bedrock",
+        "FinTech",
+        "Knowledge Bases",
+        "Regulatory Compliance"
+      ]
+    }
+  },
+  {
+    "title": "Automate schema generation for intelligent document processing",
+    "link": "https://aws.amazon.com/blogs/machine-learning/automate-schema-generation-for-intelligent-document-processing/",
+    "summary": "In this post, we'll show you how our multi-document discovery feature solves this problem. It serves as an automated pre-processing step, analyzing unknown documents, clustering them by type, and generating schemas ready for the IDP Accelerator. You'll learn how the new capability uses visual embeddings for automatic clustering and agents for schema generation. We'll also walk you through running the solution on your own document collections.",
+    "source": "Artificial Intelligence",
+    "published": "2026-05-12T15:54:08+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Implements a **multi-document discovery** workflow that automates the pre-processing and categorization of unknown document types.\n- Utilizes **visual embeddings** to perform automatic clustering, grouping documents by structural similarity before extraction.\n- Employs **LLM agents** to analyze clustered documents and generate production-ready schemas for the **IDP Accelerator**.",
+      "key_results": [
+        "Automated clustering of unknown documents using visual features",
+        "Agent-driven generation of extraction schemas",
+        "Reduction in manual overhead for IDP setup",
+        "Support for multi-document collection analysis",
+        "Seamless integration with existing IDP Accelerator pipelines"
+      ],
+      "relevance_score": 6,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Artificial Intelligence introduces a multi-document discovery feature using visual embeddings and agents to automate IDP schema generation workflows.",
+      "lead_institution": "Artificial Intelligence",
+      "tags": [
+        "LLM Agents",
+        "Intelligent Document Processing",
+        "Visual Embeddings",
+        "Schema Generation",
+        "Multimodal AI"
+      ]
+    }
+  },
+  {
+    "title": "Navigating EU AI Act requirements for LLM fine-tuning on Amazon SageMaker AI",
+    "link": "https://aws.amazon.com/blogs/machine-learning/navigating-eu-ai-act-requirements-for-llm-fine-tuning-on-amazon-sagemaker-ai/",
+    "summary": "In this post, we show you how to set up FLOPs tracking during LLM fine-tuning using the open source Fine-Tuning FLOPs Meter toolkit on Amazon SageMaker AI. You learn how to determine your compliance status with a single configuration flag and generate audit-ready documentation.",
+    "source": "Artificial Intelligence",
+    "published": "2026-05-12T15:48:52+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n Integrates the open-source **Fine-Tuning FLOPs Meter** toolkit with **Amazon SageMaker AI** to automate computational footprint tracking.\n Implements a standardized mechanism to monitor total **floating-point operations (FLOPs)** to ensure compliance with **EU AI Act** systemic risk thresholds.\n Simplifies the creation of **audit-ready documentation** through a single configuration flag within the training pipeline.",
+      "key_results": [
+        "Automated tracking of compute consumption during LLM fine-tuning.",
+        "Binary compliance status identification for the 10^25 FLOPs threshold.",
+        "Seamless integration between SageMaker training jobs and open-source monitoring tools.",
+        "Generation of technical documentation required for regulatory reporting.",
+        "Standardized methodology for reporting generative AI training workloads."
+      ],
+      "relevance_score": 6,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Amazon introduces a SageMaker-compatible toolkit for tracking FLOPs to ensure LLM fine-tuning meets EU AI Act compliance.",
+      "lead_institution": "Amazon Web Services",
+      "tags": [
+        "Model Fine-tuning",
+        "AI Governance",
+        "Amazon SageMaker",
+        "LLM Monitoring",
+        "Compliance"
+      ]
+    }
+  },
+  {
+    "title": "Introducing Claude Platform on AWS: Anthropic\u2019s native platform, through your AWS account",
+    "link": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-platform-on-aws-anthropics-native-platform-through-your-aws-account/",
+    "summary": "Today, we're excited to announce the general availability of Claude Platform on AWS. Claude Platform on AWS is a new service that gives customers direct access to Anthropic's native Claude Platform experience through their AWS account, with no separate credentials, contracts, or billing relationships required. AWS is the first cloud provider to offer access to the native Claude Platform experience. In this post, we explore how Claude Platform on AWS works and how you can start using it today.",
+    "source": "Artificial Intelligence",
+    "published": "2026-05-11T18:43:03+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Anthropic integrates its **native Claude Platform** directly into the **AWS ecosystem**, eliminating the need for separate credentials or billing contracts.\n- The architecture leverages **unified billing** and **IAM-managed access**, allowing developers to use Anthropic's proprietary console tools within their existing cloud governance frameworks.\n- This move represents a strategic shift in **cloud-native AI delivery**, positioning AWS as the first provider to host the full, unabstracted Anthropic developer experience.",
+      "key_results": [
+        "Seamless access to Anthropic's Console via AWS accounts.",
+        "Consolidated billing through existing AWS enterprise agreements.",
+        "Removal of friction in procurement and security onboarding.",
+        "Native integration of Claude's Prompt Workbench for AWS users.",
+        "Enhanced data residency management through cloud infrastructure synergy."
+      ],
+      "relevance_score": 3,
+      "signal_type": "Release",
+      "one_sentence_takeaway": "Anthropic launches Claude Platform on AWS to provide native console access and integrated billing for enterprise generative AI development.",
+      "lead_institution": "Anthropic",
+      "tags": [
+        "Claude Platform",
+        "AWS Integration",
+        "Enterprise AI",
+        "Cloud Computing",
+        "Generative AI"
+      ]
+    }
+  },
+  {
+    "title": "Manufacturing intelligence with Amazon Nova Multimodal Embeddings",
+    "link": "https://aws.amazon.com/blogs/machine-learning/manufacturing-intelligence-with-amazon-nova-multimodal-embeddings/",
+    "summary": "In this post, we build a multimodal retrieval system for aerospace manufacturing documents using Amazon Nova Multimodal Embeddings on Amazon Bedrock and Amazon S3 Vectors. We evaluate the system on 26 manufacturing queries and compare generation quality between a text-only pipeline and the multimodal pipeline.",
+    "source": "Artificial Intelligence",
+    "published": "2026-05-11T17:08:24+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- The architecture implements a **multimodal retrieval system** using **Amazon Nova Multimodal Embeddings** to process complex aerospace documents containing text and technical diagrams.\n- Integrated with **Amazon Bedrock** and **Amazon S3 Vectors**, the system facilitates a **RAG (Retrieval-Augmented Generation)** workflow that treats visual and textual data as first-class citizens.\n- The pipeline allows for cross-modal querying, where text prompts can retrieve relevant image-based technical specs and vice versa.\n- Focuses on **manufacturing intelligence**, optimizing the retrieval of high-precision engineering data to improve the accuracy of generated technical responses.",
+      "key_results": [
+        "Built a functional multimodal RAG pipeline specifically for the aerospace manufacturing domain.",
+        "Conducted a comparative evaluation of 26 manufacturing queries against text-only and multimodal baselines.",
+        "Validated that Amazon Nova Multimodal Embeddings improve context retrieval for visually-dense technical documents.",
+        "Demonstrated higher generation quality by grounding LLM responses in both visual and textual context.",
+        "Streamlined the integration between Amazon S3-based vector storage and Bedrock inference models."
+      ],
+      "relevance_score": 7,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Amazon builds a multimodal RAG system using Nova embeddings to significantly enhance retrieval accuracy for complex manufacturing documentation.",
+      "lead_institution": "Amazon",
+      "tags": [
+        "Multimodal RAG",
+        "Amazon Nova",
+        "Vector Search",
+        "Aerospace AI",
+        "Generative AI"
+      ]
+    }
+  },
+  {
+    "title": "How Miro uses Amazon Bedrock to boost software bug routing accuracy and improve time-to-resolution from days to hours",
+    "link": "https://aws.amazon.com/blogs/machine-learning/how-miro-uses-amazon-bedrock-to-boost-software-bug-routing-accuracy-and-improve-time-to-resolution-from-days-to-hours/",
+    "summary": "In this post, we dive deep into the architecture and techniques we used to improve Miro\u2019s bug routing, achieving six times fewer team reassignments and five times shorter time-to-resolution powered by Amazon Bedrock.",
+    "source": "Artificial Intelligence",
+    "published": "2026-05-11T17:03:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\u2022 Miro implemented an **automated bug routing system** using **Amazon Bedrock** to categorize and assign software defects to engineering teams.<br>\u2022 The solution utilizes **Generative AI** for semantic understanding of complex bug reports, replacing error-prone manual triage processes.<br>\u2022 The architecture focuses on reducing **Mean Time to Resolution (MTTR)** by ensuring high-accuracy initial assignments and minimizing cross-team friction.",
+      "key_results": [
+        "6x reduction in bug reassignments between teams.",
+        "5x improvement in overall time-to-resolution (TTR).",
+        "Bug resolution lifecycle reduced from days to hours.",
+        "Significant reduction in manual QA triaging overhead.",
+        "Enhanced routing accuracy through LLM-based semantic analysis."
+      ],
+      "relevance_score": 6,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Miro leverages Amazon Bedrock to automate bug routing, achieving a 6x reduction in reassignments and accelerating resolution times.",
+      "lead_institution": "Miro",
+      "tags": [
+        "Amazon Bedrock",
+        "LLM Agents",
+        "Bug Triage",
+        "Engineering Productivity",
+        "AI Operations"
+      ]
+    }
+  },
+  {
+    "title": "Amazon Quick: Accelerating the path from enterprise data to AI-powered decisions",
+    "link": "https://aws.amazon.com/blogs/machine-learning/amazon-quick-accelerating-the-path-from-enterprise-data-to-ai-powered-decisions/",
+    "summary": "Amazon Quick helps turn your large enterprise data into fast and accurate AI-powered decisions. In this post, you will learn about five new capabilities of Amazon Quick that accelerate how data professionals deliver trusted AI-powered insights at enterprise scale.",
+    "source": "Artificial Intelligence",
+    "published": "2026-05-11T15:56:33+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* Amazon Quick introduces **five new capabilities** designed to streamline the integration of large-scale enterprise data into **AI-powered decision-making** frameworks.\n* The platform focuses on accelerating the delivery of **trusted insights** by automating the path from raw data ingestion to **Generative AI** application output.\n* The architecture prioritizes **enterprise scale** and accuracy, enabling data professionals to deploy production-ready AI solutions faster within the AWS ecosystem.",
+      "key_results": [
+        "Introduction of five core feature updates to the Amazon Quick platform.",
+        "Reduction in latency for converting enterprise data into actionable AI decisions.",
+        "Enhanced accuracy for AI-generated insights derived from high-volume datasets.",
+        "Improved workflow automation specifically tailored for enterprise data professionals.",
+        "Validation of trusted AI-powered insights at a scalable architectural level."
+      ],
+      "relevance_score": 3,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Amazon launches five new capabilities for Amazon Quick to accelerate the transformation of enterprise data into AI-powered insights.",
+      "lead_institution": "Amazon",
+      "tags": [
+        "Generative AI",
+        "Enterprise Data",
+        "AI Decision Making",
+        "Data Engineering",
+        "AWS"
+      ]
+    }
+  },
+  {
+    "title": "NVIDIA and SAP Bring Trust to Specialized Agents",
+    "link": "https://blogs.nvidia.com/blog/sap-specialized-agents/",
+    "summary": "Announced today at SAP Sapphire \u2014 where NVIDIA founder and CEO Jensen Huang joined\u00a0 SAP CEO Christian Klein\u2019s keynote by video \u2014 SAP and NVIDIA\u2019s expanded collaboration helps enterprises run specialized agents with security and governance controls.",
+    "source": "NVIDIA Blog",
+    "published": "2026-05-12T12:30:56+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- The partnership integrates **NVIDIA's computing infrastructure** with **SAP\u2019s enterprise software** to facilitate the deployment of **specialized LLM agents**.\n- A primary focus is established on **security and governance**, ensuring that AI agents operate within defined corporate compliance frameworks.\n- The architecture aims to automate complex business processes by utilizing **domain-specific data** through managed agentic workflows.\n- This collaboration targets the reduction of friction in **enterprise AI adoption** by providing pre-configured trust layers.",
+      "key_results": [
+        "Expanded strategic partnership between SAP and NVIDIA.",
+        "Launch of specialized AI agents for business-specific tasks.",
+        "Integrated security protocols for agentic workflows.",
+        "Standardized governance frameworks for enterprise Generative AI.",
+        "Enhanced integration of NVIDIA technology within the SAP Sapphire ecosystem."
+      ],
+      "relevance_score": 3,
+      "signal_type": "Release",
+      "one_sentence_takeaway": "SAP and NVIDIA partner to deploy specialized enterprise agents with integrated security and governance controls.",
+      "lead_institution": "NVIDIA",
+      "tags": [
+        "LLM Agents",
+        "Enterprise AI",
+        "AI Governance",
+        "Generative AI",
+        "NVIDIA"
+      ]
+    }
+  },
+  {
+    "title": "Q&A: Expanding MIT\u2019s global reach through Universal Learning",
+    "link": "https://news.mit.edu/2026/qa-expanding-mit-global-reach-through-universal-learning-0512",
+    "summary": "Dimitris Bertsimas and Megan Mitchell discuss the motivation behind Universal Learning, and what sets the new MIT Open Learning educational initiative apart.",
+    "source": "MIT News - Artificial intelligence",
+    "published": "2026-05-12T15:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* MIT's **Universal Learning** initiative leverages **AI-driven personalization** to scale elite educational content to a global audience.\n* The framework emphasizes **modular pedagogy**, utilizing generative AI to transform static curriculum into **interactive, adaptive learning paths**.\n* The architecture focuses on lowering barriers to entry by integrating **scalable digital platforms** with faculty-led educational insights.",
+      "key_results": [
+        "Introduction of a scalable framework for global educational democratization.",
+        "Integration of AI tools to personalize student learning journeys at scale.",
+        "Transition from traditional MOOC models to dynamic, AI-augmented pedagogy.",
+        "Expansion of MIT Open Learning's reach into underserved international regions.",
+        "Development of modular units to support flexible, lifelong learning initiatives."
+      ],
+      "relevance_score": 3,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "MIT launches the Universal Learning initiative to scale global education through AI-driven personalization and modular digital frameworks.",
+      "lead_institution": "MIT",
+      "tags": [
+        "AI in Education",
+        "Open Learning",
+        "EdTech",
+        "Generative AI",
+        "Digital Transformation"
+      ]
+    }
+  },
+  {
+    "title": "Universal AI is \u201ca pathway to AI fluency that\u2019s accessible and approachable to anyone, anywhere\u201d",
+    "link": "https://news.mit.edu/2026/universal-ai-pathway-to-ai-fluency-accessible-to-anyone-0512",
+    "summary": "New AI education program from MIT Open Learning debuts with AI-powered personalization and a free introductory course for learners everywhere.",
+    "source": "MIT News - Artificial intelligence",
+    "published": "2026-05-12T15:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- MIT Open Learning introduces **Universal AI**, a platform focused on democratizing **Generative AI** literacy through scalable, accessible online curricula.\n- The system integrates **AI-powered personalization** to customize learning trajectories, though specific architectural details on the underlying **LLM orchestration** were not disclosed.\n- The initiative aims to build **AI fluency** by bridging the gap between high-level technical concepts and practical application for non-specialists.",
+      "key_results": [
+        "Debut of a free 'AI for Everyone' introductory course available globally.",
+        "Deployment of a personalized learning interface powered by generative models.",
+        "Strategic focus on low-barrier entry points for underrepresented demographics.",
+        "Integration of ethical and technical modules into a single curriculum framework.",
+        "Establishment of a scalable distribution model via MIT Open Learning."
+      ],
+      "relevance_score": 3,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "MIT Open Learning launches Universal AI to provide personalized, free education aimed at global artificial intelligence literacy.",
+      "lead_institution": "MIT Open Learning",
+      "tags": [
+        "AI Literacy",
+        "Generative AI",
+        "Educational AI",
+        "Personalization",
+        "MIT"
       ]
     }
   },
@@ -120,96 +720,6 @@
     }
   },
   {
-    "title": "Labyrinth 1.1: Making End-to-End Encrypted Backups Even More Reliable",
-    "link": "https://engineering.fb.com/2026/05/11/security/labyrinth-1-1-end-to-end-encrypted-e2ee-backups-more-reliable/",
-    "summary": "<p>We\u2019re rolling out version 1.1 of Labyrinth, the encrypted storage system and protocol that secures messages and history on Messenger. Labyrinth 1.1 enhances the reliability of end-to-end encrypted backups with a new sub-protocol that helps messages survive the loss of a device, a switched device, and long gaps between sign-ins. Read our updated white paper, [...]</p>\n<p><a class=\"btn btn-secondary understrap-read-more-link\" href=\"https://engineering.fb.com/2026/05/11/security/labyrinth-1-1-end-to-end-encrypted-e2ee-backups-more-reliable/\">Read More...</a></p>\n<p>The post <a href=\"https://engineering.fb.com/2026/05/11/security/labyrinth-1-1-end-to-end-encrypted-e2ee-backups-more-reliable/\">Labyrinth 1.1: Making End-to-End Encrypted Backups Even More Reliable\u00a0</a> appeared first on <a href=\"https://engineering.fb.com\">Engineering at Meta</a>.</p>",
-    "source": "Engineering at Meta",
-    "published": "2026-05-11T16:00:55+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "<br>\u2022 Meta implements **Labyrinth 1.1**, an updated E2EE storage protocol designed to harden the reliability of message history backups on Messenger.<br>\u2022 The architecture introduces a **new sub-protocol** specifically engineered to handle edge cases such as device loss, hardware switching, and extended user inactivity.<br>\u2022 The update focuses on **state synchronization** and cryptographic resilience to ensure message persistence without compromising end-to-end encryption standards.",
-      "key_results": [
-        "Improved message survival rates after physical device loss.",
-        "Seamless restoration of encrypted history during device transitions.",
-        "Enhanced data persistence for users with long gaps between sessions.",
-        "Optimization of the Labyrinth protocol for high-scale global distribution.",
-        "Maintenance of strict end-to-end encryption privacy during backup recovery."
-      ],
-      "relevance_score": 3,
-      "signal_type": "Engineering Blog",
-      "one_sentence_takeaway": "Meta launches Labyrinth 1.1 to improve end-to-end encrypted backup reliability during device loss and long sign-in gaps.",
-      "lead_institution": "Engineering at Meta",
-      "tags": [
-        "E2EE",
-        "Cryptography",
-        "Data Infrastructure",
-        "Labyrinth Protocol",
-        "Security Engineering"
-      ]
-    }
-  },
-  {
-    "title": "Building Blocks for Foundation Model Training and Inference on AWS",
-    "link": "https://huggingface.co/blog/amazon/foundation-model-building-blocks",
-    "summary": "",
-    "source": "Hugging Face - Blog",
-    "published": "2026-05-11T23:18:26+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "<br>\u2022 Integration of **Hugging Face Deep Learning Containers (DLCs)** with **Amazon SageMaker** provides a managed environment to streamline the orchestration of large-scale foundation model workloads.<br>\u2022 Specialized support for **AWS Trainium** and **AWS Inferentia2** accelerators via the **Neuron SDK** optimizes cost-to-performance ratios for both distributed training and high-throughput inference.<br>\u2022 Architectures leverage **Text Generation Inference (TGI)** to provide production-grade serving capabilities, including continuous batching and Paged Attention for LLMs.<br>\u2022 Data pipelines are optimized using **Amazon S3** and **FSx for Lustre**, ensuring high-throughput data delivery to training nodes to maximize GPU/TPU utilization.",
-      "key_results": [
-        "Simplified deployment of Transformers models using pre-configured Hugging Face DLCs.",
-        "Cost-efficient training scaling on AWS Trainium instances versus traditional GPU clusters.",
-        "High-performance LLM inference orchestration using Hugging Face TGI on SageMaker.",
-        "Automated environment setup for distributed training using PyTorch and DeepSpeed.",
-        "Streamlined fine-tuning workflows for domain-specific foundation model adaptation."
-      ],
-      "relevance_score": 6,
-      "signal_type": "Engineering Blog",
-      "one_sentence_takeaway": "Hugging Face and AWS provide integrated building blocks to optimize the training and deployment of foundation models on cloud-native hardware.",
-      "lead_institution": "Hugging Face",
-      "tags": [
-        "AWS SageMaker",
-        "Model Fine-tuning",
-        "Cloud Infrastructure",
-        "Inference Optimization",
-        "Trainium"
-      ]
-    }
-  },
-  {
-    "title": "GitHub for Beginners: Getting started with OSS contributions",
-    "link": "https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-oss-contributions/",
-    "summary": "<p>Learn how to find opportunities to contribute to the open source community.</p>\n<p>The post <a href=\"https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-oss-contributions/\">GitHub for Beginners: Getting started with OSS contributions</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
-    "source": "The GitHub Blog",
-    "published": "2026-05-11T16:00:00+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n- Outlines the standard **fork-and-pull workflow** necessary for external developers to contribute code to remote repositories.\n- Details the social and technical **governance structures** of open source projects, highlighting the role of maintainers and contribution guidelines.\n- Focuses on the **long-term impact** of open source participation on individual developer skill sets and community-driven project sustainability.",
-      "key_results": [
-        "Identifies entry-level labels such as 'good first issue' to lower barriers to entry.",
-        "Defines the process for syncing local forks with upstream repository changes.",
-        "Stresses the importance of non-technical contributions like documentation and bug reports.",
-        "Explains the significance of LICENSE and README files in project assessment.",
-        "Encourages standard communication protocols for interacting with project maintainers via issues."
-      ],
-      "relevance_score": 2,
-      "signal_type": "Engineering Blog",
-      "one_sentence_takeaway": "GitHub provides a foundational guide for developers to navigate the technical and community workflows of open source software contribution.",
-      "lead_institution": "GitHub",
-      "tags": [
-        "Open Source",
-        "GitHub Workflow",
-        "Software Engineering",
-        "Developer Relations",
-        "OSS Contribution"
-      ]
-    }
-  },
-  {
     "title": "The new AI-powered Google Finance is expanding to Europe.",
     "link": "https://blog.google/products-and-platforms/products/search/ai-powered-google-finance-in-europe/",
     "summary": "A screenshot of the AI-powered experience on Google Finance.",
@@ -236,126 +746,6 @@
         "RAG",
         "LLM Integration",
         "Product Expansion"
-      ]
-    }
-  },
-  {
-    "title": "Building web search-enabled agents with Strands and Exa",
-    "link": "https://aws.amazon.com/blogs/machine-learning/building-web-search-enabled-agents-with-strands-and-exa/",
-    "summary": "In this post, you will learn how to set up the Exa integration in Strands Agents, understand the two core tools it exposes, and walk through real-world use cases that show how agents use web search to complete multi-step tasks.",
-    "source": "Artificial Intelligence",
-    "published": "2026-05-11T21:58:16+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n- Integration of **Exa\u2019s neural search engine** with the **Strands Agents** framework to provide high-latency-sensitive, real-time web grounding.\n- The architecture utilizes **multi-step reasoning** patterns, allowing agents to decompose complex queries into sequential search and synthesis operations.\n- Two primary tools are exposed to optimize **information retrieval**, focusing on semantic similarity rather than traditional keyword-based web scraping.\n- Empowers **AI Agents** to perform autonomous market research and data gathering tasks with reduced hallucination risks through external verification.",
-      "key_results": [
-        "Seamless integration of Exa neural search into Strands developer SDK.",
-        "Provision of specialized tools for targeted web data extraction.",
-        "Reduction in agent hallucinations via real-time external knowledge grounding.",
-        "Enablement of complex, multi-turn research workflows for autonomous agents.",
-        "Optimization of search queries through semantic embedding-based retrieval."
-      ],
-      "relevance_score": 7,
-      "signal_type": "Engineering Blog",
-      "one_sentence_takeaway": "Strands integrates Exa's neural search to empower agents with real-time web retrieval for autonomous, multi-step task completion.",
-      "lead_institution": "Artificial Intelligence",
-      "tags": [
-        "LLM Agents",
-        "Exa Search",
-        "RAG",
-        "Autonomous Workflows",
-        "Information Retrieval"
-      ]
-    }
-  },
-  {
-    "title": "Introducing Claude Platform on AWS: Anthropic\u2019s native platform, through your AWS account",
-    "link": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-platform-on-aws-anthropics-native-platform-through-your-aws-account/",
-    "summary": "Today, we're excited to announce the general availability of Claude Platform on AWS. Claude Platform on AWS is a new service that gives customers direct access to Anthropic's native Claude Platform experience through their AWS account, with no separate credentials, contracts, or billing relationships required. AWS is the first cloud provider to offer access to the native Claude Platform experience. In this post, we explore how Claude Platform on AWS works and how you can start using it today.",
-    "source": "Artificial Intelligence",
-    "published": "2026-05-11T18:43:03+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n- Anthropic enables **native Claude Platform access** directly via AWS accounts, eliminating the friction of managing separate credentials and contracts.\n- The architecture provides **unified billing** and consolidated procurement, allowing enterprises to leverage existing AWS commitments for Anthropic's proprietary developer tools.\n- AWS acts as the **first cloud provider** to offer this deep integration, bridging the gap between standard model hosting and Anthropic's native platform features.",
-      "key_results": [
-        "Elimination of separate billing relationships for Claude usage.",
-        "Native platform UI accessible through existing AWS credentials.",
-        "Consolidated enterprise-grade compliance and contract management.",
-        "First-of-its-kind cloud integration for Anthropic's platform experience.",
-        "Immediate general availability for AWS customers."
-      ],
-      "relevance_score": 4,
-      "signal_type": "Release",
-      "one_sentence_takeaway": "Anthropic launches its native platform on AWS to provide seamless model access through unified enterprise billing and credentials.",
-      "lead_institution": "Anthropic",
-      "tags": [
-        "Claude Platform",
-        "AWS Integration",
-        "Enterprise AI",
-        "Cloud Infrastructure",
-        "LLM Deployment"
-      ]
-    }
-  },
-  {
-    "title": "How Miro uses Amazon Bedrock to boost software bug routing accuracy and improve time-to-resolution from days to hours",
-    "link": "https://aws.amazon.com/blogs/machine-learning/how-miro-uses-amazon-bedrock-to-boost-software-bug-routing-accuracy-and-improve-time-to-resolution-from-days-to-hours/",
-    "summary": "In this post, we dive deep into the architecture and techniques we used to improve Miro\u2019s bug routing, achieving six times fewer team reassignments and five times shorter time-to-resolution powered by Amazon Bedrock.",
-    "source": "Artificial Intelligence",
-    "published": "2026-05-11T17:03:00+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n* Miro developed an automated **bug routing architecture** leveraging **Amazon Bedrock** to classify and assign software defects to appropriate engineering teams.\n* The system utilizes **LLM-based classification** to interpret unstructured bug reports, reducing the friction of manual triaging and human error in initial assignments.\n* By integrating this solution, Miro optimized the **developer workflow**, ensuring that bugs reach the correct domain experts immediately upon submission.",
-      "key_results": [
-        "Achieved 6x reduction in team reassignments.",
-        "Reduced time-to-resolution (TTR) by 5x.",
-        "Cut resolution timelines from days to hours.",
-        "Improved bug routing accuracy significantly using foundation models.",
-        "Automated manual triaging processes for high-volume software defect reports."
-      ],
-      "relevance_score": 7,
-      "signal_type": "Engineering Blog",
-      "one_sentence_takeaway": "Miro utilizes Amazon Bedrock to automate bug routing, achieving a 6x reduction in reassignments and faster resolution times.",
-      "lead_institution": "Miro",
-      "tags": [
-        "Bug Routing",
-        "Amazon Bedrock",
-        "LLM Classification",
-        "Generative AI Trends",
-        "Engineering Productivity"
-      ]
-    }
-  },
-  {
-    "title": "Amazon Quick: Accelerating the path from enterprise data to AI-powered decisions",
-    "link": "https://aws.amazon.com/blogs/machine-learning/amazon-quick-accelerating-the-path-from-enterprise-data-to-ai-powered-decisions/",
-    "summary": "Amazon Quick helps turn your large enterprise data into fast and accurate AI-powered decisions. In this post, you will learn about five new capabilities of Amazon Quick that accelerate how data professionals deliver trusted AI-powered insights at enterprise scale.",
-    "source": "Artificial Intelligence",
-    "published": "2026-05-11T15:56:33+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n* Amazon Quick introduces **enterprise-scale AI integration** to bridge the gap between large datasets and automated decision-making.\n* The platform adds five new capabilities designed to improve the **accuracy and speed** of AI-generated insights for data professionals.\n* The architecture emphasizes **trusted AI delivery**, focusing on scalability and reliability within professional data workflows for faster production cycles.",
-      "key_results": [
-        "Launch of five new features for rapid data-to-AI transitions.",
-        "Reduction in latency for enterprise-scale AI decision cycles.",
-        "Improved tooling for data professionals to manage AI insights.",
-        "Enhanced integration between large-scale datasets and GenAI models.",
-        "Simplified deployment pathways for trusted AI-powered business logic."
-      ],
-      "relevance_score": 3,
-      "signal_type": "Release",
-      "one_sentence_takeaway": "Amazon launches five new capabilities for Amazon Quick to accelerate enterprise data processing and AI-driven decision-making.",
-      "lead_institution": "Amazon",
-      "tags": [
-        "Enterprise AI",
-        "Data Engineering",
-        "Cloud Computing",
-        "Decision Intelligence",
-        "Amazon Quick"
       ]
     }
   },
@@ -1230,36 +1620,6 @@
     }
   },
   {
-    "title": "GASim: A Graph-Accelerated Hybrid Framework for Social Simulation",
-    "link": "http://arxiv.org/abs/2605.07692v1",
-    "summary": "Large-scale social simulators are essential for studying complex social patterns. Prior work explores hybrid methods to scale up simulations, combining large language models (LLM)-based agents with numerical agent-based models (ABM). However, this incurs high latency due to expensive memory retrieval and sequential ABM execution. To address this challenge, we propose GASim, a graph-accelerated hybrid multi-agent framework for large-scale social simulations. For core agents driven by LLM, GASim introduces Graph-Optimized Memory (GOM) to replace intensive LLM-based retrieval pipelines with lightweight propagation over a sparse memory graph. For the majority of ordinary agents, GASim employs Graph Message Passing (GMP), substituting sequential ABM execution with parallel updates by fine-grained feature aggregation and Graph Attention Network. We further introduce Entropy-Driven Grouping (EDG) that coordinates this hybrid partitioning, leveraging information entropy to dynamically identify emergent core agents situated in information-diverse neighborhoods. Extensive experiments show that GASim not only delivers a substantial 9.94-fold end-to-end speedup over the traditional hybrid framework but also consumes less than 20% of baseline tokens, significantly reducing costs while preserving strong alignment with real-world public opinion trends. Our code is available at https://github.com/Jasmine0201/GASim.",
-    "source": "ArXiv",
-    "published": "2026-05-08T13:01:25+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n\u2022 **GASim** introduces a hybrid architecture that partitions social simulations into **LLM-driven core agents** and **numerical ordinary agents** to balance fidelity and scale.\n\u2022 Implements **Graph-Optimized Memory (GOM)**, which replaces high-latency LLM-based RAG pipelines with lightweight propagation over a sparse memory graph.\n\u2022 Utilizes **Graph Message Passing (GMP)** and Graph Attention Networks to parallelize updates for ordinary agents, overcoming sequential ABM execution bottlenecks.\n\u2022 Employs **Entropy-Driven Grouping (EDG)** to dynamically promote agents to core status based on information diversity and emergent social patterns.",
-      "key_results": [
-        "Achieved a 9.94-fold end-to-end speedup over traditional hybrid LLM-ABM frameworks.",
-        "Reduced LLM token consumption to less than 20% of the baseline cost.",
-        "Maintained high alignment with real-world public opinion trends despite reduced computation.",
-        "Successfully replaced expensive RAG-style memory retrieval with efficient graph-based propagation.",
-        "Demonstrated scalable performance for large-scale multi-agent social simulations."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "Researchers introduce GASim, a graph-accelerated hybrid framework that improves social simulation speed tenfold while reducing token costs significantly.",
-      "lead_institution": "The GASim Research Team",
-      "tags": [
-        "LLM Agents",
-        "Social Simulation",
-        "Graph Neural Networks",
-        "Efficiency",
-        "RAG Optimization"
-      ]
-    }
-  },
-  {
     "title": "A Multi-Level Agent-Based Architecture for Climate Governance Integrating Cognitive and Institutional Dynamics",
     "link": "http://arxiv.org/abs/2605.07683v1",
     "summary": "Climate governance processes involve complex interactions between heterogeneous citizens, advocacy groups, media actors, and political decision-makers. While agent-based models (ABMs) have been widely used to study environmental policy and socio-ecological systems, many existing approaches focus either on institutional dynamics or individual behavioural mechanisms in isolation. This paper presents a modular multi-level agent-based architecture that integrates empirically grounded cognitive decision models with strategic institutional behaviour within a unified simulation framework. The architecture combines (i) motive-based individual decision-making operationalised through the HUMAT and MOA frameworks, (ii) socially embedded influence processes via demographic homophily networks, and (iii) institutional strategy modules for environmental non-governmental organisations (NGOs), media agents, and politicians. Political decisions emerge from the aggregation of multiple signals, including expert input, public mobilisation, party alignment, and media framing. The model is designed to be empirically calibrated through synthetic populations derived from survey data and and institutional parameters informed through Living Lab stakeholder engagement, and to support scenario-based exploration of climate-relevant land-use governance processes. Rather than presenting empirical results, this paper focuses on the architectural design principles, modular structure, and integration logic of the model. We discuss how this multi-layered approach contributes to the modelling of democratic climate governance and outline pathways for generalization and future validation.",
@@ -1320,126 +1680,6 @@
     }
   },
   {
-    "title": "Characterizing and Mitigating False-Positive Bug Reports in the Linux Kernel",
-    "link": "http://arxiv.org/abs/2605.07678v1",
-    "summary": "False-positive bug reports represent a significant yet underexplored challenge in the development and maintenance of the Linux kernel. They occur when correct system behavior is mistakenly flagged as a defect, consuming developer effort without leading to actual code improvements. Such reports can mislead developers, waste debugging resources, and delay the resolution of real bugs. In this paper, we present the first comprehensive empirical study of false-positive bug reports in the Linux kernel. We manually construct a dataset of 2,006 bug reports comprising 1,509 genuine bugs and 497 false positives collected from Bugzilla and Syzkaller. Our analysis indicates that false positives demand effort comparable to real bugs, often requiring extended discussions and non-trivial closure time. They occur in several components, especially File Systems and Drivers, mainly due to external dependencies and semantic misunderstandings. To address this challenge, we evaluate large language models (LLMs) for automated false-positive bug report mitigation. Among various prompting strategies, retrieval-augmented generation (RAG) performs best, achieving 91% recall and an F1 score of 88%. These findings highlight the non-negligible cost of false positive bug reports and show the promise of LLMs for more efficient false positive mitigation in the Linux kernel.",
-    "source": "ArXiv",
-    "published": "2026-05-08T12:48:36+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- The study performs the first comprehensive empirical analysis of 2,006 Linux kernel bug reports to quantify the resource drain caused by **false-positive** results.\n- It identifies that **File Systems** and **Drivers** are the most susceptible components to incorrect reports, primarily due to **semantic misunderstandings** and external dependency complexities.\n- Researchers implemented and evaluated multiple **LLM prompting strategies**, specifically testing standard, few-shot, and **Retrieval-Augmented Generation (RAG)** architectures.\n- The **RAG-based mitigation** system provides the most robust results, leveraging historical report context to assist developers in filtering non-defects with high precision.",
-      "key_results": [
-        "Dataset construction of 2,006 reports from Bugzilla and Syzkaller (1,509 real bugs, 497 false positives).",
-        "False-positive reports require discussion effort and closure time nearly identical to genuine bugs.",
-        "RAG-enhanced LLMs achieved a 91% recall and an 88% F1 score in identifying false positives.",
-        "Semantic misunderstandings of kernel behavior were the leading cause of incorrect bug reports.",
-        "Automated LLM filtering shows high promise for reducing the maintenance burden in large-scale open-source projects."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers demonstrate that RAG-enhanced LLMs effectively identify false-positive Linux kernel bug reports with an 88% F1-score.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "RAG",
-        "LLM Evaluation",
-        "Linux Kernel",
-        "Bug Classification",
-        "Software Engineering"
-      ]
-    }
-  },
-  {
-    "title": "TRACE: Tourism Recommendation with Accountable Citation Evidence",
-    "link": "http://arxiv.org/abs/2605.07677v1",
-    "summary": "Tourism is a high-stakes setting for conversational recommender systems (CRS): a plausible-sounding suggestion can waste real money and trip time once a traveler acts on it. Existing CRS benchmarks primarily evaluate systems with a single Recall@k score over entity mentions, and tourism-specific resources add spatial or knowledge-graph context, yet none of them couple multi-turn recommendation with verbatim review-span evidence and rejection recovery. This leaves an evaluation gap for tourism recommendation that is simultaneously trustworthy, verifiable, and adaptive: recommend the right point of interest (POI) for multi-aspect preferences (such as cuisine, price, atmosphere, walking distance), justify each suggestion with verifiable evidence from prior visitors so the traveler can act without trial and error, and recover when the first recommendation is rejected mid-dialogue. We introduce TRACE, where each item is a multi-turn tourism recommendation dialogue with review-span citations and explicit rejection turns: 10,000 dialogues over 2,400 Yelp POIs and 34,208 reviews across eight U.S. cities, paired with 14 retrieval, planning, and LLM baselines, along with 25 metrics organized under Accuracy, Grounding, and Recovery. Across these baselines, TRACE reveals the Three-Competency Gap: LLM Zero-Shot leads in closed-set Recall@1 and rejection recovery but cites less densely than retrievers; non-LLM retrievers achieve surface-verbatim grounding but with low accuracy; Multi-Review Synthesis fails at recovery. The Grounding Score agrees with human citation precision (Spearman rho=+0.80, p<10^-20), and paired t-tests reproduce the per-baseline ranking (p<0.01 on the dominant contrasts). TRACE reframes accountable tourism recommendation as a joint target (right POI, verifiable evidence, adaptive repair) rather than a single-axis leaderboard.",
-    "source": "ArXiv",
-    "published": "2026-05-08T12:47:39+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Introduces **TRACE**, a specialized benchmark for Conversational Recommender Systems (CRS) designed for high-stakes tourism scenarios requiring **verifiable evidence**.\n- Implements a multi-turn dialogue architecture that requires models to provide **verbatim review-span citations** for every Point of Interest (POI) recommended.\n- Evaluates system performance across the **Three-Competency Gap**: recommendation accuracy, grounding (citation precision), and adaptive recovery from user rejections.\n- Provides a dataset of 10,000 dialogues and 25 metrics to shift focus from simple mention-based Recall@k to **accountable and trustworthy** generative agents.",
-      "key_results": [
-        "LLM Zero-Shot models achieved the highest scores in closed-set Recall@1 and mid-dialogue rejection recovery.",
-        "Non-LLM retrieval baselines demonstrated superior surface-verbatim grounding but lacked overall recommendation accuracy.",
-        "Multi-Review Synthesis methods generally failed at the recovery task compared to pure LLM planning approaches.",
-        "The proposed Grounding Score shows a high correlation with human citation precision (Spearman rho=+0.80).",
-        "Benchmark results reveal that no current model successfully maximizes accuracy, grounding, and recovery simultaneously."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce TRACE to evaluate conversational AI on recommendation accuracy, verifiable review citations, and adaptive rejection recovery.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "RAG",
-        "LLM Agents",
-        "AI Evaluation",
-        "Grounding",
-        "Conversational AI"
-      ]
-    }
-  },
-  {
-    "title": "FactoryBench: Evaluating Industrial Machine Understanding",
-    "link": "http://arxiv.org/abs/2605.07675v1",
-    "summary": "We introduce FactoryBench, a benchmark for evaluating time-series models and LLMs on machine understanding over industrial robotic telemetry. Q&A pairs are organized along four causal levels (state, intervention, counterfactual, decision) instantiating Pearl's ladder of causation, and span five answer formats: four structured formats are scored deterministically and free-form answers are scored by an LLM-as-judge voting protocol. We propose a scalable Q&A generation framework built around structured question templates, present FactoryWave (a dense, multitask, multivariate sensor dataset collected from a UR3 cobot and a KUKA KR10 industrial arm), and construct FactoryBench as a large-scale benchmark of over 70k Q&A items grounded in roughly 15k normalized episodes from FactoryWave, AURSAD, and voraus-AD. Zero-shot evaluation of six frontier LLMs shows that no model exceeds 50% on structured levels or 18% on decision-making, revealing a wide gap between current models and operational machine understanding.",
-    "source": "ArXiv",
-    "published": "2026-05-08T12:47:05+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\u2022 Introduces **FactoryBench**, a large-scale benchmark of 70k+ Q&A pairs designed to assess **industrial machine understanding** using robotic telemetry.\n\u2022 Organizes tasks along **Pearl\u2019s ladder of causation**, evaluating models on state recognition, interventions, counterfactuals, and complex decision-making.\n\u2022 Features the **FactoryWave dataset**, a dense collection of multivariate sensor data from UR3 and KUKA industrial arms across 15k normalized episodes.\n\u2022 Employs a hybrid scoring mechanism using **deterministic evaluation** for structured formats and an **LLM-as-judge** protocol for free-form responses.",
-      "key_results": [
-        "No frontier LLM exceeded 50% accuracy on structured causal reasoning levels.",
-        "Models performed poorest on decision-making tasks, with a maximum score of only 18%.",
-        "Identifies a significant gap between current LLM capabilities and operational industrial requirements.",
-        "Establishes a scalable Q&A generation framework using structured templates and normalized telemetry.",
-        "Provides a unified benchmark integrating data from FactoryWave, AURSAD, and voraus-AD datasets."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "FactoryBench researchers introduce a causal-reasoning benchmark revealing that frontier LLMs struggle significantly with industrial robotic telemetry and decision-making.",
-      "lead_institution": "FactoryBench Researchers",
-      "tags": [
-        "AI Evaluation",
-        "Reasoning Models",
-        "Industrial AI",
-        "Robotic Telemetry",
-        "Causal Inference"
-      ]
-    }
-  },
-  {
-    "title": "The Endogeneity of Miscalibration: Impossibility and Escape in Scored Reporting",
-    "link": "http://arxiv.org/abs/2605.07671v1",
-    "summary": "Eliciting truthful reports from autonomous agents is a core problem in scalable AI oversight: a principal scores the agent's report using a strictly proper scoring rule, but the agent also benefits from the report through a non-accuracy channel (approval for autonomous action, allocation share, downstream control). The same structure appears in classical mechanism-design settings such as marketplace operation. Our main result is an endogeneity: the principal's optimal oversight necessarily uses a non-affine approval function to screen types, yet any non-affine approval makes truthful reporting suboptimal under the combined objective whenever deviation is undetectable. The principal cannot avoid the perturbation that undermines calibration. This impossibility holds for all strictly proper scoring rules, with a closed-form perturbation formula. A constructive escape exists: a step-function approval threshold achieves first-best screening for every strictly proper scoring rule, because the agent's binary inflate-or-not choice creates a type-space threshold regardless of the generator's curvature. Under the Brier score specifically, the type-independent inflation cost yields a welfare equivalence between second-best and first-best; we prove this equivalence is unique to Brier (the welfare gap under smooth $C^1$ oversight is bounded below by $\u03a9(\\text{Var}(1/G'') (\u03b3/\u03b2)^2)$ for every non-Brier rule). Two instances develop the framework: AI agent oversight (the lead motivating setting) and marketplace operation (a parallel mechanism-design domain). The message for AI alignment is direct: smooth scoring-based oversight cannot elicit truthful reports from a strategic agent; sharp thresholds are the calibration-preserving design.",
-    "source": "ArXiv",
-    "published": "2026-05-08T12:42:28+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n\u2022 Analyzes the **Endogeneity of Miscalibration**, demonstrating that standard scoring rules fail to elicit truth when agents receive rewards like **autonomous action approval**.\n\u2022 Proves that **non-affine approval functions**, though necessary for optimal oversight, inherently incentivize agents to provide biased or untruthful reports.\n\u2022 Introduces a **step-function approval threshold** as a constructive architectural escape to maintain calibration in strategic agent-principal interactions.\n\u2022 Establishes that the **Brier score** possesses unique welfare-equivalence properties that make it superior to other **strictly proper scoring rules** in this context.",
-      "key_results": [
-        "Discovers the endogeneity of miscalibration where oversight mechanisms necessarily perturb the truthfulness of agent reports.",
-        "Mathematical proof that all smooth, strictly proper scoring rules are susceptible to reporting bias under non-accuracy incentives.",
-        "Identifies that sharp step-function thresholds are required to preserve calibration in AI agent oversight.",
-        "Provides a closed-form perturbation formula to calculate the gap between reported and true probabilities.",
-        "Demonstrates Brier score uniqueness in achieving welfare equivalence between first-best and second-best reporting outcomes."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers prove that sharp threshold functions, rather than smooth scoring, are necessary to ensure truthful AI agent reporting.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "AI Agents",
-        "Scalable Oversight",
-        "AI Alignment",
-        "Proper Scoring Rules",
-        "Mechanism Design"
-      ]
-    }
-  },
-  {
     "title": "Quotient Semivalues for False-Name-Resistant Data Attribution",
     "link": "http://arxiv.org/abs/2605.07663v1",
     "summary": "Data valuation methods allocate payments and audit training data's contribution to machine-learning pipelines; however, they often assume passive contributors. In reality, contributors can split datasets across pseudonymous identities, duplicate high-value examples, create near-duplicates, or launder synthetic variants to inflate their share. We formalize this as false-name manipulation in ML data attribution. Our main construction is the quotient semivalue mechanism: compute Shapley-, Banzhaf-, or Beta-style values over evidence-backed attribution clusters instead of raw identities, using a canonical-representative operator to absorb within-cluster duplication. We prove an impossibility: on a fixed monotone data-value game, exact Shapley-fair attribution over reported identities is incompatible with unrestricted false-name-proofness, even on binary-valued instances, and characterize the split-gain of a general semivalue on a unanimity counter-example. The mechanism is exactly false-name-proof under two structural conditions: false-name-neutral within-cluster allocation and quotient-stable manipulations. Under imperfect provenance, when these conditions hold approximately, manipulation gain and fairness loss are bounded by three measurable quantities: escaped-cluster mass, value-estimation error, and clustering distance. We instantiate the mechanisms in DataMarket-Gym, a benchmark for attribution under strategic provider attacks. On synthetic classification tasks, quotient semivalues with example-level evidence reduce manipulation gain on duplicate and near-duplicate Sybil attacks from $1.74$ under baseline Shapley to $0.96$, near the honest level. The cosine-threshold and (false-merge, false-split) rate sweeps trace the corresponding fairness--Sybil frontier.",
@@ -1470,36 +1710,6 @@
     }
   },
   {
-    "title": "Direction-Preserving Number Representations",
-    "link": "http://arxiv.org/abs/2605.07662v1",
-    "summary": "Low-precision number formats are widely used in modern machine learning systems due to their efficiency. Accurate direction representation is key to the accuracy of vector operations. This work precisely explores the extent to which the direction of a vector can be represented by selecting its scalar elements from a common finite alphabet of a given size. This is standard practice in machine learning, where low-precision significands may be narrow-width floating-point or integer values. A geometric framework is introduced for analyzing the directional coverage of such product-structured codes.\n  This work analytically quantifies the suboptimality gap between such product-structured codes and spherical codes for the vector as a whole, in both low and asymptotically high dimensions. Furthermore, within the product code class, it is proven that the standard formats of two's complement, fixed-point, and floating-point are suboptimal, again with quantified gap, pointing to the potential to develop new scalar number formats.\n  Such scalar alphabets are numerically optimized across multiple block dimensions for directional coverage, including the dimension used in NVIDIA's NVFP4 format. Experimental results are presented comparing the performance of standard formats and the optimized alphabet. We find that for four bits, NVIDIA's choice of E2M1 closely approximates the optimized alphabet, providing a geometric explanation for its strong performance in low-precision machine learning workloads and an analytical understanding of the link between that superiority and block size.\n  We provide open-source formal proofs in Lean for the theorems in this work, along with the experimental code and the optimized alphabets obtained.",
-    "source": "ArXiv",
-    "published": "2026-05-08T12:32:33+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n\u2022 Introduces a **geometric framework** to analyze how product-structured codes represent vector directions in high-dimensional spaces for machine learning.\n\u2022 Quantifies the **suboptimality gap** of standard scalar formats like floating-point and two's complement compared to ideal spherical codes.\n\u2022 Provides a geometric validation for **NVIDIA's NVFP4 (E2M1)** format, proving it closely approximates the theoretically optimal 4-bit alphabet.\n\u2022 Delivers **formal proofs in Lean** and numerically optimized scalar alphabets to guide the development of future low-precision hardware and quantization methods.",
-      "key_results": [
-        "Standard scalar formats like fixed-point and floating-point are proven to be directionally suboptimal.",
-        "Quantified the performance gap between product-structured codes and ideal spherical codes in high dimensions.",
-        "Numerically optimized alphabets were generated for multiple block dimensions, including the NVFP4 standard.",
-        "Confirmed that the E2M1 configuration is the near-optimal 4-bit representation for directional coverage.",
-        "Released open-source formal proofs for all core theorems and experimental code for optimized alphabets."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers prove that NVIDIA's NVFP4 format achieves near-optimal directional coverage for high-dimensional low-precision machine learning vectors.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "Quantization",
-        "Low-Precision",
-        "NVFP4",
-        "Geometric Framework",
-        "Hardware Efficiency"
-      ]
-    }
-  },
-  {
     "title": "Towards Billion-scale Multi-modal Biometric Search",
     "link": "http://arxiv.org/abs/2605.07655v1",
     "summary": "Searching a multi-biometric database of a billion records for a country-level identity system requires pushing the limits of all aspects of a biometric system, including acquisition, preprocessing, feature extraction, accuracy, matching speed, presentation attack detection, and handling of special cases (e.g., missing finger digits). This is the first paper that gives insights into such a large-scale multimodal biometric search system, called Bharat ABIS, based on open-source architectures. The end-to-end pipeline of Bharat ABIS processes fingerprint, face and iris modalities through modality-specific stages of preprocessing (segmentation), quality assessment, presentation attack detection, and learning an embedding (feature extraction), producing a concatenated template of 13.5KB per person. We present a detailed analysis of the modalities and how they are integrated to create an efficient and effective solution for 1:N search (de-duplication). Evaluations on a demographically stratified gallery of 220 million identities, randomly sampled from 1.55 billion records in India's Aadhaar database, yield an FNIR of 0.3% at an FPIR of 0.5%, for adult probes (over 18 years). We also compare the performance of Bharat ABIS against three state-of-the-art COTS systems on a 20M gallery. Our system achieves a throughput of 100 searches per second on a gallery of 40M on a single server (8xNvidia H100 GPUs, 2TB RAM).",
@@ -1526,36 +1736,6 @@
         "Vector Search",
         "Large-scale Indexing",
         "De-duplication"
-      ]
-    }
-  },
-  {
-    "title": "Operating Within the Operational Design Domain: Zero-Shot Perception with Vision-Language Models",
-    "link": "http://arxiv.org/abs/2605.07649v1",
-    "summary": "Over the last few years, research on autonomous systems has matured to such a degree that the field is increasingly well-positioned to translate research into practical, stakeholder-driven use cases across well-defined domains. However, for a wide-scale practical adoption of autonomous systems, adherence to safety regulations is crucial. Many regulations are influenced by the Operational Design Domain (ODD), which defines the specific conditions in which an autonomous agent can function. This is especially relevant for Automated Driving Systems (ADS), as a dependable perception of ODD elements is essential for safe implementation and auditing. Vision-language models (VLMs) integrate visual recognition and language reasoning, functioning without task-specific training data, which makes them suitable for adaptable ODD perception. To assess whether VLMs can function as zero-shot \"ODD sensors\" that adapt to evolving definitions, we contribute (i) an empirical study of zero-shot ODD classification and detection using four VLMs on a custom dataset and Mapillary Vistas, along with failure analyses; (ii) an ablation of zero-shot optimization strategies with a cost-performance overview; and (iii) a suite of reusable prompting templates with guidance for adaptation. Our findings indicate that definition-anchored chain-of-thought prompting with persona decomposition performs best, while other methods may result in reduced recall. Overall, our results pave the way for transparent and effective ODD-based perception in safety-critical applications.",
-    "source": "ArXiv",
-    "published": "2026-05-08T12:17:56+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Evaluates the feasibility of using **Vision-Language Models (VLMs)** as zero-shot perception sensors for **Operational Design Domain (ODD)** classification in autonomous driving.\n- Proposes a methodology that integrates visual recognition with **language-based reasoning** to eliminate the need for task-specific training data in safety-critical environments.\n- Investigates the effectiveness of different **prompt engineering** strategies, specifically focusing on how structural decomposition of prompts influences detection recall and precision.",
-      "key_results": [
-        "Definition-anchored chain-of-thought (CoT) prompting yielded the highest performance across ODD classification tasks.",
-        "The use of persona decomposition within the prompt architecture significantly improved reasoning accuracy.",
-        "Standard zero-shot approaches without structured reasoning often resulted in reduced recall for complex ODD elements.",
-        "VLMs demonstrated high adaptability to evolving ODD definitions without requiring model fine-tuning.",
-        "A cost-performance analysis confirmed that structured CoT is more resource-intensive but necessary for safety-critical reliability."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers demonstrate that VLMs using definition-anchored chain-of-thought can effectively perform zero-shot ODD perception for autonomous vehicle safety.",
-      "lead_institution": "ArXiv Researchers",
-      "tags": [
-        "Vision-Language Models",
-        "Zero-Shot Learning",
-        "Autonomous Driving",
-        "Prompt Engineering",
-        "Multimodal AI"
       ]
     }
   },
@@ -1620,36 +1800,6 @@
     }
   },
   {
-    "title": "EggHand: A Multimodal Foundation Model for Egocentric Hand Pose Forecasting",
-    "link": "http://arxiv.org/abs/2605.07642v1",
-    "summary": "Forecasting future 3D hand pose sequences from egocentric video is essential for understanding human intention and enabling embodied applications such as AR/VR assistance and human-robot interaction. However, this task remains a highly challenging problem because egocentric hand motion is driven by complex human intent, exhibits highly dexterous articulations, and is observed under drastic viewpoint shifts induced by ego-motion. In this work, we introduce EggHand, a foundation-model-based framework for egocentric hand pose forecasting that unifies multimodal semantic reasoning with dynamic motion modeling. Our approach couples an action decoder from a Vision-Language-Action (VLA) model, which captures the structured temporal dynamics of hand motion, with an egocentric video-text encoder that provides viewpoint-aware contextual information learned from large-scale first-person video. Together, these components overcome the brittleness of generic visual encoders under ego-motion and enable joint reasoning over motion, context, and high-level intent-without relying on body pose or external tracking. Experiments on the EgoExo4D dataset show that EggHand sets a new state of the art in forecasting accuracy, remains robust under severe ego-motion, and further enables controllable prediction via language-based task prompts. Project page: https://jyoun9.github.io/EggHand",
-    "source": "ArXiv",
-    "published": "2026-05-08T12:09:27+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Introduces **EggHand**, a foundation-model-based framework for **egocentric 3D hand pose forecasting** that integrates multimodal semantic reasoning with dynamic motion modeling.\n- Utilizes a **Vision-Language-Action (VLA) action decoder** to capture structured temporal dynamics and high-level intent, moving beyond simple visual extrapolation.\n- Employs a specialized **egocentric video-text encoder** to handle the drastic viewpoint shifts and ego-motion inherent in first-person perspectives.\n- Enables **controllable prediction** through language-based task prompts, allowing for intent-driven hand motion synthesis.",
-      "key_results": [
-        "Achieved new state-of-the-art performance on the EgoExo4D dataset for 3D hand forecasting.",
-        "Demonstrates high robustness against severe ego-motion and drastic viewpoint shifts.",
-        "Eliminates the need for external body pose sensors or external tracking hardware.",
-        "Successfully integrates semantic human intent with low-level 3D spatial dynamics.",
-        "Validated effectiveness of language-conditioned forecasting for specific task-based hand movements."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "EggHand researchers introduce a VLA-based framework that enables robust, language-controllable 3D hand pose forecasting from egocentric video.",
-      "lead_institution": "Carnegie Mellon University",
-      "tags": [
-        "Multimodal AI",
-        "Egocentric Vision",
-        "VLA Models",
-        "Hand Pose Forecasting",
-        "Foundation Models"
-      ]
-    }
-  },
-  {
     "title": "LithoBench: Benchmarking Large Multimodal Models for Remote-Sensing Lithology Interpretation",
     "link": "http://arxiv.org/abs/2605.07640v1",
     "summary": "Remote sensing lithology interpretation is fundamental to geological surveys, mineral exploration, and regional geological mapping. Unlike general land-cover recognition, lithology interpretation is a knowledge-intensive task that requires experts to infer rock types from various features, e.g., subtle visual, spectral, textural, geomorphological, and contextual cues, making reliable automated interpretation highly challenging. Geological knowledge-guided large multimodal models offer new opportunities, yet their evaluation remains constrained by the lack of benchmarks that capture lithological annotations, multi-level geological semantics, and expert-informed assessment. Here, we propose LithoBench, a multi-level benchmark for evaluating geological semantic understanding in remote sensing lithology interpretation. LithoBench contains 10,000 expert-annotated interpretation instances across 12 representative lithological categories, including 4,000 multiple-choice and 6,000 open-ended tasks organized into five cognitive levels: Identification and Description, Comparative Analysis, Mechanism Explanation, Practical Application, and Comprehensive Reasoning. We further develop an expert-in-the-loop, knowledge-grounded semi-automated construction pipeline, coupling multi sub-processes, e.g., structured geological image descriptions, to enhance geological validity and evaluation reliability. Experiments with multiple large vision-language models eveal substantial limitations in geological semantic understanding, particularly on higher-order explanation, application, and reasoning tasks.",
@@ -1676,36 +1826,6 @@
         "Remote Sensing",
         "Reasoning Models",
         "LVLM"
-      ]
-    }
-  },
-  {
-    "title": "Tacit Knowledge Extraction via Logic Augmented Generation and Active Inference",
-    "link": "http://arxiv.org/abs/2605.07639v1",
-    "summary": "Tacit knowledge plays a central role in human expertise, yet it remains difficult to capture, formalize, and reuse in machine-interpretable form. This challenge is especially relevant in procedural domains, where successful execution depends not only on explicit instructions, but also on implicit assumptions, contextual constraints, embodied skills, and experience-based judgments rarely documented. As a result, current knowledge engineering pipelines struggle to transform tacit and process-centric knowledge into formally specified, machine-interpretable representations that can be queried, validated, reasoned over, and reused. In this paper, we introduce a neuro-symbolic framework that combines Logic-Augmented Generation and an Active-Inference-inspired approach for ontology-grounded Knowledge Graph construction. We evaluate the approach in a knowledge transfer case study in manufacturing, using assembly-like repair procedures from instructional videos as a reproducible proxy domain. Results show that the proposed solution improves completeness and semantic quality, advancing neuro-symbolic knowledge engineering for industrial domains.",
-    "source": "ArXiv",
-    "published": "2026-05-08T12:06:02+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Proposes a **neuro-symbolic framework** that integrates **Logic-Augmented Generation (LAG)** with **Active Inference** to automate the construction of ontology-grounded **Knowledge Graphs**.\n- Targets the extraction of **tacit knowledge**, focusing on implicit assumptions and contextual constraints in procedural domains like manufacturing.\n- Bridges the gap between unstructured instructional data (e.g., videos) and **formalized machine-interpretable representations** for reasoning and reuse.\n- Combines the probabilistic strengths of Generative AI with the structural rigor of **symbolic logic** to improve industrial knowledge engineering.",
-      "key_results": [
-        "Improved completeness of extracted procedural knowledge compared to standard LLM baselines.",
-        "Higher semantic quality in Knowledge Graph construction through ontology grounding.",
-        "Successful capture of implicit, experience-based judgments from repair video data.",
-        "Validated logic-augmented approach for validating and reasoning over manufacturing workflows.",
-        "Demonstrated enhanced knowledge transfer capabilities in complex industrial domains."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers develop a neuro-symbolic framework to extract tacit knowledge for machine-interpretable knowledge graph construction.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "Neuro-symbolic AI",
-        "Knowledge Graphs",
-        "Logic-Augmented Generation",
-        "Active Inference",
-        "Tacit Knowledge"
       ]
     }
   },
@@ -1740,36 +1860,6 @@
     }
   },
   {
-    "title": "Multi-Dimensional Evaluation of LLMs for Grammatical Error Correction",
-    "link": "http://arxiv.org/abs/2605.07635v1",
-    "summary": "Automated assistants for Grammatical Error Correction are now embedded in educational platforms serving millions of learners, yet three critical gaps remain in this domain: (1) latest-generation Large Language Models (LLMs) lack comprehensive evaluation on grammar correction tasks; (2) whether combining these LLMs improves correction quality is unexplored; and (3) the extent to which reference-based metrics underestimate GEC system performance has not been adequately quantified. In this study, first, we evaluate latest-generation LLMs on edit precision, fluency preservation, and meaning retention, showing fine-tuned GPT-4o achieves state-of-the-art performance across all three dimensions. Second, through grammatical error type analysis we demonstrate that individual LLMs exhibit highly similar error correction patterns ($\u03c1=0.947$). Third, we show that reference-based metrics underestimate GEC performance with 73.76% of GPT-4o corrections different from gold standards being equally valid or even superior. These GEC evaluation findings equip educators with guidance for selecting GEC assistants that enhance rather than constrain student linguistic development. We make our data, code, and models publicly available.",
-    "source": "ArXiv",
-    "published": "2026-05-08T12:01:42+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Evaluates latest-generation LLMs including **GPT-4o** across three key dimensions: edit precision, fluency preservation, and meaning retention.\n- Demonstrates that **fine-tuned GPT-4o** achieves state-of-the-art (SOTA) performance, outperforming previous specialized models.\n- Identifies a high correlation (rho=0.947) in **error correction patterns** across different LLM architectures, suggesting convergent behavior.\n- Proves that traditional **reference-based metrics** significantly fail to capture LLM utility, as 73.76% of \"incorrect\" model outputs were actually valid.",
-      "key_results": [
-        "Fine-tuned GPT-4o established new SOTA performance in multi-dimensional GEC evaluation.",
-        "Individual LLMs exhibit nearly identical error correction patterns with a 0.947 correlation coefficient.",
-        "73.76% of GPT-4o corrections diverging from gold standards are found to be equally valid or superior.",
-        "Reference-based metrics are shown to drastically underestimate the actual performance of modern GEC systems.",
-        "Multi-dimensional analysis provides superior guidance for selecting educational AI assistants over single-score metrics."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers reveal that fine-tuned GPT-4o achieves SOTA grammatical correction while exposing major flaws in traditional evaluation metrics.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "Grammatical Error Correction",
-        "Model Fine-tuning",
-        "AI Evaluation",
-        "GPT-4o",
-        "NLP Benchmarking"
-      ]
-    }
-  },
-  {
     "title": "Distributed Seeking for Fixed Points of Biased Stochastic Operators: A Communication Efficient Approach",
     "link": "http://arxiv.org/abs/2605.07633v1",
     "summary": "This paper investigates the distributed fixed point seeking problem of sum-separable stochastic operators over the multi-agent network. Based on inexact Krasnosel'ski\u012d--Mann iterations, the communication-efficient distributed algorithm is proposed under the relaxed growth bias and variance conditions, generalizing traditional unbiased and bounded additive variance assumptions. To enhance communication efficiency, we integrate communication compression and dynamic period skipping techniques, particularly adopting a unified compressor that allows both relative and absolute compression errors. By introducing a surrogate function for general non-contractive and contractive operators, we establish convergence guarantees of the distributed fixed point iteration, achieving among the first theoretical unifications with distributed non-convex optimization algorithms. Finally, numerical simulations validate the effectiveness of the theoretical results.",
@@ -1800,66 +1890,6 @@
     }
   },
   {
-    "title": "Post-training makes large language models less human-like",
-    "link": "http://arxiv.org/abs/2605.07632v1",
-    "summary": "Large language models (LLMs) are increasingly used as surrogates for human participants, but it remains unclear which models best capture human behavior and why. To address this, we introduce Psych-201, a novel dataset that enables us to measure behavioral alignment at scale. We find that post-training -- the stage that turns base models into useful assistants -- consistently reduces alignment with human behavior across model families, sizes, and objectives. Moreover, this misalignment widens in newer model generations even as base models continue to improve. Finally, we find that persona-induction -- a popular technique for eliciting human-like behavior by conditioning models on participant-specific information -- does not improve predictions at the level of individuals. Taken together, our results suggest that the very processes that are currently employed to turn LLMs into useful assistants also make them less accurate models of human behavior.",
-    "source": "ArXiv",
-    "published": "2026-05-08T11:59:34+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- The study introduces **Psych-201**, a novel large-scale dataset designed to rigorously measure the **behavioral alignment** between LLMs and human psychology participants.\n- Analysis reveals that **post-training** (SFT and RLHF) consistently degrades the model's ability to replicate human-like behavior across various architectures and sizes.\n- The research identifies a widening **misalignment gap** in newer generations of models, where base models improve but instruction-tuned versions diverge further from human benchmarks.\n- The impact of **persona-induction** was evaluated, showing that prompt engineering cannot mitigate the loss of behavioral fidelity at the individual participant level.",
-      "key_results": [
-        "Post-training reduces alignment with human behavior across all model families, sizes, and training objectives.",
-        "Instruction-tuned models are significantly less accurate as human surrogates compared to their base model counterparts.",
-        "The gap between model behavior and human behavior is increasing in more recent, more powerful model generations.",
-        "Persona-induction via prompt engineering fails to improve predictive accuracy for individual human decision-making.",
-        "A systematic trade-off exists between making an LLM a helpful assistant and maintaining its psychological realism."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers find that post-training LLMs for assistant utility systematically degrades their alignment with human behavioral patterns.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "Model Fine-tuning",
-        "AI Evaluation",
-        "Behavioral Alignment",
-        "RLHF",
-        "Instruction Tuning"
-      ]
-    }
-  },
-  {
-    "title": "Safe, or Simply Incapable? Rethinking Safety Evaluation for Phone-Use Agents",
-    "link": "http://arxiv.org/abs/2605.07630v1",
-    "summary": "When a phone-use agent avoids harm, does that show safety, or simply inability to act? Existing evaluations often cannot tell. A harmful outcome may be avoided because the agent recognized the risk and chose the safe action, or because it failed to understand the screen or execute any relevant action at all. These cases have different causes and call for different fixes, yet current benchmarks often merge them under task success, refusal, or final harmful outcome. We address this problem with PhoneSafety, a benchmark of 700 safety-critical moments drawn from real phone interactions across more than 130 apps. Each instance isolates the next decision at a risky moment and asks a simple question: does the model take the safe action, take the unsafe action, or fail to do anything useful? We evaluate eight representative phone-use agents under this framework. Our results reveal two main patterns. First, stronger general phone-use ability does not reliably imply safer choices at risky moments. Models that perform better on ordinary app tasks are not always the ones that behave more safely when the next action matters. Second, failures to do anything useful behave like a capability signal rather than a safety signal: they are concentrated in more visually and operationally demanding settings and remain stable when the evaluation protocol changes. Across models, failures split into two recurring patterns: unsafe choices in settings where the model can act but chooses wrongly, and inability to act in more visually and operationally demanding screens. Overall, a harmless outcome is not enough to count as evidence of safety. Evaluating phone-use agents requires separating unsafe judgment from inability to act.",
-    "source": "ArXiv",
-    "published": "2026-05-08T11:58:57+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n Introduces **PhoneSafety**, a specialized benchmark containing 700 safety-critical moments across 130+ mobile applications to evaluate **autonomous agents**.\n Proposes a **tri-modal evaluation framework** that distinguishes between safe actions, unsafe actions, and \"inability to act\" to prevent false positives in safety metrics.\n Identifies a critical decoupling between **general phone-use capability** and **safety alignment**, demonstrating that high-performing models are not inherently safer.\n Analyzes how **visual and operational complexity** triggers capability failures, which are often mischaracterized as safety refusals in traditional benchmarks.",
-      "key_results": [
-        "General phone-use proficiency does not reliably correlate with safe decision-making at risky moments.",
-        "Harmless outcomes are frequently caused by an agent's inability to understand the UI rather than intentional safety.",
-        "Failures to act are concentrated in visually and operationally demanding app environments.",
-        "Evaluated eight representative agents, revealing that unsafe choices persist even when models are capable of acting.",
-        "Separating unsafe judgment from capability failure provides a more accurate signal for model alignment and debugging."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce PhoneSafety to demonstrate that phone agent safety is often an illusion caused by capability failures.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "LLM Agents",
-        "AI Safety",
-        "Multimodal AI",
-        "Benchmark",
-        "AI Evaluation"
-      ]
-    }
-  },
-  {
     "title": "Statistical Convergence of Spherical First Hitting Diffusion Models",
     "link": "http://arxiv.org/abs/2605.07625v1",
     "summary": "Denoising diffusion models have evolved into a state-of-the-art method for tasks in various fields, such as denoising and generation of images, text generation, or generation of synthetic data for training of other machine learning models. First hitting diffusion models (FHDM) are a particular class of denoising diffusion models with \\textit{random} adaptive generation time tailored to generate data on a known manifold. Building on the conditioning framework of Doob's $h$-transform these models leverage the given information on the target data manifold to demonstrate strong performance across tasks while offering distinct features such as time-homogeneous dynamics of the generating process and a reduced average simulation time. Even though the theoretical investigation of standard forward-backward diffusion models has attracted much attention in the recent past, the statistical convergence properties of FHDMs are not yet understood. In this work, we show that, up to logarithmic factors, FHDMs achieve the minimax optimal convergence rate in total variation for spherically supported Sobolev smooth data distributions. In particular, this is the first statistical optimality result for denoising diffusion modelling with random generation time.",
@@ -1886,36 +1916,6 @@
         "Statistical Convergence",
         "Manifold Learning",
         "Geometric Deep Learning"
-      ]
-    }
-  },
-  {
-    "title": "Intent-Driven Semantic ID Generation for Grounded Conversational News Recommendation",
-    "link": "http://arxiv.org/abs/2605.07613v1",
-    "summary": "Conversational news recommendation requires grounding each suggestion in a rapidly evolving article corpus while addressing implicit user intents that lack explicit retrievable keywords. To characterize this scenario, we identify 6 intent types from production dialogues: five are implicit and pose fundamental challenges to standard RAG pipelines, forming a critical retrieve-first bottleneck. To address these issues, we introduce intent-driven Semantic ID (SID) generation under a Generate-then-Match paradigm. With two-stage training that consists of multi-task SID alignment and GPT-4 Chain-of-Thought distillation, an LLM maps diverse intents to hierarchical SID prefixes, which are then fuzzy-matched to the current news pool to guarantee fully grounded recommendations. Profile-Aware Dual-Signal Reasoning (PADR) further enables cold-start users to obtain valid recommendations using only profiles. On a mainstream Chinese news platform, our 7B model achieves 0% hallucination and 12.4% L1 match in the 152K open-generation SID space (4x random baseline). It matches GPT-4+Hybrid RAG on L1 while surpassing it on finer-grained metrics (L2 2x, Category +1.2pp) at ~100x lower cost. Cold-start users, where existing baselines score 0%, achieve 18.0% L1 (6x random), the highest among all user groups.",
-    "source": "ArXiv",
-    "published": "2026-05-08T11:43:06+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n* Proposes a **Generate-then-Match** paradigm that replaces traditional RAG bottlenecks by generating **Semantic IDs (SID)** to handle implicit user intents in conversational news.\n* Utilizes a 7B LLM trained through **multi-task SID alignment** and **GPT-4 Chain-of-Thought (CoT) distillation** to map intents to hierarchical prefixes.\n* Implements **Profile-Aware Dual-Signal Reasoning (PADR)** to enable grounded recommendations for cold-start users by leveraging historical profiles over explicit queries.\n* Ensures **fully grounded recommendations** by fuzzy-matching generated IDs against a dynamic news corpus, eliminating hallucination risks inherent in open-generation models.",
-      "key_results": [
-        "Achieved 0% hallucination rate within a massive 152K open-generation SID space.",
-        "Reached 12.4% L1 match, outperforming random baselines by 4x.",
-        "Matched GPT-4 + Hybrid RAG performance on L1 metrics while significantly exceeding it on L2 (2x better) and Category (+1.2pp) accuracy.",
-        "Reduced inference costs by approximately 100x compared to GPT-4 based RAG pipelines.",
-        "Delivered 18.0% L1 match for cold-start users, the highest across all user groups and 6x above baseline."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce a Generate-then-Match paradigm using Semantic IDs to eliminate hallucinations in conversational news recommendations at low cost.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "Semantic ID",
-        "RAG",
-        "Conversational AI",
-        "Model Distillation",
-        "Reasoning Models"
       ]
     }
   },
@@ -2006,36 +2006,6 @@
         "Extreme Multi-class",
         "Generalization Theory",
         "Long-tailed Distributions"
-      ]
-    }
-  },
-  {
-    "title": "TraceAV-Bench: Benchmarking Multi-Hop Trajectory Reasoning over Long Audio-Visual Videos",
-    "link": "http://arxiv.org/abs/2605.07593v1",
-    "summary": "Real-world audio-visual understanding requires chaining evidence that is sparse, temporally dispersed, and split across the visual and auditory streams, whereas existing benchmarks largely fail to evaluate this capability. They restrict videos to short clips, isolate modalities, or reduce questions to one-hop perception. We introduce TraceAV-Bench, the first benchmark to jointly evaluate multi-hop reasoning over long audio-visual trajectories and multimodal hallucination robustness. TraceAV-Bench comprises 2,200 rigorously validated multiple-choice questions over 578 long videos, totaling 339.5 hours, spanning 4 evaluation dimensions and 15 sub-tasks. Each question is grounded in an explicit reasoning chain that averages 3.68 hops across a 15.1-minute temporal span. The dataset is built by a three-step semi-automated pipeline followed by a strict quality assurance process. Evaluation of multiple representative OmniLLMs on TraceAV-Bench reveals that the benchmark poses a persistent challenge across all models, with the strongest closed-source model (Gemini 3.1 Pro) reaching only 68.29% on general tasks, and the best open-source model (Ming-Flash-Omni-2.0) reaching 51.70%, leaving substantial headroom. Moreover, we find that robustness to multimodal hallucination is largely decoupled from general multimodal reasoning performance. We anticipate that TraceAV-Bench will stimulate further research toward OmniLLMs that can reason coherently and faithfully over long-form audio-visual content.",
-    "source": "ArXiv",
-    "published": "2026-05-08T11:06:43+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Introduces **TraceAV-Bench**, the first benchmark specifically designed for **multi-hop trajectory reasoning** across long-form audio-visual videos (averaging 15.1 minutes).\n- Utilizes a **three-step semi-automated pipeline** with strict quality assurance to generate 2,200 questions grounded in explicit temporal reasoning chains.\n- Evaluates **OmniLLMs** on their ability to integrate sparse auditory and visual cues across extended durations while resisting **multimodal hallucinations**.\n- Provides a comprehensive evaluation framework spanning **15 sub-tasks** to identify performance gaps in long-context multimodal understanding.",
-      "key_results": [
-        "Benchmark includes 339.5 hours of video content across 578 unique long-form videos.",
-        "Questions require an average of 3.68 reasoning hops to answer correctly.",
-        "Gemini 1.5 Pro leads performance at 68.29%, indicating significant room for improvement.",
-        "Ming-Flash-Omni-2.0 is the top open-source performer but lags behind at 51.70%.",
-        "Data shows that robustness against hallucinations does not correlate strongly with general reasoning scores."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "The TraceAV-Bench team introduces a new benchmark to challenge OmniLLMs on complex, multi-hop reasoning within long-form audio-visual trajectories.",
-      "lead_institution": "ArXiv Researchers",
-      "tags": [
-        "Multimodal AI",
-        "Video Reasoning",
-        "OmniLLM",
-        "Long-Context AI",
-        "Evaluation Benchmark"
       ]
     }
   },
