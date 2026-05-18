@@ -1,1 +1,62 @@
-[]
+[
+  {
+    "title": "OpenAI and Malta partner to bring ChatGPT Plus to all citizens",
+    "link": "https://openai.com/index/malta-chatgpt-plus-partnership",
+    "summary": "OpenAI and Malta partner to expand AI access, offering ChatGPT Plus and training to help citizens build practical AI skills and use AI responsibly.",
+    "source": "OpenAI News",
+    "published": "2026-05-16T00:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "<br>\u2022 OpenAI initiates a sovereign-scale partnership with **Malta** to provide **ChatGPT Plus** access to the entire citizenry.<br>\u2022 The collaboration focuses on developing **AI literacy** and practical technical skills through national training programs.<br>\u2022 The infrastructure deployment aims to establish a model for **responsible AI adoption** and ethical usage within public and private sectors.",
+      "key_results": [
+        "Universal access to ChatGPT Plus for all Maltese citizens",
+        "Launch of a comprehensive national AI training curriculum",
+        "Establishment of frameworks for ethical and responsible AI usage",
+        "Integration of Generative AI tools into the national workforce",
+        "Pilot for sovereign-level LLM licensing and distribution models"
+      ],
+      "relevance_score": 3,
+      "signal_type": "Release",
+      "one_sentence_takeaway": "OpenAI partners with Malta to provide ChatGPT Plus access and AI training to every citizen for nationwide digital literacy.",
+      "lead_institution": "OpenAI",
+      "tags": [
+        "Generative AI Trends",
+        "AI Literacy",
+        "Public Policy",
+        "LLM Adoption",
+        "OpenAI"
+      ]
+    }
+  },
+  {
+    "title": "Raising the bar: Quality, shared responsibility, and the future of GitHub\u2019s bug bounty program",
+    "link": "https://github.blog/security/raising-the-bar-quality-shared-responsibility-and-the-future-of-githubs-bug-bounty-program/",
+    "summary": "<p>We're updating our bug bounty program standards to prioritize quality submissions, clarify shared responsibility boundaries, and evolve how we reward low-risk findings.</p>\n<p>The post <a href=\"https://github.blog/security/raising-the-bar-quality-shared-responsibility-and-the-future-of-githubs-bug-bounty-program/\">Raising the bar: Quality, shared responsibility, and the future of GitHub&#8217;s bug bounty program</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
+    "source": "The GitHub Blog",
+    "published": "2026-05-15T14:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "<br>- GitHub is **updating bug bounty standards** to prioritize submission quality, aiming to reduce noise and focus on actionable security insights rather than volume.<br>- The program introduces **shared responsibility boundaries**, clarifying how security risks are handled across GitHub\u2019s infrastructure versus third-party integrations and user-controlled environments.<br>- GitHub is **evolving reward structures** for low-risk findings, shifting financial incentives toward the discovery of critical, high-impact vulnerabilities that affect platform integrity.",
+      "key_results": [
+        "Implementation of stricter submission quality requirements for researchers.",
+        "Definition of new boundaries for shared responsibility in the GitHub ecosystem.",
+        "Adjustment of bounty payouts for low-risk and informational findings.",
+        "Focus on reducing triage overhead for non-critical security reports.",
+        "Strategic shift towards incentivizing high-severity vulnerability research."
+      ],
+      "relevance_score": 3,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "GitHub updates its bug bounty program standards to emphasize submission quality and clarify security responsibility boundaries for researchers.",
+      "lead_institution": "GitHub",
+      "tags": [
+        "Cybersecurity",
+        "Bug Bounty",
+        "GitHub",
+        "Vulnerability Management",
+        "Policy Update"
+      ]
+    }
+  }
+]
