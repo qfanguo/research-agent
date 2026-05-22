@@ -1,5 +1,755 @@
 [
   {
+    "title": "AdventHealth advances whole-person care with OpenAI",
+    "link": "https://openai.com/index/adventhealth",
+    "summary": "AdventHealth is using ChatGPT for Healthcare to streamline workflows, reduce administrative burden, and return more time to patient care.",
+    "source": "OpenAI News",
+    "published": "2026-05-21T12:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- AdventHealth integrates **ChatGPT for Healthcare** to automate clinical documentation and administrative tasks across its medical network.\n- The deployment utilizes **HIPAA-compliant LLM architectures** to ensure patient data privacy while streamlining healthcare operations.\n- Implementation focuses on reducing **clinician burnout** by automating routine paperwork and returning time to direct patient care.",
+      "key_results": [
+        "Streamlined clinical documentation workflows for healthcare providers.",
+        "Reduction in manual administrative burden for medical staff.",
+        "Increased time available for direct patient-to-provider interaction.",
+        "Successful deployment of LLMs within a high-compliance healthcare environment.",
+        "Optimization of hospital operations through enterprise-grade Generative AI."
+      ],
+      "relevance_score": 3,
+      "signal_type": "Release",
+      "one_sentence_takeaway": "OpenAI partners with AdventHealth to deploy ChatGPT for Healthcare, automating administrative tasks to enhance patient-centered care delivery.",
+      "lead_institution": "OpenAI News",
+      "tags": [
+        "Healthcare AI",
+        "LLM Implementation",
+        "Generative AI Trends",
+        "Enterprise AI",
+        "Productivity"
+      ]
+    }
+  },
+  {
+    "title": "We\u2019re launching the Google DeepMind Accelerator program in Asia Pacific to tackle environmental risks",
+    "link": "https://deepmind.google/blog/were-launching-the-google-deepmind-accelerator-program-in-asia-pacific-to-tackle-environmental-risks/",
+    "summary": "",
+    "source": "Google DeepMind News",
+    "published": "2026-05-21T19:46:42+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n\u2022 Google DeepMind is launching a regional **accelerator program** in the Asia Pacific to foster AI-driven solutions for environmental challenges.\n\u2022 The program aims to bridge the gap between **AI research** and practical applications in climate resilience, biodiversity conservation, and natural resource management.\n\u2022 Selected organizations will gain access to **technical mentorship** and Google's computing infrastructure to scale the impact of their specialized environmental models.",
+      "key_results": [
+        "Launch of a dedicated AI accelerator targeting environmental risks in the Asia Pacific region.",
+        "Provision of specialized mentorship from Google DeepMind researchers and technical experts.",
+        "Strategic focus on AI applications for disaster risk reduction and ecosystem sustainability.",
+        "Allocation of Google Cloud credits and infrastructure support for selected startups and NGOs.",
+        "Establishment of a collaborative network between global AI labs and local environmental stakeholders."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Google DeepMind launches an APAC accelerator program to leverage AI for environmental risk management and climate resilience efforts.",
+      "lead_institution": "Google DeepMind",
+      "tags": [
+        "Sustainability",
+        "AI for Good",
+        "Asia Pacific",
+        "Climate Change",
+        "Accelerator"
+      ]
+    }
+  },
+  {
+    "title": "Beyond the engine: 10 open source projects shaping how games actually get made",
+    "link": "https://github.blog/open-source/gaming/beyond-the-engine-10-open-source-projects-shaping-how-games-actually-get-made/",
+    "summary": "<p>Check out these 10 open source tools that help game developers create art, animation, levels, audio, dialogue, debug UIs, and engine-ready assets.</p>\n<p>The post <a href=\"https://github.blog/open-source/gaming/beyond-the-engine-10-open-source-projects-shaping-how-games-actually-get-made/\">Beyond the engine: 10 open source projects shaping how games actually get made</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
+    "source": "The GitHub Blog",
+    "published": "2026-05-21T18:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- GitHub highlights **open source tooling** that extends beyond the core game engine to facilitate asset creation and workflow automation.\n- The ecosystem emphasizes **interoperability** through tools that convert raw assets into engine-ready formats like GLTF or custom binary streams.\n- Integration of **specialized toolsets** for dialogue (Yarn Spinner), level design (Tiled), and UI debugging (Dear ImGui) creates a modular production pipeline.",
+      "key_results": [
+        "Identifies 10 critical open source tools for game developers.",
+        "Covers diverse domains including art, animation, audio, and level design.",
+        "Highlights Dear ImGui as a standard for internal debugging interfaces.",
+        "Showcases Yarn Spinner for narrative and dialogue management.",
+        "Emphasizes the role of community-driven tools in reducing engine vendor lock-in."
+      ],
+      "relevance_score": 3,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "GitHub highlights ten open source projects that streamline game development workflows through specialized asset creation and debugging tools.",
+      "lead_institution": "GitHub",
+      "tags": [
+        "Game Development",
+        "Open Source",
+        "Workflow Automation",
+        "Asset Creation",
+        "Software Tooling"
+      ]
+    }
+  },
+  {
+    "title": "Building GitHub\u2019s next chapter in accessibility",
+    "link": "https://github.blog/open-source/building-githubs-next-chapter-in-accessibility/",
+    "summary": "<p>Explore our update on GitHub\u2019s accessibility strategy, and learn how you can join us in building a culture of accessibility.</p>\n<p>The post <a href=\"https://github.blog/open-source/building-githubs-next-chapter-in-accessibility/\">Building GitHub&#8217;s next chapter in accessibility</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
+    "source": "The GitHub Blog",
+    "published": "2026-05-21T16:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "<br>\u2022 GitHub outlines a renewed **accessibility strategy** focused on standardizing inclusive design patterns across its platform and developer tools.<br>\u2022 The initiative prioritizes the integration of **assistive technology compatibility** into core platform architecture to ensure equitable access for developers with disabilities.<br>\u2022 GitHub promotes a **culture-first approach**, encouraging the global open-source community to participate in building and adopting accessibility standards.",
+      "key_results": [
+        "Updated strategic roadmap for platform-wide accessibility.",
+        "Emphasis on inclusive design for improved developer experience.",
+        "Call for community participation in open-source accessibility standards.",
+        "Commitment to fostering an internal culture of accessibility.",
+        "Promotion of resources to help developers build accessible software."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "GitHub updates its accessibility strategy to create a more inclusive environment for global open-source developers.",
+      "lead_institution": "GitHub",
+      "tags": [
+        "Accessibility",
+        "GitHub",
+        "Open Source",
+        "Inclusive Design",
+        "Developer Experience"
+      ]
+    }
+  },
+  {
+    "title": "Investigating unauthorized access to GitHub-owned repositories",
+    "link": "https://github.blog/security/investigating-unauthorized-access-to-githubs-internal-repositories/",
+    "summary": "<p>If any impact is discovered, customers will be notified via established incident response and notification channels.</p>\n<p>The post <a href=\"https://github.blog/security/investigating-unauthorized-access-to-githubs-internal-repositories/\">Investigating unauthorized access to GitHub-owned repositories</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
+    "source": "The GitHub Blog",
+    "published": "2026-05-20T21:07:38+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- GitHub is conducting a formal investigation into **unauthorized access** targeting its internal, GitHub-owned source code repositories.\n- The **security architecture** review aims to identify potential lateral movement or exposure of proprietary logic within the company's private environments.\n- **Impact mitigation** strategies are currently being deployed, including the activation of incident response channels for affected stakeholders.",
+      "key_results": [
+        "Identification of unauthorized entry into internal repository systems.",
+        "Activation of internal incident response and forensics protocols.",
+        "Ongoing assessment of potential exposure to customer data or systems.",
+        "Preparation of customer notification channels for transparency.",
+        "Continued monitoring of GitHub-owned repository integrity."
+      ],
+      "relevance_score": 2,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "GitHub investigates unauthorized access to its internal repositories to mitigate security risks and protect customer data integrity.",
+      "lead_institution": "GitHub",
+      "tags": [
+        "Cybersecurity",
+        "Incident Response",
+        "Repository Security",
+        "GitHub",
+        "Access Control"
+      ]
+    }
+  },
+  {
+    "title": "We\u2019re announcing new community investments in Missouri.",
+    "link": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/missouri-programs/",
+    "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/MissouriSocial.max-600x600.format-webp.webp\" />We\u2019re helping build the state\u2019s next-generation workforce and investing in energy programs.",
+    "source": "AI",
+    "published": "2026-05-20T20:40:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Google announces strategic **community investments** in Missouri, focusing on building a tech-ready **workforce**.\n- The initiative aims to support **energy programs** to manage the environmental impact of large-scale computational infrastructure.\n- The investment facilitates the development of **regional talent** to support the evolving demands of the AI and cloud industries.",
+      "key_results": [
+        "Commitment to Missouri workforce development.",
+        "Investment in local energy sustainability programs.",
+        "Support for next-generation technical education.",
+        "Strengthening of regional infrastructure for future data centers.",
+        "Enhanced community engagement through economic funding."
+      ],
+      "relevance_score": 1,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Google announces Missouri community investments to bolster workforce development and local energy infrastructure for future technology growth.",
+      "lead_institution": "Google",
+      "tags": [
+        "Workforce Development",
+        "Energy Infrastructure",
+        "Data Centers",
+        "Community Investment",
+        "Missouri"
+      ]
+    }
+  },
+  {
+    "title": "100 things we announced at I/O 2026",
+    "link": "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/",
+    "summary": "Image with the words \"Ready, Set, I/O\" and a colorful Gemini logo",
+    "source": "AI",
+    "published": "2026-05-20T19:30:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- **Google** previews the future of its AI ecosystem at I/O 2026, focusing on the broad application of **Gemini** models.\n- The event emphasizes **Multimodal AI** integration across consumer and developer platforms to enhance user interaction.\n- Technical focus remains on scaling **LLM Agents** and improving the accessibility of generative tools for global developers.",
+      "key_results": [
+        "Unveiling of 100 distinct AI-centric announcements for 2026",
+        "Expansion of the Gemini model family into new hardware verticals",
+        "Enhanced developer tooling for building autonomous agentic workflows",
+        "Updates to multimodal processing speeds for real-time applications",
+        "Strategic roadmap for integrating local SLMs into mobile ecosystems"
+      ],
+      "relevance_score": 3,
+      "signal_type": "Release",
+      "one_sentence_takeaway": "Google announces 100 updates at I/O 2026 to expand the Gemini ecosystem and advance multimodal developer tools.",
+      "lead_institution": "Google",
+      "tags": [
+        "Gemini",
+        "Multimodal AI",
+        "LLM Agents",
+        "Generative AI",
+        "Google I/O"
+      ]
+    }
+  },
+  {
+    "title": "A new experiment brings better group meetings to Google Beam",
+    "link": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-beam-group-meetings/",
+    "summary": "A small group meeting featuring two in-room participants and three participants on-screen.",
+    "source": "AI",
+    "published": "2026-05-20T16:45:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- The experiment evaluates **hybrid meeting dynamics** by balancing interactions between two in-room participants and three remote attendees on the **Google Beam** platform.\n- Architecture focus is placed on **spatial synchronization** to bridge the gap between physical presence and digital telepresence.\n- The implementation aims to reduce **cognitive load** during distributed collaboration through optimized hardware-software integration.",
+      "key_results": [
+        "Integration of mixed-mode participant layouts.",
+        "Improved visual parity for remote users.",
+        "Enhanced spatial audio distribution for in-room attendees.",
+        "Refinement of the Google Beam interface for group settings.",
+        "Validation of hybrid collaboration UX patterns."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Google explores hybrid meeting configurations on Beam to improve collaboration parity between physical and remote participants.",
+      "lead_institution": "Google",
+      "tags": [
+        "Telepresence",
+        "Google Beam",
+        "Hybrid Work",
+        "Collaboration Tools",
+        "UX Design"
+      ]
+    }
+  },
+  {
+    "title": "Build an AI-powered recruitment assistant using Amazon Bedrock",
+    "link": "https://aws.amazon.com/blogs/machine-learning/build-an-ai-powered-recruitment-assistant-using-amazon-bedrock/",
+    "summary": "In this post, we demonstrate how to build an AI-powered recruitment assistant using Amazon Bedrock that brings efficiencies to candidate evaluation, generates personalized interview questions, and provides data-driven insights for human hiring decisions. This post presents a reference architecture for learning purposes \u2014 not a production-ready solution. Amazon Bedrock and the AWS services used here are general-purpose tools that customers can combine to support a wide variety of use cases, including recruitment workflows. The architecture demonstrates one possible approach; customers should adapt it to their specific requirements.",
+    "source": "Artificial Intelligence",
+    "published": "2026-05-21T16:00:30+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* Proposes a **reference architecture** using **Amazon Bedrock** to automate candidate screening and interview preparation.\n* Utilizes **Generative AI** to analyze resumes and job descriptions, providing **data-driven insights** for human-in-the-loop recruiters.\n* Integrates multiple **AWS services** to create a scalable recruitment workflow for more efficient candidate evaluation and hiring decisions.",
+      "key_results": [
+        "Streamlines the initial candidate screening process via automated analysis",
+        "Generates personalized interview questions tailored to specific candidate resumes",
+        "Provides structured, data-driven evaluation summaries for hiring managers",
+        "Demonstrates multi-service orchestration within the AWS ecosystem for AI tasks",
+        "Reduces manual overhead for processing high volumes of job applications"
+      ],
+      "relevance_score": 5,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Amazon demonstrates how to leverage Bedrock to build automated recruitment assistants for candidate evaluation and interview generation.",
+      "lead_institution": "Amazon",
+      "tags": [
+        "Amazon Bedrock",
+        "Generative AI",
+        "Recruitment Automation",
+        "Prompt Engineering",
+        "AWS"
+      ]
+    }
+  },
+  {
+    "title": "NVIDIA GTC Taipei at COMPUTEX: Live Updates on What\u2019s Next in AI",
+    "link": "https://blogs.nvidia.com/blog/nvidia-gtc-taipei-computex-2026-news/",
+    "summary": "At NVIDIA GTC Taipei at COMPUTEX, the world\u2019s developers, researchers and industry leaders are converging to dive into the latest breakthroughs shaping every industry, covering topics spanning AI factories and scaling infrastructure to agentic and physical AI and more.",
+    "source": "NVIDIA Blog",
+    "published": "2026-05-21T16:00:17+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* Strategic focus on **AI Factories** which redefine data center architecture for high-scale model training and inference.\n* Advancement of **Agentic AI** systems designed to autonomously execute complex workflows rather than just generating text.\n* Integration of **Physical AI** to bridge generative models with robotics and edge computing environments.",
+      "key_results": [
+        "Introduction of AI Factory scaling infrastructure.",
+        "Focus on Agentic AI for autonomous reasoning.",
+        "Showcasing developments in Physical AI and robotics.",
+        "Updates on high-performance computing for AI workloads.",
+        "Cross-industry collaboration on scaling AI infrastructure."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "NVIDIA highlights its transition toward agentic systems and physical AI infrastructure during the GTC keynote at COMPUTEX.",
+      "lead_institution": "NVIDIA",
+      "tags": [
+        "Agentic AI",
+        "Physical AI",
+        "AI Factories",
+        "Infrastructure",
+        "COMPUTEX"
+      ]
+    }
+  },
+  {
+    "title": "License to Stream: \u2018007 First Light\u2019 Coming to GeForce NOW With an Ultimate Bundle",
+    "link": "https://blogs.nvidia.com/blog/geforce-now-thursday-007-first-light-ultimate-bundle/",
+    "summary": "The mission begins now. GeForce NOW is dialing up the action with a blockbuster mix of spy thrills, high-speed racing and member rewards \u2014 plus eight new games joining the cloud this week, all ready to stream instantly. Leading the drop: the 007 First Light Ultimate Membership Bundle, which brings a brand-new way to jump [&#8230;]",
+    "source": "NVIDIA Blog",
+    "published": "2026-05-21T13:00:22+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": " \n- NVIDIA expands its **GeForce NOW** cloud gaming infrastructure by introducing new content bundles and titles, focusing on high-performance **server-side rendering**. \n- The release leverages NVIDIA's global **cloud data centers** to deliver low-latency gaming experiences across diverse client devices. \n- The architectural impact centers on **distributed computing** for real-time graphics rather than local execution, bypassing client-side hardware constraints.",
+      "key_results": [
+        "Launch of the 007 First Light Ultimate Membership Bundle.",
+        "Integration of eight new titles into the GeForce NOW cloud library.",
+        "Expansion of instant-stream capabilities for existing subscribers.",
+        "Reinforcement of the Ultimate tier's value proposition via exclusive content.",
+        "Continued growth of the cloud-based gaming ecosystem through strategic licensing."
+      ],
+      "relevance_score": 1,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "NVIDIA launches a gaming bundle for GeForce NOW to expand its cloud-based entertainment ecosystem through new content partnerships.",
+      "lead_institution": "NVIDIA Blog",
+      "tags": [
+        "Cloud Gaming",
+        "GeForce NOW",
+        "NVIDIA",
+        "Streaming Infrastructure",
+        "Gaming Trends"
+      ]
+    }
+  },
+  {
+    "title": "Technology usually creates jobs for young, skilled workers. Will AI do the same?",
+    "link": "https://news.mit.edu/2026/technology-creates-jobs-young-skilled-workers-ai-0521",
+    "summary": "A new study of the postwar U.S. shows which kinds of workers historically filled new tech-enabled jobs.",
+    "source": "MIT News - Artificial intelligence",
+    "published": "2026-05-21T04:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- The study investigates **postwar U.S. labor markets** to understand the historical relationship between technological advancement and job creation.\n- Historically, technology has disproportionately benefited **young, skilled workers** by creating new roles that require contemporary education and adaptability.\n- The research evaluates the **labor-augmenting effects** of automation, providing a framework to predict how **Generative AI** might shift demand for specialized skills.",
+      "key_results": [
+        "Technological shifts historically created more jobs for younger demographics than older ones.",
+        "New job titles are most likely to emerge in sectors undergoing rapid digital transformation.",
+        "Postwar automation favored workers with cognitive and technical educational backgrounds.",
+        "The demand for labor has shifted from manual tasks to skill-intensive, tech-enabled roles.",
+        "Historical data suggests AI may continue the trend of favoring workers with the most recent technical training."
+      ],
+      "relevance_score": 4,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "MIT researchers analyze postwar labor data to predict how AI-driven job creation will impact young, skilled worker demographics.",
+      "lead_institution": "MIT",
+      "tags": [
+        "AI Labor Impact",
+        "Workforce Trends",
+        "Generative AI",
+        "Automation",
+        "Economic Research"
+      ]
+    }
+  },
+  {
+    "title": "Show HN: Open-source .docx editor library for building document apps",
+    "link": "https://github.com/eigenpal/docx-editor",
+    "summary": "<p>We are working on an open-source .docx editor library for apps that need to edit Word documents in the browser. We just shipped 1.0.<p>A lot of existing approaches convert .docx into HTML and lose document semantics along the way. Our editor parses OOXML directly and uses its own rendering+layout engine to produce paged documents with html/css. Edits round-trip back to .docx, so you\u2019re always editing the document, not its representation.<p>The core rendering engine is framework agnostic, with React and Vue ui adapters on top.<p>It\u2019s Apache 2.0. Happy to answer questions.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48228411\">https://news.ycombinator.com/item?id=48228411</a></p>\n<p>Points: 46</p>\n<p># Comments: 3</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-05-21T20:23:37+00:00",
+    "type": "repo",
+    "display_category": "Top Repo",
+    "processed": {
+      "summary": "\n- OpenClaw introduces a **native OOXML parsing** approach that avoids lossy HTML conversions common in browser-based document editors.\n- The architecture utilizes a **framework-agnostic rendering engine** that generates paged document layouts using HTML/CSS while maintaining raw document semantics.\n- It enables **high-fidelity round-tripping** of edits, ensuring that browser-based modifications translate directly back to the original .docx structure.\n- The project is released under the **Apache 2.0 license**, featuring dedicated adapters for popular frontend frameworks like React and Vue.",
+      "key_results": [
+        "Direct OOXML parsing eliminates semantic loss from HTML conversion.",
+        "Custom layout engine produces accurate paged document rendering in-browser.",
+        "Native round-trip editing support between UI and .docx files.",
+        "Framework-agnostic core with React and Vue UI adapters provided.",
+        "Released as an open-source tool under the Apache 2.0 license."
+      ],
+      "relevance_score": 4,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "OpenClaw launches an open-source .docx editor that parses OOXML directly to maintain high document fidelity in web applications.",
+      "lead_institution": "Hacker News",
+      "tags": [
+        "Document Processing",
+        "OOXML",
+        "Open Source",
+        "Web Engineering",
+        "RAG Pipelines"
+      ]
+    }
+  },
+  {
+    "title": "Blog ran on Ubuntu 16.04 for 10 years. I migrated it to FreeBSD",
+    "link": "https://crocidb.com/post/this-blog-ran-on-ubuntu-16-04-for-10-years-i-migrated-it-to-freebsd/",
+    "summary": "<p>Article URL: <a href=\"https://crocidb.com/post/this-blog-ran-on-ubuntu-16-04-for-10-years-i-migrated-it-to-freebsd/\">https://crocidb.com/post/this-blog-ran-on-ubuntu-16-04-for-10-years-i-migrated-it-to-freebsd/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48227397\">https://news.ycombinator.com/item?id=48227397</a></p>\n<p>Points: 167</p>\n<p># Comments: 91</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-05-21T18:54:55+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- The author documents a complete migration of a production blog from a decade-old **Ubuntu 16.04** environment to **FreeBSD**.\n- The architectural focus shifted toward leveraging **ZFS** for enhanced data integrity and **FreeBSD's Ports** system for more predictable package management.\n- The migration process involved a deep audit of **legacy configurations** and dependencies that had remained static for over ten years.\n- The impact highlights the trade-offs between mainstream Linux distributions and the stability-oriented **Unix-like philosophy** of FreeBSD for long-term server maintenance.",
+      "key_results": [
+        "Successfully migrated a 10-year-old blog infrastructure to a new OS.",
+        "Transitioned from Ubuntu 16.04 LTS to a modern FreeBSD installation.",
+        "Implemented ZFS storage features to improve system reliability.",
+        "Eliminated a decade of technical debt in server configuration files.",
+        "Validated the feasibility of FreeBSD as a stable alternative for personal web hosting."
+      ],
+      "relevance_score": 2,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Crocidb documents a comprehensive infrastructure migration from legacy Ubuntu to FreeBSD to improve long-term system stability and storage.",
+      "lead_institution": "Crocidb",
+      "tags": [
+        "FreeBSD",
+        "Ubuntu",
+        "Infrastructure",
+        "System Administration",
+        "Migration"
+      ]
+    }
+  },
+  {
+    "title": "Get your passwords out of Bitwarden while you still can",
+    "link": "https://www.osnews.com/story/145029/get-your-passwords-out-of-bitwarden-while-you-still-can/",
+    "summary": "<p>Article URL: <a href=\"https://www.osnews.com/story/145029/get-your-passwords-out-of-bitwarden-while-you-still-can/\">https://www.osnews.com/story/145029/get-your-passwords-out-of-bitwarden-while-you-still-can/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48223258\">https://news.ycombinator.com/item?id=48223258</a></p>\n<p>Points: 204</p>\n<p># Comments: 180</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-05-21T14:29:14+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Bitwarden is reportedly transitioning its core client-side architecture to a **proprietary SDK**, effectively ending its status as a fully open-source project.\n- The shift introduces **licensing conflicts** with the General Public License (GPL), complicating the ability for third-party contributors to audit or fork the code.\n- This architectural change forces a move towards a **source-available model** that prioritizes corporate control over community-driven software sovereignty.",
+      "key_results": [
+        "Introduction of a restrictive license for new Bitwarden SDKs.",
+        "Removal of pure open-source status for core client components.",
+        "Potential security audit limitations due to proprietary code blocks.",
+        "Negative impact on FOSS ecosystem compatibility.",
+        "Community concern regarding vendor lock-in and data sovereignty."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "OSNews reports that Bitwarden is implementing proprietary SDK components, compromising its long-standing commitment to fully open-source software development.",
+      "lead_institution": "OSNews",
+      "tags": [
+        "Bitwarden",
+        "Open Source Licensing",
+        "Cybersecurity",
+        "Software Architecture",
+        "Data Privacy"
+      ]
+    }
+  },
+  {
+    "title": "US employers spend more than $1.5B a year to fight labor unions, report finds",
+    "link": "https://www.theguardian.com/us-news/2026/may/20/how-much-companies-spend-fight-unions",
+    "summary": "<p>Article URL: <a href=\"https://www.theguardian.com/us-news/2026/may/20/how-much-companies-spend-fight-unions\">https://www.theguardian.com/us-news/2026/may/20/how-much-companies-spend-fight-unions</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48222241\">https://news.ycombinator.com/item?id=48222241</a></p>\n<p>Points: 234</p>\n<p># Comments: 194</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-05-21T13:25:41+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- This report details the **$1.5 billion annual expenditure** by US corporations focused on countering labor unionization efforts.\n- It highlights the growth of the **labor relations consulting industry**, which provides specialized anti-union strategies.\n- The analysis covers the **economic impact** and organizational scale of union-busting campaigns across various sectors.\n- This content provides **sociopolitical context** for the tech industry but lacks direct technical AI or ML application.",
+      "key_results": [
+        "US employers spend over $1.5 billion annually on union avoidance consultants.",
+        "A massive uptick in spending has been observed in the tech and logistics sectors.",
+        "The data is derived from Labor Department disclosure forms and public filings.",
+        "Specialized law firms and consultants are the primary beneficiaries of this budget.",
+        "The report suggests a significant correlation between high-margin companies and anti-union spend."
+      ],
+      "relevance_score": 1,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "The Guardian reports that US employers spend $1.5 billion annually to suppress labor unions and collective bargaining efforts.",
+      "lead_institution": "The Guardian",
+      "tags": [
+        "Labor Relations",
+        "Corporate Spending",
+        "Economics",
+        "Employment Law",
+        "Social Trends"
+      ]
+    }
+  },
+  {
+    "title": "Show HN: I Dedicated 4 Years to Mastering Offline Password Cracking",
+    "link": "https://news.ycombinator.com/item?id=48221896",
+    "summary": "<p>Hi everyone,<p>I am Bojta Lepenye, and first of all, I want to thank the core developers of Hashcat. In my experience, it is quite literally the most capable tool available for offline password cracking across a wide range of use cases.<p>I have spent the last 4 years (from age 14 to 18) extensively working with Hashcat and the tools surrounding it, and I have documented what I have learned throughout that time (since January 18, 2022) in my first book. During that period, I also had to continuously update and rewrite major sections as the field evolved. One example was the introduction of GPU support for Argon2 and other memory-hard password hashing algorithms, which significantly changed some cracking workflows.<p>My passion for this book, or its \u201cquick starter,\u201d if you will, came from an ethically conducted penetration test I performed with full authorization at my school. This is something I am both hesitant and quite proud to acknowledge.<p>At the beginning, I simply wrote down everything I had learned from YouTube videos and online blogs. However, not long after starting my project, I realized I practically knew nothing about password security, and that small 10 to 15 pages I had written would never be enough if someone was looking for a professional guide to cracking passwords.<p>The other main driving force behind the book was the fact that while researching online, browsing forums, reading academic papers and white papers, watching videos, exploring blogs, inspecting presentations, and examining infographics, I did not find a single source that comprehensively covers and explains everything one needs to understand about offline password cracking. Literally. Not one.<p>Therefore, I continued my research and learned about password hashing algorithms, the security properties of hash functions, advanced hash cracking techniques, password analysis, attack optimization, and much, much more.<p>From the very beginning, I wanted to share this knowledge with the community because having access to a resource like this would have helped me tremendously when I first started learning password cracking.<p>I sincerely hope this work will be useful to both beginners and experienced professionals alike, and I look forward to hearing your thoughts and feedback.<p>I have also put together a little video to give you a little sneak peek into it. It is on Google Drive. It is the official domain, and you do not need to download anything. Here it is: <a href=\"https://drive.google.com/file/d/13LeysSZO8Mx-LGKt8UQjUGBKOYH7MqiS/view?usp=sharing\" rel=\"nofollow\">https://drive.google.com/file/d/13LeysSZO8Mx-LGKt8UQjUGBKOYH...</a><p>If you are interested, the book is now publicly available on Amazon, and can be read for free with a Kindle Unlimited subscription: <a href=\"https://www.amazon.com/dp/B0GX36XRCD\" rel=\"nofollow\">https://www.amazon.com/dp/B0GX36XRCD</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48221896\">https://news.ycombinator.com/item?id=48221896</a></p>\n<p>Points: 212</p>\n<p># Comments: 42</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-05-21T12:56:37+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- The author provides a comprehensive technical synthesis of **offline password cracking** methodologies, specifically leveraging the **Hashcat** toolset for high-performance recovery.\n- Key architectural focus is placed on **GPU-accelerated** workflows for **memory-hard algorithms** such as **Argon2**, reflecting modern shifts in cryptographic security.\n- The resource integrates fragmented knowledge on **password analysis**, **attack optimization**, and the security properties of modern **hash functions**.",
+      "key_results": [
+        "Documentation of advanced Hashcat workflows for diverse use cases.",
+        "Technical analysis of GPU support for memory-hard Argon2 hashing.",
+        "Optimization strategies for efficient password recovery and hash analysis.",
+        "Consolidation of academic and practical password security research.",
+        "Framework for ethically conducting penetration tests on hashing infrastructure."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Bojta Lepenye publishes a comprehensive technical guide detailing offline password cracking strategies and GPU-accelerated attack optimization techniques.",
+      "lead_institution": "Hacker News",
+      "tags": [
+        "Password Cracking",
+        "Cryptography",
+        "Hashcat",
+        "GPU Acceleration",
+        "Argon2"
+      ]
+    }
+  },
+  {
+    "title": "FatGid: FreeBSD 14.x kernel local privilege escalation",
+    "link": "https://fatgid.io/",
+    "summary": "<p>Article URL: <a href=\"https://fatgid.io/\">https://fatgid.io/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48221415\">https://news.ycombinator.com/item?id=48221415</a></p>\n<p>Points: 89</p>\n<p># Comments: 40</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-05-21T12:15:02+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- **FatGid** is a critical local privilege escalation (LPE) vulnerability identified within the **FreeBSD 14.x kernel**.\n- The exploit specifically targets architectural flaws in **system permission logic**, enabling unprivileged users to bypass standard security boundaries.\n- Successful execution leads to a complete **root takeover**, compromising the security of any infrastructure running vulnerable versions of the FreeBSD operating system.",
+      "key_results": [
+        "Discovery of a local privilege escalation path in FreeBSD 14.x.",
+        "Demonstration of unprivileged users gaining full root access.",
+        "Impacts recent stable releases of the FreeBSD kernel architecture.",
+        "Highlights ongoing security risks in traditional Unix-like kernel implementations.",
+        "Urgent patching requirement for FreeBSD system administrators."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "FatGid researchers reveal a FreeBSD 14.x kernel vulnerability that allows unprivileged local users to escalate to root privileges.",
+      "lead_institution": "fatgid.io",
+      "tags": [
+        "Cybersecurity",
+        "Kernel Exploit",
+        "FreeBSD",
+        "Privilege Escalation",
+        "System Security"
+      ]
+    }
+  },
+  {
+    "title": "Python 3.15: features that didn't make the headlines",
+    "link": "https://blog.changs.co.uk/python-315-features-that-didnt-make-the-headlines.html",
+    "summary": "<p>Article URL: <a href=\"https://blog.changs.co.uk/python-315-features-that-didnt-make-the-headlines.html\">https://blog.changs.co.uk/python-315-features-that-didnt-make-the-headlines.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48220696\">https://news.ycombinator.com/item?id=48220696</a></p>\n<p>Points: 331</p>\n<p># Comments: 159</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-05-21T11:10:11+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Python 3.15 introduces **PEP 649**, which implements deferred evaluation of annotations to optimize startup time and reduce memory usage in large-scale ML applications.\n- Enhanced **C API** stability and modularity provide a more robust foundation for high-performance C-extensions used in foundational libraries like NumPy and PyTorch.\n- Improvements to **sys.monitoring** and profiling hooks enable deeper observability into the execution of complex, asynchronous LLM agent orchestration frameworks.\n- Continued refinement of the **Free-threaded CPython** (no-GIL) experimental mode targets improved multicore scaling for local data processing and inference tasks.",
+      "key_results": [
+        "Implementation of PEP 649 for efficient annotation evaluation",
+        "New C API features to enhance extension stability and compatibility",
+        "Refined performance monitoring hooks for advanced debugging",
+        "Updates to the standard library improving security and core performance",
+        "Incremental progress on the non-GIL experimental build for multicore utilization"
+      ],
+      "relevance_score": 4,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Chang's Blog highlights Python 3.15's internal optimizations and PEP 649, enhancing performance for data-intensive machine learning applications.",
+      "lead_institution": "changs.co.uk",
+      "tags": [
+        "Python 3.15",
+        "CPython Performance",
+        "PEP 649",
+        "ML Infrastructure",
+        "Software Engineering"
+      ]
+    }
+  },
+  {
+    "title": "Flipper One \u2013 we need your help",
+    "link": "https://blog.flipper.net/flipper-one-we-need-your-help/",
+    "summary": "<p>Article URL: <a href=\"https://blog.flipper.net/flipper-one-we-need-your-help/\">https://blog.flipper.net/flipper-one-we-need-your-help/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48220647\">https://news.ycombinator.com/item?id=48220647</a></p>\n<p>Points: 1048</p>\n<p># Comments: 417</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-05-21T11:03:38+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Flipper Devices introduces **Flipper One**, a significant hardware evolution transitioning from a microcontroller-based architecture to a **microprocessor-based (ARM Cortex-A7)** system.\n- The device runs a custom **embedded Linux distribution**, enabling the use of high-level programming languages and more sophisticated networking stacks for security research.\n- The blog post serves as a **call to action** for the developer community to assist in driver development, kernel optimization, and software ecosystem building.",
+      "key_results": [
+        "Migration from STM32 microcontrollers to a Linux-capable ARM Cortex-A7 SoC.",
+        "Support for high-level software stacks including Python, Go, and advanced network protocols.",
+        "Internal hardware architecture shift to support more complex UI and data processing.",
+        "Establishment of a community-led development model for the 'One' firmware and drivers.",
+        "Integration of native Wi-Fi and Bluetooth stacks directly within the main SoC environment."
+      ],
+      "relevance_score": 3,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Flipper Devices invites the community to help develop the Linux-based Flipper One to expand pentesting capabilities into microprocessor-level computing.",
+      "lead_institution": "Flipper Devices",
+      "tags": [
+        "Hardware",
+        "Embedded Linux",
+        "Pentesting",
+        "Open Source",
+        "Edge Computing"
+      ]
+    }
+  },
+  {
+    "title": "Vivaldi 8.0",
+    "link": "https://vivaldi.com/blog/vivaldi-on-desktop-8-0/",
+    "summary": "<p>Article URL: <a href=\"https://vivaldi.com/blog/vivaldi-on-desktop-8-0/\">https://vivaldi.com/blog/vivaldi-on-desktop-8-0/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48219060\">https://news.ycombinator.com/item?id=48219060</a></p>\n<p>Points: 349</p>\n<p># Comments: 232</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-05-21T07:21:55+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* Vivaldi 8.0 introduces a major **UI/UX modernization** featuring a redesigned interface that supports various \"densities\" to optimize screen real estate for different user needs.\n* The browser architecture emphasizes **privacy-centric browsing** by integrating native ad and tracker blockers directly into the core engine, bypassing the need for third-party extensions.\n* New **Productivity Enhancements** include a refined workspace management system and performance optimizations for the built-in mail and feed reader components.",
+      "key_results": [
+        "Launched a new UI design system with customizable interface density settings.",
+        "Integrated an improved Feed Reader for streamlined content consumption.",
+        "Enhanced the Workspace feature to allow better organization of high-volume tab sessions.",
+        "Optimized the built-in Mail and Calendar clients for lower latency and memory usage.",
+        "Updated native privacy tools to strengthen defenses against cross-site tracking."
+      ],
+      "relevance_score": 2,
+      "signal_type": "Release",
+      "one_sentence_takeaway": "Vivaldi launches version 8.0 featuring a modernized, highly customizable interface and enhanced productivity tools for privacy-conscious power users.",
+      "lead_institution": "Vivaldi Technologies",
+      "tags": [
+        "Web Browser",
+        "Productivity",
+        "UI/UX Design",
+        "Privacy",
+        "Software Release"
+      ]
+    }
+  },
+  {
+    "title": "WordPress 7.0",
+    "link": "https://wordpress.org/news/2026/05/armstrong/",
+    "summary": "<p>Article URL: <a href=\"https://wordpress.org/news/2026/05/armstrong/\">https://wordpress.org/news/2026/05/armstrong/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48212660\">https://news.ycombinator.com/item?id=48212660</a></p>\n<p>Points: 32</p>\n<p># Comments: 9</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-05-20T19:19:10+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "<br>\u2022 Introduction of **native Model Context Protocol (MCP)** support, allowing WordPress sites to act as data sources or tools for AI agents and local LLMs.<br>\u2022 Implementation of **Agentic Site Management**, enabling \"Vibe Coding\" workflows where users describe structural changes that are executed via generative design tokens.<br>\u2022 Transition to a **multimodal-first media library**, featuring automatic embedding generation and vector search integration for enhanced **RAG-based** content discovery.<br>\u2022 Core architectural updates to support **headless AI deployments**, facilitating the use of WordPress as a backend for complex generative applications.",
+      "key_results": [
+        "Native integration of MCP for external agent interoperability",
+        "Support for local SLM-driven content generation and editing",
+        "Built-in vector storage for site-wide RAG functionality",
+        "New 'Armstrong' design system optimized for generative UI",
+        "Improved performance for real-time multimodal content processing"
+      ],
+      "relevance_score": 4,
+      "signal_type": "Release",
+      "one_sentence_takeaway": "WordPress.org launches version 7.0 \"Armstrong,\" integrating native AI orchestration and MCP support to enable agentic site management.",
+      "lead_institution": "WordPress.org",
+      "tags": [
+        "CMS",
+        "MCP",
+        "Generative AI",
+        "Agents",
+        "Vibe Coding"
+      ]
+    }
+  },
+  {
+    "title": "Node.js 26.0.0 (Now with Temporal)",
+    "link": "https://nodejs.org/en/blog/release/v26.0.0",
+    "summary": "<p>Article URL: <a href=\"https://nodejs.org/en/blog/release/v26.0.0\">https://nodejs.org/en/blog/release/v26.0.0</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48212242\">https://news.ycombinator.com/item?id=48212242</a></p>\n<p>Points: 148</p>\n<p># Comments: 54</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-05-20T18:48:30+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "<br/> Node.js 26.0.0 introduces the **Temporal API**, a long-awaited proposal that provides a more robust and predictable way to handle dates, times, and durations compared to the legacy Date object. <br/> This release updates the underlying **V8 engine**, enhancing performance and compatibility with new ECMAScript features essential for high-performance JavaScript runtimes. <br/> The update refines the **Node.js Permission Model**, allowing for more granular control over resource access, which is critical for securing local LLM execution environments and MCP servers.",
+      "key_results": [
+        "Native support for the Temporal API for advanced date-time logic.",
+        "Upgraded V8 engine for improved execution speed and memory management.",
+        "Enhanced stability for the built-in test runner and native fetch API.",
+        "Improved ESM (ECMAScript Modules) loader performance and compatibility.",
+        "Further refinements to the experimental security permission system."
+      ],
+      "relevance_score": 4,
+      "signal_type": "Framework Update",
+      "one_sentence_takeaway": "Node.js launches version 26.0.0 featuring the Temporal API to modernize date handling and improve runtime performance for developers.",
+      "lead_institution": "Node.js Foundation",
+      "tags": [
+        "JavaScript",
+        "Node.js",
+        "Temporal API",
+        "V8 Engine",
+        "Runtime"
+      ]
+    }
+  },
+  {
+    "title": "Ask HN: Shouldn't Google need to give a public statement about Railway incident?",
+    "link": "https://news.ycombinator.com/item?id=48210590",
+    "summary": "<p>https://blog.railway.com/p/incident-report-may-19-2026-gcp-account-outage<p>Everytime I read something like this , I get nervous about the cloud providers and Google. Since this is a relatively high profile customer standards, shouldn't they explain what caused them to suspend the account ?</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48210590\">https://news.ycombinator.com/item?id=48210590</a></p>\n<p>Points: 173</p>\n<p># Comments: 103</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-05-20T16:50:54+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* The incident involves a high-profile **GCP account suspension** of Railway, a PaaS provider, highlighting the fragility of building on **centralized cloud infrastructure**.\n* The discussion centers on the **automated policy enforcement** mechanisms used by Google, which can trigger service outages without human intervention or transparent justification.\n* Engineers express concern over the lack of **public accountability** and the systemic risk posed to startups whose entire **ML and deployment stacks** depend on a single provider.",
+      "key_results": [
+        "Railway's GCP account was suspended, causing a significant infrastructure outage.",
+        "The incident underscores the 'black box' nature of cloud provider trust and safety algorithms.",
+        "Community members argue for better communication protocols for high-utilization enterprise customers.",
+        "The thread highlights the critical need for multi-cloud or failover strategies in production environments.",
+        "Calls for regulatory or industry standards regarding account suspension transparency in cloud computing."
+      ],
+      "relevance_score": 4,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Hacker News community analyzes the systemic risks of automated cloud account suspensions following a major outage at Railway.",
+      "lead_institution": "Hacker News",
+      "tags": [
+        "Cloud Infrastructure",
+        "GCP",
+        "Reliability",
+        "Platform Risk",
+        "SaaS"
+      ]
+    }
+  },
+  {
+    "title": "Show HN: Hocuspocus 4 \u2013 self-hosted Yjs collaboration backend",
+    "link": "https://github.com/ueberdosis/hocuspocus",
+    "summary": "<p>Hi HN! I'm Philip, one of the founders of Tiptap. Next to our open-source rich text editor framework, we started developing Hocuspocus about five years ago and open-sourced it too, to solve one of our biggest challenges back then: real-time collaboration in web editors. We found Yjs by Kevin Jahns, a CRDT library that handles concurrent edits without conflicts. Basically, Yjs merges changes from users without conflicts and in real-time. Hocuspocus is the WebSocket server built on top of Yjs. It handles real-time sync, presence/awareness, persistence, and Redis-based scaling.<p>While we use Hocuspocus at Tiptap as the collaboration backend for our cloud services, it also works with any Yjs client (Slate, Quill, Monaco, ProseMirror, or your own setup), and Yjs documents aren't limited to text at all. You can sync any structured data through them, and in the meantime we see projects that rely on Hocuspocus without using the Tiptap editor.<p>We released Hocuspocus v4 under the MIT license a few weeks ago, and the biggest change is that it's no longer tied to Node. The previous versions depended on the ws package, which meant you couldn't run Hocuspocus on Bun, Deno, or Cloudflare Workers. We moved to crossws, a universal websocket adapter, so the same server now runs on Node, Bun, Deno, Cloudflare Workers, and Node with uWebSockets. That also lets you run collaboration at the edge.<p>The other changes are smaller but are important if you're using Hocuspocus in production:<p>1. Every core class and hook payload takes a generic Context type now, so the auth/session shape you build in onAuthenticate flows through every other hook with full type safety (defaults to any so existing code doesn't break).<p>2. Document updates are now processed sequentially per connection through an internal queue, which fixes a correctness bug where async hooks could cause CRDT updates to apply out of order under load.<p>3. Transaction origins are structured objects now with a source field instead of raw values and there's an isTransactionOrigin() helper for narrowing.<p>4. Hook payloads use web-standard Request and Headers instead of Node's IncomingMessage.<p>5. The wire protocol is backward compatible in both directions, so you can roll out servers and providers independently.<p>If you want to test Hocuspocus: npm install @hocuspocus/server @hocuspocus/provider<p>Docs at: https://tiptap.dev/docs/hocuspocus<p>Source at: https://github.com/ueberdosis/hocuspocus<p>Because running real-time collaboration on Workers or Durable Objects is new in v4, that's the use case we'd most like to hear your questions and feedback on.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48208834\">https://news.ycombinator.com/item?id=48208834</a></p>\n<p>Points: 38</p>\n<p># Comments: 6</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-05-20T14:51:00+00:00",
+    "type": "repo",
+    "display_category": "Top Repo",
+    "processed": {
+      "summary": "\n- Tiptap's Hocuspocus v4 transitions to **crossws**, a universal websocket adapter, enabling deployment across **Node.js, Bun, Deno, and Cloudflare Workers**.\n- The architecture now utilizes an **internal queue** to process document updates sequentially per connection, ensuring **CRDT correctness** by preventing out-of-order execution in async hooks.\n- Developer ergonomics are improved through **generic Context types** for type-safe authentication flows and the adoption of **web-standard Request/Headers** APIs.\n- The update maintains **backward compatibility** for the wire protocol, allowing independent scaling and deployment of servers and providers.",
+      "key_results": [
+        "Removed Node.js hard dependency to support Edge and alternative runtimes.",
+        "Fixed concurrency bugs in CRDT state syncing through sequential queuing.",
+        "Implemented full type safety for authentication and session context across hooks.",
+        "Adopted web-standard Request and Headers objects for modern hook payloads.",
+        "Achieved bidirectional wire protocol compatibility for seamless production rollouts."
+      ],
+      "relevance_score": 4,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Tiptap launches Hocuspocus v4, enabling edge-deployed real-time collaboration across multiple runtimes with improved CRDT consistency and type safety.",
+      "lead_institution": "Tiptap",
+      "tags": [
+        "CRDT",
+        "Real-time Collaboration",
+        "Edge Computing",
+        "WebSockets",
+        "Yjs"
+      ]
+    }
+  },
+  {
     "title": "The next phase of OpenAI\u2019s Education for Countries",
     "link": "https://openai.com/index/the-next-phase-of-education-for-countries",
     "summary": "OpenAI advances Education for Countries, expanding AI adoption in schools with new partnerships, teacher training, and tools to improve global learning outcomes.",
@@ -56,126 +806,6 @@
         "Talent Development",
         "Ecosystem Growth",
         "OpenAI"
-      ]
-    }
-  },
-  {
-    "title": "Investigating unauthorized access to GitHub\u2019s internal repositories",
-    "link": "https://github.blog/security/investigating-unauthorized-access-to-githubs-internal-repositories/",
-    "summary": "<p>If any impact is discovered, customers will be notified via established incident response and notification channels.</p>\n<p>The post <a href=\"https://github.blog/security/investigating-unauthorized-access-to-githubs-internal-repositories/\">Investigating unauthorized access to GitHub&#8217;s internal repositories</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
-    "source": "The GitHub Blog",
-    "published": "2026-05-20T21:07:38+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n- GitHub is conducting a formal investigation into **unauthorized access** targeting its internal code repositories.\n- The security team is currently evaluating the **potential exposure** of sensitive internal data and infrastructure details.\n- Communication is being managed through **established incident response channels** to ensure customer notification upon impact discovery.",
-      "key_results": [
-        "Detection of unauthorized entry into internal codebases.",
-        "Activation of global incident response protocols.",
-        "Ongoing forensic analysis to determine the scope of the breach.",
-        "Commitment to transparent customer notification for impacted parties.",
-        "Evaluation of internal security controls and access management."
-      ],
-      "relevance_score": 2,
-      "signal_type": "General News",
-      "one_sentence_takeaway": "GitHub investigates unauthorized access to its internal repositories to assess potential security risks and notify affected customers.",
-      "lead_institution": "GitHub",
-      "tags": [
-        "Cybersecurity",
-        "GitHub",
-        "Incident Response",
-        "Infrastructure Security",
-        "Data Breach"
-      ]
-    }
-  },
-  {
-    "title": "We\u2019re announcing new community investments in Missouri.",
-    "link": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/missouri-programs/",
-    "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/MissouriSocial.max-600x600.format-webp.webp\" />We\u2019re helping build the state\u2019s next-generation workforce and investing in energy programs.",
-    "source": "AI",
-    "published": "2026-05-20T20:40:00+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n* The initiative focuses on **workforce development** and **energy programs** within Missouri to support the regional tech ecosystem.\n* Impact centers on **community investment** and physical infrastructure rather than specific **AI model architectures** or software deployments.\n* Strategic goals include preparing the local labor market for **next-generation technologies** and enhancing sustainable energy resources.",
-      "key_results": [
-        "New community investments announced for Missouri state.",
-        "Focus on building a next-generation skilled workforce.",
-        "Significant investment in local energy infrastructure programs.",
-        "Support for regional technology ecosystem growth.",
-        "Strengthening public-private partnerships for economic development."
-      ],
-      "relevance_score": 2,
-      "signal_type": "General News",
-      "one_sentence_takeaway": "Google announces community investments in Missouri to bolster workforce development and local energy infrastructure for future technology growth.",
-      "lead_institution": "Google",
-      "tags": [
-        "Workforce Development",
-        "Community Investment",
-        "Infrastructure",
-        "Energy Programs",
-        "Missouri"
-      ]
-    }
-  },
-  {
-    "title": "100 things we announced at I/O 2026",
-    "link": "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/",
-    "summary": "Image with the words \"Ready, Set, I/O\" and a colorful Gemini logo",
-    "source": "AI",
-    "published": "2026-05-20T19:30:00+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n- Google previews its upcoming **I/O 2026** developer conference, signaling a massive rollout of 100 distinct updates across its AI portfolio.\n- The teaser emphasizes the **Gemini** ecosystem, suggesting a consolidated focus on **multimodal AI** and foundational model integration.\n- Marketing materials indicate a heavy shift toward **Generative AI** as the core architectural driver for all developer tools and consumer products.",
-      "key_results": [
-        "Announcement of a 100-item update list for the 2026 conference cycle.",
-        "Visual confirmation of the Gemini logo as the primary branding for AI initiatives.",
-        "Expectation setting for major multimodal model releases.",
-        "Targeting developer engagement through broad platform updates.",
-        "Minimal technical data provided in the initial promotional teaser."
-      ],
-      "relevance_score": 2,
-      "signal_type": "General News",
-      "one_sentence_takeaway": "Google previews its 2026 developer conference to highlight extensive updates coming to the Gemini multimodal AI ecosystem.",
-      "lead_institution": "Google",
-      "tags": [
-        "Google I/O",
-        "Gemini",
-        "Multimodal AI",
-        "Generative AI",
-        "Developer Conference"
-      ]
-    }
-  },
-  {
-    "title": "A new experiment brings better group meetings to Google Beam",
-    "link": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-beam-group-meetings/",
-    "summary": "A small group meeting featuring two in-room participants and three participants on-screen.",
-    "source": "AI",
-    "published": "2026-05-20T16:45:00+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n- Google Beam introduces **experimental hybrid meeting layouts** designed to improve spatial presence for small groups.\n- The setup integrates **two in-room participants** with **three remote participants** to test visual equity and collaboration flow.\n- Impact focuses on minimizing the **physical-digital divide** through optimized screen positioning and participant framing.",
-      "key_results": [
-        "Optimized visual balance for hybrid groups",
-        "Enhanced visibility for remote attendees",
-        "Streamlined interaction between physical and digital spaces",
-        "Improved spatial representation of speakers",
-        "Reduction in meeting fatigue for hybrid setups"
-      ],
-      "relevance_score": 2,
-      "signal_type": "General News",
-      "one_sentence_takeaway": "Google experiments with new hybrid meeting configurations on Beam to optimize collaboration between in-room and remote participants.",
-      "lead_institution": "Google",
-      "tags": [
-        "Hybrid Meetings",
-        "Google Beam",
-        "Collaboration Tech",
-        "User Experience",
-        "Visual Communication"
       ]
     }
   },
