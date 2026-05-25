@@ -1,1 +1,392 @@
-[]
+[
+  {
+    "title": "GitHub recognized as a Leader in the Gartner\u00ae Magic Quadrant\u2122 for Enterprise AI Coding Agents for the third year in a row",
+    "link": "https://github.blog/ai-and-ml/github-copilot/github-recognized-as-a-leader-in-the-gartner-magic-quadrant-for-enterprise-ai-coding-agents-for-the-third-year-in-a-row/",
+    "summary": "<p>We are committed to empowering every developer by building an open, secure, and AI-powered platform that defines the future of software development.</p>\n<p>The post <a href=\"https://github.blog/ai-and-ml/github-copilot/github-recognized-as-a-leader-in-the-gartner-magic-quadrant-for-enterprise-ai-coding-agents-for-the-third-year-in-a-row/\">GitHub recognized as a Leader in the Gartner\u00ae Magic Quadrant\u2122 for Enterprise AI Coding Agents for the third year in a row</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
+    "source": "The GitHub Blog",
+    "published": "2026-05-22T16:10:21+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- GitHub retains its top-tier status as a **Leader** in the Gartner Magic Quadrant for **Enterprise AI Coding Agents** for the third consecutive year.\n- The platform emphasizes an **AI-powered development environment** designed to integrate agentic workflows directly into the software development lifecycle (SDLC).\n- Strategic focus remains on maintaining an **open and secure platform** while scaling GitHub Copilot's capabilities for large-scale enterprise adoption.",
+      "key_results": [
+        "GitHub named a Leader for the third year in a row.",
+        "Validation of the platform's role in the Enterprise AI Coding Agent market.",
+        "Commitment to an open and secure AI-powered developer ecosystem.",
+        "Recognition of GitHub Copilot's influence on modern software development.",
+        "Alignment with current Gartner metrics for enterprise-grade AI execution."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "GitHub maintains its leadership position in Gartner's Magic Quadrant for enterprise AI coding agents for the third year.",
+      "lead_institution": "GitHub",
+      "tags": [
+        "AI Coding Agents",
+        "GitHub Copilot",
+        "Enterprise AI",
+        "GenAI Trends",
+        "SDLC"
+      ]
+    }
+  },
+  {
+    "title": "Catch up on the Dialogues stage at Google I/O 2026.",
+    "link": "https://blog.google/innovation-and-ai/technology/ai/io-2026-dialogues-recap/",
+    "summary": "Alphabet CEO Sundar Pichai in conversation on the I/O 2026 Dialogues stage",
+    "source": "AI",
+    "published": "2026-05-22T18:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* The **Google I/O 2026 Dialogues stage** featured high-level strategic discussions regarding the future of the Alphabet AI ecosystem.\n* Focus centered on the **Generative AI** roadmap and how it integrates with legacy search and cloud infrastructure.\n* The impact of these talks is primarily on **industry direction** and ecosystem governance rather than specific architectural innovations.",
+      "key_results": [
+        "Alphabet leadership vision for AI in 2026",
+        "High-level strategy for ecosystem integration",
+        "Discussion on societal impact of AI agents",
+        "Summarization of conference dialogue themes",
+        "Public-facing executive perspectives"
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Google outlines its high-level strategic vision for AI integration during the 2026 I/O conference dialogues stage.",
+      "lead_institution": "Google",
+      "tags": [
+        "Google I/O",
+        "Alphabet",
+        "Generative AI Trends",
+        "AI Strategy",
+        "Industry Leadership"
+      ]
+    }
+  },
+  {
+    "title": "The seed oil panic is hurting my cardiac patients",
+    "link": "https://www.statnews.com/2026/05/22/seed-oils-healthy-fats-tallow-fact-check-cardiac-health/",
+    "summary": "<p>Article URL: <a href=\"https://www.statnews.com/2026/05/22/seed-oils-healthy-fats-tallow-fact-check-cardiac-health/\">https://www.statnews.com/2026/05/22/seed-oils-healthy-fats-tallow-fact-check-cardiac-health/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48257532\">https://news.ycombinator.com/item?id=48257532</a></p>\n<p>Points: 148</p>\n<p># Comments: 216</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-05-24T14:27:26+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- The article addresses the growing **misinformation trend** surrounding seed oils, documenting its negative impact on **cardiovascular health outcomes**.\n- It highlights the conflict between **clinical evidence**, which supports the consumption of polyunsaturated fats, and social media narratives favoring **saturated fats** like tallow.\n- The piece examines the role of **digital platforms** in propagating health myths that undermine established **medical consensus** and physician-patient trust.",
+      "key_results": [
+        "Seed oils rich in omega-6 fatty acids are linked to lower risks of heart disease.",
+        "Replacing seed oils with saturated fats like tallow significantly increases LDL cholesterol levels.",
+        "Social media influencers are successfully overriding clinical advice for many patients.",
+        "Human clinical trials do not support the claim that seed oils cause systemic inflammation.",
+        "Medical professionals are reporting a tangible rise in preventable cardiac issues due to dietary shifts."
+      ],
+      "relevance_score": 1,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Stat News reports that medical professionals are facing a public health crisis driven by social media-led nutritional misinformation.",
+      "lead_institution": "Stat News",
+      "tags": [
+        "Healthcare",
+        "Public Health",
+        "Misinformation",
+        "Cardiology",
+        "Nutrition"
+      ]
+    }
+  },
+  {
+    "title": "Why is Vivado 2026.1 dropping Linux support for free tier?",
+    "link": "https://adaptivesupport.amd.com/s/question/0D5Pd00001YQLdMKAX/why-is-vivado-20261-dropping-linux-support-for-free-tier-?language=en_US",
+    "summary": "<p>Article URL: <a href=\"https://adaptivesupport.amd.com/s/question/0D5Pd00001YQLdMKAX/why-is-vivado-20261-dropping-linux-support-for-free-tier-?language=en_US\">https://adaptivesupport.amd.com/s/question/0D5Pd00001YQLdMKAX/why-is-vivado-20261-dropping-linux-support-for-free-tier-?language=en_US</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48254309\">https://news.ycombinator.com/item?id=48254309</a></p>\n<p>Points: 302</p>\n<p># Comments: 182</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-05-24T04:14:52+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- AMD is updating its **Vivado Design Suite 2026.1** licensing model to remove Linux support from the **Standard Edition**, which is the platform's free tier.\n- This policy shift forces hobbyists and academic researchers to use **Windows-only environments** or purchase expensive professional licenses to maintain Linux-based workflows.\n- The change significantly impacts **CI/CD pipelines** and automated hardware-accelerated build systems that rely on Linux-based containerization and server infrastructure.\n- The hardware engineering community expresses concern that this move will stifle **open-source hardware development** and push users toward alternative FPGA toolchains.",
+      "key_results": [
+        "Vivado 2026.1 Standard Edition will no longer support Linux distributions.",
+        "Linux compatibility for the free tier is being phased out starting with the 2026.1 release cycle.",
+        "Users requiring Linux for FPGA development must upgrade to paid 'Enterprise' or 'Pro' licenses.",
+        "Academic and hobbyist developers on Linux must either remain on version 2025.x or migrate to Windows.",
+        "The move has sparked a surge of interest in alternative open-source FPGA tools like Yosys."
+      ],
+      "relevance_score": 3,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "AMD restricts Vivado 2026.1 Linux support to paid tiers, forcing free-tier hardware developers into Windows-based development environments.",
+      "lead_institution": "AMD",
+      "tags": [
+        "FPGA",
+        "AMD",
+        "Vivado",
+        "Hardware Acceleration",
+        "Linux"
+      ]
+    }
+  },
+  {
+    "title": "Scammers are abusing an internal Microsoft account to send spam links",
+    "link": "https://techcrunch.com/2026/05/21/scammers-are-abusing-an-internal-microsoft-account-to-send-spam/",
+    "summary": "<p>Article URL: <a href=\"https://techcrunch.com/2026/05/21/scammers-are-abusing-an-internal-microsoft-account-to-send-spam/\">https://techcrunch.com/2026/05/21/scammers-are-abusing-an-internal-microsoft-account-to-send-spam/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48253186\">https://news.ycombinator.com/item?id=48253186</a></p>\n<p>Points: 267</p>\n<p># Comments: 148</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-05-24T00:51:32+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Scammers have successfully compromised an **internal Microsoft account**, allowing them to send spam and phishing links from a trusted corporate domain.\n- The breach bypasses standard **email security protocols** (like SPF and DKIM) because the traffic originates from within Microsoft's own authenticated infrastructure.\n- The attack highlights a significant vulnerability in **identity management** and credential security for internal automated messaging accounts.\n- This technique significantly increases the **deliverability and credibility** of malicious links, making it difficult for automated filters or end-users to detect the threat.",
+      "key_results": [
+        "Successful exploitation of a high-reputation Microsoft internal account for mass phishing.",
+        "Bypass of traditional security filters that prioritize origin domain reputation.",
+        "Potential exposure of OAuth or API credential management flaws within Microsoft.",
+        "Significant increase in risk for enterprise users trusting official system notifications.",
+        "Demonstration of 'living off the land' techniques applied to cloud identity infrastructure."
+      ],
+      "relevance_score": 3,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Microsoft internal accounts are being weaponized by attackers to bypass security filters and distribute malicious phishing links at scale.",
+      "lead_institution": "TechCrunch",
+      "tags": [
+        "Cybersecurity",
+        "Microsoft",
+        "Phishing",
+        "Identity Management",
+        "Cloud Security"
+      ]
+    }
+  },
+  {
+    "title": "Justice Department scrubs its website of news releases about Jan. 6 defendants",
+    "link": "https://apnews.com/article/justice-department-capitol-riot-news-releases-purged-29c580044a9ed27b643c99feac9e2964",
+    "summary": "<p>Article URL: <a href=\"https://apnews.com/article/justice-department-capitol-riot-news-releases-purged-29c580044a9ed27b643c99feac9e2964\">https://apnews.com/article/justice-department-capitol-riot-news-releases-purged-29c580044a9ed27b643c99feac9e2964</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48253182\">https://news.ycombinator.com/item?id=48253182</a></p>\n<p>Points: 121</p>\n<p># Comments: 16</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-05-24T00:51:12+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- The **Department of Justice (DOJ)** has performed a significant removal of digital records, scrubbing hundreds of news releases related to January 6 defendants from its public-facing website.\n- This action impacts **data availability** for researchers and journalists who rely on structured government repositories for historical and legal documentation.\n- The purging of these **official narratives** represents a shift in transparency policy, potentially affecting public monitoring of federal legal proceedings.",
+      "key_results": [
+        "Removal of news releases from the DOJ website.",
+        "Reduction in public accessibility to defendant prosecution details.",
+        "Potential impact on open-source intelligence (OSINT) gathering.",
+        "Shift in departmental communication strategy regarding federal cases.",
+        "Data volatility observed in official government web archives."
+      ],
+      "relevance_score": 1,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "The Justice Department removed extensive public records regarding Jan. 6 prosecutions, reducing data availability for public and legal researchers.",
+      "lead_institution": "Associated Press",
+      "tags": [
+        "Data Transparency",
+        "Public Records",
+        "Government Policy",
+        "Digital Archives",
+        "Legal Data"
+      ]
+    }
+  },
+  {
+    "title": "Polsia raised $30M; source map: fake ARR, dead users, god-mode over your company",
+    "link": "https://zero-arr.vercel.app",
+    "summary": "<p>Article URL: <a href=\"https://zero-arr.vercel.app\">https://zero-arr.vercel.app</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48252194\">https://news.ycombinator.com/item?id=48252194</a></p>\n<p>Points: 31</p>\n<p># Comments: 15</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-05-23T22:25:34+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* The article serves as a satirical or investigative critique of **Polsia**, highlighting alleged deceptive practices including **fake Annual Recurring Revenue (ARR)** and inflated user metrics.\n* It addresses the technical and ethical risks of **'god-mode' administrative access**, where a startup maintains total visibility and control over a customer's proprietary data and infrastructure.\n* The narrative critiques the current **Generative AI fundraising bubble**, suggesting that venture capital due diligence is failing to catch fundamental flaws in business models and security postures.",
+      "key_results": [
+        "Claims of systematic inflation of financial metrics to secure venture funding.",
+        "Identification of 'dead users' or bot accounts used to mimic product-market fit.",
+        "Warning against 'god-mode' features that create massive security vulnerabilities for clients.",
+        "Critique of the lack of technical oversight in recent $30M+ AI seed rounds.",
+        "Highlighting the friction between rapid growth expectations and ethical software development."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Zero-ARR critiques the AI startup ecosystem by exposing alleged fraudulent ARR practices and security risks at Polsia.",
+      "lead_institution": "Hacker News",
+      "tags": [
+        "Startup Ethics",
+        "Cybersecurity",
+        "Generative AI Trends",
+        "Venture Capital",
+        "Data Privacy"
+      ]
+    }
+  },
+  {
+    "title": "JWT is a scam and your app doesn't need it",
+    "link": "https://www.dusanmalusev.dev/blog/jwt-is-a-scam-and-your-app-doesnt-need-it",
+    "summary": "<p>Article URL: <a href=\"https://www.dusanmalusev.dev/blog/jwt-is-a-scam-and-your-app-doesnt-need-it\">https://www.dusanmalusev.dev/blog/jwt-is-a-scam-and-your-app-doesnt-need-it</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48249553\">https://news.ycombinator.com/item?id=48249553</a></p>\n<p>Points: 73</p>\n<p># Comments: 65</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-05-23T17:42:08+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "<br>\u2022 Challenges the common industry practice of using **JWT (JSON Web Tokens)** for session management, arguing that it introduces unnecessary complexity and security risks compared to traditional cookies.<br>\u2022 Critiques the **statelessness** argument, noting that any requirement for token revocation (e.g., logout or account banning) forces a stateful database check, which negates the primary architectural benefit of JWTs.<br>\u2022 Recommends the use of **opaque session tokens** stored in HttpOnly, Secure cookies to prevent XSS-based token theft and simplify server-side authentication logic.",
+      "key_results": [
+        "JWTs are frequently used for session management where stateful cookies would be more secure.",
+        "True statelessness is rarely achieved because session revocation requires a central blacklist or database.",
+        "Storing JWTs in LocalStorage exposes applications to Cross-Site Scripting (XSS) attacks.",
+        "Opaque tokens minimize the attack surface by keeping session data strictly server-side.",
+        "JWTs should be restricted to specific use cases like short-lived tokens for cross-service communication."
+      ],
+      "relevance_score": 3,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Dusan Malusev argues that developers should replace JWTs with opaque session cookies to improve security and reduce architectural complexity.",
+      "lead_institution": "Dusan Malusev",
+      "tags": [
+        "Authentication",
+        "Web Security",
+        "JWT",
+        "Session Management",
+        "Software Architecture"
+      ]
+    }
+  },
+  {
+    "title": "An automated A.I. WWE news channel on YouTube tries to pronounce \"WWE\"",
+    "link": "https://twitter.com/LarryBundyJr/status/2058140468219707566",
+    "summary": "<p>Article URL: <a href=\"https://twitter.com/LarryBundyJr/status/2058140468219707566\">https://twitter.com/LarryBundyJr/status/2058140468219707566</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48249020\">https://news.ycombinator.com/item?id=48249020</a></p>\n<p>Points: 70</p>\n<p># Comments: 13</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-05-23T16:31:44+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "<br>\u2022 The case study highlights the proliferation of **automated content pipelines** that leverage **Generative AI** and **Text-to-Speech (TTS)** for low-cost YouTube content production.<br>\u2022 Technical failures in **phonetic processing** and **normalization** are demonstrated when the AI engine fails to parse the common acronym \"WWE,\" resulting in unintelligible output.<br>\u2022 The incident underscores the lack of **human-in-the-loop (HITL)** validation in mass-produced \"AI slop\" channels, leading to significant quality degradation and brand risk.",
+      "key_results": [
+        "TTS engines struggle with domain-specific acronyms without explicit phonetic hint mapping.",
+        "Automated content generation often bypasses basic quality assurance layers.",
+        "High-volume AI content strategies are frequently hindered by edge-case pronunciation errors.",
+        "User engagement on social platforms often centers on mocking low-quality AI outputs.",
+        "The 'uncanny valley' of automated news remains a significant barrier to mainstream legitimacy."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Hacker News discussions highlight how fully automated AI YouTube channels fail at basic pronunciation, exposing flaws in content-slop pipelines.",
+      "lead_institution": "Hacker News",
+      "tags": [
+        "Generative AI",
+        "Text-to-Speech",
+        "AI Failures",
+        "Content Automation",
+        "Synthetic Media"
+      ]
+    }
+  },
+  {
+    "title": "New rule requires most green-card applicants to apply from outside U.S.",
+    "link": "https://www.washingtonpost.com/immigration/2026/05/22/new-rule-requires-most-green-card-applicants-apply-outside-us/",
+    "summary": "<p>Article URL: <a href=\"https://www.washingtonpost.com/immigration/2026/05/22/new-rule-requires-most-green-card-applicants-apply-outside-us/\">https://www.washingtonpost.com/immigration/2026/05/22/new-rule-requires-most-green-card-applicants-apply-outside-us/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48244220\">https://news.ycombinator.com/item?id=48244220</a></p>\n<p>Points: 80</p>\n<p># Comments: 4</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-05-23T03:09:55+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* The **U.S. Government** has introduced a significant policy shift requiring the majority of green-card applicants to apply from **outside the United States**.\n* This administrative rule targets the **adjustment of status** process, which previously allowed individuals to transition to permanent residency while remaining within the country.\n* The **architectural impact** on the immigration system involves shifting a massive volume of processing to **overseas consulates**, potentially creating logistical bottlenecks for international talent.",
+      "key_results": [
+        "Most green-card applicants must now process applications abroad.",
+        "The 'adjustment of status' path within the U.S. is severely restricted.",
+        "Overseas consular processing becomes the primary pathway for residency.",
+        "Policy aimed at streamlining or tightening domestic immigration channels.",
+        "Expected delays and disruption for international workers currently in the U.S."
+      ],
+      "relevance_score": 1,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "The U.S. Government mandates that most green-card applicants must apply from outside the country, impacting international labor mobility.",
+      "lead_institution": "Washington Post",
+      "tags": [
+        "Immigration",
+        "Policy",
+        "Green Card",
+        "U.S. Government",
+        "Legal"
+      ]
+    }
+  },
+  {
+    "title": "Green card seekers must leave U.S. to apply, Trump administration says",
+    "link": "https://www.nytimes.com/2026/05/22/us/politics/green-card-changes-trump.html",
+    "summary": "<p><a href=\"https://www.uscis.gov/newsroom/news-releases/us-citizenship-and-immigration-services-will-grant-adjustment-of-status-only-in-extraordinary\" rel=\"nofollow\">https://www.uscis.gov/newsroom/news-releases/us-citizenship-...</a><p><a href=\"https://www.uscis.gov/sites/default/files/document/memos/PM-602-0199-AdjustmentOfStatusAndDiscretion-20260521.pdf\" rel=\"nofollow\">https://www.uscis.gov/sites/default/files/document/memos/PM-...</a> [pdf]<p><a href=\"https://twitter.com/DHSgov/status/2057817233200418837\" rel=\"nofollow\">https://twitter.com/DHSgov/status/2057817233200418837</a>, <a href=\"https://xcancel.com/DHSgov/status/2057817233200418837\" rel=\"nofollow\">https://xcancel.com/DHSgov/status/2057817233200418837</a><p><a href=\"https://www.bbc.com/news/articles/cgrpz4l1klgo\" rel=\"nofollow\">https://www.bbc.com/news/articles/cgrpz4l1klgo</a><p><a href=\"https://www.washingtonpost.com/immigration/2026/05/22/new-rule-requires-most-green-card-applicants-apply-outside-us/\" rel=\"nofollow\">https://www.washingtonpost.com/immigration/2026/05/22/new-ru...</a>, <a href=\"https://archive.is/yi2cX\" rel=\"nofollow\">https://archive.is/yi2cX</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48241890\">https://news.ycombinator.com/item?id=48241890</a></p>\n<p>Points: 1044</p>\n<p># Comments: 1825</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-05-22T21:27:12+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "<br> \u2022 The **USCIS** has announced a policy shift requiring the majority of green card applicants to depart the United States to process their **adjustment of status** applications.<br> \u2022 This change removes the standard domestic processing route for most applicants, mandating **consular processing** in their home countries unless \"extraordinary circumstances\" are proven.<br> \u2022 The **operational impact** focuses on a significant restructuring of the immigration pipeline, which may lead to prolonged absences for foreign-born tech workers currently residing in the U.S.",
+      "key_results": [
+        "Mandatory departure for green card applicants seeking adjustment of status.",
+        "Restriction of domestic processing to only 'extraordinary' cases.",
+        "Official USCIS policy memo PM-602-0199 formalizes the new administrative stance.",
+        "Increased reliance on consular offices for permanent residency adjudication.",
+        "Direct impact on the current H-1B and specialized visa workforce within the tech sector."
+      ],
+      "relevance_score": 1,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "USCIS mandates green card applicants apply from outside the U.S., potentially impacting domestic AI talent retention and recruitment.",
+      "lead_institution": "USCIS",
+      "tags": [
+        "Immigration Policy",
+        "USCIS",
+        "Green Card",
+        "Tech Talent",
+        "Work Visas"
+      ]
+    }
+  },
+  {
+    "title": "Beautiful Monero Block Explorer, mempool.space copycat",
+    "link": "https://monerospace.org",
+    "summary": "<p>Article URL: <a href=\"https://monerospace.org\">https://monerospace.org</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48241350\">https://news.ycombinator.com/item?id=48241350</a></p>\n<p>Points: 32</p>\n<p># Comments: 0</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-05-22T20:41:12+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "<br>\u2022 **Monerospace.org** has launched a new blockchain explorer that replicates the aesthetic and functional design of the industry-standard **mempool.space** interface.<br>\u2022 The platform provides **real-time visualization** of the Monero blockchain, including the mempool, block propagation, and transaction auditing.<br>\u2022 The architecture is optimized to handle **privacy-preserving data** while delivering high-performance, visual feedback for Monero network participants.<br>\u2022 This release addresses a UX gap in the Monero ecosystem by providing a **modern, intuitive web interface** similar to Bitcoin's premier tooling.",
+      "key_results": [
+        "Functional parity with the popular mempool.space UI for the Monero network.",
+        "Real-time tracking of the Monero transaction mempool and fees.",
+        "Visualized block history and network status tailored for XMR.",
+        "Open-source implementation allowing for self-hosted blockchain auditing.",
+        "Support for high-traffic browsing of privacy-centric blockchain data."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Monerospace.org launches a high-fidelity Monero block explorer that mirrors the acclaimed user experience of the mempool.space platform.",
+      "lead_institution": "Hacker News",
+      "tags": [
+        "Monero",
+        "Blockchain Explorer",
+        "UI/UX Design",
+        "Privacy Technology",
+        "Cryptocurrency Tools"
+      ]
+    }
+  },
+  {
+    "title": "Bun support is now limited and deprecated",
+    "link": "https://github.com/yt-dlp/yt-dlp/issues/16766",
+    "summary": "<p>Article URL: <a href=\"https://github.com/yt-dlp/yt-dlp/issues/16766\">https://github.com/yt-dlp/yt-dlp/issues/16766</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48238789\">https://news.ycombinator.com/item?id=48238789</a></p>\n<p>Points: 576</p>\n<p># Comments: 594</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-05-22T17:24:12+00:00",
+    "type": "repo",
+    "display_category": "Top Repo",
+    "processed": {
+      "summary": "\n- **yt-dlp** maintainers have officially announced the deprecation and limitation of **Bun runtime support** within the project ecosystem.\n- The decision stems from significant **maintenance overhead** and recurring compatibility issues that diverted resources from core feature development.\n- This move highlights a broader industry trend where **stability and reliability** are prioritized over the performance gains of experimental or fast-evolving runtimes like Bun.",
+      "key_results": [
+        "Official deprecation of Bun as a supported environment for yt-dlp.",
+        "Reduction of technical debt by removing runtime-specific polyfills and workarounds.",
+        "Documented friction between high-speed runtime releases and long-term project stability.",
+        "Clarification of the project's dependency strategy favoring standard Python/Node environments.",
+        "Significant community discourse (590+ comments) regarding the maturity of the Bun ecosystem."
+      ],
+      "relevance_score": 2,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "yt-dlp maintainers deprecate Bun support to reduce maintenance complexity and ensure long-term stability for their media extraction toolchain.",
+      "lead_institution": "yt-dlp",
+      "tags": [
+        "Software Maintenance",
+        "Bun Runtime",
+        "Open Source",
+        "JavaScript Ecosystem",
+        "Technical Debt"
+      ]
+    }
+  }
+]
