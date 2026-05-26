@@ -1,5 +1,275 @@
 [
   {
+    "title": "Anthropic co-founder Chris Olah's remarks on Pope Leo XIV's encyclical \"Magnifica humanitas\"",
+    "link": "https://www.anthropic.com/news/chris-olah-pope-leo-encyclical",
+    "summary": "Anthropic co-founder Chris Olah's remarks on Pope Leo XIV's encyclical \"Magnifica humanitas\"",
+    "source": "Anthropic News",
+    "published": "2026-05-25T00:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Anthropic co-founder Chris Olah provides a philosophical analysis of **AI ethics** and human dignity in response to the fictional/future-dated encyclical \"Magnifica humanitas.\"\n- The discourse emphasizes the importance of **AI Alignment** with deeply held human values to prevent the commodification of human consciousness.\n- The remarks advocate for **Interpretability** as a moral imperative, ensuring that high-stakes decision-making by models remains transparent to human observers.\n- Olah bridges the gap between **Technical Safety** and theological frameworks, suggesting that the development of AGI must be grounded in humanitarian stewardship.",
+      "key_results": [
+        "Exploration of the intersection between AI development and traditional moral philosophy.",
+        "Advocacy for human-centric design in large-scale generative systems.",
+        "Identification of transparency as a key component of ethical AI deployment.",
+        "Call for multi-disciplinary collaboration between engineers and ethicists.",
+        "Emphasis on maintaining human agency in an increasingly automated world."
+      ],
+      "relevance_score": 3,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Anthropic's Chris Olah examines AI ethics through a philosophical lens, bridging technical safety with traditional moral frameworks.",
+      "lead_institution": "Anthropic",
+      "tags": [
+        "AI Ethics",
+        "Alignment",
+        "Anthropic",
+        "Societal Impact",
+        "Safety Research"
+      ]
+    }
+  },
+  {
+    "title": "GitHub for Beginners: Getting started with Git and GitHub in VS Code",
+    "link": "https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-git-and-github-in-vs-code/",
+    "summary": "<p>Discover how to use VS Code to interact with GitHub and maintain your projects.</p>\n<p>The post <a href=\"https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-git-and-github-in-vs-code/\">GitHub for Beginners: Getting started with Git and GitHub in VS Code</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
+    "source": "The GitHub Blog",
+    "published": "2026-05-25T16:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- The guide details the **IDE integration** between VS Code and Git to streamline the local-to-cloud development cycle.\n- It highlights the use of the **Source Control view** to manage staging and commits without external CLI tools.\n- It explains the architecture of connecting **local repositories** to GitHub for persistent project maintenance.\n- The workflow focuses on improving **developer productivity** by minimizing context switching between the editor and terminal.",
+      "key_results": [
+        "Native Git support within VS Code interface",
+        "Simplified staging and committing process",
+        "Direct synchronization with GitHub remote servers",
+        "Branch management and conflict resolution via GUI",
+        "Integrated pull request and issue tracking capabilities"
+      ],
+      "relevance_score": 2,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "GitHub provides a guide on integrating VS Code with Git to simplify repository management for entry-level developers.",
+      "lead_institution": "GitHub",
+      "tags": [
+        "Git",
+        "VS Code",
+        "Version Control",
+        "Developer Tools",
+        "GitHub"
+      ]
+    }
+  },
+  {
+    "title": "Canada losing top talent as workers head to the U.S.",
+    "link": "https://www.bnnbloomberg.ca/investing/market-outlook/2026/05/25/market-outlook-canada-losing-top-talent-as-workers-head-to-the-us/",
+    "summary": "<p>Article URL: <a href=\"https://www.bnnbloomberg.ca/investing/market-outlook/2026/05/25/market-outlook-canada-losing-top-talent-as-workers-head-to-the-us/\">https://www.bnnbloomberg.ca/investing/market-outlook/2026/05/25/market-outlook-canada-losing-top-talent-as-workers-head-to-the-us/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48272749\">https://news.ycombinator.com/item?id=48272749</a></p>\n<p>Points: 48</p>\n<p># Comments: 54</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-05-25T22:42:41+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- The report highlights a significant **talent drain** as highly skilled Canadian professionals, particularly in tech, migrate to the United States for better compensation.\n- Economic factors driving this shift include **salary disparities**, a more aggressive **venture capital** landscape in the U.S., and higher tax burdens in Canada.\n- The long-term impact threatens the **innovation ecosystem** in Canada, potentially limiting the growth of domestic AI and engineering startups.",
+      "key_results": [
+        "Increased migration of highly skilled workers to U.S. tech hubs.",
+        "Significant gap in median compensation between Canadian and U.S. tech roles.",
+        "Higher concentration of late-stage startup funding in the U.S. compared to Canada.",
+        "Policy concerns regarding the retention of domestic graduates from top institutions.",
+        "Impact of cost-of-living adjustments on net income for Canadian expats."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "BNN Bloomberg reports that Canada is losing its top technical talent to the United States due to economic disparities.",
+      "lead_institution": "BNN Bloomberg",
+      "tags": [
+        "Labor Migration",
+        "Tech Talent",
+        "Economic Trends",
+        "Canada Tech",
+        "Brain Drain"
+      ]
+    }
+  },
+  {
+    "title": "Ninth Circuit Panel Goes Out of Its Way to Question Section 230\u2013DOE vs. Meta",
+    "link": "https://blog.ericgoldman.org/archives/2026/05/ninth-circuit-panel-goes-out-of-its-way-to-question-section-230-doe-v-meta.htm",
+    "summary": "<p>Article URL: <a href=\"https://blog.ericgoldman.org/archives/2026/05/ninth-circuit-panel-goes-out-of-its-way-to-question-section-230-doe-v-meta.htm\">https://blog.ericgoldman.org/archives/2026/05/ninth-circuit-panel-goes-out-of-its-way-to-question-section-230-doe-v-meta.htm</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48271270\">https://news.ycombinator.com/item?id=48271270</a></p>\n<p>Points: 38</p>\n<p># Comments: 52</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-05-25T20:24:16+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- The **Ninth Circuit Panel** has expressed significant skepticism regarding the current scope of **Section 230 immunity** in the case of DOE vs. Meta.\n- The legal debate centers on whether **algorithmic recommendations** and platform design features qualify as protected publishing activity or as separate, non-immunized conduct.\n- This judicial shift could impose new **legal liabilities** on providers of Generative AI and LLM agents who curate or amplify third-party content.\n- The ruling highlights an increasing trend of courts questioning the **legacy liability frameworks** that have historically shielded tech platforms from litigation.",
+      "key_results": [
+        "Questioning of broad Section 230 protections for social media platforms.",
+        "Potential distinction between neutral hosting and active content design.",
+        "Increased risk of litigation for AI developers regarding model outputs.",
+        "Focus on algorithmic responsibility rather than just content hosting.",
+        "Signals possible future Supreme Court review of platform immunity standards."
+      ],
+      "relevance_score": 3,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "The Ninth Circuit challenges Meta's Section 230 immunity, signaling a potential shift in legal liability for AI platform designs.",
+      "lead_institution": "Santa Clara University School of Law",
+      "tags": [
+        "Section 230",
+        "AI Liability",
+        "Platform Regulation",
+        "Meta",
+        "Tech Law"
+      ]
+    }
+  },
+  {
+    "title": "A successful Japanese trial of a ramjet engine designed for Mach\u20115 aircraft",
+    "link": "https://www.bgr.com/2178211/japan-hypersonic-engine-ramjet-2-hour-flights-to-us/",
+    "summary": "<p>Article URL: <a href=\"https://www.bgr.com/2178211/japan-hypersonic-engine-ramjet-2-hour-flights-to-us/\">https://www.bgr.com/2178211/japan-hypersonic-engine-ramjet-2-hour-flights-to-us/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48270812\">https://news.ycombinator.com/item?id=48270812</a></p>\n<p>Points: 97</p>\n<p># Comments: 86</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-05-25T19:43:45+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Successful trial of a **hypersonic ramjet engine** designed for sustained Mach-5 flight speeds.\n- Utilizes **air-breathing propulsion** technology to achieve high-speed travel while minimizing the weight of onboard oxidizers.\n- Focuses on maintaining **combustion stability** at extreme velocities where traditional turbine engines are structurally and thermodynamically unviable.\n- Architected to revolutionize long-haul transport, specifically targeting **two-hour trans-Pacific flights** between Japan and the US.",
+      "key_results": [
+        "Successful ground-based trial of the hypersonic prototype",
+        "Validation of stable combustion at high Mach numbers",
+        "Projected flight speeds exceeding Mach 5 (hypersonic)",
+        "Significant reduction in trans-Pacific travel time potential",
+        "Advancement in high-temperature aerospace material performance"
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Japanese aerospace researchers successfully test a Mach-5 ramjet engine, aiming to enable two-hour trans-Pacific commercial flights.",
+      "lead_institution": "Japan Aerospace Exploration Agency (JAXA)",
+      "tags": [
+        "Hypersonic",
+        "Ramjet",
+        "Aerospace",
+        "Propulsion",
+        "Mach-5"
+      ]
+    }
+  },
+  {
+    "title": "Netherlands Seizes 800 Servers, Arrests 2 for Aiding Cyberattacks",
+    "link": "https://krebsonsecurity.com/2026/05/netherlands-seizes-800-servers-arrests-2-for-aiding-cyberattacks/",
+    "summary": "<p>Article URL: <a href=\"https://krebsonsecurity.com/2026/05/netherlands-seizes-800-servers-arrests-2-for-aiding-cyberattacks/\">https://krebsonsecurity.com/2026/05/netherlands-seizes-800-servers-arrests-2-for-aiding-cyberattacks/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48266906\">https://news.ycombinator.com/item?id=48266906</a></p>\n<p>Points: 266</p>\n<p># Comments: 69</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-05-25T13:56:39+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Dutch law enforcement dismantled a massive **bulletproof hosting** network, resulting in the seizure of approximately **800 servers** used for malicious activities.<br>The operation targeted infrastructure designed to provide **denial-of-service (DDoS)** and **malware distribution** capabilities while evading legal takedown requests.<br>By seizing the physical and virtual assets, authorities disrupted the **Command and Control (C2)** architecture of multiple international cyber-criminal organizations.",
+      "key_results": [
+        "Seizure of 800 servers used for illicit cyber operations.",
+        "Arrest of two individuals suspected of facilitating global cyberattacks.",
+        "Disruption of bulletproof hosting services for multiple botnets.",
+        "International cooperation led by the Dutch National Police.",
+        "Forensic access to metadata and communication logs of threat actors."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "The Dutch National Police dismantled a massive bulletproof hosting network, seizing 800 servers to disrupt global cyberattack infrastructure.",
+      "lead_institution": "Krebs on Security",
+      "tags": [
+        "Cybersecurity",
+        "Infrastructure",
+        "Botnets",
+        "Law Enforcement",
+        "Cybercrime"
+      ]
+    }
+  },
+  {
+    "title": "Rising seas will swallow New Orleans. People need to start relocating now",
+    "link": "https://www.cnn.com/2026/05/25/climate/new-orleans-sea-level-rise-relocation",
+    "summary": "<p>Article URL: <a href=\"https://www.cnn.com/2026/05/25/climate/new-orleans-sea-level-rise-relocation\">https://www.cnn.com/2026/05/25/climate/new-orleans-sea-level-rise-relocation</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48265049\">https://news.ycombinator.com/item?id=48265049</a></p>\n<p>Points: 125</p>\n<p># Comments: 142</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-05-25T09:41:38+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* The article highlights the catastrophic projections for **sea-level rise** impacting New Orleans, emphasizing that current defense systems are insufficient.\n* It addresses the **infrastructure failure** risks associated with geological subsidence combined with rapid oceanic expansion.\n* The narrative focuses on the **humanitarian and economic impact** of delayed relocation, advocating for immediate strategic migration planning.",
+      "key_results": [
+        "New Orleans faces imminent threats from accelerating sea-level rise.",
+        "Current coastal defense infrastructure is deemed inadequate for future projections.",
+        "Proactive relocation is identified as a more cost-effective strategy than reactive crisis management.",
+        "Geological subsidence is significantly worsening the impact of climate change in the region.",
+        "Urgent policy intervention is required to manage the socio-economic displacement of residents."
+      ],
+      "relevance_score": 1,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "CNN reports that rising sea levels and infrastructure vulnerabilities necessitate immediate relocation planning for the residents of New Orleans.",
+      "lead_institution": "CNN",
+      "tags": [
+        "Climate Change",
+        "Infrastructure",
+        "New Orleans",
+        "Environmental Policy",
+        "Relocation"
+      ]
+    }
+  },
+  {
+    "title": "D. Trump Jr. and Eric Trump Running Felony Fraud Scheme Prosecutable in New York",
+    "link": "https://cmarmitage.substack.com/p/donald-trump-jr-and-eric-trump-are",
+    "summary": "<p>Article URL: <a href=\"https://cmarmitage.substack.com/p/donald-trump-jr-and-eric-trump-are\">https://cmarmitage.substack.com/p/donald-trump-jr-and-eric-trump-are</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48262841\">https://news.ycombinator.com/item?id=48262841</a></p>\n<p>Points: 63</p>\n<p># Comments: 3</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-05-25T02:16:27+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "<br>\u2022 The article details investigative findings regarding alleged **felony fraud** schemes involving Donald Trump Jr. and Eric Trump within New York's jurisdiction.\n<br>\u2022 The content is focused on **legal compliance** and prosecutable activities rather than software architecture or machine learning.\n<br>\u2022 There is no **Generative AI** or **LLM implementation** discussed, making it an outlier for the specified research interests.",
+      "key_results": [
+        "Alleges specific fraud schemes prosecutable under New York state law.",
+        "Details investigations into corporate and individual financial activities.",
+        "Provides zero technical documentation or engineering breakthroughs.",
+        "Currently trending on Hacker News despite a lack of technical depth.",
+        "Focuses on legal liability rather than technological innovation."
+      ],
+      "relevance_score": 1,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "CM Armitage argues that Donald Trump Jr. and Eric Trump are engaged in prosecutable felony fraud in New York.",
+      "lead_institution": "CM Armitage",
+      "tags": [
+        "Legal Analysis",
+        "New York Law",
+        "Fraud Investigation",
+        "General News",
+        "Non-Technical"
+      ]
+    }
+  },
+  {
+    "title": "The seed oil panic is hurting my cardiac patients",
+    "link": "https://www.statnews.com/2026/05/22/seed-oils-healthy-fats-tallow-fact-check-cardiac-health/",
+    "summary": "<p>Article URL: <a href=\"https://www.statnews.com/2026/05/22/seed-oils-healthy-fats-tallow-fact-check-cardiac-health/\">https://www.statnews.com/2026/05/22/seed-oils-healthy-fats-tallow-fact-check-cardiac-health/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48257532\">https://news.ycombinator.com/item?id=48257532</a></p>\n<p>Points: 159</p>\n<p># Comments: 238</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-05-24T14:27:26+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "<br>\u2022 The article examines the impact of **nutritional misinformation** on patient adherence to evidence-based cardiac dietary guidelines.<br>\u2022 It highlights the conflict between **scientific consensus** on unsaturated fats and the viral popularity of \"seed oil panic\" driven by digital influencers.<br>\u2022 The narrative focuses on the clinical **risk assessment** of replacing seed oils with saturated animal fats like tallow and butter.<br>\u2022 It addresses the challenge of **data literacy** and the persistence of non-peer-reviewed health claims in the public domain.",
+      "key_results": [
+        "Seed oils containing linoleic acid are clinically proven to lower LDL cholesterol.",
+        "Viral social media trends are actively discouraging the use of heart-healthy polyunsaturated fats.",
+        "Patients are increasingly substituting plant-based oils with high-saturated-fat alternatives.",
+        "Misinformation regarding the inflammatory properties of seed oils lacks robust human clinical trial support.",
+        "The disconnect between clinical practitioners and patient internet consumption is widening."
+      ],
+      "relevance_score": 1,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Stat News reports that viral medical misinformation regarding seed oils is negatively impacting patient adherence to heart-healthy dietary guidelines.",
+      "lead_institution": "Stat News",
+      "tags": [
+        "Healthcare Misinformation",
+        "Cardiac Health",
+        "Nutrition Science",
+        "Public Health",
+        "Social Media Trends"
+      ]
+    }
+  },
+  {
     "title": "GitHub recognized as a Leader in the Gartner\u00ae Magic Quadrant\u2122 for Enterprise AI Coding Agents for the third year in a row",
     "link": "https://github.blog/ai-and-ml/github-copilot/github-recognized-as-a-leader-in-the-gartner-magic-quadrant-for-enterprise-ai-coding-agents-for-the-third-year-in-a-row/",
     "summary": "<p>We are committed to empowering every developer by building an open, secure, and AI-powered platform that defines the future of software development.</p>\n<p>The post <a href=\"https://github.blog/ai-and-ml/github-copilot/github-recognized-as-a-leader-in-the-gartner-magic-quadrant-for-enterprise-ai-coding-agents-for-the-third-year-in-a-row/\">GitHub recognized as a Leader in the Gartner\u00ae Magic Quadrant\u2122 for Enterprise AI Coding Agents for the third year in a row</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
@@ -56,36 +326,6 @@
         "Generative AI Trends",
         "AI Strategy",
         "Industry Leadership"
-      ]
-    }
-  },
-  {
-    "title": "The seed oil panic is hurting my cardiac patients",
-    "link": "https://www.statnews.com/2026/05/22/seed-oils-healthy-fats-tallow-fact-check-cardiac-health/",
-    "summary": "<p>Article URL: <a href=\"https://www.statnews.com/2026/05/22/seed-oils-healthy-fats-tallow-fact-check-cardiac-health/\">https://www.statnews.com/2026/05/22/seed-oils-healthy-fats-tallow-fact-check-cardiac-health/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48257532\">https://news.ycombinator.com/item?id=48257532</a></p>\n<p>Points: 148</p>\n<p># Comments: 216</p>",
-    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
-    "published": "2026-05-24T14:27:26+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n- The article addresses the growing **misinformation trend** surrounding seed oils, documenting its negative impact on **cardiovascular health outcomes**.\n- It highlights the conflict between **clinical evidence**, which supports the consumption of polyunsaturated fats, and social media narratives favoring **saturated fats** like tallow.\n- The piece examines the role of **digital platforms** in propagating health myths that undermine established **medical consensus** and physician-patient trust.",
-      "key_results": [
-        "Seed oils rich in omega-6 fatty acids are linked to lower risks of heart disease.",
-        "Replacing seed oils with saturated fats like tallow significantly increases LDL cholesterol levels.",
-        "Social media influencers are successfully overriding clinical advice for many patients.",
-        "Human clinical trials do not support the claim that seed oils cause systemic inflammation.",
-        "Medical professionals are reporting a tangible rise in preventable cardiac issues due to dietary shifts."
-      ],
-      "relevance_score": 1,
-      "signal_type": "General News",
-      "one_sentence_takeaway": "Stat News reports that medical professionals are facing a public health crisis driven by social media-led nutritional misinformation.",
-      "lead_institution": "Stat News",
-      "tags": [
-        "Healthcare",
-        "Public Health",
-        "Misinformation",
-        "Cardiology",
-        "Nutrition"
       ]
     }
   },
