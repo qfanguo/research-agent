@@ -1,5 +1,65 @@
 [
   {
+    "title": "Anthropic appoints KiYoung Choi as Representative Director of Korea ahead of Seoul office opening",
+    "link": "https://www.anthropic.com/news/kiyoung-choi-representative-director-anthropic-korea",
+    "summary": "Anthropic appoints KiYoung Choi as Representative Director of Korea ahead of Seoul office opening",
+    "source": "Anthropic News",
+    "published": "2026-05-26T00:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- **Anthropic** expands its global operations by appointing KiYoung Choi as Representative Director for its new **Seoul office**.\n- The strategic move aims to foster deeper integration of **Claude models** within the South Korean enterprise sector and government infrastructure.\n- The presence in Korea facilitates **localized AI safety** initiatives and technical support for regional partners in East Asia.",
+      "key_results": [
+        "Appointment of KiYoung Choi as Representative Director of Korea.",
+        "Announcement of a physical office opening in Seoul.",
+        "Strengthening of ties with the South Korean technology ecosystem.",
+        "Strategic focus on localized enterprise AI adoption.",
+        "Commitment to regional AI safety and regulatory collaboration."
+      ],
+      "relevance_score": 2,
+      "signal_type": "Release",
+      "one_sentence_takeaway": "Anthropic appoints KiYoung Choi to lead its new Seoul office, signaling a strategic expansion into the Korean AI market.",
+      "lead_institution": "Anthropic",
+      "tags": [
+        "Anthropic",
+        "Business Expansion",
+        "South Korea",
+        "Claude",
+        "AI Strategy"
+      ]
+    }
+  },
+  {
+    "title": "GitHub for Beginners: Getting started with Git and GitHub in VS Code",
+    "link": "https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-git-and-github-in-vs-code/",
+    "summary": "<p>Discover how to use VS Code to interact with GitHub and maintain your projects.</p>\n<p>The post <a href=\"https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-git-and-github-in-vs-code/\">GitHub for Beginners: Getting started with Git and GitHub in VS Code</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
+    "source": "The GitHub Blog",
+    "published": "2026-05-25T16:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* The article details the **integration architecture** between VS Code and Git, enabling streamlined local-to-remote synchronization for software projects.\n* It covers the **authentication protocol** required to link GitHub accounts with the VS Code environment for secure code transfers and identity management.\n* Focuses on the **Source Control interface**, providing a high-level GUI for standard Git operations like staging, committing, and conflict resolution.",
+      "key_results": [
+        "Step-by-step setup for Git in VS Code",
+        "Authentication workflow between local IDE and GitHub",
+        "Instructions for cloning remote repositories",
+        "Guidance on staging and committing changes",
+        "Publishing local projects to GitHub repositories"
+      ],
+      "relevance_score": 2,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "GitHub outlines basic integration steps for VS Code users to manage version control and remote repositories efficiently.",
+      "lead_institution": "The GitHub Blog",
+      "tags": [
+        "Git",
+        "VS Code",
+        "GitHub",
+        "Version Control",
+        "Developer Tools"
+      ]
+    }
+  },
+  {
     "title": "Anthropic co-founder Chris Olah's remarks on Pope Leo XIV's encyclical \"Magnifica humanitas\"",
     "link": "https://www.anthropic.com/news/chris-olah-pope-leo-encyclical",
     "summary": "Anthropic co-founder Chris Olah's remarks on Pope Leo XIV's encyclical \"Magnifica humanitas\"",
@@ -26,36 +86,6 @@
         "Anthropic",
         "Societal Impact",
         "Safety Research"
-      ]
-    }
-  },
-  {
-    "title": "GitHub for Beginners: Getting started with Git and GitHub in VS Code",
-    "link": "https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-git-and-github-in-vs-code/",
-    "summary": "<p>Discover how to use VS Code to interact with GitHub and maintain your projects.</p>\n<p>The post <a href=\"https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-git-and-github-in-vs-code/\">GitHub for Beginners: Getting started with Git and GitHub in VS Code</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
-    "source": "The GitHub Blog",
-    "published": "2026-05-25T16:00:00+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n- The guide details the **IDE integration** between VS Code and Git to streamline the local-to-cloud development cycle.\n- It highlights the use of the **Source Control view** to manage staging and commits without external CLI tools.\n- It explains the architecture of connecting **local repositories** to GitHub for persistent project maintenance.\n- The workflow focuses on improving **developer productivity** by minimizing context switching between the editor and terminal.",
-      "key_results": [
-        "Native Git support within VS Code interface",
-        "Simplified staging and committing process",
-        "Direct synchronization with GitHub remote servers",
-        "Branch management and conflict resolution via GUI",
-        "Integrated pull request and issue tracking capabilities"
-      ],
-      "relevance_score": 2,
-      "signal_type": "Engineering Blog",
-      "one_sentence_takeaway": "GitHub provides a guide on integrating VS Code with Git to simplify repository management for entry-level developers.",
-      "lead_institution": "GitHub",
-      "tags": [
-        "Git",
-        "VS Code",
-        "Version Control",
-        "Developer Tools",
-        "GitHub"
       ]
     }
   },
