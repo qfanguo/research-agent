@@ -1,5 +1,575 @@
 [
   {
+    "title": "How Endava builds an agentic organization with Codex",
+    "link": "https://openai.com/index/endava",
+    "summary": "Learn how Endava uses Codex to build an agentic organization, accelerating software delivery and reducing requirements analysis from weeks to hours.",
+    "source": "OpenAI News",
+    "published": "2026-05-28T12:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Endava implements the **Codex platform** to transition toward an **agentic organization**, automating high-level software engineering tasks.\n- The system leverages **Generative AI** to streamline the **Software Development Life Cycle (SDLC)**, focusing on requirement gathering and technical design.\n- Impact focuses on replacing manual, time-intensive documentation processes with **AI-driven analysis** to ensure faster project kick-offs.",
+      "key_results": [
+        "Reduced requirements analysis time from weeks to hours.",
+        "Acceleration of overall software delivery cycles.",
+        "Formalization of an agentic enterprise structure using LLMs.",
+        "Enhanced consistency in technical requirement documentation.",
+        "Improved developer efficiency via AI-integrated workflows."
+      ],
+      "relevance_score": 4,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Endava leverages its Codex platform to build an agentic organization, reducing requirements analysis time from weeks to hours.",
+      "lead_institution": "OpenAI News",
+      "tags": [
+        "LLM Agents",
+        "Agentic AI",
+        "Software Delivery",
+        "Enterprise AI",
+        "Productivity"
+      ]
+    }
+  },
+  {
+    "title": "OpenAI\u2019s Frontier Governance Framework",
+    "link": "https://openai.com/index/openai-frontier-governance-framework",
+    "summary": "Explore OpenAI\u2019s Frontier Governance Framework and how our AI safety, security, and risk practices align with emerging EU and California regulations.",
+    "source": "OpenAI News",
+    "published": "2026-05-28T00:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* Establishes a **Frontier Governance Framework** to institutionalize safety-by-design through iterative risk assessments and mitigation protocols.\n* Focuses on aligning **AI Safety and Security** practices with specific requirements from the EU AI Act and California's legislative landscape.\n* Implements standardized **Pre-deployment Risk Evaluations** to measure model capabilities against catastrophic risk thresholds.",
+      "key_results": [
+        "Formalization of safety protocols for frontier model development.",
+        "Mapping of internal risk assessments to the EU AI Act requirements.",
+        "Strategy for compliance with California\u2019s emerging AI safety laws.",
+        "Standardization of pre-release evaluations for high-capability models.",
+        "Integration of security and safety practices into the model lifecycle."
+      ],
+      "relevance_score": 4,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "OpenAI aligns its Frontier Governance Framework with EU and California regulations to standardize model safety and risk assessment.",
+      "lead_institution": "OpenAI",
+      "tags": [
+        "AI Safety",
+        "AI Regulation",
+        "Model Governance",
+        "AI Evaluation",
+        "Risk Mitigation"
+      ]
+    }
+  },
+  {
+    "title": "Anthropic raises $65B in Series H funding at $965B post-money valuation",
+    "link": "https://www.anthropic.com/news/series-h",
+    "summary": "Anthropic raises $65B in Series H funding at $965B post-money valuation",
+    "source": "Anthropic News",
+    "published": "2026-05-28T00:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Anthropic secures a massive **$65 billion Series H funding round**, bringing its post-money valuation to **$965 billion**, nearly reaching a trillion-dollar market cap.\n- The capital influx is strategically positioned to fund the massive **compute requirements** and infrastructure needed for next-generation frontier models.\n- This investment signals a major shift in **Generative AI Trends**, where the cost of scaling foundation models requires unprecedented industrial-level capital investment.\n- The funding is expected to accelerate Anthropic's development of **Reasoning Models** and safety-aligned AI to compete directly with other major labs.",
+      "key_results": [
+        "$65 billion raised in Series H round.",
+        "Post-money valuation reached $965 billion.",
+        "Secured capital for massive-scale compute infrastructure.",
+        "Strengthened market position as a top-tier foundation model provider.",
+        "Increased R&D capacity for safety-aligned and reasoning-capable models."
+      ],
+      "relevance_score": 3,
+      "signal_type": "Release",
+      "one_sentence_takeaway": "Anthropic secures $65 billion in Series H funding to accelerate the development and scaling of next-generation foundation models.",
+      "lead_institution": "Anthropic",
+      "tags": [
+        "Funding",
+        "Anthropic",
+        "Generative AI Trends",
+        "Foundation Models",
+        "Compute Scaling"
+      ]
+    }
+  },
+  {
+    "title": "A New Era of Innovation: Google Research at I/O 2026",
+    "link": "https://research.google/blog/a-new-era-of-innovation-google-research-at-io-2026/",
+    "summary": "General Science",
+    "source": "The latest research from Google",
+    "published": "2026-05-28T20:58:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Google previews the next generation of **Multimodal Foundation Models** focused on real-time reasoning and cross-modal understanding.\n- Integration of **Agentic Frameworks** into the core mobile ecosystem to facilitate complex task automation and proactive assistance.\n- Advancements in **Efficiency and Compression** for Small Language Models (SLMs) to enable high-performance local inference.\n- Development of **Unified Evaluation Metrics** for assessing the reliability and safety of generative agents in open-domain environments.",
+      "key_results": [
+        "Demonstration of real-time low-latency multimodal interaction",
+        "Introduction of advanced RAG techniques for personal context",
+        "Optimized model weights for local execution on consumer hardware",
+        "Preview of multi-step reasoning capabilities for digital agents",
+        "Standardized benchmarks for generative AI transparency"
+      ],
+      "relevance_score": 3,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Google previews a suite of multimodal models and agentic frameworks to accelerate on-device generative AI adoption.",
+      "lead_institution": "Google Research",
+      "tags": [
+        "Multimodal AI",
+        "LLM Agents",
+        "On-device AI",
+        "Generative AI",
+        "Reasoning Models"
+      ]
+    }
+  },
+  {
+    "title": "Still a developer. Just outside. Our latest GitHub Shop collection is here.",
+    "link": "https://github.blog/news-insights/company-news/still-a-developer-just-outside-our-latest-github-shop-collection-is-here/",
+    "summary": "<p>The ESC collection lets you escape the confines of your desk and get out into the sun where good ideas are bound to happen.</p>\n<p>The post <a href=\"https://github.blog/news-insights/company-news/still-a-developer-just-outside-our-latest-github-shop-collection-is-here/\">Still a developer. Just outside. Our latest GitHub Shop collection is here.</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
+    "source": "The GitHub Blog",
+    "published": "2026-05-28T18:18:43+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- GitHub announces the **ESC collection**, a promotional merchandise line designed to encourage developers to spend time outdoors.\n- The release focuses on **lifestyle branding** and physical apparel rather than technical software or AI-related infrastructure.\n- The impact is limited to **community engagement** and brand awareness, offering no technical advancements or functional tools for developers.",
+      "key_results": [
+        "Launch of a new merchandise line titled the ESC collection.",
+        "Promotion of work-life balance by encouraging developers to leave their desks.",
+        "Availability of new branded apparel within the GitHub Shop.",
+        "Marketing focus on creative inspiration found outside the office environment.",
+        "No technical features, API updates, or model releases provided."
+      ],
+      "relevance_score": 1,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "GitHub launches the ESC collection to promote outdoor developer lifestyle and brand merchandise to its community.",
+      "lead_institution": "GitHub",
+      "tags": [
+        "GitHub",
+        "Merchandise",
+        "Developer Culture",
+        "Brand Marketing",
+        "General News"
+      ]
+    }
+  },
+  {
+    "title": "Catch up on 12 major I/O 2026 moments",
+    "link": "https://blog.google/innovation-and-ai/technology/ai/io-2026-keynote-moment-videos/",
+    "summary": "The colorful I/O logo against a black background, surrounded by stills from the I/O keynote",
+    "source": "AI",
+    "published": "2026-05-28T15:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "<br>\u2022 Google presents a high-level roadmap for **Generative AI** integration across its product ecosystem, focusing on consumer-facing applications.<br>\u2022 The event emphasizes the transition toward **AI Agents** and interactive **Multimodal AI** capabilities within the Gemini model family.<br>\u2022 Architectural discussions highlight a push for **Local LLMs** to enable faster, more private on-device processing for mobile users.",
+      "key_results": [
+        "Recap of twelve major product milestones from the I/O keynote.",
+        "Advancements in multimodal search and visual data processing.",
+        "Updates to the Gemini API for agentic workflow development.",
+        "Expanded availability of small language models for local deployment.",
+        "Integration of generative features across Workspace and Android platforms."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Google showcases twelve key AI innovations at I/O 2026 to advance multimodal capabilities across its global product suite.",
+      "lead_institution": "Google",
+      "tags": [
+        "Generative AI",
+        "Google IO",
+        "Multimodal AI",
+        "AI Agents",
+        "Product Update"
+      ]
+    }
+  },
+  {
+    "title": "Streamline external access to Amazon SageMaker MLflow using a REST API proxy",
+    "link": "https://aws.amazon.com/blogs/machine-learning/streamline-external-access-to-amazon-sagemaker-mlflow-using-a-rest-api-proxy/",
+    "summary": "In this post, we demonstrate how to build a secure Flask-based MLflow proxy service that provides HTTPS access to Amazon SageMaker MLflow without requiring the MLflow SDK. This solution is for organizations undergoing cloud transformation who want to preserve their existing ML workflows while adopting cloud-native services.",
+    "source": "Artificial Intelligence",
+    "published": "2026-05-28T20:35:44+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\u2022 Implements a **Flask-based REST API proxy** to facilitate secure, SDK-free communication with **Amazon SageMaker MLflow**.\n\u2022 Enables organizations to maintain **legacy ML workflows** while transitioning to cloud-native infrastructure by abstracting AWS-specific authentication.\n\u2022 Utilizes **HTTPS endpoints** to provide a standardized interface for experiment tracking and model registry interactions across distributed environments.",
+      "key_results": [
+        "Removal of the MLflow SDK requirement for external client environments.",
+        "Standardization of HTTPS-based access to SageMaker-managed MLflow instances.",
+        "Seamless integration between on-premises services and cloud-native ML tracking.",
+        "Centralized security management through a dedicated proxy layer.",
+        "Reduced friction for development teams during large-scale cloud transformations."
+      ],
+      "relevance_score": 4,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Amazon Web Services provides a Flask proxy to simplify secure, SDK-free REST API access to SageMaker-hosted MLflow tracking servers.",
+      "lead_institution": "Amazon Web Services",
+      "tags": [
+        "MLOps",
+        "MLflow",
+        "Amazon SageMaker",
+        "REST API",
+        "Cloud Migration"
+      ]
+    }
+  },
+  {
+    "title": "Process financial documents using Amazon Bedrock Data Automation",
+    "link": "https://aws.amazon.com/blogs/machine-learning/process-financial-documents-using-amazon-bedrock-data-automation/",
+    "summary": "In this post, we explore how Amazon Bedrock Data Automation can accurately extract information from four common types of financial documents: bank statements, W-2 forms, 1099-B tax forms, and vendor contracts. We highlight the complexity in the documents, detail the custom extraction created in Amazon Bedrock Data Automation, and describe the outcomes of the extraction process.",
+    "source": "Artificial Intelligence",
+    "published": "2026-05-27T21:28:53+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* **Amazon Bedrock Data Automation (ABDA)** provides a multimodal workflow specifically designed for high-accuracy data extraction from unstructured and semi-structured financial documents.\n* The architecture eliminates the need for manual template creation by leveraging **Generative AI** to interpret complex document layouts like bank statements and tax forms.\n* Users can define **custom extraction schemas**, allowing the model to transform raw visual data into structured outputs for downstream financial analysis tools.",
+      "key_results": [
+        "Automated parsing of transaction-heavy bank statements into structured formats.",
+        "Accurate mapping of W-2 form fields without manual OCR post-processing.",
+        "Efficient handling of complex 1099-B tax document layouts.",
+        "Extraction of specific clauses and metadata from dense vendor contracts.",
+        "Streamlined document processing workflows that reduce human-in-the-loop validation."
+      ],
+      "relevance_score": 6,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Amazon launches Bedrock Data Automation to streamline multimodal extraction from complex financial documents like tax forms and contracts.",
+      "lead_institution": "Amazon",
+      "tags": [
+        "Multimodal AI",
+        "Document AI",
+        "Amazon Bedrock",
+        "Generative AI",
+        "Financial Tech"
+      ]
+    }
+  },
+  {
+    "title": "The Name\u2019s Gaming \u2026 Cloud Gaming: \u2018007 First Light\u2019 Launches on GeForce NOW",
+    "link": "https://blogs.nvidia.com/blog/geforce-now-thursday-007-first-light-launch/",
+    "summary": "License to stream, shaken and stirred. GeForce NOW is dialing up the espionage with the launch of 007 First Light, letting members slip into James Bond\u2019s reimagined origin story from almost any device \u2014 no tux or preloads required.\u00a0 For a limited time, the game is included with the purchase of a 12\u2011month GeForce NOW [&#8230;]",
+    "source": "NVIDIA Blog",
+    "published": "2026-05-28T13:00:37+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- **NVIDIA GeForce NOW** integrates the launch of **007 First Light**, leveraging **cloud-based GPU virtualization** to deliver high-fidelity gaming without local hardware constraints.\n- The architecture focuses on **low-latency streaming protocols** that allow for immediate playability across heterogeneous client devices, bypassing traditional installation cycles.\n- The deployment emphasizes the shift toward **infrastructure-as-a-service** for interactive media, utilizing remote compute resources to handle demanding graphical workloads.",
+      "key_results": [
+        "Official launch of '007 First Light' on the GeForce NOW cloud gaming platform.",
+        "Elimination of local storage and hardware requirements for high-end gaming.",
+        "Provision of the game as a bundle with 12-month service subscriptions.",
+        "Support for cross-device accessibility including mobile, low-spec PCs, and smart TVs.",
+        "Reinforcement of NVIDIA's cloud gaming ecosystem as a primary distribution channel for major IP."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "NVIDIA launches '007 First Light' on GeForce NOW to streamline high-end gaming experiences across diverse hardware ecosystems.",
+      "lead_institution": "NVIDIA",
+      "tags": [
+        "Cloud Gaming",
+        "NVIDIA",
+        "GeForce NOW",
+        "GPU Infrastructure",
+        "Streaming Technology"
+      ]
+    }
+  },
+  {
+    "title": "AI Factories: The New Infrastructure of Intelligence",
+    "link": "https://blogs.nvidia.com/blog/ai-factories-the-new-infrastructure-of-intelligence/",
+    "summary": "AI factories are token factories, converting power into intelligence in real time. And as agentic AI scales and autonomous, always-on special agents are deployed in the enterprise, performance per watt and cost per token become the economics that matter.",
+    "source": "NVIDIA Blog",
+    "published": "2026-05-27T16:00:36+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n \u2022 AI factories are conceptualized as **token factories** that convert electrical power into real-time intelligence at scale.\n \u2022 The rise of **agentic AI** requires a shift in infrastructure design to support autonomous, always-on special agents within the enterprise.\n \u2022 Optimization metrics are pivoting toward **performance per watt** and **cost per token**, redefining the economic viability of generative models.",
+      "key_results": [
+        "AI factories serve as the fundamental infrastructure for real-time intelligence generation.",
+        "The scaling of agentic AI necessitates a move toward always-on autonomous systems.",
+        "Power-to-intelligence conversion efficiency is now a primary architectural goal.",
+        "Performance per watt has become a critical benchmark for enterprise AI hardware.",
+        "Cost per token dictates the economic feasibility of large-scale agent deployments."
+      ],
+      "relevance_score": 4,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "NVIDIA defines AI factories as infrastructure where token economics and power efficiency dictate the scalability of autonomous agentic systems.",
+      "lead_institution": "NVIDIA",
+      "tags": [
+        "AI Factories",
+        "Agentic AI",
+        "Token Economics",
+        "Inference Efficiency",
+        "Enterprise AI"
+      ]
+    }
+  },
+  {
+    "title": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2026",
+    "link": "https://machinelearning.apple.com/updates/apple-at-cvpr-2026",
+    "summary": "<p>Apple is presenting new research at the annual <a class=\"icon icon-after icon-external\" href=\"https://cvpr.thecvf.com\" rel=\"noopener nofollow\" target=\"_blank\">IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)</a>, which takes place in person in Denver at the Colorado Convention Center from June 3 to June 7.</p>\n<p>We are proud to sponsor the conference, which brings together the scientific and industrial research communities in computer vision and pattern recognition. Below is an overview of Apple\u2019s participation at CVPR 2026.</p>",
+    "source": "Apple Machine Learning Research",
+    "published": "2026-05-28T00:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n\u2022 Apple announces its official sponsorship and participation in the **CVPR 2026** conference in Denver.\n\u2022 The company will present new research contributions targeting the **computer vision** and **pattern recognition** domains.\n\u2022 The engagement aims to bridge gaps between **industrial research** and the broader scientific community through technical presentations.",
+      "key_results": [
+        "Confirmed Apple sponsorship of the CVPR 2026 conference.",
+        "Scheduled research presentations between June 3 and June 7 in Denver.",
+        "Focus on computer vision and pattern recognition advancements.",
+        "Strengthening ties between Apple and the academic research community.",
+        "Planned showcase of latest machine learning developments from Apple Research."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Apple announces sponsorship and research participation at CVPR 2026 to engage with the computer vision and AI communities.",
+      "lead_institution": "Apple Machine Learning Research",
+      "tags": [
+        "Computer Vision",
+        "CVPR",
+        "Apple Research",
+        "Pattern Recognition",
+        "Conference News"
+      ]
+    }
+  },
+  {
+    "title": "Media Advisory: MIT to establish regional quantum hub",
+    "link": "https://news.mit.edu/2026/media-advisory-mit-establish-regional-quantum-hub",
+    "summary": "With $25 million investment from the Commonwealth of Massachusetts, MIT to build a new shared-use facility to serve as a statewide quantum toolbox.",
+    "source": "MIT News - Artificial intelligence",
+    "published": "2026-05-28T16:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* MIT is establishing a **regional quantum hub** that serves as a shared-use facility to provide specialized tools for researchers and industry players.\n* The project is supported by a **$25 million investment** from the Commonwealth of Massachusetts to accelerate the local quantum ecosystem.\n* The facility aims to function as a **statewide quantum toolbox**, facilitating the transition of quantum theory into physical applications.\n* This infrastructure investment focuses on providing high-end equipment to support advancements in **quantum computing**, sensing, and communication.",
+      "key_results": [
+        "Secured $25 million in state funding for quantum infrastructure.",
+        "Establishment of a shared-use facility for regional academic and industry access.",
+        "Creation of a centralized 'quantum toolbox' for technology development.",
+        "Strengthening the Massachusetts quantum technology ecosystem.",
+        "Streamlining the path from theoretical quantum research to commercial prototypes."
+      ],
+      "relevance_score": 3,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "MIT launches a $25 million regional quantum hub to provide shared-use infrastructure for advancing state-wide quantum technology development.",
+      "lead_institution": "MIT",
+      "tags": [
+        "Quantum Computing",
+        "Research Infrastructure",
+        "MIT",
+        "State Funding",
+        "Quantum Toolbox"
+      ]
+    }
+  },
+  {
+    "title": "Announcing Rust 1.96",
+    "link": "https://blog.rust-lang.org/2026/05/28/Rust-1.96.0/",
+    "summary": "<p>Article URL: <a href=\"https://blog.rust-lang.org/2026/05/28/Rust-1.96.0/\">https://blog.rust-lang.org/2026/05/28/Rust-1.96.0/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48314069\">https://news.ycombinator.com/item?id=48314069</a></p>\n<p>Points: 110</p>\n<p># Comments: 15</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-05-28T19:20:06+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n\u2022 **Rust 1.96.0** provides core language refinements aimed at enhancing **memory safety** and performance across systems-level applications.\n\u2022 The release stabilizes significant **Standard Library APIs**, allowing for more robust and portable implementations of high-performance computing tasks.\n\u2022 Enhancements to the **Rust compiler** and **Cargo** ecosystem improve developer productivity and build times for large-scale distributed systems.",
+      "key_results": [
+        "Stabilization of several core library methods.",
+        "Improved compilation performance for generic code.",
+        "Refined borrow checker error messages for better debugging.",
+        "Enhanced support for multi-platform target architectures.",
+        "Updates to the Cargo package manager for better dependency resolution."
+      ],
+      "relevance_score": 3,
+      "signal_type": "Release",
+      "one_sentence_takeaway": "The Rust Foundation releases version 1.96, improving systems performance and safety for foundational software infrastructure and AI tools.",
+      "lead_institution": "The Rust Foundation",
+      "tags": [
+        "Rust Language",
+        "Systems Programming",
+        "Performance Optimization",
+        "Software Infrastructure",
+        "Compiler Update"
+      ]
+    }
+  },
+  {
+    "title": "Zig 2026: No-AI Policy, $670K Foundation, Left GitHub and Why Zig Isn't 1.0 [video]",
+    "link": "https://www.youtube.com/watch?v=iqddnwKF8HQ",
+    "summary": "<p>Article URL: <a href=\"https://www.youtube.com/watch?v=iqddnwKF8HQ\">https://www.youtube.com/watch?v=iqddnwKF8HQ</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48303273\">https://news.ycombinator.com/item?id=48303273</a></p>\n<p>Points: 82</p>\n<p># Comments: 8</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-05-28T01:40:24+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- The Zig Software Foundation (ZSF) has implemented a strict **No-AI Policy** for its codebase, emphasizing manual verification and human-authored logic to preserve long-term maintainability and security.\n- The project has successfully migrated away from **GitHub** to its own self-hosted infrastructure to increase sovereignty and reduce reliance on proprietary platform features.\n- Architectural stability for **Zig 1.0** is being intentionally delayed to allow for further refinements in **Comptime** and memory safety primitives without the pressure of backwards compatibility.\n- With a **$670K foundation budget**, the organization prioritizes funding full-time core developers to maintain a high-quality, \"human-in-the-loop\" systems programming ecosystem.",
+      "key_results": [
+        "Formalization of a 'No-AI' contribution policy for the compiler and core libraries.",
+        "Complete migration of source code and issue tracking to Git.ziglang.org.",
+        "Securing of $670K in funding to support independent development of the language.",
+        "Strategic decision to prioritize language correctness over rapid AI-assisted expansion.",
+        "Refusal to commit to a 1.0 release date to ensure architectural flexibility."
+      ],
+      "relevance_score": 4,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "The Zig Software Foundation bans AI-generated code and leaves GitHub to ensure language integrity and infrastructure independence.",
+      "lead_institution": "Zig Software Foundation",
+      "tags": [
+        "Zig",
+        "No-AI Policy",
+        "Systems Programming",
+        "Open Source Governance",
+        "Infrastructure Sovereignty"
+      ]
+    }
+  },
+  {
+    "title": "Justice Dept. Is Said to Open Criminal Inquiry of E. Jean Carroll",
+    "link": "https://www.nytimes.com/2026/05/27/us/politics/criminal-inquiry-e-jean-carroll-trump-accusations.html",
+    "summary": "<p>Article URL: <a href=\"https://www.nytimes.com/2026/05/27/us/politics/criminal-inquiry-e-jean-carroll-trump-accusations.html\">https://www.nytimes.com/2026/05/27/us/politics/criminal-inquiry-e-jean-carroll-trump-accusations.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48303131\">https://news.ycombinator.com/item?id=48303131</a></p>\n<p>Points: 79</p>\n<p># Comments: 49</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-05-28T01:23:49+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- This article provides a report on a **Justice Department criminal inquiry** involving E. Jean Carroll, representing a significant legal development.\n- It contains no technical information regarding **machine learning architectures**, **LLM agents**, or **data engineering**.\n- The content focuses on **legal proceedings** and political ramifications rather than AI advancements or technical implementation.",
+      "key_results": [
+        "Justice Department initiates a criminal inquiry into E. Jean Carroll.",
+        "The inquiry relates to past accusations and legal battles with Donald Trump.",
+        "The report highlights shifts in the Department of Justice's legal focus.",
+        "Legal experts are monitoring the potential impact on previous civil rulings.",
+        "Zero technical data or ML-related benchmarks were presented in this report."
+      ],
+      "relevance_score": 1,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "The New York Times reports that the Justice Department has opened a criminal inquiry into E. Jean Carroll's accusations.",
+      "lead_institution": "The New York Times",
+      "tags": [
+        "Legal Inquiry",
+        "Justice Department",
+        "Political News",
+        "Public Policy",
+        "Non-Technical"
+      ]
+    }
+  },
+  {
+    "title": "I found a second vote.gov \u2013 and it's registered to the White House",
+    "link": "https://thedreydossier.substack.com/p/i-found-a-second-votegov-and-its",
+    "summary": "<p>Article URL: <a href=\"https://thedreydossier.substack.com/p/i-found-a-second-votegov-and-its\">https://thedreydossier.substack.com/p/i-found-a-second-votegov-and-its</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48298665\">https://news.ycombinator.com/item?id=48298665</a></p>\n<p>Points: 222</p>\n<p># Comments: 18</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-05-27T18:47:17+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "<br>\u2022 Investigation into a **duplicate domain registration** for vote.gov reveals an administrative link directly to the **White House** rather than standard agency channels.<br>\u2022 The analysis focuses on **DNS records** and WHOIS data, uncovering parallel infrastructure managed outside the typical GSA framework.<br>\u2022 Evaluates the **security and transparency** implications of centralizing critical federal voting resources within the Executive Office of the President.",
+      "key_results": [
+        "Identification of a secondary registration record for the vote.gov domain.",
+        "Discovery of administrative contacts linked to White House technical staff.",
+        "Detection of DNS configuration anomalies compared to standard federal web assets.",
+        "Public exposure of undocumented parallel digital infrastructure for voting.",
+        "Increased scrutiny regarding federal IT centralization and domain management protocols."
+      ],
+      "relevance_score": 1,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "The Drey Dossier identifies a parallel vote.gov registration linked to the White House, highlighting unusual federal domain management practices.",
+      "lead_institution": "The Drey Dossier",
+      "tags": [
+        "Cybersecurity",
+        "DNS",
+        "Government IT",
+        "Digital Infrastructure",
+        "Domain Management"
+      ]
+    }
+  },
+  {
+    "title": "Gemini, Gophers, and Fingers. Oh My Alternative Internets Beyond HTTPS",
+    "link": "https://brennan.day/gemini-gophers-and-fingers-oh-my-alternative-internets-beyond-https/",
+    "summary": "<p>Article URL: <a href=\"https://brennan.day/gemini-gophers-and-fingers-oh-my-alternative-internets-beyond-https/\">https://brennan.day/gemini-gophers-and-fingers-oh-my-alternative-internets-beyond-https/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48297467\">https://news.ycombinator.com/item?id=48297467</a></p>\n<p>Points: 142</p>\n<p># Comments: 76</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-05-27T17:24:25+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* Explores the **architectural minimalism** of alternative protocols like Gemini, Gopher, and Finger as a reaction to the complexity and surveillance of the modern HTTPS-based web.\n* Details the **Gemini protocol**, which utilizes a mandatory TLS layer for security while enforcing a strict, non-extensible text format (Gemtext) to prevent tracking and browser bloat.\n* Analyzes the potential for **low-bandwidth networking** and decentralized content delivery systems that bypass central gatekeepers and heavy JavaScript execution.",
+      "key_results": [
+        "Gemini provides a 'middle ground' between the extreme simplicity of Gopher and the overhead of modern HTTPS.",
+        "Gemtext format ensures content remains human-readable and easily parseable by minimalist clients.",
+        "Alternative protocols inherently resist tracking mechanisms like cookies and script-based fingerprinting.",
+        "The resurgence of the 'Small Web' encourages high-signal, text-only community interaction.",
+        "Simpler protocol stacks reduce the attack surface and hardware requirements for client applications."
+      ],
+      "relevance_score": 3,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Brennan Day advocates for alternative internet protocols like Gemini to regain digital autonomy and architectural simplicity beyond HTTPS.",
+      "lead_institution": "Brennan Day",
+      "tags": [
+        "Gemini Protocol",
+        "Gopher",
+        "Small Web",
+        "Network Architecture",
+        "Privacy"
+      ]
+    }
+  },
+  {
+    "title": "Last.fm is now independent",
+    "link": "https://support.last.fm/t/last-fm-is-now-independent/118591",
+    "summary": "<p>Article URL: <a href=\"https://support.last.fm/t/last-fm-is-now-independent/118591\">https://support.last.fm/t/last-fm-is-now-independent/118591</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48295892\">https://news.ycombinator.com/item?id=48295892</a></p>\n<p>Points: 788</p>\n<p># Comments: 211</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-05-27T15:36:09+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "<br>\u2022 **Last.fm** has officially transitioned to an **independent entity** following a management buyout from Paramount Global (formerly CBS Interactive).<br>\u2022 The move aims to shift from corporate-led priorities to a **community-centric development** model, potentially revitalizing its stagnant feature set.<br>\u2022 Impact on developers includes potential for more flexible **API access** and modernization of the platform's aging infrastructure to better support modern data needs.",
+      "key_results": [
+        "Completion of management buyout from Paramount Global.",
+        "Restoration of independent operational control for the first time in 17 years.",
+        "Commitment to preserving user 'scrobble' history and platform data.",
+        "Announcement of upcoming focus on product agility and technical debt reduction.",
+        "Potential for expanded data partnership opportunities outside of corporate constraints."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Last.fm reclaims its independence from Paramount to focus on community-driven music discovery and modernized platform development.",
+      "lead_institution": "Last.fm",
+      "tags": [
+        "Music Data",
+        "Data Infrastructure",
+        "API Development",
+        "Independent Software",
+        "User Scrobbling"
+      ]
+    }
+  },
+  {
+    "title": "How the ZX80 Works (2019)",
+    "link": "http://blog.tynemouthsoftware.co.uk/2019/10/how-the-zx80-works.html",
+    "summary": "<p>Article URL: <a href=\"http://blog.tynemouthsoftware.co.uk/2019/10/how-the-zx80-works.html\">http://blog.tynemouthsoftware.co.uk/2019/10/how-the-zx80-works.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48295438\">https://news.ycombinator.com/item?id=48295438</a></p>\n<p>Points: 36</p>\n<p># Comments: 9</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-05-27T15:03:51+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- The Sinclair ZX80 architecture utilizes a **Z80 CPU** paired with discrete **TTL logic chips**, avoiding expensive custom silicon to minimize production costs.\n- A primary innovation is the **software-driven video generation**, where the processor is directly responsible for timing the television signal output.\n- The system features a highly constrained **1K RAM** and **4K ROM**, necessitating extreme efficiency in both hardware layout and firmware design.",
+      "key_results": [
+        "Achieved sub-\u00a3100 pricing through the use of standard off-the-shelf components.",
+        "Implemented a 'slow' mode where the CPU alternates between computation and video signal generation.",
+        "Utilized hardware-level memory mapping tricks to share data lines for video generation.",
+        "Reduced the motherboard footprint by simplifying the bus interface compared to contemporary machines.",
+        "Established the foundation for the ZX81 and ZX Spectrum via its minimalist design philosophy."
+      ],
+      "relevance_score": 2,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Tynemouth Software details the Sinclair ZX80 hardware architecture, highlighting its cost-effective use of discrete logic and CPU-managed video output.",
+      "lead_institution": "Tynemouth Software",
+      "tags": [
+        "Hardware Architecture",
+        "Z80 CPU",
+        "Retro-computing",
+        "Resource Optimization",
+        "Embedded Systems"
+      ]
+    }
+  },
+  {
     "title": "Cisco and OpenAI redefine enterprise engineering with Codex",
     "link": "https://openai.com/index/cisco",
     "summary": "Cisco and OpenAI are redefining enterprise engineering with Codex, helping Cisco scale AI-native development, accelerate AI Defense work, and automate defect remediation.",
@@ -86,66 +656,6 @@
         "Election Integrity",
         "Misinformation",
         "AI Policy"
-      ]
-    }
-  },
-  {
-    "title": "Process financial documents using Amazon Bedrock Data Automation",
-    "link": "https://aws.amazon.com/blogs/machine-learning/process-financial-documents-using-amazon-bedrock-data-automation/",
-    "summary": "In this post, we explore how Amazon Bedrock Data Automation can accurately extract information from four common types of financial documents: bank statements, W-2 forms, 1099-B tax forms, and vendor contracts. We highlight the complexity in the documents, detail the custom extraction created in Amazon Bedrock Data Automation, and describe the outcomes of the extraction process.",
-    "source": "Artificial Intelligence",
-    "published": "2026-05-27T21:28:53+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "<br>Introduces **Amazon Bedrock Data Automation** as a managed service to automate information extraction from complex, semi-structured, and unstructured financial documents.<br>Employs **Generative AI foundation models** to bypass traditional template-based OCR, enabling context-aware data retrieval from bank statements and tax forms.<br>Features **custom extraction schemas** that allow ML engineers to define specific fields of interest without the need for extensive manual data labeling or model fine-tuning.<br>Optimizes **enterprise workflows** by providing a scalable orchestration layer that handles document layout analysis and data normalization natively within the AWS ecosystem.",
-      "key_results": [
-        "Automated extraction from bank statements, W-2 forms, 1099-B forms, and vendor contracts.",
-        "Elimination of manual rule-based configuration for varying document layouts.",
-        "Support for multi-page, dense financial documents with high tabular accuracy.",
-        "Standardization of extracted data into structured formats for downstream analysis.",
-        "Reduction in development time for building production-grade Document AI pipelines."
-      ],
-      "relevance_score": 6,
-      "signal_type": "Engineering Blog",
-      "one_sentence_takeaway": "Amazon Web Services launches Bedrock Data Automation to streamline high-accuracy information extraction from complex, unstructured financial documents.",
-      "lead_institution": "Amazon Web Services (AWS)",
-      "tags": [
-        "Amazon Bedrock",
-        "Document AI",
-        "Information Extraction",
-        "Generative AI",
-        "Multimodal AI"
-      ]
-    }
-  },
-  {
-    "title": "How AWS SMGS uses an AI-powered conversational assistant to transform business management with Amazon Bedrock AgentCore",
-    "link": "https://aws.amazon.com/blogs/machine-learning/how-aws-smgs-uses-an-ai-powered-conversational-assistant-to-transform-business-management-with-amazon-bedrock-agentcore/",
-    "summary": "In this post, we share how we built NarrateAI using Amazon Bedrock AgentCore to deliver business intelligence at scale for the AWS SMGS (Sales, Marketing and Global Services) organization. You will learn about: the two-layer architecture that separates batch processing from real-time interaction, the specialized AI agents that power intelligent routing and validation, key engineering patterns for production deployment, and how to build similar solutions with AWS services.",
-    "source": "Artificial Intelligence",
-    "published": "2026-05-27T18:51:45+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n* The architecture utilizes a **two-layer design** that effectively decouples intensive **batch processing** for data preparation from low-latency **real-time agentic interactions**.\n* It leverages **Amazon Bedrock AgentCore** to orchestrate specialized **multi-agent systems** tasked with intelligent query routing, request validation, and multi-source data synthesis.\n* The system implements robust **engineering patterns** for production, focusing on the reliability of business intelligence delivery within the AWS Sales and Marketing ecosystem.\n* It provides a framework for scaling **generative AI assistants** by using a modular approach to agent responsibilities and data governance.",
-      "key_results": [
-        "Development of NarrateAI for global business intelligence scaling.",
-        "Decoupling of data ingestion from user-facing conversation logic.",
-        "Implementation of specialized routing agents to improve query accuracy.",
-        "Establishment of validation layers to ensure data integrity in responses.",
-        "Standardized architectural patterns for enterprise-scale Bedrock deployments."
-      ],
-      "relevance_score": 7,
-      "signal_type": "Engineering Blog",
-      "one_sentence_takeaway": "AWS introduces NarrateAI, a specialized multi-agent system built on Bedrock AgentCore to automate enterprise business intelligence at scale.",
-      "lead_institution": "AWS",
-      "tags": [
-        "LLM Agents",
-        "Amazon Bedrock",
-        "Business Intelligence",
-        "System Architecture",
-        "AI Orchestration"
       ]
     }
   },
@@ -240,36 +750,6 @@
     }
   },
   {
-    "title": "AI Factories: The New Infrastructure of Intelligence",
-    "link": "https://blogs.nvidia.com/blog/ai-factories-the-new-infrastructure-of-intelligence/",
-    "summary": "AI factories are token factories, converting power into intelligence in real time. And as agentic AI scales and autonomous, always-on special agents are deployed in the enterprise, performance per watt and cost per token become the economics that matter.",
-    "source": "NVIDIA Blog",
-    "published": "2026-05-27T16:00:36+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n* **AI Factories** represent a shift from traditional data centers to specialized infrastructure designed specifically for the industrial-scale production of **tokens** and real-time intelligence.\n* The architecture is optimized for **Agentic AI**, necessitating systems that can support autonomous, always-on special agents across enterprise environments.\n* The operational focus shifts from general compute metrics to the specific economics of **Performance per Watt** and **Cost per Token** to ensure sustainable scaling.",
-      "key_results": [
-        "Definition of AI Factories as 'token factories' for the intelligence economy.",
-        "Identification of Agentic AI as the primary driver for next-gen infrastructure scaling.",
-        "Prioritization of energy efficiency (performance per watt) as a core architectural requirement.",
-        "Shift in enterprise ROI metrics toward cost per token produced.",
-        "Requirement for always-on, autonomous special agents in industrial applications."
-      ],
-      "relevance_score": 6,
-      "signal_type": "Engineering Blog",
-      "one_sentence_takeaway": "NVIDIA defines AI factories as critical infrastructure for scaling agentic AI through optimized power-to-token efficiency.",
-      "lead_institution": "NVIDIA",
-      "tags": [
-        "AI Factories",
-        "Agentic AI",
-        "Token Economics",
-        "Infrastructure",
-        "Performance Scaling"
-      ]
-    }
-  },
-  {
     "title": "NVIDIA Vera CPU Is \u2018Packing a Heavy-Hitting Punch\u2019 Against Competition",
     "link": "https://blogs.nvidia.com/blog/vera-cpu-phoronix/",
     "summary": "The shift to agentic AI creates a new CPU requirement for the AI factory: fast cores, massive memory bandwidth and the ability to sustain high performance when all cores are active. Initial benchmark results published by Phoronix today show that the NVIDIA Vera CPU meets this need. For this first public look, the benchmark scope [&#8230;]",
@@ -296,96 +776,6 @@
         "AI Hardware",
         "High Performance Computing",
         "AI Factory"
-      ]
-    }
-  },
-  {
-    "title": "I found a second vote.gov \u2013 and it's registered to the White House",
-    "link": "https://thedreydossier.substack.com/p/i-found-a-second-votegov-and-its",
-    "summary": "<p>Article URL: <a href=\"https://thedreydossier.substack.com/p/i-found-a-second-votegov-and-its\">https://thedreydossier.substack.com/p/i-found-a-second-votegov-and-its</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48298665\">https://news.ycombinator.com/item?id=48298665</a></p>\n<p>Points: 166</p>\n<p># Comments: 10</p>",
-    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
-    "published": "2026-05-27T18:47:17+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n- Investigative report detailing the discovery of a **secondary domain registration** for vote.gov linked to the White House.\n- Analyzes the **DNS infrastructure** and WHOIS record discrepancies between primary and secondary government portals.\n- Discusses the **security risks** associated with shadow IT and inconsistent domain management practices in federal agencies.",
-      "key_results": [
-        "Identification of a secondary vote.gov domain registration record.",
-        "Evidence linking the domain directly to the White House Executive Office of the President.",
-        "Analysis of administrative overhead and potential for misinformation.",
-        "Inconsistencies found in official government WHOIS databases.",
-        "Documentation of the domain's historical usage and current status."
-      ],
-      "relevance_score": 1,
-      "signal_type": "General News",
-      "one_sentence_takeaway": "The Drey Dossier identifies a duplicate vote.gov domain registered to the White House, raising questions about government domain security.",
-      "lead_institution": "The Drey Dossier",
-      "tags": [
-        "Cybersecurity",
-        "DNS Management",
-        "Government IT",
-        "Infrastructure",
-        "Web Security"
-      ]
-    }
-  },
-  {
-    "title": "Gemini, Gophers, and Fingers. Oh My Alternative Internets Beyond HTTPS",
-    "link": "https://brennan.day/gemini-gophers-and-fingers-oh-my-alternative-internets-beyond-https/",
-    "summary": "<p>Article URL: <a href=\"https://brennan.day/gemini-gophers-and-fingers-oh-my-alternative-internets-beyond-https/\">https://brennan.day/gemini-gophers-and-fingers-oh-my-alternative-internets-beyond-https/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48297467\">https://news.ycombinator.com/item?id=48297467</a></p>\n<p>Points: 91</p>\n<p># Comments: 45</p>",
-    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
-    "published": "2026-05-27T17:24:25+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n- Explores **alternative internet protocols** such as Gemini, Gopher, and Finger as lightweight, minimalist departures from the modern, bloat-heavy HTTPS/HTML web.\n- Details the **Gemini protocol architecture**, which mandates TLS for security while utilizing a simplified, markdown-like text format (Gemtext) to eliminate tracking and heavy scripting.\n- Evaluates the **cultural and technical impact** of the 'Small Web,' advocating for intentional, human-centric digital spaces that prioritize content over commercial surveillance.",
-      "key_results": [
-        "Gemini protocol bridges the security gap of Gopher by requiring mandatory TLS encryption.",
-        "The minimalist design of these protocols drastically reduces computational overhead and data consumption.",
-        "Alternative protocols facilitate a 'non-indexed' web experience that avoids search engine optimization (SEO) manipulation.",
-        "Finger protocol is presented as a precursor to modern status updates, providing a decentralized way to share user information.",
-        "The movement emphasizes privacy by design, as these protocols do not support cookies, JavaScript, or invasive telemetry."
-      ],
-      "relevance_score": 3,
-      "signal_type": "General News",
-      "one_sentence_takeaway": "Brennan Day evaluates minimalist internet protocols like Gemini and Gopher as viable, privacy-first alternatives to the increasingly commercialized modern web.",
-      "lead_institution": "Brennan Day",
-      "tags": [
-        "Gemini Protocol",
-        "Gopher",
-        "Decentralized Web",
-        "Minimalist Tech",
-        "Privacy"
-      ]
-    }
-  },
-  {
-    "title": "Last.fm is now independent",
-    "link": "https://support.last.fm/t/last-fm-is-now-independent/118591",
-    "summary": "<p>Article URL: <a href=\"https://support.last.fm/t/last-fm-is-now-independent/118591\">https://support.last.fm/t/last-fm-is-now-independent/118591</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48295892\">https://news.ycombinator.com/item?id=48295892</a></p>\n<p>Points: 629</p>\n<p># Comments: 177</p>",
-    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
-    "published": "2026-05-27T15:36:09+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n* **Last.fm** announces its separation from Paramount Global to operate as a self-governed, independent organization.\n* The move aims to address long-standing **technical debt** and infrastructure limitations imposed by its previous corporate parent.\n* Independence could signal a pivot toward more open **API access** and modern **recommendation engine** architectures built on its massive historical dataset.",
-      "key_results": [
-        "Finalized separation from Paramount Global ownership",
-        "Transition to a self-sufficient business model",
-        "Renewed focus on core platform features and scrobbling reliability",
-        "Potential for modernizing legacy database infrastructure",
-        "Increased flexibility for community-driven development and integration"
-      ],
-      "relevance_score": 3,
-      "signal_type": "General News",
-      "one_sentence_takeaway": "Last.fm regains independence from Paramount, potentially revitalizing its legacy music metadata platform and community-focused data ecosystem.",
-      "lead_institution": "Last.fm",
-      "tags": [
-        "Music Recommendation",
-        "Data Portability",
-        "Platform Independence",
-        "Metadata Ecosystem",
-        "Collaborative Filtering"
       ]
     }
   },
