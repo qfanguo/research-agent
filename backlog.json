@@ -1,5 +1,695 @@
 [
   {
+    "title": "Confidential submission of draft S-1 to the SEC",
+    "link": "https://openai.com/index/openai-submits-confidential-s-1",
+    "summary": "OpenAI confirms a confidential S-1 submission to the SEC and has not yet determined timing for further action.",
+    "source": "OpenAI News",
+    "published": "2026-06-08T14:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- **OpenAI** has officially submitted a confidential **S-1 draft** to the Securities and Exchange Commission (SEC), initiating the formal process for a public offering.\n- This move indicates a major shift in corporate strategy, transitioning towards a **commercial capital** structure to sustain massive compute requirements.\n- The filing allows the organization to keep financial details private while beginning the regulatory review process for an **Initial Public Offering (IPO)**.",
+      "key_results": [
+        "Confidential S-1 filing confirmed by OpenAI.",
+        "Intent to transition to a public company framework.",
+        "No definitive timeline established for the offering.",
+        "Strategic move to secure long-term institutional funding.",
+        "Potential for increased financial transparency and governance shifts."
+      ],
+      "relevance_score": 2,
+      "signal_type": "Release",
+      "one_sentence_takeaway": "OpenAI files a confidential S-1 with the SEC, marking a major step toward a public offering for capital expansion.",
+      "lead_institution": "OpenAI",
+      "tags": [
+        "IPO",
+        "Financial Strategy",
+        "SEC Filing",
+        "Generative AI Trends",
+        "Corporate Governance"
+      ]
+    }
+  },
+  {
+    "title": "Built to benefit everyone: our plan",
+    "link": "https://openai.com/index/built-to-benefit-everyone-our-plan",
+    "summary": "A vision for the future of AI, focusing on access, safety, and shared prosperity as OpenAI works to ensure AGI benefits everyone.",
+    "source": "OpenAI News",
+    "published": "2026-06-08T01:30:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Outlines a strategic roadmap for achieving **Artificial General Intelligence (AGI)** while prioritizing safety, alignment, and global accessibility.\n- Emphasizes the shift from narrow AI models to **general-purpose systems** designed to solve complex, cross-domain problems.\n- Focuses on **iterative deployment** as a mechanism to gather real-world feedback and refine safety guardrails before scaling capabilities.\n- Proposes a framework for **shared prosperity** to ensure the economic benefits of automation are distributed across society.",
+      "key_results": [
+        "Commitment to developing AGI that benefits all of humanity.",
+        "Prioritization of long-term safety research over rapid commercial scaling.",
+        "Implementation of rigorous external audits and red-teaming for future models.",
+        "Strategy to democratize access to powerful generative tools via API and public interfaces.",
+        "Focus on building governance structures that adapt to evolving AI capabilities."
+      ],
+      "relevance_score": 3,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "OpenAI outlines a high-level strategic framework to ensure AGI development remains safe, accessible, and economically beneficial for everyone.",
+      "lead_institution": "OpenAI",
+      "tags": [
+        "AGI",
+        "AI Safety",
+        "Governance",
+        "Generative AI Trends",
+        "Ethics"
+      ]
+    }
+  },
+  {
+    "title": "Introducing the OpenAI Economic Research Exchange",
+    "link": "https://openai.com/index/economic-research-exchange",
+    "summary": "OpenAI launches the Economic Research Exchange to study AI\u2019s impact on jobs, productivity, and the economy. Applications are now open for selected research projects.",
+    "source": "OpenAI News",
+    "published": "2026-06-08T00:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- OpenAI establishes a **research marketplace** designed to facilitate data-driven investigations into the macroeconomic consequences of **Generative AI**.\n- The platform aims to bridge the gap between AI development and **economic policy** by funding studies on labor market shifts.\n- Focuses on quantifying the **productivity gains** and structural changes introduced by widespread **LLM deployment** across various sectors.",
+      "key_results": [
+        "Formal launch of the Economic Research Exchange platform",
+        "Open call for research project applications",
+        "Targeted study of AI's impact on job displacement and creation",
+        "Investigation into sectoral productivity improvements",
+        "Creation of a collaborative framework for academic economists"
+      ],
+      "relevance_score": 2,
+      "signal_type": "Release",
+      "one_sentence_takeaway": "OpenAI launches the Economic Research Exchange to study the impact of AI on jobs and global economic productivity.",
+      "lead_institution": "OpenAI",
+      "tags": [
+        "Generative AI Trends",
+        "AI Policy",
+        "Labor Economics",
+        "Macroeconomics",
+        "OpenAI"
+      ]
+    }
+  },
+  {
+    "title": "GitHub for Beginners: Answers to some common questions",
+    "link": "https://github.blog/developer-skills/github/github-for-beginners-answers-to-some-common-questions/",
+    "summary": "<p>Find the answers to some of the most common GitHub-related questions.</p>\n<p>The post <a href=\"https://github.blog/developer-skills/github/github-for-beginners-answers-to-some-common-questions/\">GitHub for Beginners: Answers to some common questions</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
+    "source": "The GitHub Blog",
+    "published": "2026-06-08T16:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* The article serves as an **entry-level onboarding guide** addressing foundational questions for the GitHub platform.\n* It provides clarity on the distinction between **Git (local version control)** and **GitHub (cloud-based hosting)**.\n* Focuses on simplifying the **collaborative development lifecycle** for non-technical or novice users.",
+      "key_results": [
+        "Clarification of basic Git vs. GitHub terminology",
+        "Guidance on repository creation and management",
+        "Explanation of open-source contribution workflows",
+        "Overview of basic platform security features",
+        "Direction to further educational resources and documentation"
+      ],
+      "relevance_score": 1,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "GitHub provides a foundational FAQ guide to help novice developers understand version control and repository management basics.",
+      "lead_institution": "GitHub",
+      "tags": [
+        "Version Control",
+        "Git",
+        "GitHub",
+        "Software Development",
+        "Beginner Guide"
+      ]
+    }
+  },
+  {
+    "title": "Unlocking AI flexibility in Europe: A guide to cross-region inference for EU data processing and model access",
+    "link": "https://aws.amazon.com/blogs/machine-learning/unlocking-ai-flexibility-in-europe-a-guide-to-cross-region-inference-for-eu-data-processing-and-model-access/",
+    "summary": "With access to the latest generative AI models and high-performance accelerated compute in high global demand, AWS customers need tools to take advantage of model availability and capacity across multiple AWS Regions, while still meeting their security and privacy requirements. cross-Region Inference (CRIS) on Amazon Bedrock meets these needs by automatically routing requests across multiple [\u2026]",
+    "source": "Artificial Intelligence",
+    "published": "2026-06-08T16:40:34+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- AWS introduces **Cross-Region Inference (CRIS)** for Amazon Bedrock, an architectural solution designed to route LLM requests across multiple availability zones and regions to bypass **capacity bottlenecks**.\n- The system utilizes **automatic request routing** to dynamically manage traffic, ensuring that high-demand foundation models remain accessible even during peak utilization periods in specific regions.\n- For EU-based users, the feature maintains **data sovereignty and compliance** by restricting traffic within specified geographic boundaries while providing the benefits of distributed compute resources.\n- This approach significantly impacts **inference scalability**, allowing developers to achieve higher throughput and lower latency by utilizing pooled compute capacity across the AWS global infrastructure.",
+      "key_results": [
+        "Introduction of automated failover and load balancing for Foundation Model inference.",
+        "Enhanced availability of high-demand generative AI models across AWS European regions.",
+        "Support for higher throughput quotas by pooling resources across multiple geographic locations.",
+        "Strict adherence to EU data processing requirements through localized regional routing groups.",
+        "Simplified API integration allowing developers to use a single endpoint for multi-region access."
+      ],
+      "relevance_score": 6,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "AWS launches Cross-Region Inference for Amazon Bedrock to optimize model throughput and availability within European data boundaries.",
+      "lead_institution": "AWS",
+      "tags": [
+        "Generative AI",
+        "Amazon Bedrock",
+        "Model Deployment",
+        "Cloud Infrastructure",
+        "Data Privacy"
+      ]
+    }
+  },
+  {
+    "title": "Better decisions at scale: How mathematical optimization delivers where intuition fails",
+    "link": "https://aws.amazon.com/blogs/machine-learning/better-decisions-at-scale-how-mathematical-optimization-delivers-where-intuition-fails/",
+    "summary": "In this post, we introduce mathematical optimization, explain how it fits within the broader AI landscape, and showcase real-world success stories where the Innovation Center has partnered with customers to deliver concrete results.",
+    "source": "Artificial Intelligence",
+    "published": "2026-06-08T16:31:17+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* **Mathematical optimization** acts as a prescriptive engine that complements predictive AI by determining the single best course of action among trillions of possibilities.\n* The approach relies on formulating **objective functions** and **constraints** to replace manual, heuristic-based decision-making with scalable algorithmic logic.\n* The architecture facilitates a transition from **intuition-led strategies** to rigorous data-driven models, particularly in complex domains like supply chain and resource management.",
+      "key_results": [
+        "Defined the role of mathematical optimization as the 'Decision Intelligence' layer of AI.",
+        "Showcased the shift from simple predictive analytics to prescriptive action-oriented systems.",
+        "Integrated complex business constraints into automated solver frameworks for better scalability.",
+        "Demonstrated significant operational efficiency gains through Innovation Center pilot programs.",
+        "Validated the synergy between Machine Learning (predictions) and Optimization (decisions)."
+      ],
+      "relevance_score": 4,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "The Innovation Center demonstrates how mathematical optimization transforms predictive insights into prescriptive, high-scale business decisions across complex industries.",
+      "lead_institution": "Artificial Intelligence",
+      "tags": [
+        "Mathematical Optimization",
+        "Decision Intelligence",
+        "Prescriptive AI",
+        "Operations Research",
+        "Constraint Satisfaction"
+      ]
+    }
+  },
+  {
+    "title": "End-to-end encrypted ML inference with Amazon SageMaker AI and FHE",
+    "link": "https://aws.amazon.com/blogs/machine-learning/end-to-end-encrypted-ml-inference-with-amazon-sagemaker-ai-and-fhe/",
+    "summary": "This blog has previously discussed FHE for ML inference in the post Enable fully homomorphic encryption with Amazon SageMaker endpoints for secure, real-time inferencing, but this post goes a little further. That previous post showed how to implement FHE-based inference 'from scratch' by hand-crafting a linear-regression algorithm using a low-level library called SEAL. Instead, this post shows a much more flexible and higher-level approach based on concrete-ml, a high-level library built specifically for FHE-based inference. It supports several common types of models 'out of the box' and is even API compatible with the well-known ML library scikit-learn.",
+    "source": "Artificial Intelligence",
+    "published": "2026-06-08T16:14:14+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Implements **Fully Homomorphic Encryption (FHE)** on **Amazon SageMaker AI**, enabling inference on data that remains encrypted throughout the entire computational process.\n- Transitions from low-level, manual implementations using the **SEAL library** to a higher-level abstraction via the **concrete-ml** library.\n- Leverages a **scikit-learn compatible API** to allow developers to convert standard ML models into FHE-compliant versions with minimal code changes.\n- Enhances security for sensitive workloads by ensuring that the **SageMaker endpoint** never has access to the plaintext input or output data.",
+      "key_results": [
+        "Successful integration of concrete-ml with Amazon SageMaker for production-grade FHE.",
+        "Support for common model types 'out of the box' rather than hand-crafted linear algorithms.",
+        "API parity with scikit-learn, reducing the barrier to entry for privacy-preserving ML.",
+        "Enablement of real-time, end-to-end encrypted inferencing pipelines.",
+        "Demonstration of a flexible architecture for secure cloud-based ML services."
+      ],
+      "relevance_score": 6,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Amazon SageMaker simplifies secure ML inference by integrating the concrete-ml library for high-level fully homomorphic encryption support.",
+      "lead_institution": "Amazon",
+      "tags": [
+        "FHE",
+        "SageMaker",
+        "Privacy-Preserving ML",
+        "concrete-ml",
+        "Encrypted Inference"
+      ]
+    }
+  },
+  {
+    "title": "Amazon Quick ARNs: Cross-account migration and namespace permissions",
+    "link": "https://aws.amazon.com/blogs/machine-learning/amazon-quick-arns-cross-account-migration-and-namespace-permissions/",
+    "summary": "In this post, we cover the structure of Amazon Quick ARNs and provide a practical mental model for working with them. By the end, you can look at an ARN and immediately understand what it means for your migration strategy, diagnose permission issues faster, and design multi-tenant architectures with confidence.",
+    "source": "Artificial Intelligence",
+    "published": "2026-06-08T16:07:29+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Analyzes the **hierarchical structure** of Amazon Quick ARNs to facilitate more efficient cross-account resource management and migration workflows.\n- Establishes a **practical mental model** for developers to interpret ARNs, enabling faster diagnosis of complex permission and access issues.\n- Focuses on the implementation of **multi-tenant architectures**, leveraging namespace permissions to maintain strict data isolation and security.\n- Outlines the technical impact of ARN design on **cloud migration strategies**, ensuring architectural consistency when moving resources across environments.",
+      "key_results": [
+        "Standardized identification of ARN components for predictable resource mapping.",
+        "Streamlined debugging processes for cross-account IAM and permission errors.",
+        "Improved architectural design patterns for isolating multi-tenant workloads.",
+        "Detailed strategies for maintaining data integrity during cross-account resource migrations.",
+        "Enhanced visibility into namespace permissions for complex cloud infrastructures."
+      ],
+      "relevance_score": 3,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Amazon explains Quick ARN structures to optimize cross-account migrations and enhance security in multi-tenant cloud deployments.",
+      "lead_institution": "Amazon",
+      "tags": [
+        "AWS",
+        "Cloud Infrastructure",
+        "IAM",
+        "Multi-tenancy",
+        "Cloud Migration"
+      ]
+    }
+  },
+  {
+    "title": "How the UK Is Turning Sovereign AI Ambition Into Action With NVIDIA Technologies",
+    "link": "https://blogs.nvidia.com/blog/uk-sovereign-ai-advancements/",
+    "summary": "A year ago at London Tech Week, NVIDIA founder and CEO Jensen Huang and U.K. Prime Minister Keir Starmer made a declaration: the U.K. would be an AI maker, not an AI taker.\u00a0 At this year\u2019s event, NVIDIA and its partners are showcasing how that commitment is producing real momentum across the nation\u2019s infrastructure, startups [&#8230;]",
+    "source": "NVIDIA Blog",
+    "published": "2026-06-08T06:00:57+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- The U.K. is implementing a **Sovereign AI** strategy, transitioning from a technology consumer to a producer by deploying high-performance NVIDIA infrastructure.\n- The initiative focuses on building **localized foundation models** that adhere to national data privacy and regulatory frameworks using NVIDIA NeMo.\n- Strategic partnerships with domestic startups and research institutions leverage **GPU-accelerated supercomputing** to foster a self-sustaining AI ecosystem.",
+      "key_results": [
+        "Formal commitment to 'Sovereign AI' to ensure national data security and economic independence.",
+        "Deployment of NVIDIA-powered supercomputing clusters for localized model training.",
+        "Growth of the UK AI startup ecosystem via the NVIDIA Inception program support.",
+        "Transition toward using domestic infrastructure for public sector AI applications.",
+        "Alignment of NVIDIA\u2019s hardware stack with UK-specific regulatory and cultural requirements."
+      ],
+      "relevance_score": 3,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "NVIDIA partners with the UK government to build sovereign AI infrastructure for localized model development and national security.",
+      "lead_institution": "NVIDIA",
+      "tags": [
+        "Sovereign AI",
+        "Infrastructure",
+        "GPU Computing",
+        "National Strategy",
+        "Generative AI"
+      ]
+    }
+  },
+  {
+    "title": "NVIDIA and LG Group Build an AI Factory to Advance Physical AI, Mobility and AI Infrastructure",
+    "link": "https://blogs.nvidia.com/blog/nvidia-and-lg-group-ai-factory/",
+    "summary": "NVIDIA and LG Group are building an AI factory to accelerate LG Group\u2019s next wave of AI-driven businesses, spanning robotics, autonomous driving, data center technologies and GPU cloud services. The AI factory will provide LG Group with accelerated computing infrastructure to train, simulate, validate and deploy AI-based applications across its key businesses.\u00a0 The collaboration brings [&#8230;]",
+    "source": "NVIDIA Blog",
+    "published": "2026-06-08T03:00:50+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Establishment of a high-performance **AI factory** utilizing NVIDIA's accelerated computing stack to scale LG Group's AI initiatives across mobility and manufacturing.\n- Integration of **Omniverse** and **Isaac** platforms for the simulation, validation, and deployment of **Physical AI** and autonomous robotics systems.\n- Implementation of a specialized **GPU cloud service** architecture to streamline model training and inference workflows for various business units.",
+      "key_results": [
+        "Creation of a centralized infrastructure for robotics and autonomous driving development",
+        "Deployment of a dedicated GPU cloud to support LG's internal AI training needs",
+        "Use of NVIDIA platforms to accelerate simulation-to-reality (Sim2Real) workflows",
+        "Scaling of AI-driven data center technologies for improved computational efficiency",
+        "Strategic alignment of LG hardware with NVIDIA\u2019s full-stack AI enterprise software"
+      ],
+      "relevance_score": 4,
+      "signal_type": "Release",
+      "one_sentence_takeaway": "NVIDIA and LG Group partner to build an AI factory for scaling physical AI, robotics, and cloud-based GPU infrastructure.",
+      "lead_institution": "NVIDIA Blog",
+      "tags": [
+        "Physical AI",
+        "GPU Cloud",
+        "Robotics",
+        "Autonomous Driving",
+        "AI Infrastructure"
+      ]
+    }
+  },
+  {
+    "title": "NVIDIA and Doosan Group Collaborate to Advance Physical AI and AI Factory Infrastructure",
+    "link": "https://blogs.nvidia.com/blog/nvidia-and-doosan-group-physical-ai/",
+    "summary": "NVIDIA and Doosan Group are expanding their collaboration to advance new opportunities across physical AI, robotics and AI factory infrastructure, spanning Doosan Robotics, Doosan Bobcat, Doosan Enerbility and Doosan Corporation Electro-Materials BG. The collaboration will bring together NVIDIA\u2019s full-stack accelerated computing platforms with Doosan Group\u2019s capabilities in industrial automation, power generation and advanced electronics materials [&#8230;]",
+    "source": "NVIDIA Blog",
+    "published": "2026-06-07T23:00:36+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n\u2022 NVIDIA and Doosan Group are scaling **Physical AI** by integrating full-stack accelerated computing into heavy industry robotics and energy sectors.\n\u2022 The collaboration focuses on building **AI factory infrastructure** that combines industrial automation with high-performance edge computing.\n\u2022 Implementation involves deploying **generative AI models** within Doosan\u2019s robotics and materials divisions to enhance autonomous decision-making.\n\u2022 The partnership leverages **digital twin** technology and NVIDIA's simulation platforms to optimize power generation and electronics manufacturing workflows.",
+      "key_results": [
+        "Expansion of AI integration across Doosan Robotics and Doosan Bobcat.",
+        "Deployment of NVIDIA accelerated computing in industrial automation.",
+        "Strategic focus on Physical AI for heavy machinery and power generation.",
+        "Development of advanced electronics materials using AI-driven workflows.",
+        "Establishment of a foundation for next-generation autonomous AI factories."
+      ],
+      "relevance_score": 4,
+      "signal_type": "Release",
+      "one_sentence_takeaway": "NVIDIA partners with Doosan Group to integrate accelerated computing into industrial robotics and Physical AI factory infrastructure.",
+      "lead_institution": "NVIDIA",
+      "tags": [
+        "Physical AI",
+        "Robotics",
+        "AI Infrastructure",
+        "Industrial Automation",
+        "Edge Computing"
+      ]
+    }
+  },
+  {
+    "title": "Man jailed for a month despite Flock showing he was 5 miles from crime scene",
+    "link": "https://arstechnica.com/tech-policy/2026/06/man-jailed-for-a-month-despite-flock-showing-he-was-5-miles-from-crime-scene/",
+    "summary": "<p>Article URL: <a href=\"https://arstechnica.com/tech-policy/2026/06/man-jailed-for-a-month-despite-flock-showing-he-was-5-miles-from-crime-scene/\">https://arstechnica.com/tech-policy/2026/06/man-jailed-for-a-month-despite-flock-showing-he-was-5-miles-from-crime-scene/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48449513\">https://news.ycombinator.com/item?id=48449513</a></p>\n<p>Points: 37</p>\n<p># Comments: 5</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-06-08T18:39:23+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Examination of a **wrongful imprisonment** case involving the failure of law enforcement to correctly interpret **Automated License Plate Recognition (ALPR)** data.\n- The article highlights a critical breakdown in the **data verification pipeline** where exculpatory evidence from the **Flock Safety** surveillance system was overlooked.\n- Technical implications focus on the dangers of **automation bias** and the lack of robust **human-in-the-loop (HITL)** protocols in high-stakes ML applications.",
+      "key_results": [
+        "Flock Safety data verified the suspect's vehicle was 5 miles away during the crime.",
+        "Suspect was detained for 30 days despite the existence of digital proof of innocence.",
+        "The incident underscores systemic failures in how police utilize proprietary surveillance databases.",
+        "Demonstrates the legal risks of over-reliance on ML-driven identification tools without auditing.",
+        "Raises concerns regarding the lack of transparency in proprietary ALPR algorithms."
+      ],
+      "relevance_score": 3,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Ars Technica reports that a man was wrongfully jailed because police failed to analyze exculpatory data from Flock.",
+      "lead_institution": "Ars Technica",
+      "tags": [
+        "ALPR",
+        "Surveillance Tech",
+        "Automation Bias",
+        "Flock Safety",
+        "AI Ethics"
+      ]
+    }
+  },
+  {
+    "title": "The IRS Moved IT and HR Staff to Process Taxes. It's Not Going Well",
+    "link": "https://www.notus.org/policy/irs-tax-processing-detail-hr-it-test",
+    "summary": "<p>Article URL: <a href=\"https://www.notus.org/policy/irs-tax-processing-detail-hr-it-test\">https://www.notus.org/policy/irs-tax-processing-detail-hr-it-test</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48448811\">https://news.ycombinator.com/item?id=48448811</a></p>\n<p>Points: 53</p>\n<p># Comments: 16</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-06-08T18:02:24+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- The **IRS** reallocated specialized **IT and HR personnel** to perform manual tax document processing, such as mail sorting, to address massive backlogs.\n- This **labor shift** underscores a failure in organizational **digital transformation**, where human capital is treated as a fungible resource rather than leveraging specialized skills.\n- The **resource misallocation** impacts long-term technical infrastructure projects, potentially increasing **technical debt** while failing to implement modern **automation workflows**.",
+      "key_results": [
+        "Specialized IT staff reassigned to manual mail-opening tasks.",
+        "Internal reports indicate significant drops in staff morale and retention.",
+        "Failure of existing automated processing systems to scale during peak loads.",
+        "Modernization projects delayed due to the diversion of technical labor.",
+        "Inefficient operational strategy creates high opportunity costs for the agency."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "The IRS reassigns technical staff to manual labor, highlighting a critical need for modern AI-driven document automation.",
+      "lead_institution": "IRS",
+      "tags": [
+        "Automation",
+        "Digital Transformation",
+        "IT Infrastructure",
+        "Resource Management",
+        "Document Processing"
+      ]
+    }
+  },
+  {
+    "title": "Show HN: Gitdot \u2013 a better GitHub. Open-source, written in Rust",
+    "link": "https://gitdot.io/",
+    "summary": "<p>What works now: user signups, org creations, private/public repos, and importing GitHub repositories (both as read-only mirrors and full migrations). So basically, you can create, push and pull to a repo, but we don't have many features quite yet (issues, PRs, CI).<p>What is a bit unique is: 1) we built it in Rust and 2) the website is a little odd. Its design is inspired by CLIs (e.g., fzf, broot, vim) instead of web apps, and as such, lacks some affordances that you might typically expect in favor of keyboard-driven instant navigations (we have the very ambitious goal of an FCP of 100ms). In case you're curious, here's how we we built it: <a href=\"https://gitdot.io/designs\">https://gitdot.io/designs</a><p>We recognize that we're making some bold claims here and are also well aware that we have much to learn. Building software is still hard, and that's a fact we seem to relearn everyday.<p>But we wanted to share what we built so far nonetheless.<p>Cheers, thank y'all for reading, and till the next\n\u2014paul & mikkel.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48447806\">https://news.ycombinator.com/item?id=48447806</a></p>\n<p>Points: 151</p>\n<p># Comments: 123</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-06-08T16:52:11+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Developed in **Rust**, Gitdot serves as an open-source alternative to GitHub, focusing on extreme performance and minimal latency.\n- The platform utilizes a **CLI-inspired UI** design\u2014influenced by tools like fzf and vim\u2014to facilitate **keyboard-driven navigation** and rapid workflow execution.\n- The architecture targets an ambitious **100ms First Contentful Paint (FCP)**, prioritizing speed over traditional web app affordances.\n- Currently supports **core repository management**, including public/private repos, read-only mirroring, and full migrations from GitHub.",
+      "key_results": [
+        "Built a high-performance backend using the Rust programming language",
+        "Implemented automated GitHub repository mirroring and full migration tools",
+        "Designed a keyboard-centric user interface optimized for power users",
+        "Targeted a 100ms First Contentful Paint to ensure near-instant page loads",
+        "Launched initial support for user signups, organization creation, and push/pull functionality"
+      ],
+      "relevance_score": 3,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Gitdot launches an open-source, Rust-based GitHub alternative featuring a CLI-inspired interface and a 100ms performance target.",
+      "lead_institution": "Hacker News",
+      "tags": [
+        "Rust",
+        "Version Control",
+        "Performance",
+        "Developer Experience",
+        "Open Source"
+      ]
+    }
+  },
+  {
+    "title": "Amazon Cognito now supports multi-Region replication",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cognito-multi-region/",
+    "summary": "<p>Article URL: <a href=\"https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cognito-multi-region/\">https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cognito-multi-region/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48446521\">https://news.ycombinator.com/item?id=48446521</a></p>\n<p>Points: 30</p>\n<p># Comments: 16</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-06-08T15:19:42+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- **Amazon Cognito** now supports **multi-Region replication**, allowing user pools to be synchronized across multiple AWS Regions for increased availability.\n- The update facilitates automated **disaster recovery** and failover by maintaining consistent user data and metadata across global endpoints.\n- This architectural change significantly reduces **latency** for globally distributed applications by serving authentication requests from the nearest regional data center.\n- Developers can now manage a single global identity pool without implementing complex, custom **data synchronization** logic.",
+      "key_results": [
+        "Automated synchronization of user profiles across global AWS Regions",
+        "Enhanced resilience through native regional failover capabilities",
+        "Reduced authentication latency for international user bases",
+        "Simplified global infrastructure management for identity services",
+        "Improved Disaster Recovery (DR) posture for mission-critical applications"
+      ],
+      "relevance_score": 4,
+      "signal_type": "Release",
+      "one_sentence_takeaway": "Amazon launches multi-Region replication for Cognito to enhance global availability and reduce authentication latency for cloud-scale applications.",
+      "lead_institution": "Amazon Web Services",
+      "tags": [
+        "Cloud Infrastructure",
+        "Identity Management",
+        "AWS",
+        "High Availability",
+        "Scalability"
+      ]
+    }
+  },
+  {
+    "title": "A Farmer Donated Land to Turn into a Park. The City Is Building a Data Center",
+    "link": "https://www.404media.co/a-farmer-donated-land-to-turn-into-a-park-the-city-is-building-a-massive-data-center-instead/",
+    "summary": "<p>Article URL: <a href=\"https://www.404media.co/a-farmer-donated-land-to-turn-into-a-park-the-city-is-building-a-massive-data-center-instead/\">https://www.404media.co/a-farmer-donated-land-to-turn-into-a-park-the-city-is-building-a-massive-data-center-instead/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48446439\">https://news.ycombinator.com/item?id=48446439</a></p>\n<p>Points: 416</p>\n<p># Comments: 230</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-06-08T15:14:29+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- The city of Eagle Mountain, Utah, is repurposing land originally donated for a public park to facilitate the construction of a **massive data center**.\n- This development underscores the growing tension between **municipal zoning** and the physical infrastructure requirements of the **Generative AI era**.\n- The decision highlights a shift in priority toward high-value **computational real estate** over local community and environmental commitments.",
+      "key_results": [
+        "Conflict over 40 acres of land donated by a local farmer for community use.",
+        "City officials transitioned land use from a park to industrial data center space.",
+        "Data center expansion driven by the exponential demand for AI compute capacity.",
+        "Local community pushback against the loss of promised public green space.",
+        "Reflects a broader trend of hyperscalers competing for land with power access."
+      ],
+      "relevance_score": 3,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "404 Media reports that city officials are repurposing donated parkland for data centers to meet surging AI infrastructure demands.",
+      "lead_institution": "404 Media",
+      "tags": [
+        "Data Centers",
+        "Infrastructure",
+        "Generative AI Trends",
+        "Compute",
+        "AI Ethics"
+      ]
+    }
+  },
+  {
+    "title": "SoulsOnly.tff \u2013 A font for humans not AI and keyboard firmware to type in it",
+    "link": "https://github.com/convictional/souls-only",
+    "summary": "<p>Article URL: <a href=\"https://github.com/convictional/souls-only\">https://github.com/convictional/souls-only</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48445469\">https://news.ycombinator.com/item?id=48445469</a></p>\n<p>Points: 45</p>\n<p># Comments: 23</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-06-08T14:00:22+00:00",
+    "type": "repo",
+    "display_category": "Top Repo",
+    "processed": {
+      "summary": "\n- Develops an **adversarial typography** system designed to be human-legible while remaining incomprehensible to **OCR and multimodal LLMs**.\n- Implements a custom **TrueType Font (TTF)** that utilizes non-standard glyph mapping and stylistic distortions to disrupt machine vision parsing.\n- Provides specialized **ZMK and QMK keyboard firmware** configurations that allow users to type in the obfuscated font without changing their standard input behavior.\n- Explores the intersection of **privacy engineering** and generative AI defense by creating hardware-software barriers against automated scraping.",
+      "key_results": [
+        "Release of SoulsOnly.ttf font optimized for machine obfuscation.",
+        "Integration with ZMK and QMK open-source keyboard firmware.",
+        "Methodology for mapping standard ASCII inputs to obfuscated font layers.",
+        "Demonstration of human-readable text that resists standard OCR processing.",
+        "Open-source repository providing tools for localized adversarial privacy."
+      ],
+      "relevance_score": 5,
+      "signal_type": "Release",
+      "one_sentence_takeaway": "Convictional releases SoulsOnly, an adversarial font and firmware project designed to prevent AI OCR systems from scraping human-readable text.",
+      "lead_institution": "Convictional",
+      "tags": [
+        "Adversarial AI",
+        "Privacy Engineering",
+        "OCR Obfuscation",
+        "ZMK Firmware",
+        "Generative AI Trends"
+      ]
+    }
+  },
+  {
+    "title": "Doing Nothing at Work",
+    "link": "https://www.seangoedecke.com/doing-nothing-at-work/",
+    "summary": "<p>Article URL: <a href=\"https://www.seangoedecke.com/doing-nothing-at-work/\">https://www.seangoedecke.com/doing-nothing-at-work/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48442880\">https://news.ycombinator.com/item?id=48442880</a></p>\n<p>Points: 61</p>\n<p># Comments: 20</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-06-08T08:57:11+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "<br>\u2022 The article explores the **paradox of productivity** in senior corporate roles, where value is derived from **strategic availability** rather than constant manual output.<br>\u2022 It examines how **high-stakes decision making** necessitates a move away from busywork to ensure cognitive resources are available for organizational crises.<br>\u2022 The author analyzes the **delegation mechanism**, arguing that elite performance often requires clearing one's schedule to act as a high-bandwidth buffer for the team.",
+      "key_results": [
+        "Seniority correlates with a shift from execution to strategic oversight.",
+        "Constant 'busyness' is often a sign of poor delegation or low-impact work.",
+        "Being 'available' is a specialized form of labor in high-complexity environments.",
+        "Psychological barriers often prevent leaders from embracing necessary downtime.",
+        "Effective leaders optimize for responsiveness over raw line-item output."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Sean Goedecke argues that senior professionals must prioritize strategic availability over constant execution to maximize long-term organizational value.",
+      "lead_institution": "Sean Goedecke",
+      "tags": [
+        "Career Strategy",
+        "Productivity",
+        "Delegation",
+        "Leadership",
+        "Management"
+      ]
+    }
+  },
+  {
+    "title": "APC\u20132 \u2013 A professional record cutter for producing original playback discs",
+    "link": "https://teenage.engineering/products/apc-2",
+    "summary": "<p>Article URL: <a href=\"https://teenage.engineering/products/apc-2\">https://teenage.engineering/products/apc-2</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48440383\">https://news.ycombinator.com/item?id=48440383</a></p>\n<p>Points: 264</p>\n<p># Comments: 172</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-06-08T01:27:22+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- **APC\u20132** is a professional-grade record cutter developed by teenage engineering for high-fidelity analog audio mastering and disc production.\n- The system features a **high-torque motor** and precision mechanical assembly designed to cut grooves into blank discs with studio-level accuracy.\n- The device aims to decentralize **vinyl production**, allowing independent artists and small studios to create physical media without large-scale factory pressing.",
+      "key_results": [
+        "Enables professional direct-to-disc analog recording.",
+        "Integrated precision mechanics for low-noise floor cutting.",
+        "Targeted at the independent and professional studio market.",
+        "Compatible with standard blank vinyl and playback systems.",
+        "Maintains the signature teenage engineering industrial design aesthetic."
+      ],
+      "relevance_score": 1,
+      "signal_type": "Release",
+      "one_sentence_takeaway": "Teenage Engineering launches the APC-2, a professional record cutter enabling high-fidelity analog disc production for independent studios.",
+      "lead_institution": "teenage engineering",
+      "tags": [
+        "Audio Engineering",
+        "Hardware",
+        "Analog Media",
+        "Music Technology",
+        "Vinyl"
+      ]
+    }
+  },
+  {
+    "title": "7.8 magnitude earthquake shakes part of southern Philippines. Tsunami possible",
+    "link": "https://www.yahoo.com/news/weather-news/articles/as--philippines-earthquake-001322726.html",
+    "summary": "<p>Article URL: <a href=\"https://www.yahoo.com/news/weather-news/articles/as--philippines-earthquake-001322726.html\">https://www.yahoo.com/news/weather-news/articles/as--philippines-earthquake-001322726.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48440360\">https://news.ycombinator.com/item?id=48440360</a></p>\n<p>Points: 102</p>\n<p># Comments: 29</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-06-08T01:22:21+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Reports a **7.8 magnitude earthquake** striking the southern Philippines, triggering immediate geological alerts.\n- Evaluates the potential for **tsunami waves** and the resulting impact on coastal infrastructure and safety.\n- Focuses on **disaster monitoring** and public safety warnings rather than computational or machine learning models.\n- Provides real-time updates on **seismic activity** and regional emergency response protocols.",
+      "key_results": [
+        "7.8 magnitude earthquake detected in southern Philippines.",
+        "Tsunami warnings issued for multiple regional coastal areas.",
+        "Focus on immediate physical safety and infrastructure integrity.",
+        "Seismic data sourced from geological monitoring agencies.",
+        "Zero technical discussion of machine learning or AI applications."
+      ],
+      "relevance_score": 1,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Yahoo News reports a 7.8 magnitude earthquake in the Philippines, emphasizing tsunami threats and immediate public safety concerns.",
+      "lead_institution": "Yahoo News",
+      "tags": [
+        "Natural Disaster",
+        "Seismic Activity",
+        "Public Safety",
+        "Philippines",
+        "Geology"
+      ]
+    }
+  },
+  {
+    "title": "A Matter Wi-Fi Light Bulb in Rust on the Raspberry Pi Pico 2 W",
+    "link": "https://github.com/melastmohican/rust-rpico2-embassy-examples",
+    "summary": "<p>Article URL: <a href=\"https://github.com/melastmohican/rust-rpico2-embassy-examples\">https://github.com/melastmohican/rust-rpico2-embassy-examples</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48440008\">https://news.ycombinator.com/item?id=48440008</a></p>\n<p>Points: 162</p>\n<p># Comments: 38</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-06-08T00:17:45+00:00",
+    "type": "repo",
+    "display_category": "Top Repo",
+    "processed": {
+      "summary": "\n* Implements the **Matter smart home protocol** on the **Raspberry Pi Pico 2 W** (RP2350) using the **Rust** programming language.\n* Leverages the **Embassy async framework** for memory-safe, non-blocking peripheral control and network stack management on the CYW43 Wi-Fi chip.\n* Demonstrates a cross-platform approach to **IoT interoperability**, bridging low-level hardware with standardized smart home ecosystems like Apple Home and Google Home.\n* Showcases the viability of **local edge execution** for smart devices without the overhead of a full operating system.",
+      "key_results": [
+        "Functional Matter Wi-Fi light bulb implementation on RP2350 hardware.",
+        "Integration of async-based networking via the Embassy framework in Rust.",
+        "Provisioning and discovery support for standardized smart home controllers.",
+        "Utilization of the RP2350's dual-core capabilities for separate network/logic tasks.",
+        "Example repository for low-level memory-safe embedded development in IoT."
+      ],
+      "relevance_score": 4,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Melastmohican releases a Rust-based Matter protocol implementation for the Raspberry Pi Pico 2 W, enabling memory-safe smart home development.",
+      "lead_institution": "Hacker News",
+      "tags": [
+        "Embedded Rust",
+        "Matter Protocol",
+        "RP2350",
+        "IoT",
+        "Embassy Framework"
+      ]
+    }
+  },
+  {
+    "title": "Firefox Merges Support for Vulkan Video Decoding",
+    "link": "https://www.phoronix.com/news/Firefox-Vulkan-Video-Merged",
+    "summary": "<p>Article URL: <a href=\"https://www.phoronix.com/news/Firefox-Vulkan-Video-Merged\">https://www.phoronix.com/news/Firefox-Vulkan-Video-Merged</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48439348\">https://news.ycombinator.com/item?id=48439348</a></p>\n<p>Points: 123</p>\n<p># Comments: 24</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-06-07T22:41:36+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n\u2022 Firefox integrates **Vulkan video extensions** to enable standardized hardware-accelerated decoding across multiple GPU vendors.\n\u2022 The architecture utilizes **DMABUF** for efficient memory sharing, significantly reducing CPU overhead during high-resolution video playback.\n\u2022 This update represents a shift toward **unified graphics APIs** on Linux, providing a more robust alternative to legacy VA-API or VDPAU implementations.",
+      "key_results": [
+        "Official merge of Vulkan video decoding code into the Firefox trunk.",
+        "Support for standardized hardware acceleration across different GPU vendors.",
+        "Reduced performance overhead for high-bitrate video playback on Linux.",
+        "Improved interoperability between the browser and modern Vulkan-capable drivers.",
+        "Strengthened foundation for future GPU-accelerated web features and WebGPU."
+      ],
+      "relevance_score": 3,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Mozilla merges Vulkan video decoding support into Firefox to provide cross-vendor hardware acceleration for Linux users.",
+      "lead_institution": "Mozilla",
+      "tags": [
+        "Firefox",
+        "Vulkan",
+        "Hardware Acceleration",
+        "Video Decoding",
+        "Linux"
+      ]
+    }
+  },
+  {
+    "title": "Why isn't the U.S. better at soccer?",
+    "link": "https://www.natesilver.net/p/why-isnt-the-us-better-at-soccer",
+    "summary": "<p>Article URL: <a href=\"https://www.natesilver.net/p/why-isnt-the-us-better-at-soccer\">https://www.natesilver.net/p/why-isnt-the-us-better-at-soccer</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48437848\">https://news.ycombinator.com/item?id=48437848</a></p>\n<p>Points: 89</p>\n<p># Comments: 263</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-06-07T19:41:20+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- **Nate Silver** provides a statistical and structural analysis of why the United States Men's National Team underperforms relative to its economic and demographic resources.\n- The article critiques the **pay-to-play model** used in the U.S. youth system, arguing it creates a demographic bottleneck compared to global soccer powerhouses.\n- The analysis contrasts the **talent allocation** in the U.S., where top-tier athletes are often incentivized to pursue basketball or American football due to established professional pathways and cultural dominance.",
+      "key_results": [
+        "Identifies structural barriers in youth development as the primary inhibitor of elite talent discovery.",
+        "Highlights the competitive disadvantage caused by the fragmented nature of the U.S. soccer pyramid.",
+        "Notes that U.S. women's soccer success was driven by early institutional support and legal frameworks like Title IX.",
+        "Suggests that the 'ceiling' for U.S. soccer is limited by the popularity of other domestic major leagues.",
+        "Concludes that increased financial investment has not yet translated to a world-class 'soccer culture' or technical proficiency."
+      ],
+      "relevance_score": 1,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Nate Silver argues that structural inefficiencies and competition from established domestic sports leagues prevent U.S. soccer from achieving global dominance.",
+      "lead_institution": "Silver Bulletin",
+      "tags": [
+        "Sports Analytics",
+        "Statistical Analysis",
+        "Nate Silver",
+        "U.S. Soccer",
+        "Talent Economics"
+      ]
+    }
+  },
+  {
     "title": "Unlocking dependable responses with Gemini Enterprise Agent Platform\u2019s Agentic RAG",
     "link": "https://research.google/blog/unlocking-dependable-responses-with-gemini-enterprise-agent-platforms-agentic-rag/",
     "summary": "Data Management",
@@ -90,36 +780,6 @@
     }
   },
   {
-    "title": "NVIDIA and Doosan Group Collaborate to Advance Physical AI and AI Factory Infrastructure",
-    "link": "https://blogs.nvidia.com/blog/nvidia-and-doosan-group-physical-ai/",
-    "summary": "NVIDIA and Doosan Group are expanding their collaboration to advance new opportunities across physical AI, robotics and AI factory infrastructure, spanning Doosan Robotics, Doosan Bobcat, Doosan Enerbility and Doosan Corporation Electro-Materials BG. The collaboration will bring together NVIDIA\u2019s full-stack accelerated computing platforms with Doosan Group\u2019s capabilities in industrial automation, power generation and advanced electronics materials [&#8230;]",
-    "source": "NVIDIA Blog",
-    "published": "2026-06-07T23:00:36+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n- **NVIDIA** and **Doosan Group** are scaling a strategic partnership to integrate **accelerated computing** across industrial automation, robotics, and power generation.\n- The collaboration focuses on **Physical AI** and **AI Factory infrastructure**, leveraging NVIDIA's full-stack hardware and software for autonomous heavy machinery and robotics.\n- Implementation includes the deployment of **NVIDIA Isaac** and **Omniverse** platforms to create **digital twins** and optimize manufacturing processes within Doosan\u2019s industrial ecosystems.\n- Architectural impact spans multiple subsidiaries, applying **Generative AI** and **robotic orchestration** to enhance operational efficiency in complex physical environments.",
-      "key_results": [
-        "Strategic expansion of Physical AI integration across Doosan Robotics and Bobcat.",
-        "Deployment of NVIDIA accelerated computing for AI factory infrastructure development.",
-        "Optimization of power generation systems via AI-driven simulation and monitoring.",
-        "Advancement of electronics materials manufacturing through deep learning process control.",
-        "Unified orchestration of industrial robotics using NVIDIA\u2019s robotics software stack."
-      ],
-      "relevance_score": 4,
-      "signal_type": "Release",
-      "one_sentence_takeaway": "NVIDIA partners with Doosan Group to scale Physical AI and AI factory infrastructure using accelerated computing and robotics.",
-      "lead_institution": "NVIDIA",
-      "tags": [
-        "Physical AI",
-        "Robotics",
-        "AI Factory",
-        "Industrial Automation",
-        "Digital Twins"
-      ]
-    }
-  },
-  {
     "title": "NVIDIA, KRAFTON, NC and Reigning \u2018League of Legends\u2019 Champions T1 Celebrate RTX Spark at Korea\u2019s PC Bangs",
     "link": "https://blogs.nvidia.com/blog/krafton-nc-t1-korea-gaming-pc-bang-rtx-spark/",
     "summary": "At GTC Taipei at COMPUTEX last week, NVIDIA unveiled RTX Spark, the superchip that reinvents Windows PCs for the era of personal AI agents. On the heels of this announcement, NVIDIA founder and CEO Jensen Huang headed to South Korea, where he introduced RTX Spark to the nation\u2019s passionate gaming community. Leading game developers \u2014 [&#8230;]",
@@ -206,126 +866,6 @@
         "Algorithmic Bias",
         "Governance",
         "Human-Centric AI"
-      ]
-    }
-  },
-  {
-    "title": "Counterintuitive problems in discrete probability",
-    "link": "http://arxiv.org/abs/2606.07516v1",
-    "summary": "This manuscript contains a collection of counterintuitive problems in discrete probability, together with detailed solutions. The dataset was constructed as part of a broader research project investigating the capabilities of the latest-generation Large Language Models (LLMs) in solving discrete probability problems, in order to assess whether LLMs tend to make systematic reasoning errors associated with known cognitive biases. The problems collected here are specifically designed to challenge heuristic reasoning strategies that often lead to intuitively appealing but mathematically incorrect conclusions. The dataset combines several types of problems. Some are adapted from classical probabilistic paradoxes and cognitive-bias literature, while others originate from recreational mathematics sources or were developed by ourselves following similar principles. The primary purpose of this document is to provide a transparent and publicly accessible reference for the problems used in our experimental evaluation of language models, as well as providing detailed human-made solutions. At the same time, we believe that this collection may also prove useful for future research on probabilistic reasoning, cognitive biases, and the evaluation of reasoning capabilities in artificial intelligence systems.",
-    "source": "ArXiv",
-    "published": "2026-06-05T17:59:46+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Curates a specialized dataset of **counterintuitive discrete probability problems** designed to systematically evaluate the **reasoning capabilities** and cognitive biases of LLMs.\n- Targets **heuristic reasoning strategies** by utilizing classical paradoxes and original problems that often lead to mathematically incorrect but intuitively appealing conclusions.\n- Establishes a **benchmarking framework** for assessing whether generative models inherit human-like systematic errors in probabilistic inference and logical deduction.",
-      "key_results": [
-        "Development of a comprehensive dataset of discrete probability problems with detailed human-verified solutions.",
-        "Identification of specific problem types that trigger **systematic reasoning errors** in AI models.",
-        "Framework for evaluating the impact of **cognitive biases** on LLM-generated solutions.",
-        "Categorization of problems from classical paradoxes to recreational mathematics for broader testing coverage.",
-        "Provision of a transparent reference for future research on **probabilistic reasoning** and AI evaluation."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers release a counterintuitive probability dataset to evaluate systematic reasoning errors and cognitive biases in modern LLMs.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "Reasoning Models",
-        "AI Evaluation",
-        "Cognitive Biases",
-        "Probabilistic Inference",
-        "Benchmarking"
-      ]
-    }
-  },
-  {
-    "title": "How reliable are LLMs when it comes to playing dice?",
-    "link": "http://arxiv.org/abs/2606.07515v1",
-    "summary": "We investigate the probabilistic reasoning capabilities of large language models through a controlled benchmarking study on discrete probability problems. We constructed two datasets, respectively a set of standard exercises and a set of counterintuitive exercises, designed to trigger heuristic reasoning, and evaluated 8 state-of-the-art models, each tested with and without Chain-of-Thought prompting. Models achieve an average accuracy of 0.96 on standard problems but only 0.59 on counterintuitive ones. We further provide empirical evidence of token bias: performance drops by over 20% when canonical formulations are replaced by disguised variants. Embedding misleading suggestions in the prompt reduces performance by up to 34%, with no model proving immune. Taken together, the reported findings suggest that current LLMs are not yet genuine probabilistic reasoners, despite their success in advanced mathematical problems.",
-    "source": "ArXiv",
-    "published": "2026-06-05T17:59:42+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n* The study evaluates **probabilistic reasoning** in 8 SOTA models using datasets comprised of standard exercises and counterintuitive problems designed to trigger **heuristic reasoning**.\n* Researchers identify a significant performance gap between **canonical formulations** (96% accuracy) and disguised variants or deceptive prompts.\n* Findings highlight a critical vulnerability to **token bias**, where minor changes in phrasing or the presence of misleading suggestions significantly degrade model logic.",
-      "key_results": [
-        "Average accuracy plummeted from 0.96 on standard problems to 0.59 on counterintuitive ones.",
-        "Performance dropped by over 20% when canonical math formulations were replaced by disguised variants.",
-        "Embedding misleading suggestions in prompts reduced model performance by up to 34%.",
-        "Chain-of-Thought (CoT) prompting proved insufficient to bridge the reasoning gap in complex scenarios.",
-        "No tested model proved immune to prompt-based deception or phrasing sensitivity."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers demonstrate that LLMs rely on probabilistic pattern matching rather than genuine reasoning, failing counterintuitive math problems.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "Probabilistic Reasoning",
-        "LLM Evaluation",
-        "Reasoning Models",
-        "Prompt Engineering",
-        "Token Bias"
-      ]
-    }
-  },
-  {
-    "title": "Your UnEmbedding Matrix is Secretly a Feature Lens for Text Embeddings",
-    "link": "http://arxiv.org/abs/2606.07502v1",
-    "summary": "Large language models exhibit impressive zero-shot capabilities across a wide range of downstream tasks. However, they struggle to function as off-the-shelf embedding models, leading to suboptimal performance on massive text embedding benchmarks. In this paper, we identify a potential cause underlying this deficiency. Our motivation stems from an unexpected observation: text embeddings tend to align with frequent but uninformative tokens when projected onto the vocabulary space. We argue that this excessive expression of high-frequency tokens suppresses the model's ability to capture nuanced semantics. To address this, we introduce EmbedFilter, a simple linear transformation designed to refine text embeddings derived from LLMs directly. Specifically, we uncover that the unembedding matrix within LLMs encodes a latent space that is actively writing these frequent tokens into embedding space. By filtering out this subspace, EmbedFilter suppress the influence of high-frequency tokens, thereby enhancing semantic representations. As a compelling byproduct, this enables an inherent dimensionality reduction, lowering index storage and speedup retrieval while fully preserving the refined embedding quality. Our experiments across multiple LLM backbones demonstrate that LLMs equipped with EmbedFilter achieve superior zero-shot downstream performance even with significantly reduced embedding dimensions. We hope our findings provide deeper insights into the mechanisms of LLM-based representations and inspire more principled designs to improve text embeddings training. Our code is available at https://github.com/CentreChen/EmbFilter.",
-    "source": "ArXiv",
-    "published": "2026-06-05T17:54:32+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Discovers that LLM text embeddings are inherently biased toward **high-frequency, uninformative tokens** due to the influence of the **unembedding matrix**.\n- Introduces **EmbedFilter**, a linear transformation that identifies and removes the uninformative subspace to refine semantic representations.\n- Enables significant **dimensionality reduction** which optimizes index storage and retrieval speed for **RAG architectures** without quality loss.\n- Provides a zero-shot method to improve off-the-shelf LLM embeddings across various backbones without the need for **model fine-tuning**.",
-      "key_results": [
-        "Identified alignment between text embeddings and uninformative frequent tokens.",
-        "Proposed EmbedFilter to suppress the latent subspace of the unembedding matrix.",
-        "Achieved superior zero-shot performance compared to raw LLM embeddings.",
-        "Demonstrated effective dimensionality reduction while preserving embedding quality.",
-        "Validated findings across multiple LLM backbones (e.g., Llama, Mistral)."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "Researchers develop EmbedFilter to refine LLM embeddings by suppressing frequent token noise, enhancing RAG retrieval and storage efficiency.",
-      "lead_institution": "ArXiv Researchers",
-      "tags": [
-        "Text Embeddings",
-        "RAG",
-        "LLM Interpretability",
-        "Dimensionality Reduction",
-        "Zero-shot Learning"
-      ]
-    }
-  },
-  {
-    "title": "Sparse Subspace-to-Expert Sharing for Task-Agnostic Continual Learning",
-    "link": "http://arxiv.org/abs/2606.07500v1",
-    "summary": "Continual learning in Large Language Models (LLMs) is hindered by the plasticity-stability dilemma, where acquiring new capabilities often leads to catastrophic forgetting of previous knowledge. Existing methods typically treat parameters uniformly, failing to distinguish between specific task knowledge and shared capabilities. We introduce Mixture of Sparse Experts for Task Agnostic Continual Learning (SETA), a framework that resolves the plasticity-stability conflict through adaptive sparse subspace decomposition into task-specific expert modules. Unlike standard updates, where tasks compete for the same parameters, SETA separates knowledge into unique experts, designed to isolate task-specific patterns, and shared experts, responsible for capturing common features. This structure is maintained through adaptive elastic anchoring and a routing-aware regularization that jointly protect shared knowledge at both the weight and routing levels and enable a unified gating network to automatically retrieve the correct expert combination during inference. Extensive experiments across diverse domain-specific benchmarks demonstrate that SETA achieves competitive or superior overall performance relative to state-of-the-art continual learning baselines, with particularly strong retention of early-task knowledge and improved backward transfer on LLaMA-2 7B and Qwen3-4B.",
-    "source": "ArXiv",
-    "published": "2026-06-05T17:53:52+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n\u2022 Introduces **SETA (Mixture of Sparse Experts)**, a framework that employs adaptive sparse subspace decomposition to resolve the **plasticity-stability conflict** in LLMs.\n\u2022 Utilizes a dual-expert structure to isolate **task-specific patterns** from **shared capabilities**, preventing parameter competition during sequential learning.\n\u2022 Implements **adaptive elastic anchoring** and routing-aware regularization to protect knowledge at both weight and routing levels.\n\u2022 Features a **unified gating network** that automatically retrieves correct expert combinations during inference for task-agnostic performance.",
-      "key_results": [
-        "Achieved superior performance over standard continual learning baselines on domain benchmarks.",
-        "Significantly improved retention of knowledge from early training tasks.",
-        "Demonstrated enhanced backward transfer on LLaMA-2 7B and Qwen3-4B architectures.",
-        "Successfully separated shared features from specific task knowledge using sparse experts.",
-        "Validated effective task-agnostic inference via automated routing-aware retrieval."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers develop SETA to mitigate catastrophic forgetting in LLMs using sparse subspace expert decomposition and anchoring.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "Continual Learning",
-        "Mixture of Experts",
-        "LLM Stability",
-        "Catastrophic Forgetting",
-        "Sparse Decomposition"
       ]
     }
   },
@@ -2370,36 +2910,6 @@
     }
   },
   {
-    "title": "Think Fast: Estimating No-CoT Task-Completion Time Horizons of Frontier AI Models",
-    "link": "http://arxiv.org/abs/2606.07157v1",
-    "summary": "Many efforts to ensure frontier AI models are safe rely on monitoring their chain-of-thought (CoT) reasoning. If models become able to perform sufficiently complex reasoning internally, without explicit thinking tokens, this would undermine such oversight. We measure how well frontier models reason without CoT across a suite of over 30,000 questions spanning 43 benchmarks in domains including math, coding, puzzles, causality, theory-of-mind, and strategic reasoning. To compare models against humans, we estimate the $50\\%$-task-completion time horizon (TH): the human time required for tasks a model completes with $50\\%$ success rate. We complement this with a $50\\%$ reasoning token horizon: the minimum number of o3-mini reasoning tokens needed for tasks a model solves with $50\\%$ success rate. We find that the no-CoT $50\\%$ TH of frontier models has been doubling roughly every year over the past six years, with GPT-5.5's TH reaching over 3 minutes and reasoning token horizon exceeding 1,500 tokens. Our median estimates predict that frontier no-CoT THs could exceed 7 minutes by 2028, and 25 minutes by 2030, though these projections carry substantial uncertainty. We recommend frontier developers track this explicitly.",
-    "source": "ArXiv",
-    "published": "2026-06-05T11:17:08+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Evaluates the **internalized reasoning** capacity of frontier models by measuring performance on 30,000 tasks without using explicit **Chain-of-Thought (CoT)** tokens.\n- Introduces the **Time Horizon (TH)** metric, which maps model success rates to the human time required to complete the same task, providing a cross-domain evaluation framework.\n- Analyzes the trajectory of **latent reasoning** capabilities, finding that no-CoT performance has doubled annually for the past six years, impacting **AI Safety** monitoring strategies.\n- Proposes a **Reasoning Token Horizon** to equate model performance to the number of reasoning tokens (e.g., o3-mini) required to solve tasks at a 50 percent success rate.",
-      "key_results": [
-        "Frontier models' no-CoT time horizon has doubled approximately every year for the past six years.",
-        "GPT-5.5 class models achieve a no-CoT time horizon of over 3 minutes, matching complex human problem-solving.",
-        "The 50 percent reasoning token horizon for frontier models currently exceeds 1,500 tokens.",
-        "Projections suggest no-CoT capabilities could reach 25 minutes of human-equivalent reasoning by 2030.",
-        "Increasingly complex internal reasoning may render safety monitoring via visible CoT tokens ineffective."
-      ],
-      "relevance_score": 9,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers demonstrate that frontier models' internal reasoning capacity doubles annually, potentially bypassing safety oversight protocols dependent on visible tokens.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "Reasoning Models",
-        "AI Safety",
-        "Model Evaluation",
-        "Chain-of-Thought",
-        "Scaling Laws"
-      ]
-    }
-  },
-  {
     "title": "ANNS-AMP: Accelerating Approximate Nearest Neighbor Search via Adaptive Mixed-Precision Computing",
     "link": "http://arxiv.org/abs/2606.07156v1",
     "summary": "Approximate nearest neighbor search(ANNS) is a critical kernel in modern applications such as LLM and recommendation systems.However,its efficiency is fundamentally limited by the need to compute distances between a query and a massive number of high-dimensional vectors,most of which are non-neighbors.Existing approaches reduce redundancy via index optimization or early termination,but remain constrained by fixed-precision computation,leading to unnecessary arithmetic and memory bandwidth overhead.This paper presents ANNS-AMP,an adaptive mixed-precision framework and accelerator that adapts the precision of distance computation to the characteristics of queries and data distribution.The key insight is that different regions of the vector space require different levels of precision to preserve top-k accuracy.ANNS-AMP leverages the clustered structure of PQ-based indices and introduces a lightweight predictor to determine cluster-level precision at runtime based on features such as scale,radius,and query distance.To efficiently realize variable-precision execution,we design a bit-serial accelerator with a bit-interleaved data layout,enabling throughput to scale with reduced precision while mitigating memory bandwidth bottlenecks and load imbalance through a greedy scheduling strategy.Moreover,the runtime predictor can also reuse the bit-serial computing array for efficient runtime prediction and can be fitted to the ANNS pipeline without performance penalty.According to our experiments on representative datasets,ANNS-AMP achieves 163.76x,10.57x,and 2.06x performance speedups on average,and reduces average energy consumption by 1100.00x,39.41x,and 6.66x compared to CPU,GPU,and customized ANNS accelerator baselines,respectively,while maintaining accuracy loss below 2.7%.These results demonstrate that adaptive mixed-precision computing is a promising direction for efficient large-scale ANNS.",
@@ -2486,276 +2996,6 @@
         "Surrogate Models",
         "Physics-Informed ML",
         "Decision Systems"
-      ]
-    }
-  },
-  {
-    "title": "Explaining Unsupervised Disease Staging in Huntington's Disease: Insights into Model Representations and Clusters",
-    "link": "http://arxiv.org/abs/2606.07135v1",
-    "summary": "Huntington's disease (HD) is a progressive neurodegenerative disorder that affects motor, cognitive, and behavioral functions, where accurate characterization of disease progression remains essential to improve patient outcome and quality of life. Unsupervised machine learning (ML) approaches have demonstrated the ability to uncover disease progression trajectories and meaningful latent stages from longitudinal data; however, their limited interpretability restricts clinical trust and translation. We extend a previously proposed ML-based disease staging framework by applying an explainability analysis to the extracted feature representations and discovered disease stages. Applied to the Enroll-HD dataset, we first project the learned representations into a lower-dimensional space to intuitively assess whether the resulting clusters align with the progression of established clinical measures. We then use saliency maps to identify the clinical features that most strongly contribute to the learned embeddings over time. Finally, we train a surrogate classifier and apply SHAP to quantify feature importance for cluster assignments and to analyze which clinical variables drive transitions between disease stages. The explainability analysis indicates that the learned embeddings capture clinically meaningful disease structure, aligning with established motor and functional severity scores and exhibiting progressive deterioration across clusters. Within this analysis, SHAP reveals a stratification of disease stages, ranging from early cognitive-motor impairment to severe functional dependency, consistent with known clinical progression patterns, while also highlighting intra-stage variability.",
-    "source": "ArXiv",
-    "published": "2026-06-05T10:46:24+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n\u2022 The study extends an **unsupervised machine learning** framework for disease staging by integrating advanced **Explainable AI (XAI)** techniques.\n\u2022 Researchers utilized **saliency maps** and **SHAP-based surrogate classifiers** to decode how latent representations correlate with clinical motor and cognitive scores.\n\u2022 The architecture transforms longitudinal data into **learned embeddings**, which are then projected into lower-dimensional spaces to validate clinical cluster alignment.\n\u2022 This approach addresses the \"black box\" nature of **longitudinal disease models**, providing a roadmap for clinical trust and translation.",
-      "key_results": [
-        "Learned representations successfully align with established motor and functional severity scores.",
-        "Saliency maps effectively isolated specific clinical features influencing temporal embeddings.",
-        "SHAP analysis quantified the primary variables driving transitions between disease stages.",
-        "The model identifies a clear progression from early cognitive-motor impairment to severe functional dependency.",
-        "Explainability tools successfully captured and visualized intra-stage variability within disease clusters."
-      ],
-      "relevance_score": 4,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "Enroll-HD researchers utilize SHAP and saliency maps to improve the interpretability of unsupervised disease staging in Huntington's disease.",
-      "lead_institution": "Enroll-HD Research Consortium",
-      "tags": [
-        "Explainable AI (XAI)",
-        "Unsupervised Learning",
-        "Disease Staging",
-        "SHAP",
-        "AI Evaluation"
-      ]
-    }
-  },
-  {
-    "title": "MalSkillBench: A Runtime-Verified Benchmark of Malicious Agent Skills",
-    "link": "http://arxiv.org/abs/2606.07131v1",
-    "summary": "AI coding agents such as Claude Code and Gemini CLI increasingly extend themselves with third-party skills: markdown packages bundling natural-language instructions, executable scripts, and tool permissions. Because a skill is at once code and agent-facing instruction, it introduces a supply chain dependency whose risk is neither pure code nor pure prompt. Detection tools have never been measured against verified ground truth spanning this hybrid space, leaving their effectiveness unknown and wild-only evaluations biased.\n  We present MalSkillBench, the first runtime-verified benchmark of malicious agent skills: 3,944 malicious skills labeled along a three-dimensional taxonomy of 108 cells. Of these, 3,214 come from a closed-loop Generate-Verify-Feedback pipeline admitting only samples whose malicious behavior fires inside a Docker sandbox under system-call monitoring and an LLM judge; we add 703 in-the-wild and 4,000 matched benign skills. Our measurements are consistent: code injection reaches 94.5% verification yield but prompt injection only 75.8%, the same fragility that later makes it hard to detect; the wild sample is narrow, dominated by one cryptocurrency-theft campaign (86.6% one behavior, 81% from two accounts) with a small but architecturally new tail attacking the agent control plane; the strongest skill-specific detector reaches 98.4% recall on code injection yet collapses on prompt-injection and agent-control attacks, and wild-only scoring swings the ranking by up to 66 recall points; supply-chain scanners and prompt-injection defenses each see only half of a skill, and no combination recovers the code-instruction relationship. Detecting malicious skills therefore requires reasoning jointly over task intent, code, and instructions. We release the dataset, pipeline, baselines, and results.",
-    "source": "ArXiv",
-    "published": "2026-06-05T10:43:19+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n* Introduces **MalSkillBench**, the first runtime-verified benchmark specifically designed to evaluate malicious **AI agent skills** across a three-dimensional taxonomy.\n* Utilizes a **Generate-Verify-Feedback (GVF)** pipeline that validates malicious behavior within a **Docker sandbox** using system-call monitoring and LLM-based judging.\n* Analyzes the unique **supply chain risk** where third-party agent skills combine executable code with natural-language instructions, a hybrid space current scanners fail to address.\n* Benchmarks existing defenses, revealing that unified reasoning over **task intent, code, and instructions** is required to secure agent control planes.",
-      "key_results": [
-        "Created a dataset of 3,944 malicious skills and 4,000 benign samples for agent safety evaluation.",
-        "Verified code injection attacks achieve a 94.5% yield, whereas prompt injection is significantly more fragile at 75.8%.",
-        "Identified that 86.6% of in-the-wild malicious skills originate from a single cryptocurrency-theft campaign.",
-        "Found that top-tier detectors achieve 98.4% recall on code injection but fail entirely against agent-control plane attacks.",
-        "Demonstrated that combining existing supply-chain scanners and prompt-injection defenses fails to recover the code-instruction relationship."
-      ],
-      "relevance_score": 9,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "MalSkillBench researchers release a verified benchmark exposing how hybrid code-prompt attacks bypass current AI agent security frameworks.",
-      "lead_institution": "ArXiv Researchers",
-      "tags": [
-        "AI Agents",
-        "AI Security",
-        "Benchmarking",
-        "Prompt Injection",
-        "Supply Chain"
-      ]
-    }
-  },
-  {
-    "title": "Explicit Evidence Grounding via Structured Inline Citation Generation",
-    "link": "http://arxiv.org/abs/2606.07130v1",
-    "summary": "As AI systems become more widely adopted, the demand for factual and faithful generation grows. Properly attributing information through citations becomes, therefore, crucial. This work introduces FullCite, a framework that, in contrast to most previous works, generates structured inline citations linking each claim to both its source document and supporting evidence. FullCite proposes three strategies to inline citation generation: prompt-based generation, constrained decoding over a citation grammar, and posthoc span alignment. Using three question answering benchmarks, namely, ASQA, BioASQ, and ExpertQA, we assess citation quality and faithfulness along three dimensions: document-level correctness, evidence span identification, and claim-citation faithfulness. Our evaluation shows that while LLMs are generally effective at identifying relevant documents, they struggle to identify the precise supporting spans within them. This gap suggests that achieving faithful attributed QA will require research to place greater emphasis on precise evidence span identification.",
-    "source": "ArXiv",
-    "published": "2026-06-05T10:42:10+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n* Introduces **FullCite**, a framework for generating **structured inline citations** that map LLM-generated claims to specific document sources and exact evidence spans.\n* Employs three distinct technical strategies: **prompt-based generation**, **constrained decoding** using a citation grammar, and **posthoc span alignment**.\n* Benchmarks the system using **ASQA, BioASQ, and ExpertQA** to measure document-level correctness, span identification, and claim faithfulness.\n* Reveals a performance gap where LLMs succeed at document retrieval but fail to achieve **precise evidence span identification**, highlighting a key area for future RAG research.",
-      "key_results": [
-        "FullCite provides granular evidence grounding that exceeds standard document-level attribution.",
-        "Constrained decoding maintains citation syntax integrity for automated parsing and verification.",
-        "The framework identifies a significant deficiency in current LLMs' ability to pinpoint specific text spans.",
-        "Evaluation confirms that document retrieval success does not equate to faithful claim grounding.",
-        "Posthoc alignment is validated as a fallback for models with weaker instruction-following capabilities."
-      ],
-      "relevance_score": 9,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce FullCite to improve RAG faithfulness by linking LLM claims to specific structured evidence spans.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "RAG",
-        "Attributed QA",
-        "Hallucination Mitigation",
-        "AI Evaluation",
-        "Grounding"
-      ]
-    }
-  },
-  {
-    "title": "A machine-learning-assisted progressive digit-randomness screening framework for detecting non-random patterns in raw numerical research data",
-    "link": "http://arxiv.org/abs/2606.07128v1",
-    "summary": "Raw numerical datasets remain less systematically examined in integrity screening than images, plagiarism, or summary-statistic inconsistencies. We developed the Fabrication-risk Digit Randomness Screening model (FDRS), a statistical and machine-learning framework for detecting non-random digit-pattern irregularities in numerical research data. FDRS integrates single- and joint-decimal-digit tests, Cramer's V, entropy metrics, Kullback-Leibler divergence, digit-preference indices, progressive subsampling, and semi-supervised risk scoring. It was evaluated using an instrument-derived enzymatic absorbance dataset (RawData, n=253) and a blinded manually simulated irregular dataset (ErrData, n=255). RawData showed no significant deviation in single third-decimal-digit analysis, whereas ErrData showed a significant deviation. In joint third-fourth decimal digit analysis, ErrData showed higher Cramer's V, lower normalized entropy, higher KL divergence, and a more persistent progressive-subsampling deviation signal. In internal validation, Elastic-net Logistic Regression achieved the highest AUC (0.98395) and lowest Brier score (0.048439), while Random Forest achieved the highest accuracy (0.926667) and balanced accuracy (0.935). RawData received a low ensemble risk score of 0.124627 and was classified as Grade 0; ErrData received a score of 0.740760 and was classified as Grade 3. External real-world benchmarks supported graded risk stratification: three datasets without identified public post-publication concerns were classified as Grade 0 or 1, whereas two datasets from publicly questioned or institutionally handled articles were classified as Grade 2 or 3. FDRS can prioritize raw numerical datasets for further review by integrating interpretable statistical and machine-learning features. It is an auxiliary digit-structure screening tool, not standalone evidence of fabrication or misconduct.",
-    "source": "ArXiv",
-    "published": "2026-06-05T10:41:18+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- The **FDRS framework** integrates statistical metrics (KL divergence, entropy, Cramer's V) with **machine learning** to identify non-random digit patterns in numerical research data.\n- It employs a **progressive subsampling** strategy and semi-supervised risk scoring to detect subtle manual data fabrication that standard integrity checks might miss.\n- ML benchmarks show **Elastic-net Logistic Regression** achieving an AUC of 0.984, effectively classifying data into a four-tier **risk stratification** system.\n- The system serves as an **AI-driven evaluation tool** for research integrity, prioritizing high-risk datasets for human-in-the-loop review.",
-      "key_results": [
-        "Elastic-net Logistic Regression achieved a high AUC of 0.98395 for fraud detection.",
-        "Random Forest models reached 92.67% accuracy and 93.5% balanced accuracy.",
-        "Successfully differentiated between authentic enzymatic absorbance data and manually simulated irregular data.",
-        "External validation correctly identified datasets from institutionally handled or questioned articles.",
-        "Implemented a four-tier grading system (Grade 0 to Grade 3) for automated dataset risk assessment."
-      ],
-      "relevance_score": 3,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce FDRS, an ML framework using digit-randomness patterns to detect numerical data fabrication with 0.98 AUC.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "AI Evaluation",
-        "Research Integrity",
-        "Machine Learning",
-        "Data Fabrication",
-        "Statistical Analysis"
-      ]
-    }
-  },
-  {
-    "title": "Learning Explicit Behavioral Models with Adaptive Questions and World-Model Probes",
-    "link": "http://arxiv.org/abs/2606.07127v1",
-    "summary": "Interactive agents trained only against task return can achieve high scores while failing to represent the mechanisms that make their actions succeed. This makes brittle behavior difficult to diagnose and limits adaptation when environment dynamics change. Existing LLM reflection and policy-code repair can revise behavior from failed trajectories, but questions and world-understanding tests are usually used only after training. We introduce an Explicit Symbolic Behavioral Model (ESBM), a trainable behavioral model that couples task performance with evidence-grounded question answering and executable mechanism prediction. An ESBM represents behavior through typed predicates, weighted rules, bounded options and mechanism memory; the mechanism layer predicts symbolic events, object changes, rewards and terminal consequences under action interventions. After each rollout, adaptive questions and active world-model probes convert score failures, QA errors and transition-prediction errors into constraints for local ESBM edits. Candidate models are selected by a multi-criterion rule that jointly evaluates task score, answerability and active world-model consistency. Under the tested Atari-style protocols, ESBM learns high-scoring policies while producing explicit answers and executable mechanism predictions, indicating that adaptive questions can serve as both training pressure and reusable benchmarks for mechanistic policy learning in this setting.",
-    "source": "ArXiv",
-    "published": "2026-06-05T10:34:55+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Introduces the **Explicit Symbolic Behavioral Model (ESBM)**, a framework that integrates task performance with **symbolic predicates** and executable mechanism predictions to improve agent transparency.\n- Employs a mechanism layer to track **object changes** and terminal consequences, allowing the agent to predict the results of action interventions using a **mechanism memory**.\n- Utilizes **adaptive questions** and **active world-model probes** to translate failures into symbolic constraints, enabling local edits to the behavioral model during the training loop.\n- Demonstrates that coupling task scores with **evidence-grounded QA** creates a dual-purpose system for both training pressure and reusable mechanistic benchmarks.",
-      "key_results": [
-        "ESBM achieves high-scoring policies comparable to standard agents while maintaining explicit reasoning.",
-        "Adaptive questions effectively serve as a training signal for grounding agent behavior in world dynamics.",
-        "The model successfully predicts symbolic events and rewards under specific action interventions.",
-        "Transition-prediction errors are converted into constraints for more efficient policy refinement.",
-        "Multi-criterion evaluation ensures a balance between task score, answerability, and consistency."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce ESBM, a symbolic behavioral model using adaptive probes to align task performance with mechanistic world-understanding.",
-      "lead_institution": "ArXiv Researchers",
-      "tags": [
-        "Symbolic AI",
-        "LLM Agents",
-        "World Models",
-        "Mechanistic Interpretability",
-        "AI Evaluation"
-      ]
-    }
-  },
-  {
-    "title": "Information-Theoretic Bounds for Sparse Covariance Estimation in the Vertical-Split Distributed Model",
-    "link": "http://arxiv.org/abs/2606.07124v1",
-    "summary": "We study the minimax estimation error for distributed covariance matrix estimation in the vertical-split (feature-split) setting, where two agents each observe different coordinates of $m$ i.i.d. sub-Gaussian samples and communicate a limited number of bits to a central server. While Rahmani et al. [2025] established nearly tight bounds for dense (unstructured) cross-covariance matrices, we investigate whether imposing elementwise $s$-sparsity on the cross-covariance $C_{21}$ can reduce the required communication and sample complexity. In contrast to the horizontal-split setting, where Braverman et al. [2016] showed that sparsity does not reduce communication cost for mean estimation, we prove that sparsity does help for cross-covariance estimation in the vertical split.\n  Specifically, we establish minimax lower bounds showing that the communication budget per agent scales as $B_k = \u03a9(\u03c3^4 d_k\\, s' \\log(d_1 d_2/s')/\\varepsilon^2)$ and the sample complexity for cross-covariance estimation as $m = \u03a9(\u03c3^4\\, s' \\log(d_1 d_2/s')/\\varepsilon^2)$, where $s' = s \\wedge d_{\\min}$. For the $1$-sparse case, this yields an exponential improvement from $d_1 d_2$ to $\\log(d_1 d_2)$ compared to the dense rate. Our lower bounds are established via Fano's method with an explicit sparse packing using a Varshamov--Gilbert-type argument for signed partial permutation matrices combined with the Conditional Strong Data Processing Inequality of Rahmani et al. [2025]. We show the bounds are tight with a matching achievable scheme, based on covering-net quantization and entry-wise hard thresholding, that attains the $s$-sparse lower bound up to polylogarithmic factors.",
-    "source": "ArXiv",
-    "published": "2026-06-05T10:25:12+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Investigates the **minimax estimation error** for distributed covariance estimation in vertical-split architectures where features are partitioned across multiple agents.\n- Proves that **elementwise s-sparsity** significantly reduces **communication overhead** and sample complexity, identifying a critical difference from horizontal-split settings.\n- Employs **Fano's method** and a sparse packing strategy to establish lower bounds for communication budgets per agent.\n- Proposes a matching **achievable scheme** utilizing **covering-net quantization** and hard thresholding to reach near-optimal performance within polylogarithmic factors.",
-      "key_results": [
-        "Established that communication budget per agent scales based on sparsity and feature dimensionality.",
-        "Proved that sparsity provides an exponential improvement in communication for 1-sparse cases (from linear to logarithmic).",
-        "Developed a minimax lower bound for sample complexity in cross-covariance estimation.",
-        "Showed that sparsity helps in vertical-split models even though it often fails to reduce costs in horizontal-split mean estimation.",
-        "Validated theoretical bounds with a practical scheme using entry-wise hard thresholding and quantization."
-      ],
-      "relevance_score": 3,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "Researchers prove that sparsity exponentially reduces communication costs for cross-covariance estimation in vertical-split distributed learning environments.",
-      "lead_institution": "Researchers",
-      "tags": [
-        "Distributed Learning",
-        "Covariance Estimation",
-        "Minimax Bounds",
-        "Communication Complexity",
-        "Statistical Sparsity"
-      ]
-    }
-  },
-  {
-    "title": "The Three-Ring Architecture: Governing Agents in the Era of On-Platform Organisations",
-    "link": "http://arxiv.org/abs/2606.07119v1",
-    "summary": "The current phase of enterprise AI deployment faces a structural failure: organisations are acquiring agentic capability without the infrastructure to govern it. The result is expected to reproduce the error of the first wave of AI deployment: decentralised intelligence without a federation layer leading to a 95% project failure rate. This paper formalises the Three-Ring Architecture as the governing infrastructure of the on-platform organisation. Ring 1 is the existing production architecture; Ring 2 is the M2 federation layer built on strategies-based agentic AI; Ring 3 is the LLM-based frontier intelligence layer. Ring 2 constitutes, in the technically exact sense, the operating system of the agentic enterprise - performing at the organisational level what a computing OS performs at the device level: resource abstraction, process coordination, permission enforcement, and a stable platform for compounding intelligence. A central contribution is the formal distinction between Ring 2 and Ring 3 risk profiles. Strategies-based agents operate within a deterministic framework: their consequences are traceable, their permissions enforceable, their deviations recoverable. LLM-based agents introduce a categorically distinct risk: a non-deterministic actor whose deviations propagate through complex organisational systems without retrospective traceability. Ring 2 is not a useful addition - it is a necessary condition of control and compliance. A further consequence: every improvement in LLM capability is a structural tailwind for this architecture. More capable non-deterministic actors produce larger consequences when they deviate. The governance requirement scales with capability. The architecture has been validated across a decade of deployment in financial services, government, procurement, and compliance among other sectors.",
-    "source": "ArXiv",
-    "published": "2026-06-05T10:20:03+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Proposes a **Three-Ring Architecture** to bridge the governance gap in enterprise AI, aiming to prevent the 95% failure rate associated with decentralized intelligence.\n- Defines **Ring 2 (M2 Federation Layer)** as a strategies-based operating system for the enterprise, providing resource abstraction and permission enforcement.\n- Categorically separates **deterministic strategies-based agents** from **non-deterministic LLM-based actors** to ensure traceable and recoverable organizational workflows.\n- Establishes that the necessity for structured governance scales directly with **frontier intelligence capabilities**, as more capable LLMs create larger non-deterministic risks.",
-      "key_results": [
-        "Formalization of the Three-Ring Architecture for governing on-platform organizations.",
-        "Characterization of Ring 2 as the 'Operating System' of agentic enterprises.",
-        "Technical distinction between deterministic (Ring 2) and non-deterministic (Ring 3) risk profiles.",
-        "Evidence that Ring 2 is a necessary condition for regulatory compliance and control.",
-        "Validation of architecture through a decade of deployment in finance, government, and procurement."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers propose a Three-Ring Architecture to provide a deterministic governance layer for non-deterministic LLM-based enterprise agents.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "LLM Agents",
-        "AI Governance",
-        "Agentic Architecture",
-        "Enterprise AI",
-        "Deterministic Systems"
-      ]
-    }
-  },
-  {
-    "title": "OffQ: Taming Structured Outliers in LLM Quantization by Offsetting",
-    "link": "http://arxiv.org/abs/2606.07116v1",
-    "summary": "Low-bit quantization has been widely adopted to accelerate the inference of large language models (LLMs) by significantly reducing computational cost and memory usage. However, activation outliers pose a major challenge to effective quantization, often leading to notable performance degradation. In this paper, we introduce OffQ, a method designed to mitigate activation outliers in low-bit quantization through a novel offsetting mechanism. Specifically, OffQ first identifies a low-dimensional outlier subspace in the activations using a proposed top-1 PCA, and then concentrates high-magnitude activations into 1 channel via rotation. OffQ then absorbs this concentrated outlier channel by converting its magnitude into a shared offset, thereby reducing the standard deviation of the activations. This offsetting strategy enables effective W4A4KV4 quantization of LLMs using deployment-friendly uniform-grid and uniform-precision quantization. Extensive experiments across diverse LLM architectures and benchmarks demonstrate that OffQ outperforms state-of-the-art baselines, consistently improving model accuracy while preserving low-bit efficiency.",
-    "source": "ArXiv",
-    "published": "2026-06-05T10:11:34+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Introduces **OffQ**, a quantization technique that mitigates **activation outliers** in LLMs using a novel **offsetting mechanism**.\n- Employs **top-1 PCA** to identify outlier subspaces and rotates activations to concentrate high-magnitude values into a single, manageable channel.\n- Converts the concentrated outlier channel into a **shared offset**, effectively reducing the standard deviation of activations and maximizing bit-grid utility.\n- Enables high-performance **W4A4KV4 quantization** while remaining compatible with **deployment-friendly** uniform-grid and uniform-precision hardware.",
-      "key_results": [
-        "Successfully implements W4A4KV4 quantization with minimal performance degradation.",
-        "Identifies low-dimensional outlier subspaces using a novel top-1 PCA approach.",
-        "Reduces activation variance by absorbing concentrated outliers into a shared offset.",
-        "Outperforms current state-of-the-art quantization baselines across multiple LLM architectures.",
-        "Maintains standard uniform-grid efficiency, avoiding the need for complex custom kernels."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce OffQ to stabilize W4A4KV4 quantization by concentrating and offsetting activation outliers via PCA-based rotation.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "LLM Quantization",
-        "Activation Outliers",
-        "W4A4KV4",
-        "Model Compression",
-        "Inference Optimization"
-      ]
-    }
-  },
-  {
-    "title": "Beyond Post-hoc Explanation: Toward Glassbox AI via Probabilistic Mediation",
-    "link": "http://arxiv.org/abs/2606.07113v1",
-    "summary": "Large language models are rapidly becoming infrastructural components in high-stakes institutional settings, including public administration, legal reasoning, and healthcare, where opacity is not merely inconvenient but institutionally and legally untenable. Existing approaches to explainability are predominantly post-hoc, offering unstable, non-contestable accounts that have no formal relationship to the reasoning process that produced the output. We argue that the problem is not the absence of explanation but the absence of structured reasoning in the first place. This paper makes the case for a fundamentally different architecture, which we call the Glassbox Framework, in which Bayesian networks serve as transparent, ante-hoc mediation layers for generative models. Bayesian networks encode domain knowledge, causal assumptions, and probabilistic dependencies before inference occurs, enabling auditable reasoning traces, uncertainty quantification, and contestable outputs. We characterise the architecture of this framework and ground it in a benefit eligibility scenario, identifying the foundational challenges spanning semantic alignment, dynamic model construction, probabilistic grounding, and human governance that must be solved to realise it at scale. By shifting from post-hoc explanation to ante-hoc probabilistic mediation, this work outlines a principled path toward AI systems that are not only powerful but fundamentally accountable.",
-    "source": "ArXiv",
-    "published": "2026-06-05T10:08:56+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n\u2022 Proposes the **Glassbox Framework**, which replaces unstable post-hoc explanations with **Bayesian networks** acting as transparent, ante-hoc mediation layers.\n\u2022 Shifts AI design toward **structured reasoning** by encoding domain knowledge and causal dependencies directly into the inference process.\n\u2022 Enables formal **uncertainty quantification** and auditable reasoning traces, making LLM outputs legally and institutionally contestable.\n\u2022 Identifies key research hurdles in **semantic alignment** and dynamic model construction to bridge generative models with probabilistic grounding.",
-      "key_results": [
-        "Conceptualization of ante-hoc probabilistic mediation as a superior alternative to post-hoc rationalization.",
-        "Definition of an architecture where Bayesian networks serve as the source of truth for reasoning traces.",
-        "Introduction of 'contestable outputs' as a metric for AI accountability in high-stakes settings.",
-        "Mapping of four foundational challenges: semantic alignment, dynamic construction, probabilistic grounding, and governance.",
-        "Validation of the framework through a practical benefit eligibility scenario for institutional use."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers propose Glassbox AI, using Bayesian mediation to replace post-hoc rationalization with structured, auditable reasoning traces.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "Reasoning Models",
-        "Explainable AI",
-        "Bayesian Networks",
-        "AI Accountability",
-        "Glassbox AI"
       ]
     }
   }
