@@ -1,5 +1,755 @@
 [
   {
+    "title": "Patch the Planet: a Daybreak initiative to support open source maintainers",
+    "link": "https://openai.com/index/patch-the-planet",
+    "summary": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
+    "source": "OpenAI News",
+    "published": "2026-06-22T10:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- OpenAI's **Patch the Planet** initiative utilizes **AI-driven workflows** to secure the open-source software supply chain.\n- The program focuses on automating the **vulnerability lifecycle**, specifically the identification, validation, and remediation of security flaws.\n- It integrates **Generative AI** with human expert review to provide high-fidelity, actionable patches for maintainers.\n- Aims to reduce the manual overhead of infrastructure security by leveraging **reasoning capabilities** in LLMs.",
+      "key_results": [
+        "Launch of a dedicated initiative to support global open-source maintainers",
+        "Deployment of AI tools for proactive software vulnerability discovery",
+        "Standardized process for validating and fixing security bugs via AI assistance",
+        "Incorporation of expert human verification to ensure patch safety",
+        "Strategic focus on hardening critical digital infrastructure through AI"
+      ],
+      "relevance_score": 3,
+      "signal_type": "Release",
+      "one_sentence_takeaway": "OpenAI launches Patch the Planet to automate vulnerability detection and remediation in open-source software using AI-driven expert workflows.",
+      "lead_institution": "OpenAI",
+      "tags": [
+        "Cybersecurity",
+        "Open Source",
+        "AI Agents",
+        "Vulnerability Detection",
+        "Software Supply Chain"
+      ]
+    }
+  },
+  {
+    "title": "Codex-maxxing for long-running work",
+    "link": "https://openai.com/index/codex-maxxing-long-running-work",
+    "summary": "Learn how Jason Liu uses Codex to preserve context, manage complex projects, and help work continue beyond a single prompt.",
+    "source": "OpenAI News",
+    "published": "2026-06-22T00:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Implements **context preservation** strategies to manage complex, multi-stage software engineering tasks over extended periods.\n- Focuses on **structured prompt engineering** and state management to ensure consistency across long-running agentic workflows.\n- Leverages **agentic interaction patterns** that treat the LLM as a persistent collaborator rather than a single-shot completion engine.",
+      "key_results": [
+        "Improved architectural consistency in multi-file projects",
+        "Enhanced retention of project goals over long temporal windows",
+        "Reduction in manual re-prompting through structured context handoffs",
+        "Successful delegation of high-level project management to models",
+        "Streamlined integration of LLM agents into professional dev cycles"
+      ],
+      "relevance_score": 6,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "OpenAI highlights Jason Liu's methods for maintaining context in long-running agentic coding tasks to improve development consistency.",
+      "lead_institution": "OpenAI",
+      "tags": [
+        "LLM Agents",
+        "Vibe Coding",
+        "Prompt Engineering",
+        "Context Management",
+        "Software Engineering"
+      ]
+    }
+  },
+  {
+    "title": "Samsung Electronics brings ChatGPT and Codex to employees",
+    "link": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
+    "summary": "Samsung Electronics deploys ChatGPT Enterprise and Codex to employees worldwide, marking one of OpenAI\u2019s largest enterprise AI rollouts.",
+    "source": "OpenAI News",
+    "published": "2026-06-21T23:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Samsung Electronics scales **ChatGPT Enterprise** and **Codex** across its global workforce to optimize internal business operations and engineering workflows.\n- The deployment emphasizes **enterprise-grade security**, ensuring that sensitive corporate data and proprietary source code are not used for foundation model training.\n- Integration of **Codex** specifically targets software development cycles, aiming to enhance productivity through AI-assisted code generation and refactoring.\n- This rollout signals a major trend in **Generative AI** adoption by hardware giants to bridge the gap between traditional manufacturing and AI-driven software efficiency.",
+      "key_results": [
+        "Global deployment of ChatGPT Enterprise to all Samsung employees.",
+        "Integration of Codex into internal software engineering pipelines.",
+        "Implementation of high-security protocols for corporate data privacy.",
+        "Standardization of LLM tools across multiple business divisions.",
+        "Establishment of one of OpenAI's largest enterprise-scale footprints."
+      ],
+      "relevance_score": 5,
+      "signal_type": "Release",
+      "one_sentence_takeaway": "Samsung Electronics deploys OpenAI's enterprise tools globally to accelerate software development and enhance operational productivity across its business units.",
+      "lead_institution": "OpenAI News",
+      "tags": [
+        "Generative AI Trends",
+        "ChatGPT Enterprise",
+        "OpenAI Codex",
+        "Enterprise AI",
+        "Developer Productivity"
+      ]
+    }
+  },
+  {
+    "title": "Adopting AV1 for Real-Time Communication (RTC) at Scale",
+    "link": "https://engineering.fb.com/2026/06/22/video-engineering/adopting-av1-for-real-time-communication-rtc-meta/",
+    "summary": "<p>Adopting AV1 for real-time communication at Meta has been a multi-year effort spanning codec selection, device eligibility, rate control, and error resilience. We\u2019re sharing the technical and operational challenges while deploying AV1 and expanding coverage, and how we addressed them for real-time communication. We\u2019re presenting several technologies for improving AV1 call quality, including rate control [...]</p>\n<p><a class=\"btn btn-secondary understrap-read-more-link\" href=\"https://engineering.fb.com/2026/06/22/video-engineering/adopting-av1-for-real-time-communication-rtc-meta/\">Read More...</a></p>\n<p>The post <a href=\"https://engineering.fb.com/2026/06/22/video-engineering/adopting-av1-for-real-time-communication-rtc-meta/\">Adopting AV1 for Real-Time Communication (RTC) at Scale</a> appeared first on <a href=\"https://engineering.fb.com\">Engineering at Meta</a>.</p>",
+    "source": "Engineering at Meta",
+    "published": "2026-06-22T16:00:08+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Meta implements a **multi-year deployment** of the **AV1 codec** for real-time communication (RTC) to optimize video performance across its global platforms.\n- The technical architecture focuses on sophisticated **rate control algorithms** and **error resilience** techniques to handle varying network conditions and packet loss.\n- The deployment strategy includes a **device eligibility framework** to ensure high-quality encoding and decoding without compromising device performance or battery life.",
+      "key_results": [
+        "Scaling of AV1 for real-time video across billion-user platforms.",
+        "Implementation of advanced dynamic rate control for bitstream optimization.",
+        "Enhanced error resilience mechanisms for lossy network environments.",
+        "Creation of hardware-specific device eligibility criteria for codec rollouts.",
+        "Optimization of call quality-to-bandwidth ratios compared to H.264 and VP9."
+      ],
+      "relevance_score": 3,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Meta implements AV1 at scale to significantly enhance real-time video quality and bandwidth efficiency across global communication platforms.",
+      "lead_institution": "Meta",
+      "tags": [
+        "AV1",
+        "RTC",
+        "Video Engineering",
+        "Network Optimization",
+        "Meta Engineering"
+      ]
+    }
+  },
+  {
+    "title": "From pledge to practice: Building a more inclusive open source ecosystem",
+    "link": "https://github.blog/open-source/from-pledge-to-practice-building-a-more-inclusive-open-source-ecosystem/",
+    "summary": "<p>Learn about the progress we\u2019ve made toward our accessibility goals and how you can help make open source more inclusive. </p>\n<p>The post <a href=\"https://github.blog/open-source/from-pledge-to-practice-building-a-more-inclusive-open-source-ecosystem/\">From pledge to practice: Building a more inclusive open source ecosystem</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
+    "source": "The GitHub Blog",
+    "published": "2026-06-22T17:20:31+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- **Accessibility Integration**: GitHub evaluates progress on its inclusion pledge, focusing on improving the **accessibility** of open source tooling and workflows.\n- **Inclusive Design**: The initiative emphasizes adopting **standardized design principles** to ensure software development is reachable for developers with disabilities.\n- **Ecosystem Impact**: By moving from policy to practice, GitHub aims to lower barriers for entry, enhancing the **collaborative diversity** of the global developer community.",
+      "key_results": [
+        "Report on milestones achieved since the initial accessibility pledge.",
+        "Identification of remaining friction points in open source contributor paths.",
+        "Advocacy for inclusive documentation standards across public repositories.",
+        "Guidelines for community members to participate in accessibility auditing.",
+        "Integration of accessibility features directly into GitHub's core UI/UX."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "GitHub advances accessibility initiatives to create a more inclusive and diverse global open source development environment.",
+      "lead_institution": "GitHub",
+      "tags": [
+        "Accessibility",
+        "Open Source",
+        "DEI",
+        "Community",
+        "GitHub"
+      ]
+    }
+  },
+  {
+    "title": "Embed the world: Multimodal AI for searchable aerial imagery at scale",
+    "link": "https://aws.amazon.com/blogs/machine-learning/embed-the-world-multimodal-ai-for-searchable-aerial-imagery-at-scale/",
+    "summary": "In this post, we walk through the problem space, our architecture on Amazon Bedrock and Amazon OpenSearch Serverless, the evaluation methodology we built on OpenStreetMap ground truth, four experiments that compared embedding models, fusion strategies, captioning, and search methods, and the practical guidance you can apply when building a similar system. You\u2019ll learn which design choices move the needle for geospatial semantic search, including why Amazon Nova Multimodal Embeddings delivered the highest F1 scores across both benchmark queries in our evaluation. The work described here evolved into Vexcel Intelligence, a searchable imagery product.",
+    "source": "Artificial Intelligence",
+    "published": "2026-06-22T16:32:15+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Implements a scalable **Geospatial Semantic Search** architecture using **Amazon Bedrock** for model inference and **Amazon OpenSearch Serverless** for vector storage.\n- Evaluates the efficacy of **Multimodal Embeddings** versus traditional captioning-based retrieval by benchmarking against **OpenStreetMap** ground truth data.\n- Explores various **Fusion Strategies** and search methods to optimize the retrieval of high-resolution aerial imagery for complex land-use queries.\n- Demonstrates that the **Amazon Nova Multimodal Embeddings** model provides the most significant performance gains in terms of F1 scores for image-to-text alignment.",
+      "key_results": [
+        "Amazon Nova Multimodal Embeddings delivered the highest F1 scores for aerial imagery retrieval.",
+        "Multimodal embedding models outperformed text-captioning pipelines in semantic search accuracy.",
+        "OpenStreetMap data provided a reliable benchmark for evaluating geospatial model performance.",
+        "Vector-based retrieval on OpenSearch Serverless successfully handled large-scale imagery datasets.",
+        "Fusion strategies proved critical for reconciling textual queries with specific visual features in aerial maps."
+      ],
+      "relevance_score": 7,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Amazon AWS utilizes Nova Multimodal Embeddings to scale geospatial semantic search and aerial imagery retrieval for Vexcel Intelligence.",
+      "lead_institution": "Amazon AWS",
+      "tags": [
+        "Multimodal AI",
+        "Geospatial Search",
+        "Amazon Bedrock",
+        "Vector Databases",
+        "Aerial Imagery"
+      ]
+    }
+  },
+  {
+    "title": "Running ComfyUI workflows on Amazon SageMaker AI processing jobs",
+    "link": "https://aws.amazon.com/blogs/machine-learning/running-comfyui-workflows-on-amazon-sagemaker-ai-processing-jobs/",
+    "summary": "In this post, we walk you through how to deploy ComfyUI workflows on Amazon SageMaker AI processing jobs to generate hundreds of high-quality images in a single batch. You learn how to set up the infrastructure using AWS Cloud Development Kit (AWS CDK), configure GPU-accelerated processing, and automate image generation at scale. You can then adapt this solution to your ComfyUI workflows specific to your needs. We will guide you through a practical, step-by-step process to automate ComfyUI workflows to generate hundreds of high-quality images in a single batch empowering you to scale your creative pipeline.",
+    "source": "Artificial Intelligence",
+    "published": "2026-06-22T16:28:46+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n Provides a technical framework for deploying **ComfyUI workflows** on **Amazon SageMaker AI processing jobs** to facilitate massive batch image generation.\n Utilizes **AWS CDK** for Infrastructure-as-Code (IaC) to automate the provisioning of **GPU-accelerated** environments and scaling logic.\n Implements a decoupled architecture where creative workflows are designed locally and executed at scale in the cloud, optimizing resource usage.\n Demonstrates how to integrate **S3-based storage** for model checkpoints and generated assets to streamline creative production pipelines.",
+      "key_results": [
+        "Scalable execution of ComfyUI workflows using SageMaker processing jobs.",
+        "Automated infrastructure setup via AWS Cloud Development Kit (CDK).",
+        "Support for hundreds of high-quality image generations in a single batch.",
+        "Native integration of GPU-acceleration for complex diffusion models.",
+        "Standardized pipeline for moving from local prototyping to cloud-scale production."
+      ],
+      "relevance_score": 7,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Amazon Web Services introduces a scalable method to run ComfyUI workflows on SageMaker for high-volume batch image generation.",
+      "lead_institution": "Amazon Web Services",
+      "tags": [
+        "ComfyUI",
+        "SageMaker",
+        "Generative AI",
+        "AWS CDK",
+        "Batch Processing"
+      ]
+    }
+  },
+  {
+    "title": "At ISC, JUPITER Shows What Exascale Science Looks Like",
+    "link": "https://blogs.nvidia.com/blog/jupiter-exascale-supercomputing-science/",
+    "summary": "JUPITER, Europe\u2019s first exascale supercomputer at Germany\u2019s Forschungszentrum J\u00fclich, runs on NVIDIA Grace Hopper Superchips and NVIDIA Quantum-X800 InfiniBand networking \u2014 and it\u2019s had a busy year. As the international supercomputing community gathers at ISC in Hamburg this week, four projects running on JUPITER point to what exascale computing can actually do: map the human [&#8230;]",
+    "source": "NVIDIA Blog",
+    "published": "2026-06-22T13:00:48+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- JUPITER is established as Europe\u2019s first **exascale supercomputer**, powered by the **NVIDIA Grace Hopper** architecture for high-efficiency AI and scientific workloads.\n- The architecture utilizes **NVIDIA Quantum-X800 InfiniBand** networking, enabling high-throughput data movement essential for large-scale distributed simulations.\n- The system is designed to accelerate **multimodal AI** and high-performance computing (HPC) research across critical domains such as neuroscience and climate science.",
+      "key_results": [
+        "Attained exascale performance levels for the European research community.",
+        "Deployment of NVIDIA Grace Hopper Superchips for unified memory processing.",
+        "Implementation of Quantum-X800 networking for low-latency node communication.",
+        "Support for four major exascale-ready scientific pilot projects.",
+        "Validation of the GH200 platform for large-scale AI and physics modeling."
+      ],
+      "relevance_score": 4,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "NVIDIA and Forschungszentrum J\u00fclich launch the JUPITER exascale supercomputer to drive massive-scale European scientific AI research.",
+      "lead_institution": "Forschungszentrum J\u00fclich",
+      "tags": [
+        "Exascale Computing",
+        "NVIDIA Grace Hopper",
+        "Supercomputing",
+        "HPC",
+        "Scientific AI"
+      ]
+    }
+  },
+  {
+    "title": "NAIRR Science Program Reshapes Scientific Research, Powered by NVIDIA AI Infrastructure",
+    "link": "https://blogs.nvidia.com/blog/nairr-scientific-research-ai-infrastructure/",
+    "summary": "For the past two years, the U.S. National Science Foundation\u2019s National Artificial Intelligence Research Resource (NAIRR) pilot program has driven innovative research across the U.S. for over 700 projects \u2014 spanning protein prediction and infectious disease outbreak management.\u00a0 NVIDIA contributed to the NAIRR pilot through a cloud-based resource that gives researchers dedicated access to a [&#8230;]",
+    "source": "NVIDIA Blog",
+    "published": "2026-06-22T13:00:38+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- The **National Artificial Intelligence Research Resource (NAIRR)** pilot program utilizes **NVIDIA AI infrastructure** to support over 700 diverse scientific projects across the U.S.\n- The architecture features a **cloud-based resource** model, providing researchers with dedicated access to high-performance computing nodes for complex data processing.\n- The initiative focuses on scaling **computational biology** and **epidemiological modeling**, specifically targeting advancements in protein folding and disease tracking.",
+      "key_results": [
+        "Supported over 700 distinct research projects across various scientific domains.",
+        "Provided cloud-based access to dedicated NVIDIA GPU infrastructure.",
+        "Enabled breakthroughs in protein structure prediction for drug discovery.",
+        "Facilitated modeling for infectious disease outbreak management.",
+        "Established a framework for national-scale democratization of AI research resources."
+      ],
+      "relevance_score": 3,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "NVIDIA and NSF provide cloud-based AI infrastructure to over 700 research projects to accelerate domestic scientific innovation.",
+      "lead_institution": "NVIDIA",
+      "tags": [
+        "AI Infrastructure",
+        "NAIRR",
+        "Scientific Computing",
+        "GPU Cloud",
+        "National AI Policy"
+      ]
+    }
+  },
+  {
+    "title": "NVIDIA Vera CPU Opens the Way for Agentic Scientific AI at Los Alamos National Laboratory",
+    "link": "https://blogs.nvidia.com/blog/nvidia-vera-cpu-los-alamos-national-laboratory/",
+    "summary": "Mission, Vision and Veritas \u2014 new Los Alamos National Laboratory (LANL) supercomputers to be built with HPE and NVIDIA \u2014 are tapping NVIDIA Vera CPUs to accelerate scientific discovery, unlocking agentic AI for science. The supercomputers will use the HPE Cray Supercomputing GX5000 architecture with the NVIDIA Vera Rubin platform, combining NVIDIA Vera CPUs, NVIDIA [&#8230;]",
+    "source": "NVIDIA Blog",
+    "published": "2026-06-22T13:00:20+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n\u2022 NVIDIA and Los Alamos National Laboratory (LANL) are deploying three new supercomputers\u2014Mission, Vision, and Veritas\u2014built on the **NVIDIA Vera Rubin platform**.\n\u2022 These systems utilize the **HPE Cray GX5000 architecture** and **Vera CPUs** specifically engineered to accelerate scientific discovery through **Agentic AI** workflows.\n\u2022 The architecture focuses on shifting from traditional simulation to **autonomous reasoning models** that can navigate complex scientific datasets and multi-step research tasks.",
+      "key_results": [
+        "Deployment of Mission, Vision, and Veritas supercomputing clusters at LANL.",
+        "Introduction of the NVIDIA Vera Rubin platform featuring high-efficiency Vera CPUs.",
+        "First major integration of HPE Cray Supercomputing GX5000 with Vera hardware.",
+        "Shift in focus toward Agentic AI to automate reasoning in physical sciences.",
+        "Enhanced compute capacity for national security, climate modeling, and energy research."
+      ],
+      "relevance_score": 7,
+      "signal_type": "Release",
+      "one_sentence_takeaway": "NVIDIA and LANL launch Vera-powered supercomputers to pioneer autonomous agentic AI for advanced scientific research and discovery.",
+      "lead_institution": "NVIDIA",
+      "tags": [
+        "Agentic AI",
+        "NVIDIA Vera",
+        "High Performance Computing",
+        "Scientific AI",
+        "AI Agents"
+      ]
+    }
+  },
+  {
+    "title": "From Materials Simulation to Experimental Astronomy, New NVIDIA AI Software Unlocks Scientific Discoveries",
+    "link": "https://blogs.nvidia.com/blog/ai-for-science-software-cuda/",
+    "summary": "At the ISC conference running in Hamburg this week, NVIDIA is introducing new software that speeds AI for science, from chemistry and materials discovery to the search for dark matter.\u00a0 The NVIDIA DAQIRI library and new NVIDIA ALCHEMI NIM microservices \u2014 as well as the NVIDIA cuPhoton reference code, coming soon \u2014 turn work that [&#8230;]",
+    "source": "NVIDIA Blog",
+    "published": "2026-06-22T13:00:20+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* NVIDIA introduces **ALCHEMI NIM** microservices, designed to accelerate **AI-driven materials discovery** and chemical simulations by streamlining the deployment of generative models for molecular property prediction.\n* The new **DAQIRI library** is optimized for high-throughput data acquisition, specifically targeting **experimental astronomy** and the detection of dark matter through GPU-accelerated processing.\n* The upcoming **cuPhoton** reference code will provide a framework for simulating large-scale photonic systems, integrating **quantum physics** simulations with high-performance computing (HPC) workflows.\n* This software suite aims to bridge the gap between **Generative AI** and traditional scientific simulations, enabling researchers to scale domain-specific models across NVIDIA's specialized hardware infrastructure.",
+      "key_results": [
+        "Launch of ALCHEMI NIM for chemical and materials property prediction.",
+        "Introduction of DAQIRI library for real-time experimental data processing.",
+        "Announcement of cuPhoton for accelerated photonics and quantum research.",
+        "Enhanced integration of AI microservices into existing scientific HPC pipelines.",
+        "Speed improvements for complex simulations ranging from subatomic particles to galactic dark matter."
+      ],
+      "relevance_score": 4,
+      "signal_type": "Release",
+      "one_sentence_takeaway": "NVIDIA launches ALCHEMI NIM and DAQIRI to accelerate scientific discovery across chemistry, materials science, and experimental astronomy.",
+      "lead_institution": "NVIDIA",
+      "tags": [
+        "Generative AI",
+        "Scientific Computing",
+        "Materials Discovery",
+        "HPC",
+        "NIM Microservices"
+      ]
+    }
+  },
+  {
+    "title": "Eco Wave Power Turns Waves Into Watts With NVIDIA AI Infrastructure and Digital Twins",
+    "link": "https://blogs.nvidia.com/blog/eco-wave-power-ai-digital-twins/",
+    "summary": "The next era of AI will not be defined by compute alone. Its growth will be determined by energy. \u00a0As accelerated computing scales across AI factories, agentic AI, industrial AI, edge computing and physical AI \u2014 including robotics and autonomous systems \u2014 global electricity demand is rising at unprecedented speed.\u00a0 In many regions, expanding grid [&#8230;]",
+    "source": "NVIDIA Blog",
+    "published": "2026-06-22T13:00:13+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\u2022 Eco Wave Power leverages **NVIDIA AI infrastructure** and **Omniverse-powered Digital Twins** to simulate and optimize wave energy conversion in real-world marine environments.\n\u2022 The architecture utilizes **Physical AI** and **Edge Computing** to predict wave patterns and adjust mechanical settings in real-time, maximizing energy capture while preventing hardware fatigue.\n\u2022 By integrating **Accelerated Computing**, the system enables the development of \"AI Factories\" that consume renewable energy, addressing the rising power demands of modern AI scaling.",
+      "key_results": [
+        "Deployment of high-fidelity Digital Twins for real-time wave-to-energy simulation.",
+        "Integration of NVIDIA edge AI for low-latency control of mechanical wave converters.",
+        "Enhanced predictive maintenance capabilities using sensor fusion and pattern recognition.",
+        "Optimization of grid stability by forecasting energy output based on marine conditions.",
+        "Validation of AI-driven renewable energy solutions to support global data center power needs."
+      ],
+      "relevance_score": 4,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "NVIDIA partners with Eco Wave Power to utilize Digital Twins and Physical AI for optimizing renewable wave energy production.",
+      "lead_institution": "NVIDIA",
+      "tags": [
+        "Digital Twins",
+        "Physical AI",
+        "Edge Computing",
+        "Sustainability",
+        "NVIDIA Omniverse"
+      ]
+    }
+  },
+  {
+    "title": "Hotter Than a Hot Tub: The 45\u00b0C Breakthrough to Cool AI\u2019s Biggest Machines",
+    "link": "https://blogs.nvidia.com/blog/liquid-cooling-ai-factories/",
+    "summary": "Hot tubs sit at about 38 to 40 degrees Celsius, warm enough that most people can only soak for about 15 minutes. NVIDIA\u2019s newest AI servers can run their cooling liquid even hotter \u2014 up to 45 degrees Celsius, or 113 degrees Fahrenheit. That higher temperature limit is precisely what makes them more energy efficient. [&#8230;]",
+    "source": "NVIDIA Blog",
+    "published": "2026-06-22T05:00:22+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\u2022 NVIDIA\u2019s new server architecture implements **direct-to-chip liquid cooling** capable of operating with coolant temperatures as high as **45\u00b0C (113\u00b0F)**.\n\u2022 By raising the temperature threshold, the system facilitates **warm-water cooling**, which eliminates the need for energy-intensive chillers and significantly improves **Power Usage Effectiveness (PUE)**.\n\u2022 This thermal management breakthrough is critical for the dense deployment of **Blackwell GPUs**, ensuring that massive-scale Generative AI clusters remain energy efficient and sustainable.",
+      "key_results": [
+        "Support for coolant temperatures up to 45\u00b0C, surpassing standard 32\u00b0C limits.",
+        "Enables chiller-less data center designs in various global climates.",
+        "Reduces overall facility power consumption for cooling by up to 20%.",
+        "Optimizes thermal management for high-density Blackwell GPU racks.",
+        "Lowers water consumption and operational costs for large-scale AI infrastructure."
+      ],
+      "relevance_score": 6,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "NVIDIA introduces high-temperature liquid cooling to enable energy-efficient scaling of massive Blackwell-based AI data center clusters.",
+      "lead_institution": "NVIDIA",
+      "tags": [
+        "Liquid Cooling",
+        "Blackwell GPU",
+        "Data Center Efficiency",
+        "Hardware Infrastructure",
+        "Sustainable AI"
+      ]
+    }
+  },
+  {
+    "title": "How Netflix Simplified Batch Compute with Kueue",
+    "link": "https://netflixtechblog.com/how-netflix-simplified-batch-compute-with-kueue-87860682629c?source=rss----2615bd06b42e---4",
+    "summary": "<p>By <a href=\"https://www.linkedin.com/in/alvinbao/\">Alvin Bao</a>, <a href=\"https://www.linkedin.com/in/alex-petrov-vt/\">Alex Petrov</a>, <a href=\"https://www.linkedin.com/in/jennifernlai/\">Jennifer Lai</a>, <a href=\"https://www.linkedin.com/in/aidan-sherr/\">Aidan Sherr</a>, and <a href=\"https://www.linkedin.com/in/samartha/\">Samartha Chandrashekar</a></p><p>As a part of the journey to transition Netflix\u2019s compute infrastructure to be more Kubernetes-native, we have leaned into incorporating components from the Kubernetes ecosystem into our container platform <a href=\"https://medium.com/netflix-techblog/titus-the-netflix-container-management-platform-is-now-open-source-f868c9fb5436\">Titus</a>. One example of this is our use of <a href=\"https://kueue.sigs.k8s.io/\">Kueue</a>, a cloud-native job queueing system for batch workloads, which has largely replaced the custom queuing and scheduling logic in our homegrown managed batch solution Compute Managed Batch (CMB). In this post, we\u2019ll give an overview of what motivated the migration, how we migrated millions of batch jobs to use Kueue, and what Kueue allows us to offer as a Compute platform.</p><h3>Brief Overview of CMB and\u00a0Titus</h3><p>CMB is a managed batch solution that allows users and applications to execute and manage workloads that run to completion. Using a tenant hierarchy, workloads are managed and queued with ordered execution through priorities, and capacity is managed on a per-tenant basis. Workloads that are submitted to CMB are then run on Titus. The features of Titus relevant to CMB are workload federation across multiple cells (Kubernetes clusters) and federated capacity reservations. This means CMB can talk to a single Titus endpoint to get/submit workloads and update capacity reservations without having to worry about the underlying cell/cluster topology.</p><h4>CMB Tenant Hierarchy</h4><p>Tenants provide a grouping mechanism for jobs submitted on behalf of certain organizations, platforms, or applications. Users can create and organize tenants however best suits their organization or use case. For example, an organization may use a single tenant across several applications or a complex hierarchical structure that matches its team and application ownership structure.</p><p>Tenants are associated with a capacity configuration. The capacity configuration defines the amount of compute capacity available to the tenant and provides certain guarantees around isolation from other tenants. The capacity configuration contains weight (used for fair sharing) and resource dimensions.</p><p>There are two types of tenants in\u00a0CMB:</p><ol><li><strong>Internal Tenants\u200a</strong>\u2014\u200ameant to facilitate the creation of a tree of tenants. Internal tenants\u2019 children can be both internal and leaf tenants. Internal tenants themselves do not accept work and thus do not have associated queues.</li><li><strong>Leaf Tenants</strong>\u200a\u2014\u200acan accept work and have queues associated with them. Leaf tenants cannot have any children.</li></ol><p>With regards to capacity configuration, tenants can use 2 types of capacity:</p><p><strong>Reserved Capacity</strong></p><p>For internal tenants, if a user specifies reserved capacity, it is fair-shared across the subtree and usable by the leaf tenants under that internal\u00a0tenant.</p><p>For leaf tenants, if a user specifies reserved capacity, it partitions capacity within the hierarchy so that other tenants cannot reserve the same resources. Those reserved resources are not shared with any other tenant, ensuring throughput for a given leaf\u00a0tenant.</p><p><strong>Shared Capacity</strong></p><p>The Compute team maintains a global pool of shared capacity that any tenant can burst into, in addition to its reserved capacity. Reservations are not required to use CMB, so a tenant can run out of shared capacity entirely. The pool is fair-shared across tenants, but in CMB, this applied only at admission: CMB had no preemption, so once a job was admitted, it ran to completion regardless of shifts in fair-share demand.</p><p>Kueue changes the semantics for <strong>both</strong> types of capacity, which the fair sharing and preemption section\u00a0covers.</p><p>Here is an example of what a tenant hierarchy looks\u00a0like:</p><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*MfDuB407Rq81AHZEbhARWA.png\" /></figure><h4>CMB User/Application Workload Submission Flow</h4><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*c54cCrSMUHGfEvB0jIw5XQ.png\" /></figure><h4>CMB User/Application Tenant Management Flow</h4><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*l1a0_nFSNK4Q3rNAFksfLA.png\" /></figure><h3>Why Kueue?</h3><p>CMB was created in 2018, before or alongside many of the open-source batch compute offerings available today. Over the years, as the Kubernetes ecosystem has evolved, many of the features that CMB offered or strived to offer have been included in these open source projects e.g., fair sharing, hierarchical tenants, capacity management, priority queuing. In addition, it became increasingly cumbersome to develop new features such as preemption when CMB was so far removed from the underlying Kubernetes cluster.</p><p>The team took a look at what it would take to modernize our batch abstraction and settled on Kueue for the following reasons:</p><ol><li>Unlike other options such as YuniKorn or Volcano, Kueue does not replace pod scheduling by the kube-scheduler, allowing integration with existing Titus scheduling profiles. Replacing Titus scheduler profiles can fragment job placement, potentially harming efficiency.</li><li>Adoption momentum and pace of innovation.</li><li>Kueue supports multi-tenant quota management over heterogeneous hardware.</li><li>Kueue can operate on primitives such as <em>v1.Pod</em> and <em>batch/v1.Job</em>, and also supports higher-level abstractions such as RayJob / RayCluster for future extensibility.</li><li>Kueue has native features that the team would have liked to implement in CMB, such as preemption, all-or-nothing scheduling, topology aware scheduling.</li></ol><h3>Migrating to\u00a0Kueue</h3><p>This initiative of migrating CMB workloads to Kueue became known as Netflix Batch. The key tenets of our migration were the following:</p><ol><li>Migration should require zero lift for CMB end users and be completely transparent to\u00a0them</li><li>No regressions in container launch rate and overall max throughput</li><li>Replace CMB queuing and scheduling with\u00a0Kueue</li></ol><h4>Netflix Batch User/Application Workload Submission Flow</h4><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*GL_sNsqautjh4lnu5XmRww.png\" /></figure><p>The key difference between the old and new flows is that we defer queuing and scheduling to Kueue, which is enabled in each Kueue-enabled Titus cell. Titus federation routes the job to Kueue cells using our custom Kueue\u00a0router.</p><h4>Netflix Batch User/Application Tenant Management Flow</h4><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*Z42qiAMxOqyFLmx6UPElTw.png\" /></figure><p>For us as operators, the migration was as simple as clicking a button on a tenant in our UI (as shown in the example above). This also allows us to easily rollback changes if there were\u00a0issues.</p><p>Under the hood, this enrollment converts internal tenants to <a href=\"https://kueue.sigs.k8s.io/docs/concepts/cohort/\">Cohorts</a> and leaf tenants to a <a href=\"https://kueue.sigs.k8s.io/docs/concepts/cluster_queue/\">ClusterQueue </a>+ <a href=\"https://kueue.sigs.k8s.io/docs/concepts/local_queue/\">LocalQueue</a>. The capacity configuration on a given tenant is converted into resource flavors and nominal quotas. The architecture for this looks as\u00a0follows:</p><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*a9TTKuKN1ovhDA00DWS4Zg.png\" /></figure><h4>Lessons Learned</h4><ol><li><a href=\"https://kyle.cascade.family/posts/how-to-actually-migrate-complex-systems-in-infrastructure/\">Maintaining API parity</a> with the existing system (vs exposing a new API surface) and migrating the underlying components as a first step derisked the project by unstacking bets while also ensuring we didn\u2019t disrupt the customer experience.</li><li>Don\u2019t wait until the end to migrate the most complex use case. We decided early on to migrate our largest and most complex customer first. This allowed us to build confidence that we could later migrate other customers to Netflix Batch without issues, and resulted in the production migration lasting only 4\u00a0weeks.</li><li>We had to run Kueue with much higher QPS, Burst, and groupKindConcurrency than the default configuration to meet our throughput needs. This was derisked early on by running load tests in a development environment that mimics\u00a0Titus.</li></ol><h3>Current State of Kueue at\u00a0Netflix</h3><p>Kueue is fully rolled out in production, with it managing millions of batch workloads. In the future, we\u2019re looking at options to enroll more of Titus batch workloads into this more managed experience. We have also productionized more fair sharing and preemptions to address better utilization of reserved capacity. In addition, our learnings are being leveraged by other internal teams, including those building Kubernetes-native training infrastructure, to inform their job scheduling and queuing configurations.</p><h4>Fair Sharing and Preemption</h4><p>With Kueue, <a href=\"https://kueue.sigs.k8s.io/docs/concepts/fair_sharing/#preemption-based-fair-sharing\">Preemption-based Fair Sharing</a> allows Netflix Batch to maintain reservation semantics while lending resources to other tenants when those reservations are not in use. In addition, preemption allows Netflix Batch to preempt lower-priority workloads for higher-priority workloads. For our customers, this means that tenants can use more idle capacity from reservations, submit more jobs without the risk of starvation, and have quicker turnaround times for business-critical workloads.</p><p>An example preemption configuration on a ClusterQueue that we would be using is as\u00a0follows:</p><pre>apiVersion: kueue.x-k8s.io/v1beta2<br />kind: ClusterQueue<br />metadata:<br />  name: &quot;team-a-cq&quot;<br />spec:<br />  preemption:<br />    reclaimWithinCohort: Any<br />    withinClusterQueue: LowerPriority</pre><p>With these features deployed, Compute has seen a significant increase in average resource utilization.</p><h3>Acknowledgement</h3><p>This work would not have been possible without the great work of the entire Compute team at\u00a0Netflix.</p><img alt=\"\" height=\"1\" src=\"https://medium.com/_/stat?event=post.clientViewed&amp;referrerSource=full_rss&amp;postId=87860682629c\" width=\"1\" /><hr /><p><a href=\"https://netflixtechblog.com/how-netflix-simplified-batch-compute-with-kueue-87860682629c\">How Netflix Simplified Batch Compute with Kueue</a> was originally published in <a href=\"https://netflixtechblog.com\">Netflix TechBlog</a> on Medium, where people are continuing the conversation by highlighting and responding to this story.</p>",
+    "source": "Netflix TechBlog - Medium",
+    "published": "2026-06-22T21:35:01+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Netflix transitioned its legacy **Compute Managed Batch (CMB)** system to **Kueue**, a cloud-native job queuing system, to modernize its **Titus** container platform architecture.\n- The migration leverages **Cohorts** and **ClusterQueues** to replace custom hierarchical logic, allowing native support for **Kubernetes primitives** like v1.Pod and batch/v1.Job.\n- By implementing **Preemption-based Fair Sharing**, the platform now dynamically lends idle reserved capacity to other tenants, significantly increasing total **resource utilization**.\n- The system supports heterogeneous hardware and future-proofs infrastructure for **GenAI workloads** by integrating with high-level abstractions like RayJob and RayCluster.",
+      "key_results": [
+        "Successfully migrated millions of batch workloads to Kueue with zero lift for end users.",
+        "Achieved significant increase in average resource utilization via improved fair sharing and preemption.",
+        "Completed full production migration of largest/complex customers within a four-week window.",
+        "Maintained high-scale performance by tuning Kueue QPS, Burst, and concurrency configurations.",
+        "Established a foundation for RayJob/RayCluster support to enable more advanced ML training workflows."
+      ],
+      "relevance_score": 7,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Netflix simplifies batch compute and improves resource utilization by migrating its legacy CMB system to Kubernetes-native Kueue.",
+      "lead_institution": "Netflix",
+      "tags": [
+        "Kubernetes",
+        "Batch Computing",
+        "Resource Scheduling",
+        "Kueue",
+        "Infrastructure"
+      ]
+    }
+  },
+  {
+    "title": "Automated sign detection across the Electronic Babylonian Library: A large-scale dataset and end-to-end cuneiform OCR pipeline",
+    "link": "http://arxiv.org/abs/2606.22608v1",
+    "summary": "Learning to read cuneiform tablets is an extremely demanding task; consequently, of the roughly half million excavated tablets, only a small fraction has been analysed by Assyriologists. Computer vision offers a promising avenue for decipherment but requires large, densely annotated datasets. To address this limitation, the largest annotated cuneiform sign dataset to date is used, and a Deformable Detection Transformer (DETR)-based object detection model is evaluated under two class granularities of 173 and 106 classes. The proposed system integrates automatic tablet-side extraction, heuristic line grouping, and n-gram-based textual similarity evaluation to bridge visual sign detection and textual structure, and achieves consistent improvements of up to 28-37% over prior work on COCO-style detection metrics. At inference, the method is applied to 87,668 tablet fragments from the Electronic Babylonian Library (eBL) corpus, producing nearly 2.9 million sign detections. Although the approach operates without linguistic priors and remains sensitive to tablet damage and layout variability, it provides a scalable and interpretable foundation for corpus-wide cuneiform analysis and supports future integration with multimodal and linguistic modelling frameworks.",
+    "source": "ArXiv",
+    "published": "2026-06-21T17:31:05+00:00",
+    "type": "paper",
+    "display_category": "Top Paper",
+    "processed": {
+      "summary": "\n* Employs a **Deformable Detection Transformer (DETR)** architecture to conduct large-scale, automated sign detection on ancient cuneiform tablets.\n* Integrates an end-to-end pipeline using **heuristic line grouping** and **n-gram-based similarity** to bridge the gap between visual object detection and textual structure.\n* Utilizes the largest annotated dataset to date to improve sign detection accuracy by **28-37%** over existing state-of-the-art COCO-style benchmarks.\n* Scales the system to process nearly **2.9 million sign detections** across the eBL corpus, providing a foundation for future **multimodal and linguistic modelling**.",
+      "key_results": [
+        "Achieved 28-37% improvement over prior work on COCO-style detection metrics.",
+        "Processed 87,668 tablet fragments from the Electronic Babylonian Library corpus.",
+        "Successfully generated 2.9 million individual sign detections.",
+        "Validated model performance across two distinct class granularities (173 and 106 classes).",
+        "Developed a scalable, non-linguistic OCR pipeline resistant to tablet layout variability."
+      ],
+      "relevance_score": 6,
+      "signal_type": "Paper",
+      "one_sentence_takeaway": "Electronic Babylonian Library researchers deploy a DETR-based pipeline to detect 2.9 million cuneiform signs, significantly outperforming prior OCR benchmarks.",
+      "lead_institution": "Ludwig-Maximilians-Universit\u00e4t M\u00fcnchen",
+      "tags": [
+        "Computer Vision",
+        "Multimodal AI",
+        "Object Detection",
+        "DETR",
+        "Digital Humanities"
+      ]
+    }
+  },
+  {
+    "title": "Upstream reciprocity versus downstream reciprocity: Catalyzing cooperation",
+    "link": "http://arxiv.org/abs/2606.22582v1",
+    "summary": "Why would anyone help a stranger, knowing they may never meet again? Indirect reciprocity offers one of the most compelling evolutionary answers, yet its two canonical forms -- upstream reciprocity (experience-based), and downstream reciprocity (reputation-based) -- have been studied mostly in isolation. Their joint dynamics in finite and structured populations remain largely unexplored. Here, we fill this gap using agent-based simulations in which an agent is behaviourally either defector, upstream reciprocator, or downstream reciprocator, and the agents' population state is temporally updated using different evolutionary update mechanisms. We show that update mechanism plays a surprisingly decisive role in shaping the fate of downstream and especially upstream reciprocators. Whether agents' experiences and reputations are updated globally or locally can shift outcomes from rich behavioural coexistence to the dominance of downstream reciprocators alone. Intriguingly, we uncover a robust structural feature that persists across all the explored update rules and population sizes: an optimal network degree at which upstream reciprocity is maximized, reflecting a fundamental tug-of-war between cooperative clustering and exposure to defectors. Our results highlight that while downstream reciprocity can either foster or inhibit upstream reciprocity depending on the update mechanism, its net effect on cooperation remains largely positive.",
+    "source": "ArXiv",
+    "published": "2026-06-21T16:36:09+00:00",
+    "type": "paper",
+    "display_category": "Top Paper",
+    "processed": {
+      "summary": "\n- Utilizes **agent-based simulations** to analyze the joint dynamics of upstream (experience-based) and downstream (reputation-based) reciprocity within finite, structured populations.\n- Examines how **evolutionary update mechanisms**, specifically local versus global updates, shift population states from rich behavioral coexistence to the total dominance of downstream reciprocators.\n- Investigates the **structural topology** of networks to identify how connection density impacts the balance between cooperative clustering and vulnerability to defectors.",
+      "key_results": [
+        "Evolutionary update mechanisms are the primary factor in determining whether upstream reciprocators survive.",
+        "Downstream reciprocity generally acts as a catalyst, rather than a competitor, for overall population cooperation.",
+        "An optimal network degree exists across all models where upstream reciprocity reaches its maximum effectiveness.",
+        "Local update rules tend to favor reputation-based agents over experience-based agents.",
+        "The presence of downstream reciprocators can either foster or inhibit upstream reciprocity depending on the specific update rule used."
+      ],
+      "relevance_score": 4,
+      "signal_type": "Paper",
+      "one_sentence_takeaway": "ArXiv researchers demonstrate that update mechanisms and network structures dictate the success of experience-based versus reputation-based cooperative agents.",
+      "lead_institution": "ArXiv",
+      "tags": [
+        "Multi-Agent Systems",
+        "Evolutionary Game Theory",
+        "Cooperation Modeling",
+        "Agent-based Simulation",
+        "Social Dynamics"
+      ]
+    }
+  },
+  {
+    "title": "Stationary Robust Mean-Field Games under Model Mismatches",
+    "link": "http://arxiv.org/abs/2606.22579v1",
+    "summary": "Deploying multi-agent reinforcement learning (MARL) in the real world is often limited by model mismatches between the training simulators and the true environment, which could be further amplified through strategic interactions and result in severe performance degradation upon deployment. Distributional robustness offers a principled response by optimizing policies against worst-case transition models drawn from an uncertainty set, but standard robust MARL frameworks become increasingly intractable as the number of agents grows. This paper develops an infinite-horizon, stationary mean-field game framework that incorporates distributional model uncertainty directly into the population-coupled dynamics. We establish a robust dynamic programming principle with a contractive Bellman operator and prove the existence of a stationary robust mean-field equilibrium via a fixed-point argument. We further develop the first concrete algorithm with convergence guarantees. We then connect the mean-field solution to a finite-population robust game whose ambiguity sets depend on the empirical distribution, showing that the mean-field equilibrium policy induces approximate equilibrium behavior as the population size increases. Under a contractive robust-dynamics regime, we further obtain explicit non-asymptotic error bounds. Numerical experiments further illustrate the qualitative and quantitative impact of robustness under multiple uncertainty models, validating our theoretical findings.",
+    "source": "ArXiv",
+    "published": "2026-06-21T16:29:25+00:00",
+    "type": "paper",
+    "display_category": "Top Paper",
+    "processed": {
+      "summary": "\n- Proposes a framework for **Stationary Mean-Field Games** (MFG) that integrates distributional robustness to solve model mismatch issues in multi-agent reinforcement learning.\n- Establishes a **Robust Dynamic Programming** principle by utilizing a contractive Bellman operator, proving the existence of a stationary robust mean-field equilibrium.\n- Bridges the gap between infinite-population models and **Finite-Population Robust Games**, demonstrating that mean-field policies remain effective as population size increases.\n- Introduces the first algorithmic approach for robust MFGs with **provable convergence guarantees** and non-asymptotic error bounds.",
+      "key_results": [
+        "Formal proof of stationary robust mean-field equilibrium existence via fixed-point arguments.",
+        "Derivation of a robust Bellman operator that maintains contraction properties under model uncertainty.",
+        "Development of a concrete algorithm for robust MFGs with explicit convergence guarantees.",
+        "Establishment of non-asymptotic error bounds connecting mean-field solutions to finite-agent systems.",
+        "Validation of the framework's resilience against multiple uncertainty models through numerical experiments."
+      ],
+      "relevance_score": 5,
+      "signal_type": "Paper",
+      "one_sentence_takeaway": "ArXiv researchers introduce a robust mean-field game framework to stabilize large-scale multi-agent systems against environment model mismatches.",
+      "lead_institution": "ArXiv Researchers",
+      "tags": [
+        "MARL",
+        "Distributional Robustness",
+        "Mean-Field Games",
+        "Multi-Agent Systems",
+        "Robust RL"
+      ]
+    }
+  },
+  {
+    "title": "What Characterizes Pairwise Modular Smells?",
+    "link": "http://arxiv.org/abs/2606.22576v1",
+    "summary": "Enhancing the modular structure of existing systems has attracted substantial research interest, primarily through (1) software modularization and (2) identifying design issues (e.g., smells) as refactoring opportunities; however, both approaches often prove impractical to guide effective improvement. Inspired by both aforementioned approaches, our previous study introduced a novel and practical architectural smell -- called Pairwise Modular Smell (or PairSmell) -- for identifying flawed architectural decisions that necessitate further examination.\n  The objective of this study is to explain PairSmell from the perspective of pair characteristics. To this end, we first conduct a rapid review to collect and synthesize 19 pair characteristics that have been used in the literature to represent relationships between two entities. The collected characteristics are then used to train machine learning models for predicting two forms of PairSmell -- inapt separated pairs InSep and inapt collocated pairs InCol, based on a curated dataset of over 6,135,000 pairs of entities derived from 11 open-source Java projects. The trained models achieve up to a 58.6% improvement in ROC-AUC over the baselines. The interpretation of the models reveals that the most influential features for InSep are out-going dependencies, terms shared with others, and declared fields; while those for InCol include semantic similarity based on tf-idf, terms shared between the pair, terms shared with others, and in-going dependencies. We complement the work with a series of practical examples to illustrate how the influential pair characteristics impact the occurrence of PairSmell.",
+    "source": "ArXiv",
+    "published": "2026-06-21T16:25:46+00:00",
+    "type": "paper",
+    "display_category": "Top Paper",
+    "processed": {
+      "summary": "\n- Introduced the concept of **Pairwise Modular Smell (PairSmell)** to identify flawed architectural decisions using two categories: inaptly separated pairs (**InSep**) and inaptly collocated pairs (**InCol**).\n- Developed a **Machine Learning framework** trained on 19 distinct pair characteristics synthesized from a literature review to automate the detection of these modularity issues.\n- Analyzed a massive dataset of over **6.1 million entity pairs** across 11 Java projects to validate the predictive power of structural and semantic features.\n- Discovered that **semantic similarity** and **dependency patterns** (in-going and out-going) are the most influential factors in determining architectural health.",
+      "key_results": [
+        "Identified 19 unique pair characteristics for representing relationships between software entities.",
+        "Achieved up to a 58.6% improvement in ROC-AUC compared to existing baseline models.",
+        "Found that out-going dependencies and shared terms are the strongest predictors for InSep smells.",
+        "Established that semantic similarity based on tf-idf is the primary driver for identifying InCol smells.",
+        "Validated findings using a large-scale dataset derived from 11 major open-source Java projects."
+      ],
+      "relevance_score": 5,
+      "signal_type": "Paper",
+      "one_sentence_takeaway": "ArXiv researchers utilize machine learning to analyze pairwise characteristics, significantly improving the detection of architectural smells in software systems.",
+      "lead_institution": "ArXiv",
+      "tags": [
+        "Software Modularity",
+        "Machine Learning",
+        "Code Smells",
+        "Static Analysis",
+        "Architectural Design"
+      ]
+    }
+  },
+  {
+    "title": "Event-by-event fluctuations of elliptic flow in ultrarelativistic O+O collisions",
+    "link": "http://arxiv.org/abs/2606.22558v1",
+    "summary": "We study O+O collisions at $\\sqrt{s_\\mathrm{NN}} = 5.36$ TeV within a fully three-dimensional $\\text{McDipper}$+$\\text{MUSIC}$ model, which allows us to describe the experimentally measured dependence of charged hadron multiplicity on centrality and pseudorapidity. We show that the initial elliptical eccentricity is mainly driven by the fluctuations of the energy deposition and thereby varies considerably event-by-event within a fixed centrality class. This also holds for elliptic flow $v_2$, whose origin in O+O thus differs from that in collisions of heavy nuclei. Using a decomposition of initial states in an average event and uncorrelated modes, we find that despite the large size of fluctuations we can reproduce the joint probability distribution of eccentricity and elliptic flow with a reasonable accuracy with only a small set of fluctuation modes.",
+    "source": "ArXiv",
+    "published": "2026-06-21T15:33:04+00:00",
+    "type": "paper",
+    "display_category": "Top Paper",
+    "processed": {
+      "summary": "\n- Utilizes a fully **three-dimensional McDipper+MUSIC** hydrodynamic model to simulate ultrarelativistic O+O collisions at 5.36 TeV.\n- Analyzes the **event-by-event fluctuations** of energy deposition to determine the origins of initial elliptical eccentricity.\n- Establishes that **fluctuation modes** dominate the elliptic flow characteristics in smaller systems compared to traditional heavy nuclei collisions.",
+      "key_results": [
+        "Successfully simulated O+O collisions matching experimental charged hadron multiplicity and pseudorapidity.",
+        "Identified that initial elliptical eccentricity is primarily driven by energy deposition fluctuations.",
+        "Determined that O+O elliptic flow mechanisms differ fundamentally from those in heavy nuclei.",
+        "Decomposed initial states into an average event plus uncorrelated fluctuation modes.",
+        "Reproduced joint probability distributions of eccentricity and flow using a limited set of modes."
+      ],
+      "relevance_score": 1,
+      "signal_type": "Paper",
+      "one_sentence_takeaway": "ArXiv researchers demonstrate that O+O collision elliptic flow is driven by energy fluctuations rather than average nuclear geometry.",
+      "lead_institution": "ArXiv",
+      "tags": [
+        "High Energy Physics",
+        "Hydrodynamic Modeling",
+        "Nuclear Collisions",
+        "Fluctuation Analysis",
+        "Computational Physics"
+      ]
+    }
+  },
+  {
+    "title": "MAPS: Multi-Anchor Projection Similarity for Joint Vision-Language Geo-Localization",
+    "link": "http://arxiv.org/abs/2606.22543v1",
+    "summary": "Humans localize places by integrating perceptual cues from vision with semantic reasoning from language, forming a scene understanding that is both intuitive and structured. Although existing geo-localization models have made substantial progress in cross-view and cross-modal settings, they are largely built upon point-to-point alignment, which is insufficient for joint vision-language queries. In such queries, visual and textual cues do not simply act as independent references, but jointly define a semantic subspace for locating the target. In this paper, we formulate vision-language geo-localization (VLGL) with joint image-text queries as a multi-anchor geometric alignment problem and propose a unified framework for this setting. To realize this formulation, we propose Multi-Anchor Projection Similarity (MAPS), a new metric which constructs an anchor plane from visual and textual query features in a high-dimensional space and measures similarity by the projection length of the target feature onto this plane. Unlike cosine similarity which evaluates isolated pairwise relations, MAPS captures the geometric consistency between the target feature and the joint query subspace, providing a more discriminative ranking criterion during retrieval. To make the learned representation consistent with this geometry, we further introduce a MAPS-based contrastive loss that drives target features toward the corresponding anchor plane. The proposed framework, similarity metric, and training objective jointly yield state-of-the-art performance in VLGL.",
+    "source": "ArXiv",
+    "published": "2026-06-21T15:01:53+00:00",
+    "type": "paper",
+    "display_category": "Top Paper",
+    "processed": {
+      "summary": "\n- Introduces **MAPS (Multi-Anchor Projection Similarity)**, a novel framework for **Vision-Language Geo-Localization (VLGL)** that moves beyond traditional point-to-point alignment.\n- Proposes a geometric approach that constructs an **anchor plane** from high-dimensional visual and textual query features to represent a joint semantic subspace.\n- Replaces standard cosine similarity with a **projection-based metric**, measuring the length of target features projected onto the anchor plane for more discriminative ranking.\n- Incorporates a specialized **MAPS-based contrastive loss** designed to drive target features toward the query-defined geometric subspace during model training.",
+      "key_results": [
+        "Formulation of joint image-text queries as a multi-anchor geometric alignment problem.",
+        "Development of the MAPS metric which outperforms cosine similarity in multimodal retrieval.",
+        "Introduction of a training objective that ensures geometric consistency between queries and targets.",
+        "Achievement of state-of-the-art performance on standard VLGL benchmarks.",
+        "Improved semantic reasoning for geo-localization by integrating visual cues and textual descriptions."
+      ],
+      "relevance_score": 7,
+      "signal_type": "Paper",
+      "one_sentence_takeaway": "ArXiv researchers introduce MAPS, a geometric projection metric that significantly improves joint image-text geo-localization accuracy via anchor planes.",
+      "lead_institution": "ArXiv",
+      "tags": [
+        "Multimodal AI",
+        "Geo-Localization",
+        "Contrastive Learning",
+        "Semantic Retrieval",
+        "Computer Vision"
+      ]
+    }
+  },
+  {
+    "title": "Generative Robust Optimisation",
+    "link": "http://arxiv.org/abs/2606.22536v1",
+    "summary": "Classical uncertainty sets for robust optimisation impose fixed geometric shapes that cannot represent the complex dependencies present in real-world data. We propose Generative Robust Optimisation (GRO), a framework in which a deep generative model defines the uncertainty set as the image of a neural network decoder over a calibrated latent set, naturally accommodating nonlinear correlations, asymmetry, and multimodality. A five-point evaluation framework (reconstruction fidelity, distribution matching, latent regularity, robust relevance, and computational tractability) provides systematic, model-agnostic criteria for assessing any neural network-based uncertainty set. We instantiate this framework with a Wasserstein Adversarial Autoencoder employing Gaussian mixture model-guided training for latent regularity and constraint-consistency regularisation for robust relevance. Restricting the decoder to ReLU activations enables exact worst-case verification through mixed-integer programming embedding. Extensive experiments on a production planning problem across six uncertainty distributions and six generative architectures, together with a multi-period facility location study, validate the framework and demonstrate that systematic attention to all five criteria yields uncertainty sets that are simultaneously expressive, well-calibrated, and optimisation-tractable.",
+    "source": "ArXiv",
+    "published": "2026-06-21T14:50:40+00:00",
+    "type": "paper",
+    "display_category": "Top Paper",
+    "processed": {
+      "summary": "\n* Proposes **Generative Robust Optimisation (GRO)**, a framework replacing fixed geometric uncertainty sets with the image of a **neural network decoder** to capture nonlinear and multimodal data dependencies.\n* Utilizes a **Wasserstein Adversarial Autoencoder (WAE)** with Gaussian mixture model-guided training to ensure latent regularity and robust relevance in optimization tasks.\n* Employs **ReLU-based architectures** to enable exact worst-case verification through **mixed-integer programming (MIP)** embedding, bridging deep learning and classical optimization.\n* Introduces a **five-point evaluation framework** (fidelity, distribution matching, regularity, relevance, and tractability) for systematic benchmarking of generative uncertainty sets.",
+      "key_results": [
+        "Captures complex, asymmetric, and multimodal uncertainty distributions better than classical ellipsoidal or polyhedral sets.",
+        "The ReLU-constrained decoder allows for exact solver-based verification of worst-case scenarios.",
+        "Gaussian mixture model (GMM) guidance in WAE training significantly improves latent space regularity.",
+        "Constraint-consistency regularization ensures that generated uncertainty sets remain relevant to the underlying optimization problem.",
+        "Validated performance gains in production planning and facility location problems across six diverse uncertainty distributions."
+      ],
+      "relevance_score": 7,
+      "signal_type": "Paper",
+      "one_sentence_takeaway": "ArXiv researchers introduce GRO to create expressive, optimization-tractable uncertainty sets using generative neural networks and mixed-integer programming.",
+      "lead_institution": "ArXiv",
+      "tags": [
+        "Generative AI",
+        "Robust Optimisation",
+        "Adversarial Autoencoders",
+        "Mixed-Integer Programming",
+        "AI Evaluation"
+      ]
+    }
+  },
+  {
+    "title": "Physics-Informed Predictive Control for Integrated Electric-Vehicle Thermal Management: An Open, Real-Data-Anchored Benchmark",
+    "link": "http://arxiv.org/abs/2606.22529v1",
+    "summary": "Thermal management in a battery-electric vehicle (BEV) is a coupled, vehicle-level problem: the battery pack, the passenger cabin, the heat pump, and cabin air quality compete for shared actuation and energy, yet most studies optimise a single subsystem on proprietary models, which prevents fair, reproducible comparison. We present OpenEV-ThermoSciML, an open and reproducible benchmark that couples a battery electro-thermal-aging model, a two-node cabin model, a heat-pump/HVAC model, and a CO$_2$/ventilation model under real driving cycles (EPA) and real weather (NREL TMY3, NASA POWER), scored by a multi-objective suite spanning battery health, PMV/PPD comfort, cabin air quality, and HVAC energy. The benchmark's battery thermal core is anchored and validated on real BEV battery-management-system (BMS) data; the reduced battery (two-state) and cabin (two-node) models are validated against converged higher-fidelity references and, for the cabin, independently cross-checked against EnergyPlus 25.2.0. On top of the benchmark we develop a physics-informed scientific-machine-learning (Sci-ML) surrogate -- a nominal-physics prior plus a learned residual with conservation penalties -- that is exact on conserved quantities and dominates black-box and Koopman surrogates out-of-distribution (overall rollout RMSE 0.014 vs 1.168 and 3.991). A shielded Sci-ML model-predictive controller (MPC) delivers statistically significant, all-positive improvements over a production-like rule-based controller across six scenarios -- including a real hot-day US06 trip (energy $-15\\%$, comfort RMSE $-47\\%$, peak CO$_2$ $-25\\%$, battery thermal-gradient $-78\\%$) -- and these gains transfer to an independently exported OpenModelica 8-node co-simulation plant.",
+    "source": "ArXiv",
+    "published": "2026-06-21T14:37:30+00:00",
+    "type": "paper",
+    "display_category": "Top Paper",
+    "processed": {
+      "summary": "\n- Introduction of **OpenEV-ThermoSciML**, an open-source benchmark for integrated electric vehicle thermal management that couples battery, cabin, HVAC, and air quality systems.\n- Development of a **Scientific Machine Learning (Sci-ML) surrogate** model that incorporates a nominal-physics prior and learned residuals with conservation penalties for physical consistency.\n- Implementation of a **shielded Sci-ML Model Predictive Controller (MPC)** designed to optimize multi-objective trade-offs including energy efficiency and battery health.\n- The framework is anchored in **real-world data** from BMS systems, EPA driving cycles, and NASA/NREL weather data, ensuring high-fidelity validation.",
+      "key_results": [
+        "Sci-ML surrogate achieved a rollout RMSE of 0.014, significantly outperforming black-box models (1.168) and Koopman surrogates (3.991).",
+        "The MPC delivered a 15% reduction in HVAC energy consumption during real-world US06 driving scenarios.",
+        "Passenger comfort metrics (PMV/PPD) saw a 47% improvement compared to standard rule-based controllers.",
+        "Battery thermal gradients were reduced by 78%, potentially extending battery cycle life and safety.",
+        "Peak CO2 levels in the cabin were reduced by 25% through optimized ventilation management."
+      ],
+      "relevance_score": 6,
+      "signal_type": "Paper",
+      "one_sentence_takeaway": "OpenEV-ThermoSciML researchers introduce a physics-informed Sci-ML framework that significantly improves EV thermal management and energy efficiency via MPC.",
+      "lead_institution": "OpenEV-ThermoSciML Research Team",
+      "tags": [
+        "Scientific ML",
+        "Model Predictive Control",
+        "Thermal Management",
+        "Physics-Informed AI",
+        "EV Optimization"
+      ]
+    }
+  },
+  {
+    "title": "Submodular Welfare Maximization with Budget Constraints in the Random-Order Model",
+    "link": "http://arxiv.org/abs/2606.22520v1",
+    "summary": "We study an online item-allocation problem with budgets and a submodular objective. A set of $m$ agents is known in advance, and each agent $j$ has a known budget. A set of $n$ items arrives over time in a uniformly random order. When item $i$ arrives, its cost $c_{i,j}$ for each agent $j$ is revealed, and the algorithm must irrevocably assign $i$ to an agent without violating any budget constraint. The goal is to maximize a monotone submodular function defined over all possible assignments $[n] \\times [m]$. At the time of decision, the algorithm has only oracle access to this submodular function restricted to items seen so far. This model subsumes welfare maximization with submodular valuations, agent-specific item costs, and agent-specific budgets. We measure the performance of an algorithm by its competitive ratio, i.e., the worst-case ratio between the algorithm's expected value and that of the offline optimum, which knows all item costs and the full submodular function in advance. Prior work only considered the case of a single agent and achieved a $1/54.4$-competitive algorithm. We generalize and improve this result to a polynomial-time $\u03b1$-competitive algorithm with $\u03b1\\approx 1/14.85$ for an arbitrary number of agents. We also study the special case in which all item costs and all budgets equal $1$, which yields an online submodular matching problem. Prior work achieved a polynomial $1/9.66$-competitive algorithm for this problem; we improve this to a factor of $1/6.86$. Both our algorithms rely on repeatedly computing $(1 - 1/e)$-approximations of the multilinear extensions of offline variants of the subproblems. If super-polynomial runtime is allowed, these subproblems can be solved optimally, and our competitive ratios improve by this factor.",
+    "source": "ArXiv",
+    "published": "2026-06-21T14:19:48+00:00",
+    "type": "paper",
+    "display_category": "Top Paper",
+    "processed": {
+      "summary": "\n- Proposes a novel polynomial-time algorithm for **online item-allocation** where items arrive in a random order and must be assigned to agents under strict **budget constraints**.\n- Generalizes previous models by supporting **monotone submodular functions** across multiple agents, accommodating agent-specific costs and individual budget limits.\n- Utilizes a strategy of repeatedly computing **(1 - 1/e)-approximations** of multilinear extensions for offline subproblem variants to make real-time assignment decisions.\n- Establishes new theoretical benchmarks for **competitive ratios**, significantly outperforming prior single-agent and unit-cost specialized algorithms.",
+      "key_results": [
+        "Improved the competitive ratio for multi-agent submodular welfare maximization from 1/54.4 to approximately 1/14.85.",
+        "Enhanced the performance bound for online submodular matching with unit costs from 1/9.66 to 1/6.86.",
+        "Validated a polynomial-time approach for an arbitrary number of agents in a random-order model.",
+        "Demonstrated that competitive ratios can be further improved if super-polynomial runtime is permitted for offline subproblems.",
+        "Unified submodular valuations, agent-specific costs, and budget constraints into a single theoretical framework."
+      ],
+      "relevance_score": 4,
+      "signal_type": "Paper",
+      "one_sentence_takeaway": "ArXiv researchers improve competitive ratios for online submodular welfare maximization with budgets using random-order item arrival models.",
+      "lead_institution": "ArXiv",
+      "tags": [
+        "Submodular Optimization",
+        "Online Algorithms",
+        "Welfare Maximization",
+        "Resource Allocation",
+        "Random-Order Model"
+      ]
+    }
+  },
+  {
+    "title": "Breaking the Likelihood Trap: Variance-Calibrated Modulation for Large Language Model Decoding",
+    "link": "http://arxiv.org/abs/2606.22511v1",
+    "summary": "In open-ended generation, LLMs frequently fall into the \"likelihood trap\", marked by repetitive degeneration and vocabulary dullness, creating a discrepancy between machine-generated and human-written text. While post-hoc tail truncation (e.g., Top-$p$, Min-$p$) avoids sampling from the unreliable tail, it can over-sample from the uncalibrated head and misalign generation with human lexical preferences; fixed scalar repetition penalties likewise ignore variation in logit scale across inference steps, potentially disrupting semantic coherence. To address both limitations, we propose Variance-Calibrated Modulation (VCM), a training-free pre-decoding intervention that reshapes the probability distribution before truncation through two dynamic mechanisms: (1) Contextual Searchlight via PMI, which suppresses global stopwords while elevating context-evoked tokens, and (2) Adaptive Self-Debiasing, which uses real-time logit standard deviation for scale-invariant penalization. Across open-ended generation, factual QA, and mathematical reasoning, VCM consistently mitigates the likelihood trap. With negligible computational overhead, VCM integrates with existing decoding strategies, improving diversity, coherence, and, particularly at higher decoding temperatures, reasoning accuracy.",
+    "source": "ArXiv",
+    "published": "2026-06-21T14:04:51+00:00",
+    "type": "paper",
+    "display_category": "Top Paper",
+    "processed": {
+      "summary": "<br>\u2022 Proposes **Variance-Calibrated Modulation (VCM)**, a training-free pre-decoding technique designed to overcome the **likelihood trap** characterized by repetitive and dull text generation.<br>\u2022 Features a **Contextual Searchlight via PMI** mechanism that suppresses global stopwords while dynamically elevating context-evoked tokens to improve lexical diversity.<br>\u2022 Introduces **Adaptive Self-Debiasing**, which utilizes real-time logit standard deviation for scale-invariant penalization, ensuring semantic coherence across various inference steps.<br>\u2022 Demonstrates broad compatibility with existing strategies like **Top-p and Min-p**, enhancing performance in open-ended generation and complex mathematical reasoning.",
+      "key_results": [
+        "Successfully mitigates repetitive degeneration in long-form text generation.",
+        "Improves alignment between machine-generated and human-written lexical distributions.",
+        "Boosts reasoning accuracy and performance at higher decoding temperatures.",
+        "Maintains semantic coherence through scale-invariant repetition penalties.",
+        "Achieves performance gains with negligible computational overhead during inference."
+      ],
+      "relevance_score": 8,
+      "signal_type": "Paper",
+      "one_sentence_takeaway": "ArXiv researchers introduce Variance-Calibrated Modulation to eliminate the likelihood trap and improve LLM reasoning through dynamic logit adjustment.",
+      "lead_institution": "ArXiv",
+      "tags": [
+        "Decoding Strategies",
+        "Reasoning Models",
+        "Generative AI",
+        "Logit Modulation",
+        "Inference Optimization"
+      ]
+    }
+  },
+  {
+    "title": "Imagine to Ensure Safety in Hierarchical Reinforcement Learning",
+    "link": "http://arxiv.org/abs/2606.22509v1",
+    "summary": "This work investigates the safe exploration problem in reinforcement learning, where an agent must maximize cumulative performance while simultaneously satisfying safety constraints. This challenge becomes even more pronounced in long-horizon tasks, where existing safe methods face fundamental limitations due to compounding estimation errors and restricted exploration capabilities. To address this problem, we propose a method that combines a learnable world model with two complementary policies a high-level policy and a low-level policy to promote safety at both hierarchical levels. The high-level policy generates intermediate subgoals that bias exploration toward safe regions, while the low-level policy uses imagined rollouts in the learned world model to reduce unsafe behaviors when reaching these subgoals. The proposed method was evaluated on challenging long-horizon navigation and manipulation tasks with high-dimensional action spaces, where it significantly outperforms existing Safe RL baselines in both success rate and strong empirical constraint satisfaction, consistently meeting the prescribed safety budget across seeds, while prior approaches fail to effectively solve these complex long-horizon scenarios.",
+    "source": "ArXiv",
+    "published": "2026-06-21T14:04:04+00:00",
+    "type": "paper",
+    "display_category": "Top Paper",
+    "processed": {
+      "summary": "\n* Proposes a **Hierarchical Reinforcement Learning (HRL)** framework integrated with a **learnable world model** to solve safe exploration in long-horizon tasks.\n* The architecture splits responsibility: a high-level policy generates **safe subgoals**, while a low-level policy executes actions guided by **imagined rollouts**.\n* Addresses the limitation of **compounding estimation errors** in traditional Safe RL by using the world model to simulate and avoid potential safety violations before they occur.\n* Enhances agent performance in **high-dimensional action spaces**, specifically for complex navigation and manipulation tasks that require multi-step reasoning.",
+      "key_results": [
+        "Outperforms standard Safe RL baselines in both task success rate and constraint satisfaction.",
+        "Consistently meets prescribed safety budgets across multiple random seeds and environments.",
+        "Reduces the frequency of unsafe behaviors during exploration via world-model-based imagination.",
+        "Successfully handles long-horizon dependencies where non-hierarchical methods typically fail.",
+        "Demonstrates robustness in high-dimensional navigation and manipulation benchmarks."
+      ],
+      "relevance_score": 7,
+      "signal_type": "Paper",
+      "one_sentence_takeaway": "ArXiv researchers introduce a hierarchical world-model framework that ensures safety in long-horizon tasks through imagined policy rollouts.",
+      "lead_institution": "ArXiv",
+      "tags": [
+        "Safe RL",
+        "Hierarchical RL",
+        "World Models",
+        "AI Safety",
+        "Robot Navigation"
+      ]
+    }
+  },
+  {
     "title": "The Deadly Rise of Giant Trucks and S.U.V.s",
     "link": "https://www.nytimes.com/interactive/2026/06/21/us/trucks-suv-pedestrian-crashes.html",
     "summary": "<p>Article URL: <a href=\"https://www.nytimes.com/interactive/2026/06/21/us/trucks-suv-pedestrian-crashes.html\">https://www.nytimes.com/interactive/2026/06/21/us/trucks-suv-pedestrian-crashes.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48623347\">https://news.ycombinator.com/item?id=48623347</a></p>\n<p>Points: 30</p>\n<p># Comments: 34</p>",
