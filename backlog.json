@@ -1,5 +1,485 @@
 [
   {
+    "title": "Helping build shared standards for advanced AI",
+    "link": "https://openai.com/index/helping-build-shared-standards-for-advanced-ai",
+    "summary": "OpenAI helps build shared standards for advanced AI, supporting evaluation frameworks, safety practices, and global cooperation through the Appia Foundation.",
+    "source": "OpenAI News",
+    "published": "2026-06-23T13:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Strategic collaboration with the **Appia Foundation** to facilitate the creation of unified governance and **safety evaluation frameworks** for frontier AI.\n- Emphasis on developing **standardized metrics** and benchmarks to ensure consistent assessment of model capabilities and risks across the industry.\n- Promotion of **global cooperation** practices to align technical safety protocols and mitigate systemic risks associated with advanced generative models.",
+      "key_results": [
+        "Commitment to the Appia Foundation initiative",
+        "Establishment of shared AI safety benchmarks",
+        "Standardization of evaluation methodologies",
+        "Facilitation of international lab cooperation",
+        "Focus on transparent testing for frontier systems"
+      ],
+      "relevance_score": 3,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "OpenAI joins the Appia Foundation to develop shared evaluation standards and safety protocols for advanced artificial intelligence.",
+      "lead_institution": "OpenAI",
+      "tags": [
+        "AI Governance",
+        "AI Safety",
+        "Evaluation Frameworks",
+        "Appia Foundation",
+        "Global Cooperation"
+      ]
+    }
+  },
+  {
+    "title": "How Omio is building the future of conversational travel",
+    "link": "https://openai.com/index/omio",
+    "summary": "Discover how Omio uses OpenAI to power conversational travel experiences, accelerate product development, and transform into an AI-native company.",
+    "source": "OpenAI News",
+    "published": "2026-06-23T00:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Omio integrated **GPT-4** to develop a conversational interface that unifies fragmented travel data from over 1,000 transportation providers.\n- The architecture focuses on **conversational agents** to handle complex, multi-modal travel planning and booking through natural language.\n- The company adopted **ChatGPT Enterprise** to accelerate internal developer velocity and transition toward an **AI-native** organizational structure.",
+      "key_results": [
+        "Deployment of a GPT-4 powered conversational travel assistant",
+        "Unified access to 1,000+ transport providers via LLM interface",
+        "Internal adoption of AI tools to decrease product development cycles",
+        "Transition to an AI-native business model for travel logistics",
+        "Scaling of personalized travel recommendations via generative models"
+      ],
+      "relevance_score": 4,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Omio leverages OpenAI models to build conversational travel experiences and accelerate internal product development through AI-native workflows.",
+      "lead_institution": "OpenAI",
+      "tags": [
+        "LLM Agents",
+        "Conversational AI",
+        "GPT-4",
+        "Generative AI Trends",
+        "Enterprise AI"
+      ]
+    }
+  },
+  {
+    "title": "Introducing Claude Tag",
+    "link": "https://www.anthropic.com/news/introducing-claude-tag",
+    "summary": "Introducing Claude Tag",
+    "source": "Anthropic News",
+    "published": "2026-06-23T00:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n\u2022 Anthropic introduces **Claude Tag**, a organizational feature designed to enhance **context management** within the Claude environment.\n\u2022 The tool enables users to categorize and group conversations using **metadata-driven labels**, facilitating easier retrieval of specific project threads.\n\u2022 Focuses on reducing **cognitive load** for developers and power users who manage high-volume chat histories and complex **multi-step prompt engineering** workflows.",
+      "key_results": [
+        "Improved discoverability of historical AI interactions through searchable tags.",
+        "Support for project-based isolation of chat contexts for better organization.",
+        "Streamlined workflow for developers testing multiple iterations of the same prompt.",
+        "Reduction in time spent manually scrolling through sidebar histories.",
+        "Enhanced UI consistency across Claude's web-based chat experience."
+      ],
+      "relevance_score": 4,
+      "signal_type": "Release",
+      "one_sentence_takeaway": "Anthropic launches Claude Tag to streamline chat organization and improve context retrieval for developers and power users.",
+      "lead_institution": "Anthropic",
+      "tags": [
+        "Claude",
+        "Context Management",
+        "Workflow Optimization",
+        "Generative AI",
+        "User Experience"
+      ]
+    }
+  },
+  {
+    "title": "How Meta Engineered Ultra-Narrow Batteries for AI Glasses",
+    "link": "https://engineering.fb.com/2026/06/23/production-engineering/how-meta-built-ultra-narrow-batteries-for-ai-glasses-meta-tech-podcast/",
+    "summary": "<p>Smart glasses like the Ray-Ban Meta and Oakley Meta Vanguards need to pack enough energy to power features like cameras, speakers, AI workloads, and even a display. But it all has to fit into the glasses\u2019 temple arms. So how do you place a battery with enough power to run a pair of smart glasses [...]</p>\n<p><a class=\"btn btn-secondary understrap-read-more-link\" href=\"https://engineering.fb.com/2026/06/23/production-engineering/how-meta-built-ultra-narrow-batteries-for-ai-glasses-meta-tech-podcast/\">Read More...</a></p>\n<p>The post <a href=\"https://engineering.fb.com/2026/06/23/production-engineering/how-meta-built-ultra-narrow-batteries-for-ai-glasses-meta-tech-podcast/\">How Meta Engineered Ultra-Narrow Batteries for AI Glasses</a> appeared first on <a href=\"https://engineering.fb.com\">Engineering at Meta</a>.</p>",
+    "source": "Engineering at Meta",
+    "published": "2026-06-23T16:00:38+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Meta developed **ultra-narrow battery architectures** specifically designed to fit within the slim temple arms of smart glasses, enabling advanced hardware in a consumer-friendly form factor.\n- The design focuses on maximizing **energy density** while managing thermal constraints to support power-hungry components like cameras, speakers, and **on-device AI processors**.\n- These hardware advancements are foundational for the deployment of **multimodal AI models** and AR displays, ensuring they can operate locally without excessive bulk.\n- The engineering process involves **hardware-software co-optimization** to extend battery life during continuous AI inference and sensor data processing.",
+      "key_results": [
+        "Innovation in ultra-narrow battery form factors for curved temple arms.",
+        "Optimization of power delivery for continuous AI sensing and inference.",
+        "Thermal management strategies for high-performance edge computing.",
+        "Integration of high-capacity energy cells into Oakley and Ray-Ban frames.",
+        "Support for multimodal AI features without increasing device footprint."
+      ],
+      "relevance_score": 5,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Meta engineers ultra-narrow batteries to power continuous AI workloads and multimodal features within slim smart glass frames.",
+      "lead_institution": "Engineering at Meta",
+      "tags": [
+        "On-device AI",
+        "Smart Glasses",
+        "Hardware Engineering",
+        "Multimodal AI",
+        "Edge Computing"
+      ]
+    }
+  },
+  {
+    "title": "Adopting AV1 for Real-Time Communication (RTC) at Scale",
+    "link": "https://engineering.fb.com/2026/06/22/video-engineering/adopting-av1-for-real-time-communication-rtc-meta/",
+    "summary": "<p>Adopting AV1 for real-time communication at Meta has been a multi-year effort spanning codec selection, device eligibility, rate control, and error resilience. We\u2019re sharing the technical and operational challenges while deploying AV1 and expanding coverage, and how we addressed them for real-time communication. We\u2019re presenting several technologies for improving AV1 call quality, including rate control [...]</p>\n<p><a class=\"btn btn-secondary understrap-read-more-link\" href=\"https://engineering.fb.com/2026/06/22/video-engineering/adopting-av1-for-real-time-communication-rtc-meta/\">Read More...</a></p>\n<p>The post <a href=\"https://engineering.fb.com/2026/06/22/video-engineering/adopting-av1-for-real-time-communication-rtc-meta/\">Adopting AV1 for Real-Time Communication (RTC) at Scale</a> appeared first on <a href=\"https://engineering.fb.com\">Engineering at Meta</a>.</p>",
+    "source": "Engineering at Meta",
+    "published": "2026-06-22T16:00:08+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n\u2022 Meta implements the **AV1 codec** for **Real-Time Communication (RTC)** to enhance video quality and bandwidth efficiency across global platforms.\n\u2022 The technical framework optimizes **rate control algorithms** and **error resilience** to maintain stream stability under varying network conditions.\n\u2022 Architecture focuses on **device eligibility** and **hardware acceleration**, ensuring high-performance video processing on diverse end-user hardware.",
+      "key_results": [
+        "Successful large-scale deployment of AV1 for low-latency RTC",
+        "Optimized rate control for dynamic network environments",
+        "Enhanced error resilience mechanisms to mitigate packet loss",
+        "Improved video quality-to-bandwidth ratio compared to legacy codecs",
+        "Established device eligibility criteria for hardware-accelerated encoding"
+      ],
+      "relevance_score": 4,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Meta adopts the AV1 codec for real-time communication to improve video quality and bandwidth efficiency at global scale.",
+      "lead_institution": "Engineering at Meta",
+      "tags": [
+        "AV1",
+        "RTC",
+        "Video Engineering",
+        "Real-time Streaming",
+        "Infrastructure"
+      ]
+    }
+  },
+  {
+    "title": "I automated my job (and it made me a better leader)",
+    "link": "https://github.blog/developer-skills/github/i-automated-my-job-and-it-made-me-a-better-leader/",
+    "summary": "<p>Explore how my day as a senior leader looks now that I use 40 automations to help, and learn more about some of my favorites.</p>\n<p>The post <a href=\"https://github.blog/developer-skills/github/i-automated-my-job-and-it-made-me-a-better-leader/\">I automated my job (and it made me a better leader)</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
+    "source": "The GitHub Blog",
+    "published": "2026-06-23T16:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "<br>\u2022 Implements a suite of **40 distinct automations** designed to offload senior-level administrative overhead and operational friction.<br>\u2022 Leverages **GitHub Actions** and integrated developer tools to create a self-sustaining ecosystem for project tracking and asynchronous communication.<br>\u2022 Focuses on the strategic shift from manual task management to **human-centric leadership**, using automation as a force multiplier for architectural review and mentorship.",
+      "key_results": [
+        "Deployment of 40 custom workflow automations for leadership tasks.",
+        "Significant reduction in manual cognitive load for senior management.",
+        "Improved team responsiveness through automated notification and tracking systems.",
+        "Shift in leadership focus from operational maintenance to strategic growth.",
+        "Demonstrated application of 'Vibe Coding' principles to professional workflow optimization."
+      ],
+      "relevance_score": 4,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "GitHub demonstrates how senior leaders can deploy forty custom automations to reclaim time for high-impact strategic work.",
+      "lead_institution": "GitHub",
+      "tags": [
+        "Workflow Automation",
+        "Developer Productivity",
+        "GitHub Actions",
+        "AI Leadership",
+        "Generative AI Trends"
+      ]
+    }
+  },
+  {
+    "title": "GitHub joins coalition advocating for fixes to California AI Transparency Act to protect open source",
+    "link": "https://github.blog/news-insights/policy-news-and-insights/github-joins-coalition-advocating-for-fixes-to-california-ai-transparency-act-to-protect-open-source/",
+    "summary": "<p>We\u2019re calling for targeted amendments to resolve conflicts with open source licensing and align with international transparency frameworks while preserving regulatory intent.</p>\n<p>The post <a href=\"https://github.blog/news-insights/policy-news-and-insights/github-joins-coalition-advocating-for-fixes-to-california-ai-transparency-act-to-protect-open-source/\">GitHub joins coalition advocating for fixes to California AI Transparency Act to protect open source</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
+    "source": "The GitHub Blog",
+    "published": "2026-06-23T15:48:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- GitHub is advocating for **legislative amendments** to the **California AI Transparency Act (SB 942)** to mitigate conflicts with **open source licensing**.\n- The coalition aims to synchronize state regulations with **international transparency frameworks** to reduce friction for global AI developers.\n- The primary focus is shielding the **open source ecosystem** from regulatory burdens that might inadvertently restrict the distribution of **generative AI models**.",
+      "key_results": [
+        "Formation of a coalition to address legal concerns within SB 942.",
+        "Identification of specific conflicts between transparency mandates and existing OSS licenses.",
+        "Advocacy for standardized, international transparency metrics for AI systems.",
+        "Effort to preserve regulatory intent while ensuring local innovation isn't stifled.",
+        "Promotion of legal safe harbors for developers contributing to open-source AI repositories."
+      ],
+      "relevance_score": 3,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "GitHub advocates for California AI Transparency Act amendments to protect open source licensing and maintain global development standards.",
+      "lead_institution": "GitHub",
+      "tags": [
+        "AI Policy",
+        "Open Source",
+        "Transparency Act",
+        "Regulatory Compliance",
+        "GitHub"
+      ]
+    }
+  },
+  {
+    "title": "From pledge to practice: Building a more inclusive open source ecosystem",
+    "link": "https://github.blog/open-source/from-pledge-to-practice-building-a-more-inclusive-open-source-ecosystem/",
+    "summary": "<p>Learn about the progress we\u2019ve made toward our accessibility goals and how you can help make open source more inclusive. </p>\n<p>The post <a href=\"https://github.blog/open-source/from-pledge-to-practice-building-a-more-inclusive-open-source-ecosystem/\">From pledge to practice: Building a more inclusive open source ecosystem</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
+    "source": "The GitHub Blog",
+    "published": "2026-06-22T17:20:31+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- GitHub outlines its strategic progress toward **accessibility goals**, emphasizing the practical implementation of the **GitHub Accessibility Pledge**.\n- The initiative focuses on creating a standardized framework for **inclusive design** within the global open-source community.\n- Emphasizes the role of **community-driven standards** to lower technical barriers for developers with disabilities.",
+      "key_results": [
+        "Reinforcement of the GitHub Accessibility Pledge commitments",
+        "Deployment of updated accessibility guidelines for repository maintainers",
+        "Enhanced support for assistive technologies across the GitHub platform",
+        "Streamlined reporting mechanisms for accessibility-related barriers",
+        "Increased community engagement and outreach to diverse developer populations"
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "GitHub promotes inclusive development practices by implementing standardized accessibility goals across its global open-source ecosystem.",
+      "lead_institution": "GitHub",
+      "tags": [
+        "Open Source",
+        "Accessibility",
+        "GitHub",
+        "Inclusivity",
+        "Software Development"
+      ]
+    }
+  },
+  {
+    "title": "Build a protein research copilot with Amazon Bedrock AgentCore",
+    "link": "https://aws.amazon.com/blogs/machine-learning/build-a-protein-research-copilot-with-amazon-bedrock-agentcore/",
+    "summary": "This post shows you how to build a conversational protein research assistant that combines three capabilities: Natural language query parsing to extract structured search parameters, vector similarity search over protein embeddings using a specialized language model and ai-generated scientific summaries of search results.",
+    "source": "Artificial Intelligence",
+    "published": "2026-06-23T16:39:34+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "<br>\u2022 Utilizes **Amazon Bedrock AgentCore** to orchestrate agentic workflows that translate natural language queries into structured parameters for specialized biological searches.<br>\u2022 Implements **Vector Similarity Search** over protein embeddings, allowing for semantic retrieval of molecular data beyond simple keyword matching.<br>\u2022 Integrates **Retrieval-Augmented Generation (RAG)** to produce automated scientific summaries, bridging the gap between raw data retrieval and human-interpretable research insights.",
+      "key_results": [
+        "Transformation of unstructured natural language into structured search parameters",
+        "Efficient vector-based indexing of specialized protein embeddings",
+        "Automated synthesis of scientific search results into technical summaries",
+        "Deployment of a functional research copilot using managed LLM agents",
+        "Demonstrated application of LLMs in accelerating drug discovery and biological research"
+      ],
+      "relevance_score": 6,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Amazon demonstrates how to build a protein research copilot using Bedrock Agents to orchestrate vector search and synthesis.",
+      "lead_institution": "Amazon",
+      "tags": [
+        "LLM Agents",
+        "RAG",
+        "Bioinformatics",
+        "Amazon Bedrock",
+        "Vector Search"
+      ]
+    }
+  },
+  {
+    "title": "Building pay-per-intelligence for AI agents: How Ampersend uses Amazon Bedrock AgentCore Payments",
+    "link": "https://aws.amazon.com/blogs/machine-learning/building-pay-per-intelligence-for-ai-agents-how-ampersend-uses-amazon-bedrock-agentcore-payments/",
+    "summary": "In this post, you will learn how Ampersend built a pay-per-intelligence routing layer on top of Amazon Bedrock AgentCore Payments. AI agents autonomously route tasks to the most effective model, pay per request, and operate within spending budgets. You will also see how the two-hop payment pattern works end-to-end and how to get started with your own implementation.",
+    "source": "Artificial Intelligence",
+    "published": "2026-06-22T17:53:40+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n\u2022 Ampersend implements a **pay-per-intelligence routing layer** using **Amazon Bedrock AgentCore Payments**, enabling autonomous model selection based on task complexity.\n\u2022 The architecture utilizes a **two-hop payment pattern** to facilitate secure, per-request micro-transactions between agents and inference providers.\n\u2022 The system enforces **financial governance** by allowing agents to operate within strict spending budgets while dynamically selecting the most cost-effective **foundation models**.\n\u2022 Integration with **LLM Agents** enables automated task delegation, ensuring that high-capability models are only utilized and paid for when necessary.",
+      "key_results": [
+        "Enabled autonomous AI agents to pay for inference services on a per-request basis.",
+        "Established granular spending limits and budgets for individual agent workflows.",
+        "Implemented a secure two-hop transaction pattern for agent-to-service payments.",
+        "Automated model routing decisions based on real-time cost and performance requirements.",
+        "Standardized financial orchestration for AI agents via Amazon Bedrock infrastructure."
+      ],
+      "relevance_score": 6,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Ampersend introduces a pay-per-intelligence layer for AI agents to autonomously manage model routing and inference budgets on Amazon Bedrock.",
+      "lead_institution": "Ampersend",
+      "tags": [
+        "LLM Agents",
+        "AI Payments",
+        "Amazon Bedrock",
+        "Model Routing",
+        "FinOps"
+      ]
+    }
+  },
+  {
+    "title": "NVIDIA and AWS Collaborate to Bring AI to Production at Scale",
+    "link": "https://blogs.nvidia.com/blog/nvidia-aws-ai-production-scale/",
+    "summary": "Building AI systems at scale is demanding, requiring low-latency inference, fast vector search, strong GPU price-performance and infrastructure that can grow without multiplying operational complexity.\u00a0 NVIDIA\u2019s latest work with Amazon Web Services (AWS) addresses each of those constraints. Across Amazon OpenSearch and Amazon EC2, NVIDIA AI infrastructure is giving enterprises more practical paths to deploy [&#8230;]",
+    "source": "NVIDIA Blog",
+    "published": "2026-06-24T00:05:37+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Integration of **NVIDIA AI infrastructure** with **Amazon EC2** instances to optimize GPU price-performance for enterprise-scale AI inference.\n- Enhancements to **Amazon OpenSearch Service** leveraging NVIDIA technology to accelerate **vector search** and improve the efficiency of **Retrieval-Augmented Generation (RAG)** systems.\n- Focus on reducing **operational complexity** by providing pre-optimized paths for deploying low-latency generative AI applications in production environments.",
+      "key_results": [
+        "Optimized price-performance for GPU-accelerated inference on AWS",
+        "Faster vector search capabilities within Amazon OpenSearch",
+        "Reduced latency for production-grade AI applications",
+        "Simplified scaling of AI infrastructure via NVIDIA and AWS integration",
+        "Improved support for RAG workflows at an enterprise level"
+      ],
+      "relevance_score": 4,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "NVIDIA and AWS collaborate to integrate high-performance GPU infrastructure and accelerated vector search into Amazon's cloud services.",
+      "lead_institution": "NVIDIA",
+      "tags": [
+        "RAG",
+        "AI Infrastructure",
+        "Vector Search",
+        "Cloud Computing",
+        "GPU Optimization"
+      ]
+    }
+  },
+  {
+    "title": "How Businesses Are Building Specialized AI They Can Trust",
+    "link": "https://blogs.nvidia.com/blog/nvidia-agent-toolkit-open-models-tools-skills-secure-runtime-ai-agents/",
+    "summary": "Companies are asking how to build specialized AI that fits with the way their workflows actually run.\u00a0 The first wave of enterprise AI was about access. Companies experimented with new frontier and open models, ran pilots and explored how AI can help.\u00a0 Now, specialized agents \u2014 systems of models that can reason, use tools and [&#8230;]",
+    "source": "NVIDIA Blog",
+    "published": "2026-06-23T13:00:07+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n - Enterprise AI is evolving from exploratory pilots toward **specialized agents** that possess reasoning and tool-calling capabilities.\n - Architectural strategies are shifting from monolithic models to **systems of models** designed to integrate directly with existing business workflows.\n - High-impact deployment focuses on **trust and reliability**, grounding generative outputs in domain-specific data to ensure professional-grade accuracy.",
+      "key_results": [
+        "Transition from horizontal LLM access to vertical, task-specific specialized agents.",
+        "Emphasis on systems of models that can reason and utilize external tools.",
+        "Prioritization of workflow integration over standalone AI experimentation.",
+        "Requirement for enterprise AI to align with established business logic.",
+        "Growing demand for grounded, trustworthy AI responses in corporate environments."
+      ],
+      "relevance_score": 4,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "NVIDIA outlines the shift from experimental LLM pilots to deploying specialized, tool-using agents for reliable enterprise workflow automation.",
+      "lead_institution": "NVIDIA",
+      "tags": [
+        "LLM Agents",
+        "Enterprise AI",
+        "Generative AI Trends",
+        "Specialized AI",
+        "Workflow Automation"
+      ]
+    }
+  },
+  {
+    "title": "NVIDIA Powers Over 400 of the World\u2019s 500 Fastest Supercomputers",
+    "link": "https://blogs.nvidia.com/blog/top500-green500-supercomputers-isc-2026/",
+    "summary": "NVIDIA technologies power more than 400 of the world\u2019s 500 fastest supercomputers \u2014 81% of the TOP500 \u2014 according to the latest rankings released this week at the ISC High Performance conference in Hamburg, Germany.",
+    "source": "NVIDIA Blog",
+    "published": "2026-06-23T09:00:38+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "<br>\u2022 NVIDIA achieves a dominant **81% market share** in the latest TOP500 supercomputer rankings, powering 403 of the world's most powerful systems.<br>\u2022 The architecture heavily relies on **GPU acceleration** to deliver the massive throughput required for modern **HPC** and large-scale **Generative AI** workloads.<br>\u2022 This saturation highlights the industry's reliance on **parallel processing** and specialized **interconnects** to sustain the growing computational demands of foundation model training.",
+      "key_results": [
+        "NVIDIA technologies power 403 out of 500 systems in the latest rankings.",
+        "The company now controls 81% of the total TOP500 list.",
+        "Results were officially announced at the ISC High Performance conference in Hamburg.",
+        "NVIDIA hardware remains the standard for global high-performance computing infrastructure.",
+        "The rankings reflect a continued shift toward GPU-centric supercomputing architectures."
+      ],
+      "relevance_score": 3,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "NVIDIA dominates the TOP500 supercomputer rankings, providing the foundational compute infrastructure for 81% of the world's fastest systems.",
+      "lead_institution": "NVIDIA",
+      "tags": [
+        "Supercomputing",
+        "TOP500",
+        "GPU Acceleration",
+        "HPC",
+        "AI Infrastructure"
+      ]
+    }
+  },
+  {
+    "title": "NVIDIA Brings Trusted, 24/7 AI Agents to Telecom Operations",
+    "link": "https://blogs.nvidia.com/blog/telecom-ai-agents-dtw-ignite-2026/",
+    "summary": "Telecom operators have seen remarkable returns from using generative AI to automate network management, customer care and back-office operations. Most of that impact has been task\u2011based: automation that speeds up predetermined steps while people manually correlate insights and direct next steps. Automation is no longer the finish line \u2014 it\u2019s the launchpad to autonomy.\u00a0 The [&#8230;]",
+    "source": "NVIDIA Blog",
+    "published": "2026-06-23T06:00:09+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- NVIDIA is evolving telecom automation from task-specific tools to **autonomous AI agents** capable of orchestrating complex network management and customer service workflows.\n- The architecture leverages **generative AI** to transition from manual correlation of insights to end-to-end autonomy in back-office and operational environments.\n- The initiative focuses on **24/7 reliability** and \"trusted\" agentic behavior to minimize human intervention in network troubleshooting and resource allocation.",
+      "key_results": [
+        "Shift from task-based automation to full agentic autonomy",
+        "Reduction in manual correlation of network insights",
+        "24/7 availability for critical telecom operations",
+        "Improved efficiency in customer care and back-office tasks",
+        "Integration of generative AI into existing carrier infrastructure"
+      ],
+      "relevance_score": 4,
+      "signal_type": "Release",
+      "one_sentence_takeaway": "NVIDIA launches autonomous AI agents to transform telecom operations from manual task-based automation to 24/7 self-managing networks.",
+      "lead_institution": "NVIDIA",
+      "tags": [
+        "AI Agents",
+        "Telecom",
+        "Generative AI",
+        "Automation",
+        "Network Management"
+      ]
+    }
+  },
+  {
+    "title": "Exploring the societal impacts of AI",
+    "link": "https://news.mit.edu/2026/exploring-societal-impacts-of-ai-0623",
+    "summary": "During the AI and Society Forum, leading MIT researchers examined critical questions about AI\u2019s influence on employment and democracy.",
+    "source": "MIT News - Artificial intelligence",
+    "published": "2026-06-23T20:40:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Examination of **socio-economic impact** resulting from widespread AI adoption in the labor market.\n- Analysis of **algorithmic influence** on democratic stability and the proliferation of synthetic media.\n- Discussion on the **alignment problem** regarding institutional trust and policy-driven governance frameworks.\n- Focus on the shift from **task automation** to cognitive labor augmentation across diverse sectors.",
+      "key_results": [
+        "AI's dual potential for workforce displacement and productivity enhancement.",
+        "Identified vulnerabilities in democratic processes due to AI-generated content.",
+        "Necessity for interdisciplinary collaboration between technologists and social scientists.",
+        "Frameworks proposed for ethical AI deployment in public sectors.",
+        "Emphasis on proactive regulation to mitigate systemic societal risks."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "MIT researchers analyze the profound effects of artificial intelligence on labor markets and democratic resilience during a forum.",
+      "lead_institution": "MIT",
+      "tags": [
+        "AI Ethics",
+        "Labor Economics",
+        "Democracy",
+        "AI Governance",
+        "Societal Impact"
+      ]
+    }
+  },
+  {
+    "title": "New chip could help tiny robots traverse complex environments",
+    "link": "https://news.mit.edu/2026/new-chip-could-help-tiny-robots-traverse-complex-environments-0623",
+    "summary": "Researchers combined an efficient algorithm with dedicated hardware to rapidly generate 3D maps for navigation using minimal memory and power.",
+    "source": "MIT News - Artificial intelligence",
+    "published": "2026-06-23T04:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Researchers developed a **hardware-algorithm co-design** tailored for real-time 3D mapping on resource-constrained hardware such as palm-sized robots.\n- The system utilizes a specialized **streaming mapping algorithm** that incrementally builds 3D spatial data, drastically reducing memory overhead compared to traditional voxel grids.\n- By integrating an efficient algorithm with **dedicated silicon hardware**, the team achieved high-speed spatial reasoning while maintaining milliwatt-level power consumption.\n- This advancement facilitates the deployment of **Local SLMs** and autonomous agents on edge devices by offloading heavy spatial computation to optimized circuitry.",
+      "key_results": [
+        "Achieved real-time 3D map generation using minimal on-chip memory.",
+        "Reduced power consumption to levels suitable for battery-operated tiny drones.",
+        "Optimized data movement between the processor and memory to eliminate bottlenecks.",
+        "Demonstrated autonomous navigation in complex, non-premapped environments.",
+        "Hardware-level acceleration outperformed general-purpose CPUs by significant margins in mapping tasks."
+      ],
+      "relevance_score": 6,
+      "signal_type": "Paper",
+      "one_sentence_takeaway": "MIT researchers developed a low-power chip that enables tiny robots to perform real-time 3D mapping for complex navigation.",
+      "lead_institution": "MIT",
+      "tags": [
+        "Edge AI",
+        "Robotics",
+        "SLMs",
+        "Computer Vision",
+        "Hardware Acceleration"
+      ]
+    }
+  },
+  {
     "title": "Patch the Planet: a Daybreak initiative to support open source maintainers",
     "link": "https://openai.com/index/patch-the-planet",
     "summary": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
@@ -90,126 +570,6 @@
     }
   },
   {
-    "title": "Adopting AV1 for Real-Time Communication (RTC) at Scale",
-    "link": "https://engineering.fb.com/2026/06/22/video-engineering/adopting-av1-for-real-time-communication-rtc-meta/",
-    "summary": "<p>Adopting AV1 for real-time communication at Meta has been a multi-year effort spanning codec selection, device eligibility, rate control, and error resilience. We\u2019re sharing the technical and operational challenges while deploying AV1 and expanding coverage, and how we addressed them for real-time communication. We\u2019re presenting several technologies for improving AV1 call quality, including rate control [...]</p>\n<p><a class=\"btn btn-secondary understrap-read-more-link\" href=\"https://engineering.fb.com/2026/06/22/video-engineering/adopting-av1-for-real-time-communication-rtc-meta/\">Read More...</a></p>\n<p>The post <a href=\"https://engineering.fb.com/2026/06/22/video-engineering/adopting-av1-for-real-time-communication-rtc-meta/\">Adopting AV1 for Real-Time Communication (RTC) at Scale</a> appeared first on <a href=\"https://engineering.fb.com\">Engineering at Meta</a>.</p>",
-    "source": "Engineering at Meta",
-    "published": "2026-06-22T16:00:08+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n- Meta implements a **multi-year deployment** of the **AV1 codec** for real-time communication (RTC) to optimize video performance across its global platforms.\n- The technical architecture focuses on sophisticated **rate control algorithms** and **error resilience** techniques to handle varying network conditions and packet loss.\n- The deployment strategy includes a **device eligibility framework** to ensure high-quality encoding and decoding without compromising device performance or battery life.",
-      "key_results": [
-        "Scaling of AV1 for real-time video across billion-user platforms.",
-        "Implementation of advanced dynamic rate control for bitstream optimization.",
-        "Enhanced error resilience mechanisms for lossy network environments.",
-        "Creation of hardware-specific device eligibility criteria for codec rollouts.",
-        "Optimization of call quality-to-bandwidth ratios compared to H.264 and VP9."
-      ],
-      "relevance_score": 3,
-      "signal_type": "Engineering Blog",
-      "one_sentence_takeaway": "Meta implements AV1 at scale to significantly enhance real-time video quality and bandwidth efficiency across global communication platforms.",
-      "lead_institution": "Meta",
-      "tags": [
-        "AV1",
-        "RTC",
-        "Video Engineering",
-        "Network Optimization",
-        "Meta Engineering"
-      ]
-    }
-  },
-  {
-    "title": "From pledge to practice: Building a more inclusive open source ecosystem",
-    "link": "https://github.blog/open-source/from-pledge-to-practice-building-a-more-inclusive-open-source-ecosystem/",
-    "summary": "<p>Learn about the progress we\u2019ve made toward our accessibility goals and how you can help make open source more inclusive. </p>\n<p>The post <a href=\"https://github.blog/open-source/from-pledge-to-practice-building-a-more-inclusive-open-source-ecosystem/\">From pledge to practice: Building a more inclusive open source ecosystem</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
-    "source": "The GitHub Blog",
-    "published": "2026-06-22T17:20:31+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n- **Accessibility Integration**: GitHub evaluates progress on its inclusion pledge, focusing on improving the **accessibility** of open source tooling and workflows.\n- **Inclusive Design**: The initiative emphasizes adopting **standardized design principles** to ensure software development is reachable for developers with disabilities.\n- **Ecosystem Impact**: By moving from policy to practice, GitHub aims to lower barriers for entry, enhancing the **collaborative diversity** of the global developer community.",
-      "key_results": [
-        "Report on milestones achieved since the initial accessibility pledge.",
-        "Identification of remaining friction points in open source contributor paths.",
-        "Advocacy for inclusive documentation standards across public repositories.",
-        "Guidelines for community members to participate in accessibility auditing.",
-        "Integration of accessibility features directly into GitHub's core UI/UX."
-      ],
-      "relevance_score": 2,
-      "signal_type": "General News",
-      "one_sentence_takeaway": "GitHub advances accessibility initiatives to create a more inclusive and diverse global open source development environment.",
-      "lead_institution": "GitHub",
-      "tags": [
-        "Accessibility",
-        "Open Source",
-        "DEI",
-        "Community",
-        "GitHub"
-      ]
-    }
-  },
-  {
-    "title": "Embed the world: Multimodal AI for searchable aerial imagery at scale",
-    "link": "https://aws.amazon.com/blogs/machine-learning/embed-the-world-multimodal-ai-for-searchable-aerial-imagery-at-scale/",
-    "summary": "In this post, we walk through the problem space, our architecture on Amazon Bedrock and Amazon OpenSearch Serverless, the evaluation methodology we built on OpenStreetMap ground truth, four experiments that compared embedding models, fusion strategies, captioning, and search methods, and the practical guidance you can apply when building a similar system. You\u2019ll learn which design choices move the needle for geospatial semantic search, including why Amazon Nova Multimodal Embeddings delivered the highest F1 scores across both benchmark queries in our evaluation. The work described here evolved into Vexcel Intelligence, a searchable imagery product.",
-    "source": "Artificial Intelligence",
-    "published": "2026-06-22T16:32:15+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n- Implements a scalable **Geospatial Semantic Search** architecture using **Amazon Bedrock** for model inference and **Amazon OpenSearch Serverless** for vector storage.\n- Evaluates the efficacy of **Multimodal Embeddings** versus traditional captioning-based retrieval by benchmarking against **OpenStreetMap** ground truth data.\n- Explores various **Fusion Strategies** and search methods to optimize the retrieval of high-resolution aerial imagery for complex land-use queries.\n- Demonstrates that the **Amazon Nova Multimodal Embeddings** model provides the most significant performance gains in terms of F1 scores for image-to-text alignment.",
-      "key_results": [
-        "Amazon Nova Multimodal Embeddings delivered the highest F1 scores for aerial imagery retrieval.",
-        "Multimodal embedding models outperformed text-captioning pipelines in semantic search accuracy.",
-        "OpenStreetMap data provided a reliable benchmark for evaluating geospatial model performance.",
-        "Vector-based retrieval on OpenSearch Serverless successfully handled large-scale imagery datasets.",
-        "Fusion strategies proved critical for reconciling textual queries with specific visual features in aerial maps."
-      ],
-      "relevance_score": 7,
-      "signal_type": "Engineering Blog",
-      "one_sentence_takeaway": "Amazon AWS utilizes Nova Multimodal Embeddings to scale geospatial semantic search and aerial imagery retrieval for Vexcel Intelligence.",
-      "lead_institution": "Amazon AWS",
-      "tags": [
-        "Multimodal AI",
-        "Geospatial Search",
-        "Amazon Bedrock",
-        "Vector Databases",
-        "Aerial Imagery"
-      ]
-    }
-  },
-  {
-    "title": "Running ComfyUI workflows on Amazon SageMaker AI processing jobs",
-    "link": "https://aws.amazon.com/blogs/machine-learning/running-comfyui-workflows-on-amazon-sagemaker-ai-processing-jobs/",
-    "summary": "In this post, we walk you through how to deploy ComfyUI workflows on Amazon SageMaker AI processing jobs to generate hundreds of high-quality images in a single batch. You learn how to set up the infrastructure using AWS Cloud Development Kit (AWS CDK), configure GPU-accelerated processing, and automate image generation at scale. You can then adapt this solution to your ComfyUI workflows specific to your needs. We will guide you through a practical, step-by-step process to automate ComfyUI workflows to generate hundreds of high-quality images in a single batch empowering you to scale your creative pipeline.",
-    "source": "Artificial Intelligence",
-    "published": "2026-06-22T16:28:46+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n Provides a technical framework for deploying **ComfyUI workflows** on **Amazon SageMaker AI processing jobs** to facilitate massive batch image generation.\n Utilizes **AWS CDK** for Infrastructure-as-Code (IaC) to automate the provisioning of **GPU-accelerated** environments and scaling logic.\n Implements a decoupled architecture where creative workflows are designed locally and executed at scale in the cloud, optimizing resource usage.\n Demonstrates how to integrate **S3-based storage** for model checkpoints and generated assets to streamline creative production pipelines.",
-      "key_results": [
-        "Scalable execution of ComfyUI workflows using SageMaker processing jobs.",
-        "Automated infrastructure setup via AWS Cloud Development Kit (CDK).",
-        "Support for hundreds of high-quality image generations in a single batch.",
-        "Native integration of GPU-acceleration for complex diffusion models.",
-        "Standardized pipeline for moving from local prototyping to cloud-scale production."
-      ],
-      "relevance_score": 7,
-      "signal_type": "Engineering Blog",
-      "one_sentence_takeaway": "Amazon Web Services introduces a scalable method to run ComfyUI workflows on SageMaker for high-volume batch image generation.",
-      "lead_institution": "Amazon Web Services",
-      "tags": [
-        "ComfyUI",
-        "SageMaker",
-        "Generative AI",
-        "AWS CDK",
-        "Batch Processing"
-      ]
-    }
-  },
-  {
     "title": "At ISC, JUPITER Shows What Exascale Science Looks Like",
     "link": "https://blogs.nvidia.com/blog/jupiter-exascale-supercomputing-science/",
     "summary": "JUPITER, Europe\u2019s first exascale supercomputer at Germany\u2019s Forschungszentrum J\u00fclich, runs on NVIDIA Grace Hopper Superchips and NVIDIA Quantum-X800 InfiniBand networking \u2014 and it\u2019s had a busy year. As the international supercomputing community gathers at ISC in Hamburg this week, four projects running on JUPITER point to what exascale computing can actually do: map the human [&#8230;]",
@@ -266,36 +626,6 @@
         "Scientific Computing",
         "GPU Cloud",
         "National AI Policy"
-      ]
-    }
-  },
-  {
-    "title": "NVIDIA Vera CPU Opens the Way for Agentic Scientific AI at Los Alamos National Laboratory",
-    "link": "https://blogs.nvidia.com/blog/nvidia-vera-cpu-los-alamos-national-laboratory/",
-    "summary": "Mission, Vision and Veritas \u2014 new Los Alamos National Laboratory (LANL) supercomputers to be built with HPE and NVIDIA \u2014 are tapping NVIDIA Vera CPUs to accelerate scientific discovery, unlocking agentic AI for science. The supercomputers will use the HPE Cray Supercomputing GX5000 architecture with the NVIDIA Vera Rubin platform, combining NVIDIA Vera CPUs, NVIDIA [&#8230;]",
-    "source": "NVIDIA Blog",
-    "published": "2026-06-22T13:00:20+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n\u2022 NVIDIA and Los Alamos National Laboratory (LANL) are deploying three new supercomputers\u2014Mission, Vision, and Veritas\u2014built on the **NVIDIA Vera Rubin platform**.\n\u2022 These systems utilize the **HPE Cray GX5000 architecture** and **Vera CPUs** specifically engineered to accelerate scientific discovery through **Agentic AI** workflows.\n\u2022 The architecture focuses on shifting from traditional simulation to **autonomous reasoning models** that can navigate complex scientific datasets and multi-step research tasks.",
-      "key_results": [
-        "Deployment of Mission, Vision, and Veritas supercomputing clusters at LANL.",
-        "Introduction of the NVIDIA Vera Rubin platform featuring high-efficiency Vera CPUs.",
-        "First major integration of HPE Cray Supercomputing GX5000 with Vera hardware.",
-        "Shift in focus toward Agentic AI to automate reasoning in physical sciences.",
-        "Enhanced compute capacity for national security, climate modeling, and energy research."
-      ],
-      "relevance_score": 7,
-      "signal_type": "Release",
-      "one_sentence_takeaway": "NVIDIA and LANL launch Vera-powered supercomputers to pioneer autonomous agentic AI for advanced scientific research and discovery.",
-      "lead_institution": "NVIDIA",
-      "tags": [
-        "Agentic AI",
-        "NVIDIA Vera",
-        "High Performance Computing",
-        "Scientific AI",
-        "AI Agents"
       ]
     }
   },
@@ -386,36 +716,6 @@
         "Data Center Efficiency",
         "Hardware Infrastructure",
         "Sustainable AI"
-      ]
-    }
-  },
-  {
-    "title": "How Netflix Simplified Batch Compute with Kueue",
-    "link": "https://netflixtechblog.com/how-netflix-simplified-batch-compute-with-kueue-87860682629c?source=rss----2615bd06b42e---4",
-    "summary": "<p>By <a href=\"https://www.linkedin.com/in/alvinbao/\">Alvin Bao</a>, <a href=\"https://www.linkedin.com/in/alex-petrov-vt/\">Alex Petrov</a>, <a href=\"https://www.linkedin.com/in/jennifernlai/\">Jennifer Lai</a>, <a href=\"https://www.linkedin.com/in/aidan-sherr/\">Aidan Sherr</a>, and <a href=\"https://www.linkedin.com/in/samartha/\">Samartha Chandrashekar</a></p><p>As a part of the journey to transition Netflix\u2019s compute infrastructure to be more Kubernetes-native, we have leaned into incorporating components from the Kubernetes ecosystem into our container platform <a href=\"https://medium.com/netflix-techblog/titus-the-netflix-container-management-platform-is-now-open-source-f868c9fb5436\">Titus</a>. One example of this is our use of <a href=\"https://kueue.sigs.k8s.io/\">Kueue</a>, a cloud-native job queueing system for batch workloads, which has largely replaced the custom queuing and scheduling logic in our homegrown managed batch solution Compute Managed Batch (CMB). In this post, we\u2019ll give an overview of what motivated the migration, how we migrated millions of batch jobs to use Kueue, and what Kueue allows us to offer as a Compute platform.</p><h3>Brief Overview of CMB and\u00a0Titus</h3><p>CMB is a managed batch solution that allows users and applications to execute and manage workloads that run to completion. Using a tenant hierarchy, workloads are managed and queued with ordered execution through priorities, and capacity is managed on a per-tenant basis. Workloads that are submitted to CMB are then run on Titus. The features of Titus relevant to CMB are workload federation across multiple cells (Kubernetes clusters) and federated capacity reservations. This means CMB can talk to a single Titus endpoint to get/submit workloads and update capacity reservations without having to worry about the underlying cell/cluster topology.</p><h4>CMB Tenant Hierarchy</h4><p>Tenants provide a grouping mechanism for jobs submitted on behalf of certain organizations, platforms, or applications. Users can create and organize tenants however best suits their organization or use case. For example, an organization may use a single tenant across several applications or a complex hierarchical structure that matches its team and application ownership structure.</p><p>Tenants are associated with a capacity configuration. The capacity configuration defines the amount of compute capacity available to the tenant and provides certain guarantees around isolation from other tenants. The capacity configuration contains weight (used for fair sharing) and resource dimensions.</p><p>There are two types of tenants in\u00a0CMB:</p><ol><li><strong>Internal Tenants\u200a</strong>\u2014\u200ameant to facilitate the creation of a tree of tenants. Internal tenants\u2019 children can be both internal and leaf tenants. Internal tenants themselves do not accept work and thus do not have associated queues.</li><li><strong>Leaf Tenants</strong>\u200a\u2014\u200acan accept work and have queues associated with them. Leaf tenants cannot have any children.</li></ol><p>With regards to capacity configuration, tenants can use 2 types of capacity:</p><p><strong>Reserved Capacity</strong></p><p>For internal tenants, if a user specifies reserved capacity, it is fair-shared across the subtree and usable by the leaf tenants under that internal\u00a0tenant.</p><p>For leaf tenants, if a user specifies reserved capacity, it partitions capacity within the hierarchy so that other tenants cannot reserve the same resources. Those reserved resources are not shared with any other tenant, ensuring throughput for a given leaf\u00a0tenant.</p><p><strong>Shared Capacity</strong></p><p>The Compute team maintains a global pool of shared capacity that any tenant can burst into, in addition to its reserved capacity. Reservations are not required to use CMB, so a tenant can run out of shared capacity entirely. The pool is fair-shared across tenants, but in CMB, this applied only at admission: CMB had no preemption, so once a job was admitted, it ran to completion regardless of shifts in fair-share demand.</p><p>Kueue changes the semantics for <strong>both</strong> types of capacity, which the fair sharing and preemption section\u00a0covers.</p><p>Here is an example of what a tenant hierarchy looks\u00a0like:</p><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*MfDuB407Rq81AHZEbhARWA.png\" /></figure><h4>CMB User/Application Workload Submission Flow</h4><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*c54cCrSMUHGfEvB0jIw5XQ.png\" /></figure><h4>CMB User/Application Tenant Management Flow</h4><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*l1a0_nFSNK4Q3rNAFksfLA.png\" /></figure><h3>Why Kueue?</h3><p>CMB was created in 2018, before or alongside many of the open-source batch compute offerings available today. Over the years, as the Kubernetes ecosystem has evolved, many of the features that CMB offered or strived to offer have been included in these open source projects e.g., fair sharing, hierarchical tenants, capacity management, priority queuing. In addition, it became increasingly cumbersome to develop new features such as preemption when CMB was so far removed from the underlying Kubernetes cluster.</p><p>The team took a look at what it would take to modernize our batch abstraction and settled on Kueue for the following reasons:</p><ol><li>Unlike other options such as YuniKorn or Volcano, Kueue does not replace pod scheduling by the kube-scheduler, allowing integration with existing Titus scheduling profiles. Replacing Titus scheduler profiles can fragment job placement, potentially harming efficiency.</li><li>Adoption momentum and pace of innovation.</li><li>Kueue supports multi-tenant quota management over heterogeneous hardware.</li><li>Kueue can operate on primitives such as <em>v1.Pod</em> and <em>batch/v1.Job</em>, and also supports higher-level abstractions such as RayJob / RayCluster for future extensibility.</li><li>Kueue has native features that the team would have liked to implement in CMB, such as preemption, all-or-nothing scheduling, topology aware scheduling.</li></ol><h3>Migrating to\u00a0Kueue</h3><p>This initiative of migrating CMB workloads to Kueue became known as Netflix Batch. The key tenets of our migration were the following:</p><ol><li>Migration should require zero lift for CMB end users and be completely transparent to\u00a0them</li><li>No regressions in container launch rate and overall max throughput</li><li>Replace CMB queuing and scheduling with\u00a0Kueue</li></ol><h4>Netflix Batch User/Application Workload Submission Flow</h4><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*GL_sNsqautjh4lnu5XmRww.png\" /></figure><p>The key difference between the old and new flows is that we defer queuing and scheduling to Kueue, which is enabled in each Kueue-enabled Titus cell. Titus federation routes the job to Kueue cells using our custom Kueue\u00a0router.</p><h4>Netflix Batch User/Application Tenant Management Flow</h4><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*Z42qiAMxOqyFLmx6UPElTw.png\" /></figure><p>For us as operators, the migration was as simple as clicking a button on a tenant in our UI (as shown in the example above). This also allows us to easily rollback changes if there were\u00a0issues.</p><p>Under the hood, this enrollment converts internal tenants to <a href=\"https://kueue.sigs.k8s.io/docs/concepts/cohort/\">Cohorts</a> and leaf tenants to a <a href=\"https://kueue.sigs.k8s.io/docs/concepts/cluster_queue/\">ClusterQueue </a>+ <a href=\"https://kueue.sigs.k8s.io/docs/concepts/local_queue/\">LocalQueue</a>. The capacity configuration on a given tenant is converted into resource flavors and nominal quotas. The architecture for this looks as\u00a0follows:</p><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*a9TTKuKN1ovhDA00DWS4Zg.png\" /></figure><h4>Lessons Learned</h4><ol><li><a href=\"https://kyle.cascade.family/posts/how-to-actually-migrate-complex-systems-in-infrastructure/\">Maintaining API parity</a> with the existing system (vs exposing a new API surface) and migrating the underlying components as a first step derisked the project by unstacking bets while also ensuring we didn\u2019t disrupt the customer experience.</li><li>Don\u2019t wait until the end to migrate the most complex use case. We decided early on to migrate our largest and most complex customer first. This allowed us to build confidence that we could later migrate other customers to Netflix Batch without issues, and resulted in the production migration lasting only 4\u00a0weeks.</li><li>We had to run Kueue with much higher QPS, Burst, and groupKindConcurrency than the default configuration to meet our throughput needs. This was derisked early on by running load tests in a development environment that mimics\u00a0Titus.</li></ol><h3>Current State of Kueue at\u00a0Netflix</h3><p>Kueue is fully rolled out in production, with it managing millions of batch workloads. In the future, we\u2019re looking at options to enroll more of Titus batch workloads into this more managed experience. We have also productionized more fair sharing and preemptions to address better utilization of reserved capacity. In addition, our learnings are being leveraged by other internal teams, including those building Kubernetes-native training infrastructure, to inform their job scheduling and queuing configurations.</p><h4>Fair Sharing and Preemption</h4><p>With Kueue, <a href=\"https://kueue.sigs.k8s.io/docs/concepts/fair_sharing/#preemption-based-fair-sharing\">Preemption-based Fair Sharing</a> allows Netflix Batch to maintain reservation semantics while lending resources to other tenants when those reservations are not in use. In addition, preemption allows Netflix Batch to preempt lower-priority workloads for higher-priority workloads. For our customers, this means that tenants can use more idle capacity from reservations, submit more jobs without the risk of starvation, and have quicker turnaround times for business-critical workloads.</p><p>An example preemption configuration on a ClusterQueue that we would be using is as\u00a0follows:</p><pre>apiVersion: kueue.x-k8s.io/v1beta2<br />kind: ClusterQueue<br />metadata:<br />  name: &quot;team-a-cq&quot;<br />spec:<br />  preemption:<br />    reclaimWithinCohort: Any<br />    withinClusterQueue: LowerPriority</pre><p>With these features deployed, Compute has seen a significant increase in average resource utilization.</p><h3>Acknowledgement</h3><p>This work would not have been possible without the great work of the entire Compute team at\u00a0Netflix.</p><img alt=\"\" height=\"1\" src=\"https://medium.com/_/stat?event=post.clientViewed&amp;referrerSource=full_rss&amp;postId=87860682629c\" width=\"1\" /><hr /><p><a href=\"https://netflixtechblog.com/how-netflix-simplified-batch-compute-with-kueue-87860682629c\">How Netflix Simplified Batch Compute with Kueue</a> was originally published in <a href=\"https://netflixtechblog.com\">Netflix TechBlog</a> on Medium, where people are continuing the conversation by highlighting and responding to this story.</p>",
-    "source": "Netflix TechBlog - Medium",
-    "published": "2026-06-22T21:35:01+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n- Netflix transitioned its legacy **Compute Managed Batch (CMB)** system to **Kueue**, a cloud-native job queuing system, to modernize its **Titus** container platform architecture.\n- The migration leverages **Cohorts** and **ClusterQueues** to replace custom hierarchical logic, allowing native support for **Kubernetes primitives** like v1.Pod and batch/v1.Job.\n- By implementing **Preemption-based Fair Sharing**, the platform now dynamically lends idle reserved capacity to other tenants, significantly increasing total **resource utilization**.\n- The system supports heterogeneous hardware and future-proofs infrastructure for **GenAI workloads** by integrating with high-level abstractions like RayJob and RayCluster.",
-      "key_results": [
-        "Successfully migrated millions of batch workloads to Kueue with zero lift for end users.",
-        "Achieved significant increase in average resource utilization via improved fair sharing and preemption.",
-        "Completed full production migration of largest/complex customers within a four-week window.",
-        "Maintained high-scale performance by tuning Kueue QPS, Burst, and concurrency configurations.",
-        "Established a foundation for RayJob/RayCluster support to enable more advanced ML training workflows."
-      ],
-      "relevance_score": 7,
-      "signal_type": "Engineering Blog",
-      "one_sentence_takeaway": "Netflix simplifies batch compute and improves resource utilization by migrating its legacy CMB system to Kubernetes-native Kueue.",
-      "lead_institution": "Netflix",
-      "tags": [
-        "Kubernetes",
-        "Batch Computing",
-        "Resource Scheduling",
-        "Kueue",
-        "Infrastructure"
       ]
     }
   },
@@ -570,66 +870,6 @@
     }
   },
   {
-    "title": "MAPS: Multi-Anchor Projection Similarity for Joint Vision-Language Geo-Localization",
-    "link": "http://arxiv.org/abs/2606.22543v1",
-    "summary": "Humans localize places by integrating perceptual cues from vision with semantic reasoning from language, forming a scene understanding that is both intuitive and structured. Although existing geo-localization models have made substantial progress in cross-view and cross-modal settings, they are largely built upon point-to-point alignment, which is insufficient for joint vision-language queries. In such queries, visual and textual cues do not simply act as independent references, but jointly define a semantic subspace for locating the target. In this paper, we formulate vision-language geo-localization (VLGL) with joint image-text queries as a multi-anchor geometric alignment problem and propose a unified framework for this setting. To realize this formulation, we propose Multi-Anchor Projection Similarity (MAPS), a new metric which constructs an anchor plane from visual and textual query features in a high-dimensional space and measures similarity by the projection length of the target feature onto this plane. Unlike cosine similarity which evaluates isolated pairwise relations, MAPS captures the geometric consistency between the target feature and the joint query subspace, providing a more discriminative ranking criterion during retrieval. To make the learned representation consistent with this geometry, we further introduce a MAPS-based contrastive loss that drives target features toward the corresponding anchor plane. The proposed framework, similarity metric, and training objective jointly yield state-of-the-art performance in VLGL.",
-    "source": "ArXiv",
-    "published": "2026-06-21T15:01:53+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Introduces **MAPS (Multi-Anchor Projection Similarity)**, a novel framework for **Vision-Language Geo-Localization (VLGL)** that moves beyond traditional point-to-point alignment.\n- Proposes a geometric approach that constructs an **anchor plane** from high-dimensional visual and textual query features to represent a joint semantic subspace.\n- Replaces standard cosine similarity with a **projection-based metric**, measuring the length of target features projected onto the anchor plane for more discriminative ranking.\n- Incorporates a specialized **MAPS-based contrastive loss** designed to drive target features toward the query-defined geometric subspace during model training.",
-      "key_results": [
-        "Formulation of joint image-text queries as a multi-anchor geometric alignment problem.",
-        "Development of the MAPS metric which outperforms cosine similarity in multimodal retrieval.",
-        "Introduction of a training objective that ensures geometric consistency between queries and targets.",
-        "Achievement of state-of-the-art performance on standard VLGL benchmarks.",
-        "Improved semantic reasoning for geo-localization by integrating visual cues and textual descriptions."
-      ],
-      "relevance_score": 7,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce MAPS, a geometric projection metric that significantly improves joint image-text geo-localization accuracy via anchor planes.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "Multimodal AI",
-        "Geo-Localization",
-        "Contrastive Learning",
-        "Semantic Retrieval",
-        "Computer Vision"
-      ]
-    }
-  },
-  {
-    "title": "Generative Robust Optimisation",
-    "link": "http://arxiv.org/abs/2606.22536v1",
-    "summary": "Classical uncertainty sets for robust optimisation impose fixed geometric shapes that cannot represent the complex dependencies present in real-world data. We propose Generative Robust Optimisation (GRO), a framework in which a deep generative model defines the uncertainty set as the image of a neural network decoder over a calibrated latent set, naturally accommodating nonlinear correlations, asymmetry, and multimodality. A five-point evaluation framework (reconstruction fidelity, distribution matching, latent regularity, robust relevance, and computational tractability) provides systematic, model-agnostic criteria for assessing any neural network-based uncertainty set. We instantiate this framework with a Wasserstein Adversarial Autoencoder employing Gaussian mixture model-guided training for latent regularity and constraint-consistency regularisation for robust relevance. Restricting the decoder to ReLU activations enables exact worst-case verification through mixed-integer programming embedding. Extensive experiments on a production planning problem across six uncertainty distributions and six generative architectures, together with a multi-period facility location study, validate the framework and demonstrate that systematic attention to all five criteria yields uncertainty sets that are simultaneously expressive, well-calibrated, and optimisation-tractable.",
-    "source": "ArXiv",
-    "published": "2026-06-21T14:50:40+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n* Proposes **Generative Robust Optimisation (GRO)**, a framework replacing fixed geometric uncertainty sets with the image of a **neural network decoder** to capture nonlinear and multimodal data dependencies.\n* Utilizes a **Wasserstein Adversarial Autoencoder (WAE)** with Gaussian mixture model-guided training to ensure latent regularity and robust relevance in optimization tasks.\n* Employs **ReLU-based architectures** to enable exact worst-case verification through **mixed-integer programming (MIP)** embedding, bridging deep learning and classical optimization.\n* Introduces a **five-point evaluation framework** (fidelity, distribution matching, regularity, relevance, and tractability) for systematic benchmarking of generative uncertainty sets.",
-      "key_results": [
-        "Captures complex, asymmetric, and multimodal uncertainty distributions better than classical ellipsoidal or polyhedral sets.",
-        "The ReLU-constrained decoder allows for exact solver-based verification of worst-case scenarios.",
-        "Gaussian mixture model (GMM) guidance in WAE training significantly improves latent space regularity.",
-        "Constraint-consistency regularization ensures that generated uncertainty sets remain relevant to the underlying optimization problem.",
-        "Validated performance gains in production planning and facility location problems across six diverse uncertainty distributions."
-      ],
-      "relevance_score": 7,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce GRO to create expressive, optimization-tractable uncertainty sets using generative neural networks and mixed-integer programming.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "Generative AI",
-        "Robust Optimisation",
-        "Adversarial Autoencoders",
-        "Mixed-Integer Programming",
-        "AI Evaluation"
-      ]
-    }
-  },
-  {
     "title": "Physics-Informed Predictive Control for Integrated Electric-Vehicle Thermal Management: An Open, Real-Data-Anchored Benchmark",
     "link": "http://arxiv.org/abs/2606.22529v1",
     "summary": "Thermal management in a battery-electric vehicle (BEV) is a coupled, vehicle-level problem: the battery pack, the passenger cabin, the heat pump, and cabin air quality compete for shared actuation and energy, yet most studies optimise a single subsystem on proprietary models, which prevents fair, reproducible comparison. We present OpenEV-ThermoSciML, an open and reproducible benchmark that couples a battery electro-thermal-aging model, a two-node cabin model, a heat-pump/HVAC model, and a CO$_2$/ventilation model under real driving cycles (EPA) and real weather (NREL TMY3, NASA POWER), scored by a multi-objective suite spanning battery health, PMV/PPD comfort, cabin air quality, and HVAC energy. The benchmark's battery thermal core is anchored and validated on real BEV battery-management-system (BMS) data; the reduced battery (two-state) and cabin (two-node) models are validated against converged higher-fidelity references and, for the cabin, independently cross-checked against EnergyPlus 25.2.0. On top of the benchmark we develop a physics-informed scientific-machine-learning (Sci-ML) surrogate -- a nominal-physics prior plus a learned residual with conservation penalties -- that is exact on conserved quantities and dominates black-box and Koopman surrogates out-of-distribution (overall rollout RMSE 0.014 vs 1.168 and 3.991). A shielded Sci-ML model-predictive controller (MPC) delivers statistically significant, all-positive improvements over a production-like rule-based controller across six scenarios -- including a real hot-day US06 trip (energy $-15\\%$, comfort RMSE $-47\\%$, peak CO$_2$ $-25\\%$, battery thermal-gradient $-78\\%$) -- and these gains transfer to an independently exported OpenModelica 8-node co-simulation plant.",
@@ -686,36 +926,6 @@
         "Welfare Maximization",
         "Resource Allocation",
         "Random-Order Model"
-      ]
-    }
-  },
-  {
-    "title": "Breaking the Likelihood Trap: Variance-Calibrated Modulation for Large Language Model Decoding",
-    "link": "http://arxiv.org/abs/2606.22511v1",
-    "summary": "In open-ended generation, LLMs frequently fall into the \"likelihood trap\", marked by repetitive degeneration and vocabulary dullness, creating a discrepancy between machine-generated and human-written text. While post-hoc tail truncation (e.g., Top-$p$, Min-$p$) avoids sampling from the unreliable tail, it can over-sample from the uncalibrated head and misalign generation with human lexical preferences; fixed scalar repetition penalties likewise ignore variation in logit scale across inference steps, potentially disrupting semantic coherence. To address both limitations, we propose Variance-Calibrated Modulation (VCM), a training-free pre-decoding intervention that reshapes the probability distribution before truncation through two dynamic mechanisms: (1) Contextual Searchlight via PMI, which suppresses global stopwords while elevating context-evoked tokens, and (2) Adaptive Self-Debiasing, which uses real-time logit standard deviation for scale-invariant penalization. Across open-ended generation, factual QA, and mathematical reasoning, VCM consistently mitigates the likelihood trap. With negligible computational overhead, VCM integrates with existing decoding strategies, improving diversity, coherence, and, particularly at higher decoding temperatures, reasoning accuracy.",
-    "source": "ArXiv",
-    "published": "2026-06-21T14:04:51+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "<br>\u2022 Proposes **Variance-Calibrated Modulation (VCM)**, a training-free pre-decoding technique designed to overcome the **likelihood trap** characterized by repetitive and dull text generation.<br>\u2022 Features a **Contextual Searchlight via PMI** mechanism that suppresses global stopwords while dynamically elevating context-evoked tokens to improve lexical diversity.<br>\u2022 Introduces **Adaptive Self-Debiasing**, which utilizes real-time logit standard deviation for scale-invariant penalization, ensuring semantic coherence across various inference steps.<br>\u2022 Demonstrates broad compatibility with existing strategies like **Top-p and Min-p**, enhancing performance in open-ended generation and complex mathematical reasoning.",
-      "key_results": [
-        "Successfully mitigates repetitive degeneration in long-form text generation.",
-        "Improves alignment between machine-generated and human-written lexical distributions.",
-        "Boosts reasoning accuracy and performance at higher decoding temperatures.",
-        "Maintains semantic coherence through scale-invariant repetition penalties.",
-        "Achieves performance gains with negligible computational overhead during inference."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce Variance-Calibrated Modulation to eliminate the likelihood trap and improve LLM reasoning through dynamic logit adjustment.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "Decoding Strategies",
-        "Reasoning Models",
-        "Generative AI",
-        "Logit Modulation",
-        "Inference Optimization"
       ]
     }
   },
