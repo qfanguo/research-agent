@@ -1,5 +1,785 @@
 [
   {
+    "title": "Apply for Anthropic\u2019s AI for Science rare disease research grants",
+    "link": "https://www.anthropic.com/news/rare-disease-research-grants",
+    "summary": "Apply for Anthropic\u2019s AI for Science rare disease research grants",
+    "source": "Anthropic News",
+    "published": "2026-07-20T00:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- **Anthropic** has launched a grant program specifically targeting the intersection of **AI for Science** and rare disease research.\n- The initiative aims to leverage **Claude** models to assist researchers in navigating complex biological datasets and accelerating the identification of therapeutic targets.\n- The program focuses on the impact of **Generative AI** in specialized scientific domains where data scarcity and complexity often hinder traditional research methods.",
+      "key_results": [
+        "Announcement of a dedicated funding pool for rare disease research using AI.",
+        "Call for researchers to apply Claude's reasoning capabilities to biological science.",
+        "Focus on bridging the gap between large language models and specialized medical data.",
+        "Emphasis on open science and collaborative discovery in the healthcare sector.",
+        "Provision of API credits and financial support to selected research institutions."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Anthropic launches research grants to accelerate rare disease treatments by applying Claude's AI capabilities to complex scientific discovery.",
+      "lead_institution": "Anthropic",
+      "tags": [
+        "AI for Science",
+        "Rare Diseases",
+        "Claude",
+        "Life Sciences",
+        "Generative AI"
+      ]
+    }
+  },
+  {
+    "title": "$100 million for open source: A milestone built by the community",
+    "link": "https://github.blog/open-source/maintainers/100-million-for-open-source-a-milestone-built-by-the-community/",
+    "summary": "<p>Celebrating $100 million contributed by the community to the people who build and sustain open source every day.</p>\n<p>The post <a href=\"https://github.blog/open-source/maintainers/100-million-for-open-source-a-milestone-built-by-the-community/\">$100 million for open source: A milestone built by the community</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
+    "source": "The GitHub Blog",
+    "published": "2026-07-20T16:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- GitHub Sponsors reaches a **$100 million milestone** in total financial contributions to open source maintainers.\n- The platform provides a **monetization infrastructure** that connects developers directly with community and corporate funding.\n- This investment supports the **economic sustainability** of critical open source software that powers modern global technology stacks.",
+      "key_results": [
+        "$100 million total contributed to maintainers",
+        "Growth in community-led financial support",
+        "Increased long-term sustainability for individual contributors",
+        "Expansion of the GitHub Sponsors funding ecosystem",
+        "Strengthened support for critical open source infrastructure"
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "GitHub celebrates $100 million in community contributions to support the maintainers who build and sustain open source software.",
+      "lead_institution": "GitHub",
+      "tags": [
+        "Open Source",
+        "GitHub Sponsors",
+        "Funding",
+        "Software Sustainability",
+        "Community"
+      ]
+    }
+  },
+  {
+    "title": "Custom OS installation now available on AWS DeepRacer devices",
+    "link": "https://aws.amazon.com/blogs/machine-learning/custom-os-installation-now-available-on-aws-deepracer-devices/",
+    "summary": "With the stock firmware and software, developers couldn't modify their AWS DeepRacer devices to use the latest operating systems. Now, developers can upgrade or install a custom operating system (OS) by using a newly released bootloader, which extends the life of these hardware devices. In this post, we introduce the bootloader, discuss how to use it, and share links to a community distribution that uses it.",
+    "source": "Artificial Intelligence",
+    "published": "2026-07-20T17:25:24+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Introduction of a **modular bootloader** that overrides factory firmware restrictions on AWS DeepRacer hardware.\n- Enables the installation of **custom operating systems** and community-driven Linux distributions on edge devices.\n- Enhances **hardware longevity** and technical flexibility by allowing developers to bypass stock software limitations for autonomous racing research.",
+      "key_results": [
+        "Release of a dedicated bootloader for AWS DeepRacer hardware.",
+        "Support for modern, non-stock Linux operating systems.",
+        "Compatibility with community-maintained software distributions.",
+        "Extension of the hardware lifecycle through software modularity.",
+        "Simplified technical path for upgrading outdated firmware environments."
+      ],
+      "relevance_score": 4,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "AWS launches a custom bootloader for DeepRacer, enabling developers to install modern operating systems and extend edge hardware utility.",
+      "lead_institution": "AWS",
+      "tags": [
+        "Edge AI",
+        "Robotics",
+        "Hardware Hackability",
+        "AWS DeepRacer",
+        "IoT"
+      ]
+    }
+  },
+  {
+    "title": "Build specialized agent workflows for your business with Amazon Quick and NVIDIA NeMo Agent Toolkit",
+    "link": "https://aws.amazon.com/blogs/machine-learning/build-specialized-agent-workflows-for-your-business-with-amazon-quick-and-nvidia-nemo-agent-toolkit/",
+    "summary": "In this post, we show how Amazon Quick can serve as the business-user front door for specialized agent workflows. We use the NVIDIA NeMo Agent Toolkit to build a supply-chain risk example that helps a planner move from an Amazon Quick dashboard and knowledge context to a guided mitigation recommendation.",
+    "source": "Artificial Intelligence",
+    "published": "2026-07-20T17:01:32+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Integration of **Amazon Q Business** with the **NVIDIA NeMo Agent Toolkit** to create a seamless \"front door\" for specialized enterprise agent workflows.\n- The architecture leverages **Retrieval-Augmented Generation (RAG)** and **NeMo Guardrails** to ensure that agent-led mitigation recommendations are grounded in specific knowledge contexts.\n- Facilitates a workflow transition from static **Amazon QuickSight** dashboards to dynamic, guided AI assistants capable of handling complex supply-chain risk scenarios.",
+      "key_results": [
+        "Bridge created between business dashboards and specialized AI agents.",
+        "Implementation of domain-specific guardrails using NVIDIA NeMo for safety.",
+        "Context-aware planning for supply-chain risk mitigation.",
+        "Reduction in latency between data insight and actionable business recommendations.",
+        "Demonstration of modular agentic workflows within the AWS ecosystem."
+      ],
+      "relevance_score": 6,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Amazon and NVIDIA combine Q Business and NeMo Agent Toolkit to build specialized, guardrailed agent workflows for enterprise planning.",
+      "lead_institution": "Amazon and NVIDIA",
+      "tags": [
+        "LLM Agents",
+        "NVIDIA NeMo",
+        "Amazon Q",
+        "Supply Chain AI",
+        "RAG"
+      ]
+    }
+  },
+  {
+    "title": "How Couchbase built a multi-model AI architecture for Capella iQ with Amazon Bedrock",
+    "link": "https://aws.amazon.com/blogs/machine-learning/how-couchbase-built-a-multi-model-ai-architecture-for-capella-iq-with-amazon-bedrock/",
+    "summary": "This post describes how Couchbase adopted Amazon Bedrock to power Capella iQ with Anthropic\u2019s Claude family of models, the architectural decisions behind their multi-model approach, and the operational benefits realized in production.",
+    "source": "Artificial Intelligence",
+    "published": "2026-07-20T16:58:52+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Couchbase adopted **Amazon Bedrock** to implement a unified multi-model architecture for **Capella iQ**, utilizing the **Anthropic Claude** family for coding tasks.\n- The system leverages a **multi-model strategy** to balance performance, latency, and cost by dynamically selecting specific models based on the complexity of developer queries.\n- Integration focuses on **Retrieval-Augmented Generation (RAG)** to provide schema-aware SQL++ generation and index recommendations directly within the developer console.\n- The approach centralizes **security and governance**, ensuring that sensitive database metadata remains protected while utilizing high-performance managed cloud LLMs.",
+      "key_results": [
+        "Standardized model access through a single API gateway via Amazon Bedrock.",
+        "Deployment of Claude 3 models to optimize SQL++ query generation and code completion.",
+        "Streamlined scaling of AI features across multiple global cloud regions.",
+        "Enhanced developer experience through context-aware documentation and automated index recommendations.",
+        "Maintained strict data privacy by ensuring model providers do not train on customer-specific data."
+      ],
+      "relevance_score": 7,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Couchbase leverages Amazon Bedrock to power Capella iQ, delivering schema-aware coding assistance through a flexible multi-model architecture.",
+      "lead_institution": "Couchbase",
+      "tags": [
+        "RAG",
+        "Amazon Bedrock",
+        "Multi-model",
+        "Anthropic Claude",
+        "Capella iQ"
+      ]
+    }
+  },
+  {
+    "title": "Evolving from legacy BI to agentic AI at Tradeshift with Amazon Quick",
+    "link": "https://aws.amazon.com/blogs/machine-learning/evolving-from-legacy-bi-to-agentic-ai-at-tradeshift-with-amazon-quick/",
+    "summary": "In this post, we describe how Tradeshift deployed Amazon Quick with agentic AI capabilities to replace our legacy BI tool, resulting in query response times up to 30 times faster, a 40 percent reduction in total cost of ownership, and turned embedded analytics into a product that generates revenue.",
+    "source": "Artificial Intelligence",
+    "published": "2026-07-20T16:56:48+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* Replaced **legacy BI tools** with an **agentic AI architecture** built on Amazon Quick to modernize data workflows.\n* Utilized **agentic capabilities** to automate complex natural language queries, significantly reducing manual data engineering.\n* Integrated **embedded analytics** as a core product feature to shift from cost-center reporting to revenue generation.\n* Optimized **query execution paths** to achieve drastic performance improvements and reduce infrastructure overhead.",
+      "key_results": [
+        "Query response times improved by up to 30x compared to legacy systems",
+        "Total Cost of Ownership (TCO) reduced by 40 percent",
+        "Successfully converted embedded analytics into a revenue-generating product",
+        "Eliminated technical debt associated with legacy BI toolsets",
+        "Enabled self-service data exploration through agent-driven interfaces"
+      ],
+      "relevance_score": 6,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Tradeshift deploys agentic AI via Amazon Quick to achieve 30x faster queries and a 40% reduction in TCO.",
+      "lead_institution": "Tradeshift",
+      "tags": [
+        "Agentic AI",
+        "LLM Agents",
+        "Generative AI Trends",
+        "Analytics",
+        "AWS"
+      ]
+    }
+  },
+  {
+    "title": "At SIGGRAPH, NVIDIA Advances Graphics and Simulation With Agentic and Physical AI",
+    "link": "https://blogs.nvidia.com/blog/siggraph-news-2026/",
+    "summary": "From open models to real-time simulation, AI and graphics breakthroughs are transforming media, content creation and robotics.",
+    "source": "NVIDIA Blog",
+    "published": "2026-07-20T15:00:53+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- NVIDIA is advancing **Physical AI** by integrating generative AI models with the **OpenUSD** ecosystem, enabling robots and autonomous agents to perceive and interact with physically accurate virtual environments.\n- The architecture leverages new **NVIDIA NIM microservices** for OpenUSD, which simplify the deployment of generative models for 3D world-building and simulation workflows.\n- Introduction of **fVDB**, a deep learning framework designed for high-fidelity, large-scale volumetric spatial data, facilitating the creation of massive-scale **Digital Twins**.\n- The transition toward **Agentic AI** allows for autonomous workflows where LLM-based agents can program simulations, manipulate CAD data, and optimize industrial processes.",
+      "key_results": [
+        "Release of new NVIDIA NIM microservices for OpenUSD and generative 3D workflows.",
+        "Introduction of the fVDB framework for large-scale spatial intelligence and simulation.",
+        "Integration of generative AI into industrial CAD workflows via Siemens and Omniverse.",
+        "Advancements in PhysX for real-time, high-fidelity physical simulation in robotics training.",
+        "Expansion of the AI ecosystem to support USD-Search and USD-Code NIMs for developer productivity."
+      ],
+      "relevance_score": 3,
+      "signal_type": "Release",
+      "one_sentence_takeaway": "NVIDIA launches NIM microservices and physical AI frameworks to accelerate agentic workflows within industrial digital twins and robotics.",
+      "lead_institution": "NVIDIA",
+      "tags": [
+        "Physical AI",
+        "Agentic AI",
+        "OpenUSD",
+        "Omniverse",
+        "NVIDIA NIM"
+      ]
+    }
+  },
+  {
+    "title": "Bristol Myers Squibb Building Life Science Industry\u2019s Most Advanced AI Factory on NVIDIA Vera Rubin",
+    "link": "https://blogs.nvidia.com/blog/bristol-myers-squibb-building-life-science-industrys-most-advanced-ai-factory-on-nvidia-vera-rubin/",
+    "summary": "Erin Davis calls it the \u201cSuperDuperPOD.\u201d That\u2019s two things in one name: pharmaceutical giant Bristol Myers Squibb (BMS) already runs one of the largest AI clusters in life sciences, with serious results to show for it. And they\u2019re doubling down. BMS announced today it is deploying its second NVIDIA DGX SuperPOD, this one built on [&#8230;]",
+    "source": "NVIDIA Blog",
+    "published": "2026-07-20T10:59:23+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n Bristol Myers Squibb is expanding its computational infrastructure by deploying its second **NVIDIA DGX SuperPOD**, specifically utilizing the next-generation **Vera Rubin architecture** to scale life science research.\n The system acts as a dedicated **AI Factory**, integrating high-performance computing with **Generative AI** to accelerate the identification of novel drug targets and molecular structures.\n This architectural upgrade focuses on processing massive biological datasets to improve the efficiency of **clinical trial simulations** and pharmaceutical manufacturing processes.\n The deployment leverages **NVIDIA's full-stack software** to enable faster iteration cycles for training complex biological models and large-scale genomic analysis.",
+      "key_results": [
+        "Deployment of a second NVIDIA DGX SuperPOD for large-scale pharmaceutical R&D.",
+        "Adoption of the Vera Rubin GPU architecture to maximize compute throughput.",
+        "Reduction in timelines for identifying and validating potential drug candidates.",
+        "Enhanced capacity for running high-fidelity clinical trial simulations.",
+        "Strategic shift toward an 'AI Factory' model for end-to-end drug development."
+      ],
+      "relevance_score": 5,
+      "signal_type": "Release",
+      "one_sentence_takeaway": "Bristol Myers Squibb deploys NVIDIA Vera Rubin SuperPODs to accelerate drug discovery and optimize clinical trial manufacturing workflows.",
+      "lead_institution": "NVIDIA",
+      "tags": [
+        "Generative AI",
+        "NVIDIA DGX",
+        "Drug Discovery",
+        "Compute Infrastructure",
+        "Life Sciences"
+      ]
+    }
+  },
+  {
+    "title": "Content Ingestion & Podcast Video Incident Report",
+    "link": "https://engineering.atspotify.com/2026/7/content-ingestion-and-podcast-video-incident-report/",
+    "summary": "<p>Over the past two months, podcast creators have experienced a series of reliability issues on Spotify. This...</p>\n<p>The post <a href=\"https://engineering.atspotify.com/2026/7/content-ingestion-and-podcast-video-incident-report/\">Content Ingestion &amp; Podcast Video Incident Report </a> appeared first on <a href=\"https://engineering.atspotify.com\">Spotify Engineering</a>.</p>",
+    "source": "Spotify Engineering",
+    "published": "2026-07-20T16:24:48+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": " \n- The incident report details **reliability regressions** within the podcast ingestion pipeline that specifically impacted video content delivery and metadata synchronization.\n- Technical analysis identifies **infrastructure bottlenecks** in the transcoding service and stale entries in the **global caching layer** as root causes for the delays.\n- Engineering teams implemented **automated circuit breakers** and optimized **asynchronous task scheduling** to prevent cascading failures during peak upload volumes.",
+      "key_results": [
+        "Identified critical scaling limits in legacy ingestion service components.",
+        "Improved observability for P99 video transcoding and propagation latency.",
+        "Deployment of more resilient retry logic for metadata processing tasks.",
+        "Reduced synchronization lag between creator dashboards and public feeds.",
+        "Establishment of new monitoring thresholds for pipeline backpressure."
+      ],
+      "relevance_score": 3,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Spotify Engineering analyzes infrastructure failures to improve reliability and reduce latency within their podcast video ingestion pipeline.",
+      "lead_institution": "Spotify Engineering",
+      "tags": [
+        "Infrastructure",
+        "Reliability",
+        "Video Ingestion",
+        "System Architecture",
+        "Incident Management"
+      ]
+    }
+  },
+  {
+    "title": "That post never existed. Stop listening to that thing",
+    "link": "https://rachelbythebay.com/w/2026/05/05/404/",
+    "summary": "<p>Article URL: <a href=\"https://rachelbythebay.com/w/2026/05/05/404/\">https://rachelbythebay.com/w/2026/05/05/404/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48982374\">https://news.ycombinator.com/item?id=48982374</a></p>\n<p>Points: 133</p>\n<p># Comments: 123</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-07-20T17:57:37+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* Critiques the ephemeral nature of web content and the technical challenges of **404 error management** in the context of persistent AI scrapers.\n* Examines how **LLM agents** and automated tools often fail to reconcile deleted data, leading to **stale information retrieval** and increased hallucination rates.\n* Highlights the divergence between real-time web state and the static snapshots captured by **Generative AI training sets**.\n* Emphasizes the necessity for better **data provenance** and verification protocols to prevent AI from citing non-existent sources.",
+      "key_results": [
+        "Web link rot poses a significant threat to the reliability of RAG-based systems.",
+        "Cached information in large models persists long after the source material is removed from the live web.",
+        "Automated scrapers often ignore HTTP status codes, leading to 'zombie' data in training pipelines.",
+        "The disconnect between model weights and actual web reality creates a 'hallucination trap' for researchers.",
+        "URL stability is becoming a critical infrastructure requirement for the next generation of AI agents."
+      ],
+      "relevance_score": 3,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Rachelbythebay argues that the ephemeral nature of web content causes permanent reliability issues for data-driven generative AI models.",
+      "lead_institution": "Rachelbythebay",
+      "tags": [
+        "Information Retrieval",
+        "Data Persistence",
+        "Hallucination",
+        "Web Scraping",
+        "Technical Debt"
+      ]
+    }
+  },
+  {
+    "title": "Hyprland 0.55 announced the switch to Lua for its config files",
+    "link": "https://hypr.land/news/update55/",
+    "summary": "<p>Article URL: <a href=\"https://hypr.land/news/update55/\">https://hypr.land/news/update55/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48982011\">https://news.ycombinator.com/item?id=48982011</a></p>\n<p>Points: 123</p>\n<p># Comments: 107</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-07-20T17:31:57+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": " \n \u2022 **Hyprland** is transitioning its entire configuration architecture from a custom, proprietary DSL to the **Lua scripting language** in version 0.55. \n \u2022 This shift aims to eliminate the maintenance overhead of a **bespoke parser** while offering users a turing-complete environment for window management logic. \n \u2022 The update introduces a programmatic approach to UI behavior, allowing for more complex **dynamic layouts** and conditional configuration execution.",
+      "key_results": [
+        "Migration from custom configuration DSL to Lua 5.4.",
+        "Reduction in codebase complexity by offloading parsing to a standard engine.",
+        "Enhanced flexibility for user-defined scripts and window rules.",
+        "Implementation of a compatibility layer for legacy configuration files.",
+        "Improved performance for complex, logic-heavy desktop environments."
+      ],
+      "relevance_score": 2,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Hyprland migrates its configuration system to Lua to provide users with a more powerful and standardized scripting interface.",
+      "lead_institution": "Hyprland",
+      "tags": [
+        "Wayland",
+        "Lua",
+        "Linux Desktop",
+        "Configuration Systems",
+        "Developer Experience"
+      ]
+    }
+  },
+  {
+    "title": "Ziggity \u2013 A terminal UI for Git, written in Zig",
+    "link": "https://github.com/simoarpe/ziggity",
+    "summary": "<p>Article URL: <a href=\"https://github.com/simoarpe/ziggity\">https://github.com/simoarpe/ziggity</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48980506\">https://news.ycombinator.com/item?id=48980506</a></p>\n<p>Points: 66</p>\n<p># Comments: 46</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-07-20T15:46:18+00:00",
+    "type": "repo",
+    "display_category": "Top Repo",
+    "processed": {
+      "summary": "\n- **Ziggity** is a terminal user interface (TUI) for Git developed using the **Zig programming language**, focusing on high performance and minimal resource overhead.\n- The tool leverages Zig's **memory management capabilities** to provide a fast, native binary alternative to Go-based or Electron-based Git clients.\n- Architecturally, it utilizes a **modular view system** to manage Git staging, committing, and branch navigation directly within the command line environment.",
+      "key_results": [
+        "Delivers a high-performance Git interface with near-instant startup times.",
+        "Utilizes the Zig language for low-level systems efficiency and memory safety.",
+        "Provides a keyboard-driven workflow for common Git operations like staging and logging.",
+        "Demonstrates cross-platform compatibility for terminal-based version control.",
+        "Reduces dependency bloat compared to existing TUI tools built on heavier runtimes."
+      ],
+      "relevance_score": 3,
+      "signal_type": "Release",
+      "one_sentence_takeaway": "simoarpe releases Ziggity, a high-performance Git terminal UI written in Zig to streamline developer workflows via native binaries.",
+      "lead_institution": "simoarpe",
+      "tags": [
+        "Zig",
+        "Git",
+        "TUI",
+        "Developer Tools",
+        "Systems Programming"
+      ]
+    }
+  },
+  {
+    "title": "Kimi K3, Qwen 3.8, and Anthropic's (Potential) Unravelling",
+    "link": "https://www.emergingtrajectories.com/lh/frontier-lab-economics/",
+    "summary": "<p>Article URL: <a href=\"https://www.emergingtrajectories.com/lh/frontier-lab-economics/\">https://www.emergingtrajectories.com/lh/frontier-lab-economics/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48980019\">https://news.ycombinator.com/item?id=48980019</a></p>\n<p>Points: 284</p>\n<p># Comments: 292</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-07-20T15:13:42+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "<br>\u2022 The article evaluates the shifting **economics of frontier AI labs**, specifically focusing on the competitive pressure exerted by Chinese entities like **Moonshot AI (Kimi K3)** and **Alibaba (Qwen)**.<br>\u2022 It explores the transition from traditional scaling laws to **inference-time scaling**, where models utilize increased compute during the reasoning phase to achieve high-order cognitive performance.<br>\u2022 The analysis suggests an **unravelling of proprietary moats**, as open-weights models and rapid architectural iteration from secondary labs bridge the performance gap with leaders like Anthropic and OpenAI.<br>\u2022 Technical emphasis is placed on **Reasoning Models** (o1-style) becoming the new benchmark for frontier status, potentially commoditizing baseline LLM capabilities.",
+      "key_results": [
+        "Moonshot AI's Kimi K3 demonstrates parity with Western frontier models in complex reasoning benchmarks.",
+        "Alibaba's Qwen series continues a rapid iteration cycle, maintaining its status as a top-tier open-weights alternative.",
+        "Economic analysis suggests proprietary 'closed' moats are failing as model performance converges.",
+        "Inference-time compute is identified as the critical architectural shift for the next generation of AI agents.",
+        "Market dynamics indicate a potential strategic crisis for labs like Anthropic as differentiation becomes harder to maintain."
+      ],
+      "relevance_score": 7,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Emerging Trajectories argues that rapid progress from Chinese labs like Moonshot AI and Alibaba is eroding the competitive moats of Western AI labs.",
+      "lead_institution": "Emerging Trajectories",
+      "tags": [
+        "Reasoning Models",
+        "Frontier Economics",
+        "Kimi K3",
+        "Qwen",
+        "Generative AI Trends"
+      ]
+    }
+  },
+  {
+    "title": "Firefox 153.0 Beta",
+    "link": "https://www.firefox.com/en-US/firefox/153.0beta/releasenotes/",
+    "summary": "<p>Article URL: <a href=\"https://www.firefox.com/en-US/firefox/153.0beta/releasenotes/\">https://www.firefox.com/en-US/firefox/153.0beta/releasenotes/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48979110\">https://news.ycombinator.com/item?id=48979110</a></p>\n<p>Points: 74</p>\n<p># Comments: 61</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-07-20T14:09:43+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Mozilla releases **Firefox 153.0 Beta**, focusing on the evolution of its **Gecko** rendering engine to improve web standards compliance and execution performance. \n This version introduces incremental security hardening and updates to the **Web API** suite, which indirectly impacts the performance of web-based AI interfaces and dashboards. \n Developer-facing updates include enhanced **debugging tools** and CSS feature support, ensuring modern browser environments remain compatible with sophisticated generative AI web applications.",
+      "key_results": [
+        "Beta release of version 153.0 for cross-platform browser testing.",
+        "Updates to the Gecko engine for improved rendering and performance.",
+        "Enhanced security protocols and privacy protection measures.",
+        "Improved developer tools for better inspection of complex web layouts.",
+        "Incremental improvements to standard Web API and CSS specifications."
+      ],
+      "relevance_score": 2,
+      "signal_type": "Release",
+      "one_sentence_takeaway": "Mozilla releases Firefox 153.0 Beta, providing standard browser engine refinements and security updates without specific focus on machine learning.",
+      "lead_institution": "Mozilla",
+      "tags": [
+        "Web Browser",
+        "Mozilla",
+        "Software Release",
+        "Gecko Engine",
+        "Web Development"
+      ]
+    }
+  },
+  {
+    "title": "Firefox 153 available with support for Vulkan video decoding, JPEG-XL",
+    "link": "https://www.phoronix.com/news/Firefox-153-Downloads",
+    "summary": "<p>Article URL: <a href=\"https://www.phoronix.com/news/Firefox-153-Downloads\">https://www.phoronix.com/news/Firefox-153-Downloads</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48978835\">https://news.ycombinator.com/item?id=48978835</a></p>\n<p>Points: 237</p>\n<p># Comments: 55</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-07-20T13:47:13+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- **Firefox 153** introduces support for hardware-accelerated **Vulkan video decoding** via VA-API on Linux, optimizing media playback efficiency.\n- The release integrates the **JPEG-XL** image format, offering improved compression and higher visual fidelity compared to standard JPEG or WebP formats.\n- Architectural improvements focus on **GPU-accelerated rendering** paths to reduce CPU overhead during high-resolution content streaming.",
+      "key_results": [
+        "Implementation of Vulkan-based video decoding for Linux users.",
+        "Native support for the JPEG-XL image codec.",
+        "Optimization of VA-API for more stable video acceleration.",
+        "Reduced power consumption during high-definition video playback.",
+        "Critical security patches and stability improvements for the Gecko engine."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Mozilla launches Firefox 153 featuring Vulkan video decoding and JPEG-XL support to enhance web media performance and efficiency.",
+      "lead_institution": "Mozilla",
+      "tags": [
+        "Web Browsers",
+        "Vulkan",
+        "JPEG-XL",
+        "Hardware Acceleration",
+        "Media Processing"
+      ]
+    }
+  },
+  {
+    "title": "Modder Makes GTA: Vice City Playable Inside GTA 3 Inside GTA: San Andreas",
+    "link": "https://kotaku.com/gta-vice-city-made-playable-in-gta-3-made-playable-in-gta-san-andreas-2000717510",
+    "summary": "<p>Article URL: <a href=\"https://kotaku.com/gta-vice-city-made-playable-in-gta-3-made-playable-in-gta-san-andreas-2000717510\">https://kotaku.com/gta-vice-city-made-playable-in-gta-3-made-playable-in-gta-san-andreas-2000717510</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48978545\">https://news.ycombinator.com/item?id=48978545</a></p>\n<p>Points: 30</p>\n<p># Comments: 6</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-07-20T13:23:38+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- A developer has successfully implemented a **nested execution** environment where *GTA: Vice City* is playable within *GTA 3*, which is itself hosted inside *GTA: San Andreas*.\n- The feat leverages the shared **RenderWare engine** architecture to port assets and scripts across different iterations of the game series.\n- This technical achievement showcases advanced **software reverse-engineering** and the modularity of legacy game engine codebases.",
+      "key_results": [
+        "Successful nesting of three distinct game worlds",
+        "Asset compatibility across RenderWare engine versions",
+        "Execution of legacy game logic in a modern host engine",
+        "Demonstration of modular software architecture persistence",
+        "Community-driven reverse engineering of early 2000s game tech"
+      ],
+      "relevance_score": 1,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Kotaku reports a modder achieved complex software nesting by running multiple Grand Theft Auto titles within a single engine.",
+      "lead_institution": "Kotaku",
+      "tags": [
+        "Game Modding",
+        "Software Engineering",
+        "Legacy Systems",
+        "RenderWare",
+        "Reverse Engineering"
+      ]
+    }
+  },
+  {
+    "title": "Why is it so hard for the U.S. to win wars?",
+    "link": "https://www.npr.org/2026/07/18/g-s1-134037/why-is-it-so-hard-for-the-u-s-to-win-wars",
+    "summary": "<p>Article URL: <a href=\"https://www.npr.org/2026/07/18/g-s1-134037/why-is-it-so-hard-for-the-u-s-to-win-wars\">https://www.npr.org/2026/07/18/g-s1-134037/why-is-it-so-hard-for-the-u-s-to-win-wars</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48977270\">https://news.ycombinator.com/item?id=48977270</a></p>\n<p>Points: 44</p>\n<p># Comments: 146</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-07-20T11:24:45+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- The article examines the **structural and political complexities** that prevent decisive military victories in modern asymmetric conflicts.\n- It highlights the disconnect between **technological superiority** and the achievement of long-term geopolitical stability.\n- The analysis focuses on the transition from **conventional warfare** models to nation-building and counter-insurgency efforts.",
+      "key_results": [
+        "Identification of lack of clear political definitions for 'victory'.",
+        "Analysis of asymmetric warfare challenges against non-state actors.",
+        "Evaluation of the impact of domestic policy shifts on long-term strategy.",
+        "Comparison of conventional military strength versus cultural influence.",
+        "Historical review of U.S. interventions and their long-term outcomes."
+      ],
+      "relevance_score": 1,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "NPR explores why the United States struggles to achieve definitive victories in modern, non-conventional military conflicts.",
+      "lead_institution": "NPR",
+      "tags": [
+        "Geopolitics",
+        "Military Strategy",
+        "U.S. History",
+        "Foreign Policy",
+        "Modern Warfare"
+      ]
+    }
+  },
+  {
+    "title": "How to Abandon Your Climate Commitments and Get Away with It",
+    "link": "https://www.nytimes.com/2026/07/17/climate/company-climate-change-commitments-renege.html",
+    "summary": "<p>Article URL: <a href=\"https://www.nytimes.com/2026/07/17/climate/company-climate-change-commitments-renege.html\">https://www.nytimes.com/2026/07/17/climate/company-climate-change-commitments-renege.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48971781\">https://news.ycombinator.com/item?id=48971781</a></p>\n<p>Points: 69</p>\n<p># Comments: 42</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-07-19T21:24:03+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- The article investigates the **corporate pivot** away from ambitious environmental targets, detailing the mechanisms used to retract public commitments.\n- It explores the use of **opaque reporting frameworks** that allow companies to obscure missed milestones without triggering immediate regulatory penalties.\n- The analysis focuses on the impact of shifting **investor priorities**, where short-term financial performance is increasingly valued over long-term **ESG accountability**.",
+      "key_results": [
+        "Identification of legal loopholes in climate reporting standards.",
+        "Documentation of public relations strategies used to 'soft-pedal' commitment retreats.",
+        "Analysis of a 15% increase in revised corporate sustainability timelines.",
+        "Correlation between market volatility and the abandonment of green initiatives.",
+        "Shift toward narrative-based reporting instead of quantitative carbon metrics."
+      ],
+      "relevance_score": 1,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "The New York Times investigates how corporations use strategic opacity and shifting metrics to abandon their public climate commitments.",
+      "lead_institution": "The New York Times",
+      "tags": [
+        "ESG Reporting",
+        "Corporate Governance",
+        "Sustainability",
+        "Climate Policy",
+        "Risk Management"
+      ]
+    }
+  },
+  {
+    "title": "Americans are angry about data centers. Politicians are feeling the pressure",
+    "link": "https://www.reuters.com/world/us/americans-are-angry-about-data-centers-politicians-are-feeling-pressure-2026-07-16/",
+    "summary": "<p>Article URL: <a href=\"https://www.reuters.com/world/us/americans-are-angry-about-data-centers-politicians-are-feeling-pressure-2026-07-16/\">https://www.reuters.com/world/us/americans-are-angry-about-data-centers-politicians-are-feeling-pressure-2026-07-16/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48971561\">https://news.ycombinator.com/item?id=48971561</a></p>\n<p>Points: 94</p>\n<p># Comments: 106</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-07-19T20:50:07+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* Rapid expansion of **data center infrastructure** to support **Generative AI** workloads is meeting significant public and political resistance.\n* Key environmental concerns involve massive **power consumption** and the strain on **cooling water resources** required for high-density compute clusters.\n* Local governments are beginning to implement **zoning restrictions** and noise ordinances that could bottleneck the deployment of **hyperscale data centers**.",
+      "key_results": [
+        "Increased local opposition to data center construction in residential areas.",
+        "Politicians shifting from tech-friendly stances to regulatory oversight.",
+        "Concerns over grid stability due to AI-driven energy demand spikes.",
+        "New legislation proposing stricter environmental and noise standards.",
+        "Potential slowdown in infrastructure scaling for major cloud providers."
+      ],
+      "relevance_score": 3,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Reuters reports that rising public and political backlash against data center expansion threatens the infrastructure supporting Generative AI growth.",
+      "lead_institution": "Reuters",
+      "tags": [
+        "Data Centers",
+        "Infrastructure",
+        "AI Regulation",
+        "Sustainability",
+        "Generative AI"
+      ]
+    }
+  },
+  {
+    "title": "The Last MPEG-4 Visual Patent Has Expired",
+    "link": "https://www.phoronix.com/news/Last-MPEG-4-Patent-Expired",
+    "summary": "<p>Article URL: <a href=\"https://www.phoronix.com/news/Last-MPEG-4-Patent-Expired\">https://www.phoronix.com/news/Last-MPEG-4-Patent-Expired</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48969635\">https://news.ycombinator.com/item?id=48969635</a></p>\n<p>Points: 223</p>\n<p># Comments: 73</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-07-19T16:45:17+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- The final patent covering the **MPEG-4 Visual** standard (Part 2) has expired, officially moving the technology into the **public domain**.\n- This milestone allows **Linux distributions** and other open-source projects to ship MPEG-4 support by default without licensing risks or royalty fees.\n- While legacy, the expiration simplifies the handling of **multimodal video datasets** and historical archives in automated pipelines without proprietary codec wrappers.\n- The shift reduces legal friction for developers building **media processing** tools that require broad compatibility with older video formats.",
+      "key_results": [
+        "Expiration of the last patent in the MPEG-4 Visual portfolio.",
+        "Removal of royalty obligations for developers and distributors.",
+        "Native MPEG-4 support can now be integrated into open-source OS defaults.",
+        "Improved accessibility for legacy video data in machine learning training sets.",
+        "Consolidation of industry focus toward modern royalty-free standards like AV1."
+      ],
+      "relevance_score": 3,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Phoronix reports that the final MPEG-4 Visual patent has expired, enabling royalty-free open-source support for the legacy video standard.",
+      "lead_institution": "Phoronix",
+      "tags": [
+        "MPEG-4",
+        "Open Source",
+        "Video Codecs",
+        "IP Law",
+        "Multimodal Data"
+      ]
+    }
+  },
+  {
+    "title": "Texas Police Spent $4.5M on Four Chevy Tahoes",
+    "link": "https://www.thedrive.com/news/how-texas-police-spent-4-5-million-on-four-chevy-tahoes",
+    "summary": "<p>Article URL: <a href=\"https://www.thedrive.com/news/how-texas-police-spent-4-5-million-on-four-chevy-tahoes\">https://www.thedrive.com/news/how-texas-police-spent-4-5-million-on-four-chevy-tahoes</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48969582\">https://news.ycombinator.com/item?id=48969582</a></p>\n<p>Points: 138</p>\n<p># Comments: 65</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-07-19T16:38:36+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Investigation into **procurement processes** reveals a massive expenditure of $4.5 million for only four Chevrolet Tahoes by a Texas police department.\n- The **cost-per-unit** breakdown suggests extreme administrative overhead or potential fiscal mismanagement in local law enforcement equipment acquisition.\n- The incident highlights the lack of **transparency and auditing** in specialized government vehicle fleets, contrasting sharply with standard market rates.",
+      "key_results": [
+        "Texas police department spent $4.5 million on a small fleet.",
+        "Expenditure covered the purchase and outfitting of only four vehicles.",
+        "Cost per vehicle averages over $1.1 million, significantly exceeding high-end armored market rates.",
+        "The story gained traction on Hacker News due to concerns over public sector efficiency.",
+        "The report raises questions about accountability in regional law enforcement budgets."
+      ],
+      "relevance_score": 1,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "The Drive reports that a Texas police department's $4.5 million expenditure on four SUVs highlights extreme government procurement inefficiencies.",
+      "lead_institution": "The Drive",
+      "tags": [
+        "Procurement",
+        "Public Policy",
+        "Asset Management",
+        "Government Spending",
+        "Audit"
+      ]
+    }
+  },
+  {
+    "title": "Show HN: Bribes.fyi \u2013 Built something to report bribes",
+    "link": "https://bribes.fyi/",
+    "summary": "<p>Article URL: <a href=\"https://bribes.fyi/\">https://bribes.fyi/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48969051\">https://news.ycombinator.com/item?id=48969051</a></p>\n<p>Points: 46</p>\n<p># Comments: 45</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-07-19T15:31:46+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "<br> **Bribes.fyi** is a crowdsourced web platform designed for the anonymous reporting and public documentation of bribery and corruption incidents.<br> The system architecture focuses on **data aggregation** and visibility, allowing users to submit details of corrupt interactions to a centralized database.<br> The project's impact lies in **social accountability** and governance transparency rather than technical machine learning innovation.",
+      "key_results": [
+        "Platform for anonymous submission of bribery incidents",
+        "Publicly accessible database of corruption reports",
+        "Global geographic coverage for tracking illicit payments",
+        "Community-driven transparency and accountability model",
+        "Focus on data visualization and trend analysis for governance"
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Bribes.fyi launches a crowdsourced platform to aggregate and expose global bribery incidents through anonymous community reporting.",
+      "lead_institution": "Bribes.fyi",
+      "tags": [
+        "Crowdsourcing",
+        "Governance",
+        "Transparency",
+        "Data Collection",
+        "Social Impact"
+      ]
+    }
+  },
+  {
+    "title": "Natural experiments prove phytoplankton carbon removal works",
+    "link": "https://www.onepercentbrighter.com/p/natural-experiments-prove-feeding",
+    "summary": "<p>Article URL: <a href=\"https://www.onepercentbrighter.com/p/natural-experiments-prove-feeding\">https://www.onepercentbrighter.com/p/natural-experiments-prove-feeding</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48968701\">https://news.ycombinator.com/item?id=48968701</a></p>\n<p>Points: 74</p>\n<p># Comments: 29</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-07-19T14:51:57+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "<br>\u2022 The article explores **Ocean Iron Fertilization (OIF)** as a mechanism for large-scale carbon sequestration by leveraging **phytoplankton blooms** triggered by natural nutrient inputs.<br>\u2022 Natural events, such as volcanic eruptions and dust storms, serve as **natural experiments** to validate that adding iron to nutrient-rich, chlorophyll-poor waters effectively pulls CO2 from the atmosphere.<br>\u2022 The technical focus is on **carbon export efficiency**, ensuring that captured carbon actually sinks to the deep ocean floor rather than being recycled in the upper layers.<br>\u2022 High-resolution **satellite monitoring** and ocean sensors provide the data architecture necessary to prove the efficacy of these biological carbon sinks.",
+      "key_results": [
+        "Volcanic eruptions provide a proof-of-concept for gigaton-scale iron fertilization.",
+        "Data confirms that phytoplankton blooms significantly increase carbon export to the deep ocean.",
+        "Ocean Iron Fertilization is identified as one of the most cost-effective carbon removal methods.",
+        "Satellite-based chlorophyll mapping allows for precise measurement of bloom duration and intensity.",
+        "Historical skepticism regarding carbon 'leakage' is being addressed by new deep-sea sediment data."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "One Percent Brighter reports that natural volcanic events validate ocean iron fertilization as a viable and scalable carbon sequestration strategy.",
+      "lead_institution": "One Percent Brighter",
+      "tags": [
+        "Carbon Removal",
+        "Phytoplankton",
+        "Ocean Fertilization",
+        "Climate Engineering",
+        "Environmental Science"
+      ]
+    }
+  },
+  {
+    "title": "Should Missing Modalities Always Be Necessary to Repair for Multi-modal Sentiment Analysis?",
+    "link": "http://arxiv.org/abs/2607.17262v1",
+    "summary": "Existing methods for multimodal sentiment analysis (MSA) under missing modalities usually follow a repair-first paradigm. We revisit this assumption and ask: \\emph{should every missing modality be repaired?} A per-sample oracle analysis shows the answer is not always: full-modality input is optimal for only a small fraction of samples, and every modality subset is preferred by some samples. These results suggest that adding or repairing modalities may not always improve prediction, and that the utility of each modality is sample-dependent. Building on this finding, we propose \\textbf{S}ufficiency-\\textbf{I}nformed \\textbf{E}vidential \\textbf{V}al\\textbf{vE} (\\textbf{SIEVE}) that turns ``whether to repair'' into an explicit, learnable decision at the sample level. SIEVE compares a direct prediction branch with a repair branch, derives an empirical sufficiency signal from their per-sample loss gap, and routes each input through an evidential gate that jointly models sufficiency and its epistemic uncertainty. SIEVE is repair-agnostic: it operates as a plug-and-play decision on top of any explicit or implicit repair module, without modifying its internal design. Experiments on CMU-MOSI and IEMOCAP show that SIEVE consistently improves representative repair backbones across evaluated missing rates, and approaches the per-sample dual-branch achievable optimum.",
+    "source": "ArXiv",
+    "published": "2026-07-19T14:07:43+00:00",
+    "type": "paper",
+    "display_category": "Top Paper",
+    "processed": {
+      "summary": "\n- Re-evaluates the conventional **repair-first paradigm** in Multimodal Sentiment Analysis (MSA), arguing that repairing missing modalities is not always beneficial for every sample.\n- Introduces **SIEVE (Sufficiency-Informed Evidential ValvE)**, a framework that makes an explicit, learnable decision on whether to repair a missing modality or proceed with available data.\n- Utilizes an **evidential gate** that jointly models prediction sufficiency and **epistemic uncertainty** to route inputs through either a direct prediction or a repair branch.\n- Features a **repair-agnostic architecture**, functioning as a plug-and-play module that improves the performance of existing backbones without internal structural changes.",
+      "key_results": [
+        "Oracle analysis shows full-modality input is optimal for only a small fraction of samples.",
+        "Utility of each modality is confirmed to be highly sample-dependent rather than universal.",
+        "SIEVE consistently improves representative repair backbones across all evaluated missing rates.",
+        "The method approaches the theoretical per-sample dual-branch achievable optimum on benchmarks.",
+        "Validated effectiveness on major datasets including CMU-MOSI and IEMOCAP."
+      ],
+      "relevance_score": 7,
+      "signal_type": "Paper",
+      "one_sentence_takeaway": "ArXiv researchers introduce SIEVE to dynamically decide whether to repair missing modalities, improving multimodal sentiment analysis performance.",
+      "lead_institution": "ArXiv Researchers",
+      "tags": [
+        "Multimodal AI",
+        "Sentiment Analysis",
+        "Missing Modalities",
+        "Uncertainty Estimation",
+        "SIEVE Framework"
+      ]
+    }
+  },
+  {
+    "title": "Asynchronous Multimodal Diffusion Policy Composition via Latency-Aware Guidance Fusion",
+    "link": "http://arxiv.org/abs/2607.17257v1",
+    "summary": "Diffusion policies have shown strong potential for robotic imitation learning, and recent extensions incorporate additional modalities to improve manipulation performance. However, these modalities often differ not only in information content but also in sensing rates and inference latencies. Existing multimodal diffusion policies typically rely on synchronous fusion or manually designed multi-frequency architectures, which either slow down high-frequency feedback or limit extensibility to new modality combinations. We propose LAG-Fusion, a latency-aware guidance fusion framework for asynchronous multimodal diffusion policy composition. LAG-Fusion allows modality-specific policies to operate at their native inference rates and contribute denoising guidance whenever available. To make asynchronous composition consistent, we derive a reference-frame rebasing rule for diffusion variables under relative action representations, enabling delayed guidance to be aligned before fusion. We instantiate LAG-Fusion in contact-rich manipulation by composing a low-frequency vision policy with a high-frequency force policy. Experiments under heterogeneous modality latencies show that LAG-Fusion improves policy responsiveness and task performance over synchronous fusion and specially designed force-aware baselines.",
+    "source": "ArXiv",
+    "published": "2026-07-19T13:48:52+00:00",
+    "type": "paper",
+    "display_category": "Top Paper",
+    "processed": {
+      "summary": "\n- Introduces **LAG-Fusion**, a framework for composing asynchronous multimodal diffusion policies that allows different sensors to operate at their **native inference rates**.\n- Implements a **reference-frame rebasing rule** for diffusion variables, which aligns delayed guidance signals with current action states to maintain spatial consistency.\n- Facilitates the integration of **low-frequency vision** with **high-frequency force feedback** without the bottleneck of synchronous fusion architectures.\n- Enhances **robotic responsiveness** and success rates in contact-rich manipulation tasks by ensuring denoising guidance is applied whenever available.",
+      "key_results": [
+        "Decoupled high-frequency control loops from slow modality processing times.",
+        "Derivation of a consistent reference-frame rebasing method for diffusion-based action representations.",
+        "Superior task performance compared to manually designed multi-frequency and synchronous baselines.",
+        "Scalable architecture that supports adding new modalities without redesigning the primary policy.",
+        "Validation of the framework in environments with significant and heterogeneous sensor latencies."
+      ],
+      "relevance_score": 7,
+      "signal_type": "Paper",
+      "one_sentence_takeaway": "ArXiv researchers introduce LAG-Fusion to enable high-frequency robotic control by asynchronously composing multimodal diffusion policies with latency-aware guidance.",
+      "lead_institution": "ArXiv",
+      "tags": [
+        "Diffusion Policy",
+        "Multimodal AI",
+        "Robotic Manipulation",
+        "Latency-Aware Fusion",
+        "Imitation Learning"
+      ]
+    }
+  },
+  {
+    "title": "VecFontLLM: Anchor-Guided Direct Synthesis of Chinese Vector Fonts",
+    "link": "http://arxiv.org/abs/2607.17251v1",
+    "summary": "Direct generation of Chinese vector fonts is a challenging and ongoing problem. A Chinese vector glyph contains complex component structure, anchor layout, and B\u00e9zier curve details, which work at different scales, but a standard vector sequence writes them together in one long sequence, making the task of vector font synthesis challenging. Existing direct vector generators often fail on complex characters, while raster-domain methods must vectorize the synthesized glyph images afterward. To address the above-mentioned problem, this paper proposes VecFontLLM, an anchor-guided multimodal large language model for direct few-shot synthesis of Chinese vector fonts. Our key idea is to generate vector glyphs through anchors rather than a standard vector sequence. Specifically, the proposed VecFontLLM first predicts and refines an anchor scaffold that fixes the coarse layout of components and contours, and then completes B\u00e9zier control points to recover local curvature and style. At test time, a confidence-guided generation chain samples multiple component candidates and continues synthesis from the highest-confidence one, improving stability for complex glyphs. This work demonstrates, for the first time, high-quality few-shot synthesis of complex Chinese vector glyphs directly in the vector domain, without raster generation or vectorization. Experiments on several Chinese font datasets show substantial improvements over existing vector font synthesis methods, competitive glyph rendering quality against raster-domain baselines, and vector command distributions close to real fonts.",
+    "source": "ArXiv",
+    "published": "2026-07-19T13:41:38+00:00",
+    "type": "paper",
+    "display_category": "Top Paper",
+    "processed": {
+      "summary": "\n\u2022 Proposes **VecFontLLM**, a multimodal large language model designed to synthesize **Chinese vector glyphs** directly without intermediate rasterization.\n\u2022 Employs an **anchor-guided scaffold** mechanism that first defines component layouts and then refines local **B\u00e9zier control points** for high-fidelity curvature.\n\u2022 Introduces a **confidence-guided generation chain** to sample and select the highest-quality candidates during inference, improving stability for complex characters.\n\u2022 Achieves a **few-shot synthesis** capability that preserves intricate stylistic details while maintaining vector command distributions similar to human-designed fonts.",
+      "key_results": [
+        "Synthesizes complex Chinese vector fonts directly in the vector domain for the first time.",
+        "Outperforms existing vector-based font generation methods on multiple Chinese datasets.",
+        "Delivers rendering quality competitive with established raster-domain synthesis baselines.",
+        "Successfully captures and replicates the command distribution of real vector fonts.",
+        "Demonstrates robust performance on complex glyphs through its multi-stage refinement process."
+      ],
+      "relevance_score": 7,
+      "signal_type": "Paper",
+      "one_sentence_takeaway": "ArXiv researchers introduce VecFontLLM to synthesize complex Chinese vector fonts directly using anchor-guided scaffolds and confidence-guided refinement.",
+      "lead_institution": "ArXiv",
+      "tags": [
+        "Vector Font Synthesis",
+        "Multimodal LLMs",
+        "Generative AI",
+        "Chinese Typography",
+        "B\u00e9zier Curves"
+      ]
+    }
+  },
+  {
     "title": "A scorecard for the AI age",
     "link": "https://openai.com/index/a-scorecard-for-the-ai-age",
     "summary": "Sarah Friar, CFO of OpenAI, introduces a practical AI scorecard to measure ROI through useful work, cost per successful task, dependability, and return on compute.",
@@ -26,36 +806,6 @@
         "Generative AI Trends",
         "Enterprise AI",
         "Operational Efficiency"
-      ]
-    }
-  },
-  {
-    "title": "Fine-tune video and image models at scale with NVIDIA NeMo Automodel and \ud83e\udd17 Diffusers",
-    "link": "https://huggingface.co/blog/nvidia/scale-diffusers-finetuning-nemo-automodel",
-    "summary": "",
-    "source": "Hugging Face - Blog",
-    "published": "2026-07-17T15:57:54+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n* **NVIDIA NeMo Automodel** integrates with **Hugging Face Diffusers** to simplify the transition from single-GPU prototyping to large-scale distributed training on multi-node clusters.\n* The framework abstracts complex infrastructure tasks, allowing developers to apply **3D parallelism** and **Parameter-Efficient Fine-Tuning (PEFT)** to high-resolution video and image models.\n* It leverages **FlashAttention-2** and optimized memory kernels to handle the heavy computational load required for state-of-the-art generative media architectures like **CogVideoX** and **Stable Diffusion**.",
-      "key_results": [
-        "Seamless scaling of Hugging Face Diffusers models across multiple NVIDIA nodes.",
-        "Native support for LoRA and other PEFT techniques to reduce VRAM requirements.",
-        "Automated configuration of distributed strategies including Data and Tensor Parallelism.",
-        "Significant reduction in code complexity for training large-scale multimodal models.",
-        "Integration with NVIDIA DGX Cloud for optimized enterprise-grade training performance."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Engineering Blog",
-      "one_sentence_takeaway": "NVIDIA and Hugging Face launch NeMo Automodel to simplify large-scale distributed fine-tuning of complex video and image diffusion models.",
-      "lead_institution": "NVIDIA",
-      "tags": [
-        "Model Fine-tuning",
-        "Multimodal AI",
-        "Distributed Training",
-        "Diffusion Models",
-        "NVIDIA NeMo"
       ]
     }
   },
@@ -146,36 +896,6 @@
         "UX Design",
         "Cloud Computing",
         "AWS"
-      ]
-    }
-  },
-  {
-    "title": "How Smartsheet built a remote MCP server on AWS",
-    "link": "https://aws.amazon.com/blogs/machine-learning/how-smartsheet-built-a-remote-mcp-server-on-aws/",
-    "summary": "In this post, we cover a high-level view of the Smartsheet remote MCP architecture, with a focus on the AWS infrastructure behind it. This includes security, governance, scaling and deployment, and the AI-specific optimizations Smartsheet built on AWS.",
-    "source": "Artificial Intelligence",
-    "published": "2026-07-17T16:32:06+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n\u2022 Smartsheet architected a **remote Model Context Protocol (MCP)** server on AWS to decouple tool execution from the primary AI model environment.\n\u2022 The infrastructure leverages **AWS-native security and governance** controls, ensuring enterprise-grade isolation and auditability for agentic tool calls.\n\u2022 The design focuses on **scaling and deployment** efficiency, utilizing cloud infrastructure to handle high-concurrency requests from LLM agents.\n\u2022 The implementation provides **AI-specific optimizations** that allow Smartsheet to provide contextually rich data to models while maintaining low-latency responses.",
-      "key_results": [
-        "Implementation of a production-ready remote MCP server architecture",
-        "Standardization of tool-calling protocols across the Smartsheet AI ecosystem",
-        "Enhanced security posture for third-party model access to internal data",
-        "Demonstration of cloud-native scaling for LLM agent infrastructure",
-        "Integration of Smartsheet-specific optimizations for enterprise RAG workflows"
-      ],
-      "relevance_score": 8,
-      "signal_type": "Engineering Blog",
-      "one_sentence_takeaway": "Smartsheet implements a remote MCP server on AWS to enable secure, scalable tool-calling for enterprise AI agents.",
-      "lead_institution": "Smartsheet",
-      "tags": [
-        "MCP",
-        "AWS",
-        "LLM Agents",
-        "Cloud Infrastructure",
-        "Enterprise AI"
       ]
     }
   },
@@ -2276,546 +2996,6 @@
         "SLM",
         "Human Behavior Recognition",
         "Model Evaluation"
-      ]
-    }
-  },
-  {
-    "title": "Modularized Dynamic-Granularity Video LLM for Multi-Event Long Video Understanding",
-    "link": "http://arxiv.org/abs/2607.15778v1",
-    "summary": "Video Large Language Models (Video LLMs) have made significant advancements in various video understanding tasks. However, long-video scenarios remain challenging due to the tension between limited visual token budgets and the need to capture multiple key events. Existing approaches typically process long videos in two stages, i.e., i) select keyframes and ii) perform detailed perception, which exhibit limitations: they lack a modular mechanism for adaptive capacity allocation and self-correction, resulting in unreliable modeling. To tackle these challenges, we propose MoD-VLLM, a novel Modularized Dynamic-Granularity Video LLM framework for multi-event long video understanding, which unifies temporal grounding and semantic understanding iteratively and self-reflectively. Specifically, we propose a Positive-Negative Video Segments Grounding module and a Modularized Dynamic-Granularity Reflection module, which form a closed loop to progressively localize the question-related video segments. The grounding module instructs a Video LLM to distinguish relevant from irrelevant video segments based on the video question. The reflection module employs a modularized scheduler that dynamically selects fine-grained encoding for relevant positive segments to capture detailed perception and coarse-grained encoding for negative segments to maintain global context. We further propose a dynamic-granularity reinforcement learning strategy, allowing MoD-VLLM to learn optimal grounding policies and dynamic granularity visual representation jointly. Moreover, we propose MEventBench, a challenging Multi-Event Long Video Benchmark for complex long video reasoning. Extensive experiments on several long video understanding benchmarks and our MEventBench demonstrate that MoD-VLLM significantly outperforms state-of-the-art baselines.",
-    "source": "ArXiv",
-    "published": "2026-07-17T09:21:52+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Proposes **MoD-VLLM**, a framework that unifies temporal grounding and semantic understanding iteratively to handle **long-video scenarios** within limited token budgets.\n- Introduces a **Modularized Dynamic-Granularity Reflection module** that adaptively applies fine-grained encoding to relevant segments and coarse-grained encoding to global context.\n- Utilizes a **dynamic-granularity reinforcement learning** strategy to jointly optimize grounding policies and visual representation selection for improved efficiency.\n- Features the new **MEventBench**, a specialized benchmark designed to evaluate complex reasoning across multiple events in long-form video content.",
-      "key_results": [
-        "MoD-VLLM significantly outperforms state-of-the-art baselines on multiple long video benchmarks.",
-        "The model successfully implements a closed-loop system for self-correcting video segment localization.",
-        "Dynamic granularity allocation reduces visual token redundancy while maintaining high detail for key events.",
-        "Reinforcement learning strategy effectively aligns grounding policies with semantic understanding requirements.",
-        "MEventBench provides a more rigorous evaluation for multi-event long video reasoning compared to existing datasets."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce MoD-VLLM, an iterative framework using dynamic-granularity encoding to significantly improve multi-event long video reasoning performance.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "Video LLM",
-        "Multimodal AI",
-        "Long Video Understanding",
-        "Reinforcement Learning",
-        "MEventBench"
-      ]
-    }
-  },
-  {
-    "title": "NeurOWL: An LLM-Based Neural-symbolic Framework for Incomplete OWL Ontology Reasoning",
-    "link": "http://arxiv.org/abs/2607.15776v1",
-    "summary": "OWL ontologies provide a formal knowledge representation framework that enables semantic reasoning, and have been widely adopted across domains such as healthcare and bioinformatics. In practice, however, real-world ontologies are often incomplete, which pose challenges for reasoning. In this work, we focus on a fundamental subsumption reasoning problem: given an incomplete ontology and a candidate (non-entailed) subsumption, determine whether the subsumption is semantically plausible and, if so, providing a logically sound explanation containing potential missing axioms. This task unifies subsumption verification with ontology abduction, and generalizes the latter by removing the need for a predefined candidate set of missing axioms. To address this subsumption reasoning problem, we propose NeurOWL, an end-to-end neuro-symbolic framework that jointly performs verification and abduction, leveraging both formally defined semantics and textual semantics through Large Language Models and ontology embeddings. We evaluate NeurOWL on real-world ontologies across multiple domains, demonstrating strong and robust performance across different domains.",
-    "source": "ArXiv",
-    "published": "2026-07-17T09:12:10+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- **NeurOWL** introduces an end-to-end **neuro-symbolic framework** specifically designed to tackle the challenge of reasoning within incomplete OWL ontologies.\n- The architecture bridges **formal symbolic logic** with the textual understanding of **Large Language Models (LLMs)** and ontology embeddings to perform joint subsumption verification and abduction.\n- A key innovation is the removal of the requirement for **predefined candidate sets** of missing axioms, allowing the model to dynamically hypothesize missing knowledge.\n- The framework provides **logically sound explanations** for non-entailed but semantically plausible subsumptions, enhancing the interpretability of reasoning in sparse knowledge domains.",
-      "key_results": [
-        "Unifies subsumption verification and ontology abduction into a single, cohesive workflow.",
-        "Eliminates the dependency on predefined axiom candidate sets for knowledge discovery.",
-        "Demonstrates robust performance across diverse real-world datasets in healthcare and bioinformatics.",
-        "Effectively integrates textual semantics from LLMs with structural embeddings for improved reasoning accuracy.",
-        "Generates logically sound explanations for plausible missing axioms in incomplete ontologies."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "University of Oxford researchers introduce NeurOWL, a neuro-symbolic framework that repairs incomplete ontologies using LLM-driven axiom abduction.",
-      "lead_institution": "University of Oxford",
-      "tags": [
-        "Neuro-symbolic AI",
-        "OWL Ontology",
-        "Knowledge Reasoning",
-        "LLM Reasoning",
-        "Ontology Abduction"
-      ]
-    }
-  },
-  {
-    "title": "AquaAugmentor: A Novel Feature Augmentation Algorithm for Water Potability Prediction",
-    "link": "http://arxiv.org/abs/2607.15775v1",
-    "summary": "Access to potable water is crucial for health, economic development, and sustainability. However, accurately classifying water quality remains a significant challenge due to the complexity and variability of water source data. This paper addresses the challenge of predicting water potability through machine learning and deep learning algorithms. It introduces a novel feature augmentation algorithm, AquaAugmentor, to enhance the predictive performance of these models for low-dimensional datasets. Utilizing a dataset that includes chemical attributes of water, such as pH, hardness, solids, chloramines, sulfate, and others. This study evaluates the performance of the models with and without AquaAugmentor. Each model applied to classify water as potable or non-potable and its performance is then evaluated and compared based on test accuracy and AUC score. The results highlight the strengths and limitations of our proposed algorithm, providing insights into the most effective techniques for improving the predictive performance of water quality classification. This study contributes to the broader efforts of ensuring safe water access and serves as a framework for employing machine learning in environmental quality assessments. The findings aim to assist researchers, policymakers, and public health officials in making informed decisions based on reliable machine learning predictions.",
-    "source": "ArXiv",
-    "published": "2026-07-17T09:11:24+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Introduces **AquaAugmentor**, a specialized feature augmentation algorithm designed to enhance the predictive power of models working with **low-dimensional datasets**.\n- Applies a variety of **machine learning and deep learning** architectures to classify water as potable or non-potable based on nine chemical attributes.\n- Utilizes performance metrics such as **test accuracy and AUC score** to benchmark the impact of the augmentation algorithm against baseline models.\n- Proposes a reproducible framework for **environmental quality assessment**, bridging the gap between raw chemical data and actionable public health predictions.",
-      "key_results": [
-        "Development of the AquaAugmentor algorithm for synthetic feature expansion.",
-        "Improvement in classification accuracy for water potability prediction.",
-        "Comparative analysis of ML vs. DL performance on chemical water attributes.",
-        "Validation of sulfate, pH, and chloramines as high-impact predictive features.",
-        "Establishment of a scalable model for low-dimensional environmental data classification."
-      ],
-      "relevance_score": 4,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce AquaAugmentor, a feature augmentation algorithm that improves classification accuracy for water potability in low-dimensional datasets.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "Feature Augmentation",
-        "Machine Learning",
-        "Environmental AI",
-        "Deep Learning",
-        "Data Engineering"
-      ]
-    }
-  },
-  {
-    "title": "What Do Chinese-Language Generative Search Engines Cite and Surface? A Large-Scale Empirical Study",
-    "link": "http://arxiv.org/abs/2607.15771v1",
-    "summary": "Generative AI question-answering systems increasingly mediate information access, shifting content visibility from ranked search results to retrieval, citation, and presentation in generated answers. We conduct a large-scale empirical study of Chinese-language generative search across the Web and App interfaces of four mainstream platforms. The controlled design covers eight platform interfaces, 614 queries, and three replications per query-platform-interface combination. From 214,119 raw records, we construct a cleaned citation-level dataset of 160,860 records and analyze citation behavior, source attribution, entity exposure, and cross-interface consistency. Five findings emerge. First, brands in the citation pool were selectively surfaced in answers: the overall brand-selection rate was 8.3%, and 12.4% of retrieved sources containing contact information contributed contact information to answers. Second, content fit, cross-source occurrence count, and semantic role were relatively important in predictive models, whereas the 5118-Baidu Composite Quality Score was not the leading predictor for any examined outcome. Third, among cited pages with publication dates, fitted half-lives were approximately 39 days for high-timeliness queries and 68 days for low-timeliness queries. Fourth, approximately 13% of brand exposures could not be matched to the contemporaneous citation pool, and approximately 71% of contact-information exposures could not be matched to the crawled body text. Fifth, source sets differed systematically between the App and Web interfaces of the same platform. These results characterize how Chinese-language generative search systems select, attribute, and surface information and show that interface type is an important dimension of analysis.",
-    "source": "ArXiv",
-    "published": "2026-07-17T09:03:12+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n* Analyzes the **Retrieval-Augmented Generation (RAG)** pipeline of four major Chinese search platforms across Web and App interfaces to determine how information is selected and surfaced.\n* Evaluates **source attribution** and **entity exposure**, quantifying the filtering process from a large citation pool into condensed generated responses.\n* Identifies a significant gap in **grounding reliability**, specifically regarding contact information and brand selection that lacks direct evidence in retrieved text.\n* Highlights the impact of **interface-driven variance**, showing that the same platform often returns systematically different source sets between mobile and web versions.",
-      "key_results": [
-        "Only 8.3% of brands present in the retrieved citation pool are actually surfaced in the final generated answers.",
-        "71% of contact information exposures in answers could not be matched to the crawled body text of the cited sources.",
-        "Source selection is driven more by content fit and semantic role than by standard Baidu Composite Quality Scores.",
-        "Information half-life in citations is approximately 39 days for high-timeliness queries and 68 days for low-timeliness queries.",
-        "App and Web interfaces of the same search platform exhibit systematic differences in their source sets and citation behavior."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "Researchers reveal significant grounding errors and interface-driven inconsistencies in major Chinese-language generative search and RAG systems.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "RAG",
-        "Generative Search",
-        "AI Evaluation",
-        "LLM Attribution",
-        "Search Engineering"
-      ]
-    }
-  },
-  {
-    "title": "Making Agent-Mediated Contributions Governable: A Project-Level Governance Manifest for Open-Source AI Collaboration",
-    "link": "http://arxiv.org/abs/2607.15769v1",
-    "summary": "Generative AI and coding agents are intensifying a central governance tension in open-source software (OSS): they scale contribution generation faster than maintainers can assess risk, evidence, and accountability. Existing responses improve agent-readability and traceability, but project rules must also organize contribution-specific risk, evidence, accountability, and review-gate states. We theorize this organizational arrangement as project-side governability infrastructure. A diagnostic audit of 50 GitHub repositories finds widespread general governance artifacts, observable agent-readability, and fragmented AI-governance cues, but no project-wide arrangement that coordinates shared rules, preparation obligations, verification rights, and maintainer decision authority across AI-mediated contribution workflows. We develop the Agent Governance Manifest (AGM) as a repository-hosted boundary resource and bidirectional governance contract linking contributor-side evidence preparation with maintainer-side verification. In a controlled reviewer-side evaluation with 15 participants and 75 task-level outputs, AGM-supported materials improved exact risk-label recovery (37/38 vs. 15/37) and perceived review support (6.14 vs. 3.27 on a 1-7 scale). In a contributor-side feasibility check, 15 participants completed 45 tasks; all final packages represented the core governance state correctly, and 41 passed strict structural validation. The study develops a three-layer framework of agent-readability, traceability, and governability, theorizes agent-mediated contributions as governable boundary objects, and advances compliance-enabling digital innovation governance while preserving maintainer decision authority.",
-    "source": "ArXiv",
-    "published": "2026-07-17T08:58:54+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": " \n\u2022 The paper introduces the **Agent Governance Manifest (AGM)**, a repository-hosted framework designed to standardize the interaction between **AI coding agents** and human maintainers.\n\u2022 It proposes a three-layer hierarchy of **agent-readability, traceability, and governability**, moving beyond simple code generation toward auditable and accountable contribution workflows.\n\u2022 The architecture functions as a **bidirectional governance contract** that mandates specific evidence preparation by contributors to facilitate structured risk verification by maintainers.\n\u2022 The framework addresses the scaling tension in **Open-Source Software (OSS)** where Generative AI accelerates code production faster than human-led safety and quality reviews can occur.",
-      "key_results": [
-        "AGM improved exact risk-label recovery from 40% in control groups to 97% in supported groups.",
-        "Perceived review support scores increased from 3.27 to 6.14 on a 7-point scale.",
-        "A diagnostic audit of 50 GitHub repositories found a complete lack of project-wide AI-governance coordination.",
-        "100% of participants in feasibility checks correctly represented the core governance state in their final packages.",
-        "91% of agent-mediated contribution tasks passed strict structural validation during the study."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce the Agent Governance Manifest to standardize risk assessment and accountability for AI-mediated open-source code contributions.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "LLM Agents",
-        "AI Governance",
-        "Vibe Coding",
-        "Open Source",
-        "AI Evaluation"
-      ]
-    }
-  },
-  {
-    "title": "GeoChrono: Benchmarking and Rethinking Long-Term Temporal Understanding in Remote Sensing",
-    "link": "http://arxiv.org/abs/2607.15768v1",
-    "summary": "Remote sensing offers an unparalleled vantage point for observing the Earth's long-term surface evolution, yet it demands that a model not only perceive land cover at isolated moments, but also track changes, memorize evolution histories, and reason across time and space. However, existing studies lack a systematic evaluation that dissects these distinct competencies. To fill this gap, we introduce ChronoBench, a multidimensional benchmark that decomposes this task into four progressive cognitive levels (i.e., Land Cover Perception, Temporal Recognition, Long-Term Memory, and Spatio-Temporal Reasoning). The ChronoBench comprises 12 sub-tasks and 17,689 rigorously validated QA (Question-Answer) pairs. Extensive evaluations reveal that mainstream MLLMs fall drastically behind human experts, with Long-Term Memory emerging as the most critical bottleneck. Motivated by this finding, we further propose GeoChrono, an MLLM with enhanced capabilities for tracing, memorizing, and reasoning about long-term geographic evolution. Leveraging the physical prior that geographic parcels remain spatially fixed while their semantics evolve, we design a Temporal Trajectory Encoder~(TempEnc) that constructs per-location temporal trajectories for dedicated land cover evolution modeling, and we introduce a Coarse-to-Fine Token Compressor~(C2FComp) that adaptively preserves dynamic regions while compressing the static background. To support training, we also construct ChronoInstruct, a 104K-sample instruction-tuning dataset spanning all competency levels for training. GeoChrono achieves state-of-the-art performance on ChronoBench, surpassing the leading commercial MLLMs by over 20%, while C2FComp reduces visual tokens by over 56% while retaining GeoChrono's 94.6% performance. The code and data will be available at https://github.com/IntelliSensing/GeoChrono",
-    "source": "ArXiv",
-    "published": "2026-07-17T08:58:29+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Introduces **ChronoBench**, a multidimensional benchmark that evaluates MLLMs across four cognitive levels: Perception, Recognition, Long-Term Memory, and Spatio-Temporal Reasoning.\n- Proposes **GeoChrono**, a specialized Multimodal Large Language Model (MLLM) utilizing a **Temporal Trajectory Encoder (TempEnc)** to track per-location evolution.\n- Features a **Coarse-to-Fine Token Compressor (C2FComp)** that adaptively compresses static backgrounds while preserving high-fidelity visual tokens for dynamic geographic regions.\n- Releases **ChronoInstruct**, a 104K-sample dataset specifically designed for instruction-tuning models on long-term geographic surface evolution.",
-      "key_results": [
-        "Commercial MLLMs significantly underperform compared to human experts, particularly in long-term memory tasks.",
-        "GeoChrono outperforms leading commercial MLLMs on ChronoBench by more than 20%.",
-        "The C2FComp mechanism reduces visual token count by over 56% while maintaining 94.6% of original performance.",
-        "Identified Long-Term Memory as the primary bottleneck for current temporal remote sensing models.",
-        "Successfully validated 17,689 QA pairs across 12 distinct sub-tasks for robust temporal benchmarking."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "IntelliSensing researchers introduce GeoChrono to significantly improve long-term temporal reasoning and memory in remote sensing MLLMs.",
-      "lead_institution": "IntelliSensing",
-      "tags": [
-        "Multimodal AI",
-        "Remote Sensing",
-        "Temporal Reasoning",
-        "Model Compression",
-        "AI Evaluation"
-      ]
-    }
-  },
-  {
-    "title": "Before the Action: Benchmarking LLMs on Prospective Hypothesis Discovery",
-    "link": "http://arxiv.org/abs/2607.15766v1",
-    "summary": "Large language models (LLMs) excel at answering pre-specified questions, yet their ability to navigate the open-ended, pre-conclusion stage of discovery remains largely unmeasured. We introduce Prospective Hypothesis Discovery (PHD), which asks models to autonomously construct grounded, discriminative, and testable hypothesis spaces from inconclusive evidence, including anomalous observations and fragmented records, to guide subsequent investigation. To evaluate this capability, we introduce HypoArena, comprising HypoData, a benchmark of 988 cases across six scientific and analytical domains, and HypoEval, an evaluation framework for open-ended hypothesis sets. To construct HypoData at scale, we propose Retrospective Context Regression, a Forge--Audit pipeline that reconstructs pre-conclusion contexts from completed expert documents by removing explicit conclusions, target hypotheses, and retrospective causal attributions while preserving the factual substrate. Because PHD admits multiple valid outputs, HypoEval combines bidirectional pairwise judgments with Bradley--Terry--Davidson aggregation for ranking and six-dimensional rubric scoring for diagnosis. Experiments on 15 frontier LLMs reveal clear capability stratification and model-dependent effects of structured analytical skills, with gains for several lower-performing models on HypoArena but regressions for other systems, including a top-performing model. Compared with absolute rubric scoring, arena evaluation resolves finer-grained differences among models, with aggregated rankings showing strong agreement with human experts and an independent judge. Together, these results support treating PHD as a distinct target for evaluating how LLMs formulate investigative directions when final conclusions are withheld. Our code and data are publicly available at github.com/SKYLENAGE-AI/HypoArena and github.com/SKYLENAGE-AI/HypoArena.",
-    "source": "ArXiv",
-    "published": "2026-07-17T08:56:43+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Introduces **Prospective Hypothesis Discovery (PHD)**, a new benchmark targeting the pre-conclusion stage of discovery where LLMs must autonomously construct grounded and testable hypothesis spaces from anomalous observations.\n- Proposes **HypoData**, a benchmark of 988 cases generated through **Retrospective Context Regression**, a pipeline that strips conclusions from expert documents to reconstruct raw investigative contexts.\n- Implements **HypoEval**, a framework that utilizes **bidirectional pairwise judgments** and Bradley\u2013Terry\u2013Davidson aggregation to provide granular rankings and diagnostic rubric scoring for open-ended outputs.\n- Evaluates 15 frontier LLMs, revealing **capability stratification** and demonstrating that structured analytical prompting can paradoxically cause performance regressions in top-tier models.",
-      "key_results": [
-        "Frontier LLMs exhibit a clear performance gap when shifting from standard question-answering to open-ended hypothesis formulation.",
-        "HypoArena's aggregated rankings show strong alignment with human expert judgments and independent LLM judges.",
-        "The Forge-Audit pipeline successfully scales benchmark creation by programmatically removing retrospective causal attributions from expert data.",
-        "Structured reasoning prompts improved lower-performing models but led to regressions in the highest-performing system.",
-        "Arena-based pairwise evaluation was found to be significantly more sensitive at resolving model differences than absolute rubric scoring."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "SKYLENAGE-AI researchers introduce HypoArena to benchmark LLMs on their ability to autonomously generate testable hypotheses from inconclusive evidence.",
-      "lead_institution": "SKYLENAGE-AI",
-      "tags": [
-        "Reasoning Models",
-        "AI Evaluation",
-        "Hypothesis Discovery",
-        "Prompt Engineering",
-        "Large Language Models"
-      ]
-    }
-  },
-  {
-    "title": "Machine-learning test of the single-ion model for $dd$ excitations in cuprates",
-    "link": "http://arxiv.org/abs/2607.15763v1",
-    "summary": "We investigate $dd$ excitations in Resonant Inelastic X-ray Scattering spectra of YBa$_2$Cu$_3$O$_6$ and La$_2$CuO$_4$ using the local single-ion model. The data are analyzed by conventional global fitting and by a convolutional neural network trained within the same theoretical framework. For YBa$_2$Cu$_3$O$_6$, the excited state energies obtained with the two methods coincide, leading to the $xy$, $3z^2-r^2$, $xz/yz$ sequence for increasing energy. This result validates the use of machine learning tools for the analysis of RIXS spectra dominated by $dd$ excitations. By contrast, for La$_2$CuO$_4$, the two methods do not converge to a single solution, revealing the limitations of the single-ion model in describing $dd$ excitations in cuprates and pointing to the role of additional contributions beyond a purely local picture in shaping high-energy excitations.",
-    "source": "ArXiv",
-    "published": "2026-07-17T08:54:06+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- The study evaluates a **Convolutional Neural Network (CNN)** architecture against traditional global fitting for analyzing Resonant Inelastic X-ray Scattering (RIXS) spectra.\n- Researchers utilize ML to automate the extraction of **dd excitations** in superconducting cuprates, comparing theoretical single-ion models with experimental data.\n- The methodology highlights a shift toward **physics-informed machine learning**, where ML is used not just for prediction but to identify the boundaries of existing physical theories.",
-      "key_results": [
-        "CNN-based analysis successfully matched traditional fitting results for YBa2Cu3O6 spectra.",
-        "Established a specific energy sequence (xy, 3z2-r2, xz/yz) for dd excitations in YBa2Cu3O6.",
-        "Validated the reliability of CNNs for high-energy RIXS data interpretation.",
-        "Identified a lack of convergence in La2CuO4, exposing the limitations of the local single-ion model.",
-        "Demonstrated that ML can effectively flag where additional non-local physical contributions are required."
-      ],
-      "relevance_score": 3,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers use CNNs to validate spectroscopic models in cuprates, identifying specific failures in local single-ion theory.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "Physics-ML",
-        "CNN",
-        "Model Evaluation",
-        "Spectroscopy",
-        "Materials Science"
-      ]
-    }
-  },
-  {
-    "title": "GapForge: Directed Compiler Fuzzing via Coverage-Gap Analysis",
-    "link": "http://arxiv.org/abs/2607.15762v1",
-    "summary": "Modern compiler codebases (e.g., GCC and LLVM) are large and complex, making comprehensive coverage across diverse code regions highly challenging. Most existing test generation techniques ignore characteristics of the target code, producing test programs that exercise only a limited subset of it. Consequently, substantial compiler regions remain insufficiently tested, leaving persistent long-tail coverage gaps that survive across releases. Even existing white-box techniques achieve limited coverage on large-scale compilers. To improve compiler coverage, especially for hard-to-reach edge regions, we present GapForge, a targeted LLM-based test generation technique that reasons about coverage gaps. Unlike program-driven techniques that generate diverse inputs without modeling which regions they exercise, and unlike whole-file summarization that yields coarse guidance, GapForge treats coverage gaps as explicit region-level targets in three steps. First, it prioritizes files via coverage-driven scoring that favors large, undercovered files. Second, it pairs each uncovered line span with its enclosing covered context and performs path-difference analysis to infer fine-grained triggering requirements: the program structures and compilation options needed to reach the uncovered region. Third, it synthesizes prompts from these requirements and previously failed prompts, using coverage feedback to guide next-round selection. On GCC 14.3.0 and LLVM 19.1.0, GapForge significantly outperforms eight state-of-the-art techniques. Within 72 hours, it achieves 68.13% and 69.11% coverage on core compiler modules in GCC and LLVM, surpassing the white-box technique WhiteFox by 24,736 and 19,798 additional lines, respectively. Moreover, GapForge discovers 12 real-world compiler failures (5 in GCC, 7 in LLVM), including 8 crashes and 4 miscompilations, with each component contributing to its performance.",
-    "source": "ArXiv",
-    "published": "2026-07-17T08:53:19+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n* Introduces **GapForge**, a targeted LLM-based testing framework designed to bridge persistent **coverage gaps** in large-scale compilers like GCC and LLVM.\n* Utilizes a three-stage pipeline involving **coverage-driven scoring**, path-difference analysis for requirement inference, and **feedback-guided prompt synthesis**.\n* Leverages the generative reasoning of LLMs to interpret **triggering requirements** (program structures and compiler flags) necessary to reach previously uncovered code regions.\n* Transforms compiler fuzzing from random input generation into a **directed search problem** by explicitly modeling the distance between covered and uncovered code paths.",
-      "key_results": [
-        "Achieved 68.13% coverage on GCC and 69.11% on LLVM core modules within 72 hours.",
-        "Surpassed the state-of-the-art white-box tool WhiteFox by over 24,000 additional lines in GCC.",
-        "Discovered 12 confirmed real-world compiler failures across GCC and LLVM.",
-        "Identified 8 distinct compiler crashes and 4 critical miscompilations.",
-        "Demonstrated that targeting 'long-tail' coverage gaps specifically is more effective than whole-file summarization."
-      ],
-      "relevance_score": 7,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce GapForge, an LLM-based fuzzing framework that uses coverage-gap analysis to identify 12 real-world compiler bugs.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "LLM Agents",
-        "Compiler Fuzzing",
-        "Prompt Engineering",
-        "AI Evaluation",
-        "Code Generation"
-      ]
-    }
-  },
-  {
-    "title": "SkillNav: Score-Level Skill Intervention for Zero-Shot Object Goal Navigation",
-    "link": "http://arxiv.org/abs/2607.15758v1",
-    "summary": "Vision-Language Model (VLM) agents have advanced zero-shot object-goal navigation, yet single-frame reasoning leaves them without the cross-step behavioral awareness an embodied navigator requires, producing recurring failures such as dead-end stalls, in-room loops, and circuitous approaches to detected targets. Prompt-based remedies inflate token budgets across multi-submodule episodes and still struggle to encode inherently spatial signals such as angles, map cells, and viewpoint coordinates. In this paper, we propose SkillNav, an extensible behavioral skill framework for VLM-based navigation that treats the curiosity value map already maintained by modern VLM navigators as a writable substrate on which composable skills inscribe behavioral memory at zero token cost. Skills are stratified into three tiers by their level of behavioral authority, namely soft scaling for proportional reweighting, lower-bound boost for region-level guarantees, and hard override for threshold-triggered forced actions, and cooperate across tiers under a fixed composition order that establishes a predictable, declared priority among skills. This design turns capability improvement into skill registration: new behaviors plug in without retraining the VLM or disturbing existing skills, opening a path for continual refinement. A minimal prompt channel complements the score-level skills with category-level semantic hints, yielding a dual-representation design in which spatial memory lives on the map and semantic memory in short prompts. Training-free, SkillNav establishes new state-of-the-art SPL across MP3D (25.5), HM3D v0.1 (39.3), and HM3D v0.2 (43.2), improving SPL by up to 6.0 absolute over the strongest prior method, and achieves the highest Success Rate on HM3D v0.1 (69.7) and v0.2 (75.9).",
-    "source": "ArXiv",
-    "published": "2026-07-17T08:49:40+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Introduces **SkillNav**, an extensible framework for **zero-shot object-goal navigation** that mitigates common VLM reasoning failures like loops and dead-end stalls using a writable curiosity map.\n- Employs a **tri-tier skill hierarchy** (soft scaling, lower-bound boost, and hard override) to manage behavioral priority without token-heavy prompts or retraining.\n- Features a **dual-representation design** where spatial signals are encoded on the map substrate while semantic hints are handled through a minimal prompt channel.\n- Achieves **state-of-the-art performance** across multiple benchmarks by enabling modular, training-free skill registration for continual refinement.",
-      "key_results": [
-        "Established new SOTA SPL on MP3D (25.5) and HM3D v0.1 (39.3).",
-        "Achieved highest Success Rate on HM3D v0.1 (69.7) and v0.2 (75.9).",
-        "Improved SPL by up to 6.0 absolute points over strongest prior methods.",
-        "Eliminated token-based spatial reasoning overhead by offloading to a map substrate.",
-        "Developed a training-free architecture that allows for modular skill expansion without disturbing existing capabilities."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "SkillNav authors introduce a modular framework improving zero-shot navigation by offloading spatial memory to map-based score interventions.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "LLM Agents",
-        "Multimodal AI",
-        "Robot Navigation",
-        "Zero-Shot Learning",
-        "Spatial Memory"
-      ]
-    }
-  },
-  {
-    "title": "AuEmoChat: Authentic Emotion Understanding and Rendering for Conversational Speech Synthesis",
-    "link": "http://arxiv.org/abs/2607.15755v1",
-    "summary": "Conversational Speech Synthesis (CSS) aims to synthesize speech with human-like emotional expression and contextual consistency in user-agent interactions. Existing CSS methods struggle to render authentic human emotions due to limited predefined emotion label spaces (e.g., seven emotion categories), while redundant multimodal tokens in multi-turn dialogue history interfere with context understanding. To address these issues, we propose AuEmoChat, a CSS framework for authentic emotion understanding and rendering. First, we develop AuEmoCodec, which learns a discrete authentic emotion token space from large-scale emotional speech via finite scalar quantization, enabling a more authentic emotion representation than limited basic emotion categories. We further propose AuEmoToMe, an authentic-emotion-guided token merging algorithm that merges redundant tokens in multimodal dialogue history while preserving emotion-relevant context. We integrate it into an autoregressive text-speech model to predict the target authentic emotion token and speech tokens. Finally, we propose Authentic Emotion Flow Matching, which renders speech by jointly conditioning on merged dialogue context, target authentic emotion, and acoustic priors. Extensive experiments on the NCSSD-EmCap dataset demonstrate that AuEmoChat outperforms state-of-the-art CSS baselines and generates more expressive and authentic emotional speech.",
-    "source": "ArXiv",
-    "published": "2026-07-17T08:47:58+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Introduces **AuEmoCodec**, which employs **finite scalar quantization** to map speech into a discrete, authentic emotion token space, bypassing the limitations of fixed emotion categories.\n- Proposes **AuEmoToMe**, an emotion-guided **token merging algorithm** that reduces redundancy in multimodal dialogue history while preserving high-relevance emotional context.\n- Features a rendering pipeline based on **Authentic Emotion Flow Matching**, which conditions speech generation on merged dialogue context, target emotion tokens, and acoustic priors.\n- Enhances **Conversational Speech Synthesis (CSS)** by improving the fidelity and contextual consistency of emotional expressions in human-agent interactions.",
-      "key_results": [
-        "Outperformed state-of-the-art CSS baselines in both emotional expressiveness and authentic rendering.",
-        "Successfully demonstrated the effectiveness of discrete emotion tokens over traditional small-set labels.",
-        "Efficiently handled long-form multimodal dialogue history through selective token merging.",
-        "Validated superior performance using the specialized NCSSD-EmCap conversational dataset.",
-        "Proved that flow matching jointly conditioned on acoustic priors yields more realistic speech prosody."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "The Chinese University of Hong Kong introduces AuEmoChat, using discrete emotion quantization and token merging for authentic speech synthesis.",
-      "lead_institution": "The Chinese University of Hong Kong",
-      "tags": [
-        "Speech Synthesis",
-        "Emotion Recognition",
-        "Multimodal AI",
-        "Flow Matching",
-        "Conversational AI"
-      ]
-    }
-  },
-  {
-    "title": "Personalized Image Aesthetic Assessment via Preference-rich Sample Mining and Cohort Merging",
-    "link": "http://arxiv.org/abs/2607.15752v1",
-    "summary": "Personalized Image Aesthetic Assessment (PIAA) aims to predict aesthetic ratings of images that vary across individuals. The aesthetic preferences manifest to different extents across distinct visual stimuli and exhibit cohort-specific patterns. Motivated by the above fact, this paper presents a Multimodal Large Language Model (MLLM)-based approach, which models individual aesthetic preferences by Preference-Rich sample mining and Aesthetically-resonant Cohort merging (PRAC). Specifically, PRAC first identifies preference-rich samples by analyzing both Collective Controversy and Personalized Deviation of images, maximizing the utility of limited user data. Based upon the preference-rich samples, cross-user preference similarities are measured by comparing preference embeddings. Then, a cohort-based model merging strategy, is proposed by aggregating preference patterns from aesthetically-resonant users, which further enhances the personalization for the target individual. Extensive experiments and comparisons on four benchmark PIAA databases demonstrate the superiority of the proposed PRAC model over the state-of-the-arts. The code and model will be public at https://github.com/yzc-ippl/PRAC.",
-    "source": "ArXiv",
-    "published": "2026-07-17T08:40:18+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "<br>\u2022 Proposes **PRAC**, an MLLM-based framework for **Personalized Image Aesthetic Assessment (PIAA)** designed to capture individual user preferences.<br>\u2022 Features a **Preference-Rich sample mining** strategy that identifies high-utility images by analyzing **Collective Controversy** and **Personalized Deviation**.<br>\u2022 Utilizes **Aesthetically-resonant Cohort merging**, where cross-user preference embeddings are compared to aggregate model weights from similar user groups.<br>\u2022 Optimizes performance on sparse user data by identifying and leveraging cohort-specific patterns to enhance target individual predictions.",
-      "key_results": [
-        "Outperformed state-of-the-art methods across four major PIAA benchmark databases.",
-        "Validated that mining 'preference-rich' samples maximizes the utility of extremely limited user datasets.",
-        "Demonstrated that cohort-based model merging effectively transfers aesthetic knowledge between similar users.",
-        "Provided a quantitative measure for cross-user aesthetic similarity via preference embeddings.",
-        "Established a robust pipeline for fine-tuning MLLMs specifically for subjective visual quality tasks."
-      ],
-      "relevance_score": 7,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "IPPL researchers introduce PRAC, an MLLM-based framework using cohort merging and preference mining to enhance personalized image aesthetic assessment.",
-      "lead_institution": "Image Processing and Pattern Learning (IPPL) Lab",
-      "tags": [
-        "PIAA",
-        "MLLM",
-        "Model Merging",
-        "Aesthetic Assessment",
-        "Multimodal AI"
-      ]
-    }
-  },
-  {
-    "title": "Arithmetic unlikely intersections in powers of the multiplicative group",
-    "link": "http://arxiv.org/abs/2607.15741v1",
-    "summary": "Inspired by work of Bugeaud-Corvaja-Zannier, we formulate a conjecture about unlikely intersections in powers of the multiplicative group over the ring of integers in a number field. Broadly speaking, if an intersection with a subgroup scheme is unlikely for dimension reasons, its ``size\" should not be too big compared to the ``complexity\" of the subgroup scheme. We first obtain some results on likely intersections that serve as a benchmark for the unlikely case and generalize work of Barroero-Capuano-M\u00e9rai-Ostafe-Sha. We then show that our conjecture in dimension $1$ follows from work of Corvaja-Zannier, we obtain some partial result in dimension $2$, and we present some open problems that are special cases of the conjecture.",
-    "source": "ArXiv",
-    "published": "2026-07-17T08:23:50+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Formulates a new **arithmetic conjecture** regarding unlikely intersections within powers of the multiplicative group over the ring of integers in a number field.\n- Establishes a **benchmark framework** for likely intersections, extending the previous mathematical work of Barroero-Capuano-Merai-Ostafe-Sha.\n- Proposes that the size of an intersection with a **subgroup scheme** should be constrained by the scheme's complexity when the intersection is unlikely for dimensional reasons.\n- Provides a complete proof for the conjecture in **dimension 1** and presents partial evidence for dimension 2.",
-      "key_results": [
-        "Formulation of a specific conjecture for unlikely intersections in multiplicative groups.",
-        "Generalization of results on likely intersections over number fields.",
-        "Verification of the conjecture for all cases in dimension 1.",
-        "Derivation of partial results for the conjecture in dimension 2.",
-        "Identification of specific open problems serving as test cases for arithmetic geometry."
-      ],
-      "relevance_score": 1,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers propose a new conjecture linking intersection size to subgroup complexity within powers of the multiplicative group.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "Number Theory",
-        "Arithmetic Geometry",
-        "Multiplicative Groups",
-        "Subgroup Schemes",
-        "Mathematical Conjectures"
-      ]
-    }
-  },
-  {
-    "title": "Debiasing Text-to-Image Evaluation via Implicit Cultural Alignment Reward Modeling",
-    "link": "http://arxiv.org/abs/2607.15740v1",
-    "summary": "As Text-to-Image (T2I) systems rapidly advance, evaluating the cultural authenticity of synthesized content has become increasingly important for fair and trustworthy generative AI. Existing T2I evaluation metrics and multimodal judges often rely on visual-semantic representations that underrepresent implicit cultural norms, leading to biased preference judgments and the omission of fine-grained cultural cues. In addition, visual question answering (VQA)-based evaluators typically depend on autoregressive text generation, which limits their scalability for real-time reward modeling. To address these limitations, we introduce an Implicit Cultural Alignment Reward Model built upon a lightweight 4.2-billion-parameter Multimodal Large Language Model (MLLM). Our framework integrates an Implicit Cultural Probe with a Skip-connection Cross-Attention (SkipCA) mechanism, enabling late-stage semantic features to directly attend to early-stage visual representations and better preserve culturally salient details. Evaluations on 3,323 challenging and carefully curated image pairs from the CulturalFrames benchmark show that our approach achieves 80.54% pairwise accuracy, with Pearson and Kendall correlation coefficients of 0.546 and 0.377, respectively, outperforming representative vision-language metrics and MLLM-based evaluators. Moreover, by bypassing autoregressive text generation, our model processes each evaluation in 0.21 seconds under our local inference setup, achieving a $10\\times$ speedup over standard VQA-based evaluators. These results suggest that the proposed reward model can provide an efficient and culturally aware scalar signal for preference optimization pipelines such as Reinforcement Learning from Human Feedback and Direct Preference Optimization.",
-    "source": "ArXiv",
-    "published": "2026-07-17T08:23:03+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\u2022 Introduces an **Implicit Cultural Alignment Reward Model** (4.2B MLLM) designed to evaluate text-to-image (T2I) systems for cultural authenticity and implicit norms.\n\u2022 Features a **Skip-connection Cross-Attention (SkipCA)** mechanism that allows late-stage semantic features to attend directly to early-stage visual representations, preserving fine-grained cultural cues.\n\u2022 Bypasses **autoregressive text generation** to provide a direct scalar reward signal, significantly reducing computational overhead during evaluation cycles.\n\u2022 Provides a specialized framework for **preference optimization** (RLHF/DPO), enabling more culturally aware fine-tuning of generative models.",
-      "key_results": [
-        "Achieved 80.54% pairwise accuracy on the CulturalFrames benchmark.",
-        "Obtained a Pearson correlation coefficient of 0.546, outperforming traditional vision-language metrics.",
-        "Reduced evaluation latency to 0.21 seconds per image pair under local inference.",
-        "Demonstrated a 10x speedup compared to standard VQA-based multimodal evaluators.",
-        "Validated model performance across 3,323 challenging, carefully curated image pairs."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce a 4.2B parameter reward model achieving 10x faster cultural alignment evaluation for text-to-image synthesis.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "Multimodal AI",
-        "AI Evaluation",
-        "Reward Modeling",
-        "Text-to-Image",
-        "Generative AI Trends"
-      ]
-    }
-  },
-  {
-    "title": "EduGuard: A Safe RAG-Based LLM Tutor for Programming Education",
-    "link": "http://arxiv.org/abs/2607.15738v1",
-    "summary": "Generative AI (GenAI) is increasingly used by students for programming explanation, debugging, and assignment support. Yet unrestricted large language model (LLM) tutors can hallucinate, contradict course policy, reveal complete solutions, and foster passive dependence. This paper presents EduGuard, a safe retrieval-augmented generation (RAG) tutoring framework for introductory programming. EduGuard integrates query understanding, instructor-approved course retrieval, pedagogical strategy selection, rubric-aware generation, claim-level verification, and overreliance control. To make evaluation provenance explicit, we construct BILearn-CS, a 600-query instructor-authored, TA-validated benchmark spanning concept questions, debugging cases, misconceptions, assignment-support requests, code-mixed Bangla-English queries, and adversarial direct-answer prompts. Moving beyond a synthetic-only benchmark, we further evaluate on a 150-query public CS50-style course-forum set and run a small controlled pilot with 10 undergraduates using a counterbalanced pre-test/post-test design. Using Meta-Llama-3.1-8B-Instruct as the primary generator, hybrid FAISS/BM25 retrieval, and DeBERTa-v3-large-MNLI as an architecturally separate verifier, EduGuard is compared against strong baselines: GPT-4o-mini Tutor, Llama Socratic Tutor, LPITutor-style RAG, RAG with rubric prompting, and RAG with same-model self-checking. On BILearn-CS, EduGuard attains the best correctness (90.1%), grounding (89.4%), and rubric alignment (90.8%), with the lowest hallucination (4.9%) and direct-answer leakage (9.8%). In the pilot, it raises immediate post-test accuracy from 68.4% to 81.2% and cuts overreliance from 38.0% to 17.0% relative to GPT-4o-mini Tutor. These results suggest safe GenAI tutoring requires not only retrieval or strong prompting, but explicit pedagogical control, evidence verification, and deployment safeguards.",
-    "source": "ArXiv",
-    "published": "2026-07-17T08:18:18+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Implements a multi-stage **Retrieval-Augmented Generation (RAG)** pipeline designed for pedagogical safety, featuring **rubric-aware generation** and claim-level verification.\n- Utilizes a decoupled architecture with **Meta-Llama-3.1-8B-Instruct** as the generator and **DeBERTa-v3-large-MNLI** as an independent verifier to mitigate hallucinations.\n- Introduces the **BILearn-CS benchmark**, a 600-query instructor-authored dataset that includes **code-mixed (Bangla-English)** queries and adversarial direct-answer prompts.\n- Integrates **overreliance control** and pedagogical strategy selection to ensure the tutor guides students rather than providing complete solutions.",
-      "key_results": [
-        "Achieved 90.1% correctness and 89.4% grounding on the BILearn-CS benchmark.",
-        "Reduced direct-answer leakage to 9.8%, outperforming GPT-4o-mini and Socratic baselines.",
-        "Cut student overreliance from 38.0% to 17.0% in a controlled pilot study.",
-        "Improved student post-test accuracy from 68.4% to 81.2% following tutor interaction.",
-        "Successfully utilized a hybrid FAISS/BM25 retrieval system to maintain high rubric alignment (90.8%)."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "EduGuard researchers introduce a RAG-based tutor that improves student learning outcomes while strictly preventing direct solution leakage.",
-      "lead_institution": "EduGuard Research Team",
-      "tags": [
-        "RAG",
-        "LLM Agents",
-        "AI Evaluation",
-        "Prompt Engineering",
-        "Safe AI"
-      ]
-    }
-  },
-  {
-    "title": "IoUPD: IoU-Aware Privileged Distillation for Visual Grounding with Multimodal Large Language Models",
-    "link": "http://arxiv.org/abs/2607.15732v1",
-    "summary": "Visual grounding with multimodal large language models is commonly formulated as autoregressive coordinate generation, where a model outputs bounding-box coordinates as text given an image and a referring-expression prompt. While this interface is simple and compatible with instruction following, it introduces a mismatch between training and evaluation: training optimizes token-level likelihood over coordinate strings, whereas grounding quality is measured by geometric overlap. We propose IoUPD, an IoU-aware privileged distillation method for coordinate-generating multimodal large language models. IoUPD uses ground-truth boxes not only as coordinate targets, but also as privileged training-time guidance. During training, the student receives the original image and prompt, while a frozen teacher receives a box-marked image and an augmented prompt that indicates the marked region. The student is trained with a supervised fine-tuning anchor and a privileged distillation loss whose token weights reflect both geometric importance and teacher reliability. At inference time, IoUPD requires no box overlay, privileged hint, teacher branch, or additional prediction module. Experiments on standard referring-expression grounding benchmarks show consistent region-level improvements over strong coordinate-generating baselines, demonstrating that ground-truth boxes can provide useful privileged guidance beyond serving as coordinate labels.",
-    "source": "ArXiv",
-    "published": "2026-07-17T08:13:01+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Proposes **IoUPD**, a framework addressing the discrepancy between token-level cross-entropy loss and geometric **Intersection over Union (IoU)** evaluation in visual grounding.\n- Utilizes a **Privileged Distillation** strategy where a frozen teacher model receives \"cheating\" signals (box-marked images) to guide a student model that only sees the raw image.\n- Introduces a specialized **distillation loss** with token weights derived from geometric importance, ensuring the student prioritizes spatially accurate coordinate generation.\n- Ensures **zero inference overhead**, as the privileged teacher branch and augmented prompts are only required during the training phase.",
-      "key_results": [
-        "Achieved consistent performance gains on standard grounding benchmarks including RefCOCO, RefCOCO+, and RefCOCOg.",
-        "Successfully leveraged ground-truth boxes as privileged guidance rather than just passive labels.",
-        "Demonstrated that IoU-aware weighting effectively bridges the gap between text-based autoregression and spatial tasks.",
-        "Outperformed strong coordinate-generating baselines without requiring additional prediction modules or architectural changes.",
-        "Validated that teacher models with visual hints provide higher quality supervision for spatial coordinate alignment."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "Researchers propose IoUPD, using privileged teacher-student distillation to align MLLM coordinate generation with geometric grounding accuracy.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "Multimodal AI",
-        "Visual Grounding",
-        "Knowledge Distillation",
-        "Model Fine-tuning",
-        "Computer Vision"
-      ]
-    }
-  },
-  {
-    "title": "RECAP: Feedback-Driven Streaming Semantic User Profiles for Short-Video Recommendation",
-    "link": "http://arxiv.org/abs/2607.15730v1",
-    "summary": "Language-based user profiles convert long behavioral histories into explicit semantic representations for recommendation. However, most profile generators are optimized in an open loop: they may summarize past behavior fluently, but are not directly trained to improve future recommendation. We study this problem in real-world short-video recommendation, where user behaviors continuously arrive as streams and profiles must be incrementally updated under limited capacity. This requires maintaining a consistent bounded profile state and constructing profile-targeted semantic feedback from industrial implicit behavior logs. We propose RECAP, an offline closed-loop framework for optimizing streaming structured semantic profiles with historical recommendation feedback. RECAP maintains each profile as a bounded structured memory by combining LLM-based semantic updates with deterministic lifecycle and capacity control. RECAP constructs profile-targeted semantic feedback by filtering label-consistent behavior pairs with an LLM judge and training a dual-tower evaluator whose matching score serves as a GRPO reward. Experiments on Kuaishou short-video data show that RECAP improves uAUC by 0.0084 and Recall@2000 by about 4.9% over the base generator. Further analyses confirm the benefits of feedback construction and policy optimization, and show more grounded refinement and user-level abstraction in profile updates. A seven-day online A/B test further shows a statistically significant 0.139% improvement in average application usage time per user.",
-    "source": "ArXiv",
-    "published": "2026-07-17T08:10:37+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n* Introduces **RECAP**, an offline closed-loop framework for optimizing **streaming structured semantic user profiles** using historical recommendation feedback.\n* Maintains profiles as a **bounded structured memory** by combining LLM-based semantic updates with deterministic lifecycle and capacity control for streaming data.\n* Implements a **dual-tower evaluator** trained on LLM-judged behavioral pairs to provide matching scores as a **GRPO (Group Relative Policy Optimization)** reward signal.\n* Bridges the gap between open-loop profile summarization and closed-loop recommendation performance through **feedback-driven policy optimization**.",
-      "key_results": [
-        "Improved uAUC by 0.0084 over the base profile generator.",
-        "Increased Recall@2000 by approximately 4.9%.",
-        "A seven-day online A/B test showed a 0.139% increase in average daily usage time per user.",
-        "Validated that profile-targeted semantic feedback significantly improves profile groundedness.",
-        "Successfully managed long behavioral histories within limited capacity streaming environments."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "Kuaishou researchers introduce RECAP to optimize streaming semantic user profiles using closed-loop feedback and GRPO for better recommendations.",
-      "lead_institution": "Kuaishou Technology",
-      "tags": [
-        "Semantic User Profiles",
-        "GRPO",
-        "Recommendation Systems",
-        "LLM Memory",
-        "Streaming Data"
-      ]
-    }
-  },
-  {
-    "title": "CardioMeta: Calibrated Multi-Task Prediction of Diabetes, Hypertension, and Cardiovascular Disease Across Population and EHR Data",
-    "link": "http://arxiv.org/abs/2607.15721v1",
-    "summary": "Cardiometabolic diseases remain among the most persistent drivers of preventable morbidity because diabetes, hypertension, and cardiovascular disease frequently co-occur and share metabolic, vascular, demographic, and behavioral determinants. Existing machine learning studies for chronic disease prediction often emphasize discrimination on a single dataset, while underreporting label leakage, calibration, temporal robustness, external transportability, and subgroup reliability. This paper presents CardioMeta, a calibrated multi-task framework for joint prediction of diabetes, hypertension, and cardiovascular disease across population survey and electronic health record (EHR) data. The study uses NHANES for population-level model development and temporal validation, and MIMIC-IV for EHR-domain evaluation under substantial distribution shift. To reduce circular label reconstruction, the primary analysis excludes disease-defining variables from the corresponding prediction heads, while a full-clinical feature setting is retained only as sensitivity analysis. CardioMeta combines a shared cardiometabolic encoder with disease-specific gated heads and post-hoc probability calibration. In the leakage-reduced temporal validation setting, the model achieved a macro-AUROC of 0.839, macro-AUPRC of 0.536, macro-F1 of 0.614, and expected calibration error of 0.024, with modest but consistent improvements over strong gradient-boosting and neural tabular baselines. External evaluation on MIMIC-IV showed clear degradation under domain shift, while limited fine-tuning partially recovered performance. The findings indicate that the principal value of multi-task cardiometabolic modeling lies not in inflated accuracy, but in reproducible leakage control, calibrated probabilities, and transparent reliability reporting across heterogeneous healthcare data sources.",
-    "source": "ArXiv",
-    "published": "2026-07-17T07:55:43+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n\u2022 Introduces **CardioMeta**, a multi-task learning (MTL) framework designed to predict co-occurring cardiometabolic diseases while strictly controlling for **label leakage**.\n\u2022 The architecture utilizes a **shared cardiometabolic encoder** paired with **disease-specific gated heads** and post-hoc probability calibration to ensure clinical decision reliability.\n\u2022 Evaluated across heterogeneous sources including **NHANES (population survey)** and **MIMIC-IV (EHR data)** to test temporal robustness and transportability.\n\u2022 Emphasizes **leakage-reduced modeling** by excluding disease-defining variables, providing a more realistic assessment of predictive utility than standard benchmarks.",
-      "key_results": [
-        "Achieved a macro-AUROC of 0.839 and macro-AUPRC of 0.536 in leakage-reduced temporal validation.",
-        "Maintained high reliability with an Expected Calibration Error (ECE) of 0.024 through post-hoc calibration.",
-        "Outperformed strong gradient-boosting and neural tabular baselines in leakage-controlled scenarios.",
-        "Identified significant performance degradation when transferring models from population surveys to hospital EHR data.",
-        "Demonstrated that limited fine-tuning can partially recover performance lost due to substantial distribution shifts."
-      ],
-      "relevance_score": 6,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "CardioMeta researchers introduce a calibrated multi-task framework that enhances cardiometabolic disease prediction through strict label leakage control.",
-      "lead_institution": "ArXiv researchers",
-      "tags": [
-        "Multi-Task Learning",
-        "Model Calibration",
-        "Label Leakage",
-        "Predictive Modeling",
-        "Healthcare AI"
       ]
     }
   }
