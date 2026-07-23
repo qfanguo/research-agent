@@ -1,5 +1,155 @@
 [
   {
+    "title": "Building AI infrastructure with the Effingham County community",
+    "link": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
+    "summary": "OpenAI announces Project Camellia in Effingham County, Georgia, with commitments to responsible energy, community investment, jobs, and access to Codex.",
+    "source": "OpenAI News",
+    "published": "2026-07-22T13:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* OpenAI's **Project Camellia** focuses on the expansion of physical **AI infrastructure** through a new data center hub in Effingham County, Georgia.\n* The initiative emphasizes **responsible energy** practices and grid stability to support the massive power requirements of next-generation model training.\n* Technical democratization is addressed by providing local access to **OpenAI Codex**, aimed at building a specialized workforce capable of leveraging **Generative AI** tools.",
+      "key_results": [
+        "Launch of Project Camellia for regional AI infrastructure development.",
+        "Commitment to sustainable energy sourcing for data center operations.",
+        "Provision of OpenAI Codex to local educational institutions.",
+        "Direct investment in local community economic development programs.",
+        "Creation of specialized technical roles within the Georgia tech corridor."
+      ],
+      "relevance_score": 3,
+      "signal_type": "Release",
+      "one_sentence_takeaway": "OpenAI launches Project Camellia in Georgia to build sustainable AI infrastructure while providing community access to Codex tools.",
+      "lead_institution": "OpenAI",
+      "tags": [
+        "AI Infrastructure",
+        "OpenAI Codex",
+        "Sustainable Energy",
+        "Data Centers",
+        "Generative AI Trends"
+      ]
+    }
+  },
+  {
+    "title": "How news organizations are using AI to advance their vital missions",
+    "link": "https://openai.com/index/how-news-organizations-are-using-ai",
+    "summary": "News organizations are using AI to strengthen reporting, grow audiences, and improve business operations, with OpenAI tools supporting journalists and publishers worldwide.",
+    "source": "OpenAI News",
+    "published": "2026-07-22T13:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* Deployment of **OpenAI LLMs** across newsrooms to automate archival search and enhance reporting capabilities.\n* Integration of **Generative AI** for audience growth strategies, including personalized content and newsletter automation.\n* Utilization of AI to streamline **business operations** and metadata generation for legacy media databases.",
+      "key_results": [
+        "Improved discovery of archival news content",
+        "Automation of routine newsroom administrative tasks",
+        "Enhanced data parsing for investigative journalism",
+        "Localization of content for broader audience reach",
+        "Optimization of subscription and business models"
+      ],
+      "relevance_score": 3,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "OpenAI highlights how global newsrooms leverage AI tools to optimize content production, audience growth, and operational workflows.",
+      "lead_institution": "OpenAI",
+      "tags": [
+        "Media AI",
+        "LLM Applications",
+        "Content Automation",
+        "Generative AI Trends",
+        "Digital Transformation"
+      ]
+    }
+  },
+  {
+    "title": "Advancing the next era of national science",
+    "link": "https://openai.com/index/advancing-the-next-era-of-national-science",
+    "summary": "OpenAI outlines its commitment to advancing American science working with the U.S. Department of Energy and national labs to use frontier AI to accelerate discovery.",
+    "source": "OpenAI News",
+    "published": "2026-07-22T12:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n\u2022 OpenAI partners with the **U.S. Department of Energy (DOE)** and national laboratories to integrate **frontier AI models** into scientific workflows.\n\u2022 The initiative aims to utilize **Generative AI** for accelerating breakthroughs in materials science, climate modeling, and energy security.\n\u2022 Focus includes optimizing **AI infrastructure** for high-performance computing environments and ensuring secure data handling.\n\u2022 This collaboration signals a strategic shift towards **AI-driven scientific discovery** and national research advancement.",
+      "key_results": [
+        "Official partnership between OpenAI and the Department of Energy.",
+        "Integration of frontier models into national laboratory systems.",
+        "Focus on AI applications for materials science and climate research.",
+        "Commitment to secure and ethical AI deployment for national interests.",
+        "Support for a competitive domestic AI ecosystem in scientific fields."
+      ],
+      "relevance_score": 3,
+      "signal_type": "Release",
+      "one_sentence_takeaway": "OpenAI partners with the U.S. Department of Energy to accelerate scientific discovery using frontier AI across national labs.",
+      "lead_institution": "OpenAI",
+      "tags": [
+        "AI for Science",
+        "Frontier Models",
+        "National Labs",
+        "Scientific Discovery",
+        "DOE"
+      ]
+    }
+  },
+  {
+    "title": "Introducing OpenAI Presence",
+    "link": "https://openai.com/index/introducing-openai-presence",
+    "summary": "Introducing OpenAI Presence, a proven enterprise AI agent platform that helps organizations deploy trusted voice and chat agents for customer and internal workflows.",
+    "source": "OpenAI News",
+    "published": "2026-07-22T05:30:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* OpenAI launches **OpenAI Presence**, a specialized platform designed for orchestrating and managing **enterprise AI agents** across organizational silos.\n* The architecture supports both **multimodal voice** and text-based chat interfaces, aiming to unify customer-facing and internal business logic.\n* Focuses on providing a **trusted environment** for agentic workflows, emphasizing reliability and safety guardrails for production-scale deployment.\n* Streamlines the transition from experimental **LLM Agents** to integrated enterprise systems with centralized management capabilities.",
+      "key_results": [
+        "Introduction of a unified enterprise platform for AI agent management.",
+        "Seamless deployment of agents across both voice and chat modalities.",
+        "Support for dual-purpose workflows targeting internal and external users.",
+        "Emphasis on 'trusted' AI to mitigate risks in production environments.",
+        "Consolidation of agentic capabilities into a manageable enterprise-grade suite."
+      ],
+      "relevance_score": 3,
+      "signal_type": "Release",
+      "one_sentence_takeaway": "OpenAI launches OpenAI Presence to provide a centralized enterprise platform for deploying trusted voice and chat AI agents.",
+      "lead_institution": "OpenAI",
+      "tags": [
+        "LLM Agents",
+        "Enterprise AI",
+        "Multimodal AI",
+        "Generative AI Trends",
+        "Voice Agents"
+      ]
+    }
+  },
+  {
+    "title": "NTT DATA Group cuts incident analysis to 30 minutes with Codex",
+    "link": "https://openai.com/index/ntt-data",
+    "summary": "NTT DATA Group uses ChatGPT Enterprise and Codex to help 9,000 employees automate work, cut incident analysis to 30 minutes, and scale secure AI adoption.",
+    "source": "OpenAI News",
+    "published": "2026-07-22T00:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- NTT DATA Group implemented **ChatGPT Enterprise** and **Codex** to automate technical workflows across a global workforce of 9,000 employees.\n- The deployment focuses on **incident analysis automation**, leveraging LLMs to parse system logs and telemetry for rapid root cause identification.\n- The architecture prioritizes a **secure AI adoption framework**, ensuring enterprise-grade data privacy while scaling generative AI capabilities across diverse business units.\n- Impact centers on **operational efficiency**, transforming manual troubleshooting into automated, high-speed diagnostic processes.",
+      "key_results": [
+        "Reduced incident analysis time from several hours to 30 minutes.",
+        "Successfully onboarded 9,000 employees to secure AI environments.",
+        "Automated complex root cause analysis for technical system failures.",
+        "Established scalable security protocols for global LLM usage.",
+        "Increased developer productivity through Codex-integrated coding workflows."
+      ],
+      "relevance_score": 4,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "NTT DATA Group leverages ChatGPT Enterprise and Codex to reduce incident analysis time to 30 minutes for 9,000 employees.",
+      "lead_institution": "OpenAI News",
+      "tags": [
+        "Generative AI",
+        "Incident Analysis",
+        "Enterprise AI",
+        "LLM Scaling",
+        "Codex"
+      ]
+    }
+  },
+  {
     "title": "Introducing the ChatGPT for small business program",
     "link": "https://openai.com/index/introducing-chatgpt-small-business-program",
     "summary": "OpenAI launches the ChatGPT for Small Businesses program, helping entrepreneurs build AI skills, automate work, and grow with ChatGPT Work.",
@@ -8,24 +158,864 @@
     "type": "blog",
     "display_category": "Top News",
     "processed": {
-      "summary": "\n- OpenAI introduces a specialized program to facilitate the integration of **ChatGPT Work** within small business operations.\n- Focuses on democratizing **workflow automation** by providing structured resources and AI literacy training for non-technical entrepreneurs.\n- Aims to scale **Generative AI** adoption by bridging the gap between foundation model capabilities and practical business logic applications.",
+      "summary": "\n- OpenAI launches a structured initiative targeting **Small to Medium Enterprises (SMEs)** to integrate **Generative AI** into core operational workflows.\n- The program utilizes the **ChatGPT Work** environment to facilitate team collaboration and internal **knowledge management** through LLM-driven interfaces.\n- Focuses on the deployment of **workflow automation** and high-level **prompt engineering** training to reduce manual overhead in small business settings.",
       "key_results": [
-        "Launch of the ChatGPT for Small Businesses program",
-        "Deployment of ChatGPT Work as a central automation hub",
-        "Provision of specialized AI skill-building curricula",
-        "Emphasis on operational growth through custom GPTs and tools",
-        "Reduction of friction for AI onboarding in low-resource environments"
+        "Introduction of the ChatGPT for Small Business program.",
+        "Access to ChatGPT Work features for entrepreneurial teams.",
+        "Educational resources for building AI literacy and technical skills.",
+        "Strategy for automating repetitive business administration tasks.",
+        "Scale-up support for SMEs through generative productivity tools."
       ],
       "relevance_score": 2,
       "signal_type": "Release",
-      "one_sentence_takeaway": "OpenAI launches a dedicated program for small businesses to integrate ChatGPT Work into automated operational workflows and growth strategies.",
+      "one_sentence_takeaway": "OpenAI launches the ChatGPT for Small Business program to accelerate AI adoption and operational automation for entrepreneurs.",
       "lead_institution": "OpenAI",
       "tags": [
-        "OpenAI",
-        "ChatGPT Work",
-        "Business Automation",
         "Enterprise AI",
-        "AI Literacy"
+        "Workflow Automation",
+        "ChatGPT Work",
+        "Generative AI",
+        "SME Strategy"
+      ]
+    }
+  },
+  {
+    "title": "Ask Claude about the Anthropic Economic Index",
+    "link": "https://www.anthropic.com/news/anthropic-economic-index-connector",
+    "summary": "Ask Claude about the Anthropic Economic Index",
+    "source": "Anthropic News",
+    "published": "2026-07-22T00:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Anthropic introduces the **Anthropic Economic Index**, a data-driven tool designed to measure and analyze the impact of **Generative AI** on global labor and economic productivity.\n- The initiative utilizes **Claude** as a primary interface for querying complex economic data, demonstrating the application of **LLM Agents** in data analysis and trend forecasting.\n- It focuses on transitioning from anecdotal evidence to a structured **AI Evaluation** framework for assessing how automated tasks influence industry-specific workflows.",
+      "key_results": [
+        "Launch of a dedicated index to track AI-related economic shifts.",
+        "Integration of conversational data retrieval via the Claude interface.",
+        "Establishment of new benchmarks for AI's role in labor task automation.",
+        "Provision of longitudinal data for businesses to assess AI productivity gains.",
+        "Creation of a public-facing resource for monitoring Generative AI trends in the economy."
+      ],
+      "relevance_score": 4,
+      "signal_type": "Release",
+      "one_sentence_takeaway": "Anthropic launches the Economic Index to quantify the impact of Generative AI on labor productivity using Claude-powered analysis.",
+      "lead_institution": "Anthropic",
+      "tags": [
+        "Economic Impact",
+        "AI Evaluation",
+        "Generative AI Trends",
+        "Claude",
+        "Productivity Metrics"
+      ]
+    }
+  },
+  {
+    "title": "A research agenda for the Economic Futures Research Fund",
+    "link": "https://www.anthropic.com/news/economic-futures-research-fund-agenda",
+    "summary": "A research agenda for the Economic Futures Research Fund",
+    "source": "Anthropic News",
+    "published": "2026-07-22T00:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Proposes a **quantitative evaluation framework** to measure the displacement and augmentation effects of AI systems across diverse labor markets.\n- Prioritizes the study of **agentic workflows** and their specific impact on high-skill task automation and professional productivity.\n- Outlines a strategic approach for developing **benchmarks** to assess the long-term economic consequences and distributional risks of generative AI.",
+      "key_results": [
+        "Establishment of priority research tracks for AI-driven labor market shifts.",
+        "Identification of metrics for measuring real-world productivity gains from LLM integration.",
+        "Proposal for interdisciplinary studies on AI's impact on global economic inequality.",
+        "Framework for steering model development toward labor-augmenting technologies.",
+        "Development of policy-relevant data on the 'task-level' automation capabilities of current models."
+      ],
+      "relevance_score": 3,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Anthropic introduces a research agenda to analyze AI's impact on labor markets and develop metrics for economic productivity.",
+      "lead_institution": "Anthropic",
+      "tags": [
+        "Economic Impact",
+        "AI Evaluation",
+        "Labor Markets",
+        "Generative AI Trends",
+        "AI Policy"
+      ]
+    }
+  },
+  {
+    "title": "Accelerating the frontiers of scientific discovery: Google\u2019s $40M commitment to the Genesis Mission",
+    "link": "https://deepmind.google/blog/accelerating-the-frontiers-of-scientific-discovery-googles-40m-commitment-to-the-genesis-mission/",
+    "summary": "Google commits $40M in AI tokens and credits for the Genesis Mission",
+    "source": "Google DeepMind News",
+    "published": "2026-07-22T13:38:54+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* Google DeepMind commits **$40 million** in AI tokens and compute credits to support the Genesis Mission's scientific objectives.\n* The initiative aims to provide researchers with access to **frontier foundation models** to accelerate discoveries in biology, climate science, and materials.\n* The focus is on lowering the barrier to entry for **high-compute scientific inference** and large-scale data analysis using generative AI.",
+      "key_results": [
+        "$40 million total commitment in technical resources.",
+        "Provision of AI tokens for model interaction.",
+        "Compute credits for large-scale scientific simulations.",
+        "Support for the Genesis Mission's multi-disciplinary research goals.",
+        "Strategic alignment between Google DeepMind and global scientific communities."
+      ],
+      "relevance_score": 2,
+      "signal_type": "Release",
+      "one_sentence_takeaway": "Google DeepMind commits $40M in AI resources to the Genesis Mission to accelerate scientific discovery through advanced foundation models.",
+      "lead_institution": "Google DeepMind",
+      "tags": [
+        "Scientific Discovery",
+        "Foundation Models",
+        "AI Grants",
+        "Compute Credits",
+        "Generative AI Trends"
+      ]
+    }
+  },
+  {
+    "title": "Towards a quantum computer that learns from its errors",
+    "link": "https://research.google/blog/towards-a-quantum-computer-that-learns-from-its-errors/",
+    "summary": "Machine Intelligence",
+    "source": "The latest research from Google",
+    "published": "2026-07-22T18:40:21+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Google Research introduces a **neural network-based decoder** to interpret and mitigate noise in **surface code** quantum processors.\n- The architecture replaces traditional **Minimum Weight Perfect Matching** (MWPM) with a learned model that adapts to specific hardware noise profiles.\n- This approach enables the transition from noisy **physical qubits** to reliable **logical qubits**, essential for fault-tolerant operations.\n- The system successfully demonstrates **threshold behavior**, showing that increasing qubit count improves performance when using AI-driven error correction.",
+      "key_results": [
+        "Surpassed the performance of standard algorithmic decoders using a learned neural model.",
+        "Demonstrated error suppression scaling where increasing code distance from 3 to 5 reduced logical errors.",
+        "Successfully modeled complex, correlated noise patterns that traditional heuristics often miss.",
+        "Proved that neural decoders can handle the high-speed inference requirements of quantum feedback loops.",
+        "Established a scalable framework for integrating machine intelligence directly into the quantum error correction stack."
+      ],
+      "relevance_score": 6,
+      "signal_type": "Paper",
+      "one_sentence_takeaway": "Google Quantum AI implements a neural network decoder that enables quantum systems to learn from and suppress hardware-level errors.",
+      "lead_institution": "Google Quantum AI",
+      "tags": [
+        "Quantum Computing",
+        "Error Correction",
+        "Neural Decoders",
+        "Fault Tolerance",
+        "Machine Intelligence"
+      ]
+    }
+  },
+  {
+    "title": "Copilot vs. raw API access: What are you actually paying for?",
+    "link": "https://github.blog/ai-and-ml/github-copilot/copilot-vs-raw-api-access-what-are-you-actually-paying-for/",
+    "summary": "<p>Copilot now bills usage at listed API rates. Compare direct model access with the coding workflow, policy, and harness work around it.</p>\n<p>The post <a href=\"https://github.blog/ai-and-ml/github-copilot/copilot-vs-raw-api-access-what-are-you-actually-paying-for/\">Copilot vs. raw API access: What are you actually paying for?</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
+    "source": "The GitHub Blog",
+    "published": "2026-07-22T19:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* GitHub aligns Copilot billing with **standard API usage rates**, highlighting a shift toward transparent, consumption-based pricing models for developer tools.\n* The article distinguishes between raw model access and an **integrated developer harness**, which manages context retrieval, codebase indexing, and security filtering.\n* The impact focuses on the **middleware layer**, arguing that managing AI orchestration, policy enforcement, and IDE integration provides more value than standalone LLM endpoints.",
+      "key_results": [
+        "Transition of Copilot billing to mirror market-standard API consumption rates.",
+        "Identification of context-aware RAG as a primary value-add over raw API calls.",
+        "Automation of enterprise-grade security and policy compliance within the IDE.",
+        "Reduction of developer cognitive load via managed workflow integration.",
+        "Explicit comparison between raw LLM intelligence and applied developer productivity tools."
+      ],
+      "relevance_score": 3,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "GitHub justifies Copilot costs by highlighting integrated workflow enhancements, context management, and security features over raw API access.",
+      "lead_institution": "GitHub",
+      "tags": [
+        "Developer Productivity",
+        "API Strategy",
+        "LLM Integration",
+        "AI Policy",
+        "Context Management"
+      ]
+    }
+  },
+  {
+    "title": "Next chapter: Restructuring GitHub\u2019s bug bounty program",
+    "link": "https://github.blog/security/next-chapter-restructuring-githubs-bug-bounty-program/",
+    "summary": "<p>GitHub is making some significant changes to its bug bounty program, shifting its focus to give researchers a better experience working with the GitHub team.</p>\n<p>The post <a href=\"https://github.blog/security/next-chapter-restructuring-githubs-bug-bounty-program/\">Next chapter: Restructuring GitHub&#8217;s bug bounty program</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
+    "source": "The GitHub Blog",
+    "published": "2026-07-22T16:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": " \n GitHub is **restructuring its bug bounty program** to prioritize the researcher experience and streamline communication workflows.\n The update focuses on **optimizing the vulnerability disclosure lifecycle**, aiming to reduce friction between report submission and remediation.\n By refining the **triaging process**, GitHub intends to provide faster feedback loops and improved transparency for external security auditors.",
+      "key_results": [
+        "Prioritization of researcher engagement and communication quality",
+        "Streamlining of the internal bug triaging and validation pipeline",
+        "Commitment to faster response times for security vulnerability reports",
+        "Enhanced transparency regarding bounty award criteria and status",
+        "Strategic shift to maintain platform security through incentivized external audits"
+      ],
+      "relevance_score": 2,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "GitHub restructures its bug bounty program to improve researcher collaboration and streamline vulnerability reporting workflows.",
+      "lead_institution": "GitHub",
+      "tags": [
+        "Cybersecurity",
+        "Bug Bounty",
+        "Vulnerability Management",
+        "GitHub",
+        "DevSecOps"
+      ]
+    }
+  },
+  {
+    "title": "How to build interactive experiences with canvases",
+    "link": "https://github.blog/ai-and-ml/github-copilot/how-to-build-interactive-experiences-with-canvases/",
+    "summary": "<p>Canvases turn AI into interactive workspaces where you can visualize information, explore workflows, and take action across complex tasks.</p>\n<p>The post <a href=\"https://github.blog/ai-and-ml/github-copilot/how-to-build-interactive-experiences-with-canvases/\">How to build interactive experiences with canvases</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
+    "source": "The GitHub Blog",
+    "published": "2026-07-21T16:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "<br> - GitHub introduces **Canvases** as a mechanism to transition AI interaction from linear chat interfaces to persistent, **interactive workspaces**.<br> - The architecture focuses on **bidirectional manipulation** of structured data, allowing users to co-edit and refine AI-generated content in real-time.<br> - This paradigm enhances **LLM Agent** capabilities by providing a dedicated sandbox for visualizing workflows and executing complex, multi-step tasks.",
+      "key_results": [
+        "Transition from transient chat streams to persistent, editable workspace environments.",
+        "Support for bidirectional interaction between users and AI within a shared visual context.",
+        "Enhanced visualization of complex developer workflows and data structures.",
+        "Ability for AI to generate actionable outputs beyond simple text or markdown.",
+        "Improved human-in-the-loop control over iterative AI-assisted tasks."
+      ],
+      "relevance_score": 6,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "GitHub explains how canvases transform static AI chat into interactive workspaces for better workflow visualization and task execution.",
+      "lead_institution": "GitHub",
+      "tags": [
+        "Interactive AI",
+        "LLM UX",
+        "GitHub Copilot",
+        "AI Agents",
+        "Generative AI"
+      ]
+    }
+  },
+  {
+    "title": "3 Google updates from Galaxy Unpacked 2026",
+    "link": "https://blog.google/products-and-platforms/platforms/android/galaxy-unpacked-2026/",
+    "summary": "Gentle Monster glasses, Warby Parker glasses, a prompt asking for the history behind a pictured building, and a prompt asking to book a table at a pictured restaurant",
+    "source": "AI",
+    "published": "2026-07-22T13:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* Google expands its **Multimodal AI** capabilities by integrating visual search and reasoning into new smart glasses hardware from Gentle Monster and Warby Parker.\n* The updates leverage **Visual Grounding** to allow users to query the history of physical landmarks and buildings via real-time image processing.\n* **LLM Agents** are utilized to bridge the gap between perception and action, enabling automated restaurant bookings directly from visual prompts.\n* This shift emphasizes **Ambient Computing**, moving generative AI away from smartphones and into wearable form factors for more seamless interaction.",
+      "key_results": [
+        "Introduction of AI-enabled Gentle Monster smart glasses.",
+        "Partnership with Warby Parker for Google AI integration.",
+        "Real-time historical retrieval for landmark buildings.",
+        "Automated restaurant reservation system via visual prompting.",
+        "Expansion of Google's XR ecosystem into consumer lifestyle wearables."
+      ],
+      "relevance_score": 4,
+      "signal_type": "Release",
+      "one_sentence_takeaway": "Google integrates multimodal AI and agentic booking capabilities into Gentle Monster and Warby Parker smart glasses.",
+      "lead_institution": "Google",
+      "tags": [
+        "Multimodal AI",
+        "Smart Glasses",
+        "LLM Agents",
+        "Ambient Computing",
+        "Visual Search"
+      ]
+    }
+  },
+  {
+    "title": "NVIDIA Open Sources First GPU-Accelerated Medical Physics Simulation Framework",
+    "link": "https://blogs.nvidia.com/blog/medical-physics-simulation-open-source/",
+    "summary": "Before a healthcare robot can be useful in the real world, it has to learn how the physical world pushes back. Anatomy varies. Instruments bend, press, slip and interact with tissue. Imaging can be noisy or incomplete. And the rare, edge scenarios developers most need to understand don\u2019t appear on schedule. That creates one of [&#8230;]",
+    "source": "NVIDIA Blog",
+    "published": "2026-07-22T13:00:11+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* NVIDIA introduces the first **GPU-accelerated medical physics simulation framework** designed to bridge the gap between digital training and real-world surgical robotics.\n* The architecture focuses on modeling **tissue-instrument interactions**, including complex physics such as instrument slippage, tissue pressing, and bending.\n* By leveraging **synthetic data generation**, the framework allows developers to simulate rare medical edge cases and noisy imaging environments that are difficult to capture in vivo.\n* The impact lies in accelerating the development of **healthcare robots** by providing a high-fidelity, scalable environment for reinforcement learning and autonomous navigation.",
+      "key_results": [
+        "First open-source GPU framework for high-fidelity medical physics.",
+        "Real-time simulation of complex tissue deformation and instrument physics.",
+        "Support for synthetic data generation to handle incomplete imaging scenarios.",
+        "Enabled training for autonomous healthcare robots in varied anatomical settings.",
+        "Seamless integration with existing NVIDIA robotics and AI deployment stacks."
+      ],
+      "relevance_score": 7,
+      "signal_type": "Release",
+      "one_sentence_takeaway": "NVIDIA open-sources a GPU-accelerated framework to simulate complex medical physics for training autonomous healthcare robotics systems.",
+      "lead_institution": "NVIDIA",
+      "tags": [
+        "Medical AI",
+        "Physics Simulation",
+        "Robotics",
+        "GPU Acceleration",
+        "Open Source"
+      ]
+    }
+  },
+  {
+    "title": "Built in Fort Worth: Wistron Opens Advanced Manufacturing Plant to Produce NVIDIA AI Systems",
+    "link": "https://blogs.nvidia.com/blog/wistron-manufacturing-texas/",
+    "summary": "The AI era runs on AI infrastructure. Many of these advanced systems are built and tested in Texas. Wistron opened its first U.S. manufacturing facility today in Fort Worth \u2014 a 324,000-square-foot greenfield plant producing superchips at the heart of some of the world\u2019s most capable AI systems. In front of an audience of Wistron [&#8230;]",
+    "source": "NVIDIA Blog",
+    "published": "2026-07-21T22:35:45+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Wistron establishes a **324,000-square-foot greenfield manufacturing plant** in Fort Worth, Texas, specifically designed for producing advanced **NVIDIA AI systems**.\n- The facility focuses on the end-to-end assembly and testing of **AI superchips**, which serve as the foundational compute layer for modern **Generative AI** workloads.\n- This expansion represents a strategic move toward **onshore hardware production**, addressing the increasing demand for high-density **AI infrastructure** within North America.",
+      "key_results": [
+        "Opening of Wistron's first U.S.-based manufacturing facility.",
+        "Specialized production line for high-performance NVIDIA AI systems.",
+        "324,000 square feet of new manufacturing and testing space.",
+        "Strengthened domestic supply chain for critical AI compute components.",
+        "Integration of advanced manufacturing processes for next-generation superchips."
+      ],
+      "relevance_score": 3,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Wistron opens a 324,000-square-foot facility in Texas to manufacture and test high-performance NVIDIA AI superchip infrastructure.",
+      "lead_institution": "NVIDIA",
+      "tags": [
+        "AI Infrastructure",
+        "Hardware Manufacturing",
+        "NVIDIA Superchips",
+        "Supply Chain",
+        "Generative AI"
+      ]
+    }
+  },
+  {
+    "title": "Built for Vera Rubin, NVIDIA Spectrum-6 Arrives in Gigascale AI Factories",
+    "link": "https://blogs.nvidia.com/blog/nvidia-spectrum-six-arrives-in-gigascale-ai-factories/",
+    "summary": "AI has entered the gigascale era. The world\u2019s most advanced AI factories are bringing together hundreds of thousands of GPUs and CPUs to train frontier models, power agentic AI and generate intelligence at unprecedented scale. At this level, networking becomes a critical computing power multiplier in driving token generation. Marking a networking milestone, NVIDIA Spectrum-6 [&#8230;]",
+    "source": "NVIDIA Blog",
+    "published": "2026-07-21T15:00:20+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- NVIDIA introduces **Spectrum-6**, an Ethernet switch purpose-built for **gigascale AI factories** that integrate hundreds of thousands of accelerators.\n- The architecture functions as a **computing power multiplier**, specifically designed to handle the high-throughput demands of **token generation** and frontier model training.\n- It addresses networking bottlenecks in **Generative AI** infrastructures, enabling seamless scaling for **agentic AI** and large-scale inference workloads.",
+      "key_results": [
+        "Launch of Spectrum-6 high-performance Ethernet networking.",
+        "Scaling support for hundreds of thousands of GPUs/CPUs.",
+        "Optimization of networking as a compute multiplier for token throughput.",
+        "Enhanced connectivity for agentic AI and frontier model training.",
+        "Design integration with NVIDIA's Vera Rubin-class AI factory architecture."
+      ],
+      "relevance_score": 4,
+      "signal_type": "Release",
+      "one_sentence_takeaway": "NVIDIA launches Spectrum-6 to scale networking for gigascale AI factories, optimizing token generation and frontier model training.",
+      "lead_institution": "NVIDIA",
+      "tags": [
+        "AI Networking",
+        "Gigascale AI",
+        "NVIDIA Spectrum-6",
+        "Model Training",
+        "Infrastructure"
+      ]
+    }
+  },
+  {
+    "title": "Professor Emeritus Dimitri Bertsekas, influential computer scientist and prolific author, dies at 83",
+    "link": "https://news.mit.edu/2026/dimitri-bertsekas-influential-computer-scientist-prolific-author-dies-0722",
+    "summary": "Known for his clear and elegant writing style, Bertsekas shaped fields from control and optimization to large-scale computation and artificial intelligence.",
+    "source": "MIT News - Artificial intelligence",
+    "published": "2026-07-22T17:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- **Dimitri Bertsekas** was a foundational figure in **Reinforcement Learning** and **Dynamic Programming**, establishing the mathematical rigor required for modern AI decision-making.\n- His research in **Parallel and Distributed Computation** provided the early architectural blueprints for scaling optimization algorithms across massive compute clusters.\n- He pioneered **Neuro-Dynamic Programming**, which effectively bridged the gap between neural networks and classical control theory, influencing modern reasoning models.",
+      "key_results": [
+        "Pioneered the field of Neuro-Dynamic Programming for complex decision-making systems.",
+        "Authored seminal textbooks that defined graduate-level education in optimization and control.",
+        "Developed fundamental algorithms for Convex and Nonlinear Optimization used in machine learning.",
+        "Established frameworks for Parallel and Distributed Computation in large-scale networks.",
+        "Bridged the gap between classical engineering control theory and modern artificial intelligence."
+      ],
+      "relevance_score": 4,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "MIT honors Dimitri Bertsekas, whose pioneering research in optimization and reinforcement learning formed the mathematical backbone of modern AI.",
+      "lead_institution": "MIT",
+      "tags": [
+        "Reinforcement Learning",
+        "Optimization",
+        "Dynamic Programming",
+        "Control Theory",
+        "Computational Intelligence"
+      ]
+    }
+  },
+  {
+    "title": "I Inspected My Take-Home Interview Project. It Was a Whole Operation",
+    "link": "https://citizendot.github.io/articles/fake-job-interview-git-hook-malware/",
+    "summary": "<p>Article URL: <a href=\"https://citizendot.github.io/articles/fake-job-interview-git-hook-malware/\">https://citizendot.github.io/articles/fake-job-interview-git-hook-malware/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49013036\">https://news.ycombinator.com/item?id=49013036</a></p>\n<p>Points: 255</p>\n<p># Comments: 66</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-07-22T20:33:44+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* Investigation into a **social engineering attack** disguised as a technical take-home assignment, utilizing malicious **git hooks** to compromise developer environments.\n* The attack architecture embeds scripts in the `.git/hooks` directory or manipulates `package.json` scripts to execute **obfuscated shell commands** upon initialization.\n* Focuses on the impact of **supply chain security** within the recruitment process, where trust in a \"job interview\" leads to the execution of unvetted code on local machines.\n* Highlights the exfiltration of **sensitive credentials**, including AWS keys, SSH identities, and environment variables, targeting high-privilege engineering accounts.",
+      "key_results": [
+        "Identification of highly targeted phishing campaigns aimed specifically at senior software engineers.",
+        "Discovery of malicious 'post-checkout' and 'pre-commit' hooks used for automated payload delivery.",
+        "Analysis of obfuscated Python and Shell scripts designed to bypass standard antivirus detection.",
+        "Detection of remote command-and-control (C2) servers receiving exfiltrated local development data.",
+        "Validation of the risk involved in running 'npm install' or 'git clone' on unverified recruitment repositories."
+      ],
+      "relevance_score": 4,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Citizendot exposes a sophisticated malware operation using malicious git hooks in fake take-home interviews to exfiltrate developer credentials.",
+      "lead_institution": "Citizendot",
+      "tags": [
+        "Cybersecurity",
+        "Supply Chain Attack",
+        "Developer Safety",
+        "Social Engineering",
+        "Malware Analysis"
+      ]
+    }
+  },
+  {
+    "title": "Fairphone 6 wide camera experimental Linux support",
+    "link": "https://nondescriptpointer.com/articles/fairphone-6-wide-camera-linux/",
+    "summary": "<p>Article URL: <a href=\"https://nondescriptpointer.com/articles/fairphone-6-wide-camera-linux/\">https://nondescriptpointer.com/articles/fairphone-6-wide-camera-linux/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49012777\">https://news.ycombinator.com/item?id=49012777</a></p>\n<p>Points: 69</p>\n<p># Comments: 2</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-07-22T20:16:01+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- The article details the implementation of **experimental driver support** for the Fairphone 6 wide-angle camera sensor within a **Linux kernel** environment.\n- It focuses on navigating the **Qualcomm ISP (Image Signal Processor)** pipeline and integrating the hardware with the **V4L2 (Video4Linux2)** subdev framework.\n- The effort enables **open-source image capture** by mapping sensor registers and facilitating communication via the **libcamera** abstraction layer.",
+      "key_results": [
+        "Successful raw Bayer frame capture from the wide-angle sensor.",
+        "Identification of specific Device Tree modifications for the Fairphone 6 hardware.",
+        "Development of initialization sequences for the camera's register settings.",
+        "Preliminary integration with the libcamera stack for userspace access.",
+        "Documentation of the hardware interface for future mainline Linux support."
+      ],
+      "relevance_score": 2,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Nondescriptpointer achieves experimental Fairphone 6 wide-camera Linux support through custom V4L2 driver integration and libcamera mapping.",
+      "lead_institution": "Nondescriptpointer",
+      "tags": [
+        "Linux Kernel",
+        "Fairphone 6",
+        "Hardware Drivers",
+        "libcamera",
+        "Mobile Linux"
+      ]
+    }
+  },
+  {
+    "title": "John C. Dvorak has died",
+    "link": "https://twitter.com/na_announce/status/2079952538040672302",
+    "summary": "<p><a href=\"https://xcancel.com/na_announce/status/2079952538040672302\" rel=\"nofollow\">https://xcancel.com/na_announce/status/2079952538040672302</a><p><a href=\"https://www.twit.community/t/john-c-dvorak-has-passed-away/20291\" rel=\"nofollow\">https://www.twit.community/t/john-c-dvorak-has-passed-away/2...</a><p><a href=\"https://www.facebook.com/aric.mackey/posts/john-c-dvorak-19462026john-c-dvorak-a-pioneering-technology-journalist-podcaster/10242625420121221/\" rel=\"nofollow\">https://www.facebook.com/aric.mackey/posts/john-c-dvorak-194...</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49012070\">https://news.ycombinator.com/item?id=49012070</a></p>\n<p>Points: 534</p>\n<p># Comments: 170</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-07-22T19:22:19+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* **John C. Dvorak**, a foundational figure in technology journalism, has passed away, concluding a career that spanned the rise of the personal computer and the internet.\n* His impact stems from his long-tenured columns at **PC Magazine** and **MacUser**, where his critiques influenced industry standards and consumer adoption of early computing architectures.\n* Dvorak was instrumental in the transition to **digital broadcasting**, co-founding the 'No Agenda' podcast and contributing to the TWiT network, which pioneered modern independent tech media.",
+      "key_results": [
+        "Announcement of the death of pioneering technology journalist John C. Dvorak at age 78.",
+        "Legacy includes decades of influential columns that shaped the cultural narrative of Silicon Valley.",
+        "Credited with early involvement in major technical publications like PC Magazine and MacUser.",
+        "Pioneered independent media models through the 'No Agenda' podcast alongside Adam Curry.",
+        "Widely recognized by the developer community for his contrarian viewpoints on software and hardware evolution."
+      ],
+      "relevance_score": 1,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Hacker News commemorates John C. Dvorak, a pioneering tech columnist whose critical analysis shaped personal computing history.",
+      "lead_institution": "Hacker News",
+      "tags": [
+        "Tech Journalism",
+        "John C. Dvorak",
+        "Tech History",
+        "PC Magazine",
+        "Podcasting"
+      ]
+    }
+  },
+  {
+    "title": "RIP tech journalist John C. Dvorak (1946\u20132026)",
+    "link": "https://www.facebook.com/aric.mackey/posts/john-c-dvorak-19462026john-c-dvorak-a-pioneering-technology-journalist-podcaster/10242625420121221/",
+    "summary": "<p>Article URL: <a href=\"https://www.facebook.com/aric.mackey/posts/john-c-dvorak-19462026john-c-dvorak-a-pioneering-technology-journalist-podcaster/10242625420121221/\">https://www.facebook.com/aric.mackey/posts/john-c-dvorak-19462026john-c-dvorak-a-pioneering-technology-journalist-podcaster/10242625420121221/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49011763\">https://news.ycombinator.com/item?id=49011763</a></p>\n<p>Points: 30</p>\n<p># Comments: 2</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-07-22T19:01:17+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- **John C. Dvorak**, a highly influential and pioneering technology journalist and podcaster, has passed away at the age of 80.\n- His work spanned several decades, most notably through his long-running column in **PC Magazine** and the co-founding of the **No Agenda** podcast.\n- Dvorak was known for his provocative and often contrarian views on the development and impact of consumer **personal computing**.\n- This news marks a significant loss for the community that documents the history and evolution of the **tech industry**.",
+      "key_results": [
+        "Confirmed passing of John C. Dvorak (1946\u20132026).",
+        "Recognition of his multi-decade impact on consumer tech journalism.",
+        "Highlighting of his role at PC Magazine and MacUser.",
+        "Acknowledgment of his influence in the podcasting space via 'No Agenda'.",
+        "Community reflection on his legacy within the Hacker News forum."
+      ],
+      "relevance_score": 1,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Hacker News reports the passing of John C. Dvorak, a foundational tech journalist who shaped early computing discourse.",
+      "lead_institution": "Hacker News",
+      "tags": [
+        "Tech Journalism",
+        "John C. Dvorak",
+        "Computing History",
+        "Digital Media",
+        "Obituary"
+      ]
+    }
+  },
+  {
+    "title": "Clarity didn't work, trying mysterianism (2012)",
+    "link": "https://gwern.net/doc/fiction/science-fiction/2012-10-03-yvain-thewhisperingearring.html",
+    "summary": "<p>Article URL: <a href=\"https://gwern.net/doc/fiction/science-fiction/2012-10-03-yvain-thewhisperingearring.html\">https://gwern.net/doc/fiction/science-fiction/2012-10-03-yvain-thewhisperingearring.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49011687\">https://news.ycombinator.com/item?id=49011687</a></p>\n<p>Points: 31</p>\n<p># Comments: 4</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-07-22T18:55:42+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Examines a philosophical parable concerning the **Whispering Earring**, illustrating the failure modes of radical epistemic transparency in decision-making.\n- Explores the tension between **explicit rationalism** and the functional utility of intuitive, non-transparent heuristics.\n- Discusses how **reductionist modeling** can paradoxically degrade performance in complex social or multi-agent environments compared to 'mysterian' approaches.",
+      "key_results": [
+        "Identifies that perfect clarity can lead to decision paralysis in agents.",
+        "Argues that some complex systems are better navigated via intuition than explicit logic.",
+        "Highlights the limits of externalized intelligence in guiding human social behavior.",
+        "Contrasts the 'Clarity' movement with functional mystery in coordination games.",
+        "Suggests that utility and truth-seeking are not always perfectly aligned goals."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Scott Alexander explores the paradox where radical transparency in information processing leads to systemic failure in decision-making agents.",
+      "lead_institution": "Gwern.net",
+      "tags": [
+        "Rationality",
+        "Decision Theory",
+        "Epistemics",
+        "Philosophy",
+        "Agent Alignment"
+      ]
+    }
+  },
+  {
+    "title": "I used ChatGPT to sue a Norwegian airline from New York and get $4760",
+    "link": "https://www.behind-the-enemy-lines.com/2026/07/the-lawyer-i-never-hired-how-chatgpt.html",
+    "summary": "<p>Article URL: <a href=\"https://www.behind-the-enemy-lines.com/2026/07/the-lawyer-i-never-hired-how-chatgpt.html\">https://www.behind-the-enemy-lines.com/2026/07/the-lawyer-i-never-hired-how-chatgpt.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49009131\">https://news.ycombinator.com/item?id=49009131</a></p>\n<p>Points: 30</p>\n<p># Comments: 11</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-07-22T16:16:31+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "<br>\u2022 This article details the use of **LLMs as legal agents** to automate the process of filing international legal claims and navigating complex bureaucratic systems.<br>\u2022 It demonstrates the efficacy of **Prompt Engineering** in translating multi-jurisdictional legal requirements (EU/Norway) into actionable documents for a layperson.<br>\u2022 The workflow highlights a shift toward **Agentic workflows** where AI handles high-stakes administrative tasks, effectively acting as a low-cost substitute for specialized legal counsel.<br>\u2022 The impact focuses on the **democratization of legal services**, allowing individuals to leverage generative AI to overcome high-friction procedural barriers.",
+      "key_results": [
+        "Successfully recovered $4,760 from a Norwegian airline using AI-generated documentation.",
+        "Navigated the Norwegian Namsfogden (Enforcement Officer) system without human legal assistance.",
+        "Utilized ChatGPT to interpret and apply EU 261/2004 consumer rights regulations.",
+        "Drafted legally binding complaints and procedural notices via structured LLM prompts.",
+        "Demonstrated a zero-cost alternative to traditional legal services for small-to-medium claims."
+      ],
+      "relevance_score": 4,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Behind the Enemy Lines documents a traveler leveraging ChatGPT to navigate international law, securing a $4,760 settlement without lawyers.",
+      "lead_institution": "behind-the-enemy-lines.com",
+      "tags": [
+        "LLM Agents",
+        "Legal Tech",
+        "Generative AI Trends",
+        "Automation",
+        "Consumer Rights"
+      ]
+    }
+  },
+  {
+    "title": "A Zipper Patent Sat in a Garage for 40 Years. Now It's Real",
+    "link": "https://www.yankodesign.com/2026/05/31/a-zipper-patent-sat-in-a-garage-for-40-years-now-its-real/",
+    "summary": "<p>Article URL: <a href=\"https://www.yankodesign.com/2026/05/31/a-zipper-patent-sat-in-a-garage-for-40-years-now-its-real/\">https://www.yankodesign.com/2026/05/31/a-zipper-patent-sat-in-a-garage-for-40-years-now-its-real/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49008512\">https://news.ycombinator.com/item?id=49008512</a></p>\n<p>Points: 58</p>\n<p># Comments: 17</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-07-22T15:37:25+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- The article details the commercialization of a **40-year-old mechanical patent** for a zipper, highlighting the disconnect between theoretical design and manufacturing feasibility.\n- It focuses on **hardware innovation** and physical material engineering, specifically the resurrection of dormant intellectual property.\n- The case study illustrates **long-cycle innovation** patterns where physical designs outpace the production technologies of their era.",
+      "key_results": [
+        "Successful realization of a 1980s zipper patent.",
+        "Advancements in modern manufacturing made the complex design viable.",
+        "Significant impact on textile and garment fastening technology.",
+        "Example of long-tail patent monetization and hardware lifecycle.",
+        "Zero direct relevance to machine learning or generative AI frameworks."
+      ],
+      "relevance_score": 1,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Yanko Design reports on a 40-year-old zipper patent finally entering production through modern manufacturing advancements.",
+      "lead_institution": "Yanko Design",
+      "tags": [
+        "Hardware Design",
+        "Manufacturing",
+        "Innovation",
+        "Patents",
+        "Mechanical Engineering"
+      ]
+    }
+  },
+  {
+    "title": "Show HN: HN Hall of Fame \u2013 browse 3,100 legendary Hacker News links",
+    "link": "https://www.orangecrumbs.com/hall/",
+    "summary": "<p>Article URL: <a href=\"https://www.orangecrumbs.com/hall/\">https://www.orangecrumbs.com/hall/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49008406\">https://news.ycombinator.com/item?id=49008406</a></p>\n<p>Points: 182</p>\n<p># Comments: 37</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-07-22T15:30:36+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- **HN Hall of Fame** acts as a curated discovery engine for over **3,100 high-impact links** archived from the Hacker News ecosystem.\n- The platform provides a streamlined interface for accessing **historical tech milestones**, ranging from seminal blog posts to major project releases.\n- For ML engineers, the project serves as a potential **metadata source** for training or fine-tuning models on high-quality, community-vetted technical discourse.",
+      "key_results": [
+        "Indexes 3,100+ 'legendary' links based on Hacker News community engagement.",
+        "Provides a searchable and filterable UI for historical technical content.",
+        "Aggregates high-signal discussions on software engineering and product development.",
+        "Serves as a reference repository for tracking evolution in the tech industry.",
+        "Facilitates easier discovery of 'hall of fame' caliber papers and open-source tools."
+      ],
+      "relevance_score": 4,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "OrangeCrumbs launches HN Hall of Fame to provide a curated discovery engine for 3,100 legendary tech industry milestones.",
+      "lead_institution": "OrangeCrumbs",
+      "tags": [
+        "Hacker News",
+        "Information Retrieval",
+        "Tech History",
+        "Dataset Discovery",
+        "Curation Tools"
+      ]
+    }
+  },
+  {
+    "title": "Critical Minerals: Reducing U.S. import reliance with substitution and recycling",
+    "link": "https://www.gao.gov/products/gao-26-108687",
+    "summary": "<p>Article URL: <a href=\"https://www.gao.gov/products/gao-26-108687\">https://www.gao.gov/products/gao-26-108687</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49008346\">https://news.ycombinator.com/item?id=49008346</a></p>\n<p>Points: 51</p>\n<p># Comments: 83</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-07-22T15:26:56+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "The GAO report analyzes the technical and economic pathways to mitigate **supply chain vulnerabilities** in the U.S. critical minerals sector. <br> It assesses the impact of **material substitution** strategies designed to replace rare earth elements with more abundant domestic materials in high-tech manufacturing. <br> The evaluation highlights **advanced recycling architectures** for electronic waste as a secondary source for rare mineral recovery to reduce foreign reliance.",
+      "key_results": [
+        "Identified 50 minerals essential to national security and the economy with high import reliance.",
+        "Determined that current recycling processes for rare earths are technically feasible but economically uncompetitive.",
+        "Found that substitution efforts for battery components (e.g., cobalt) are progressing but require long lead times.",
+        "Identified regulatory and capital hurdles as the primary barriers to domestic mineral processing.",
+        "Recommended a centralized federal strategy to align R&D with industrial mining policy."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "The GAO reports that reducing mineral import reliance requires significant investment in recycling technologies and material substitution R&D.",
+      "lead_institution": "Government Accountability Office (GAO)",
+      "tags": [
+        "Supply Chain",
+        "Critical Minerals",
+        "Hardware",
+        "Sustainability",
+        "Resource Security"
+      ]
+    }
+  },
+  {
+    "title": "Hologram Works. Sponsor What Comes Next",
+    "link": "https://hologram.page/blog/backing-hologram",
+    "summary": "<p>Article URL: <a href=\"https://hologram.page/blog/backing-hologram\">https://hologram.page/blog/backing-hologram</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49007620\">https://news.ycombinator.com/item?id=49007620</a></p>\n<p>Points: 89</p>\n<p># Comments: 25</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-07-22T14:42:49+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "<br>\u2022 **Hologram** announces new financial backing to evolve its platform for **digital identity** and real-time interactive avatars.<br>\u2022 The project focuses on bridging the gap between **generative AI** and real-time graphics pipelines for virtual personas.<br>\u2022 Architecture emphasizes **multimodal integration**, allowing AI agents or users to control 3D assets with low latency across platforms.",
+      "key_results": [
+        "Secured institutional backing to scale digital avatar infrastructure.",
+        "Development of SDKs for integrating **AI-driven motion capture**.",
+        "Focus on cross-platform interoperability for digital identities.",
+        "Expansion of real-time rendering capabilities for **Generative AI** outputs.",
+        "Shift toward supporting autonomous **LLM Agents** as visual entities."
+      ],
+      "relevance_score": 3,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Hologram secures backing to scale its multimodal avatar platform for real-time digital identity and interactive AI experiences.",
+      "lead_institution": "Hologram",
+      "tags": [
+        "Multimodal AI",
+        "Digital Avatars",
+        "Generative Graphics",
+        "Funding",
+        "Virtual Identity"
+      ]
+    }
+  },
+  {
+    "title": "OverpAId \u2013 Fire your CEO. Hire the future",
+    "link": "https://overpaid.lol",
+    "summary": "<p>Article URL: <a href=\"https://overpaid.lol\">https://overpaid.lol</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49004663\">https://news.ycombinator.com/item?id=49004663</a></p>\n<p>Points: 642</p>\n<p># Comments: 332</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-07-22T10:49:04+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- The project presents a **satirical interface** designed to mock the high compensation of CEOs by suggesting their replacement with **autonomous AI Agents**.\n- It leans into the **Vibe Coding** and **Generative AI** trend by showcasing how strategic decision-making can be abstracted into model prompts.\n- The architecture focuses on the **delegation of work** to LLMs, highlighting the potential for AI to handle high-level organizational tasks typically reserved for humans.\n- It serves as a social commentary on **AI disruption** within corporate hierarchies rather than providing a deep technical framework.",
+      "key_results": [
+        "Achieved significant viral traction on Hacker News with over 640 points.",
+        "Sparked widespread debate regarding the automation of strategic leadership roles.",
+        "Demonstrates the use of provocative web design to showcase LLM agent capabilities.",
+        "Highlights the growing trend of 'vibe-based' projects in the AI ecosystem.",
+        "Functions as a benchmark for public sentiment regarding executive-level AI replacement."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "OverpAId launches a satirical platform to demonstrate how LLM agents could potentially automate and replace executive management roles.",
+      "lead_institution": "OverpAId",
+      "tags": [
+        "AI Agents",
+        "Generative AI Trends",
+        "Vibe Coding",
+        "Automation",
+        "Social Commentary"
+      ]
+    }
+  },
+  {
+    "title": "The US has collected about $13B of Venezuela's oil money. Where is it?",
+    "link": "https://www.ft.com/content/0e562e03-106e-4729-83d7-675c27eb8c4d",
+    "summary": "<p>Article URL: <a href=\"https://www.ft.com/content/0e562e03-106e-4729-83d7-675c27eb8c4d\">https://www.ft.com/content/0e562e03-106e-4729-83d7-675c27eb8c4d</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49002462\">https://news.ycombinator.com/item?id=49002462</a></p>\n<p>Points: 40</p>\n<p># Comments: 9</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-07-22T06:09:51+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* The report details the **financial custody architecture** of $13 billion in Venezuelan oil revenue currently held in frozen international accounts.\n* It examines the **geopolitical impact** of US sanctions and the legal framework governing the escrow of state assets.\n* The article highlights the **transparency gap** in the management of these funds amidst conflicting political claims.",
+      "key_results": [
+        "$13 billion in oil revenue remains in legal limbo.",
+        "Complex escrow systems prevent immediate fund disbursement.",
+        "US sanctions act as the primary barrier to asset liquidity.",
+        "Conflicting political leadership claims create auditing hurdles.",
+        "Lack of clear accounting for interest and growth on seized assets."
+      ],
+      "relevance_score": 1,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Financial Times investigates the complex legal and geopolitical frameworks keeping billions in seized Venezuelan oil revenue frozen globally.",
+      "lead_institution": "Financial Times",
+      "tags": [
+        "Geopolitics",
+        "Sanctions",
+        "Finance",
+        "Asset Custody",
+        "International Law"
+      ]
+    }
+  },
+  {
+    "title": "Show HN: ReadKinetic \u2013 a free, local-first speed reader for your own books",
+    "link": "https://www.readkinetic.com/app/",
+    "summary": "<p>Article URL: <a href=\"https://www.readkinetic.com/app/\">https://www.readkinetic.com/app/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49002344\">https://news.ycombinator.com/item?id=49002344</a></p>\n<p>Points: 95</p>\n<p># Comments: 61</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-07-22T05:49:51+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- **ReadKinetic** is a browser-based, **local-first** speed reading utility that processes digital books entirely on the client side for maximum privacy.\n- The architecture utilizes **Rapid Serial Visual Presentation (RSVP)** technology to display text at variable speeds, reducing the need for eye movement and subvocalization.\n- By prioritizing **local storage** and client-side file parsing, the tool avoids the latency and privacy risks associated with cloud-based reading platforms.",
+      "key_results": [
+        "Zero-server dependency for book processing and library management.",
+        "Support for high-speed reading via customizable WPM (Words Per Minute) settings.",
+        "Local-first data persistence for reading progress and metadata.",
+        "Cross-platform compatibility via standard web technologies.",
+        "Privacy-centric design that keeps user content and habits on-device."
+      ],
+      "relevance_score": 2,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "ReadKinetic launches a local-first web application that utilizes RSVP technology to enable high-speed digital book consumption without data egress.",
+      "lead_institution": "ReadKinetic",
+      "tags": [
+        "Local-first",
+        "Privacy",
+        "RSVP",
+        "Speed Reading",
+        "Browser Tool"
+      ]
+    }
+  },
+  {
+    "title": "Late.sh \u2013 a command-line Clubhouse for computer people",
+    "link": "https://late.sh/",
+    "summary": "<p>Article URL: <a href=\"https://late.sh/\">https://late.sh/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49001127\">https://news.ycombinator.com/item?id=49001127</a></p>\n<p>Points: 307</p>\n<p># Comments: 112</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-07-22T02:32:30+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* Late.sh introduces a **command-line-based social audio** platform designed for terminal-centric workflows and minimalist hardware interaction.\n* The system likely utilizes **SSH-based transport** or custom binary streams to deliver real-time voice data within a terminal emulator environment.\n* The architecture prioritizes **low-latency communication** and reduced overhead by bypassing heavy web browser engines used by traditional social platforms.",
+      "key_results": [
+        "Functional real-time audio streaming within a terminal interface.",
+        "Bypassing traditional GUI overhead for social interaction.",
+        "Seamless integration for developers working in CLI-first environments.",
+        "Successful community adoption among the Hacker News audience.",
+        "Proof-of-concept for low-bandwidth, high-vibe social networking."
+      ],
+      "relevance_score": 3,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Late.sh launches a command-line audio social platform to enable real-time voice communication within developer terminal environments.",
+      "lead_institution": "Late.sh",
+      "tags": [
+        "CLI Tools",
+        "Real-time Communication",
+        "Developer Tools",
+        "Social Computing",
+        "Terminal Interface"
+      ]
+    }
+  },
+  {
+    "title": "Show HN: Computable \u2013 Buy, sell, and redeem GPU for the exact weeks you want",
+    "link": "https://www.getcomputable.com/",
+    "summary": "<p>Hey we are Computable. We spent years building trading infrastructure at Jump Trading and Coinbase. From that point of view, compute looks like energy markets before 2000: everything trades through private bilateral leases, there\u2019s no visible price, and nothing can be resold. The same H100 rents at a 2x spread depending on who\u2019s asking, and once you sign a 24-month lease, it can never change hands.<p>So we built a market for GPU nodes, sold by the calendar week. Here are three things you can do on it that you can\u2019t do anywhere else:<p>- Buy exactly the weeks you need. Three nodes for the last two weeks of October means you pay for those two weeks and walk away when the run is done. You don't have to commit to 6-24 months, and there's no flexibility premium.<p>- Sell back what you don\u2019t use. If your plans change, unused weeks turn back into cash: we keep a market quote posted on every position, so there\u2019s always a price to hit.<p>- Buy (or sell) the future. Lock January in July at a price you set, so the cost of a future run is known before another 40% H100 rate jump makes it not.<p>The first auction is live now at <a href=\"https://market.getcomputable.com\">https://market.getcomputable.com</a>: a block of nodes, August through the end of January. Bidding closes July 31. The bids are sealed. You bid how many nodes, which weeks, and your price. Every clearing price gets published after settlement, because nobody knows what a GPU week is worth and we want the prints to exist in public.<p>Happy to go deep in the comments on anything, including the clearing mechanism, which is a packing problem and was fun to design!</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48998828\">https://news.ycombinator.com/item?id=48998828</a></p>\n<p>Points: 45</p>\n<p># Comments: 25</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-07-21T21:48:19+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- **Computable** has launched a weekly-denominated GPU marketplace designed to transform compute into a liquid commodity, mirroring the architecture of **energy markets**.\n- The platform utilizes a **sealed-bid auction** and a custom clearing mechanism based on a packing problem to optimize the allocation of GPU nodes across specific calendar weeks.\n- The infrastructure enables **secondary market liquidity**, allowing users to sell back unused capacity or lock in future rates to hedge against price volatility in high-end hardware like **NVIDIA H100s**.\n- By eliminating long-term bilateral leases, the system seeks to establish **public price discovery** for GPU time, which historically has been obscured by private contracts.",
+      "key_results": [
+        "GPU capacity is traded in discrete units of one calendar week.",
+        "Users can liquidate unused future capacity through live market quotes.",
+        "Forward contracts allow locking in January compute rates as early as July.",
+        "Clearing prices are published post-settlement to provide market transparency.",
+        "The platform removes the standard 'flexibility premium' associated with short-term cloud GPU rentals."
+      ],
+      "relevance_score": 4,
+      "signal_type": "Release",
+      "one_sentence_takeaway": "Computable launches a liquid GPU marketplace allowing researchers to trade weekly compute slots and hedge against H100 price volatility.",
+      "lead_institution": "Computable",
+      "tags": [
+        "GPU Compute",
+        "Infrastructure",
+        "H100",
+        "Marketplace",
+        "Resource Allocation"
+      ]
+    }
+  },
+  {
+    "title": "\"Drawing\" the Mona Lisa with GPT-5.6, Claude, Gemini, and Grok",
+    "link": "https://www.tryai.dev/blog/ai-drawing-arena-colored-pencils-claude-gpt-grok",
+    "summary": "<p>Article URL: <a href=\"https://www.tryai.dev/blog/ai-drawing-arena-colored-pencils-claude-gpt-grok\">https://www.tryai.dev/blog/ai-drawing-arena-colored-pencils-claude-gpt-grok</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48998404\">https://news.ycombinator.com/item?id=48998404</a></p>\n<p>Points: 245</p>\n<p># Comments: 103</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-07-21T21:13:20+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Benchmarks the **spatial reasoning** and **cross-modal translation** capabilities of leading LLMs by tasking them with recreating the Mona Lisa using code-based rendering like SVG.\n- Explores the intersection of **Vibe Coding** and deterministic output, where natural language instructions are translated into geometric primitives.\n- Analyzes the performance of **Reasoning Models** versus standard chat models in maintaining structural integrity and lighting accuracy within purely text-based instructions.",
+      "key_results": [
+        "Claude 3.5 Sonnet demonstrated superior accuracy in SVG coordinate mapping compared to competitors.",
+        "OpenAI's latest reasoning models showed higher adherence to historical detail but sometimes struggled with rendering efficiency.",
+        "Gemini models exhibited strong performance in color theory application but lacked precision in facial geometry.",
+        "Grok performed well on high-level composition but frequently introduced syntax errors in complex SVG paths.",
+        "The experiment confirms that model 'vision' is often superior to its ability to generate valid, complex spatial code."
+      ],
+      "relevance_score": 6,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "TryAI evaluates top LLMs on spatial reasoning by forcing models to reconstruct the Mona Lisa using structured code.",
+      "lead_institution": "TryAI",
+      "tags": [
+        "Spatial Reasoning",
+        "SVG Generation",
+        "Multimodal AI",
+        "Model Evaluation",
+        "Vibe Coding"
       ]
     }
   },
@@ -86,96 +1076,6 @@
         "Fintech",
         "AI Leadership",
         "Board of Directors"
-      ]
-    }
-  },
-  {
-    "title": "The State of Simulation for Physical AI: An Overview",
-    "link": "https://huggingface.co/blog/nvidia/state-of-simulation-for-physical-ai",
-    "summary": "",
-    "source": "Hugging Face - Blog",
-    "published": "2026-07-21T20:00:27+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n- Evaluates the current landscape of **Physical AI**, focusing on the pivotal role of **GPU-accelerated simulation** engines like NVIDIA Isaac Gym and Genesis in bridging the Sim-to-Real gap.\n- Details the shift from classical control theory toward **end-to-end neural policies** trained via **Reinforcement Learning (RL)** within high-throughput synthetic environments.\n- Explores the integration of **World Models** and Generative AI to automate the creation of complex, physically accurate 3D scenes for robotic data collection.\n- Highlights **Domain Randomization** and System Identification as essential architectural strategies for ensuring that policies generalize from virtual to physical hardware.",
-      "key_results": [
-        "GPU-parallelized simulation allows for the training of complex robotic maneuvers in minutes by simulating thousands of agents simultaneously.",
-        "The Sim-to-Real gap is increasingly mitigated through advanced sensor noise modeling and high-fidelity physics engines.",
-        "Unified simulation frameworks (e.g., Genesis) are emerging to handle rigid-body, soft-body, and fluid dynamics in a single pipeline.",
-        "Foundation models for robotics are leveraging massive synthetic datasets to overcome the scarcity of real-world physical interaction data.",
-        "Generative AI is being utilized for procedural environment generation, significantly scaling the diversity of training scenarios."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Engineering Blog",
-      "one_sentence_takeaway": "Hugging Face outlines how GPU-accelerated simulation and synthetic data are revolutionizing the training of Physical AI foundation models.",
-      "lead_institution": "Hugging Face",
-      "tags": [
-        "Physical AI",
-        "Robotics",
-        "Simulation",
-        "Reinforcement Learning",
-        "Synthetic Data"
-      ]
-    }
-  },
-  {
-    "title": "Grabette: an open system to record robot-manipulation data",
-    "link": "https://huggingface.co/blog/grabette",
-    "summary": "",
-    "source": "Hugging Face - Blog",
-    "published": "2026-07-21T00:00:00+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n* Hugging Face introduces **Grabette**, a low-cost, open-source hardware and software ecosystem designed to democratize **robotic manipulation** data collection.\n* The architecture utilizes a **teleoperation** setup involving 3D-printed grippers and sensors to record high-fidelity human demonstrations for **Imitation Learning**.\n* The system is natively integrated with the **LeRobot** library, enabling seamless dataset uploading, visualization, and model training on the Hugging Face Hub.",
-      "key_results": [
-        "Provides a complete open-source hardware specification for sub-$100 data collection devices.",
-        "Ensures multi-modal data synchronization across cameras and robotic proprioception sensors.",
-        "Streamlines the transition from physical demonstration to training-ready datasets in LeRobot format.",
-        "Supports multi-view camera setups to improve the robustness of vision-based robotic policies.",
-        "Reduces technical friction for researchers building datasets for general-purpose robotic agents."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Engineering Blog",
-      "one_sentence_takeaway": "Hugging Face launches Grabette, an open-source data collection system to streamline training robotic imitation learning models at scale.",
-      "lead_institution": "Hugging Face",
-      "tags": [
-        "Robotics",
-        "Imitation Learning",
-        "LeRobot",
-        "Embodied AI",
-        "Open Hardware"
-      ]
-    }
-  },
-  {
-    "title": "How to build interactive experiences with canvases",
-    "link": "https://github.blog/ai-and-ml/github-copilot/how-to-build-interactive-experiences-with-canvases/",
-    "summary": "<p>Canvases turn AI into interactive workspaces where you can visualize information, explore workflows, and take action across complex tasks.</p>\n<p>The post <a href=\"https://github.blog/ai-and-ml/github-copilot/how-to-build-interactive-experiences-with-canvases/\">How to build interactive experiences with canvases</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
-    "source": "The GitHub Blog",
-    "published": "2026-07-21T16:00:00+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n- GitHub introduces **Canvases**, a paradigm shift from linear chat interfaces to **persistent, interactive workspaces** for LLM interactions.\n- The architecture focuses on **stateful visual environments** where AI-generated content (code, diagrams, or text) is rendered in a dedicated pane for direct manipulation.\n- This approach enhances **human-in-the-loop** workflows by allowing users to refine, iterate, and take action on outputs without re-prompting from scratch.",
-      "key_results": [
-        "Transition from transient chat history to persistent workspace state.",
-        "Support for side-by-side visualization of AI-generated assets.",
-        "Enabled direct editing and iteration of complex outputs.",
-        "Reduced context switching by integrating tools into the canvas.",
-        "Improved management of multi-step generative tasks."
-      ],
-      "relevance_score": 4,
-      "signal_type": "Engineering Blog",
-      "one_sentence_takeaway": "GitHub introduces canvases to transform static AI responses into interactive, persistent workspaces for complex developer workflows.",
-      "lead_institution": "GitHub",
-      "tags": [
-        "AI UX",
-        "Generative AI",
-        "GitHub Copilot",
-        "Interactive Workspaces",
-        "Human-in-the-loop"
       ]
     }
   },
@@ -330,96 +1230,6 @@
     }
   },
   {
-    "title": "Built in Fort Worth: Wistron Opens Advanced Manufacturing Plant to Produce NVIDIA AI Systems",
-    "link": "https://blogs.nvidia.com/blog/wistron-manufacturing-texas/",
-    "summary": "The AI era runs on AI infrastructure. Many of these advanced systems are built and tested in Texas. Wistron opened its first U.S. manufacturing facility today in Fort Worth \u2014 a 324,000-square-foot greenfield plant producing superchips at the heart of some of the world\u2019s most capable AI systems. In front of an audience of Wistron [&#8230;]",
-    "source": "NVIDIA Blog",
-    "published": "2026-07-21T22:35:45+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n* Wistron establishes a **324,000-square-foot** greenfield manufacturing facility in Fort Worth to produce **NVIDIA AI superchips**.\n* The plant focuses on the physical assembly and testing of high-density **AI infrastructure** components critical for training foundation models.\n* This expansion represents a significant move toward **onshoring hardware production** to meet the global demand for high-performance computing (HPC) systems.",
-      "key_results": [
-        "Opening of Wistron's first dedicated U.S. manufacturing facility.",
-        "Strategic production of NVIDIA-based AI systems and superchips.",
-        "324,000 square feet of specialized greenfield manufacturing space.",
-        "Streamlining the supply chain for high-end AI server hardware.",
-        "Enhanced capacity for testing and deploying large-scale AI clusters."
-      ],
-      "relevance_score": 3,
-      "signal_type": "Release",
-      "one_sentence_takeaway": "NVIDIA and Wistron launch a new Texas facility to accelerate the domestic production of high-performance AI superchips and infrastructure.",
-      "lead_institution": "NVIDIA",
-      "tags": [
-        "AI Infrastructure",
-        "NVIDIA Superchips",
-        "Advanced Manufacturing",
-        "Hardware Supply Chain",
-        "HPC"
-      ]
-    }
-  },
-  {
-    "title": "NVIDIA Vera Rubin Driving Performance Per Watt, Lowest Token Cost for Partners Worldwide",
-    "link": "https://blogs.nvidia.com/blog/vera-rubin/",
-    "summary": "NVIDIA Vera Rubin is here, and it\u2019s going gigascale. Vera Rubin NVL72 production is ramping up with racks running at partners CoreWeave, Google Cloud, Microsoft Azure and Oracle Cloud Infrastructure. Spanning 350+ factory sites in 30 countries, Vera Rubin has the largest, most mature rack-scale supply chain ever assembled to meet customer compute demand. The [&#8230;]",
-    "source": "NVIDIA Blog",
-    "published": "2026-07-21T15:36:43+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n* NVIDIA initiates production of the **Vera Rubin NVL72**, a gigascale platform designed to minimize **token costs** through extreme hardware efficiency.\n* The architecture emphasizes **performance per watt**, scaling across a mature, global supply chain spanning 350 factory sites to meet enterprise demand.\n* The rollout targets **rack-scale compute**, enabling cloud partners to deploy massive clusters for high-performance **Generative AI** training and inference.",
-      "key_results": [
-        "Production ramp-up of Vera Rubin NVL72 racks at major cloud providers.",
-        "Established supply chain across 30 countries and 350+ factory sites.",
-        "Significant reduction in total cost of ownership (TCO) for AI partners.",
-        "Optimized energy efficiency for sustainable large-scale AI operations.",
-        "Immediate deployment capability at CoreWeave, Google Cloud, Azure, and Oracle."
-      ],
-      "relevance_score": 7,
-      "signal_type": "Release",
-      "one_sentence_takeaway": "NVIDIA launches Vera Rubin NVL72 production to deliver gigascale AI infrastructure with industry-leading performance per watt.",
-      "lead_institution": "NVIDIA",
-      "tags": [
-        "Vera Rubin",
-        "GPU Architecture",
-        "NVL72",
-        "AI Infrastructure",
-        "Token Efficiency"
-      ]
-    }
-  },
-  {
-    "title": "Built for Vera Rubin, NVIDIA Spectrum-6 Arrives in Gigascale AI Factories",
-    "link": "https://blogs.nvidia.com/blog/nvidia-spectrum-six-arrives-in-gigascale-ai-factories/",
-    "summary": "AI has entered the gigascale era. The world\u2019s most advanced AI factories are bringing together hundreds of thousands of GPUs and CPUs to train frontier models, power agentic AI and generate intelligence at unprecedented scale. At this level, networking becomes a critical computing power multiplier in driving token generation. Marking a networking milestone, NVIDIA Spectrum-6 [&#8230;]",
-    "source": "NVIDIA Blog",
-    "published": "2026-07-21T15:00:20+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n- NVIDIA introduces **Spectrum-6**, a high-performance networking platform designed specifically for **gigascale AI factories** utilizing hundreds of thousands of processors.\n- The architecture positions networking as a **computing power multiplier**, focusing on reducing bottlenecks in **token generation** and frontier model training.\n- The system is optimized for the orchestration of **agentic AI** and large-scale generative intelligence by providing massive bandwidth and low-latency Ethernet fabrics.",
-      "key_results": [
-        "Supports clusters scaling to hundreds of thousands of GPUs and CPUs.",
-        "Introduces high-throughput Ethernet switches optimized for AI data centers.",
-        "Improves token generation efficiency through advanced network fabric management.",
-        "Integrated into the Vera Rubin AI factory architecture for maximum compute density.",
-        "Addresses networking as a primary scaling factor for training frontier generative models."
-      ],
-      "relevance_score": 6,
-      "signal_type": "Release",
-      "one_sentence_takeaway": "NVIDIA launches Spectrum-6 to provide the networking infrastructure necessary for gigascale AI factories and frontier model training.",
-      "lead_institution": "NVIDIA",
-      "tags": [
-        "Networking",
-        "Gigascale AI",
-        "NVIDIA Spectrum-6",
-        "LLM Training",
-        "Agentic AI"
-      ]
-    }
-  },
-  {
     "title": "At SIGGRAPH, NVIDIA Advances Graphics and Simulation With Agentic and Physical AI",
     "link": "https://blogs.nvidia.com/blog/siggraph-news-2026/",
     "summary": "From open models to real-time simulation, AI and graphics breakthroughs are transforming media, content creation and robotics.",
@@ -450,36 +1260,6 @@
     }
   },
   {
-    "title": "Accelerating Text-to-Video Generation with Calibrated Sparse Attention",
-    "link": "https://machinelearning.apple.com/research/calibrated-sparse-attention",
-    "summary": "Recent diffusion models enable high-quality video generation, but suffer from slow runtimes. The large transformer-based backbones used in these models are bottlenecked by spatiotemporal attention. In this paper, we identify that a significant fraction of token-to-token connections consistently yield negligible scores across various inputs, and their patterns often repeat across queries. Thus, the attention computation in these cases can be skipped with little to no effect on the result. This observation continues to hold for connections among local token blocks. Motivated by this, we\u2026",
-    "source": "Apple Machine Learning Research",
-    "published": "2026-07-21T00:00:00+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n- Proposes **Calibrated Sparse Attention** to mitigate the computational bottleneck of spatiotemporal attention in **diffusion-based video transformers**.\n- Identifies that a significant portion of token-to-token connections consistently yield **negligible attention scores**, allowing for targeted pruning of the computation graph.\n- Implements a methodology to skip redundant computations across **local token blocks** by identifying repeating patterns across queries.\n- Optimizes the inference runtime of **text-to-video models** without compromising visual quality or temporal consistency.",
-      "key_results": [
-        "Discovery that most token connections in video transformers are consistently sparse and negligible.",
-        "Validation that attention patterns often repeat across different queries within the same model backbone.",
-        "Development of a calibration-based approach to identify and prune low-impact attention scores.",
-        "Significant reduction in inference latency for high-quality text-to-video generation.",
-        "Empirical evidence that block-based sparse attention maintains the generation fidelity of full attention."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "Apple Research introduces Calibrated Sparse Attention to accelerate text-to-video generation by skipping redundant spatiotemporal token computations.",
-      "lead_institution": "Apple Machine Learning Research",
-      "tags": [
-        "Text-to-Video",
-        "Sparse Attention",
-        "Diffusion Models",
-        "Inference Optimization",
-        "Transformer Architectures"
-      ]
-    }
-  },
-  {
     "title": "Content Ingestion & Podcast Video Incident Report",
     "link": "https://engineering.atspotify.com/2026/7/content-ingestion-and-podcast-video-incident-report/",
     "summary": "<p>Over the past two months, podcast creators have experienced a series of reliability issues on Spotify. This...</p>\n<p>The post <a href=\"https://engineering.atspotify.com/2026/7/content-ingestion-and-podcast-video-incident-report/\">Content Ingestion &amp; Podcast Video Incident Report </a> appeared first on <a href=\"https://engineering.atspotify.com\">Spotify Engineering</a>.</p>",
@@ -506,66 +1286,6 @@
         "System Outage",
         "Backend Services",
         "Content Ingestion"
-      ]
-    }
-  },
-  {
-    "title": "Gemini last models: temperature, top_p, and top_k are deprecated and ignored",
-    "link": "https://ai.google.dev/gemini-api/docs/latest-model",
-    "summary": "<p>Article URL: <a href=\"https://ai.google.dev/gemini-api/docs/latest-model\">https://ai.google.dev/gemini-api/docs/latest-model</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48998606\">https://news.ycombinator.com/item?id=48998606</a></p>\n<p>Points: 34</p>\n<p># Comments: 7</p>",
-    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
-    "published": "2026-07-21T21:27:54+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n* Google has updated the latest **Gemini models** to deprecate and ignore traditional sampling parameters including **temperature**, **top_p**, and **top_k**.\n* This shift suggests an architectural move toward **reasoning-optimized** inference, where the model internally manages token probability and search space.\n* The change streamlines the **API surface** but removes granular control over output stochasticity, impacting how developers manage deterministic versus creative responses.\n* This evolution reflects a broader trend in **Generative AI** where model calibration is increasingly handled by internal logic rather than external hyperparameter tuning.",
-      "key_results": [
-        "Traditional sampling parameters (temperature, top_p, top_k) are now deprecated for new Gemini iterations.",
-        "API requests including these parameters will have them ignored by the model's inference engine.",
-        "The model autonomously determines the optimal balance between diversity and precision.",
-        "Developers must shift focus from parameter tuning to advanced prompt engineering for output control.",
-        "Simplifies production deployments by removing the need for hyperparameter optimization (HPO) during inference."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Release",
-      "one_sentence_takeaway": "Google Gemini deprecates traditional sampling parameters to prioritize internal reasoning-driven inference and simplify developer model configuration.",
-      "lead_institution": "Google",
-      "tags": [
-        "Gemini",
-        "Reasoning Models",
-        "LLM Inference",
-        "Parameter Tuning",
-        "Generative AI"
-      ]
-    }
-  },
-  {
-    "title": "\"Drawing\" the Mona Lisa with GPT-5.6, Claude, Gemini, and Grok",
-    "link": "https://www.tryai.dev/blog/ai-drawing-arena-colored-pencils-claude-gpt-grok",
-    "summary": "<p>Article URL: <a href=\"https://www.tryai.dev/blog/ai-drawing-arena-colored-pencils-claude-gpt-grok\">https://www.tryai.dev/blog/ai-drawing-arena-colored-pencils-claude-gpt-grok</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48998404\">https://news.ycombinator.com/item?id=48998404</a></p>\n<p>Points: 98</p>\n<p># Comments: 35</p>",
-    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
-    "published": "2026-07-21T21:13:20+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n*   Evaluates the capabilities of frontier models like **Claude**, **GPT-4o**, **Gemini**, and **Grok** in generating complex **SVG code** to reconstruct the Mona Lisa.\n*   Benchmarks model performance on **spatial reasoning** and the ability to translate semantic artistic concepts into valid, layered vector instructions.\n*   Explores the intersection of **Vibe Coding** and automated graphic design, highlighting how different architectures handle geometry and color gradients.\n*   Provides a comparative analysis of how modern **reasoning models** interpret abstract prompts into structured, deterministic code outputs.",
-      "key_results": [
-        "Claude 3.5 Sonnet leads in spatial accuracy and path complexity for SVG art.",
-        "GPT-4o shows high syntactic reliability but often defaults to geometric oversimplification.",
-        "Gemini 1.5 Pro demonstrates significant improvements in multi-layered vector rendering.",
-        "Grok models exhibit competitive capabilities in following multi-step creative constraints.",
-        "Vector-based 'drawing' serves as a robust metric for assessing LLM spatial intelligence and code adherence."
-      ],
-      "relevance_score": 6,
-      "signal_type": "Engineering Blog",
-      "one_sentence_takeaway": "TryAI evaluates leading LLMs on SVG generation tasks, revealing significant differences in spatial reasoning and code-based artistic capabilities.",
-      "lead_institution": "TryAI",
-      "tags": [
-        "Vibe Coding",
-        "SVG Generation",
-        "LLM Evaluation",
-        "Spatial Reasoning",
-        "Prompt Engineering"
       ]
     }
   },
@@ -626,66 +1346,6 @@
         "Model Training",
         "AI Policy",
         "Claude"
-      ]
-    }
-  },
-  {
-    "title": "Apple Private Cloud Compute SoC 3 audit reports",
-    "link": "https://support.apple.com/guide/certifications/apple-private-cloud-compute-soc-3-audit-apc95a31b9d8/web",
-    "summary": "<p>Article URL: <a href=\"https://support.apple.com/guide/certifications/apple-private-cloud-compute-soc-3-audit-apc95a31b9d8/web\">https://support.apple.com/guide/certifications/apple-private-cloud-compute-soc-3-audit-apc95a31b9d8/web</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48995796\">https://news.ycombinator.com/item?id=48995796</a></p>\n<p>Points: 102</p>\n<p># Comments: 47</p>",
-    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
-    "published": "2026-07-21T17:58:21+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n- Apple releases **SOC 3 audit reports** for **Private Cloud Compute (PCC)**, providing formal third-party validation of its privacy-preserving cloud AI infrastructure.\n- The architecture relies on **stateless processing** and **cryptographic attestation**, ensuring that user data is never stored and remains inaccessible even to Apple administrative staff.\n- This move establishes a new transparency benchmark for **Generative AI** by allowing security researchers to verify the integrity of the remote code execution environment.",
-      "key_results": [
-        "Independent verification of PCC's security and privacy control effectiveness.",
-        "Validation of 'no persistent storage' claims for user data processed in the cloud.",
-        "Confirmation of end-to-end encryption between client devices and PCC nodes.",
-        "Transparency regarding the hardware-level root of trust and secure boot process.",
-        "Formal alignment of Apple Intelligence cloud processing with Trust Services Criteria."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Release",
-      "one_sentence_takeaway": "Apple releases SOC 3 audit reports for Private Cloud Compute, providing third-party verification of its privacy-first cloud AI architecture.",
-      "lead_institution": "Apple",
-      "tags": [
-        "Apple Intelligence",
-        "Private Cloud Compute",
-        "Cloud Security",
-        "AI Privacy",
-        "SOC 3 Audit"
-      ]
-    }
-  },
-  {
-    "title": "Laguna S 2.1",
-    "link": "https://poolside.ai/blog/introducing-laguna-s-2-1",
-    "summary": "<p>Article URL: <a href=\"https://poolside.ai/blog/introducing-laguna-s-2-1\">https://poolside.ai/blog/introducing-laguna-s-2-1</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48995261\">https://news.ycombinator.com/item?id=48995261</a></p>\n<p>Points: 231</p>\n<p># Comments: 42</p>",
-    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
-    "published": "2026-07-21T17:17:06+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "<br>\u2022 Poolside introduces **Laguna S 2.1**, a high-efficiency **Small Language Model (SLM)** specifically engineered for software development and automated coding tasks.<br>\u2022 The architecture emphasizes **low-latency inference** and high-fidelity code generation, making it ideal for integration into real-time IDE extensions and **agentic workflows**.<br>\u2022 It leverages a custom-curated dataset focused on multi-file reasoning and repository-level context, bridging the gap between local execution and cloud-scale performance.<br>\u2022 The release highlights a shift toward **specialized code models** that prioritize logic and structure over general-purpose knowledge.",
-      "key_results": [
-        "Demonstrates state-of-the-art performance on coding benchmarks relative to parameter count.",
-        "Significant reduction in token latency compared to the previous Laguna 2.0 version.",
-        "Enhanced capability for multi-step reasoning and complex code refactoring.",
-        "Optimized for local deployment, facilitating private and secure 'Vibe Coding' environments.",
-        "Improved instruction-following for long-context software engineering prompts."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Release",
-      "one_sentence_takeaway": "Poolside releases Laguna S 2.1, a high-efficiency code model delivering elite software engineering performance within a compact architecture.",
-      "lead_institution": "Poolside",
-      "tags": [
-        "SLM",
-        "Code Generation",
-        "Vibe Coding",
-        "LLM Agents",
-        "Software Engineering"
       ]
     }
   },
@@ -2336,666 +2996,6 @@
         "AI Evaluation",
         "Generative AI",
         "Computational Humor"
-      ]
-    }
-  },
-  {
-    "title": "Caring Over Computing: An Ethical and Sociotechnical Perspective on Generative AI for Social Connectedness in Dementia Care",
-    "link": "http://arxiv.org/abs/2607.19007v1",
-    "summary": "People with dementia in residential care often experience reduced social connectedness. Person-centered care approaches foreground meaningful social interactions to support well-being, but staff and time pressures increasingly constrain opportunities for such care. Generative AI (GenAI) technologies offer possibilities for helping care professionals facilitate social connectedness, despite increasing care pressures. Yet, the meaningful integration of such technologies into the complex sociotechnical setting of residential dementia care is not straightforward. To responsibly design GenAI technologies for dementia care, we need to investigate how care professionals recognize and foster social connectedness and how technologies intersect with those approaches in care contexts. We conducted five workshops with 15 care professionals from three care organizations to pursue this objective. Our findings show that fostering social connectedness involves ongoing interpretation, negotiation, and adaptation to residents' individual needs. Technology was used by care professionals to support communication, interaction, and shared activities, yet remained largely peripheral to everyday care routines and required active mediation for use in practice. Drawing on an ethics of care framework, we derive ethical and sociotechnical implications for the responsible design and positioning of GenAI in residential dementia care.",
-    "source": "ArXiv",
-    "published": "2026-07-21T11:44:43+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Analyzes the **sociotechnical architecture** required to integrate **Generative AI (GenAI)** into residential dementia care settings while maintaining person-centered well-being.\n- Evaluates how **Generative AI Trends** can address staff pressures by facilitating social connectedness through mediated **human-AI interaction**.\n- Utilizes an **Ethics of Care framework** to identify design requirements that prioritize relational continuity over simple task-based automation.\n- Proposes that GenAI must function as an **active mediator** rather than a standalone tool to effectively support the interpretive and adaptive needs of care professionals.",
-      "key_results": [
-        "Fostering social connectedness requires continuous human interpretation and adaptation to individual resident needs.",
-        "Existing technology remains peripheral to care routines and requires significant human mediation to be useful.",
-        "GenAI offers potential for facilitating shared activities but risks disrupting established care relationships if poorly integrated.",
-        "Care professionals prioritize relational 'caring' outcomes over computational efficiency or task completion.",
-        "Responsible AI design in this sector must focus on sociotechnical positioning rather than just technical capability."
-      ],
-      "relevance_score": 5,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers establish an ethical framework to ensure Generative AI supports human-centric social connectedness in residential dementia care.",
-      "lead_institution": "ArXiv Researchers",
-      "tags": [
-        "Generative AI",
-        "Ethics of Care",
-        "Sociotechnical Design",
-        "Human-AI Interaction",
-        "Dementia Care"
-      ]
-    }
-  },
-  {
-    "title": "Subject-Conditioned Glucose Forecasting in Type-1 Diabetes",
-    "link": "http://arxiv.org/abs/2607.19006v1",
-    "summary": "Accurate forecasting of blood glucose concentration is key in the management of Type 1 Diabetes, facilitating early detection of adverse glycemic events and supporting timely therapeutic interventions. Despite recent advances in glucose prediction, most existing approaches rely on population-level representations or implicit personalization strategies that fail to deliver effective subject-specific forecasts. In this work, we propose Subject-Conditioned Glucose Prediction (SCGP), a novel multimodal deep learning architecture conceived for personalized blood glucose prediction. SCGP conditions glucose predictions based on observed glucose data and a compact subject-specific representation learned from contextual information. By explicitly separating subject characterization from glucose dynamics modeling and avoiding early fusion of heterogeneous inputs, the proposed framework effectively captures inter-subject variability while preserving robust and reliable temporal modeling. Experiments on two state-of-the-art benchmark datasets demonstrate that SCGP consistently improves forecasting performance, enabling reliable detection of adverse glycemic events across multiple prediction horizons, highlighting the benefits of explicit subject conditioning for personalized diabetes management.",
-    "source": "ArXiv",
-    "published": "2026-07-21T11:42:34+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": " \n \u2022 Introduces **Subject-Conditioned Glucose Prediction (SCGP)**, a novel **multimodal deep learning** architecture designed for personalized medical time-series forecasting. \n \u2022 The framework explicitly separates **subject characterization** from glucose dynamics, using a compact representation to condition predictions rather than relying on standard early fusion of heterogeneous inputs. \n \u2022 Addresses **inter-subject variability** by integrating contextual patient information with observed temporal data to enhance model reliability. \n \u2022 Provides a robust methodology for **personalized diabetes management**, focusing on the early detection of adverse glycemic events across varying prediction horizons.",
-      "key_results": [
-        "SCGP consistently outperforms existing population-level models in forecasting accuracy.",
-        "Explicit subject conditioning proves superior to implicit personalization strategies.",
-        "The model successfully avoids the performance degradation typically associated with early fusion of heterogeneous data.",
-        "Achieved significant performance gains on two state-of-the-art benchmark diabetes datasets.",
-        "Improved detection rates for adverse glycemic events (hypoglycemia and hyperglycemia) across multiple horizons."
-      ],
-      "relevance_score": 6,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers develop SCGP, a multimodal architecture using subject-specific conditioning to significantly improve personalized blood glucose forecasting.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "Multimodal AI",
-        "Time-Series Forecasting",
-        "Personalized Medicine",
-        "Deep Learning",
-        "Predictive Modeling"
-      ]
-    }
-  },
-  {
-    "title": "Observable Matrix Dynamics of Stocks",
-    "link": "http://arxiv.org/abs/2607.19005v1",
-    "summary": "The Observable Matrix Dynamics (OMD) approach monitors the time development of complex non-linear systems through the trajectory of a fixed-size distance matrix and its spectrum. We apply it to the S\\&P 500 cross section over three crisis decades, the 2001 dot-com bust, the 2007--2008 financial crisis, and the 2020 Covid crash, with three fixed-size observables on a fixed universe. The arccos distance matrix of the rolling return correlations reads the correlation geometry: its effective dimension collapses at the 2008 and 2020 crises, while the 2001 bust is a dispersed unwind. Read against machine-learning distance matrices, its spectrum stays in the un-relaxed, pre-learning regime with no low-dimensional manifold, so the market never learns its correlation structure or relaxes to a stationary geometry. Subtracting the market factor exposes a coherent sector rotation, whose name-level attribution identifies which stocks drive each crisis and in what order. At a short lookback these signals resolve precursors and forecast the endogenous 2008 crisis, though not the exogenous 2020 shock. The other two observables model the daily return and volatility rankings as Markov chains on their ranking spaces. The return chain has persistent, defensive-led bellwethers and near-reversible dynamics. The volatility chain is far more persistent, led by the financial sector, and is the only one to carry a weak, episodic arrow of time, flaring at market stress and matching volatility clustering and the Zumbach effect. All three matrices show coherent changes during market crashes.",
-    "source": "ArXiv",
-    "published": "2026-07-21T11:38:58+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Introduces **Observable Matrix Dynamics (OMD)** to monitor non-linear system trajectories via fixed-size distance matrices and their spectral properties.\n- Analyzes **correlation geometry** using arccos distance matrices, revealing that effective dimensions collapse during systemic crises like 2008 and 2020.\n- Models market rankings as **Markov chains**, discovering that the volatility chain carries an episodic arrow of time matching the **Zumbach effect**.\n- Demonstrates that market correlations reside in an **un-relaxed regime**, failing to converge to the low-dimensional manifolds typically seen in machine learning.",
-      "key_results": [
-        "Correlation geometry dimensions collapse during major systemic crises but remain dispersed during idiosyncratic busts.",
-        "The market never relaxes to a stationary low-dimensional manifold, staying in a 'pre-learning' regime.",
-        "OMD signals provide predictive precursors for endogenous crises (2008) but not exogenous shocks (2020).",
-        "Volatility rankings exhibit much higher persistence than return rankings and are led by the financial sector.",
-        "Sector rotation attribution effectively identifies the specific stocks driving crisis phases in sequential order."
-      ],
-      "relevance_score": 3,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers demonstrate that market correlation geometry collapses during crises but fails to relax into a learned low-dimensional manifold.",
-      "lead_institution": "ArXiv Research",
-      "tags": [
-        "Matrix Dynamics",
-        "Financial Time Series",
-        "Manifold Learning",
-        "Spectral Analysis",
-        "Markov Chains"
-      ]
-    }
-  },
-  {
-    "title": "MedDDC-Eval: Diagnosis-Decoupled Evaluation of Multi-Turn Medical Consultation Agents",
-    "link": "http://arxiv.org/abs/2607.18999v1",
-    "summary": "Multi-turn medical consultation agents must decide what to ask, adapt to patient responses, and determine when the collected evidence is sufficient. However, coupled evaluation conflates the quality of the policy-elicited history with policy-specific terminal diagnosis generation: strong generation can compensate for a thin history, while weaker generation can obscure a rich one. We introduce MedDDC-Eval, a diagnosis-decoupled testbed that treats elicited history as the comparison object and holds the history-to-diagnosis mapping constant through a shared frozen reader. Across two held-out sources, a grounded interface and an auditable diagnosis-trajectory-efficiency (D/T/E) harness measure diagnostic usefulness, information acquisition, and efficiency. Directional semantic coverage followed by deterministic one-to-one assignment yields coherent precision-recall counts for open-ended items, with at most one credited match per prediction or reference. Holding histories fixed, changing only the diagnostic reader shifts diagnosis F1 by 2.2-19.0 points and reverses 18% and 36% of pairwise policy orderings on the Record and Dialogue splits. We further apply standard Group Relative Policy Optimization (GRPO) over interactive multi-turn rollouts to post-train Qwen3-32B using diagnosis-result and trajectory feedback. On the 100-case Record and 70-case Dialogue splits, the trained policy improves over its initialization by 9.7 and 4.6 total-score points; removing either primary signal lowers held-out joint performance. These results show that MedDDC-Eval supports controlled attribution, interpretable elicited-history measurement, and evaluation-guided evidence-acquisition policy development.",
-    "source": "ArXiv",
-    "published": "2026-07-21T11:32:41+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Introduces **MedDDC-Eval**, a diagnostic-decoupled testbed that evaluates multi-turn medical agents by separating the quality of **elicited history** from the terminal diagnosis generation process.\n- Utilizes a shared, **frozen reader model** to map collected evidence to diagnoses, ensuring that performance variations reflect the **agent's questioning policy** rather than its generation capabilities.\n- Implements a **Diagnosis-Trajectory-Efficiency (D/T/E)** harness to provide interpretable metrics for clinical usefulness, information acquisition, and policy speed.\n- Employs **Group Relative Policy Optimization (GRPO)** to post-train **Qwen3-32B**, demonstrating that the framework can effectively guide the development of evidence-acquisition policies.",
-      "key_results": [
-        "Changing the diagnostic reader shifted F1 scores by up to 19 points and reversed 36% of policy rankings.",
-        "GRPO post-training improved the Qwen3-32B base model by 9.7 points on Record splits and 4.6 points on Dialogue splits.",
-        "Ablation studies confirmed that both diagnosis-result and trajectory-efficiency feedback are critical for joint policy performance.",
-        "The framework successfully resolved open-ended item evaluation using directional semantic coverage and one-to-one assignment.",
-        "Decoupled evaluation revealed that strong diagnosis generation often masks poor history-taking strategies in standard benchmarks."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce MedDDC-Eval to decouple medical history-taking from diagnosis, enabling more accurate and interpretable agent evaluation.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "LLM Agents",
-        "AI Evaluation",
-        "GRPO",
-        "Medical AI",
-        "Reasoning Models"
-      ]
-    }
-  },
-  {
-    "title": "AutoJourn: Multi-Perspective Summarisation, Bias Detection and Bias Neutralisation for LLM-Generated News in Automated Journalism",
-    "link": "http://arxiv.org/abs/2607.18983v1",
-    "summary": "We present AutoJourn, a demonstration system for multi-perspective news generation and bias-aware evaluation using large language models (LLMs). The system tackles three core challenges in responsible automated journalism: extracting diverse perspectives from unstructured social media discussions, generating summaries that preserve viewpoint diversity, and detecting or mitigating bias in AI-generated news. The pipeline integrates advanced prompt engineering with optional retrieval augmentation to produce semantically diverse perspective sets, a multi-perspective summarisation module that merges conflicting viewpoints into balanced summaries, and a bias analysis suite supporting sentence-level bias detection and type classification in the generated news article, and automatic neutralisation. Users can inspect perspective clusters, compare stance-specific summaries, generate news articles, and apply bias-aware rewrites directly in the interface. We evaluate each component with intrinsic metrics -- semantic diversity, summary quality, and bias reduction and show improvements over strong baselines while maintaining content fidelity. A live, publicly accessible demo accompanies the paper to facilitate reproducibility and further research on socially responsible automated journalism.",
-    "source": "ArXiv",
-    "published": "2026-07-21T11:18:00+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- **AutoJourn** implements an end-to-end pipeline for responsible journalism by combining **Retrieval-Augmented Generation (RAG)** with multi-perspective summarisation techniques.\n- The architecture utilizes advanced **Prompt Engineering** to cluster unstructured social media data into semantically diverse viewpoints, ensuring balanced representation in generated news.\n- A specialized **Bias Analysis Suite** provides sentence-level detection and automated **Bias Neutralisation**, allowing for real-time rewriting of subjective or skewed content.\n- The system integrates **AI Evaluation** metrics focused on semantic diversity and content fidelity to maintain high journalistic standards without sacrificing detail.",
-      "key_results": [
-        "Extracted diverse, non-overlapping perspectives from noisy social media data using semantic clustering.",
-        "Achieved higher summary quality scores compared to single-perspective LLM baselines.",
-        "Demonstrated effective sentence-level bias classification for specific journalistic categories.",
-        "Successfully reduced measurable bias in news articles via automated rewriting modules.",
-        "Validated content fidelity through intrinsic metrics, ensuring summaries remained grounded in source data."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce AutoJourn, a pipeline using LLMs to extract diverse perspectives and neutralize bias in automated news generation.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "Bias Mitigation",
-        "RAG",
-        "Summarization",
-        "Prompt Engineering",
-        "AI Evaluation"
-      ]
-    }
-  },
-  {
-    "title": "Fishing Out Free Riders: Shapley-Based Reward Attribution for Parallel Reasoning via Reinforcement Learning",
-    "link": "http://arxiv.org/abs/2607.18979v1",
-    "summary": "Large Language Models (LLMs) excel at multi-step reasoning, yet current parallel reasoning approaches often fail to distinguish the contributions of individual reasoning paths. Many paths may be redundant, misleading, or even detrimental, but outcome-level rewards assign uniform reward, leading to ambiguous learning signals and unstable training. We propose Parallel Shapley, a reinforcement learning framework that attributes fine-grained, path-level contributions in multi-path reasoning. Treating each path as a player in a cooperative game, we leverage Shapley values to quantify marginal contributions, using a generative reward model to evaluate path utilities and Monte Carlo sampling for efficient approximation. Experiments on mathematical reasoning benchmarks show that Parallel Shapley outperforms existing baselines while providing more stable and interpretable training. Our framework effectively \"fishes out the free riders,\" assigning reward proportionally and improving multi-path reasoning in LLMs.",
-    "source": "ArXiv",
-    "published": "2026-07-21T11:14:33+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n* Proposes **Parallel Shapley**, a reinforcement learning framework addressing the **free rider problem** by attributing rewards based on marginal path contributions.\n* Treats reasoning paths as players in a **cooperative game**, leveraging **Shapley values** to distinguish between helpful, redundant, or detrimental reasoning steps.\n* Utilizes a **generative reward model** and **Monte Carlo sampling** to efficiently approximate path utilities during the reinforcement learning training loop.\n* Enhances **mathematical reasoning** performance by providing fine-grained, interpretable signals that lead to more stable and accurate model convergence.",
-      "key_results": [
-        "Successfully identifies and penalizes 'free rider' reasoning paths that do not contribute to correct answers.",
-        "Outperforms existing RL baselines on standardized mathematical reasoning benchmarks.",
-        "Provides a more granular and interpretable reward signal than traditional outcome-level rewards.",
-        "Reduces training instability by providing clearer gradients for multi-path reasoning optimization.",
-        "Achieves efficient approximation of Shapley values through optimized Monte Carlo sampling techniques."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce Parallel Shapley to improve LLM reasoning by using cooperative game theory to attribute rewards to individual paths.",
-      "lead_institution": "ArXiv Researchers",
-      "tags": [
-        "Reinforcement Learning",
-        "Reasoning Models",
-        "Shapley Values",
-        "LLM Training",
-        "Mathematical Reasoning"
-      ]
-    }
-  },
-  {
-    "title": "Verifiable Self-Evolution for Open-Ended Dialogue Skills via Future-Feedback Prediction",
-    "link": "http://arxiv.org/abs/2607.18973v1",
-    "summary": "Textual skills provide a lightweight way to improve frozen language-model agents, but their self-evolution normally requires a stable validation signal. Such signals are natural in mathematics or code, where an answer can be checked after it changes, yet are problematic in open-ended dialogue: changing the assistant response also changes the user's next reaction, so a logged reaction cannot directly evaluate a counterfactual response. We propose future-feedback skill evolution, which first redirects self-evolution from prescribing the current answer to predicting whether the observed answer will lead to a positive or negative subsequent user signal. This prediction task is verifiable on fixed logged tuples and therefore supports validation-gated textual optimization. The evolved feedback skill captures interpretable criteria for response quality and can subsequently serve as a diagnostic and optimization target for answer skills. On a proprietary, privacy-preserving sales-assistant dataset, careful quality filtering and a balanced resolved/unresolved split yield more than 75% prediction accuracy. Beyond this result, the central contribution is a formulation that converts otherwise moving conversational feedback into a fixed offline learning target, enabling reproducible skill evolution without placing every candidate skill in live traffic. We discuss the boundary between observational verification and counterfactual validity, and position the method as an offline optimization stage rather than a replacement for final human or online evaluation.",
-    "source": "ArXiv",
-    "published": "2026-07-21T11:06:25+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Introduces **Future-Feedback Prediction**, a method that transforms non-deterministic conversational signals into a verifiable, fixed offline learning target.\n- Addresses the challenge of **open-ended dialogue evaluation** by redirecting self-evolution from prescribing answers to predicting subsequent user reactions.\n- Enables **validation-gated textual optimization**, allowing for reproducible skill evolution without the need for live traffic or counterfactual simulators.\n- Utilizes evolved feedback skills as both **interpretable criteria** and diagnostic targets for improving the performance of frozen LLM agents.",
-      "key_results": [
-        "Achieved over 75% accuracy in predicting future user signals on a proprietary sales-assistant dataset.",
-        "Successfully converted moving conversational feedback into a stable, offline optimization signal.",
-        "Demonstrated that 'textual skills' can serve as a lightweight mechanism for improving frozen LLM agents.",
-        "Established a clear boundary and methodology for observational verification versus counterfactual validity.",
-        "Provided a framework for verifiable self-evolution in domains lacking natural validation signals like math or code."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers propose a future-feedback prediction method to enable verifiable, offline self-evolution of LLM agent dialogue skills.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "LLM Agents",
-        "Self-Evolution",
-        "AI Evaluation",
-        "Offline Optimization",
-        "Dialogue Systems"
-      ]
-    }
-  },
-  {
-    "title": "Skillware: A Software Ontology and Engineering Lifecycle for Persistent Behavioral Artifacts",
-    "link": "http://arxiv.org/abs/2607.18970v1",
-    "summary": "Agent Skills have become persistent behavioral artifacts across independent AI agent systems. They combine natural-language task specifications with metadata and optional references, scripts, assets, hooks, package manifests, tests, and companion interfaces. Existing studies explain how Skills are specified, executed, maintained, and evolved, but lack an ontology that defines these artifacts as independent software objects. This paper introduces Skillware as the software abstraction that extends software engineering to persistent Behavioral Artifacts in agent systems. A Skill Artifact specifies reusable task behavior; a Skillware Unit manages that artifact as software through an independent identity and lifecycle. A compatible Agent Host activates the unit for runtime interpretation. Three necessary conditions operationalize category membership: behavioral primacy, independent software identity, and an Agent Host execution relationship. Lifecycle Continuity records whether the same unit identity persists through update, maintenance, rollback, and removal as a separate software-grade property. Evidence combines the Agent Skills specification, a frozen corpus of 138,133 content-deduplicated SKILL.md records associated with 20,556 repository identifiers, independent empirical studies, 15 category-boundary cases, and 13 fixed-revision engineering implementations. The evidence establishes a recurring artifact envelope, separable software identities, compatible execution paths, and lifecycle engineering pressure. Skillware provides the software ontology and engineering lifecycle through which agent capabilities can become identifiable, composable, maintainable, and evolvable software artifacts.",
-    "source": "ArXiv",
-    "published": "2026-07-21T11:03:56+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\u2022 Introduces **Skillware**, a formal software ontology that elevates **Agent Skills** from ad-hoc scripts to persistent, independent behavioral artifacts with distinct lifecycles.\n\u2022 Architecture decouples the **Skill Artifact** (task logic and metadata) from the **Skillware Unit** (software identity/management) and the **Agent Host** (the runtime execution environment).\n\u2022 Establishes three operational conditions for category membership: **behavioral primacy**, independent identity, and a standardized host execution relationship.\n\u2022 Impact focuses on shifting AI agent development toward **Lifecycle Continuity**, enabling versioning, maintenance, and rollback of specific agent behaviors like traditional software.",
-      "key_results": [
-        "Formalization of the Skillware abstraction for managing behavioral AI artifacts.",
-        "Analysis of a corpus of 138,133 deduplicated SKILL.md records across 20,556 repositories.",
-        "Definition of 'Behavioral Primacy' as the core differentiator for agent-centric software.",
-        "Validation of the ontology through 15 boundary cases and 13 engineering implementations.",
-        "Establishment of Lifecycle Continuity to track identity persistence through updates and rollbacks."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "Skillware researchers introduce a formal ontology to transform AI agent skills into persistent, maintainable, and composable software artifacts.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "LLM Agents",
-        "Software Ontology",
-        "Agent Skills",
-        "Generative AI Engineering",
-        "Behavioral Artifacts"
-      ]
-    }
-  },
-  {
-    "title": "From Dependency to Compositionality: A Neurosymbolic Lifting of LLM Outputs via Combinatory Categorial Grammar",
-    "link": "http://arxiv.org/abs/2607.18961v1",
-    "summary": "Large language models (LLMs) generate fluent text by incrementally predicting the next token from a prefix. Critics in the generative tradition argue that such systems lack genuine grammar; influential replies from the dependency-grammar perspective hold that LLM behavior is well described by local head-dependent structure built word by word. We argue that a sharper observation has been overlooked: the prefix-driven, type-completing dynamics of autoregressive generation align closely with the incremental processing model that Combinatory Categorial Grammar (CCG) was originally designed to support. On this basis we propose a neurosymbolic framework in which LLM outputs are lifted into typed compositional derivations -- not claiming that LLMs implement CCG internally, but that their outputs admit a principled, incremental, and auditable CCG reconstruction. Two consequences follow. First, through the Curry-Howard correspondence the lifting extends beyond natural language to the formal languages LLMs also produce -- programming languages such as Solidity, description-logic and query languages such as OWL and SQL -- with the type system varying and the architecture held fixed. Second, the lifting supports two layers of checking: a compositional layer that catches structural failures directly, and a content layer that checks the lifted structure against external knowledge sources, enabling the earliest possible flagging of hallucinated content. The account thereby requires of a producer not cognition but a prefix-driven generative profile. We close with a sketch of synchronous LLM-CCG coupling as one direction the framework opens.",
-    "source": "ArXiv",
-    "published": "2026-07-21T10:52:10+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n\u2022 Proposes a **neurosymbolic framework** that maps autoregressive LLM token generation to **Combinatory Categorial Grammar (CCG)** derivations.\n\u2022 Leverages the **Curry-Howard correspondence** to apply this lifting across both natural language and formal languages like **Solidity and SQL**.\n\u2022 Introduces a dual-layer validation system involving a **compositional layer** for structural integrity and a **content layer** for external grounding.\n\u2022 Enables **incremental auditing** of LLM outputs to detect hallucinations and structural failures at the earliest possible stage of generation.",
-      "key_results": [
-        "Identifies alignment between LLM prefix-driven generation and CCG's incremental processing model.",
-        "Develops a 'lifting' mechanism to convert raw token streams into typed compositional derivations.",
-        "Demonstrates cross-domain verification for programming, description-logic, and query languages.",
-        "Introduces a compositional checking layer that flags structural failures directly during the generation process.",
-        "Enables grounding of LLM output against external knowledge sources to mitigate hallucinated content."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "Researchers propose a neurosymbolic CCG framework to audit LLM outputs and detect hallucinations via incremental formal type-checking.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "Neurosymbolic AI",
-        "CCG",
-        "LLM Evaluation",
-        "Formal Verification",
-        "Hallucination Mitigation"
-      ]
-    }
-  },
-  {
-    "title": "SFGA: A Statistics-First Gating Architecture with Adjudicative Escalation for Trustworthy SFT Data Procurement",
-    "link": "http://arxiv.org/abs/2607.18960v1",
-    "summary": "Procuring supervised fine-tuning (SFT) data forces a buyer to decide, before any downstream training, whether a candidate corpus is worth acquiring. We present \\sys{}, a statistics-first gating architecture that treats procurement as a cost-aware routing problem over three intrinsic quality axes -- diversity, utility, and redundancy. Cheap blind measurements are summarised into per-axis estimates with confidence intervals; a gate accepts a decision only when intervals are tight, sample sizes are adequate, and the axes agree, otherwise it escalates the case to an adjudicative debate between a buy-advocate and a reject-advocate judge, resolved by a presiding verdict. On a controlled benchmark of 12 datasets ($2{\\times}3{\\times}2$ grid over the three axes) with 5 seeds, the gate reaches 0.90 accuracy and 0.83 $F_1$ at \\$0.017 per unit, sitting between an always-verify baseline (0.75) and an oracle upper bound (0.98) while spending less than always-escalate (\\$0.020). We further report honest negative diagnostics of the debate path: a con-side win rate of 0.80 ($p\\approx3{\\times}10^{-6}$) and a 52\\% position-flip rate under advocate swapping expose negativity and positional biases that a naive LLM-judge would hide. We frame the injected-knob evaluation explicitly as a controlled synthetic benchmark for measurement fidelity and routing calibration, and delimit external validity as future work.",
-    "source": "ArXiv",
-    "published": "2026-07-21T10:52:04+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n* **SFGA** introduces a tiered **gating architecture** designed for cost-effective SFT data procurement based on three axes: diversity, utility, and redundancy.\n* The framework utilizes **cheap statistical measurements** for initial screening, escalating uncertain cases to an **adjudicative debate** between LLM-based advocates.\n* The architecture prioritizes **trustworthy procurement** by exposing and mitigating inherent LLM biases, such as negativity and positional bias, through advocate swapping.",
-      "key_results": [
-        "Achieved 0.90 classification accuracy and 0.83 F1-score for data quality assessment.",
-        "Reduced procurement costs to 0.017 USD per unit, outperforming always-verify baselines.",
-        "Identified a significant 0.80 win rate for 'con-side' arguments, exposing inherent negativity bias in LLM judges.",
-        "Documented a 52% position-flip rate, highlighting the sensitivity of LLM adjudication to prompt framing.",
-        "Demonstrated that statistical gating effectively balances accuracy and cost compared to oracle upper bounds."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce SFGA, a statistics-first gating system that optimizes SFT data procurement through cost-aware adjudicative LLM debate.",
-      "lead_institution": "ArXiv Research",
-      "tags": [
-        "SFT Data",
-        "Model Fine-tuning",
-        "AI Evaluation",
-        "Cost Optimization",
-        "LLM Agents"
-      ]
-    }
-  },
-  {
-    "title": "Dual Adversarial Fine-tuning for Enhancing Robustness of Large Vision Language Model",
-    "link": "http://arxiv.org/abs/2607.18958v1",
-    "summary": "While Large Vision-Language Models (LVLMs), represented by LLaVA and GPT-4V, have demonstrated remarkable capabilities, their visual inputs remain vulnerable to adversarial attacks, posing significant security risks. Existing defense methods predominantly target single-task scenarios (e.g., zero-shot classification) and consequently lack generalizability across various multimodal tasks. To address this limitation, we propose a dual adversarial fine-tuning framework that jointly optimizes visual and semantic supervision signals from two modalities, enhancing model robustness while generalizing across multiple downstream tasks. The proposed framework comprises two core components, i.e., $\\textbf{Visual}$ supervision branch and $\\textbf{Semantic}$ supervision branch. The former branch leverages features from clean images, extracted via a frozen original vision encoder, to guide adversarial robustness while the latter incorporates caption-image alignment as a contextual signal to preserve semantic coherence under attack. Moreover, our method achieves cross-task robustness by simply replacing the CLIP vision encoder in the original model, with no need of separate task-specific retraining or architecture modifications.Extensive experiments demonstrate that our approach outperforms the state-of-the-art method in adversarial robustness evaluation across zero-shot classification, image captioning, and visual question answering (VQA) tasks.",
-    "source": "ArXiv",
-    "published": "2026-07-21T10:49:29+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Proposes a **Dual Adversarial Fine-tuning** framework designed to secure Large Vision-Language Models (LVLMs) against visual adversarial attacks.\n- Implements two parallel supervision branches: a **Visual branch** using frozen original encoder features and a **Semantic branch** for caption-image alignment.\n- Enables **cross-task robustness** by allowing the modular replacement of the CLIP vision encoder without architecture changes or task-specific retraining.\n- Facilitates enhanced model stability and **generalizability** across diverse multimodal tasks including zero-shot classification and VQA.",
-      "key_results": [
-        "Outperforms state-of-the-art methods in adversarial robustness across multiple benchmarks.",
-        "Maintains high semantic coherence in generated outputs even under visual perturbation.",
-        "Successfully generalizes to zero-shot classification without task-specific tuning.",
-        "Demonstrates robustness in Image Captioning and Visual Question Answering (VQA).",
-        "Provides a plug-and-play defense strategy by simply replacing the vision encoder component."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers develop a dual-branch fine-tuning framework to enhance the adversarial robustness and cross-task generalizability of vision-language models.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "LVLM",
-        "Adversarial Robustness",
-        "Multimodal AI",
-        "Model Fine-tuning",
-        "Computer Vision"
-      ]
-    }
-  },
-  {
-    "title": "InstantInfer: Enabling Fast LLM Cold Start with Communicating Finite Automata",
-    "link": "http://arxiv.org/abs/2607.18957v1",
-    "summary": "Cold starts in large language model (LLM) inference services significantly affect user experience, yet they remain inefficient due to sequential initialization and a massive number of fine-grained I/O requests issued by complex software components. Although refactoring the program can yield advantages such as concurrent execution and I/O merging, this approach is error-prone and carries correctness risks when dealing with massive, heterogeneous components. We propose the Communicating Finite Automata (CFA) abstraction to systematically analyze cross-component optimization opportunities, and design a programming framework to enable CFA-based component program refactoring. This framework preserves the original sequential program structure while enabling safe concurrent component execution. We prove the correctness of the program refactoring. We apply the CFA abstraction and framework to refactor process tree creation, tensor loading, and model switching in vLLM, forming a new cold-start system named InstantInfer. Extensive experiments demonstrate that InstantInfer substantially accelerates LLM cold starts (achieving up to 7.2 times speedup) and exhibits robustness across diverse GPUs, workloads, and scales.",
-    "source": "ArXiv",
-    "published": "2026-07-21T10:49:12+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Proposes the **Communicating Finite Automata (CFA)** abstraction to model and optimize complex initialization phases in LLM inference services.\n- Introduces a **programming framework** that enables safe, concurrent execution of heterogeneous components while preserving original sequential code structures.\n- Integrates these optimizations into vLLM to create **InstantInfer**, which specifically targets bottlenecks in process tree creation and tensor loading.\n- Provides a **formal correctness proof** for program refactoring, ensuring that performance gains do not introduce system regressions or errors.",
-      "key_results": [
-        "Achieved up to 7.2x speedup in LLM cold-start latency compared to existing systems.",
-        "Significantly reduced overhead from fine-grained I/O requests by merging operations via CFA analysis.",
-        "Successfully parallelized the traditionally sequential process tree creation and model switching in vLLM.",
-        "Maintained robustness and performance gains across diverse GPU architectures and workload scales.",
-        "Enabled concurrent execution of complex software components without requiring manual, error-prone refactoring."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "InstantInfer researchers introduce a CFA-based framework to accelerate LLM cold starts by up to 7.2x within vLLM environments.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "LLM Inference",
-        "Cold Start Optimization",
-        "vLLM",
-        "Distributed Systems",
-        "Concurrency Management"
-      ]
-    }
-  },
-  {
-    "title": "Convex Optimization-Based Procedures for Non-Convex Quadratic Problems",
-    "link": "http://arxiv.org/abs/2607.18933v1",
-    "summary": "Mathematical optimization plays a fundamental role in signal processing and wireless communications, serving as an essential framework for the systematic design of modern systems. Many design challenges in these fields, as well as in many others, can naturally be formulated as optimization problems. Over the years, the advancements in signal processing applications have significantly changed the structure and complexity of these optimization problems, creating new challenges in their analysis, understanding, and solution \\cite{liu2024survey}. Consequently, the rapid development of sophisticated optimization theories and algorithms tailored to the demands of next-generation systems is crucial.\n  Quadratic optimization problems constitute one of the most important classes of optimization problems in modern engineering systems. In signal processing and communications, quadratic forms naturally emerge when modeling power, energy, covariance matrices, and Euclidean distances, to name a few examples. Consequently, a broad family of practical design problems can be represented using quadratically constrained quadratic programs (QCQPs), where both the objective function and the constraints are quadratic functions of the optimization variables. While convex QCQPs can be solved efficiently using polynomial-time algorithms, the general non-convex QCQP remains computationally challenging. Specifically, indefinite quadratic forms and rank constraints often induce NP-hardness. Non-convex QCQP problems arise in a broad range of signal processing, communications, control, machine learning, and network optimization applications.",
-    "source": "ArXiv",
-    "published": "2026-07-21T10:14:54+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Explores **convex optimization** frameworks to tackle **non-convex quadratically constrained quadratic programs (QCQPs)**.\n- Addresses the **NP-hardness** associated with indefinite quadratic forms and rank constraints in modern systems.\n- Provides a systematic approach for modeling **Euclidean distances**, power, and energy in signal processing.\n- Facilitates the development of **sophisticated theory** tailored for next-generation machine learning and communications.",
-      "key_results": [
-        "Classification of QCQPs as a foundational framework for signal processing design.",
-        "Characterization of rank constraints as a primary source of NP-hardness.",
-        "Differentiation between efficient convex QCQPs and computationally challenging non-convex variants.",
-        "Application of quadratic forms to covariance matrices and power modeling.",
-        "Advancement of optimization theories to meet the demands of high-complexity engineering systems."
-      ],
-      "relevance_score": 4,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers detail convex optimization procedures to solve computationally challenging non-convex quadratic problems in machine learning and engineering.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "Optimization",
-        "QCQP",
-        "Signal Processing",
-        "Non-Convex Problems",
-        "Mathematical Modeling"
-      ]
-    }
-  },
-  {
-    "title": "OntoBook: Ontology-Grounded Synthetic Textbooks for Medical Encoder Pretraining",
-    "link": "http://arxiv.org/abs/2607.18927v1",
-    "summary": "We present OntoBook, a method that converts medical ontology structure into pretraining signal for encoder language models. Our approach has three stages: random walks through ontology graphs capture hierarchical and causal relations between medical codes, a large language model reformulates these walks into fluent textbook-style prose, and the resulting text is used to train ModernCamemBERT, a 149M-parameter French encoder, with two objectives on the same data: masked language modeling and relation prediction between code pairs. On three French medical coding benchmarks (FRACCO, Cantemist-FR, Distemist-FR), OntoBook achieves significant improvements over MLM-only pretraining, with +2.5 micro-F1 on FRACCO and +8.0 micro-F1 on Distemist. We find that alignment between objectives is necessary: misaligned training, where each task uses different data, causes a 30-point degradation. We release 1.3 million LLM-reformulated medical textbooks across three French ontologies (CIM-10, CCAM, ATC) and pretrained model checkpoints.",
-    "source": "ArXiv",
-    "published": "2026-07-21T10:11:10+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- **OntoBook** introduces a three-stage method to convert structured medical ontologies into synthetic textbooks using **random walks** and LLM-based prose reformulation.\n- The training architecture utilizes **ModernCamemBERT**, a 149M-parameter French encoder, trained with dual objectives: **Masked Language Modeling (MLM)** and code-pair **Relation Prediction**.\n- The research emphasizes **multi-task alignment**, demonstrating that training both objectives on the same synthetic data samples is essential to prevent severe performance degradation.\n- This approach enables the injection of complex **hierarchical and causal relations** from medical ontologies directly into the latent space of small language models (SLMs).",
-      "key_results": [
-        "Achieved an 8.0 micro-F1 improvement on the Distemist-FR French medical coding benchmark.",
-        "Observed a 2.5 micro-F1 gain on the FRACCO benchmark compared to MLM-only baselines.",
-        "Discovered that misaligning training objectives across different data causes a 30-point performance drop.",
-        "Released a dataset of 1.3 million LLM-reformulated medical textbooks based on CIM-10, CCAM, and ATC ontologies.",
-        "Validated that synthetic textbook-style prose is a superior pretraining signal compared to raw ontology triples."
-      ],
-      "relevance_score": 7,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce OntoBook, transforming medical ontologies into synthetic textbooks to significantly enhance French medical encoder pretraining results.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "Synthetic Data",
-        "Medical NLP",
-        "Encoder Models",
-        "Knowledge Grounding",
-        "French Language AI"
-      ]
-    }
-  },
-  {
-    "title": "Reasoning Error from Known Fact: Step-Level Self-Consistency Group Relative Policy Optimization for LLM",
-    "link": "http://arxiv.org/abs/2607.18915v1",
-    "summary": "With the rapid advancement of large language models (LLMs), modern systems not only possess strong foundational capabilities and extensive knowledge, but can also solve complex problems via long, multi-step reasoning. However, as reasoning traces become longer, LLMs may produce a substantial amount of hallucinated content during the reasoning process, which is often difficult to detect. In this work, we conduct a fine-grained analysis of hallucinations arising in LLM reasoning and find that the reasoning traces are particularly prone to Context-Sensitive Factual Hallucinations: cases where the model actually has the relevant knowledge, yet makes factual errors due to contextual interference during reasoning. To address this issue, we propose Step-level Self-Consistency Group Relative Policy Optimization (SSC-GRPO), which assigns step-level rewards to reasoning traces by computing self-consistency scores of individual steps across multiple rollouts. Compared with prior methods, SSC-GRPO achieves state-of-the-art performance on both mathematical reasoning benchmarks and hallucination leaderboards. Our results offer a new perspective for detecting and mitigating hallucinations in the reasoning process of large language models.",
-    "source": "ArXiv",
-    "published": "2026-07-21T09:56:58+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Introduces **SSC-GRPO**, a reinforcement learning framework designed to mitigate **Context-Sensitive Factual Hallucinations** in long-form reasoning traces.\n- Implements **step-level rewards** by calculating self-consistency scores across multiple model rollouts, providing finer granularity than traditional global rewards.\n- Addresses the specific failure mode where LLMs possess correct internal knowledge but fail to retrieve or apply it correctly due to **contextual interference** during multi-step tasks.\n- Enhances the **Group Relative Policy Optimization** (GRPO) algorithm to improve performance on complex logic and mathematical benchmarks.",
-      "key_results": [
-        "Identifies Context-Sensitive Factual Hallucinations as a critical bottleneck in long-form LLM reasoning.",
-        "Achieves state-of-the-art performance on competitive mathematical reasoning benchmarks.",
-        "Significantly outperforms baseline models on hallucination detection and mitigation leaderboards.",
-        "Proves that step-level self-consistency acts as a reliable intrinsic reward signal for policy optimization.",
-        "Demonstrates improved robustness in reasoning chains by penalizing intermediate factual errors."
-      ],
-      "relevance_score": 9,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce SSC-GRPO to reduce reasoning hallucinations by applying granular step-level rewards during reinforcement learning.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "Reasoning Models",
-        "GRPO",
-        "Hallucination Mitigation",
-        "RLHF",
-        "LLM Optimization"
-      ]
-    }
-  },
-  {
-    "title": "How network perturbations distort agreement trajectories in LTI multi-agent systems",
-    "link": "http://arxiv.org/abs/2607.18913v1",
-    "summary": "Distributed coordination of multi-agent systems frequently relies on cooperative protocols designed to achieve agreement on a prescribed, non-trivial trajectory. While the robustness of such protocols to various uncertainties is well documented, existing literature universally assumes that the target agreement trajectory itself remains invariant. This assumption may hold in ideal cases, but we prove that network perturbations can vastly modify the asymptotic agreement trajectory. We first investigate the exact trajectories of Linear Time-Invariant (LTI) agents subjected to dynamic coupling uncertainties by establishing a new Laplace-domain criterion that characterizes the specific closed-loop poles governing the perturbed agreement manifold. To formalize our analysis, we introduce the notion of structure-preserving dynamics, perturbations that maintain the null space of the communication graph's Laplacian, and contrast them with transmission only dynamics, affecting only the adjacency matrix. We prove a critical fragility within standard cooperative output regulation schemes: while static consensus is uniquely robust to heterogeneous transmission delays, synchronization to periodic trajectories is destroyed by arbitrarily small transmission delays. Furthermore, we demonstrate that for d-regular topologies, uniform transmission perturbations can easily shift the system to synchronize with an unexpected, entirely new frequency. These findings expose a previously unidentified vulnerability in classical robust synchronization, demonstrating that transmission dynamics necessitate fundamental structural modifications to networked reference generators.",
-    "source": "ArXiv",
-    "published": "2026-07-21T09:56:28+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n* Investigates how **network perturbations** fundamentally shift the asymptotic agreement trajectories in **Linear Time-Invariant (LTI)** multi-agent systems.\n* Establishes a new **Laplace-domain criterion** to characterize the specific closed-loop poles that govern the perturbed agreement manifold.\n* Contrasts **structure-preserving dynamics** with transmission-only dynamics to reveal vulnerabilities in standard cooperative output regulation.\n* Highlights that while static consensus is robust, **periodic synchronization** is highly fragile to even small transmission delays.",
-      "key_results": [
-        "Proves that network perturbations can vastly modify the final agreement trajectory of a system.",
-        "Introduces a criterion to identify poles governing perturbed agreement manifolds.",
-        "Demonstrates that transmission delays can destroy synchronization to periodic trajectories.",
-        "Shows that d-regular topologies can shift to synchronize with entirely new frequencies under perturbation.",
-        "Identifies a critical need for structural modifications to networked reference generators for robust synchronization."
-      ],
-      "relevance_score": 4,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers demonstrate that network transmission delays can fundamentally distort agreement trajectories and frequencies in multi-agent control systems.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "Multi-agent Systems",
-        "Control Theory",
-        "Network Perturbations",
-        "LTI Systems",
-        "Robust Synchronization"
-      ]
-    }
-  },
-  {
-    "title": "Thinking Fast, Thinking Slow: Adaptive Multimodal Transformer-based Sensor Fusion for Depth Estimation on Ultra-low-power MCUs",
-    "link": "http://arxiv.org/abs/2607.18897v1",
-    "summary": "Artificial intelligence (AI)-based multimodal sensor fusion is a relevant topic gaining ever more traction across ultra-low-power (ULP) embedded and cyber-physical systems, as it improves reliability, accuracy, and robustness under real-world constraints. However, adding more and more sensors to ultra-constrained sub-100 mW platforms requires balancing energy consumption against prediction accuracy. To achieve this ambitious goal, we present a novel adaptive AI methodology that combines multimodal sensor fusion (camera, ultrasound, and Time-of-Flight sensors) with a lightweight recurrent Transformer-based architecture (688 k parameters). We address the depth map estimation task with a mechanism that combines token propagation across iterations with incremental sensor utilization. At each iteration, a confidence-based gating mechanism dynamically decides whether to continue the computation by adding progressively richer but more power-demanding sensors as input. Token propagation ensures temporal consistency by forwarding context features across time. To deploy our algorithm and test a first real-world prototype, we design a novel printed circuit board featuring all three sensors, coupled with an ULP GWT GAP9 multicore System-on-Chip. When comparing our adaptive system against the same pipeline using all sensors and iterations on the NYUv2 dataset, we lose only 4.8% of the \u03b41 accuracy in exchange for 90% energy saving (2.44 mJ/frame). Finally, our adaptive method marks only 5.6% lower \u03b41 accuracy than MobileDepth despite using 9x fewer parameters. Compared with a state-of-the-art model also running on GAP9, our method improves \u03b41 accuracy by 31.8% thanks to our adaptive sensor fusion while operating within the same average power budget (~400 mW).",
-    "source": "ArXiv",
-    "published": "2026-07-21T09:29:22+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Introduces an **adaptive multimodal sensor fusion** methodology for depth estimation on ultra-low-power (ULP) microcontrollers, utilizing a **recurrent Transformer-based architecture** with only 688k parameters.\n- Features a **confidence-based gating mechanism** that mimics \"Thinking Fast and Slow\" by dynamically activating sensors (camera, ultrasound, ToF) only when prediction certainty is low.\n- Leverages **token propagation** across iterations to maintain temporal consistency and context, significantly reducing redundant computations on the **GWT GAP9 multicore SoC**.\n- Demonstrates a massive improvement in **energy efficiency**, achieving 90% savings compared to static sensor fusion while operating within a sub-100 mW platform constraint.",
-      "key_results": [
-        "Achieved 90% energy savings (2.44 mJ/frame) compared to a full-sensor baseline.",
-        "Maintained accuracy within 4.8% of the full-pipeline delta-1 metric on NYUv2 dataset.",
-        "Outperformed state-of-the-art GAP9 models by 31.8% delta-1 accuracy within the same power budget.",
-        "Operates with 9x fewer parameters than MobileDepth while losing only 5.6% in delta-1 accuracy.",
-        "Successfully deployed on an ultra-low-power GWT GAP9 SoC using a custom-designed triple-sensor PCB."
-      ],
-      "relevance_score": 7,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "GreenWaves Technologies researchers created an adaptive Transformer fusion system achieving 90% energy savings for depth estimation on ultra-low-power microcontrollers.",
-      "lead_institution": "GreenWaves Technologies",
-      "tags": [
-        "Multimodal Fusion",
-        "Edge AI",
-        "Transformer Architecture",
-        "Depth Estimation",
-        "Ultra-low-power"
-      ]
-    }
-  },
-  {
-    "title": "NaviAIS: A Scenario-Level Vessel Trajectory Prediction Dataset withVectorized Lane Priors and the NaviLane Forecasting Framework",
-    "link": "http://arxiv.org/abs/2607.18887v1",
-    "summary": "Vessel trajectory prediction in complex maritime environments is essential for traffic management, collision warning, route planning, and autonomous navigation. Although AIS-based learning methods have progressed rapidly, existing datasets are often released as raw message streams or irregular time series, with inconsistent sampling rates, noisy observations, heterogeneous coordinate systems, and non-unified scenario protocols. Most public AIS resources also lack structured representations of navigational lanes, waterway geometry, and navigable-region constraints, limiting reproducible, environment-aware forecasting. To address this, we introduce NaviAIS, a standardized scenario-level AIS dataset for vessel trajectory prediction. It organizes multi-vessel historical-future trajectories within unified temporal windows and local coordinate systems, and provides rasterized navigable maps, vectorized lane priors, lane graphs, and structured map representations. Compared with existing datasets, it jointly supports vectorized lanes, multi-scenario coverage, vectorized maps, open accessibility, and processed trajectories. Built on this dataset, we propose NaviLane, a hierarchical macro-action framework for map-aware prediction. NaviLane first performs trajectory-map joint encoding for a unified scene representation, then uses a discrete macro-action codebook to generate multimodal candidates coarse-to-refined. A residual refinement module improves local geometric and dynamical consistency, and a world-model-based consequence-aware evaluator ranks candidates by interaction risk and environmental feasibility. Experiments show NaviLane outperforms representative baselines in both single-modal and multimodal settings, confirming the value of structured navigational priors, hierarchical multimodal generation, and consequence-aware evaluation.",
-    "source": "ArXiv",
-    "published": "2026-07-21T09:15:06+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n* Introduces **NaviAIS**, a standardized, scenario-level dataset for maritime trajectory prediction that integrates **vectorized lane priors** and structured waterway geometry.\n* Proposes the **NaviLane framework**, a hierarchical macro-action architecture that performs **trajectory-map joint encoding** for unified scene representation.\n* Implements a **discrete macro-action codebook** to generate multimodal candidates and a **world-model-based evaluator** to rank them by environmental feasibility and risk.\n* Addresses common AIS data issues like inconsistent sampling and noise by providing processed trajectories and **vectorized map representations**.",
-      "key_results": [
-        "NaviAIS provides the first AIS dataset jointly supporting vectorized lanes and multi-scenario coverage.",
-        "NaviLane outperforms representative baselines in both single-modal and multimodal vessel prediction tasks.",
-        "The residual refinement module effectively improves local geometric and dynamical consistency in predictions.",
-        "Consequence-aware evaluation significantly enhances candidate ranking by assessing interaction risk.",
-        "The framework demonstrates that structured navigational priors are critical for environment-aware maritime forecasting."
-      ],
-      "relevance_score": 6,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce NaviAIS and NaviLane to enhance maritime trajectory prediction using vectorized lane priors and world-model-based evaluation.",
-      "lead_institution": "ArXiv Researchers",
-      "tags": [
-        "Vessel Trajectory Prediction",
-        "World Models",
-        "Vectorized Lane Priors",
-        "Multimodal AI",
-        "Maritime AI"
-      ]
-    }
-  },
-  {
-    "title": "TraceDev: A Traceability-Driven Multi-agent Framework for Requirement-to-Code Development",
-    "link": "http://arxiv.org/abs/2607.18886v1",
-    "summary": "In modern software development, the rapid advancement of Large Language Models (LLMs) has made the end-to-end transformation of Natural Language Requirements (NLRs) into executable repository-level code increasingly feasible. However, existing approaches typically rely on simplified instructions (e.g., single-sentence descriptions), failing to reflect complex software development scenarios. Moreover, they lack explicit requirement traceability mechanisms, making it difficult to precisely align and validate generated code against original requirements. To address these limitations, we propose TraceDev, a multi-agent framework for automated software development grounded in use cases that contain multiple functional points and complex semantics. TraceDev employs five role-specific agents, including a Requirement Refiner, Designer, Developer, Tester, and Validator. Notably, the Validator Agent constructs and maintains a heterogeneous traceability graph that links requirements, design models, and code artifacts for interacting with the preceding four agents. The traceability graph maintains consistency across various artifacts and serves as a structured context for efficient memory management, supporting reliable repository-level code generation. We evaluate TraceDev on two widely used datasets (including 125 use cases) compared with two state-of-the-art approaches. On the ETOUR dataset, TraceDev achieves a success rate of 53.63\\%, outperforming baseline approaches by up to 186.63\\%. A similar trend is observed on the SMOS dataset, where TraceDev attains a success rate of 56.82\\%, exceeding baseline approaches by up to 340.80\\%. These results demonstrate the effectiveness of TraceDev in repository-level code generation from requirements.",
-    "source": "ArXiv",
-    "published": "2026-07-21T09:14:59+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- **TraceDev** introduces a multi-agent orchestration for repository-level code generation, utilizing five specialized roles: Requirement Refiner, Designer, Developer, Tester, and a critical **Validator Agent**.\n- The architecture centers on a **heterogeneous traceability graph** that explicitly links requirements, design models, and code artifacts to ensure alignment and semantic consistency.\n- The system utilizes this graph as a **structured memory management** mechanism, allowing agents to navigate complex natural language requirements (NLRs) without losing context.\n- It shifts the paradigm from simple prompt-to-code tasks to **complex software development scenarios** involving multiple functional points and interlinked artifacts.",
-      "key_results": [
-        "Achieved a 53.63% success rate on the ETOUR dataset.",
-        "Outperformed baseline approaches by 186.63% on the ETOUR benchmark.",
-        "Attained a 56.82% success rate on the SMOS dataset.",
-        "Exceeded state-of-the-art baselines on SMOS by a margin of 340.80%.",
-        "Demonstrated robust capability in maintaining consistency across repository-level code and original functional requirements."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "TraceDev researchers introduce a multi-agent framework using traceability graphs to improve requirement-to-code alignment by up to 340 percent.",
-      "lead_institution": "ArXiv Researchers",
-      "tags": [
-        "LLM Agents",
-        "Software Engineering",
-        "Traceability Graph",
-        "Code Generation",
-        "Multi-Agent Systems"
-      ]
-    }
-  },
-  {
-    "title": "Public perceptions of AI-driven decision-making in healthcare: A structural equation modeling approach",
-    "link": "http://arxiv.org/abs/2607.18884v1",
-    "summary": "Artificial intelligence (AI) is increasingly integrated into healthcare to support diagnostics, decision-making, and administrative processes. However, the successful implementation of AI depends not only on technical performance but also on public perceptions of its helpfulness, riskiness, and fairness. This study examines public perceptions of automated decision-making (ADM) in healthcare. Data were drawn from the first wave of an ongoing longitudinal survey panel. The final sample consisted of 3,915 respondents and was analyzed with structural equation modeling. Perceptions of ADM in healthcare as helpful, risky, and fair were treated as the dependent variables. AI literacy, familiarity with different forms of AI, confidence in clinicians' ability to distinguish AI- from human-generated content, use of conversational agents for health information, and use of traditional digital health information sources were included as exogenous. Greater familiarity with different forms of AI, higher confidence in the clinician's ability to recognize AI-generated content, and use of conversational agents for health information were associated with greater perceived helpfulness. Use of conversational agents was associated with lower perceived risk, whereas greater familiarity with AI and greater reliance on traditional health information sources were associated with higher perceived risk. Perceptions of ADM as fair were most strongly predicted by confidence in the clinician's ability, with additional small positive associations with AI familiarity, AI literacy, and use of conversational agents. Public perceptions of ADM in healthcare are shaped by technological familiarity, use of conversational agents, and confidence in human oversight. Overall, ADM's perceived helpfulness and fairness are driven more by trust in healthcare professionals than by trust in the technology itself.",
-    "source": "ArXiv",
-    "published": "2026-07-21T09:14:00+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Utilizes **Structural Equation Modeling (SEM)** on a large-scale longitudinal survey (N=3,915) to quantify the relationship between **AI literacy**, familiarity, and perceived **Automated Decision-Making (ADM)** outcomes.\n- Evaluates the impact of **conversational agents** (LLMs) versus traditional digital health sources on user risk thresholds and perceived system helpfulness.\n- Identifies that **Human-in-the-loop (HITL)** oversight\u2014specifically confidence in a clinician's ability to distinguish AI content\u2014is a critical latent variable for system **fairness**.\n- Analyzes the psychological factors driving the adoption of **Generative AI** in sensitive domains, emphasizing that trust is derived from human accountability rather than technical accuracy.",
-      "key_results": [
-        "Confidence in clinician oversight is the strongest predictor of perceived AI fairness and helpfulness.",
-        "Use of conversational agents for health info is uniquely associated with lower perceived risk of ADM.",
-        "Higher AI familiarity creates an 'informed caution' effect, increasing both perceived utility and perceived risk.",
-        "AI literacy has a statistically significant but minor positive correlation with perceived system fairness.",
-        "Reliance on traditional digital health sources correlates with higher skepticism and risk perception regarding AI."
-      ],
-      "relevance_score": 4,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv research shows that public trust in healthcare AI depends more on human oversight than the underlying technology's performance.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "Healthcare AI",
-        "Human-AI Interaction",
-        "AI Evaluation",
-        "Generative AI Trends",
-        "Trust Modeling"
-      ]
-    }
-  },
-  {
-    "title": "Physics-Informed Super-Resolution of Atmospheric Data",
-    "link": "http://arxiv.org/abs/2607.18877v1",
-    "summary": "In the context of global warming, extreme events have become more frequent and intense, making their trustworthy detection and forecasting more important than ever. Yet, atmospheric observations lack sufficient spatial resolution, motivating atmospheric data downscaling as a way to reconstruct high-resolution data from coarse observations. This task is now being formulated as a super-resolution (SR) problem with machine learning methods featuring high efficiency. Nevertheless, it remains unclear whether the super-resolved atmospheric data still satisfies fundamental physics governing the Earth system, raising concerns about their trustworthiness in climate-related applications. In this work, we address this challenge by constraining SR models to respect hydrostatic primitive equations that represent multivariate atmospheric physics. First, we propose a Physics-Informed Super-Resolution (PISR) method involving multi-scale physics-informed objectives based on primitive equations. PISR favors the SR outputs to respect these equations and therefore naturally encodes inter-variable relationships. In addition, we propose a metric called Normalized Physical Consistency (NPC) derived from said primitive equations to measure the physical consistency of super-resolved data. Experiments on ERA5, CERRA, and COSMO demonstrate that PISR enhances the reconstruction fidelity by improving physical consistency, SR accuracy, and downstream detection of extreme events, as demonstrated by case studies in heatwaves and extreme winds.",
-    "source": "ArXiv",
-    "published": "2026-07-21T09:06:48+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Proposes **Physics-Informed Super-Resolution (PISR)**, a framework that integrates **hydrostatic primitive equations** into machine learning objectives to reconstruct high-resolution atmospheric data.\n- Implements **multi-scale physics-informed objectives** to ensure that super-resolved outputs respect fundamental inter-variable relationships and Earth system physics.\n- Introduces **Normalized Physical Consistency (NPC)**, a novel evaluation metric designed to quantify how well generative models adhere to governing physical laws.\n- Enhances **downstream utility** by improving the detection accuracy of extreme weather events such as heatwaves and extreme winds through physically-grounded data reconstruction.",
-      "key_results": [
-        "PISR significantly reduces physical violations in super-resolved atmospheric datasets.",
-        "The method demonstrates superior reconstruction fidelity on ERA5, CERRA, and COSMO datasets.",
-        "Introduced NPC metric provides a standardized benchmark for physical consistency in SR tasks.",
-        "Improved identification of extreme heatwaves compared to standard SR models.",
-        "Enhanced detection of extreme wind events by maintaining multivariate physical relationships."
-      ],
-      "relevance_score": 6,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce PISR to constrain atmospheric super-resolution with physical equations, improving accuracy and extreme event detection.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "Physics-Informed ML",
-        "Super-Resolution",
-        "Atmospheric Data",
-        "AI Evaluation",
-        "Generative AI"
-      ]
-    }
-  },
-  {
-    "title": "Tracing the Shadows: Automatic Tracking and Analysis of Crypto Money Laundering via Transaction Semantic Analysis",
-    "link": "http://arxiv.org/abs/2607.18869v1",
-    "summary": "With the rapid advancement of decentralized finance (DeFi), security incidents related to cryptocurrency have become increasingly prevalent. After such incidents, attackers typically attempt to rapidly move stolen assets, concealing the origin of illicit funds and ultimately converting them into fiat currency. However, existing anti-money laundering (AML) methods struggle to cope with the semantic complexity of DeFi transactions. They either rely heavily on low-level token transfers, or perform protocol-agnostic money flow analysis, failing to capture the high-level intent of transactions.\n  In this paper, we propose AMLGuard, a semantic-aware AML framework for account-based blockchains. AMLGuard tracks illicit fund flows from known malicious addresses by performing semantic analysis on complex DeFi transactions, enabling accurate and continuous laundering tracking. Given a complex transaction, AMLGuard combines static rule-based analysis with retrieval-augmented large language model (LLM) reasoning to infer implicit DeFi semantics, transforming raw transaction data into high-level semantic representations. Furthermore, for cross-chain transactions where laundering intent is not explicitly exposed, AMLGuard parses transaction parameters and performs argument parsing to recover cross-chain semantics, enabling seamless tracking across ledgers. Based on the inferred semantics, AMLGuard abstracts each transaction into a DeFi Semantic Unit (DSU). We evaluate the effectiveness of AMLGuard on 82 real-world laundering cases, involving illicit assets worth over $1 billion. Specifically, AMLGuard reconstructs compact illicit fund-flow topologies with destination precision of 94.4% and 87.6%, while achieving the highest address recall of 98.4% and 95.8% and destination recall of 94.1% and 93.8% on single-chain and cross-chain datasets.",
-    "source": "ArXiv",
-    "published": "2026-07-21T09:00:47+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Introduces **AMLGuard**, a framework utilizing **Retrieval-Augmented LLM (RAG)** reasoning to map complex DeFi transactions to high-level intent.\n- Combines **static rule-based analysis** with LLMs to transform raw blockchain data into structured **DeFi Semantic Units (DSU)**.\n- Implements **cross-chain argument parsing** to recover hidden laundering semantics across disparate ledger protocols.\n- Facilitates the reconstruction of **compact fund-flow topologies** for more efficient and accurate illicit asset tracking.",
-      "key_results": [
-        "Achieved 94.4% destination precision on single-chain dataset evaluations.",
-        "Demonstrated 98.4% address recall across 82 real-world laundering cases.",
-        "Successfully analyzed illicit fund flows totaling over $1 billion in value.",
-        "Recovered cross-chain semantics via automated transaction parameter parsing.",
-        "Provided significant performance gains over traditional protocol-agnostic money flow analysis methods."
-      ],
-      "relevance_score": 7,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce AMLGuard, a RAG-enhanced framework that automates high-precision semantic tracking of complex DeFi money laundering transactions.",
-      "lead_institution": "ArXiv Researchers",
-      "tags": [
-        "RAG",
-        "LLM Reasoning",
-        "DeFi Security",
-        "Semantic Analysis",
-        "Blockchain"
       ]
     }
   }
