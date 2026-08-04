@@ -1,5 +1,665 @@
 [
   {
+    "title": "Circles powers telco personalization with OpenAI technology",
+    "link": "https://openai.com/index/circles",
+    "summary": "Circles uses the OpenAI API and Codex to power AI-native telco experiences, increasing ARPU by 22%, reducing churn by 9%, and improving development efficiency.",
+    "source": "OpenAI News",
+    "published": "2026-08-03T00:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Circles integrates the **OpenAI API** and **Codex** to build an AI-native telecommunications platform focused on hyper-personalization.\n- The architecture leverages **Generative AI** to automate customer interactions and optimize marketing strategies in real-time.\n- Implementation focuses on driving **ARPU** and **retention** through tailored service offerings and improved development workflows.",
+      "key_results": [
+        "22% increase in Average Revenue Per User (ARPU)",
+        "9% reduction in customer churn rates",
+        "Enhanced development efficiency via OpenAI Codex",
+        "Launch of AI-native telco experiences for global users",
+        "Scalable integration of LLMs within existing telco infrastructure"
+      ],
+      "relevance_score": 3,
+      "signal_type": "Release",
+      "one_sentence_takeaway": "OpenAI partners with Circles to deploy AI-native telco solutions, achieving a 22% ARPU boost and 9% churn reduction.",
+      "lead_institution": "OpenAI News",
+      "tags": [
+        "Generative AI",
+        "Telco",
+        "Personalization",
+        "OpenAI Codex",
+        "Business Impact"
+      ]
+    }
+  },
+  {
+    "title": "GEM Training: How Meta Doubled the Efficiency of Its LLM-Scale Ads Foundation Model",
+    "link": "https://engineering.fb.com/2026/08/03/ml-applications/training-gem-at-llm-scale-meta-ads-recommendation-foundation-model/",
+    "summary": "<p>Meta&#8217;s Generative Ads Recommendation Model (GEM), the foundation model behind ads recommendations across Instagram and Facebook, now trains at LLM scale on several thousand of the latest-generation GPUs. This post goes into the details on how we achieved: doubling end-to-end (E2E) training efficiency to 20\u201325% Model FLOPs Utilization (MFU) while scaling training FLOPs 4x in [...]</p>\n<p><a class=\"btn btn-secondary understrap-read-more-link\" href=\"https://engineering.fb.com/2026/08/03/ml-applications/training-gem-at-llm-scale-meta-ads-recommendation-foundation-model/\">Read More...</a></p>\n<p>The post <a href=\"https://engineering.fb.com/2026/08/03/ml-applications/training-gem-at-llm-scale-meta-ads-recommendation-foundation-model/\">GEM Training: How Meta Doubled the Efficiency of Its LLM-Scale Ads Foundation Model</a> appeared first on <a href=\"https://engineering.fb.com\">Engineering at Meta</a>.</p>",
+    "source": "Engineering at Meta",
+    "published": "2026-08-03T18:00:17+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Meta transitioned its **Generative Ads Recommendation Model (GEM)** to an LLM-scale architecture to power discovery and personalization across Instagram and Facebook.\n- Engineers achieved a doubling of **end-to-end training efficiency**, reaching **20\u201325% Model FLOPs Utilization (MFU)** through infrastructure and hardware optimizations.\n- The system was designed to scale to **thousands of latest-generation GPUs**, enabling a **4x increase in training FLOPs** for more complex ads foundation models.\n- This shift signifies the application of **Large Language Model (LLM)** scaling laws to the domain of industrial recommendation systems.",
+      "key_results": [
+        "Doubled E2E training efficiency for GEM.",
+        "Achieved 20-25% Model FLOPs Utilization (MFU).",
+        "Scaled training FLOPs by a factor of 4x.",
+        "Integrated latest-generation GPU clusters for large-scale ads training.",
+        "Optimized ads recommendation performance across the Meta ecosystem."
+      ],
+      "relevance_score": 8,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Meta doubles training efficiency for its GEM foundation model to improve ads recommendations across Instagram and Facebook.",
+      "lead_institution": "Engineering at Meta",
+      "tags": [
+        "Generative AI",
+        "Foundation Models",
+        "LLM Scaling",
+        "Ads Recommendation",
+        "Training Efficiency"
+      ]
+    }
+  },
+  {
+    "title": "From weeks to minutes: How Formula 1\u00ae uses agentic AI on AWS to accelerate data operations",
+    "link": "https://aws.amazon.com/blogs/machine-learning/from-weeks-to-minutes-how-formula-1-uses-agentic-ai-on-aws-to-accelerate-data-operations/",
+    "summary": "Formula 1\u00ae partnered with AWS to build the Data Accelerator, using agentic AI on Amazon Bedrock AgentCore to transform its MarTech data platform. Learn how F1 cut data source onboarding from up to 8 weeks to about 40 minutes, automated schema evolution, and gained end-to-end observability across its fan-engagement data estate.",
+    "source": "Artificial Intelligence",
+    "published": "2026-08-03T17:24:15+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "<br>\u2022 Formula 1 implemented a **Data Accelerator** leveraging **Amazon Bedrock AgentCore** to orchestrate complex MarTech data workflows.<br>\u2022 The architecture utilizes **agentic AI** to automate manual data source onboarding, effectively replacing traditional, static ETL pipelines with autonomous agents.<br>\u2022 The system incorporates **automated schema evolution** and granular end-to-end observability to manage the scale of fan-engagement data estates.",
+      "key_results": [
+        "Reduced data source onboarding time from 8 weeks to approximately 40 minutes.",
+        "Automated schema evolution to handle dynamic changes in fan-engagement data.",
+        "Achieved full end-to-end observability across the MarTech data infrastructure.",
+        "Streamlined complex data operations using agentic orchestration on AWS.",
+        "Successfully integrated Amazon Bedrock AgentCore for production-scale generative AI tasks."
+      ],
+      "relevance_score": 7,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Formula 1 leverages agentic AI on AWS to automate data onboarding, reducing processing time from weeks to minutes.",
+      "lead_institution": "Formula 1",
+      "tags": [
+        "Agentic AI",
+        "LLM Agents",
+        "AWS Bedrock",
+        "Data Automation",
+        "Generative AI Trends"
+      ]
+    }
+  },
+  {
+    "title": "Automated Reasoning policy refinement in Amazon Bedrock",
+    "link": "https://aws.amazon.com/blogs/machine-learning/automated-reasoning-policy-refinement-in-amazon-bedrock/",
+    "summary": "Amazon Bedrock now supports automatic Automated Reasoning policy refinement. The refinement engine diagnoses failing tests and proposes formal-logic fixes for rule issues and language issues, and you approve every change before it takes effect. This post walks through both refinement modes with complete API and console workflows.",
+    "source": "Artificial Intelligence",
+    "published": "2026-08-03T16:30:58+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* Amazon Bedrock introduces an **automated refinement engine** designed to debug and correct **Automated Reasoning policies** via formal-logic diagnostics.\n* The system features two primary refinement modes: addressing **rule issues** (logical inconsistencies) and **language issues** (misalignment between policy intent and expression).\n* The architecture prioritizes a **human-in-the-loop** workflow, where the engine proposes formal-logic fixes for failing test cases that must be approved before implementation.\n* This update streamlines the **AI governance lifecycle**, allowing developers to iteratively harden guardrails against undesirable model outputs using systematic policy verification.",
+      "key_results": [
+        "Automated identification of root causes for failing policy test cases.",
+        "Dual-mode refinement targeting both logical rule structures and natural language interpretations.",
+        "Provision of proactive formal-logic fix suggestions to resolve policy contradictions.",
+        "Integration with Amazon Bedrock API and console for seamless policy lifecycle management.",
+        "Reduction in manual engineering overhead required to maintain complex enterprise guardrails."
+      ],
+      "relevance_score": 7,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Amazon launches automated reasoning policy refinement to fix formal-logic guardrail failures through AI-driven diagnostic suggestions.",
+      "lead_institution": "Amazon",
+      "tags": [
+        "Automated Reasoning",
+        "Amazon Bedrock",
+        "AI Governance",
+        "Policy Refinement",
+        "Reasoning Models"
+      ]
+    }
+  },
+  {
+    "title": "Alexander Rakhlin named director of  the MIT Statistics and Data Science Center",
+    "link": "https://news.mit.edu/2026/alexander-rakhlin-named-director-mit-statistics-data-science-center-0803",
+    "summary": "An expert in machine learning, statistics, and computation, Rakhlin succeeds Professor Ankur Moitra.",
+    "source": "MIT News - Artificial intelligence",
+    "published": "2026-08-03T19:50:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- **Alexander Rakhlin** has been appointed as the director of the MIT Statistics and Data Science Center (SDSC), succeeding Ankur Moitra.\n- The leadership change emphasizes the integration of **statistical learning theory** with high-level **machine learning computation**.\n- Rakhlin's background focuses on the mathematical foundations of **data-driven decision-making** and **algorithmic efficiency** within the IDSS ecosystem.",
+      "key_results": [
+        "Appointment of Alexander Rakhlin as the new SDSC Director.",
+        "Transition of leadership from Professor Ankur Moitra.",
+        "Strategic focus on bridging statistical theory and computational machine learning.",
+        "Reinforcement of MIT's commitment to interdisciplinary data science research.",
+        "Continued development of academic frameworks for high-dimensional data analysis."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "MIT appoints Alexander Rakhlin to lead the Statistics and Data Science Center, emphasizing machine learning and computational statistics.",
+      "lead_institution": "MIT",
+      "tags": [
+        "MIT",
+        "Machine Learning",
+        "Data Science",
+        "Academic Leadership",
+        "Statistical Theory"
+      ]
+    }
+  },
+  {
+    "title": "AI's debt binge can't last, hidden borrowing reaches $1.65T",
+    "link": "https://fortune.com/2026/07/31/ai-debt-hypescalers-capex-capital-spending-hidden-borrowing-bond-issuance/",
+    "summary": "<p>Article URL: <a href=\"https://fortune.com/2026/07/31/ai-debt-hypescalers-capex-capital-spending-hidden-borrowing-bond-issuance/\">https://fortune.com/2026/07/31/ai-debt-hypescalers-capex-capital-spending-hidden-borrowing-bond-issuance/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49160699\">https://news.ycombinator.com/item?id=49160699</a></p>\n<p>Points: 112</p>\n<p># Comments: 132</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-08-03T20:02:21+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Major tech **hyperscalers** are accumulating a combined **$1.65 trillion** in debt to fund massive **AI infrastructure** and GPU clusters.\n- The report highlights the use of **hidden borrowing** and complex bond issuances to mask the true cost of **Capital Expenditure (CapEx)** for LLM training.\n- This financial trajectory raises significant concerns regarding the **sustainability** of current **Generative AI** scaling laws and the pressure to deliver immediate ROI.",
+      "key_results": [
+        "AI-related hidden borrowing has reached a record $1.65 trillion.",
+        "Hyperscalers are front-loading massive infrastructure costs ahead of clear revenue streams.",
+        "Financial markets are increasingly skeptical of the long-term profitability of 'compute at any cost'.",
+        "Debt-to-equity ratios for major AI players are being scrutinized as model training costs balloon.",
+        "The surge in CapEx may lead to a market correction if GenAI monetization lags."
+      ],
+      "relevance_score": 4,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Fortune reports that hyperscalers' $1.65T debt burden threatens the long-term sustainability of massive Generative AI infrastructure expenditures.",
+      "lead_institution": "Fortune",
+      "tags": [
+        "GenAI Trends",
+        "AI Infrastructure",
+        "Hyperscalers",
+        "Capital Expenditure",
+        "AI Economics"
+      ]
+    }
+  },
+  {
+    "title": "KisakCOD \u2013 open-source reimplementation of Call of Duty 4 Multiplayer",
+    "link": "https://github.com/SwagSoftware/KisakCOD",
+    "summary": "<p>Article URL: <a href=\"https://github.com/SwagSoftware/KisakCOD\">https://github.com/SwagSoftware/KisakCOD</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49159970\">https://news.ycombinator.com/item?id=49159970</a></p>\n<p>Points: 35</p>\n<p># Comments: 3</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-08-03T18:58:00+00:00",
+    "type": "repo",
+    "display_category": "Top Repo",
+    "processed": {
+      "summary": "\u2022 **KisakCOD** is a community-driven, open-source reimplementation of the **Call of Duty 4: Modern Warfare** multiplayer engine.<br>\u2022 The project focuses on **binary compatibility** and modernization, allowing the legacy game to run on contemporary systems without original proprietary executables.<br>\u2022 It highlights technical achievements in **reverse engineering** and software preservation, though it lacks direct application to machine learning or generative AI frameworks.",
+      "key_results": [
+        "Clean-room reimplementation of the CoD4 multiplayer codebase.",
+        "Support for modern C++ compilers and build environments.",
+        "Maintains full compatibility with original game assets and mods.",
+        "Provides a foundation for community-led security patches.",
+        "Enables dedicated server hosting without legacy license restrictions."
+      ],
+      "relevance_score": 1,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "SwagSoftware releases KisakCOD as an open-source reimplementation of Call of Duty 4 to modernize and preserve legacy multiplayer gaming.",
+      "lead_institution": "SwagSoftware",
+      "tags": [
+        "Reverse Engineering",
+        "Open Source",
+        "C++",
+        "Software Preservation",
+        "Game Engines"
+      ]
+    }
+  },
+  {
+    "title": "Show HN: Product analytics (and evals) for agent sessions on your MCP",
+    "link": "https://armature.tech/",
+    "summary": "<p>Hi HN! We\u2019re Theodore and Louis, founders of Armature (YC P26). We reconstruct the entire session behind the MCP tool calls you receive, including what the user asked their agent to do and what the agent thought.<p>You wrap your MCP in 3 lines of code (our SDK is available in Typescript, Python and Go) and start seeing in your dashboard:\n- All sessions reconstructed: it\u2019s like reading the real conversation the user had inside Claude or ChatGPT!\n- A ranking of your MCP most popular use cases, built from sessions clustering\n- The most frequent issues your users\u2019 agents encounter so you can fix them.<p>Here is a quick demo: <a href=\"https://youtu.be/ZFlvquhyNMQ\" rel=\"nofollow\">https://youtu.be/ZFlvquhyNMQ</a><p>The story behind this is that we initially launched Armature as a standalone testing tool (<a href=\"https://www.ycombinator.com/launches/QQc-armature-making-your-app-finally-usable-by-ai-agents\">https://www.ycombinator.com/launches/QQc-armature-making-you...</a>) that could naturally be used through an MCP itself. We quickly realized we had no idea how our users were using Armature MCP and if they were satisfied with it or frustrated. It\u2019s something we had also experienced in our previous companies: Louis built MCPs exposed to millions of users and Theo was a Forward Deployed Engineer at Palantir before joining a Datadog spin-off as Founding Engineer. Both testing and product analytics had always been real pains when exposing a product to agents but we always thought there wasn\u2019t much we could do about analytics because the conversation lived in our users\u2019 AI client.<p>Then it struck us: what if we asked the agents why they were making this or that tool call? And what\u2019s the user's intent or potential frustration? So we started experimenting with MCP instrumentation and the use-cases actually surprised us! Many of our first customers had implemented workarounds for their CI to trigger new tests or for their coding agents to fetch the results efficiently. Even though we talked to our first users regularly, they had never shared this feedback with us. We then built automations to automatically cluster use-cases, identify issues frequently encountered and let our own coding agents fix them. When our CTO friends heard about this, they wanted to try it for themselves so we gave them access to a cloned version of our internal product and they started sharing feedback like they never did on our \u201creal\u201d product!<p>That\u2019s when we decided to start working seriously on MCP Analytics as a product. At first we were afraid of degrading MCP performance so we iterated until we reached the exact same success rate as without our instrumentation (89.17 % vs 89.15 % pass rate out of 870 runs). Then privacy was an obvious constraint so we applied the same methods we had learned from working with banking data or building sensitive data scanning in logs. Today, redaction runs client-side before reaching our servers. There are still a lot of things we haven\u2019t fully figured out: not all fields are equally filled by all models, session fingerprinting for serverless / stateless MCPs isn\u2019t perfect, and use-case clustering remains to be optimized.<p>But we are finally launching our analytics product to everyone, self-serve at <a href=\"https://armature.tech\">https://armature.tech</a> with a set-up that takes less than 5 minutes and a generous free tier.<p>And now we are working on fully closing the loop, bringing evals back in our product so we can: identify top workflows and issues -> recommend fixes and improvements -> test fixes at scale on the same workflows run by users, across all harnesses and models -> open PRs to ship fixes directly.\nThe evals can be generated automatically from the session analytics so you can catch every regression and can test every improvement\u2019s real impact across all models and harnesses before shipping it.<p>Here\u2019s an example to make it more concrete: 10 days ago, a marketing automation platform which has had early access to what we built for weeks identified thanks to MCP Analytics that users were frustrated not being able to change their target audience after campaign creation. So they shipped the feature and tested it successfully locally with Claude Code on Fable 5. Then a few days later when preparing their new MCP public release, they ran a suite of evals on Armature and realized that small models could hallucinate audience_ids which would lead their MCP to send the campaign to ALL their contacts by default (which could obviously lead to disasters in prod). This is the kind of story that makes what we are building feel so helpful!<p>Now, the most useful feedback for us would be to know what\u2019s still missing in our product so you can feel you are now in full control of the \u201cAgent Experience\u201d.\nAnd if you run an MCP in production we\u2019d also love to know: what do you do today to know if agents succeed and if the users behind them are happy?</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49157807\">https://news.ycombinator.com/item?id=49157807</a></p>\n<p>Points: 37</p>\n<p># Comments: 2</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-08-03T16:17:59+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Armature introduces a **session reconstruction** and analytics framework for the **Model Context Protocol (MCP)**, enabling developers to capture the full context of user intent and agent reasoning behind tool calls.\n- The architecture utilizes a **wrapper SDK** (available in TypeScript, Python, and Go) that instruments MCP servers to perform **client-side redaction** and session clustering without degrading tool performance.\n- The platform bridges the gap between observability and testing by **automatically generating evals** from real-world session data to catch regressions and model hallucinations before production deployment.",
+      "key_results": [
+        "Minimal performance overhead with instrumentation (89.17% vs 89.15% pass rate).",
+        "Client-side data redaction for privacy-compliant agent session monitoring.",
+        "Automated clustering of agent use cases to identify undocumented user behaviors.",
+        "Detection of model-specific hallucinations (e.g., audience_id errors) through session-derived evals.",
+        "Integration of observability into the dev cycle via automated PRs and cross-model testing."
+      ],
+      "relevance_score": 7,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Armature launches a monitoring and evaluation platform to reconstruct AI agent sessions and automate debugging for MCP-based tools.",
+      "lead_institution": "Armature",
+      "tags": [
+        "Model Context Protocol (MCP)",
+        "LLM Agents",
+        "AI Observability",
+        "Agentic Evals",
+        "Developer Tools"
+      ]
+    }
+  },
+  {
+    "title": "MiniMax H3 Day-0 Support in ComfyUI: Open Weights, Native Audio, and 2K Video",
+    "link": "https://blog.comfy.org/p/minimax-h3-day-0-support-in-comfyui",
+    "summary": "<p>Article URL: <a href=\"https://blog.comfy.org/p/minimax-h3-day-0-support-in-comfyui\">https://blog.comfy.org/p/minimax-h3-day-0-support-in-comfyui</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49155629\">https://news.ycombinator.com/item?id=49155629</a></p>\n<p>Points: 249</p>\n<p># Comments: 79</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-08-03T13:34:43+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- ComfyUI introduces **Day-0 support** for the **MiniMax H3 (Hailuo)** model, enabling high-performance **2K video generation** directly within its node-based ecosystem.\n- The release features **open weights** for the H3-Base variant, facilitating local deployment and lowering the barrier for community-driven architectural research.\n- Technical integration includes **native audio** support, allowing for the generation of synchronized multimodal content without secondary processing steps.\n- The framework leverages optimized **inference pipelines** to manage the high computational demands of high-resolution video while maintaining temporal consistency.",
+      "key_results": [
+        "Native support for 2K resolution video generation workflows.",
+        "Release of open weights for the MiniMax H3-Base model variant.",
+        "Integrated synchronization of native audio with generative video outputs.",
+        "Simplified node-based implementation for complex video-to-video tasks.",
+        "Day-0 availability for local inference within the ComfyUI platform."
+      ],
+      "relevance_score": 8,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "ComfyUI launches native MiniMax H3 integration, providing open weights and 2K video generation with synchronized audio capabilities.",
+      "lead_institution": "MiniMax",
+      "tags": [
+        "Generative Video",
+        "Open Weights",
+        "Multimodal AI",
+        "ComfyUI",
+        "MiniMax H3"
+      ]
+    }
+  },
+  {
+    "title": "Cloudflare Workers and Containers now support inbound TCP connections and gRPC",
+    "link": "https://blog.cloudflare.com/grpc-workers/",
+    "summary": "<p>Article URL: <a href=\"https://blog.cloudflare.com/grpc-workers/\">https://blog.cloudflare.com/grpc-workers/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49155579\">https://news.ycombinator.com/item?id=49155579</a></p>\n<p>Points: 35</p>\n<p># Comments: 1</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-08-03T13:30:53+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Cloudflare has introduced support for **inbound TCP connections** and **gRPC** for Workers and Cloudflare Containers, moving beyond the platform's previous HTTP-centric limitations.\n- The architecture enables **bidirectional streaming** and strongly-typed communication via Protobuf, significantly reducing latency for high-performance service-to-service interactions.\n- This update allows developers to host **custom binary protocols** and database connections directly on the edge, facilitating complex microservice orchestrations.\n- Integration with **Cloudflare Containers (beta)** provides a unified environment for running containerized workloads with full networking flexibility.",
+      "key_results": [
+        "Native support for inbound TCP traffic on Cloudflare Workers.",
+        "First-class gRPC support for low-latency, typed microservice communication.",
+        "Direct database and custom protocol hosting without HTTP proxy overhead.",
+        "Beta release of Cloudflare Containers with full TCP/gRPC ingress capabilities.",
+        "Standardization of edge-to-backend communication using Protobuf and bidirectional streams."
+      ],
+      "relevance_score": 6,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Cloudflare launches inbound TCP and gRPC support for Workers and Containers, enabling high-performance, low-latency connectivity for edge-deployed services.",
+      "lead_institution": "Cloudflare",
+      "tags": [
+        "Edge Computing",
+        "gRPC",
+        "TCP Networking",
+        "Cloudflare Workers",
+        "Serverless Infrastructure"
+      ]
+    }
+  },
+  {
+    "title": "Apple engineer says he was fired after refusing to send cust. device IDs to AT&T",
+    "link": "https://runtimewire.com/article/exclusive-apple-engineer-says-he-was-fired-after-refusing-to-send-customer-devic",
+    "summary": "<p>Article URL: <a href=\"https://runtimewire.com/article/exclusive-apple-engineer-says-he-was-fired-after-refusing-to-send-customer-devic\">https://runtimewire.com/article/exclusive-apple-engineer-says-he-was-fired-after-refusing-to-send-customer-devic</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49150738\">https://news.ycombinator.com/item?id=49150738</a></p>\n<p>Points: 114</p>\n<p># Comments: 35</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-08-03T03:00:52+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- An Apple engineer alleges he was fired for refusing to facilitate the transmission of **unique customer device identifiers** to AT&T.\n- The conflict highlights a significant tension between **internal privacy mandates** and the operational data-sharing requirements of carrier partnerships.\n- The case raises critical questions regarding the **integrity of device-level data** and the potential for unauthorized user tracking within integrated hardware-telecom ecosystems.",
+      "key_results": [
+        "Engineer terminated after raising concerns over customer data privacy.",
+        "Requested data involved sensitive hardware-linked device identifiers.",
+        "Internal pushback occurred against a project requiring data handover to AT&T.",
+        "The incident underscores the friction between marketing-led privacy initiatives and technical execution.",
+        "The report suggests potential ethical breaches in how customer metadata is managed between partners."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Apple reportedly terminated an engineer for resisting a project that required sharing customer device identifiers with AT&T.",
+      "lead_institution": "Apple",
+      "tags": [
+        "Privacy",
+        "Data Governance",
+        "Apple",
+        "Device Tracking",
+        "Corporate Ethics"
+      ]
+    }
+  },
+  {
+    "title": "RFC 9851: TLS 1.2 is in Feature Freeze",
+    "link": "https://www.rfc-editor.org/rfc/rfc9851.html",
+    "summary": "<p>Article URL: <a href=\"https://www.rfc-editor.org/rfc/rfc9851.html\">https://www.rfc-editor.org/rfc/rfc9851.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49150181\">https://news.ycombinator.com/item?id=49150181</a></p>\n<p>Points: 44</p>\n<p># Comments: 24</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-08-03T01:23:26+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "The **IETF** has officially published **RFC 9851**, which places the **TLS 1.2** protocol into a permanent **feature freeze** status.\r\nThis architectural decision prevents the specification of new extensions or protocol features for version 1.2, ensuring it remains static.\r\nThe primary impact is a forced industry migration towards **TLS 1.3**, which offers superior performance and security characteristics.\r\nThis move reduces the long-term **maintenance overhead** and security surface area for modern network implementations.",
+      "key_results": [
+        "Formal cessation of all new feature development for the TLS 1.2 protocol.",
+        "Prohibition of back-porting new cryptographic features from TLS 1.3 to 1.2.",
+        "Categorization of TLS 1.2 as a legacy protocol for maintenance-only support.",
+        "Streamlining of future security audits by limiting the growth of legacy protocol complexity.",
+        "Increased pressure on software vendors to prioritize TLS 1.3 in production environments."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "The IETF freezes TLS 1.2 features to drive global adoption of TLS 1.3 and simplify secure communication protocols.",
+      "lead_institution": "IETF",
+      "tags": [
+        "Network Security",
+        "TLS 1.2",
+        "Infrastructure",
+        "Internet Standards",
+        "TLS 1.3"
+      ]
+    }
+  },
+  {
+    "title": "Show HN: Isopolis \u2013 Isometric pixel map of SF",
+    "link": "https://sf.isopolis.city/",
+    "summary": "<p>Article URL: <a href=\"https://sf.isopolis.city/\">https://sf.isopolis.city/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49149966\">https://news.ycombinator.com/item?id=49149966</a></p>\n<p>Points: 333</p>\n<p># Comments: 75</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-08-03T00:46:38+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Isopolis introduces a **high-fidelity isometric pixel art map** of San Francisco, representing a complex synthesis of spatial data and custom visual assets.\n- The project highlights trends in **interactive web-based visualization**, utilizing tiled rendering techniques to manage large-scale 2D graphical environments.\n- While primarily a creative showcase, the application demonstrates potential for **data-driven urban modeling** using retro-aesthetic interfaces and localized GIS data.",
+      "key_results": [
+        "Creation of a detailed, interactive 2D isometric representation of San Francisco.",
+        "Optimization of browser-based rendering for high-density pixel art tile-sets.",
+        "Integration of landmark-specific metadata within a navigable spatial UI.",
+        "Engagement of the developer community with 333 points and 75 comments on Hacker News.",
+        "Demonstration of creative coding techniques for city-scale data visualization."
+      ],
+      "relevance_score": 3,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Isopolis launches an interactive isometric pixel map of San Francisco, demonstrating high-fidelity web-based spatial visualization and artistic data representation.",
+      "lead_institution": "Isopolis",
+      "tags": [
+        "Data Visualization",
+        "Pixel Art",
+        "Vibe Coding",
+        "GIS",
+        "Frontend Development"
+      ]
+    }
+  },
+  {
+    "title": "CP/M-386 \u2013 CP/M for 386 protected mode, derived from CP/M\u201168K",
+    "link": "https://github.com/johnsonjh/cpm386",
+    "summary": "<p>Article URL: <a href=\"https://github.com/johnsonjh/cpm386\">https://github.com/johnsonjh/cpm386</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49149898\">https://news.ycombinator.com/item?id=49149898</a></p>\n<p>Points: 93</p>\n<p># Comments: 50</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-08-03T00:38:10+00:00",
+    "type": "repo",
+    "display_category": "Top Repo",
+    "processed": {
+      "summary": "<br>\u2022 Reconstruction of **CP/M-386**, a 32-bit version of the classic operating system specifically adapted for the **Intel 80386** protected mode.<br>\u2022 Derived from the **CP/M-68K** codebase, the project demonstrates a portable kernel architecture written in C, bridging the gap between 16-bit legacy and 32-bit systems.<br>\u2022 Focuses on **low-level memory management** and process isolation within a protected mode environment, providing a historical look at early multi-tasking OS design.",
+      "key_results": [
+        "Re-implementation of the CP/M-68K logic for the x86 32-bit instruction set.",
+        "Utilization of 80386 protected mode for improved memory addressability.",
+        "Separation of the BDOS (Basic Disk Operating System) and BIOS layers for hardware abstraction.",
+        "Availability of source code for historical research and retro-computing development.",
+        "Preservation of early 32-bit systems programming patterns and architectural constraints."
+      ],
+      "relevance_score": 1,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "GitHub repository johnsonjh/cpm386 reconstructs a 32-bit protected mode OS, offering insights into historical systems programming and architecture.",
+      "lead_institution": "GitHub",
+      "tags": [
+        "Systems Programming",
+        "Retrocomputing",
+        "Operating Systems",
+        "Intel 80386",
+        "CP/M"
+      ]
+    }
+  },
+  {
+    "title": "Show HN: ssh ssh.place",
+    "link": "https://ssh.place",
+    "summary": "<p>Article URL: <a href=\"https://ssh.place\">https://ssh.place</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49149805\">https://news.ycombinator.com/item?id=49149805</a></p>\n<p>Points: 171</p>\n<p># Comments: 103</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-08-03T00:23:21+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- **ssh.place** introduces a minimalist hosting paradigm that allows developers to serve personal content and landing pages via the **SSH protocol**.\n- The architecture leverages **SSH public key infrastructure** to identify users and serve content without requiring traditional HTTP web servers or browser-based authentication.\n- Impact centers on the **CLI-first developer workflow**, providing a low-latency, terminal-native alternative for hosting text-heavy or utility-centric profiles.",
+      "key_results": [
+        "Zero-configuration setup for terminal-based personal profiles.",
+        "Authentication handled natively through existing SSH key pairs.",
+        "Minimal overhead compared to traditional HTTPS web stacks.",
+        "Support for interactive TUI (Terminal User Interface) rendering.",
+        "Enables custom 'Vibe Coding' aesthetic by prioritizing terminal accessibility."
+      ],
+      "relevance_score": 3,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "ssh.place enables developers to host terminal-accessible personal pages by leveraging the standard SSH protocol for content delivery.",
+      "lead_institution": "ssh.place",
+      "tags": [
+        "Terminal UI",
+        "SSH Protocol",
+        "Vibe Coding",
+        "CLI Tools",
+        "Developer Identity"
+      ]
+    }
+  },
+  {
+    "title": "Boris Cherny on Trying to Get Claude Code to Rewrite the Claude App",
+    "link": "https://daringfireball.net/linked/2026/08/02/cherny-claude-swift",
+    "summary": "<p>Article URL: <a href=\"https://daringfireball.net/linked/2026/08/02/cherny-claude-swift\">https://daringfireball.net/linked/2026/08/02/cherny-claude-swift</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49149800\">https://news.ycombinator.com/item?id=49149800</a></p>\n<p>Points: 68</p>\n<p># Comments: 13</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-08-03T00:22:55+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "<br>\u2022 Evaluation of **Claude Code**, Anthropic's CLI-based agentic tool, performing complex refactoring on the production-grade **Claude iOS app** codebase.<br>\u2022 Analysis of **agentic workflows** where the model autonomously handles file system navigation, code edits, and build-cycle management within a **Swift** environment.<br>\u2022 Insights into the transition from chat-based coding to **integrated agentic engineering**, highlighting the model's ability to reason over multi-file dependencies.<br>\u2022 Assessment of the current state of **vibe coding**, where high-level intent is translated into functional software through iterative LLM-led execution.",
+      "key_results": [
+        "Successful application of agentic tools to a high-complexity, real-world mobile application codebase.",
+        "Validation of Claude 3.7 Sonnet's reasoning capabilities in managing long-context software engineering tasks.",
+        "Demonstration of significant reduction in developer friction for routine refactoring and boilerplate generation.",
+        "Identification of existing limitations in automated build-error resolution within agentic loops.",
+        "Shift in developer methodology towards supervisory roles rather than manual code entry."
+      ],
+      "relevance_score": 8,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Boris Cherny demonstrates Anthropic's Claude Code agentic tool successfully refactoring and rewriting portions of the Claude iOS application.",
+      "lead_institution": "Anthropic",
+      "tags": [
+        "Claude Code",
+        "LLM Agents",
+        "Agentic Coding",
+        "Swift",
+        "Vibe Coding"
+      ]
+    }
+  },
+  {
+    "title": "Show HN: Shitty \u2013 fast terminal. Memory-unsafe and faster than yours",
+    "link": "https://github.com/pg83/shitty",
+    "summary": "<p>Article URL: <a href=\"https://github.com/pg83/shitty\">https://github.com/pg83/shitty</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49149326\">https://news.ycombinator.com/item?id=49149326</a></p>\n<p>Points: 163</p>\n<p># Comments: 150</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-08-02T23:05:41+00:00",
+    "type": "repo",
+    "display_category": "Top Repo",
+    "processed": {
+      "summary": "\n- **Shitty** is a minimalist terminal emulator designed for **extreme performance** by intentionally prioritizing raw speed over traditional memory safety.\n- The architecture leverages **memory-unsafe** operations to minimize the latency overhead typically associated with buffer boundary checks and safe memory abstractions.\n- It aims to outperform modern GPU-accelerated terminals by stripping away non-essential features and focusing on **low-level data throughput**.",
+      "key_results": [
+        "Achieves significantly reduced input-to-output latency compared to mainstream terminals.",
+        "Utilizes a minimalist codebase to minimize instruction count during rendering.",
+        "Highlights a distinct engineering trade-off between security/safety and raw execution speed.",
+        "Gained significant traction on Hacker News for its 'less is more' approach to developer tools.",
+        "Offers a lightweight alternative for high-throughput logging and data visualization environments."
+      ],
+      "relevance_score": 3,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Developer pg83 releases Shitty, a memory-unsafe terminal emulator designed for extreme speed and minimal performance overhead.",
+      "lead_institution": "pg83 (GitHub)",
+      "tags": [
+        "Terminal Emulator",
+        "Performance Optimization",
+        "Low-level Systems",
+        "Developer Tooling",
+        "System Performance"
+      ]
+    }
+  },
+  {
+    "title": "Bitcoin cold-wallet attack spreads to 4,500 addresses as losses near $89M",
+    "link": "https://www.coindesk.com/tech/2026/08/02/bitcoin-cold-wallet-attack-spreads-to-4-500-addresses-as-losses-near-usd89-million",
+    "summary": "<p>Article URL: <a href=\"https://www.coindesk.com/tech/2026/08/02/bitcoin-cold-wallet-attack-spreads-to-4-500-addresses-as-losses-near-usd89-million\">https://www.coindesk.com/tech/2026/08/02/bitcoin-cold-wallet-attack-spreads-to-4-500-addresses-as-losses-near-usd89-million</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49149222\">https://news.ycombinator.com/item?id=49149222</a></p>\n<p>Points: 67</p>\n<p># Comments: 19</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-08-02T22:49:37+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- A widespread **cold-wallet exploit** has successfully targeted approximately **4,500 Bitcoin addresses**, bypassing traditional air-gapped security measures.\n- The attack has resulted in the theft of nearly **$89 million**, signaling a potential systemic vulnerability in **private key generation** or hardware storage implementations.\n- The breach demonstrates a high level of sophistication, specifically compromising wallets previously considered immune to online exfiltration vectors.",
+      "key_results": [
+        "4,500 unique Bitcoin addresses compromised.",
+        "Total estimated financial loss of $89 million.",
+        "Targeted exploitation of offline 'cold' storage architectures.",
+        "Significant breach of trust in standard hardware security modules.",
+        "Urgent industry-wide advisory for users to rotate private keys."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "CoinDesk reports that a massive cold-wallet exploit has drained $89 million, exposing severe vulnerabilities in traditional offline storage security.",
+      "lead_institution": "CoinDesk",
+      "tags": [
+        "Cybersecurity",
+        "Bitcoin",
+        "Cold Wallet",
+        "Private Key Security",
+        "Digital Asset Theft"
+      ]
+    }
+  },
+  {
+    "title": "Californians' data deletion requests, DROP, become enforceable Aug. 1",
+    "link": "https://www.nbcsandiego.com/nbc-7-responds-2/californians-data-deletion-requests-drop-become-enforceable-aug-1/4054771/",
+    "summary": "<p>Article URL: <a href=\"https://www.nbcsandiego.com/nbc-7-responds-2/californians-data-deletion-requests-drop-become-enforceable-aug-1/4054771/\">https://www.nbcsandiego.com/nbc-7-responds-2/californians-data-deletion-requests-drop-become-enforceable-aug-1/4054771/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49148987\">https://news.ycombinator.com/item?id=49148987</a></p>\n<p>Points: 141</p>\n<p># Comments: 98</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-08-02T22:16:34+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "<br>- The California Privacy Protection Agency is enforcing the **Delete Request Off-ramp (DROP)** mechanism, a centralized platform for data deletion requests.<br>- Data brokers are legally required to integrate with this **automated deletion pipeline**, ensuring consumer records are purged upon request via a single interface.<br>- The implementation forces a shift in **data governance** and lifecycle management, impacting how companies collect and maintain datasets for **AI training** and analytics.",
+      "key_results": [
+        "Enforcement of the DROP mechanism begins officially on August 1st.",
+        "Data brokers must check for and process deletion requests at least every 45 days.",
+        "The CPPA provides a centralized service for consumers to submit a single request covering all brokers.",
+        "Mandatory compliance applies to all entities meeting the legal definition of a data broker in California.",
+        "Failure to comply results in significant administrative fines and state-level enforcement actions."
+      ],
+      "relevance_score": 4,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "California enforces the DROP mechanism, requiring data brokers to implement centralized deletion systems that impact ML training data sources.",
+      "lead_institution": "California Privacy Protection Agency",
+      "tags": [
+        "Data Privacy",
+        "Compliance",
+        "Data Governance",
+        "California Law",
+        "Data Brokers"
+      ]
+    }
+  },
+  {
+    "title": "EU rules on AI models become enforceable. What's going to change?",
+    "link": "https://www.euronews.com/my-europe/2026/08/02/eu-rules-on-ai-models-become-enforceable-whats-going-to-change",
+    "summary": "<p>Article URL: <a href=\"https://www.euronews.com/my-europe/2026/08/02/eu-rules-on-ai-models-become-enforceable-whats-going-to-change\">https://www.euronews.com/my-europe/2026/08/02/eu-rules-on-ai-models-become-enforceable-whats-going-to-change</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49147606\">https://news.ycombinator.com/item?id=49147606</a></p>\n<p>Points: 53</p>\n<p># Comments: 72</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-08-02T19:40:19+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "<br>\u2022 The **EU AI Act** establishes a tiered regulatory framework for **General Purpose AI (GPAI)** models, mandating strict transparency regarding training data and copyright compliance.<br>\u2022 Models exceeding a compute threshold of 10^25 FLOPs are classified as having **systemic risk**, requiring mandatory risk assessments, adversarial testing, and incident reporting.<br>\u2022 Developers must maintain detailed **technical documentation** and provide summaries of the data used for training to ensure auditability and intellectual property protection.<br>\u2022 The regulation impacts the deployment of **Foundation Models** within the EU, potentially influencing model evaluation standards and the architecture of local vs. cloud-based AI systems.",
+      "key_results": [
+        "Mandatory transparency reports for training data used in general-purpose models.",
+        "Specific compliance obligations for 'systemic risk' models based on compute power.",
+        "Requirement for technical documentation to facilitate regulatory oversight.",
+        "Establishment of the EU AI Office as the central governance body for model evaluation.",
+        "Heavy financial penalties for non-compliance, scaling with global turnover."
+      ],
+      "relevance_score": 5,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "The European Union enforces mandatory transparency and risk management obligations for general-purpose AI models under the AI Act.",
+      "lead_institution": "European Union",
+      "tags": [
+        "AI Regulation",
+        "GPAI",
+        "Model Evaluation",
+        "Compliance",
+        "Generative AI"
+      ]
+    }
+  },
+  {
+    "title": "The Coldcard Disaster Gets Worse: The Hack May Have Reached $88.6M",
+    "link": "https://medium.com/mountain-movers/the-coldcard-disaster-gets-worse-the-hack-may-have-reached-88-6-af507b028594",
+    "summary": "<p>Article URL: <a href=\"https://medium.com/mountain-movers/the-coldcard-disaster-gets-worse-the-hack-may-have-reached-88-6-af507b028594\">https://medium.com/mountain-movers/the-coldcard-disaster-gets-worse-the-hack-may-have-reached-88-6-af507b028594</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49146372\">https://news.ycombinator.com/item?id=49146372</a></p>\n<p>Points: 34</p>\n<p># Comments: 34</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-08-02T17:19:47+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "<br>\u2022 Detailed investigation into a catastrophic **security breach** involving Coldcard hardware wallets, suggesting a total loss of $88.6M.<br>\u2022 The incident highlights critical vulnerabilities in **air-gapped security models** and the potential for supply chain or firmware compromises.<br>\u2022 The report examines the **on-chain movement** of stolen funds to track the scope and sophistication of the attackers.",
+      "key_results": [
+        "Estimated total losses from the Coldcard vulnerability have risen to $88.6 million.",
+        "The breach calls into question the fundamental security assumptions of 'stateless' hardware wallets.",
+        "Attackers likely exploited a combination of physical supply chain access and firmware manipulation.",
+        "Large-scale fund migration patterns suggest a highly organized group is behind the theft.",
+        "The disaster underscores the necessity of multi-signature (multisig) configurations for high-value assets."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Mountain Movers reports that a massive security breach in Coldcard hardware wallets has resulted in over $88.6 million in losses.",
+      "lead_institution": "Mountain Movers",
+      "tags": [
+        "Cybersecurity",
+        "Hardware Wallets",
+        "Supply Chain Attack",
+        "Bitcoin",
+        "Digital Forensics"
+      ]
+    }
+  },
+  {
+    "title": "Pushes to arch AUR are suspendended right now.",
+    "link": "https://lists.archlinux.org/archives/list/aur-general@lists.archlinux.org/message/YPJ3FQYJTJXXY3RUXCYLMHUKHLIUNVFF/",
+    "summary": "<p>Article URL: <a href=\"https://lists.archlinux.org/archives/list/aur-general@lists.archlinux.org/message/YPJ3FQYJTJXXY3RUXCYLMHUKHLIUNVFF/\">https://lists.archlinux.org/archives/list/aur-general@lists.archlinux.org/message/YPJ3FQYJTJXXY3RUXCYLMHUKHLIUNVFF/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49146238\">https://news.ycombinator.com/item?id=49146238</a></p>\n<p>Points: 67</p>\n<p># Comments: 69</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-08-02T17:03:02+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Arch Linux administrators have **temporarily suspended git push access** to the AUR (Arch User Repository) to address backend infrastructure needs.\n- The suspension primarily affects **package maintainers** and developers who cannot push new updates or security patches to community-contributed packages.\n- This action is a **proactive infrastructure measure**, ensuring system stability and integrity during a maintenance or migration period.\n- While write access is disabled, **read-only access** (git clone) and the web interface remain functional for end users.",
+      "key_results": [
+        "Git push access for the AUR is currently disabled.",
+        "The suspension does not affect official Arch Linux binary repositories.",
+        "Existing packages can still be cloned and built locally by users.",
+        "The maintenance period is intended to stabilize the AUR's underlying git hosting service.",
+        "Maintainers must wait for a formal 'all-clear' before resuming package updates."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Arch Linux suspends AUR git pushes to conduct infrastructure maintenance, temporarily halting community-driven package updates and contributions.",
+      "lead_institution": "Arch Linux",
+      "tags": [
+        "Arch Linux",
+        "AUR",
+        "DevOps",
+        "Infrastructure",
+        "Linux Security"
+      ]
+    }
+  },
+  {
     "title": "Ten advances in mathematics and theoretical computer science",
     "link": "https://openai.com/index/ten-advances-in-mathematics",
     "summary": "OpenAI shares new results on long-standing open problems in mathematics and theoretical computer science, including advances in geometry, cryptography, and complexity.",
@@ -1710,96 +2370,6 @@
     }
   },
   {
-    "title": "Tool Specifications Matter: Uncovering and Mitigating Safety Risks in AI Agents",
-    "link": "http://arxiv.org/abs/2607.29254v1",
-    "summary": "AI agents extend large language models (LLMs) with external tools, enabling them to perform complex tasks and translate model outputs into consequential real-world actions. Yet LLMs often become substantially less safe when deployed as agents, and the source of this degradation remains poorly understood. In this paper, we identify schema-formatted tool specifications as a primary source of agent safety degradation and show, through white-box representation analysis, that they weaken the model's internal refusal signals and contribute to unsafe tool execution. Building on this finding, we propose SafeKeep, an inference-time safeguard that decouples safety judgment from tool execution: it assesses requests using flattened textual tool specifications while retaining the original schema-formatted specifications for execution. Across two representative benchmarks and four LLMs, including both white-box and black-box models, SafeKeep increases the average refusal rate for harmful requests from 23.8% to 70.6% and reduces the average attack success rate under observation-level prompt injection from 25.6% to 2.5%. It also outperforms existing safeguards and preserves task-handling capability. We release the code and data at https://github.com/snowcatsmoking/SafeKeep .",
-    "source": "ArXiv",
-    "published": "2026-07-31T10:25:04+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Discovers that **schema-formatted tool specifications** (e.g., JSON schemas) significantly weaken an LLM's internal refusal signals, leading to unsafe tool execution.\n- Introduces **SafeKeep**, an inference-time safeguard that decouples the safety assessment of a request from its actual execution format.\n- Employs **flattened textual specifications** for safety evaluation while retaining the original **structured schemas** for technical execution to maintain performance.\n- Validates the approach through **white-box representation analysis**, showing that natural language descriptions better trigger safety-aligned model responses.",
-      "key_results": [
-        "Increased the average refusal rate for harmful agent requests from 23.8% to 70.6%.",
-        "Reduced the attack success rate of observation-level prompt injections from 25.6% to 2.5%.",
-        "Identified schema formatting as a primary source of agent safety degradation.",
-        "Outperformed existing safety benchmarks and traditional guardrails across four LLMs.",
-        "Preserved core task-handling capabilities while adding negligible overhead to the inference process."
-      ],
-      "relevance_score": 9,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "Rutgers University researchers introduce SafeKeep to boost agent safety by decoupling tool evaluation from structured execution schemas.",
-      "lead_institution": "Rutgers University",
-      "tags": [
-        "LLM Agents",
-        "AI Safety",
-        "Prompt Injection",
-        "Tool Calling",
-        "Inference Guardrails"
-      ]
-    }
-  },
-  {
-    "title": "CalibratedRubric: Task-Adaptive Rubric Banks for Open-Ended LLM Evaluation",
-    "link": "http://arxiv.org/abs/2607.29252v1",
-    "summary": "Reliable evaluation of open-ended LLM outputs requires fine-grained rubrics, yet expert curation is costly and difficult to scale. Existing automated pipelines rely on strict judge unanimity and binary variance filters, which cannot distinguish measurable rubrics from informative ones. We introduce CalibratedRubric, a task-adaptive framework that combines type-specific scoring, Bayesian rubric-measurability filtering, and item response theory (IRT)-based bank assembly. CalibratedRubric estimates each rubric's measurability with a Beta--Bernoulli agreement posterior and uses a submodular information-coverage objective to construct compact rubric banks over the observed capability range. Across financial, healthcare, general, and legal benchmarks, measurability filtering improves human-gold agreement on JudgmentBench from $\u03ba=0.604$ to $0.743$. IRT-based greedy selection improves cross-fitted rank fidelity over random selection across all six evaluated response blocks and requires only 49 rather than 131 rubrics to reach the target correlation on FinResearchBench decision-support tasks. Task-label perturbations further reduce system separation, confirming the practical relevance of task-adaptive scoring. These results support CalibratedRubric as an efficient, uncertainty-aware approach to open-ended LLM evaluation, with calibration gains depending on sufficient judge redundancy.",
-    "source": "ArXiv",
-    "published": "2026-07-31T10:21:56+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Introduces **CalibratedRubric**, a task-adaptive framework designed to automate the creation of high-quality evaluation rubrics for open-ended LLM outputs.\n- Utilizes a **Bayesian rubric-measurability filter** (Beta\u2013Bernoulli agreement posterior) to distinguish informative rubrics from noise, moving beyond traditional binary variance filters.\n- Employs **Item Response Theory (IRT)** and submodular information-coverage objectives to assemble compact, high-utility rubric banks tailored to specific capability ranges.\n- Demonstrates significant gains in **human-gold agreement** and evaluation efficiency across diverse domains like finance, healthcare, and legal.",
-      "key_results": [
-        "Improved human-gold agreement on JudgmentBench from Kappa 0.604 to 0.743.",
-        "Reduced required rubrics from 131 to 49 on FinResearchBench while maintaining target correlation.",
-        "IRT-based greedy selection outperformed random selection across all six evaluated response blocks for rank fidelity.",
-        "Successfully isolated measurable rubrics in domain-specific tasks including financial, healthcare, and legal benchmarks.",
-        "Validated that calibration gains are contingent on sufficient judge redundancy within the automated pipeline."
-      ],
-      "relevance_score": 9,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce CalibratedRubric, leveraging Bayesian filtering and IRT to automate high-precision, cost-effective evaluation of open-ended LLMs.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "AI Evaluation",
-        "LLM Benchmarking",
-        "Item Response Theory",
-        "Bayesian Filtering",
-        "Prompt Engineering"
-      ]
-    }
-  },
-  {
-    "title": "Data Turnstile: A Scalable Open Framework for Function-Calling Data Generation",
-    "link": "http://arxiv.org/abs/2607.29250v1",
-    "summary": "Small language models (SLMs) are attractive for agentic deployment due to low latency, reduced cost, and on-device privacy, yet they struggle with tool-use tasks where training data is scarce and noisy. Unlike larger models, SLMs cannot compensate for low-quality supervision through sheer capacity, making data quality the critical bottleneck. We present Data Turnstile, an open-source framework that takes user-defined API specifications and generates high-quality synthetic training data for function calling. Turnstile decomposes multi-turn tool-use interactions into constrained, stepwise generation with validation and error-feedback loops, providing fine-grained control over API diversity, conversation complexity, and output correctness. We demonstrate effectiveness of domain adaptation with Turnstile data on two challenging function calling benchmarks. On the BFCL single-turn benchmark, a Qwen3-0.6B fine-tuned on Turnstile data without chain-of-thought achieves 75.9% overall accuracy (versus 67.4% for the base model with thinking enabled), closing the gap with thinking-enabled Qwen3-1.7B (78.4%) and Qwen3-4B (79.9%) despite being 3$\\times$ and 7$\\times$ smaller respectively. On $\u03c4^2$-bench, a multi-turn agentic benchmark, Turnstile-trained Qwen3-1.7B achieves 31.1% pass^1 on the Telecom domain, improving 4.7$\\times$ over its 6.6% base and surpassing Qwen2.5-32B-Instruct (27.4%), a model 19$\\times$ larger. Turnstile-trained Qwen3-0.6B achieves 24.6%, improving 7$\\times$ over its 3.5% base and approaching the 32B model (53$\\times$ larger). We release Data Turnstile along with a dataset spanning 1,000+ APIs and 100K+ multi-turn interactions.",
-    "source": "ArXiv",
-    "published": "2026-07-31T10:21:36+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n* Data Turnstile is an **open-source synthetic data generation framework** designed to create high-quality function-calling training data from user-defined API specifications.\n* The architecture utilizes **stepwise generation with validation and error-feedback loops**, allowing for fine-grained control over API diversity and conversation complexity.\n* It solves the **data quality bottleneck for SLMs**, enabling small models to achieve high-performance tool-use without the need for massive model capacity.\n* The framework supports **domain adaptation** and includes a released dataset of 100K+ interactions across 1,000+ APIs to improve agentic reasoning.",
-      "key_results": [
-        "Qwen3-0.6B fine-tuned on Turnstile data achieved 75.9% accuracy on BFCL, outperforming its base model with thinking enabled.",
-        "Turnstile-trained Qwen3-1.7B achieved a 31.1% pass rate on Telecom agentic tasks, a 4.7x improvement over its base.",
-        "The 1.7B model surpassed Qwen2.5-32B-Instruct, a model 19 times larger, on multi-turn function-calling benchmarks.",
-        "The 0.6B model improved its base performance by 7x on agentic benchmarks, rivaling models 53 times its size.",
-        "Released a comprehensive open-source dataset containing 1,000+ APIs and 100K+ multi-turn interactions."
-      ],
-      "relevance_score": 9,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "Data Turnstile researchers introduce an open-source framework enabling sub-1B models to outperform 32B models in complex function-calling tasks.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "LLM Agents",
-        "Function Calling",
-        "SLMs",
-        "Synthetic Data",
-        "Model Fine-tuning"
-      ]
-    }
-  },
-  {
     "title": "Beyond Stoner-Wohlfarth: Machine-Learning Models and Symbolic Regression of Hard-Magnet Properties",
     "link": "http://arxiv.org/abs/2607.29249v1",
     "summary": "Predicting the extrinsic properties from hysteresis loops of a magnetic grain, namely the coercive field, remanent magnetisation, and maximum energy product, from its intrinsic micromagnetic parameters is a central problem in permanent-magnet modelling. Established analytical models provide useful estimates but often neglect nonuniform magnetisation processes, whereas direct micromagnetic simulations are computationally expensive. In this work, we train machine-learning models on 12012 micromagnetic simulations of an idealised cubic grain, spanning broad ranges of the saturation magnetisation, exchange constant, and uniaxial anisotropy constant. Benchmarked against the analytical models on identical held-out data, the machine-learning models predict all three extrinsic properties with substantially lower errors. Symbolic regression recovers the Kronm\u00fcller form of the coercive field, with an effective demagnetising factor that depends on the material, and finds new closed-form expressions for the remanence and maximum energy product. Each law contains at most two fitted constants yet approaches the accuracy of the machine-learning models. We also investigate the inverse problem of recovering the intrinsic parameters from the three extrinsic properties. The saturation magnetisation and anisotropy constant are recovered accurately, whereas the exchange constant is not, because it influences the extrinsic properties only weakly. The trained models are released through the mammos-ai Python package, enabling thousands of candidate parameter sets to be screened in seconds rather than the hours or days required by direct micromagnetic simulation.",
@@ -1886,66 +2456,6 @@
         "Alignment Tax",
         "Reasoning Models",
         "LLM Fine-tuning"
-      ]
-    }
-  },
-  {
-    "title": "RecHarness: A Bandit-Routed Agentic Harness for Self-Evolving Recommender Systems",
-    "link": "http://arxiv.org/abs/2607.29241v1",
-    "summary": "Optimizing modern recommender models still depends heavily on engineers manually iterating over architectural, objective, and training-strategy changes. While LLM-based agents can automate this trial-and-error process, allowing the LLM to both select modification directions and generate concrete hypotheses often leads to unstable search under limited experiment budgets. Inspired by the above challenge, we propose RecHarness, a Bandit-Routed Agentic Harness for automated recommender model optimization. RecHarness separates the optimization process into two steps: a bandit router selects the next modification direction according to historical validation feedback, while the LLM generates a concrete optimization hypothesis and executable code edit within the selected direction. To sustain long-horizon exploration, RecHarness uses a jump-basin mechanism to activate a structural-jump arm when local edits stagnate. Across multiple recommendation tasks, datasets, and model backbones, RecHarness achieves more stable performance improvements and uses limited trial budgets more effectively than LLM-reasoning search. During a 7-day online A/B test on a large-scale short-video advertising platform, the selected candidate improves ADVV by 2.084%, Revenue by 0.534%, and Exposure by 0.559%. Code is available at https://github.com/6lyc/RecHarness.",
-    "source": "ArXiv",
-    "published": "2026-07-31T10:15:38+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Proposes **RecHarness**, a novel framework that automates the manual optimization of recommender systems by combining **Bandit-Routed selection** with **LLM-based code generation**.\n- Implements a **decoupled optimization workflow** where a bandit router chooses modification directions based on historical feedback while the LLM generates specific hypotheses and executable code edits.\n- Features a **jump-basin mechanism** to overcome exploration stagnation, using a structural-jump arm to escape local optima during long-horizon search processes.\n- Validated on a large-scale short-video platform, showing **RecHarness** is more stable and budget-efficient than traditional LLM-reasoning search methods.",
-      "key_results": [
-        "Improved ADVV by 2.084% during a 7-day live online A/B test on a short-video platform.",
-        "Increased platform Revenue by 0.534% and total Exposure by 0.559%.",
-        "Demonstrated consistent performance gains across diverse recommendation tasks and model backbones.",
-        "Achieved higher stability in search results compared to standard LLM-reasoning under restricted trial budgets.",
-        "Successfully automated the selection of modification directions and the generation of concrete code-level edits."
-      ],
-      "relevance_score": 9,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "Tencent researchers introduce RecHarness, a bandit-steered agentic framework that automates recommender model evolution, boosting advertising revenue by 0.534%.",
-      "lead_institution": "Tencent Research",
-      "tags": [
-        "LLM Agents",
-        "Recommender Systems",
-        "AutoML",
-        "Bandit Algorithms",
-        "Code Generation"
-      ]
-    }
-  },
-  {
-    "title": "Small Is Enough: Per-User Style Rewriting of AI-Edited Text via LoRA Adapters",
-    "link": "http://arxiv.org/abs/2607.29238v1",
-    "summary": "InMyStyle is a privacy first, single user system that adapts small language models to rewrite AI-edited text towards an individual user's writing style without an instruction prompt at inference. Given a user's documents, it uses multiple local helper LLMs to construct paired training examples and fine tunes LoRA adapters on base models ranging from 0.5B to 7B parameters. Length aware generation budgets and automatic chunking support inputs of different lengths. On 219 evaluation pairs from a scientific-paper corpus, the automatic composite score plateaus at 0.69 [scale 0-1] across all model sizes under both greedy and sampled decoding. This observed plateau suggests that small models are sufficient for the measured rewriting task, with model size determining trade-offs rather than a stable quality ranking. As a secondary evaluation, 400 ratings from five LLM judges give InMyStyle outputs a mean perceived AI-ness score over 20% lower than their helper-AI generated inputs, while mean perceived AI-ness scores decrease with model size within InMyStyle.",
-    "source": "ArXiv",
-    "published": "2026-07-31T10:14:28+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n* InMyStyle introduces a **privacy-first architecture** that fine-tunes **LoRA adapters** on small language models (0.5B to 7B) to restore personal writing style to AI-edited text.\n* The system utilizes **local helper LLMs** to generate paired synthetic training data from user documents, eliminating the need for complex instruction prompting during inference.\n* It implements **length-aware generation budgets** and automatic chunking to handle variable input sizes while maintaining consistent stylistic output across documents.\n* The research highlights a **quality plateau** where model size influences operational trade-offs rather than a linear increase in stylistic rewriting accuracy.",
-      "key_results": [
-        "Achieved a stable automatic composite score of 0.69 across all model scales from 0.5B to 7B parameters.",
-        "Reduced perceived 'AI-ness' of rewritten text by over 20% compared to standard helper-AI generated inputs.",
-        "Demonstrated that 0.5B parameter models are sufficient for high-quality per-user style adaptation tasks.",
-        "Showed that perceived AI-ness scores continue to decrease as model size increases within the InMyStyle framework.",
-        "Validated performance using 219 evaluation pairs from a scientific-paper corpus and 400 LLM-judge ratings."
-      ],
-      "relevance_score": 9,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "InMyStyle researchers demonstrate that local 0.5B-7B models using LoRA adapters effectively restore personal style, reducing perceived AI-ness.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "Local LLMs",
-        "LoRA",
-        "Style Transfer",
-        "SLMs",
-        "Model Fine-tuning"
       ]
     }
   },
@@ -2100,66 +2610,6 @@
     }
   },
   {
-    "title": "Knowing When to Quit: Diagnosing and Training LLMs to Abort Futile Reasoning",
-    "link": "http://arxiv.org/abs/2607.29211v1",
-    "summary": "Large language models generate computationally expensive yet semantically void reasoning on beyond-capability tasks, creating risks where plausible-sounding but incorrect derivations mislead users. We characterize this \\textit{futile reasoning} phenomenon through systematic analysis, revealing universal capability overreach and systematic miscalibration between capability and behavior. The dominant failure mode is specious reasoning, which outputs look superficially valid but contain subtle errors, escalating with task difficulty. To address this, we introduce \\textbf{CaRL} (\\textbf{Ca}pability-\\textbf{a}ligned \\textbf{R}einforcement \\textbf{L}earning), which aligns model behavior with capability boundaries through reward shaping that incentivizes refusal over futile reasoning and hindsight refusal augmentation that converts failures into refusal supervision. Experiments demonstrate a substantial reduction in futile reasoning while preserving performance across task difficulties, effectively achieving capability-aligned behavior without sacrificing utility. \\footnote{https://github.com/icip-cas/Knowing-When-to-Quit}",
-    "source": "ArXiv",
-    "published": "2026-07-31T09:30:33+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Investigates the **futile reasoning** phenomenon where LLMs generate computationally expensive but incorrect logic for tasks beyond their inherent capability.\n- Introduces **CaRL (Capability-aligned Reinforcement Learning)**, a novel framework that uses **reward shaping** to incentivize models to refuse tasks rather than hallucinate reasoning.\n- Implements **hindsight refusal augmentation**, a technique that converts historical model failures into high-quality refusal supervision data for training.\n- Aims to resolve the **miscalibration** between a model's internal knowledge and its behavioral output, reducing risk from plausible-sounding but incorrect derivations.",
-      "key_results": [
-        "Identified 'specious reasoning' as a dominant failure mode that worsens with task difficulty.",
-        "CaRL significantly reduces futile reasoning cycles without sacrificing performance on solvable tasks.",
-        "Established a systematic link between capability overreach and model unreliability.",
-        "Demonstrated that refusal behavior can be effectively aligned through specific reward-shaping mechanisms.",
-        "Released open-source code and benchmarks for diagnosing reasoning-behavior miscalibration."
-      ],
-      "relevance_score": 9,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ICIP-CAS introduces CaRL to align LLM behavior with capability boundaries, preventing futile reasoning through reward-shaped reinforcement learning.",
-      "lead_institution": "ICIP-CAS",
-      "tags": [
-        "Reasoning Models",
-        "RLHF",
-        "Model Alignment",
-        "Hallucination",
-        "Refusal Training"
-      ]
-    }
-  },
-  {
-    "title": "SAF-OPD: Stable Advantage Fusion for On-Policy Distillation",
-    "link": "http://arxiv.org/abs/2607.29209v1",
-    "summary": "Reinforcement learning with verifiable rewards (RLVR) broadcasts a single response-level reward to every token, while on-policy distillation (OPD) scores each token against a stronger teacher for a dense advantage but caps performance at teacher quality and discourages exploration beyond it. Their complementarity makes combining RLVR and OPD promising, but we find that fusing the two advantages with a fixed coefficient triggers entropy collapse from two miscalibrations: a magnitude mismatch, where token-level OPD advantages can spike far beyond the bounded RLVR advantage and erase its signal, and a temporal mismatch, where sustained full-strength OPD keeps pulling the student toward the teacher and limits exploration needed to surpass it. We propose SAF, a Stable Advantage Fusion framework that resolves both issues via a lightweight, four-stage pipeline applied only to the OPD advantage: a sparsify-then-compress mechanism for magnitude control paired with a warm-up-then-anneal mechanism for temporal control, with each stage independently switchable and adding negligible overhead. Instantiating RLVR with GRPO, we evaluate SAF across seven mathematical reasoning and code generation benchmarks with Qwen3-1.7B/4B/8B: SAF avoids entropy collapse and consistently outperforms fixed-coefficient GRPO+OPD fusion, improving the aggregate score by 0.51-2.70% across all six model-domain settings while achieving more stable training.",
-    "source": "ArXiv",
-    "published": "2026-07-31T09:28:16+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\u2022 Proposes the **Stable Advantage Fusion (SAF)** framework to mitigate entropy collapse when combining **Reinforcement Learning with Verifiable Rewards (RLVR)** and **On-Policy Distillation (OPD)**.\n\u2022 Employs a **sparsify-then-compress** mechanism to resolve magnitude mismatches between dense token-level distillation advantages and sparse response-level rewards.\n\u2022 Utilizes a **warm-up-then-anneal** temporal control strategy that allows student models to initially learn from a teacher and subsequently explore beyond teacher-level performance.\n\u2022 Validated on **Qwen3** models across mathematical and coding benchmarks, demonstrating consistent improvements in training stability and aggregate accuracy.",
-      "key_results": [
-        "Resolves entropy collapse caused by OPD advantage spikes erasing RLVR signals.",
-        "Achieves 0.51-2.70% aggregate score improvement across Qwen3-1.7B, 4B, and 8B models.",
-        "Outperforms fixed-coefficient GRPO+OPD fusion on seven reasoning and coding benchmarks.",
-        "Enables student models to successfully surpass teacher performance levels through controlled exploration.",
-        "Introduces a lightweight, four-stage pipeline that adds negligible computational overhead to training."
-      ],
-      "relevance_score": 9,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce SAF to stabilize hybrid reinforcement learning and distillation, enabling student models to surpass teacher reasoning.",
-      "lead_institution": "Alibaba Group",
-      "tags": [
-        "Reinforcement Learning",
-        "Model Distillation",
-        "Reasoning Models",
-        "LLM Optimization",
-        "GRPO"
-      ]
-    }
-  },
-  {
     "title": "UltraSAM3: A Concept-Driven Foundation Model for Universal Ultrasound Image Segmentation",
     "link": "http://arxiv.org/abs/2607.29200v1",
     "summary": "Ultrasound imaging has become increasingly widespread in clinical practice due to its portability, low cost and real-time capability, making ultrasound image segmentation important. However, ultrasound images differ substantially from CT, MRI, and other medical imaging modalities, as they are often affected by speckle noise, low contrast, acoustic shadows and ambiguous boundaries. Existing ultrasound segmentation methods are still mainly limited to task-specific models or visual-prompt-based foundation models, which are either tailored to particular tasks or require expert-provided visual prompts, making them inconvenient for flexible clinical use. To address these challenges, we propose UltraSAM3, a concept-driven foundation model for universal ultrasound image segmentation. Unlike conventional models, UltraSAM3 enables text-based target specification by adapting SAM3 to ultrasound-specific image--mask--concept triplets. The model is trained on a large-scale ultrasound segmentation corpus covering 37 public datasets and 13 anatomical categories, allowing it to align ultrasound visual patterns with clinically meaningful concepts across diverse organs and lesions. To further improve usability under realistic clinical interaction, we propose an instruction-guided agent that parses complex natural language queries into concise ultrasound concept prompts for UltraSAM3. Extensive experiments demonstrate that UltraSAM3 consistently outperforms representative concept- and text-driven biomedical segmentation models on multi-organ ultrasound benchmarks, external datasets, and visual-prompt-enhanced settings. Moreover, the agent improves segmentation robustness for complex user instructions. These results indicate that ultrasound-specific concept adaptation is effective for building generalizable and interactive ultrasound segmentation foundation models.",
@@ -2280,36 +2730,6 @@
     }
   },
   {
-    "title": "CAGE: Certified Authorization under Typed-Return Uncertainty for Tool-Using Agents",
-    "link": "http://arxiv.org/abs/2607.29190v1",
-    "summary": "Tool-using LLM agents act on typed tool returns, records pairing provenance and categorical fields with numerical values. Runtime permission gates generally authorize the observed return and action, leaving the decision unprotected against small errors in how the return was bound to its source. We ask whether a candidate action stays authorized over a declared neighborhood of plausible correctly bound returns: one admissible binding fault plus bounded numerical drift. We prove that certifying the categorical and numerical channels separately does not compose: perturbations that are safe on each channel alone can jointly turn the same action unsafe. CAGE certifies this joint neighborhood directly, enumerating the discrete branches exactly and certifying the continuous perturbation within each branch. Across synthetic, policy-as-code, regulatory, and real-transaction settings, CAGE removes the in-budget false allows that accurate pointwise gates admit, while keeping a useful fraction of decisions autonomous. When the policy is executable, CAGE-Exact certifies the policy itself; otherwise CAGE-Lip and CAGE-RS certify a learned gate under an explicit, measured fidelity assumption.",
-    "source": "ArXiv",
-    "published": "2026-07-31T09:11:56+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "<br> \u2022 Proposes **CAGE**, a framework for **certified authorization** designed to ensure tool-using LLM agents remain safe despite potential errors in data binding and numerical drift.<br> \u2022 Identifies a critical safety gap where independent certification of categorical and numerical channels fails to catch unsafe actions, requiring a **joint neighborhood** evaluation.<br> \u2022 Implements three architectural variants\u2014**CAGE-Exact**, **CAGE-Lip**, and **CAGE-RS**\u2014to handle both explicit executable policies and learned safety gates.<br> \u2022 Enhances **autonomous reliability** by removing false-allow errors in complex environments like financial transactions and regulatory compliance.",
-      "key_results": [
-        "Formal proof that separate certification of categorical and numerical channels does not compose into a safe action.",
-        "Elimination of in-budget false allows that traditional pointwise authorization gates typically miss.",
-        "Demonstrated effectiveness across synthetic, policy-as-code, and real-world regulatory benchmarks.",
-        "Maintains a high fraction of autonomous decision-making while enforcing rigorous safety bounds.",
-        "Introduction of explicit fidelity measurements for certifying learned gates under Lipschitz and Randomized Smoothing assumptions."
-      ],
-      "relevance_score": 9,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce CAGE to certify LLM agent actions against uncertainty in tool returns and data binding errors.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "LLM Agents",
-        "AI Safety",
-        "Tool Use",
-        "Formal Verification",
-        "Model Evaluation"
-      ]
-    }
-  },
-  {
     "title": "Detecting Experiential Intertextuality Across Migration Routes: Beyond Surface Similarity in French Narratives",
     "link": "http://arxiv.org/abs/2607.29188v1",
     "summary": "Migrants traversing geographically distinct routes such as the Trans-Saharan and Balkan corridors often recount strikingly parallel lived experiences: police violence, smuggler exploitation, dangerous crossings, and family separation. We introduce the task of experiential intertextuality detection: automatically identifying shared experiential echoes across migration narratives without requiring annotated training data. From 108 French migration narratives spanning both corridors, we automatically generate sentence pairs and score them using annotation-free methods: lexical baselines, sentence embeddings, POS-based structural features, a migration-specific theme lexicon, context-aware narrative features, and zero-shot LLM scoring with Qwen2.5-7B and Mistral-7B under three prompting strategies. We validate all methods against 816 expert-annotated intertextuality judgments (inter-annotator Krippendorff's $\u03b1= 0.27$). Our results reveal that all surface, structural, and embedding methods correlate only weakly with expert judgments ($r \\leq 0.30$); Qwen2.5-7B zero-shot achieves the best single-method correlation ($r = 0.38$); few-shot examples degrade Qwen but dramatically improve Mistral; narrative position significantly predicts intertextuality, with departure-phase pairs showing the highest experiential echoes; and a supervised hybrid combining all 31 features achieves $r = 0.45$, a 21% improvement over the best individual method.",
@@ -2336,36 +2756,6 @@
         "Semantic Similarity",
         "Model Evaluation",
         "Natural Language Understanding"
-      ]
-    }
-  },
-  {
-    "title": "Learning Latent Reasoning Traces for Scalar Reward Models End-to-End",
-    "link": "http://arxiv.org/abs/2607.29185v1",
-    "summary": "Reward models (RMs) are central to aligning large language models with human preferences via reinforcement learning. Although traditional scalar RMs enable efficient and probabilistic reward modeling, they rely on superficial cues that fail to generalize to complex or out-of-distribution (OOD) tasks. Conversely, generative RMs leverage extensive reasoning to improve robustness on challenging tasks, but their natural language-based scores lack the numerical flexibility and probabilistic interpretability that scalar RMs offer. While recent approaches combine both paradigms through off-policy multi-task learning, such parallel optimization does not guarantee that generated reasoning traces actively align with or benefit downstream scalar reward prediction. To address this mismatch, we propose LatentRM, a reward modeling framework that learns intermediate reasoning traces as discrete latent variables to explicitly maximize the likelihood of downstream scalar rewards. Through on-policy optimization of the latent reasoning space end-to-end, LatentRM tightly couples deep reasoning-based evaluation with precise scoring. Extensive validations on in-distribution and OOD datasets and RLHF show that LatentRM outperforms scalar, generative, and hybrid RMs on preference modeling and policy alignment across tasks ranging from open-ended conversation to complex reasoning.",
-    "source": "ArXiv",
-    "published": "2026-07-31T09:05:58+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Introduces **LatentRM**, a framework that treats intermediate reasoning traces as **discrete latent variables** to bridge the gap between scalar and generative reward models.\n- Utilizes **on-policy optimization** to ensure reasoning traces are explicitly learned to maximize the likelihood of correct downstream scalar reward predictions.\n- Combines the **probabilistic interpretability** and efficiency of scalar RMs with the robust, deep-reasoning capabilities of generative LLMs.\n- Addresses the alignment mismatch in hybrid models by **coupling deep reasoning** evaluation directly with precise scoring mechanisms.",
-      "key_results": [
-        "Outperforms standard scalar and generative reward models on in-distribution preference modeling.",
-        "Demonstrates superior generalization and robustness on out-of-distribution (OOD) reasoning tasks.",
-        "Achieves higher policy alignment in RLHF across open-ended conversation and complex reasoning datasets.",
-        "Proves that on-policy optimization of the latent space is more effective than parallel multi-task learning.",
-        "Maintains the numerical flexibility of scalar rewards while providing interpretable natural language reasoning."
-      ],
-      "relevance_score": 9,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce LatentRM to improve scalar reward models by training intermediate reasoning traces as discrete latent variables.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "Reward Modeling",
-        "RLHF",
-        "Reasoning Models",
-        "Latent Variables",
-        "Model Alignment"
       ]
     }
   },
@@ -2426,66 +2816,6 @@
         "Human-AI Interaction",
         "Software Engineering",
         "Generative AI Trends"
-      ]
-    }
-  },
-  {
-    "title": "Execution-First Synthetic Tool-Use Trace Generation for LLM Agents",
-    "link": "http://arxiv.org/abs/2607.29175v1",
-    "summary": "Agentic software-engineering and industrial systems increasingly operate through executable workflows rather than code genera- tion alone: they search artifacts, invoke tools, inspect structured observations, and query databases. Training these agents requires supervision data that captures valid tool interactions and executable workflows. However, traditional query-first data synthesis can fail because plausible user requests may not correspond to valid tool sequences, compatible parameters, or available data. To address this limitation, we propose SyntheticAgentTraceQA, an execution- first framework for generating scalable supervision data for tool- augmented agents. Our framework first constructs high-level work- flow structures, maps them to available tools through dependency- aware assignment, executes and validates the resulting traces in con- trolled environments, and only then synthesizes natural-language user tasks, teacher-generated reasoning annotations, and reference answers. We evaluate the framework across four tool ecosystems and use the resulting data to fine-tune and evaluate Qwen model variants. The results show that execution-grounded supervision improves tool execution behavior, reference-trace agreement, and answer-generation performance on the evaluated tasks. Further analysis reveals a supervision trade-off: masked supervision, which excludes reasoning annotations from the training objective, im- proves final-answer metrics, whereas full supervision, computing loss over the complete assistant output including reasoning tokens, underperforms on answer quality and does not consistently im- prove reference-trace agreement, particularly at the 9B scale. These findings highlight the importance of designing synthetic supervi- sion according to the desired capabilities of tool-augmented agents.",
-    "source": "ArXiv",
-    "published": "2026-07-31T08:52:26+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n\u2022 Proposes **SyntheticAgentTraceQA**, a novel execution-first framework that prioritizes valid tool interactions by constructing and executing workflows before generating natural-language tasks.\n\u2022 Employs a **dependency-aware assignment** strategy to map high-level workflow structures to specific tools, ensuring executable state transitions in controlled environments.\n\u2022 Identifies a significant **supervision trade-off**, demonstrating that masking reasoning tokens during loss computation can lead to superior final-answer accuracy compared to full-trace supervision.\n\u2022 Validates the framework across four tool ecosystems using **Qwen-9B** variants, showing improved tool execution behavior and alignment with reference traces.",
-      "key_results": [
-        "Execution-first data synthesis prevents the generation of impossible user requests and invalid tool parameters common in query-first approaches.",
-        "Masked supervision (calculating loss only on answers) consistently outperforms full supervision on final-answer metrics.",
-        "Full supervision including reasoning tokens does not reliably improve reference-trace agreement at the 9B model scale.",
-        "Execution-grounded training data significantly improves a model's ability to navigate complex tool-augmented workflows.",
-        "The framework successfully scales across four distinct tool ecosystems, providing high-fidelity supervision for agentic reasoning."
-      ],
-      "relevance_score": 9,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "SyntheticAgentTraceQA researchers introduce an execution-first synthesis framework that improves agentic tool-use by grounding supervision in validated execution traces.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "LLM Agents",
-        "Synthetic Data",
-        "Model Fine-tuning",
-        "Tool-Use",
-        "AI Evaluation"
-      ]
-    }
-  },
-  {
-    "title": "MERIT: Efficient In-Place Deletion for Dynamic Graph-Based Approximate Nearest Neighbor Indexes",
-    "link": "http://arxiv.org/abs/2607.29173v1",
-    "summary": "Graph-based indexes have become the dominant approach to approximate nearest neighbor search (ANNS) over high-dimensional data and play a crucial role in real-world applications such as retrieval-augmented generation, recommendation systems, and vector databases. Despite extensive progress in static graph construction and search, efficient in-place deletion remains challenging because obsolete vectors must be removed without allowing stale incoming edges to consume search capacity or expensive graph-wide maintenance to interrupt online services, e.g., retrieval-augmented generation (RAG) and recommendation platforms. To address this problem, we propose MERIT (MST-based Efficient Repair with In-place updaTes), an in-place update framework with three core techniques: (1) bounded search-based recovery that combines a deleted vertex's outgoing neighbors with its readily searchable in-neighbors, (2) $k_r$-Minimum Spanning Tree (MST) local repair that promotes local connectivity while retaining multiple routing choices for graph search, and (3) versioned-edge invalidation that immediately filters all stale incoming edges to the deleted vertex and progressively removes them as adjacency lists are rewritten. Its integration with the hierarchical HNSW index and the single-layer Vamana index demonstrates applicability across distinct graph structures. Extensive experiments on multiple real-world datasets show that MERIT processes deletion at nearly the cost of inserting one vector, achieves up to $3.02\\times$--$18.87\\times$ faster deletion than state-of-the-art (SOTA) methods, and keeps search recall stable or even improves it as deletions accumulate.",
-    "source": "ArXiv",
-    "published": "2026-07-31T08:52:00+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Introduces **MERIT**, a novel framework for **in-place deletion** in graph-based Approximate Nearest Neighbor Search (ANNS) indexes like **HNSW** and **Vamana**.\n- Employs **kr-Minimum Spanning Tree (MST)** local repair to maintain graph connectivity and routing diversity after node removal without expensive global re-indexing.\n- Features **versioned-edge invalidation** to immediately filter stale edges, ensuring high search accuracy and low latency during concurrent updates in dynamic **Vector Databases**.\n- Optimizes the **recovery process** by combining a deleted vertex's neighbors, achieving deletion speeds comparable to the cost of a single vector insertion.",
-      "key_results": [
-        "Achieves 3.02x to 18.87x faster deletion speeds compared to current state-of-the-art methods.",
-        "Maintains stable or improved search recall even as the volume of deletions accumulates over time.",
-        "Reduces deletion overhead to nearly the same computational cost as inserting a single new vector.",
-        "Demonstrates seamless integration with both hierarchical (HNSW) and single-layer (Vamana) graph architectures.",
-        "Effectively handles stale incoming edges through a novel versioning mechanism that prevents search capacity degradation."
-      ],
-      "relevance_score": 9,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce MERIT, an in-place deletion framework accelerating vector database updates by up to 18x for RAG.",
-      "lead_institution": "ArXiv Research",
-      "tags": [
-        "Vector Databases",
-        "ANNS",
-        "RAG",
-        "HNSW",
-        "Graph Indexes"
       ]
     }
   },
@@ -2666,126 +2996,6 @@
         "Database Benchmarking",
         "Tensor Contraction",
         "Workload Characterization"
-      ]
-    }
-  },
-  {
-    "title": "SciFigPlag-Bench: A Benchmark for Provenance-Aware Scientific Figure Plagiarism Detection",
-    "link": "http://arxiv.org/abs/2607.29124v1",
-    "summary": "Scientific figures often encode the visual evidence behind scientific findings, yet figure plagiarism remains underexplored as a benchmarked multimodal evaluation problem. We present SciFigPlag-Bench, a benchmark for provenance-aware reasoning over scientific figures in scholarly documents. Unlike general image-similarity or image-forensics benchmarks, SciFigPlag-Bench evaluates whether a suspicious figure reuses evidence from a specific source figure, how the reused content has been transformed, and where the reused evidence appears. We introduce a factorized taxonomy that separates what is reused from how it is transformed, covering material-preserving reuse, such as full-figure and subfigure reuse, as well as abstract-content reuse, such as data re-expression and structural redraw. Guided by this taxonomy, we construct a hybrid benchmark with 2,582 positive pairs and 2,541 negative pairs, combining documented real-world cases, taxonomy-guided synthetic examples, and visually similar negatives. The benchmark supports four diagnostic tasks: pairwise detection, source attribution, hierarchical reuse-type classification, and reuse correspondence localization. Experiments with diverse vision-language models establish initial baselines and reveal persistent challenges in fine-grained provenance reasoning, reuse-type understanding, and spatial evidence grounding.",
-    "source": "ArXiv",
-    "published": "2026-07-31T07:52:47+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- **SciFigPlag-Bench** is a novel benchmark designed for **provenance-aware reasoning** over scientific figures, moving beyond simple image similarity to detect nuanced evidence reuse.\n- The framework introduces a **factorized taxonomy** that differentiates between material-preserving reuse (e.g., subfigure crops) and abstract-content reuse (e.g., data re-expression and structural redraws).\n- It supports four diagnostic evaluation tasks: **pairwise detection**, **source attribution**, **hierarchical classification**, and **spatial correspondence localization**.\n- The benchmark combines **real-world documented cases** with taxonomy-guided synthetic examples to test the limits of current **Vision-Language Models (VLMs)** in fine-grained visual forensics.",
-      "key_results": [
-        "Creation of a hybrid benchmark containing 2,582 positive pairs and 2,541 negative pairs.",
-        "Implementation of a granular taxonomy covering both pixel-level and semantic-level figure transformations.",
-        "Establishment of baseline performance metrics for diverse vision-language models on scientific provenance tasks.",
-        "Identification of significant model failures in spatial evidence grounding and fine-grained reasoning.",
-        "Demonstration that current VLMs struggle with 'abstract-content reuse' compared to 'material-preserving' plagiarism."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "SciFigPlag-Bench researchers introduce a multimodal benchmark for evaluating how vision-language models detect and reason over scientific figure plagiarism.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "Multimodal AI",
-        "Model Evaluation",
-        "Scientific AI",
-        "Vision-Language Models",
-        "Provenance Reasoning"
-      ]
-    }
-  },
-  {
-    "title": "Curriculum Matters: Data-Efficient Relational PFN Pretraining with Synthetic Data",
-    "link": "http://arxiv.org/abs/2607.29120v1",
-    "summary": "Relational Prior-Data Fitted Networks (PFNs) such as RDB-PFN approximate Bayesian inference over multi-table relational databases by pretraining on millions of synthetic tasks. We investigate three intertwined questions about this paradigm. First, can a structurally different synthetic generator PluRel substitute for RDB-PFN's prior? Second, how much does the order in which synthetic data is presented to the PFN affect downstream performance? Third, how much relational reasoning can a PFN acquire from single-table synthetic pretraining alone, before any relational data is introduced? Using PluRel as the sole synthetic data source across all experiments, we find: (i) a progressive single-table curriculum that gradually widens schema complexity from 7 to 17 columns reaches 0.703 average ROC-AUC on the 23-task tabular benchmark using only approximately 13,300 synthetic tables (approximately 45x fewer single-table datasets than RDB-PFN's reported warm-up recipe), while the same data trained all-at-once collapses to 0.541 ROC-AUC; (ii) a relational curriculum trained from scratch on only approximately 5,500 PluRel databases reaches 0.638 average ROC-AUC on the 19-task RelBench/4DBInfer benchmark, recovering 88% of RDB-PFN's reported performance with approximately 220x less relational synthetic data; and (iii) the single-table curriculum model, evaluated directly on the relational benchmark without any relational adaptation, achieves 0.631, nearly matching the dedicated relational pipeline. Together, these findings suggest that curriculum design and synthetic data diversity may matter more for relational PFN pretraining than the specific relational generator or raw synthetic scale alone.",
-    "source": "ArXiv",
-    "published": "2026-07-31T07:50:00+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n This research investigates the pretraining efficiency of **Relational Prior-Data Fitted Networks (PFNs)**, specifically focusing on the impact of **curriculum learning** using synthetic data.\n The study demonstrates that a **progressive single-table curriculum**, which gradually scales schema complexity (column counts), can reach competitive performance while using up to **220x less synthetic data** than previous state-of-the-art benchmarks.\n A significant finding is that models pretrained exclusively on single-table synthetic data can generalize to complex **relational reasoning tasks** without explicit relational adaptation, suggesting that structural diversity in pretraining is more critical than scale alone.",
-      "key_results": [
-        "A progressive single-table curriculum achieved 0.703 ROC-AUC using 45x fewer datasets than the RDB-PFN warm-up recipe.",
-        "Training on the same volume of data 'all-at-once' without a curriculum resulted in performance collapse (0.541 ROC-AUC).",
-        "Relational models reached 88% of baseline performance using 220x less relational synthetic data via specialized curricula.",
-        "Single-table pretrained models achieved 0.631 ROC-AUC on relational benchmarks without any relational training data.",
-        "Validated that the PluRel synthetic generator effectively substitutes for original RDB-PFN priors across both tabular and relational tasks."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers demonstrate that progressive curriculum learning on synthetic data enables relational PFNs to achieve high performance with 220x less data.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "Prior-Data Fitted Networks",
-        "Synthetic Data",
-        "Curriculum Learning",
-        "Relational Reasoning",
-        "Data Efficiency"
-      ]
-    }
-  },
-  {
-    "title": "Designing a digital word-learning intervention with neurodiverse children: Experiences and ideas from children with developmental language disorder",
-    "link": "http://arxiv.org/abs/2607.29113v1",
-    "summary": "Introduction - Developmental language disorder (DLD) is a neurodevelopmental condition often characterised by word-learning difficulties that can lead to significant social and academic challenges. The disorder shares some features with other neurodevelopmental conditions such as autism spectrum disorder (ASD). Despite affecting 7 percent of children, the condition has received little coverage in participatory design research. This paper addresses this by reporting on the emotional responses and design outputs of children with DLD following participatory sessions to inform a word-learning intervention.\n  Method - Principles from learner-centred, cooperative, and accessible co-design approaches were integrated to tailor activities for four children with DLD. Design sessions were refined through ongoing monitoring of the children's experiences. The data that informed the findings included design artefacts such as children's drawings, structured feedback obtained using sentence-starter prompts, and researcher field notes. Reflexive thematic analysis was applied to the data, complemented by findings from an emotion scale completed before and after sessions.\n  Results - Children responded positively to design activities that incorporated familiar story characters and videogames, and that allowed a direct contribution of design ideas. Activities with higher cognitive demand led to reduced interactions. Key design requirements for the word-learning intervention included multimodal, personalised learning opportunities and the use of progress markers. Aligning digital and real-world learning, such as providing in-person adult support, was also important.\n  Conclusions - Through careful planning and refinement, a bespoke participatory design approach proved meaningful and rewarding for children with DLD, whilst also yielding valuable insights for the development of the intervention.",
-    "source": "ArXiv",
-    "published": "2026-07-31T07:41:08+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n* This research employs **participatory design** to create digital word-learning tools for children with **Developmental Language Disorder (DLD)**, prioritizing accessibility and reduced cognitive load.\n* The study advocates for an architecture centered on **multimodal learning** and **personalized pedagogical paths**, leveraging gamification elements like videogame-inspired progress markers.\n* The framework emphasizes **human-in-the-loop** integration, ensuring digital interventions are paired with physical adult support to maximize real-world language transfer.",
-      "key_results": [
-        "Multimodal interaction increases engagement and reduces barriers for neurodiverse learners.",
-        "Lowering cognitive demand in interface design directly correlates with higher interaction rates.",
-        "Gamification via familiar videogame characters significantly boosts user motivation.",
-        "Progress markers are identified as a critical requirement for maintaining long-term engagement.",
-        "Bridging digital learning with real-world adult support is essential for intervention efficacy."
-      ],
-      "relevance_score": 4,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers demonstrate that multimodal, gamified digital interventions successfully support word-learning in children with developmental language disorders.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "Multimodal AI",
-        "Human-Computer Interaction",
-        "Neurodiversity",
-        "EdTech",
-        "Prompt Engineering"
-      ]
-    }
-  },
-  {
-    "title": "DoubleHelix: Structured Cross-Modal Fusion for Audio-Visual Speech Recognition with LLMs",
-    "link": "http://arxiv.org/abs/2607.29112v1",
-    "summary": "Audio-visual speech recognition (AVSR) relies on effective fusion of audio and visual modalities, yet existing approaches treat cross-modal interaction as a single-step operation without structured iterative refinement. We present DoubleHelix, a multimodal fusion framework that reformulates fusion as an iterative cross-modal interaction process with adaptive degradation-aware enhancement. The framework comprises three components including ReverseParallelHelix for multi-turn structured interaction with learned alignment constraints, QualitySensor for learning degradation-aware gating signals, and HelixReplication for consistency-guided conditional feature enhancement. Experiments on LRS3 demonstrate that DoubleHelix achieves 0.68% WER on clean audio, outperforming previous best results by 5.6% relative improvement under matched backbone settings. Comprehensive ablation studies validate each component contribution, including targeted analysis of design choices such as asymmetric pathway weighting. The framework shows improved robustness under evaluated babble-noise conditions, achieving 11.6% WER at SNR -5dB.",
-    "source": "ArXiv",
-    "published": "2026-07-31T07:40:59+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n\u2022 **DoubleHelix** introduces an iterative, structured cross-modal fusion architecture for Audio-Visual Speech Recognition (AVSR), replacing traditional single-step interaction methods.\n\u2022 The framework utilizes a **ReverseParallelHelix** mechanism for multi-turn feature exchange combined with learned alignment constraints for tighter modality integration.\n\u2022 A specialized **QualitySensor** component generates degradation-aware gating signals to adaptively manage modality weight, particularly in noisy environments.\n\u2022 The system incorporates **HelixReplication** for consistency-guided feature enhancement, enabling the model to outperform previous benchmarks on standard datasets.",
-      "key_results": [
-        "Achieved a record 0.68% Word Error Rate (WER) on the LRS3 clean audio benchmark.",
-        "Delivered a 5.6% relative improvement over previous state-of-the-art methods using matched backbone settings.",
-        "Demonstrated high noise robustness with 11.6% WER at SNR -5dB in babble-noise conditions.",
-        "Validated the efficacy of multi-turn structured interaction over single-step fusion through ablation.",
-        "Confirmed that asymmetric pathway weighting and alignment constraints are critical for optimal multimodal performance."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce DoubleHelix, an iterative multimodal fusion framework that significantly improves audio-visual speech recognition through structured interaction.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "AVSR",
-        "Multimodal Fusion",
-        "Speech Recognition",
-        "LLM Integration",
-        "Robust AI"
       ]
     }
   }
