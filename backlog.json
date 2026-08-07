@@ -1,5 +1,455 @@
 [
   {
+    "title": "Working with the American Psychological Association on youth mental health and AI",
+    "link": "https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai",
+    "summary": "OpenAI and the American Psychological Association advance evidence-based guidance, resources, and safeguards for responsible AI use and youth mental health.",
+    "source": "OpenAI News",
+    "published": "2026-08-06T06:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- The partnership establishes **evidence-based guidelines** for the intersection of adolescent mental health and LLM interaction.\n- It focuses on developing **safety safeguards** and educational resources to mitigate risks associated with algorithmic bias and misinformation.\n- The initiative integrates **psychological expertise** into AI developmental frameworks to improve model alignment for younger users.",
+      "key_results": [
+        "Creation of digital literacy resources for parents and educators.",
+        "Development of technical safeguards tailored for youth demographics.",
+        "Integration of developmental psychology into model safety training.",
+        "Research on the long-term impact of AI on adolescent mental health.",
+        "Establishment of best practices for responsible generative AI deployment."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "OpenAI partners with the APA to develop evidence-based safety guidelines and resources for youth mental health and AI.",
+      "lead_institution": "OpenAI",
+      "tags": [
+        "Responsible AI",
+        "Youth Safety",
+        "Mental Health",
+        "AI Alignment",
+        "Digital Literacy"
+      ]
+    }
+  },
+  {
+    "title": "From asking to doing: How the world is putting ChatGPT to work",
+    "link": "https://openai.com/index/how-the-world-is-putting-chatgpt-to-work",
+    "summary": "New OpenAI Signals data shows how people use ChatGPT worldwide, with country-level insights on adoption, usage trends, and evolving behavior.",
+    "source": "OpenAI News",
+    "published": "2026-08-06T00:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* OpenAI introduces **OpenAI Signals**, a data-driven reporting framework designed to track global adoption, usage intensity, and evolving user behavioral patterns.\n* The data highlights a fundamental shift from simple **information retrieval** queries to complex **task execution**, signaling the early stages of a transition toward **agentic workflows**.\n* Usage patterns indicate that users are increasingly utilizing LLMs for **code generation**, document synthesis, and multi-step problem solving across diverse geographic regions.",
+      "key_results": [
+        "Global shift from 'asking' questions to 'doing' complex tasks.",
+        "Significant increase in ChatGPT usage for professional productivity and creative workflows.",
+        "Identification of regional variations in AI adoption and specific use-case preferences.",
+        "Evolution of prompt engineering toward structured, goal-oriented instructions.",
+        "Data reveals high retention rates as users integrate LLMs into daily operational routines."
+      ],
+      "relevance_score": 4,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "OpenAI reveals that global ChatGPT usage is shifting from simple information retrieval to complex, task-oriented agentic workflows.",
+      "lead_institution": "OpenAI",
+      "tags": [
+        "Generative AI Trends",
+        "ChatGPT Usage",
+        "AI Adoption",
+        "Agentic Behavior",
+        "OpenAI Signals"
+      ]
+    }
+  },
+  {
+    "title": "Baseten on Hugging Face Inference Providers \ud83d\udd25",
+    "link": "https://huggingface.co/blog/baseten",
+    "summary": "",
+    "source": "Hugging Face - Blog",
+    "published": "2026-08-06T00:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "<br>- Hugging Face integrates **Baseten** as an official backend for its **Inference Providers** program, facilitating one-click deployment of open-weight models.<br>- The architecture utilizes **serverless infrastructure** to provide developers with high-performance inference without the overhead of manual GPU cluster management.<br>- This partnership streamlines the transition from model discovery on the Hub to production-ready **Managed APIs**, supporting popular architectures like Llama 3 and Mistral.",
+      "key_results": [
+        "Seamless integration of Baseten's compute stack into the Hugging Face Hub interface.",
+        "Support for high-throughput, low-latency inference on optimized hardware backends.",
+        "Introduction of serverless scaling capabilities for open-source model deployments.",
+        "Reduction in DevOps complexity for teams transitioning from research to production.",
+        "Expansion of the Hugging Face ecosystem to include specialized third-party infrastructure providers."
+      ],
+      "relevance_score": 4,
+      "signal_type": "Release",
+      "one_sentence_takeaway": "Hugging Face partners with Baseten to provide serverless inference for open-source models directly within the Hub environment.",
+      "lead_institution": "Hugging Face",
+      "tags": [
+        "Inference Providers",
+        "Baseten",
+        "Model Deployment",
+        "LLM Infrastructure",
+        "Hugging Face"
+      ]
+    }
+  },
+  {
+    "title": "A guide to slash commands in the GitHub Copilot app",
+    "link": "https://github.blog/ai-and-ml/github-copilot/a-guide-to-slash-commands-in-the-github-copilot-app/",
+    "summary": "<p>Go beyond chat in the GitHub Copilot app with these slash commands. They'll help you plan, collaborate, automate, and customize your dev workflow.</p>\n<p>The post <a href=\"https://github.blog/ai-and-ml/github-copilot/a-guide-to-slash-commands-in-the-github-copilot-app/\">A guide to slash commands in the GitHub Copilot app</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
+    "source": "The GitHub Blog",
+    "published": "2026-08-06T19:49:34+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* GitHub introduces **slash commands** in the Copilot app to provide a structured interface for **LLM interactions**, reducing the manual effort of **Prompt Engineering**.\n* The implementation focuses on **intent-based task automation**, allowing developers to trigger specific workflows like planning or debugging via pre-defined shortcuts.\n* This shift towards **command-driven AI interaction** enhances the UX for mobile and desktop environments, moving away from free-form chat toward **Agentic-style execution** of common developer tasks.",
+      "key_results": [
+        "Introduction of intent-specific shortcuts to streamline developer workflows.",
+        "Support for architectural planning and code visualization via commands.",
+        "Standardization of prompts for common tasks like bug fixing and documentation.",
+        "Improved accessibility of AI-assisted coding features on non-IDE platforms.",
+        "Enhanced collaboration features through automated status updates and code summaries."
+      ],
+      "relevance_score": 4,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "GitHub introduces slash commands in its Copilot app to standardize LLM interactions and accelerate routine developer tasks.",
+      "lead_institution": "GitHub",
+      "tags": [
+        "Prompt Engineering",
+        "GitHub Copilot",
+        "LLM Agents",
+        "Developer Productivity",
+        "Generative AI Trends"
+      ]
+    }
+  },
+  {
+    "title": "How we took malware advisories beyond npm",
+    "link": "https://github.blog/security/supply-chain-security/how-we-took-malware-advisories-beyond-npm/",
+    "summary": "<p>GitHub malware advisories no longer stop at npm. Here's how we wired OpenSSF's malicious-packages data into the Advisory Database, and why we built the pipeline paranoid.</p>\n<p>The post <a href=\"https://github.blog/security/supply-chain-security/how-we-took-malware-advisories-beyond-npm/\">How we took malware advisories beyond npm</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
+    "source": "The GitHub Blog",
+    "published": "2026-08-06T16:51:12+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* GitHub has integrated **OpenSSF malicious-packages** data into its Advisory Database to expand threat intelligence beyond the npm ecosystem.\n* The team developed a **paranoid ingestion pipeline** to validate and process high-volume external security data while maintaining database integrity.\n* The architecture focuses on **supply chain security** by centralizing malware metadata across multiple package managers into a unified, actionable format.",
+      "key_results": [
+        "Integration of the OpenSSF Malicious Packages repository into GitHub's security infrastructure.",
+        "Expansion of malware advisory coverage to include ecosystems like PyPI and RubyGems.",
+        "Development of a robust validation pipeline to prevent data corruption from external sources.",
+        "Standardization of malware alerts within the GitHub Advisory Database schema.",
+        "Enhanced automated security scanning for developers using diverse programming languages."
+      ],
+      "relevance_score": 4,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "GitHub integrates OpenSSF data into its Advisory Database to provide cross-ecosystem malware alerts for improved supply chain security.",
+      "lead_institution": "GitHub",
+      "tags": [
+        "Supply Chain Security",
+        "OpenSSF",
+        "GitHub Advisory Database",
+        "Malware Detection",
+        "Data Pipelines"
+      ]
+    }
+  },
+  {
+    "title": "Configure rate limits for AI traffic on AgentCore gateway",
+    "link": "https://aws.amazon.com/blogs/machine-learning/configure-rate-limits-for-ai-traffic-on-agentcore-gateway/",
+    "summary": "Learn how to configure rate limits on Amazon Bedrock AgentCore gateway to enforce per-user and per-target traffic controls. Define request, token, and connection limits scoped by JWT claims or IAM identity to protect downstream models, tools, and agents from traffic spikes.",
+    "source": "Artificial Intelligence",
+    "published": "2026-08-06T17:50:42+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- **Amazon Bedrock AgentCore gateway** introduces granular **rate limiting** capabilities to manage incoming traffic for AI agents and tools.\n- The architecture enables enforcement of **request, token, and connection limits** to prevent downstream resource exhaustion.\n- Governance is achieved by scoping limits based on **JWT claims** or **IAM identity**, ensuring secure per-user or per-application isolation.\n- This update prioritizes **operational stability** for production-grade agentic workflows by shielding models from traffic spikes.",
+      "key_results": [
+        "Enforcement of per-user rate limits via JWT claim extraction.",
+        "Granular control over token-based consumption to manage model costs.",
+        "Protection of downstream tools and agents from concurrent connection spikes.",
+        "Support for identity-based traffic shaping using IAM roles.",
+        "Improved multi-tenant resource allocation for shared generative AI infrastructure."
+      ],
+      "relevance_score": 7,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Amazon Bedrock launches AgentCore rate limiting to provide granular, identity-based traffic control for LLM agents and tools.",
+      "lead_institution": "Amazon Bedrock",
+      "tags": [
+        "LLM Agents",
+        "AI Infrastructure",
+        "Rate Limiting",
+        "Amazon Bedrock",
+        "Generative AI"
+      ]
+    }
+  },
+  {
+    "title": "Build visibility for Codex on Amazon Bedrock with OpenTelemetry and Amazon CloudWatch",
+    "link": "https://aws.amazon.com/blogs/machine-learning/build-visibility-for-codex-on-amazon-bedrock-with-opentelemetry-and-amazon-cloudwatch/",
+    "summary": "As engineering teams adopt coding agents like Codex, leaders need visibility into adoption, consumption, and reliability. This post shows how to route Codex OpenTelemetry metrics through a local collector to Amazon CloudWatch for an AWS native view of usage by user, team, and cost center.",
+    "source": "Artificial Intelligence",
+    "published": "2026-08-06T16:30:47+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Utilizes **OpenTelemetry** as a standardized protocol to capture telemetry data from **Codex** coding agents.\n- Implements a **local collector** architecture to aggregate and transmit metrics to **Amazon CloudWatch**.\n- Enables granular tracking of **LLM consumption** and reliability metrics by user, team, and specific cost centers.\n- Facilitates the operationalization of **LLM Agents** by providing engineering leaders with a native AWS dashboard for usage visibility.",
+      "key_results": [
+        "Standardized metrics collection via OpenTelemetry frameworks.",
+        "Native AWS visibility for coding agent adoption across teams.",
+        "Granular cost attribution per individual user and cost center.",
+        "Real-time tracking of agent reliability and success rates.",
+        "Seamless integration with Amazon CloudWatch monitoring tools."
+      ],
+      "relevance_score": 7,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Amazon Web Services enables Codex agent observability by routing OpenTelemetry metrics to CloudWatch for granular usage and cost tracking.",
+      "lead_institution": "Amazon Web Services",
+      "tags": [
+        "LLM Agents",
+        "Observability",
+        "Amazon Bedrock",
+        "OpenTelemetry",
+        "CloudWatch"
+      ]
+    }
+  },
+  {
+    "title": "Enforcing data residency with single-Region Claude Code on Amazon Bedrock",
+    "link": "https://aws.amazon.com/blogs/machine-learning/enforcing-data-residency-with-single-region-claude-code-on-amazon-bedrock/",
+    "summary": "A regulated customer needed all Claude Code inference processed in a single AWS Region (London), not just in-geography. This post shows two ways to pin Claude Code on Amazon Bedrock to one Region: an application inference profile or the Mantle endpoint, paired with an IAM Region condition, plus how to verify compliance in AWS CloudTrail.",
+    "source": "Artificial Intelligence",
+    "published": "2026-08-06T16:21:54+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Enables **Claude Code**, Anthropic's agentic CLI tool, to operate within strict geographic boundaries by pinning inference to a single **Amazon Bedrock** Region.\n- Compares two architectural approaches: using **Application Inference Profiles** for cross-region resilience or the **Mantle endpoint** for specific VPC/account requirements.\n- Leverages **IAM Region conditions** and **AWS CloudTrail** logging to provide a robust framework for enforcing and auditing data residency compliance.",
+      "key_results": [
+        "Implementation of single-Region pinning for Claude Code agentic workflows.",
+        "Utilization of Application Inference Profiles to manage model routing and data residency.",
+        "Deployment of IAM policies using 'aws:RequestedRegion' to block non-compliant inference.",
+        "Configuration guidance for the Mantle endpoint to satisfy complex network isolation needs.",
+        "Standardized audit trail generation via CloudTrail for regulatory compliance reporting."
+      ],
+      "relevance_score": 7,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "AWS demonstrates how to pin Claude Code to a single Amazon Bedrock region to meet strict data residency requirements.",
+      "lead_institution": "AWS",
+      "tags": [
+        "Claude Code",
+        "Amazon Bedrock",
+        "Data Residency",
+        "LLM Agents",
+        "IAM Security"
+      ]
+    }
+  },
+  {
+    "title": "LLM optimization integration for Amazon SageMaker Python SDK",
+    "link": "https://aws.amazon.com/blogs/machine-learning/llm-optimization-integration-for-amazon-sagemaker-python-sdk/",
+    "summary": "The Amazon SageMaker Python SDK v3 now exposes generative AI inference recommendations in Amazon SageMaker AI directly in your notebook. Benchmark an endpoint, generate data-driven deployment recommendations, and deploy the recommended configuration without leaving your notebook workflow.",
+    "source": "Artificial Intelligence",
+    "published": "2026-08-06T16:08:12+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- The **Amazon SageMaker Python SDK v3** integrates generative AI inference recommendations directly into the notebook environment.\n- Architects can now **benchmark endpoints** to evaluate performance metrics and latency trade-offs without manual infrastructure provisioning.\n- The system generates **data-driven deployment recommendations**, optimizing hardware selection and instance types for specific LLM workloads.\n- This integration streamlines the **MLOps lifecycle** by allowing developers to transition from benchmarking to production deployment within a single workflow.",
+      "key_results": [
+        "Seamless integration of inference recommendations in SageMaker SDK v3.",
+        "In-notebook benchmarking for generative AI model endpoints.",
+        "Automated identification of cost-effective and high-performance instance types.",
+        "Simplified deployment of recommended configurations via one-click SDK commands.",
+        "Enhanced visibility into hardware-specific performance for large-scale models."
+      ],
+      "relevance_score": 6,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Amazon introduces SageMaker SDK v3 to automate LLM inference benchmarking and deployment recommendations directly within developer notebooks.",
+      "lead_institution": "Amazon",
+      "tags": [
+        "Amazon SageMaker",
+        "LLM Optimization",
+        "Inference Benchmarking",
+        "MLOps",
+        "Model Deployment"
+      ]
+    }
+  },
+  {
+    "title": "How Mobileye transformed support operations using Amazon Bedrock AgentCore",
+    "link": "https://aws.amazon.com/blogs/machine-learning/how-mobileye-transformed-support-operations-using-amazon-bedrock-agentcore/",
+    "summary": "In this post, we'll explore how Mobileye deployed an AI support agentic solution on Amazon Bedrock AgentCore - from the support bottleneck that sparked the idea, through the proof of concept that validated it, to the hybrid architecture that bridges on-premises systems with AWS cloud services. This approach is relevant for enterprises struggling to scale AI Agents while maintaining enterprise grade governance and security standards.",
+    "source": "Artificial Intelligence",
+    "published": "2026-08-05T18:09:03+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Mobileye implemented an **agentic support solution** using **Amazon Bedrock AgentCore** to resolve operational bottlenecks in their support lifecycle.\n- The system utilizes a **hybrid architecture** that securely bridges AWS cloud capabilities with **on-premises enterprise systems**, ensuring data sovereignty.\n- The deployment prioritizes **enterprise-grade governance**, focusing on scaling AI agents while maintaining strict security standards for internal support workflows.",
+      "key_results": [
+        "Deployment of autonomous agents to handle complex support queries.",
+        "Successful integration between AWS Bedrock and legacy on-premises databases.",
+        "Established a scalable framework for enterprise AI governance.",
+        "Reduction in manual ticket processing through automated agentic workflows.",
+        "Validated the AgentCore framework for high-security industrial applications."
+      ],
+      "relevance_score": 6,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Mobileye leverages Amazon Bedrock AgentCore to automate support workflows by bridging hybrid cloud and on-premises enterprise systems.",
+      "lead_institution": "Mobileye",
+      "tags": [
+        "LLM Agents",
+        "Amazon Bedrock",
+        "Enterprise AI",
+        "Hybrid Cloud",
+        "Support Automation"
+      ]
+    }
+  },
+  {
+    "title": "Run production AI agents in n8n with Amazon Bedrock AgentCore harness",
+    "link": "https://aws.amazon.com/blogs/machine-learning/run-production-ai-agents-in-n8n-with-amazon-bedrock-agentcore-harness/",
+    "summary": "Amazon Bedrock AgentCore harness is now generally available. Learn how to add it as an agent step in n8n workflows using a new open-source community node, and build agents with persistent memory, real tools, code execution, and VPC isolation \u2014 all from the n8n editor with no infrastructure or agent code.",
+    "source": "Artificial Intelligence",
+    "published": "2026-08-05T18:00:57+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- **Amazon Bedrock AgentCore harness** enters general availability, allowing developers to integrate production-ready agents directly into **n8n workflows** via an open-source node.\n- The architecture provides a robust environment for **LLM Agents** by supporting **VPC isolation** and sandboxed code execution for secure enterprise deployments.\n- Agents built with this harness feature **persistent memory** and native tool-calling capabilities, bridging the gap between low-code orchestration and professional-grade agentic behavior.\n- This integration significantly reduces engineering overhead by enabling full agent lifecycle management within the **n8n editor** without requiring custom infrastructure code.",
+      "key_results": [
+        "General availability of the Amazon Bedrock AgentCore harness for production use.",
+        "Launch of a new open-source community node specifically for n8n integration.",
+        "Implementation of stateful agent interactions through built-in persistent memory.",
+        "Enhanced security posture via VPC isolation and controlled code execution environments.",
+        "Seamless 'no-infrastructure' deployment path for complex multi-tool agentic workflows."
+      ],
+      "relevance_score": 7,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Amazon launches the Bedrock AgentCore harness to facilitate secure, production-ready LLM agent deployment via n8n's low-code interface.",
+      "lead_institution": "Amazon",
+      "tags": [
+        "LLM Agents",
+        "n8n",
+        "Amazon Bedrock",
+        "Agent Orchestration",
+        "Production AI"
+      ]
+    }
+  },
+  {
+    "title": "GeForce NOW Shakes Up August With 26 New Games",
+    "link": "https://blogs.nvidia.com/blog/geforce-now-thursday-august-2026-games-list/",
+    "summary": "August is here, bringing 26 new games for GeForce NOW members.\u00a0 Command the seas in World of Warships: Legends and discover what\u2019s next in the GeForce NOW library, starting with the eight newly added games this week.\u00a0 In addition, GeForce NOW is at the QuakeCon gaming conference this week in Grapevine, Texas, with hands-on experiences [&#8230;]",
+    "source": "NVIDIA Blog",
+    "published": "2026-08-06T13:00:11+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "<br>\u2022 NVIDIA expands its **GeForce NOW** cloud gaming ecosystem by adding 26 new titles to its library for August.<br>\u2022 The update focuses on **streaming accessibility** for titles like World of Warships: Legends, leveraging NVIDIA's global server infrastructure.<br>\u2022 The company is utilizing events like **QuakeCon** to showcase hardware performance and low-latency cloud gaming capabilities.",
+      "key_results": [
+        "Addition of 26 new titles to the GeForce NOW library",
+        "Availability of World of Warships: Legends for cloud streaming",
+        "Initial rollout of eight games in the first week of August",
+        "Hands-on hardware demonstrations at QuakeCon in Texas",
+        "Expansion of the service's supported gaming catalog to maintain market competitive edge"
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "NVIDIA adds 26 games to GeForce NOW to strengthen its position in the cloud gaming market.",
+      "lead_institution": "NVIDIA Blog",
+      "tags": [
+        "Cloud Gaming",
+        "GPU Infrastructure",
+        "NVIDIA",
+        "GeForce NOW",
+        "Gaming Trends"
+      ]
+    }
+  },
+  {
+    "title": "Into the Omniverse: How Open World Models Push the Frontier of Physical AI",
+    "link": "https://blogs.nvidia.com/blog/open-world-models-physical-ai/",
+    "summary": "In July, NVIDIA joined more than 200 companies and organizations in signing \u201cOpen Weights and American AI Leadership,\u201d an open letter arguing that AI leadership will be measured not by any single frontier model but by whether an open ecosystem reaches every sector.",
+    "source": "NVIDIA Blog",
+    "published": "2026-08-06T13:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- NVIDIA advocates for a shift toward an **open ecosystem** model, arguing that AI leadership is defined by sectoral reach rather than isolated frontier models.\n- The initiative supports the democratization of **open weights** to accelerate innovation across diverse industrial and physical AI applications.\n- Emphasis is placed on **Physical AI** and **World Models** as the next frontier, requiring collaborative development within a shared ecosystem.",
+      "key_results": [
+        "Endorsement of the 'Open Weights and American AI Leadership' open letter.",
+        "Participation of over 200 organizations in the collaborative AI advocacy group.",
+        "Strategic prioritization of ecosystem-wide accessibility over proprietary model gatekeeping.",
+        "Identification of open-source weights as a catalyst for industrial sector integration.",
+        "Alignment of Omniverse physical simulation goals with open-source AI development."
+      ],
+      "relevance_score": 3,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "NVIDIA joins over 200 organizations to advocate for open-weight models as the critical benchmark for global AI leadership.",
+      "lead_institution": "NVIDIA",
+      "tags": [
+        "Open Weights",
+        "Physical AI",
+        "AI Policy",
+        "World Models",
+        "NVIDIA Omniverse"
+      ]
+    }
+  },
+  {
+    "title": "Locking Pretrained Weights via Deep Low-Rank Residual Distillation",
+    "link": "https://machinelearning.apple.com/research/locking-pretrained-weights",
+    "summary": "The quality of open-weight language models has dramatically improved in recent years. Sharing weights greatly facilitates model adoption by enabling their use across diverse hardware and software platforms. They also allow for more open research and testing, to the extent that users can use them as checkpoints, fine-tune them according to their needs, and potentially redistribute them. In some cases, however, concerns on modifying these weights towards unauthorized uses may outweigh the pros of giving users such a freedom. Defending against such adaptation is non-trivial: since an adaptive\u2026",
+    "source": "Apple Machine Learning Research",
+    "published": "2026-08-06T00:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* Proposes a novel method for **locking pretrained weights** to prevent unauthorized fine-tuning or malicious adaptation of open-weight models.\n* Utilizes **Deep Low-Rank Residual Distillation** to create a weight structure that remains performant for inference but resists gradient-based updates.\n* Introduces a framework that balances the benefits of **open-source distribution** with the need for security controls against misuse.\n* Focuses on architectural modifications that make the model's performance **brittle to adaptation** while maintaining robust baseline capabilities.",
+      "key_results": [
+        "Successfully degrades unauthorized fine-tuning performance while maintaining inference accuracy.",
+        "Demonstrates that low-rank residuals can act as a security layer for LLM weights.",
+        "Shows resilience against standard weight restoration and reverse-engineering attempts.",
+        "Maintains competitive benchmark scores on standard LLM evaluation sets.",
+        "Provides a scalable approach for distributing 'read-only' style foundation model checkpoints."
+      ],
+      "relevance_score": 7,
+      "signal_type": "Paper",
+      "one_sentence_takeaway": "Apple Research introduces a weight-locking mechanism using low-rank residuals to prevent unauthorized fine-tuning of open-weight language models.",
+      "lead_institution": "Apple Machine Learning Research",
+      "tags": [
+        "Model Security",
+        "Model Fine-tuning",
+        "Open-Weight Models",
+        "Weight Distillation",
+        "AI Safety"
+      ]
+    }
+  },
+  {
+    "title": "DeepAmbigQA: Ambiguous Multi-hop Questions for Benchmarking LLM Answer Completeness",
+    "link": "https://machinelearning.apple.com/research/deepambigqa-multihop-questions",
+    "summary": "Large language models (LLMs) with integrated search tools show strong promise in open-domain question answering (QA), yet they often struggle to produce complete answer set to complex questions such as \u201cWhich actor from the film Heat won at least one Academy Award?\u201d, which requires (1) distinguishing between multiple films sharing the same title and (2) reasoning across a large set of actors to gather and integrate evidence. Existing QA benchmarks rarely evaluate both challenges jointly. To address this, we introduce DEEPAMBIGQAGEN, an automatic data generation pipeline that constructs QA\u2026",
+    "source": "Apple Machine Learning Research",
+    "published": "2026-08-06T00:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Introduces **DeepAmbigQA**, a benchmark designed to evaluate LLM performance on **ambiguous multi-hop questions** requiring exhaustive answer retrieval.\n- Features **DEEPAMBIGQAGEN**, an automated data generation pipeline that constructs complex QA pairs by cross-referencing entities with shared names across multiple reasoning steps.\n- Focuses on the metric of **answer completeness**, identifying a critical failure mode where models stop searching after finding a partial result.\n- Benchmarks current **RAG-enabled LLMs**, revealing significant gaps in their ability to integrate evidence and reason across large, disjointed search results.",
+      "key_results": [
+        "LLMs frequently fail to identify full answer sets in multi-hop scenarios despite having access to search tools.",
+        "Current QA benchmarks do not adequately test the intersection of entity disambiguation and multi-step reasoning.",
+        "The DEEPAMBIGQAGEN pipeline enables scalable creation of 'complete-set' challenges without manual labeling.",
+        "Search-integrated models often halt after a single successful hop, ignoring secondary valid interpretations of ambiguous queries.",
+        "Performance on DeepAmbigQA highlights a need for better evidence-integration strategies in LLM agent architectures."
+      ],
+      "relevance_score": 8,
+      "signal_type": "Paper",
+      "one_sentence_takeaway": "Apple Machine Learning Research introduces DeepAmbigQA to benchmark how effectively LLMs retrieve complete answer sets for ambiguous multi-hop questions.",
+      "lead_institution": "Apple Machine Learning Research",
+      "tags": [
+        "AI Evaluation",
+        "Multi-hop Reasoning",
+        "RAG",
+        "LLM Benchmarking",
+        "Entity Disambiguation"
+      ]
+    }
+  },
+  {
     "title": "Third-party cyber evaluations involving OpenAI models",
     "link": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
     "summary": "OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation.",
@@ -26,36 +476,6 @@
         "Model Evaluation",
         "Red Teaming",
         "Reasoning Models"
-      ]
-    }
-  },
-  {
-    "title": "From User Sequences to Scaling Laws: A Multi-Stage Architecture for Meta\u2019s Ads Ranking",
-    "link": "https://engineering.fb.com/2026/08/05/ml-applications/from-user-sequences-to-scaling-laws-a-multi-stage-architecture-for-metas-ads-ranking/",
-    "summary": "<p>Every day, Meta\u2019s recommendation platforms handle billions of user interactions, generating rich temporal signals that capture individual preferences and intent across products, ads, and content. In our 2024 post on sequence learning for ads recommendations, we showed how modeling the order and timing of user actions (rather than relying on static, manually engineered sparse features) [...]</p>\n<p><a class=\"btn btn-secondary understrap-read-more-link\" href=\"https://engineering.fb.com/2026/08/05/ml-applications/from-user-sequences-to-scaling-laws-a-multi-stage-architecture-for-metas-ads-ranking/\">Read More...</a></p>\n<p>The post <a href=\"https://engineering.fb.com/2026/08/05/ml-applications/from-user-sequences-to-scaling-laws-a-multi-stage-architecture-for-metas-ads-ranking/\">From User Sequences to Scaling Laws: A Multi-Stage Architecture for Meta\u2019s Ads Ranking</a> appeared first on <a href=\"https://engineering.fb.com\">Engineering at Meta</a>.</p>",
-    "source": "Engineering at Meta",
-    "published": "2026-08-05T19:20:20+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "<br>Meta evolves its ads ranking from static, manually engineered sparse features to **sequence learning**, capturing rich temporal signals from user interactions.<br>The system employs a **multi-stage architecture** to process billions of actions, prioritizing the order and timing of events to infer user intent.<br>The architecture validates the application of **scaling laws** in recommendation systems, demonstrating predictable performance gains as data and compute increase.",
-      "key_results": [
-        "Transitioned from manual feature engineering to automated sequence modeling.",
-        "Integrated temporal signals across diverse products and content types.",
-        "Established scaling laws for billion-scale recommendation platforms.",
-        "Optimized multi-stage inference for low-latency ads ranking.",
-        "Demonstrated increased predictive accuracy through deep temporal signal analysis."
-      ],
-      "relevance_score": 7,
-      "signal_type": "Engineering Blog",
-      "one_sentence_takeaway": "Meta leverages multi-stage architectures and scaling laws to transform user sequences into high-performance, automated ads ranking systems.",
-      "lead_institution": "Meta",
-      "tags": [
-        "Sequence Learning",
-        "Scaling Laws",
-        "Recommendation Systems",
-        "Ads Ranking",
-        "Multi-stage Architecture"
       ]
     }
   },
@@ -116,126 +536,6 @@
         "GitHub",
         "Software Engineering",
         "Generative AI"
-      ]
-    }
-  },
-  {
-    "title": "How LendingTree built a multi-agent mortgage assistant on Amazon Bedrock",
-    "link": "https://aws.amazon.com/blogs/machine-learning/how-lendingtree-built-a-multi-agent-mortgage-assistant-on-amazon-bedrock/",
-    "summary": "Learn how LendingTree built a production multi-agent mortgage assistant on Amazon Bedrock. Three coordinated agents use LangGraph, the Model Context Protocol, and Amazon Nova models with built-in guardrails to deliver 24/7 personalized mortgage guidance while meeting strict financial-services compliance.",
-    "source": "Artificial Intelligence",
-    "published": "2026-08-05T18:50:02+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "<br>\u2022 Implementation of a **multi-agent orchestration** architecture using **LangGraph** to coordinate three specialized agents for mortgage guidance.<br>\u2022 Integration of the **Model Context Protocol (MCP)** to standardize communication between the agents and external data sources or tools.<br>\u2022 Deployment on **Amazon Bedrock** leveraging **Amazon Nova** models to ensure low-latency, high-reasoning capabilities in a production environment.<br>\u2022 Hardened security posture using built-in **guardrails** to satisfy strict financial-services compliance and regulatory requirements.",
-      "key_results": [
-        "Orchestrated three distinct agents using LangGraph for complex task delegation.",
-        "Adopted Model Context Protocol (MCP) for extensible tool and data connectivity.",
-        "Utilized Amazon Nova models for cost-effective, high-performance reasoning.",
-        "Established a 24/7 automated mortgage advisory system with zero-human-intervention cycles.",
-        "Integrated enterprise-grade guardrails to filter sensitive financial data and ensure compliance."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Engineering Blog",
-      "one_sentence_takeaway": "LendingTree deploys a multi-agent system using LangGraph and Amazon Nova to automate compliant mortgage guidance at scale.",
-      "lead_institution": "LendingTree",
-      "tags": [
-        "LLM Agents",
-        "LangGraph",
-        "Model Context Protocol",
-        "Amazon Bedrock",
-        "Financial AI"
-      ]
-    }
-  },
-  {
-    "title": "How Mobileye transformed support operations using Amazon Bedrock AgentCore",
-    "link": "https://aws.amazon.com/blogs/machine-learning/how-mobileye-transformed-support-operations-using-amazon-bedrock-agentcore/",
-    "summary": "In this post, we'll explore how Mobileye deployed an AI support agentic solution on Amazon Bedrock AgentCore - from the support bottleneck that sparked the idea, through the proof of concept that validated it, to the hybrid architecture that bridges on-premises systems with AWS cloud services. This approach is relevant for enterprises struggling to scale AI Agents while maintaining enterprise grade governance and security standards.",
-    "source": "Artificial Intelligence",
-    "published": "2026-08-05T18:09:03+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "- Mobileye implemented an **agentic AI support system** using **Amazon Bedrock AgentCore** to resolve operational bottlenecks.\n- The solution utilizes a **hybrid architecture** that securely connects on-premises data systems with AWS cloud-native **generative AI** services.\n- Focuses on **enterprise-grade governance** and security, providing a blueprint for scaling **LLM Agents** in regulated environments.",
-      "key_results": [
-        "Deployment of an end-to-end agentic workflow for enterprise support.",
-        "Integration of legacy on-premises systems with cloud AI services.",
-        "Validated scalability of generative AI agents in production.",
-        "Implementation of standardized security and governance for LLMs.",
-        "Streamlined resolution of support bottlenecks through automated reasoning."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Engineering Blog",
-      "one_sentence_takeaway": "Mobileye leverages Amazon Bedrock AgentCore to automate support operations through a secure, hybrid cloud agentic architecture.",
-      "lead_institution": "Mobileye",
-      "tags": [
-        "LLM Agents",
-        "Amazon Bedrock",
-        "Hybrid Cloud",
-        "Enterprise AI",
-        "AgentCore"
-      ]
-    }
-  },
-  {
-    "title": "How we built an MCP bridge to give our AgentCore-hosted AI agent access to local MCP tools",
-    "link": "https://aws.amazon.com/blogs/machine-learning/how-we-built-an-mcp-bridge-to-give-our-agentcore-hosted-ai-agent-access-to-local-mcp-tools/",
-    "summary": "AI agents on Amazon Bedrock AgentCore run in the cloud, but users' tools and files live on their laptops. Learn how to build a secure MCP bridge that lets a cloud-hosted agent call local MCP servers by tunneling signed messages over the existing WebSocket connection through a browser extension and Chrome native messaging, with no open ports or VPN required.",
-    "source": "Artificial Intelligence",
-    "published": "2026-08-05T18:02:23+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n- Implements a **Model Context Protocol (MCP) bridge** that facilitates secure communication between cloud-hosted agents and local client environments.\n- Employs a unique architecture using **WebSocket tunneling** through a browser extension and Chrome native messaging to bypass the need for VPNs or port forwarding.\n- Utilizes **signed message integrity** to ensure that only authorized tool calls from the cloud-hosted Amazon Bedrock AgentCore are executed on the local host.\n- Provides a blueprint for **hybrid AI agents** that combine the scale of cloud reasoning with the privacy and utility of local file access.",
-      "key_results": [
-        "Successful execution of local MCP tools from an Amazon Bedrock cloud environment.",
-        "Elimination of network security risks by avoiding open inbound ports on user machines.",
-        "High-fidelity message tunneling using the existing browser WebSocket connection.",
-        "Seamless integration with Chrome native messaging for local process execution.",
-        "Architecture supports zero-trust principles for local resource access."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Engineering Blog",
-      "one_sentence_takeaway": "Amazon Bedrock develops an MCP bridge to securely connect cloud-hosted AI agents with local files via WebSocket tunneling.",
-      "lead_institution": "Amazon Bedrock",
-      "tags": [
-        "LLM Agents",
-        "MCP",
-        "Amazon Bedrock",
-        "Hybrid AI",
-        "Local Tools"
-      ]
-    }
-  },
-  {
-    "title": "Run production AI agents in n8n with Amazon Bedrock AgentCore harness",
-    "link": "https://aws.amazon.com/blogs/machine-learning/run-production-ai-agents-in-n8n-with-amazon-bedrock-agentcore-harness/",
-    "summary": "Amazon Bedrock AgentCore harness is now generally available. Learn how to add it as an agent step in n8n workflows using a new open-source community node, and build agents with persistent memory, real tools, code execution, and VPC isolation \u2014 all from the n8n editor with no infrastructure or agent code.",
-    "source": "Artificial Intelligence",
-    "published": "2026-08-05T18:00:57+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "The **Amazon Bedrock AgentCore** harness is now generally available, enabling the deployment of production-grade **LLM Agents** directly within **n8n** workflows.\nThe architecture utilizes a new **open-source community node** that abstracts agent infrastructure, allowing for **no-code** agent logic and tool definition.\nKey features include **VPC isolation** for secure enterprise data handling and **persistent memory** to maintain state across complex automated sessions.\nImpact simplifies the lifecycle of **Generative AI** agents by combining AWS-managed model security with n8n's visual automation orchestration.",
-      "key_results": [
-        "General availability of Amazon Bedrock AgentCore harness.",
-        "Launch of a new open-source n8n community node for agent integration.",
-        "Native support for persistent memory and stateful agent interactions.",
-        "Enterprise-grade security through VPC isolation and AWS infrastructure.",
-        "Elimination of custom boilerplate code for agent tool and memory management."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Engineering Blog",
-      "one_sentence_takeaway": "Amazon launches Bedrock AgentCore for n8n, enabling production-grade agents with persistent memory and VPC security in no-code workflows.",
-      "lead_institution": "Amazon",
-      "tags": [
-        "LLM Agents",
-        "n8n",
-        "Amazon Bedrock",
-        "No-code AI",
-        "Agent Orchestration"
       ]
     }
   },
@@ -2310,36 +2610,6 @@
     }
   },
   {
-    "title": "LoginTrap: Uncovering Task-Agnostic Phishing-Style Indirect Prompt Injection Attacks against LLM-based Web Agents",
-    "link": "http://arxiv.org/abs/2608.04741v1",
-    "summary": "LLM-based web agents automate user tasks by observing webpages and executing browser actions on behalf of users. As these agents operate on real web services, login becomes a sensitive authentication boundary because it involves credentials and sensitive information. Existing work shows that malicious webpage content can manipulate web agent actions, but it has not fully examined whether such content can induce login and cause end-to-end private data leakage. We study this attack surface and present LoginTrap, a task-agnostic login-inducing attack against LLM-based web agents. LoginTrap assumes a black box attacker that controls the webpage context and the induced login flow without knowing the user task or web agent internals. Under this threat model, LoginTrap uses webpage context to generate page-specific indirect injections through a fuzzing-inspired process, making login appear as a plausible prerequisite for continuing the task and guiding the agent to a controlled login page. We conduct a comprehensive analysis of LoginTrap across realistic web agent executions. The results show that LoginTrap reaches 86\\% average end-to-end attack success across LLM backbones and remains effective across agent architectures and defenses. These findings identify login inducement as a systematic authentication boundary risk and motivate further research on authentication-aware defenses for web agents.",
-    "source": "ArXiv",
-    "published": "2026-08-05T12:08:16+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Introduces **LoginTrap**, a novel framework for **indirect prompt injection** that specifically targets the authentication boundary of LLM-based web agents.\n- Employs a **fuzzing-inspired process** to generate task-agnostic injections that make controlled login pages appear as legitimate prerequisites for user tasks.\n- Operates under a **black-box threat model**, requiring no knowledge of the agent's internal architecture or the specific user task being executed.\n- Highlights a critical vulnerability in autonomous agents where **malicious webpage context** can manipulate browser actions to cause end-to-end private data leakage.",
-      "key_results": [
-        "Achieved an 86% average end-to-end attack success rate across various LLM backbones.",
-        "The attack remains effective across different agent architectures and existing defensive measures.",
-        "Identified that injections are most successful when they appear as plausible prerequisites to the agent's current goal.",
-        "Demonstrated that task-agnostic attacks can bypass security without knowing the user's specific intent.",
-        "Validated the systematic risk of authentication-inducing attacks in autonomous web-operating environments."
-      ],
-      "relevance_score": 9,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "Researchers reveal that LoginTrap achieves an 86% success rate in tricking LLM web agents into leaking credentials via injections.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "LLM Agents",
-        "Prompt Injection",
-        "AI Security",
-        "Web Automation",
-        "Indirect Injection"
-      ]
-    }
-  },
-  {
     "title": "Swept-source heterodyne detection for interferometry in the H band",
     "link": "http://arxiv.org/abs/2608.04739v1",
     "summary": "It is well established that direct-detection interferometry outperforms heterodyne interferometry in terms of signal-to-noise ratio at optical wavelengths, not only because of the limited electronic bandwidth of photodetectors (typically <100 GHz), but also due to the shot-noise contribution of the optical local oscillator. The large-scale production of high-quality and cost-effective telecom components in the J+H band, and more recently in the K band, may open new schemes for the heterodyne signal detection and processing (e.g. correlation) as well as for the transport, distribution and control of the local oscillator. We describe how high-repetition-rate frequency-swept sources and telecom components could be exploited to parallelize, at reasonable cost, a large number of coherent detectors to expand the spectral coverage. We also present a first laboratory single-channel proof of concept that achieves a signal-to-noise ratio (SNR) probably sufficient for observing the brightest stars in the H band with telescopes of ~1 m2 at short integration time (<100 ms).",
@@ -2366,36 +2636,6 @@
         "H Band",
         "Telecom Components",
         "Optical Physics"
-      ]
-    }
-  },
-  {
-    "title": "EviGraph: Evidence-Guided Autonomous Research Agents",
-    "link": "http://arxiv.org/abs/2608.04738v1",
-    "summary": "Autonomous research agents can generate hypotheses, execute experiments, and draft manuscripts, yet their outputs often contain unsupported claims and inconsistencies between research questions, experiments, results, and conclusions. We argue that this problem is partly architectural: existing systems organize research as sequential pipelines but do not explicitly maintain or validate the evolving claim-evidence structure across stages.In this paper, we introduce EviGraph, an autonomous research framework that represents the research process as a typed evidence graph containing Problem, Gap, Hypothesis, Experiment, Finding, and Claim nodes. The graph serves as the operational state of the agent rather than a post-hoc record. EviGraph inspects evidence chains for missing dependencies, semantic misalignment, and result-claim inconsistencies, localizes the earliest weak node, and regenerates its affected downstream subgraph. Graph checkpointing prevents unsuccessful repairs from corrupting previously validated evidence. Manuscripts are generated only after every retained claim is grounded in a validated evidence chain.Experiments on ARC-Bench-ML and NanoResearch-20 show that EviGraph outperforms the compared end-to-end research-agent baselines in overall research performance, improves Claim Support Rate by 40.19% over the strongest baseline, and achieves 87.73% Experimental Data Consistency. These results demonstrate the value of explicit evidence-state maintenance for reliable autonomous research.",
-    "source": "ArXiv",
-    "published": "2026-08-05T12:02:55+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Introduces **EviGraph**, an autonomous research framework that manages research states via a **typed evidence graph** instead of linear pipelines.\n- Uses specific nodes for **Problem, Gap, Hypothesis, Experiment, Finding, and Claim** to enforce logical alignment and grounding.\n- Employs **subgraph regeneration** and **graph checkpointing** to repair inconsistencies and prevent valid data corruption during the research process.\n- Requires every claim to be grounded in a **validated evidence chain** before generating final research manuscripts.",
-      "key_results": [
-        "Outperformed end-to-end research-agent baselines on ARC-Bench-ML and NanoResearch-20 benchmarks.",
-        "Improved Claim Support Rate by 40.19% compared to the strongest existing baseline.",
-        "Achieved 87.73% Experimental Data Consistency in generated research outputs.",
-        "Demonstrated that graph-based state maintenance effectively prevents hallucinated or unsupported claims.",
-        "Proved that localizing and regenerating affected subgraphs is superior to sequential re-running of research pipelines."
-      ],
-      "relevance_score": 9,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce EviGraph, a graph-based agent framework that increases research claim support by 40% using explicit evidence tracking.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "LLM Agents",
-        "Reasoning Models",
-        "Research Automation",
-        "Graph Representation",
-        "AI Evaluation"
       ]
     }
   },
@@ -2460,36 +2700,6 @@
     }
   },
   {
-    "title": "Diagnosing Tool-Selection Reasoning in LLM Agents with Canary Tools",
-    "link": "http://arxiv.org/abs/2608.04719v1",
-    "summary": "Agent evaluations tell us that a model picked the wrong tool, but rarely why. We introduce canary tools: diagnostic probe tools planted in an agent's Model Context Protocol (MCP) tool set, each engineered to probe one specific tool-selection weakness. A six-type taxonomy (semantic decoys, parameter traps, capability mirages, prerequisite blindness, temporal decoys, and granularity traps) turns a single \"wrong tool\" outcome into a multi-dimensional profile of how a model reasons about tools. We evaluate eight models -- six hosted and two 8B open-weight -- spanning three capability tiers, on 120 tasks across three canary-density conditions and three seeds (8,640 runs), plus a 2,880-run subtlety ablation. Task success is graded by a provider-independent judge, corroborated by a second independent judge (Cohen's kappa = 0.75). We report three findings. First, susceptibility drops sharply as models get more capable: the per-task canary susceptibility rate (CSR) ranges about 36x across models, lowest for Claude Opus 4.8 and highest for Llama 3.1 8B. Second, capability tier alone does not predict safety: the most susceptible hosted model is mid-tier, and within a provider the cheaper model can be the safer one. Third, the taxonomy is capability-stratified: capability mirages most reliably trap frontier models, while the other types are largely inert on strong models but fire on small open models, so they discriminate by capability rather than being weak. Softening each canary's give-away phrase leaves frontier CSR essentially unchanged, evidence that the probes measure reasoning, not phrase-spotting. Susceptibility also predicts task failure (Spearman rho = -0.34), while the most robust models are not significantly degraded by canary pressure. We release the framework, canary schemas, tasks, and logs.",
-    "source": "ArXiv",
-    "published": "2026-08-05T11:38:33+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n Introduces **Canary Tools**, a diagnostic framework using the **Model Context Protocol (MCP)** to probe specific tool-selection failure modes in LLM agents.\n Establishes a **six-type taxonomy** (e.g., semantic decoys, capability mirages) to convert binary \"wrong tool\" errors into multi-dimensional **reasoning profiles**.\n Analyzes the relationship between **model capability** and **susceptibility**, finding that frontier models are specifically vulnerable to \"capability mirages\" while smaller models fail on simpler semantic traps.\n Demonstrates that the **Canary Susceptibility Rate (CSR)** is a strong predictor of task failure, providing a more granular metric for agent evaluation than traditional success rates.",
-      "key_results": [
-        "Canary susceptibility varies 36x across model tiers, with Claude Opus 4.8 exhibiting the highest robustness.",
-        "Higher model capability does not automatically equate to higher safety, as some mid-tier hosted models were more susceptible than cheaper alternatives.",
-        "Capability mirages\u2014tools claiming impossible functions\u2014are the primary trap type that consistently fools frontier-class models.",
-        "Ablation studies prove the framework measures actual reasoning rather than simple phrase-spotting or keyword matching.",
-        "Susceptibility to canary traps correlates significantly with overall task failure (Spearman rho = -0.34)."
-      ],
-      "relevance_score": 9,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce Canary Tools to diagnose agent failures by mapping specific tool-selection reasoning traps across model capability tiers.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "LLM Agents",
-        "AI Evaluation",
-        "Tool Use",
-        "Reasoning Models",
-        "Model Context Protocol"
-      ]
-    }
-  },
-  {
     "title": "A 6G Integrated Sensing and Communication Framework for Railway Intrusion Detection and Collision Prediction",
     "link": "http://arxiv.org/abs/2608.04710v1",
     "summary": "Integrated Sensing and Communication (ISAC) combines sensing and communication to efficiently utilize wireless resources and is emerging as a key paradigm for next-generation wireless networks. By leveraging the wide bandwidth, high frequencies, and massive antenna arrays of 5G-Advanced and 6G systems, ISAC enables physical-layer sensing using Channel State Information (CSI). The 3rd Generation Partnership Project (3GPP) Release 19 identifies 32 potential ISAC use cases, with particular emphasis on detecting and tracking moving objects. In this work, we address the Sensing for Railway Intrusion Detection use case, where intruders, including wildlife, entering a railway track can pose serious collision risks. We generated 22,695 CSI matrices with corresponding ground truth using a 3D-rendered railway environment and the Sionna radio simulator. We developed a machine learning model combining a three-dimensional Convolutional Neural Network (3D CNN) and Bidirectional Long Short-Term Memory (BiLSTM) network to detect intruders in the track danger zone and estimate their real-time position relative to the train, velocity, and time to collision. On synthetic CSI data, the model achieves 99.57% intruder-detection accuracy on a balanced test set and a combined Mean Absolute Error (MAE) of 0.4240 for position, velocity, and time-to-collision prediction. These results demonstrate the potential of CSI-based ISAC sensing with machine learning for reliable railway intrusion detection. The complete codebase for CSI generation, preprocessing, and model development is publicly available at https://github.com/EdgeIntelligenceLab/6g-isac-railway-intrusion-detection.",
@@ -2516,36 +2726,6 @@
         "BiLSTM",
         "CSI Sensing",
         "Sionna Simulator"
-      ]
-    }
-  },
-  {
-    "title": "EmpaAva: An Open-source Agentic 3D-Avatar Empathetic Live Chatbot",
-    "link": "http://arxiv.org/abs/2608.04709v1",
-    "summary": "This paper presents EmpaAva, to our knowledge the first open-source, agentic 3D-avatar empathetic chatbot, which carries empathetic response generation (ERG) from text-only exchanges into live, face-to-face interaction. Through a video-call-like interface, a user speaks to a 3D digital human that reads their affect from speech and optional vision, and replies with emotional speech, lip-synced facial motion, and photorealistic 3D Gaussian rendering. At its core, an LLM coordinates a Tri-Agent Architecture, in which perception, empathetic response planning, and embodied rendering form a closed loop, paired with a Response Planning layer that compiles each reply into an executable multimodal plan, keeping voice, expression, and rendering on one empathetic intent. Building on strong open-source modules, EmpaAva supplies the intelligence that binds them into one controllable, inspectable experience. In automatic and human evaluations, EmpaAva surpasses text-only, 2D talking-face, and multimodal avatar baselines in emotion understanding, response quality, and audio-visual consistency. We open-source EmpaAva with an online live demo.",
-    "source": "ArXiv",
-    "published": "2026-08-05T11:23:40+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- **EmpaAva** introduces the first open-source **Tri-Agent Architecture** designed for real-time, empathetic 3D avatar interaction, integrating perception, response planning, and rendering into a closed loop.\n- The system utilizes **3D Gaussian Rendering** and photorealistic lip-syncing to bridge the gap between text-only empathetic response generation and live, face-to-face multimodal exchanges.\n- An underlying LLM coordinates the **Response Planning layer**, which translates emotional intent into an executable multimodal plan, ensuring synchronization between voice, facial expression, and movement.\n- By leveraging modular **open-source components**, the framework provides a controllable and inspectable pipeline for building sophisticated digital humans.",
-      "key_results": [
-        "Achieved superior emotion understanding compared to text-only and 2D talking-face baselines.",
-        "Validated a Tri-Agent feedback loop for real-time multimodal affect processing.",
-        "Demonstrated higher audio-visual consistency through specialized response planning layers.",
-        "Released a fully functional online live demo and open-source codebase for the research community.",
-        "Surpassed existing multimodal avatar benchmarks in both automatic and human-centered evaluations."
-      ],
-      "relevance_score": 9,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "EmpaAva researchers introduce an open-source agentic 3D avatar framework using a Tri-Agent Architecture for real-time empathetic human-AI interaction.",
-      "lead_institution": "ArXiv / EmpaAva Project Team",
-      "tags": [
-        "Multimodal AI",
-        "LLM Agents",
-        "3D Gaussian Splatting",
-        "Empathetic AI",
-        "Digital Humans"
       ]
     }
   },
@@ -2666,36 +2846,6 @@
         "Raman Spectroscopy",
         "Lithium-Ion Dynamics",
         "Material Science"
-      ]
-    }
-  },
-  {
-    "title": "Active-SWE: Benchmarking Coding Agents for Proactive Bug Fixing without Issue Reports",
-    "link": "http://arxiv.org/abs/2608.04682v1",
-    "summary": "Coding agents powered by large language models (LLMs) are increasingly adopted in software engineering (SWE) scenarios, capable of fixing a specific bug in large-scale codebase. However, existing SWE benchmarks typically assume that high-quality issue reports with detailed information are always available, which is easily violated in practice due to the complexity of report acquisition and curation. To address this, we introduce Active-SWE, a benchmark for evaluating coding agents on proactively discovering and fixing multiple bugs without report guidance, covering 1,663 tasks across six bug categories and eight languages. Beyond shifting the focus from existing reactive bug fixing to proactive bug fixing, Active-SWE enables a more in-depth evaluation by expanding the scope from fixing a specific recorded bug to multiple-bug fixing and potential bug discovery scenarios. To construct Active-SWE, we propose a novel difficulty-aware task formulation pipeline with a dual-track evaluation framework, facilitating comprehensive evaluation of proactive bug-fixing capability. Extensive experiments reveal that most state-of-the-art coding agents struggle with proactive bug-fixing tasks, demonstrating limited performance in locating and resolving recorded bugs, handling multiple bug fixing scenarios, and discovering valid potential bugs.",
-    "source": "ArXiv",
-    "published": "2026-08-05T10:50:01+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "<br>\u2022 Introduces **Active-SWE**, a benchmark specifically designed to evaluate **LLM-based coding agents** on their ability to proactively identify and repair bugs without the guidance of high-quality issue reports.<br>\u2022 Features a **difficulty-aware task formulation pipeline** covering 1,663 tasks across eight programming languages and six distinct bug categories to simulate real-world software maintenance.<br>\u2022 Utilizes a **dual-track evaluation framework** that assesses agents on their capability to resolve recorded bugs, manage multiple-bug scenarios, and discover previously undocumented potential bugs.<br>\u2022 Highlights the shift from **reactive bug fixing** to autonomous, proactive discovery, exposing significant performance gaps in current state-of-the-art models.",
-      "key_results": [
-        "Evaluated coding agents across 1,663 tasks involving eight different programming languages.",
-        "Most state-of-the-art coding agents struggle significantly with proactive bug discovery in the absence of issue reports.",
-        "The benchmark reveals a drastic performance decline when agents are required to handle multiple bugs simultaneously.",
-        "Current agents show limited capability in accurately locating bugs within large-scale codebases without guidance.",
-        "Establishes a new baseline for autonomous software engineering by testing discovery and resolution in tandem."
-      ],
-      "relevance_score": 9,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce Active-SWE to benchmark LLM agents on proactively discovering and fixing bugs without provided issue reports.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "LLM Agents",
-        "AI Evaluation",
-        "Software Engineering",
-        "Active-SWE",
-        "Automated Debugging"
       ]
     }
   },
@@ -2846,156 +2996,6 @@
         "Curvilinear Structures",
         "Image Synthesis",
         "Data Augmentation"
-      ]
-    }
-  },
-  {
-    "title": "Overcoming Statistical Bias in Action-Controllable World Models",
-    "link": "http://arxiv.org/abs/2608.04653v1",
-    "summary": "Action-conditioned world models aim to predict how visual environments evolve under an agent's actions. Yet future frames are often highly predictable from visual inertia and recurring motion patterns alone. This creates a shortcut: models can fit the data by exploiting statistical biases without making their visible dynamics meaningfully depend on the action. As a result, different actions may produce similar futures, while motion may persist even under zero action. The key question is how to reduce reliance on statistical shortcuts from dominating action-conditioned prediction. We argue that action control requires more than injecting action features; it requires enforcing consistency under counterfactual changes to actions and observations. Based on this insight, we introduce CoCo, a Counterfactual Consistency framework to enhance action controllability through two complementary constraints. Multi-step counterfactual consistency constrains reference, inverse-action, and zero-action rollouts, while action-spatial counterfactual consistency enforces consistent predictions under mirrored scenes and transformed actions. Together, they reduce reliance on statistical shortcuts from substituting for action-dependent dynamics. We further introduce Action Response Consistency (ARC) and Drift Energy (DE) to assess action controllability, together with Mini-SSMB for same-state, multi-action counterfactual evaluation. On Mini-SSMB, our full model achieved ARC_inv of 0.412 and ARC_ref of 0.483, while reducing DE by 17.07% relative to the baseline. On VP2 visual planning, it achieves the highest average success rate among SOTA models, at 73.1%. Experiments on BAIR and RoboNet further show that these gains preserve video prediction quality and transfer across model settings.",
-    "source": "ArXiv",
-    "published": "2026-08-05T10:10:36+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n\u2022 Introduces **CoCo (Counterfactual Consistency)**, a framework designed to prevent action-conditioned world models from relying on **statistical shortcuts** and visual inertia.\n\u2022 Implements **multi-step counterfactual consistency** to enforce dependencies between agent actions and environmental changes through inverse and zero-action rollouts.\n\u2022 Employs **action-spatial consistency** to ensure predictions remain robust across mirrored scenes and transformed action coordinates.\n\u2022 Proposes new evaluation metrics including **Action Response Consistency (ARC)** and **Drift Energy (DE)** to quantify action controllability specifically.",
-      "key_results": [
-        "Achieved an ARC_inv score of 0.412 and ARC_ref of 0.483 on the Mini-SSMB benchmark.",
-        "Reduced Drift Energy (DE) by 17.07% compared to baseline models.",
-        "Reached a 73.1% average success rate on VP2 visual planning tasks, outperforming SOTA models.",
-        "Demonstrated effective generalization across diverse datasets including BAIR and RoboNet.",
-        "Successfully mitigated 'phantom motion' where environments evolved despite zero-action inputs."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "Tsinghua University researchers introduce CoCo to improve action-controllability in world models by enforcing counterfactual and spatial consistency.",
-      "lead_institution": "Tsinghua University",
-      "tags": [
-        "World Models",
-        "Action Controllability",
-        "Counterfactual Reasoning",
-        "Visual Planning",
-        "Robotics"
-      ]
-    }
-  },
-  {
-    "title": "Active Learning Guided Design Space Refinement for Scalable Multi-Objective Bayesian Optimization in Materials Discovery",
-    "link": "http://arxiv.org/abs/2608.04651v1",
-    "summary": "Advanced materials discovery increasingly relies on machine learning and Bayesian optimization to explore large discrete design spaces under limited evaluation budgets. However, conventional Bayesian optimization (BO) can become inefficient as candidate spaces grow, often evaluating low-value regions before reaching informative areas. We propose an active-learning (AL)-guided adaptive search-space refinement framework combined with multi-objective BO to accelerate materials optimization while preserving Pareto-relevant regions. We evaluate the approach on CH4/N2 separation in covalent-organic frameworks and pressure-vessel design with material-direction stress components and thickness objectives. Results show that the AL-guided refinement reduces the candidate space by approximately half while preserving more than 99 percent of the original hypervolume. The reduced-space strategy improves early convergence and cumulative Pareto-front discovery from the BO, demonstrating efficient large-scale materials optimization across constrained autonomous materials discovery settings.",
-    "source": "ArXiv",
-    "published": "2026-08-05T10:10:13+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n\u2022 Proposes an **AL-guided adaptive search-space refinement** framework integrated with **Multi-Objective Bayesian Optimization (MOBO)** to address scalability in large discrete candidate spaces.\n\u2022 Utilizes **Active Learning** to prune low-value candidate regions, effectively reducing the computational overhead of standard BO while focusing on high-utility design areas.\n\u2022 Implements a strategy to preserve the **hypervolume** of the original Pareto-front, ensuring that critical trade-offs are not lost during the pruning process.\n\u2022 Demonstrates significantly improved **early convergence** and discovery rates in high-dimensional materials science optimization tasks.",
-      "key_results": [
-        "Reduced the candidate search space by approximately 50% through adaptive pruning.",
-        "Preserved over 99% of the original hypervolume during the refinement process.",
-        "Achieved faster early convergence compared to traditional multi-objective Bayesian optimization.",
-        "Validated successfully on complex materials tasks including CH4/N2 separation in covalent-organic frameworks.",
-        "Enhanced cumulative Pareto-front discovery in constrained autonomous discovery environments."
-      ],
-      "relevance_score": 6,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce an active-learning framework that halves search spaces while maintaining 99% Pareto hypervolume for materials discovery.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "Bayesian Optimization",
-        "Active Learning",
-        "Materials Science",
-        "Multi-Objective Optimization",
-        "Adaptive Search Space"
-      ]
-    }
-  },
-  {
-    "title": "Evaluating Theory of Mind in Reasoning Models: Robustness over Reasoning",
-    "link": "http://arxiv.org/abs/2608.04646v1",
-    "summary": "Large language models (LLMs) have recently shown strong performance on Theory of Mind (ToM) tests, prompting debate about the nature and validity of the underlying capabilities. At the same time, reasoning-oriented LLMs trained via reinforcement learning with verifiable rewards have demonstrated notable improvements across a range of benchmarks. In this work, we examine the behavior of such reasoning models in ToM tasks using novel adaptations of machine psychological experiments together with results from established benchmarks. We observe that reasoning models consistently exhibit increased robustness to prompt variations and task perturbations. Our analysis suggests these gains come at least partly from models being more robust at reaching the correct answer under prompt and task variation. We read this as evidence for a robustness-based account rather than for a new ToM-specific ability.",
-    "source": "ArXiv",
-    "published": "2026-08-05T10:05:53+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n\u2022 This study evaluates **Theory of Mind (ToM)** capabilities in **reasoning-oriented LLMs** optimized through reinforcement learning with verifiable rewards.\n\u2022 The research utilizes **machine psychological experiments** and task perturbations to distinguish between genuine social reasoning and prompt-dependent performance.\n\u2022 Findings indicate that performance improvements are primarily due to **increased robustness** in logical execution rather than a specialized ToM-specific cognitive module.\n\u2022 The architecture emphasizes how **System-2 reasoning** chains stabilize social inference under varied zero-shot conditions.",
-      "key_results": [
-        "Reasoning models show significantly higher consistency across varied prompt templates than standard LLMs.",
-        "Performance gains in ToM benchmarks are highly correlated with general-purpose reasoning robustness.",
-        "Models exhibit lower sensitivity to psychological distractors within task descriptions.",
-        "Consistency in machine psychological experiments suggests improved logical reliability over specialized social intelligence.",
-        "Verifiable reward-based RL training effectively reduces performance variance in zero-shot social inference."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers demonstrate that reasoning models improve Theory of Mind performance primarily through enhanced robustness to prompt perturbations.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "Theory of Mind",
-        "Reasoning Models",
-        "Reinforcement Learning",
-        "Model Evaluation",
-        "Robustness"
-      ]
-    }
-  },
-  {
-    "title": "AI Literacy for Legal Translation: Developing Digital Resilience",
-    "link": "http://arxiv.org/abs/2608.04641v1",
-    "summary": "Generative AI is transforming legal translation by introducing opportunities alongside linguistic, technical, legal, ethical and cognitive risks. This chapter examines the implications of AI for professional legal translation and proposes an AI literacy framework tailored to the profession. It argues that AI does not change the fundamental objectives of legal translation but requires an extension of professional competence through AI literacy. The proposed framework comprises four mutually reinforcing dimensions, foundational, procedural, critical and strategic, and conceptualises AI literacy as a transversal component of legal translation competence that fosters digital resilience. It further discusses the pedagogical implications of this framework by proposing classroom activities designed to develop AI literacy in legal translator education, enabling future translators to integrate AI critically, responsibly and in accordance with professional standards.",
-    "source": "ArXiv",
-    "published": "2026-08-05T09:58:59+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Proposes a **four-dimensional AI literacy framework** (foundational, procedural, critical, and strategic) to address the technical and ethical risks of GenAI in specialized domains.\n- Focuses on building **digital resilience** within the legal translation profession by extending traditional competence to include LLM validation and prompt management.\n- Highlights the shift from purely linguistic tasks to **AI-mediated workflows** that require transversal cognitive and critical evaluation skills.",
-      "key_results": [
-        "Definition of a 4-pillar AI literacy framework for legal translation professionals.",
-        "Categorization of GenAI risks into linguistic, technical, legal, ethical, and cognitive domains.",
-        "Conceptualization of AI literacy as a core component of modern digital resilience.",
-        "Development of pedagogical classroom activities for training legal translators in GenAI usage.",
-        "Establishment of professional standards for critical and responsible AI integration in legal sectors."
-      ],
-      "relevance_score": 4,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers propose a transversal AI literacy framework to enhance digital resilience and professional standards in GenAI-assisted translation.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "Generative AI Trends",
-        "AI Literacy",
-        "Legal Translation",
-        "Digital Resilience",
-        "AI Ethics"
-      ]
-    }
-  },
-  {
-    "title": "HELENA:Hierarchical Sparse Coordination over a Union of Complementary Topologies for MAS",
-    "link": "http://arxiv.org/abs/2608.04634v1",
-    "summary": "LLM-based multi-agent systems (MAS) typically optimize a single topology, restricting reasoning to a narrow trajectory and limiting comprehensive analytical capacity. Naively merging multiple topologies into a composite graph introduces redundant noise propagation across irrelevant connections, degrading solution quality. To address this dilemma, we propose \\textbf{Hierarchical Sparse Coordination over a Union of Complementary Topologies for MAS (HELENA)}, a multi-agent framework that balances diverse reasoning paths with sparse task-dependent execution. \\helena{} constructs a union MAS graph from complementary candidate topologies selected via Monte Carlo Tree Search and Determinantal Point Process, broadening the reasoning trajectory for comprehensive analysis of complex problems. A Hierarchical Sparse Coordination module then activates only a sparse subgraph at each step while agents exchange compressed latent briefs to suppress redundant noise propagation. Finally, a Local Self-Refinement stage identifies decision units with discrepancy evidence and rewrites them only when contrastive evidence simultaneously confirms a reliable solution-side failure and a challenger-side improvement. Experiments across eight benchmarks show that \\helena{} achieves state-of-the-art results on all benchmarks, with an average gain of \\pctup{3.47} over the strongest baseline and up to \\pctup{10.34} on MMLU-Pro, achieving larger improvements on harder benchmarks at a reasonable additional cost.",
-    "source": "ArXiv",
-    "published": "2026-08-05T09:49:30+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- **HELENA** is a multi-agent system (MAS) framework that addresses the limitations of single-topology reasoning by constructing a union of complementary topologies selected via **Monte Carlo Tree Search (MCTS)** and **Determinantal Point Process (DPP)**.\n- It implements a **Hierarchical Sparse Coordination** mechanism that dynamically activates task-relevant subgraphs and utilizes **compressed latent briefs** to minimize noise propagation during agent communication.\n- The architecture features a **Local Self-Refinement** phase that utilizes contrastive evidence to identify and rewrite failing decision units only when a verified improvement is identified.\n- The framework is designed to scale analytical capacity for complex problems without the performance degradation typically associated with naive graph merging.",
-      "key_results": [
-        "Achieved state-of-the-art results across eight distinct benchmarks.",
-        "Delivered an average performance gain of 3.47% over the strongest existing baselines.",
-        "Observed a significant 10.34% improvement on the challenging MMLU-Pro benchmark.",
-        "Demonstrated higher performance gains on harder benchmarks compared to simpler tasks.",
-        "Maintained a reasonable computational cost while significantly broadening reasoning trajectories."
-      ],
-      "relevance_score": 9,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "Researchers introduce HELENA, a multi-agent framework using sparse coordination over union topologies to achieve SOTA reasoning performance.",
-      "lead_institution": "ArXiv Research",
-      "tags": [
-        "LLM Agents",
-        "Multi-Agent Systems",
-        "Reasoning Models",
-        "Topology Optimization",
-        "Sparse Coordination"
       ]
     }
   }
