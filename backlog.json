@@ -1,1 +1,302 @@
-[]
+[
+  {
+    "title": "Universitas Gadjah Mada, Indosat and NVIDIA Open Indonesia\u2019s First University AI Center to Develop Local AI Talent",
+    "link": "https://blogs.nvidia.com/blog/ugm-indosat-nvidia-ai-technology-center/",
+    "summary": "Indonesia is taking charge of its AI future. This week, the Ministry of Communication and Digital Affairs (Komdigi), Indosat Ooredoo Hutchison (Indosat or IOH), NVIDIA and Universitas Gadjah Mada (UGM) launched the UGM Indosat NVIDIA AI Technology Center (NVAITC) in Yogyakarta \u2014 the country\u2019s first university-based AI technology center. Established under Indonesia\u2019s AI Center of [&#8230;]",
+    "source": "NVIDIA Blog",
+    "published": "2026-08-14T17:13:05+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "<br>\u2022 The establishment of the **UGM Indosat NVIDIA AI Technology Center (NVAITC)** marks a strategic shift toward **sovereign AI** and localized infrastructure in Indonesia.<br>\u2022 The center provides access to **NVIDIA's accelerated computing** ecosystem, bridging the gap between academic research and industrial AI application requirements.<br>\u2022 The initiative focuses on **human capital development**, aiming to cultivate a workforce proficient in specialized AI domains to support regional digital transformation.",
+      "key_results": [
+        "Launch of Indonesia's first university-based AI technology center.",
+        "Formation of a tripartite collaboration between UGM, Indosat Ooredoo Hutchison, and NVIDIA.",
+        "Integration of enterprise-grade AI resources into the Indonesian higher education curriculum.",
+        "Strategic alignment with Indonesia's national digital sovereignty and AI development goals.",
+        "Establishment of a local hub for training and research in high-performance computing."
+      ],
+      "relevance_score": 3,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "NVIDIA and UGM launch Indonesia\u2019s first university AI center to accelerate local talent development and sovereign AI infrastructure.",
+      "lead_institution": "Universitas Gadjah Mada",
+      "tags": [
+        "Sovereign AI",
+        "AI Education",
+        "Accelerated Computing",
+        "Digital Sovereignty",
+        "Indonesia"
+      ]
+    }
+  },
+  {
+    "title": "ICE Shot a Journalist and Threw Him in Detention. He's Approaching 300 Days",
+    "link": "https://theintercept.com/2026/08/16/ricardo-parias-ice-detention-journalist-los-angeles/",
+    "summary": "<p>Article URL: <a href=\"https://theintercept.com/2026/08/16/ricardo-parias-ice-detention-journalist-los-angeles/\">https://theintercept.com/2026/08/16/ricardo-parias-ice-detention-journalist-los-angeles/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49323157\">https://news.ycombinator.com/item?id=49323157</a></p>\n<p>Points: 102</p>\n<p># Comments: 49</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-08-16T20:05:24+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* The article documents the **prolonged detention** of journalist Ricardo Parias by ICE, following an incident where he was shot by agents.\n* It highlights **legal and civil rights** challenges faced by independent media members during law enforcement encounters.\n* The report focuses on the **lack of transparency** and accountability in federal detention processes spanning nearly 300 days.",
+      "key_results": [
+        "Journalist Ricardo Parias has been held in ICE detention for approximately 300 days.",
+        "The detention followed a violent encounter where Parias was shot by federal agents.",
+        "Legal advocates argue the detention violates basic press freedoms and due process.",
+        "The case has gained traction on platforms like Hacker News, highlighting civil liberty concerns.",
+        "No clear timeline for release or trial has been established despite public pressure."
+      ],
+      "relevance_score": 1,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "The Intercept reports on the 300-day detention of a journalist by ICE, highlighting significant civil liberty and press concerns.",
+      "lead_institution": "The Intercept",
+      "tags": [
+        "Civil Liberties",
+        "Journalism",
+        "ICE",
+        "Law Enforcement",
+        "Human Rights"
+      ]
+    }
+  },
+  {
+    "title": "The Trumps' Crypto Project Just Got One Step Closer to Becoming a Bank",
+    "link": "https://www.motherjones.com/politics/2026/08/donald-trump-world-liberty-regulatory-approval/",
+    "summary": "<p>Article URL: <a href=\"https://www.motherjones.com/politics/2026/08/donald-trump-world-liberty-regulatory-approval/\">https://www.motherjones.com/politics/2026/08/donald-trump-world-liberty-regulatory-approval/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49322979\">https://news.ycombinator.com/item?id=49322979</a></p>\n<p>Points: 41</p>\n<p># Comments: 29</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-08-16T19:41:18+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- The Trump-backed **World Liberty Financial** crypto venture has reportedly achieved a regulatory milestone, signaling a move toward broader **banking-style operations** within the decentralized finance space.\n- The initiative utilizes a **governance token model** and seeks to integrate traditional financial services with **blockchain technology**, potentially influencing future crypto-regulatory frameworks.\n- The impact focuses on the intersection of **political influence** and **fintech regulation**, highlighting potential shifts in how private digital asset platforms are overseen by federal authorities.",
+      "key_results": [
+        "World Liberty Financial receives a step toward regulatory approval.",
+        "The project targets a transition from a standard DeFi platform to a bank-like entity.",
+        "Focus on governance tokens as a central mechanism for platform control.",
+        "Potential for setting new precedents in cryptocurrency and banking law.",
+        "Increased scrutiny on the intersection of executive power and digital finance."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Mother Jones reports that World Liberty Financial is advancing toward banking status, signaling a shift in crypto-political regulation.",
+      "lead_institution": "Mother Jones",
+      "tags": [
+        "Cryptocurrency",
+        "DeFi",
+        "Regulation",
+        "Fintech",
+        "Governance Tokens"
+      ]
+    }
+  },
+  {
+    "title": "St Lucie Nuclear Reactor Unit 1 manually shutdown, 3 control rods drop into core",
+    "link": "https://www.wptv.com/news/treasure-coast/region-st-lucie-county/saint-lucie-nuclear-power-plant-unit-1-manually-shut-down-after-3-control-rods-drop-into-reactor-core",
+    "summary": "<p>Article URL: <a href=\"https://www.wptv.com/news/treasure-coast/region-st-lucie-county/saint-lucie-nuclear-power-plant-unit-1-manually-shut-down-after-3-control-rods-drop-into-reactor-core\">https://www.wptv.com/news/treasure-coast/region-st-lucie-county/saint-lucie-nuclear-power-plant-unit-1-manually-shut-down-after-3-control-rods-drop-into-reactor-core</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49320856\">https://news.ycombinator.com/item?id=49320856</a></p>\n<p>Points: 149</p>\n<p># Comments: 113</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-08-16T15:16:06+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n\u2022 Operators at the **St. Lucie Nuclear Power Plant** performed a manual shutdown of Unit 1 after three **control rods** unexpectedly dropped into the reactor core.\n\u2022 The incident required immediate intervention to stabilize the **fission process** and ensure the reactor remained within safe thermal parameters.\n\u2022 Technical investigations are currently focused on the **control rod drive mechanisms** and potential failures in the electrical control systems that manage rod positioning.",
+      "key_results": [
+        "Three control rods dropped simultaneously into the reactor core.",
+        "Plant operators successfully initiated a manual reactor trip.",
+        "The facility remains in a safe, stable shutdown condition.",
+        "No radioactive material was released during the event.",
+        "Regulatory bodies have been notified for an investigation into the mechanical or electrical cause."
+      ],
+      "relevance_score": 1,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Florida Power & Light manually shut down St. Lucie Unit 1 after a control rod drop triggered safety protocols.",
+      "lead_institution": "Florida Power & Light",
+      "tags": [
+        "Nuclear Energy",
+        "Industrial Safety",
+        "Infrastructure",
+        "Power Grid",
+        "Mechanical Engineering"
+      ]
+    }
+  },
+  {
+    "title": "GPS and the Lost Art of Getting Lost",
+    "link": "https://www.newyorker.com/news/annals-of-inquiry/gps-and-the-lost-art-of-getting-lost",
+    "summary": "<p>Article URL: <a href=\"https://www.newyorker.com/news/annals-of-inquiry/gps-and-the-lost-art-of-getting-lost\">https://www.newyorker.com/news/annals-of-inquiry/gps-and-the-lost-art-of-getting-lost</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49320673\">https://news.ycombinator.com/item?id=49320673</a></p>\n<p>Points: 69</p>\n<p># Comments: 59</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-08-16T14:53:14+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* The article examines the **cognitive degradation** associated with total reliance on GPS, arguing that delegating spatial reasoning to algorithms reduces **hippocampal engagement**.\n* It contrasts **active wayfinding** (mental mapping) with **passive navigation** (turn-by-turn instructions), noting that the latter lacks the technical feedback loops necessary for environmental mastery.\n* The piece discusses the **algorithmic impact** on human behavior, suggesting that automation creates a \"closed-loop\" system that discourages curiosity and reduces the human capacity for recovery during system failures.",
+      "key_results": [
+        "GPS usage correlates with lower activity in the hippocampus compared to manual navigation.",
+        "Constant digital guidance leads to 'automation bias' where users ignore physical reality for screen data.",
+        "Mental mapping is identified as a foundational exercise for broader problem-solving and reasoning skills.",
+        "The transition from exploration to optimization diminishes the human ability to handle 'edge case' environmental changes.",
+        "Socio-technical systems now prioritize efficiency over the cognitive benefits of serendipity and spatial awareness."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "The New Yorker explores how GPS automation degrades human spatial reasoning and reduces the cognitive benefits of environmental exploration.",
+      "lead_institution": "The New Yorker",
+      "tags": [
+        "Spatial Reasoning",
+        "Human-Computer Interaction",
+        "Cognitive Automation",
+        "Navigation Algorithms",
+        "Technological Impact"
+      ]
+    }
+  },
+  {
+    "title": "Credit card debt rises to $1.26T, nearing all-time record",
+    "link": "https://abc7.com/story/credit-card-debt-rises-126-trillion-nearing-time-record/19667289/",
+    "summary": "<p>Article URL: <a href=\"https://abc7.com/story/credit-card-debt-rises-126-trillion-nearing-time-record/19667289/\">https://abc7.com/story/credit-card-debt-rises-126-trillion-nearing-time-record/19667289/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49315232\">https://news.ycombinator.com/item?id=49315232</a></p>\n<p>Points: 63</p>\n<p># Comments: 92</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-08-15T23:22:59+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- **Credit card debt** in the United States has climbed to $1.26 trillion, nearing an all-time record as consumers grapple with persistent inflation.\n- The current **economic framework** reveals a significant uptick in delinquency rates, indicating mounting pressure on household financial stability.\n- Data suggests that **high interest rates** are a primary driver in compounding balances, creating a potential headwind for future consumer spending.",
+      "key_results": [
+        "Total US credit card debt has reached $1.26 trillion.",
+        "The figure is nearing the previous all-time historical peak.",
+        "Delinquency rates across credit categories are trending upward.",
+        "Inflationary pressures are cited as a key cause for increased borrowing.",
+        "Economic analysts warn of long-term impacts on consumer purchasing power."
+      ],
+      "relevance_score": 1,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "ABC7 reports that American credit card debt has surged to $1.26 trillion, indicating rising financial strain on consumers.",
+      "lead_institution": "ABC7",
+      "tags": [
+        "Macroeconomics",
+        "Consumer Debt",
+        "Finance",
+        "Inflation",
+        "US Economy"
+      ]
+    }
+  },
+  {
+    "title": "Show HN: Bribes.fyi \u2013 Compare bribes statistics department wise",
+    "link": "https://bribes.fyi/compare",
+    "summary": "<p>Article URL: <a href=\"https://bribes.fyi/compare\">https://bribes.fyi/compare</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49314765\">https://news.ycombinator.com/item?id=49314765</a></p>\n<p>Points: 50</p>\n<p># Comments: 31</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-08-15T22:11:16+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Bribes.fyi provides a **crowdsourced data visualization platform** designed to track and compare bribery statistics across various government departments.\n- The architecture utilizes a **public reporting interface** to aggregate user-submitted data points into a centralized database for cross-departmental analysis.\n- The platform aims to create **institutional transparency** by quantifying the frequency and monetary value of corruption within public service sectors.",
+      "key_results": [
+        "Departmental ranking of bribe frequencies.",
+        "Quantitative comparison of average bribe amounts.",
+        "Categorization of reports by specific government services.",
+        "Public dashboard for real-time corruption heatmaps.",
+        "Anonymized submission portal for whistleblower data."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Bribes.fyi launches a crowdsourced data platform to visualize corruption statistics across government departments, promoting transparency via public reporting.",
+      "lead_institution": "Bribes.fyi",
+      "tags": [
+        "Civic Tech",
+        "Data Visualization",
+        "Transparency",
+        "Corruption Tracking",
+        "Open Data"
+      ]
+    }
+  },
+  {
+    "title": "TreasuryDirect: Prepare for ID.me \u2013 Your New Way to Log In",
+    "link": "https://www.treasurydirect.gov/savings-bonds/idme-one-month/",
+    "summary": "<p>Article URL: <a href=\"https://www.treasurydirect.gov/savings-bonds/idme-one-month/\">https://www.treasurydirect.gov/savings-bonds/idme-one-month/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49312465\">https://news.ycombinator.com/item?id=49312465</a></p>\n<p>Points: 57</p>\n<p># Comments: 62</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-08-15T17:30:02+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- **TreasuryDirect** is transitioning its legacy authentication system to **ID.me**, a third-party identity verification service used by federal agencies.\n- The move replaces internal credential management with a **federated identity model**, requiring users to complete external identity proofing.\n- The update focuses on enhancing **security protocols** and implementing high-assurance multi-factor authentication (MFA) to prevent unauthorized access to savings bonds.",
+      "key_results": [
+        "Transition to ID.me becomes mandatory for account access.",
+        "Existing internal login methods are being deprecated.",
+        "One-month preparation window provided to users for account updates.",
+        "Integration of standardized digital identity verification workflows.",
+        "Shift toward commercial-off-the-shelf (COTS) identity solutions for government portals."
+      ],
+      "relevance_score": 1,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "TreasuryDirect implements ID.me to modernize identity verification and enhance security protocols for savings bond account access.",
+      "lead_institution": "TreasuryDirect",
+      "tags": [
+        "Identity Verification",
+        "Cybersecurity",
+        "Government Technology",
+        "Authentication",
+        "ID.me"
+      ]
+    }
+  },
+  {
+    "title": "Europe's scorched landscapes seen from space after summer heatwaves",
+    "link": "https://www.bbc.com/news/articles/c4gxy0wqqd9o",
+    "summary": "<p>Article URL: <a href=\"https://www.bbc.com/news/articles/c4gxy0wqqd9o\">https://www.bbc.com/news/articles/c4gxy0wqqd9o</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49312413\">https://news.ycombinator.com/item?id=49312413</a></p>\n<p>Points: 119</p>\n<p># Comments: 129</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-08-15T17:21:26+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- The article details how **satellite imagery** from the Copernicus program is used to document the physical degradation of European landscapes following extreme heatwaves.\n- It emphasizes the use of **remote sensing** technology to monitor environmental shifts, specifically identifying regions of high vegetation stress and extensive fire damage.\n- The coverage highlights the role of **Earth Observation** data in providing a macro-scale view of climate-related impacts on biodiversity and land use.",
+      "key_results": [
+        "Visual confirmation of massive scorched Earth zones in Mediterranean regions.",
+        "Identification of record-breaking vegetation stress levels across central Europe.",
+        "Utilization of Sentinel-2 multispectral data for environmental assessment.",
+        "Correlation between prolonged heat domes and visible landscape browning.",
+        "Deployment of space-based assets for rapid wildfire damage quantification."
+      ],
+      "relevance_score": 1,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "The BBC reports that ESA satellite imagery reveals the extensive scale of scorched landscapes across Europe after extreme summer heatwaves.",
+      "lead_institution": "BBC News",
+      "tags": [
+        "Satellite Imagery",
+        "Earth Observation",
+        "Climate Change",
+        "Remote Sensing",
+        "Environmental Monitoring"
+      ]
+    }
+  },
+  {
+    "title": "Secondhand book sales are booming. Is it because of AI?",
+    "link": "https://www.bbc.co.uk/news/articles/cp3rprx2wl4o",
+    "summary": "<p>Article URL: <a href=\"https://www.bbc.co.uk/news/articles/cp3rprx2wl4o\">https://www.bbc.co.uk/news/articles/cp3rprx2wl4o</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49310725\">https://news.ycombinator.com/item?id=49310725</a></p>\n<p>Points: 69</p>\n<p># Comments: 72</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-08-15T14:08:55+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\u2022 Examines the surge in secondhand book sales driven by **automated pricing algorithms** and scanning tools used by professional resellers for market arbitrage.<br>\u2022 Explores the 'analog backlash' where consumers seek physical media as a refuge from the proliferation of **AI-generated digital content**.<br>\u2022 Analyzes the impact of **recommendation engines** and social media trends on inventory turnover in physical retail environments.<br>\u2022 Highlights how **generative AI** trends are indirectly boosting the value of 'human-verified' physical artifacts in the age of digital saturation.",
+      "key_results": [
+        "Significant year-over-year growth in the global secondhand book market.",
+        "Professionalization of book scouting through automated scanning and real-time data apps.",
+        "Emergence of a consumer preference for physical goods to combat digital and AI fatigue.",
+        "Increased efficiency in marketplace logistics driven by automated inventory management.",
+        "Correlation between social media algorithmic curation and the popularity of physical reading."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "The BBC reports that AI-driven pricing tools and digital fatigue are fueling a significant surge in secondhand book sales.",
+      "lead_institution": "BBC News",
+      "tags": [
+        "Market Trends",
+        "Algorithmic Pricing",
+        "Generative AI Impact",
+        "Consumer Behavior",
+        "E-commerce"
+      ]
+    }
+  }
+]
