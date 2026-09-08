@@ -1,5 +1,395 @@
 [
   {
+    "title": "Supporting independent journalism in Ukraine",
+    "link": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
+    "summary": "OpenAI, AIRPPU and WAN-IFRA launch an AI program to help Ukrainian news organizations strengthen innovation, resilience, and independent journalism.",
+    "source": "OpenAI News",
+    "published": "2026-09-07T00:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- OpenAI, AIRPPU, and WAN-IFRA have launched a strategic AI program specifically designed to bolster the **innovation and resilience** of Ukrainian newsrooms.\n- The initiative aims to provide access to **Generative AI** tools to support high-quality, **independent journalism** under challenging operational conditions.\n- The program focuses on technical assistance to help media organizations modernize workflows and improve **content distribution efficiency**.",
+      "key_results": [
+        "Formation of a tripartite partnership between OpenAI, AIRPPU, and WAN-IFRA.",
+        "Provision of AI resources to Ukrainian news organizations.",
+        "Focused support for independent journalism and media resilience.",
+        "Goal to drive digital innovation in conflict-affected newsrooms.",
+        "Strengthening the local information ecosystem against disinformation."
+      ],
+      "relevance_score": 2,
+      "signal_type": "Release",
+      "one_sentence_takeaway": "OpenAI partners with AIRPPU and WAN-IFRA to support Ukrainian journalism through strategic Generative AI tool integration and innovation.",
+      "lead_institution": "OpenAI",
+      "tags": [
+        "Generative AI",
+        "Journalism",
+        "Media Innovation",
+        "OpenAI",
+        "Social Impact"
+      ]
+    }
+  },
+  {
+    "title": "Leaving VMware just got harder after Broadcom pulled VDDK downloads",
+    "link": "https://www.virtualizationhowto.com/2026/09/leaving-vmware-just-got-harder-after-broadcom-pulled-vddk-downloads/",
+    "summary": "<p>Article URL: <a href=\"https://www.virtualizationhowto.com/2026/09/leaving-vmware-just-got-harder-after-broadcom-pulled-vddk-downloads/\">https://www.virtualizationhowto.com/2026/09/leaving-vmware-just-got-harder-after-broadcom-pulled-vddk-downloads/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49602699\">https://news.ycombinator.com/item?id=49602699</a></p>\n<p>Points: 89</p>\n<p># Comments: 46</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-09-07T20:32:55+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Broadcom has removed public access to the **Virtual Disk Development Kit (VDDK)**, a fundamental SDK required for third-party tools to interact with VMware virtual disks.\n- This restriction directly impacts the **architecture of migration tools**, which utilize VDDK for efficient data transport and block-level access during VM conversions.\n- The move significantly increases **technical friction** for enterprises attempting to off-ramp from VMware to alternative hypervisors like Proxmox or Nutanix AHV.",
+      "key_results": [
+        "VDDK downloads are no longer available on public VMware/Broadcom repositories.",
+        "Third-party developers must now navigate complex entitlement portals for SDK access.",
+        "Automated migration pipelines are broken due to the lack of accessible libraries.",
+        "The change enforces a higher degree of platform lock-in for legacy enterprise workloads.",
+        "Backup and disaster recovery vendors face new integration hurdles for VADP-based services."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Broadcom restricts access to VMware's VDDK, increasing the technical friction for enterprises attempting to migrate to alternative hypervisors.",
+      "lead_institution": "VirtualizationHowTo",
+      "tags": [
+        "VMware",
+        "Broadcom",
+        "Cloud Infrastructure",
+        "Vendor Lock-in",
+        "Migration Tools"
+      ]
+    }
+  },
+  {
+    "title": "Emacs Bedrock 2.0 Released",
+    "link": "https://lambdaland.org/posts/2026-09-06-bedrock-v2/",
+    "summary": "<p>Article URL: <a href=\"https://lambdaland.org/posts/2026-09-06-bedrock-v2/\">https://lambdaland.org/posts/2026-09-06-bedrock-v2/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49602490\">https://news.ycombinator.com/item?id=49602490</a></p>\n<p>Points: 35</p>\n<p># Comments: 0</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-09-07T20:12:12+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Emacs Bedrock 2.0 provides a **minimalist, modular starter kit** for Emacs 29+, prioritizing built-in features over external package bloat.\n- The architecture leverages **Eglot (LSP)** and **Vertico** for a modern IDE experience while maintaining a \"clean slate\" philosophy for user customization.\n- This update focuses on **reproducibility and stability**, ensuring that the configuration serves as a robust foundation for \"Vibe Coding\" and high-efficiency development environments.",
+      "key_results": [
+        "Transitioned to a more modular configuration using use-package for better performance.",
+        "Standardized on Eglot as the primary Language Server Protocol client for code intelligence.",
+        "Enhanced out-of-the-box support for modern Emacs 29+ built-ins like treesit.",
+        "Optimized search and navigation workflows using the Vertico/Consult/Orderless stack.",
+        "Reduced configuration complexity to improve long-term maintenance for power users."
+      ],
+      "relevance_score": 4,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Lambdaland releases Emacs Bedrock 2.0, providing a minimalist, LSP-ready configuration starter kit for developers seeking a lightweight coding environment.",
+      "lead_institution": "Lambdaland",
+      "tags": [
+        "Emacs",
+        "Developer Experience",
+        "LSP",
+        "Open Source",
+        "IDE"
+      ]
+    }
+  },
+  {
+    "title": "Replaceable but Employed: Automation and the Meaning of Work",
+    "link": "https://www.nber.org/papers/w35559",
+    "summary": "<p>Article URL: <a href=\"https://www.nber.org/papers/w35559\">https://www.nber.org/papers/w35559</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49601814\">https://news.ycombinator.com/item?id=49601814</a></p>\n<p>Points: 58</p>\n<p># Comments: 51</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-09-07T19:06:01+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n\u2022 Analyzes the structural shift in labor where **AI-driven automation** replaces core task execution, leaving humans in oversight or data-validation roles.\n\u2022 Explores the psychological impact of **task delegation to algorithms**, finding that workers feel increasingly replaceable even when their employment status remains secure.\n\u2022 Investigates the **economic trade-offs** between efficiency gains from Generative AI and the long-term reduction in worker motivation and institutional knowledge retention.",
+      "key_results": [
+        "Automation of core job functions leads to a significant decline in perceived 'meaning of work'.",
+        "Workers in highly automated roles report higher levels of alienation and lower long-term career commitment.",
+        "Wage premiums are often insufficient to offset the negative psychological impact of feeling 'replaceable' by AI.",
+        "The shift from creative execution to 'human-in-the-loop' monitoring alters the value proposition of skilled labor.",
+        "Organizations face hidden costs in turnover and decreased innovation when AI dominates the task architecture."
+      ],
+      "relevance_score": 4,
+      "signal_type": "Paper",
+      "one_sentence_takeaway": "NBER researchers demonstrate that automation reduces job meaning, impacting worker retention even when employment and wages remain stable.",
+      "lead_institution": "National Bureau of Economic Research",
+      "tags": [
+        "Automation",
+        "Labor Economics",
+        "AI Ethics",
+        "Workforce Trends",
+        "Generative AI Impact"
+      ]
+    }
+  },
+  {
+    "title": "Watch Los Angeles get built, one building at a time (1880\u20132026)",
+    "link": "https://lax-skyline.parcelscope.net/",
+    "summary": "<p>Article URL: <a href=\"https://lax-skyline.parcelscope.net/\">https://lax-skyline.parcelscope.net/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49601655\">https://news.ycombinator.com/item?id=49601655</a></p>\n<p>Points: 219</p>\n<p># Comments: 104</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-09-07T18:52:06+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- The project utilizes **high-resolution spatial datasets** to animate the historical and projected construction of Los Angeles from 1880 to 2026.\n- The architecture leverages **WebGL-based rendering** and vector tiles to efficiently display thousands of 3D building footprints in a web browser.\n- This data visualization serves as a **temporal digital twin**, allowing for the analysis of urban density, land-use evolution, and historical architectural trends.",
+      "key_results": [
+        "Visualizes nearly 150 years of urban growth through interactive 3D mapping.",
+        "Aggregates fragmented historical parcel records into a unified chronological timeline.",
+        "Incorporates future development projections based on current building permits and planning data.",
+        "Optimizes large-scale geospatial data for low-latency browser performance.",
+        "Demonstrates the intersection of GIS data, urban planning, and interactive storytelling."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "ParcelScope visualizes Los Angeles architectural history from 1880 to 2026 using interactive 3D mapping and historical geospatial datasets.",
+      "lead_institution": "ParcelScope",
+      "tags": [
+        "GIS",
+        "Data Visualization",
+        "Urban Planning",
+        "WebGL",
+        "Geospatial Data"
+      ]
+    }
+  },
+  {
+    "title": "Tell HN: OpenAI brings back 5 hour limit for plus and business standard users",
+    "link": "https://news.ycombinator.com/item?id=49600233",
+    "summary": "<p>In case you're wondering why the limits behave so very different from last week. Also: this makes limit resets kind woth significantly less.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49600233\">https://news.ycombinator.com/item?id=49600233</a></p>\n<p>Points: 120</p>\n<p># Comments: 133</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-09-07T16:40:32+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- **OpenAI** has reportedly reinstated a **5-hour usage limit** for ChatGPT Plus and Business Standard tiers, reverting from previous more flexible windows.\n- This policy change affects **compute resource allocation**, specifically impacting power users who utilize the platform for intensive coding or research tasks.\n- The adjustment highlights the ongoing challenges of managing **inference costs** and GPU demand across a massive global user base.",
+      "key_results": [
+        "Reintroduction of a 5-hour rolling window for usage limits.",
+        "Plus and Business Standard users are the primary affected tiers.",
+        "Limit resets are reportedly less frequent or impactful under the new policy.",
+        "Increased friction reported by power users and developers on Hacker News.",
+        "Strategic shift likely aimed at stabilizing capacity for OpenAI's tiered service levels."
+      ],
+      "relevance_score": 4,
+      "signal_type": "Release",
+      "one_sentence_takeaway": "OpenAI reinstates a five-hour usage limit for Plus and Business Standard tiers, restricting high-volume workflows and compute access.",
+      "lead_institution": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "Rate Limiting",
+        "ChatGPT",
+        "Compute Allocation",
+        "Inference Costs"
+      ]
+    }
+  },
+  {
+    "title": "Apparently CodePen 2.0 sends data to their servers as you type",
+    "link": "https://news.ycombinator.com/item?id=49596976",
+    "summary": "<p>They send all typed into editor input to codepen.dev almost immediately (you would see in 1-2 sec after you typed your secret that it appears in respective Network/Response tab) even before one saved it. I tested this with a unique marker: after typing it into index.html, CodePen ran a build with \"save:false\", and the marker then appeared verbatim in the HTML served from the generated \"*.codepen.dev preview\". Thus, if you ever entered some secrets in there by mistake consider them compromized even if you did not publish/save the pen</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49596976\">https://news.ycombinator.com/item?id=49596976</a></p>\n<p>Points: 108</p>\n<p># Comments: 56</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-09-07T11:22:40+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- CodePen 2.0 implements **real-time data synchronization**, transmitting editor input to backend servers within 1-2 seconds of user typing.\n- The system triggers **automated builds** with a \"save:false\" status, yet still processes and serves the raw input in generated preview HTML.\n- This architectural choice creates a significant **security vulnerability** where accidental entry of secrets or API keys results in immediate server-side storage and exposure.\n- The behavior highlights a shift in **cloud-based IDE architectures** toward aggressive synchronization, often at the expense of client-side data privacy.",
+      "key_results": [
+        "Transmission latency of editor content to codepen.dev is approximately 1-2 seconds.",
+        "Builds are generated on the server even when the 'save' flag is explicitly false.",
+        "Unsaved content is rendered verbatim in the HTML of the preview subdomain.",
+        "Sensitive data is compromised upon entry, regardless of whether the 'Pen' is ever saved or published.",
+        "Network traffic analysis confirms immediate exfiltration of raw editor input to remote servers."
+      ],
+      "relevance_score": 4,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "CodePen 2.0 transmits unsaved editor input to servers in real-time, potentially compromising sensitive data before users manually save.",
+      "lead_institution": "CodePen",
+      "tags": [
+        "Web Security",
+        "Cloud IDE",
+        "Data Privacy",
+        "Developer Tools",
+        "Frontend Development"
+      ]
+    }
+  },
+  {
+    "title": "'You Can See Everything' Review: Nathan Fielder's Doc About Elizabeth Holmes",
+    "link": "https://variety.com/2026/film/reviews/nathan-fielder-surprise-film-telluride-elizabeth-holmes-1236853513/",
+    "summary": "<p>Article URL: <a href=\"https://variety.com/2026/film/reviews/nathan-fielder-surprise-film-telluride-elizabeth-holmes-1236853513/\">https://variety.com/2026/film/reviews/nathan-fielder-surprise-film-telluride-elizabeth-holmes-1236853513/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49596119\">https://news.ycombinator.com/item?id=49596119</a></p>\n<p>Points: 301</p>\n<p># Comments: 255</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-09-07T09:33:39+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- **Nathan Fielder** premiered a surprise documentary titled 'You Can See Everything' at the Telluride Film Festival, examining the persona of Theranos founder **Elizabeth Holmes**.\n- The film employs a **meta-narrative approach** to deconstruct the mechanics of fraud and the performance of leadership within the Silicon Valley ecosystem.\n- While the content is non-technical, it addresses themes of **deception and narrative construction** that parallel modern concerns regarding AI-generated misinformation and synthetic identities.",
+      "key_results": [
+        "Premiere of a surprise documentary by Nathan Fielder at Telluride 2026.",
+        "Critical analysis of Elizabeth Holmes' public and private behavior post-conviction.",
+        "Investigation into the cultural fascination with 'fake it till you make it' startup culture.",
+        "High social engagement on Hacker News reflecting industry interest in founder psychology.",
+        "Identification of Fielder's specific filmmaking techniques as a form of social engineering."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Variety reviews Nathan Fielder's surprise documentary about Elizabeth Holmes, focusing on psychological deception rather than technical machine learning innovations.",
+      "lead_institution": "Variety",
+      "tags": [
+        "Elizabeth Holmes",
+        "Nathan Fielder",
+        "Silicon Valley",
+        "Documentary",
+        "Social Engineering"
+      ]
+    }
+  },
+  {
+    "title": "Live map of public transport in Belgium",
+    "link": "https://openbaarvervoerbelgie.be/",
+    "summary": "<p>Article URL: <a href=\"https://openbaarvervoerbelgie.be/\">https://openbaarvervoerbelgie.be/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49595865\">https://news.ycombinator.com/item?id=49595865</a></p>\n<p>Points: 186</p>\n<p># Comments: 77</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-09-07T09:02:47+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- The application provides a **real-time geospatial visualization** of the entire Belgian public transit network by aggregating multiple regional datasets.\n- It utilizes **GTFS-Realtime (General Transit Feed Specification)** protocols to stream live location and delay data for trains, trams, and buses.\n- The architecture focuses on **data orchestration** from disparate sources like NMBS/SNCB, De Lijn, TEC, and STIB/MIVB into a single unified map interface.",
+      "key_results": [
+        "Aggregation of national and regional Belgian transit data.",
+        "Real-time tracking of vehicle positions across the country.",
+        "Integration of live delay information for passengers.",
+        "High performance rendering of multiple concurrent data points.",
+        "Demonstration of the utility of open transit data standards."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Openbaarvervoerbelgie.be launches an interactive map utilizing GTFS-Realtime feeds to provide a live view of Belgium's public transport network.",
+      "lead_institution": "Openbaarvervoerbelgie.be",
+      "tags": [
+        "Geospatial Data",
+        "GTFS",
+        "Real-time Visualization",
+        "Open Data",
+        "Public Transit"
+      ]
+    }
+  },
+  {
+    "title": "OpenAI 2025 financials $38.5B loss ahead of IPO",
+    "link": "https://qz.com/openai-leaked-financials-losses-revenue-ipo-061626",
+    "summary": "<p>Article URL: <a href=\"https://qz.com/openai-leaked-financials-losses-revenue-ipo-061626\">https://qz.com/openai-leaked-financials-losses-revenue-ipo-061626</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49594296\">https://news.ycombinator.com/item?id=49594296</a></p>\n<p>Points: 33</p>\n<p># Comments: 6</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-09-07T05:41:13+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "<br>\u2022 OpenAI projects a **$38.5 billion net loss** for 2025, underscoring the extreme capital intensity of developing and scaling **frontier AI models**.<br>\u2022 While revenue is expected to climb to **$10.6 billion**, the burn rate reflects massive investments in **compute infrastructure** and GPU procurement necessary for the next generation of training.<br>\u2022 This financial trajectory highlights a pivot from R&D to a high-cost **industrialization phase**, where the economic viability of **Generative AI Trends** depends on massive scaling rather than immediate profitability.",
+      "key_results": [
+        "Projected 2025 revenue of $10.6 billion.",
+        "Projected 2025 net loss of $38.5 billion.",
+        "Capital expenditure primarily driven by training costs for GPT-5 and beyond.",
+        "Operating costs are growing significantly faster than current subscription and API revenue.",
+        "Financial disclosures are part of a strategic roadmap leading toward a potential IPO."
+      ],
+      "relevance_score": 4,
+      "signal_type": "Release",
+      "one_sentence_takeaway": "OpenAI forecasts a $38.5 billion loss in 2025 due to massive infrastructure investments required for training frontier AI models.",
+      "lead_institution": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "Generative AI Trends",
+        "GPU Compute",
+        "AI Economics",
+        "GPT-5"
+      ]
+    }
+  },
+  {
+    "title": "Has anybody seen my keys? A key-hierarchy strategy for rack-level security",
+    "link": "https://rfd.shared.oxide.computer/rfd/0301",
+    "summary": "<p>Article URL: <a href=\"https://rfd.shared.oxide.computer/rfd/0301\">https://rfd.shared.oxide.computer/rfd/0301</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49593066\">https://news.ycombinator.com/item?id=49593066</a></p>\n<p>Points: 52</p>\n<p># Comments: 3</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-09-07T02:14:59+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Proposes a **hierarchical key management strategy** designed specifically for securing multi-tenant hardware at the rack level.\n- Utilizes a robust **Root of Trust (RoT)** to derive subordinate keys, ensuring that a compromise of an individual node does not expose the entire system.\n- Focuses on the **lifecycle management** of encryption keys, including automated rotation and revocation policies within the Oxide Rack architecture.\n- Implements **hardware-backed security** to protect data at rest and ensure secure communication across the rack's internal backplane.",
+      "key_results": [
+        "Defined a multi-level Key Derivation Function (KDF) architecture for distributed hardware.",
+        "Established clear security boundaries between global rack secrets and local node-level secrets.",
+        "Integrated hardware-based secure elements for verifiable root-of-trust operations.",
+        "Streamlined key rotation processes to minimize operational friction in secure environments.",
+        "Enhanced tenant isolation by binding encryption keys to specific physical and logical resource allocations."
+      ],
+      "relevance_score": 3,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Oxide Computer proposes a hierarchical key-management architecture to enhance hardware-level security and tenant isolation in modern cloud racks.",
+      "lead_institution": "Oxide Computer Company",
+      "tags": [
+        "Infrastructure Security",
+        "Key Management",
+        "Hardware Security",
+        "Cloud Computing",
+        "Encryption"
+      ]
+    }
+  },
+  {
+    "title": "Show HN: GET Together \u2013 A social network where you don't need POST to Post",
+    "link": "https://gettogether.dev",
+    "summary": "<p>Article URL: <a href=\"https://gettogether.dev\">https://gettogether.dev</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49592840\">https://news.ycombinator.com/item?id=49592840</a></p>\n<p>Points: 102</p>\n<p># Comments: 54</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-09-07T01:41:11+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "<br>\u2022 GET Together introduces a **satirical social network** architecture that utilizes **HTTP GET requests** for state-changing operations typically reserved for POST.<br>\u2022 The project explores the technical boundaries of **browser URI length limits** and server-side handling of non-idempotent parameters.<br>\u2022 It serves as a commentary on **web standards** and the security implications of automated link pre-fetching by browsers and crawlers.<br>\u2022 The implementation highlights the friction between **RESTful design principles** and unconventional \"vibe-driven\" engineering experiments.",
+      "key_results": [
+        "Mutation of application state via standard URL parameters.",
+        "Bypassing of traditional form-submission patterns for content creation.",
+        "Exposure of security risks associated with non-idempotent GET actions.",
+        "Engagement with Hacker News community regarding unconventional web architecture.",
+        "Demonstration of minimal viable social interaction logic without complex headers."
+      ],
+      "relevance_score": 2,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "GET Together launches a satirical social platform that challenges REST standards by performing all state mutations through GET requests.",
+      "lead_institution": "GET Together",
+      "tags": [
+        "Web Architecture",
+        "HTTP Protocol",
+        "Experimental Dev",
+        "REST Satire",
+        "Vibe Coding"
+      ]
+    }
+  },
+  {
+    "title": "NetBSD 9.5 released and EOL for NetBSD-9",
+    "link": "https://blog.netbsd.org/tnf/entry/netbsd_9_5_released_and",
+    "summary": "<p>Article URL: <a href=\"https://blog.netbsd.org/tnf/entry/netbsd_9_5_released_and\">https://blog.netbsd.org/tnf/entry/netbsd_9_5_released_and</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49587636\">https://news.ycombinator.com/item?id=49587636</a></p>\n<p>Points: 149</p>\n<p># Comments: 15</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-09-06T15:44:24+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "<br>\u2022 The **NetBSD Project** has released version **9.5**, representing the final maintenance update for the stable 9.x release branch.<br>\u2022 This release focuses on **critical bug fixes** and security enhancements to stabilize the environment before the series reaches its **End-of-Life (EOL)**.<br>\u2022 Users are strongly encouraged to migrate to **NetBSD 10** to maintain support for modern hardware and receive ongoing security patches.<br>\u2022 The architecture maintains its signature **cross-platform portability**, allowing the operating system to function across diverse and legacy hardware targets.",
+      "key_results": [
+        "Official release of NetBSD 9.5 as a stable maintenance update.",
+        "Declaration of End-of-Life (EOL) status for the NetBSD-9 series.",
+        "Inclusion of final security patches and stability improvements for the 9.x branch.",
+        "Consolidation of various bug fixes since the release of version 9.4.",
+        "Formal recommendation for users to upgrade to the more recent NetBSD 10.x series."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "The NetBSD Project releases version 9.5 to provide a final stable update before retiring the 9.x branch.",
+      "lead_institution": "The NetBSD Project",
+      "tags": [
+        "Operating Systems",
+        "NetBSD",
+        "System Administration",
+        "Open Source",
+        "Legacy Support"
+      ]
+    }
+  },
+  {
     "title": "An Alien Mind",
     "link": "https://openai.com/index/an-alien-mind",
     "summary": "Jakub Pachocki reflects on increasingly capable AI and the challenge of keeping it aligned. He calls for stronger safeguards and international coordination.",
@@ -26,156 +416,6 @@
         "Superintelligence",
         "Reasoning Models",
         "AI Governance"
-      ]
-    }
-  },
-  {
-    "title": "Project HydraFusion: Frontier quality via multi-model orchestration",
-    "link": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/",
-    "summary": "<p>In controlled offline evaluations, HydraFusion\u2019s selective coding workflows matched or exceeded the evaluated Opus 5 baseline while reducing estimated workflow cost. Now available as a research preview in GitHub Copilot.</p>\n<p>The post <a href=\"https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/\">Project HydraFusion: Frontier quality via multi-model orchestration</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
-    "source": "The GitHub Blog",
-    "published": "2026-09-04T16:04:14+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "<br>\u2022 GitHub's **HydraFusion** implements a multi-model orchestration layer designed to route coding tasks dynamically across different Large Language Models.<br>\u2022 The system leverages **selective coding workflows** to maintain frontier-level performance while optimizing for resource utilization and latency.<br>\u2022 By using an orchestration approach, it achieves **frontier quality** by combining the strengths of various models rather than relying on a single monolithic engine.<br>\u2022 The architecture is focused on achieving parity with high-end models like **Opus 5** at a fraction of the estimated operational cost.",
-      "key_results": [
-        "Matched or exceeded the performance of the Opus 5 baseline in controlled offline evaluations.",
-        "Achieved significant reduction in estimated workflow costs through efficient model routing.",
-        "Validated the efficacy of selective workflows for complex coding tasks.",
-        "Integrated directly into GitHub Copilot as a research preview feature.",
-        "Demonstrated that multi-model ensembles can outperform single frontier models in domain-specific tasks."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Engineering Blog",
-      "one_sentence_takeaway": "GitHub introduces HydraFusion to orchestrate multiple models for frontier-quality coding while significantly reducing inference costs.",
-      "lead_institution": "GitHub",
-      "tags": [
-        "Model Orchestration",
-        "GitHub Copilot",
-        "Cost Optimization",
-        "AI Coding",
-        "Multi-Model Fusion"
-      ]
-    }
-  },
-  {
-    "title": "Deploy a multimodal WhatsApp ordering assistant with Amazon Bedrock AgentCore",
-    "link": "https://aws.amazon.com/blogs/machine-learning/deploy-a-multimodal-whatsapp-ordering-assistant-with-amazon-bedrock-agentcore/",
-    "summary": "Learn how to deploy a multimodal WhatsApp ordering assistant that takes customer orders through text, voice notes, and real-time voice calls on a single business number, built on Amazon Bedrock AgentCore with Amazon Nova 2. The channel and ordering layers stay separate, and one shared memory recognizes each customer across all three channels.",
-    "source": "Artificial Intelligence",
-    "published": "2026-09-04T21:45:52+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n- Implements a **multimodal assistant** architecture using **Amazon Bedrock AgentCore** and the **Amazon Nova 2** model for cross-media reasoning.\n- Decouples the **channel layer** from the **ordering logic**, allowing the system to process text, asynchronous voice notes, and real-time voice calls independently.\n- Integrates a **shared memory layer** that ensures persistent customer context and state across different interaction types on a single WhatsApp business number.",
-      "key_results": [
-        "Seamless switching between text and voice within a single WhatsApp thread.",
-        "Real-time voice call handling integrated directly into agentic workflows.",
-        "Deployment of Amazon Nova 2 for high-performance multimodal understanding.",
-        "Architectural separation of communication channels and business transaction layers.",
-        "Centralized session management for cross-channel customer recognition."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Engineering Blog",
-      "one_sentence_takeaway": "AWS demonstrates building a multimodal WhatsApp assistant using Bedrock AgentCore to unify text and voice via shared memory.",
-      "lead_institution": "AWS",
-      "tags": [
-        "LLM Agents",
-        "Multimodal AI",
-        "Amazon Bedrock",
-        "Voice AI",
-        "AgentCore"
-      ]
-    }
-  },
-  {
-    "title": "Designing lifecycle policies for AgentCore memory",
-    "link": "https://aws.amazon.com/blogs/machine-learning/designing-lifecycle-policies-for-agentcore-memory/",
-    "summary": "Long-running AI agents accumulate outdated memories that degrade quality and create compliance risk. Learn how to design memory lifecycle policies for Amazon Bedrock AgentCore: scoring, consolidating, and pruning agent memories on a nightly AWS Step Functions workflow, with a deployable AWS CDK stack.",
-    "source": "Artificial Intelligence",
-    "published": "2026-09-04T17:20:04+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n- Implements **memory lifecycle management** for **Amazon Bedrock AgentCore** to mitigate performance degradation and compliance risks from stale data.\n- Utilizes a nightly **AWS Step Functions** workflow to automate the **scoring, consolidating, and pruning** of agent memory stores.\n- Provides a deployable **AWS CDK stack** to integrate automated memory maintenance into production-grade **LLM Agent** architectures.\n- Enhances agent reliability by ensuring only relevant, high-value context is retained within long-term retrieval systems.",
-      "key_results": [
-        "Automated memory pruning reduces noise and improves retrieval accuracy.",
-        "Nightly consolidation workflows lower token consumption for long-running agent sessions.",
-        "Data compliance is enforced through policy-driven expiration of outdated interactions.",
-        "Scoring algorithms differentiate between transient conversation data and persistent knowledge.",
-        "CDK-based deployment provides a standardized blueprint for agent memory governance."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Engineering Blog",
-      "one_sentence_takeaway": "AWS introduces a memory lifecycle framework for Bedrock AgentCore to automate memory pruning and consolidation using Step Functions.",
-      "lead_institution": "Amazon Web Services",
-      "tags": [
-        "LLM Agents",
-        "Memory Management",
-        "Amazon Bedrock",
-        "AgentCore",
-        "AWS Step Functions"
-      ]
-    }
-  },
-  {
-    "title": "Build a Physical AI model factory with NVIDIA Cosmos 3 on SageMaker HyperPod",
-    "link": "https://aws.amazon.com/blogs/machine-learning/build-a-physical-ai-model-factory-with-nvidia-cosmos-3-on-sagemaker-hyperpod/",
-    "summary": "Building a Physical AI system takes a continuous pipeline, not a single training job. This post shows how to run that model factory (synthetic data generation, post-training, and closed-loop evaluation with NVIDIA Cosmos 3) on a persistent, resilient Amazon SageMaker HyperPod cluster on Amazon EKS, with GPU goodput as the metric that matters.",
-    "source": "Artificial Intelligence",
-    "published": "2026-09-04T16:16:00+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n\u2022 Implements a **Physical AI model factory** architecture that transitions from isolated training jobs to a continuous, automated pipeline.\n\u2022 Integrates **NVIDIA Cosmos 3** for high-fidelity synthetic data generation and closed-loop evaluation within a persistent **Amazon EKS** environment.\n\u2022 Leverages **Amazon SageMaker HyperPod** to ensure cluster resilience and high-scale performance for long-running foundation model post-training.\n\u2022 Prioritizes **GPU goodput** as the core performance metric to optimize resource utilization and training efficiency in distributed settings.",
-      "key_results": [
-        "Transitioned Physical AI development from static jobs to a continuous pipeline workflow.",
-        "Integrated NVIDIA Cosmos 3 for specialized synthetic data generation and world modeling.",
-        "Deployed a resilient training infrastructure using SageMaker HyperPod on Amazon EKS.",
-        "Established a closed-loop evaluation system for real-time model performance validation.",
-        "Optimized training throughput by focusing on GPU goodput across persistent clusters."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Engineering Blog",
-      "one_sentence_takeaway": "NVIDIA and AWS launch a Physical AI factory using Cosmos 3 and SageMaker HyperPod to automate continuous model training.",
-      "lead_institution": "NVIDIA and AWS",
-      "tags": [
-        "Physical AI",
-        "NVIDIA Cosmos 3",
-        "SageMaker HyperPod",
-        "Synthetic Data",
-        "Distributed Training"
-      ]
-    }
-  },
-  {
-    "title": "Run agent-driven Amazon SageMaker HyperPod operations with InstantStart",
-    "link": "https://aws.amazon.com/blogs/machine-learning/run-agent-driven-amazon-sagemaker-hyperpod-operations-with-instantstart/",
-    "summary": "HyperPod InstantStart is an open source control plane that composes Amazon EKS orchestration with the managed capabilities of Amazon SageMaker HyperPod. It drives the same guarded operations through both a web interface and an AI agent, turning cluster bootstrap, capacity, training, inference, and storage into dependable, agent-driven infrastructure.",
-    "source": "Artificial Intelligence",
-    "published": "2026-09-04T16:12:17+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n- Implements an **open-source control plane** that bridges **Amazon EKS** orchestration with **SageMaker HyperPod** managed infrastructure capabilities.\n- Features **guarded operations** accessible through both a web interface and a specialized **AI agent** for autonomous cluster management.\n- Optimizes the end-to-end ML lifecycle by automating **bootstrap**, **capacity management**, **training**, and **inference** workflows.",
-      "key_results": [
-        "Release of an open-source control plane for SageMaker HyperPod.",
-        "Seamless integration with Amazon EKS for cluster orchestration.",
-        "Introduction of agent-driven infrastructure for automated cluster operations.",
-        "Unified management for cluster bootstrap, storage, and capacity scaling.",
-        "Enhanced dependability for large-scale training and inference deployments."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Engineering Blog",
-      "one_sentence_takeaway": "AWS launches HyperPod InstantStart, an open-source control plane using AI agents to automate complex SageMaker infrastructure operations.",
-      "lead_institution": "Amazon Web Services",
-      "tags": [
-        "LLM Agents",
-        "MLOps",
-        "Amazon SageMaker",
-        "Infrastructure as Code",
-        "EKS"
       ]
     }
   },
@@ -236,36 +476,6 @@
         "Amazon Bedrock",
         "AI Safety",
         "Cloud Infrastructure"
-      ]
-    }
-  },
-  {
-    "title": "NetBSD 9.5 released and EOL for NetBSD-9",
-    "link": "https://blog.netbsd.org/tnf/entry/netbsd_9_5_released_and",
-    "summary": "<p>Article URL: <a href=\"https://blog.netbsd.org/tnf/entry/netbsd_9_5_released_and\">https://blog.netbsd.org/tnf/entry/netbsd_9_5_released_and</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49587636\">https://news.ycombinator.com/item?id=49587636</a></p>\n<p>Points: 104</p>\n<p># Comments: 7</p>",
-    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
-    "published": "2026-09-06T15:44:24+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n* The NetBSD Project has released **NetBSD 9.5**, which serves as the final maintenance release for the 9.x branch.\n* This update focuses on **security vulnerabilities (CVEs)**, critical bug fixes, and minor hardware support backports intended to stabilize the legacy branch.\n* The release officially signals the **End-of-Life (EOL)** for the NetBSD-9 series, necessitating a transition to newer versions for continued support.\n* The impact is primarily limited to **system administrators** and developers maintaining legacy infrastructure on this Unix-like operating system.",
-      "key_results": [
-        "Official release of NetBSD 9.5 as a stable maintenance point.",
-        "Formal announcement of End-of-Life status for the 9.x branch.",
-        "Inclusion of cumulative security patches since version 9.4.",
-        "Minor driver updates for improved hardware compatibility on older systems.",
-        "Recommendation for all users to migrate to the NetBSD 10 release branch."
-      ],
-      "relevance_score": 1,
-      "signal_type": "Engineering Blog",
-      "one_sentence_takeaway": "The NetBSD Project releases version 9.5 as the final update before the 9.x branch reaches official end-of-life status.",
-      "lead_institution": "The NetBSD Project",
-      "tags": [
-        "Operating Systems",
-        "NetBSD",
-        "Software Maintenance",
-        "Legacy Systems",
-        "System Administration"
       ]
     }
   },
@@ -596,36 +806,6 @@
         "Reasoning Models",
         "LLM Evaluation",
         "Software Engineering"
-      ]
-    }
-  },
-  {
-    "title": "Artificial Analysis Intelligence Index v4.2",
-    "link": "https://artificialanalysis.ai/articles/artificial-analysis-intelligence-index-v4-2",
-    "summary": "<p>Article URL: <a href=\"https://artificialanalysis.ai/articles/artificial-analysis-intelligence-index-v4-2\">https://artificialanalysis.ai/articles/artificial-analysis-intelligence-index-v4-2</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49571632\">https://news.ycombinator.com/item?id=49571632</a></p>\n<p>Points: 156</p>\n<p># Comments: 65</p>",
-    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
-    "published": "2026-09-05T00:04:14+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n- The report tracks the convergence of **Reasoning Models**, specifically comparing the utility and cost-efficiency of **DeepSeek-R1** against OpenAI's **o1** series.\n- It highlights the rapid adoption of the **Model Context Protocol (MCP)**, which provides a standardized architecture for connecting **LLM Agents** to external data sources and tools.\n- Analysis of **Inference Performance** reveals a significant downward trend in pricing for frontier-level intelligence, driven by the proliferation of optimized open-weights models like **Qwen 2.5**.\n- The index evaluates the \"Vibe Coding\" phenomenon, noting how high-quality **Code Generation** and tool-use reliability are enabling faster iterative software development.",
-      "key_results": [
-        "DeepSeek-R1 matches or exceeds o1-mini performance in math and coding benchmarks at significantly lower latency.",
-        "The Model Context Protocol (MCP) is becoming the industry standard for agentic tool integration.",
-        "Qwen-2.5-Coder-32B has emerged as the leading open-weights model for specialized software engineering tasks.",
-        "Inference providers have achieved a 50-70% reduction in token costs for Llama-3 series models over the last quarter.",
-        "Multimodal benchmarks show Gemini 1.5 Pro maintaining a lead in long-context video and document understanding."
-      ],
-      "relevance_score": 8,
-      "signal_type": "General News",
-      "one_sentence_takeaway": "Artificial Analysis reports that open-weights reasoning models and the Model Context Protocol are fundamentally shifting the AI development landscape.",
-      "lead_institution": "Artificial Analysis",
-      "tags": [
-        "Reasoning Models",
-        "MCP",
-        "Benchmarking",
-        "DeepSeek-R1",
-        "LLM Infrastructure"
       ]
     }
   },
@@ -2175,36 +2355,6 @@
     }
   },
   {
-    "title": "LLM-Guided Program Evolution for Circle Packing: Breaking 10 Packomania Records for $28",
-    "link": "http://arxiv.org/abs/2609.05093v1",
-    "summary": "We present Discovery Loop, a lightweight system that uses a large language model (LLM) to iteratively evolve optimization algorithms. Starting from a simple seed solver, the LLM proposes algorithmic improvements guided by a scoreboard of results and a history of prior ideas. Each candidate is evaluated against an independent verifier; improvements are kept and failures discarded. Applied to the Packomania circle-packing benchmark (csqv: maximize the sum of radii of N variable-radius circles in the unit square), the system improved the best known solutions for 10 values of N in the range 101-114, with gains of 2.4%-5.4% over prior records, all within 15 iterations and at a total LLM cost of $27.72. These results have been independently accepted by Packomania. We describe the method, analyze cost-efficiency dynamics including an adaptive plateau-detection mechanism, and discuss implications for democratizing automated scientific discovery.",
-    "source": "ArXiv",
-    "published": "2026-09-04T12:48:13+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- **Discovery Loop** is a lightweight framework that uses an LLM to iteratively evolve optimization algorithms through a feedback-driven evolutionary cycle.\n- The system employs an **algorithmic scoreboard and historical log** to guide the LLM in proposing code improvements based on previous successes and failures.\n- The architecture features an **independent verifier** that ensures all candidate solvers are valid, discarding failed iterations to maintain code integrity.\n- It demonstrates the power of **LLM-guided program evolution** by achieving state-of-the-art results on mathematical benchmarks with minimal human intervention.",
-      "key_results": [
-        "Broke 10 long-standing Packomania records for circles in the range N=101-114.",
-        "Achieved performance improvements of 2.4% to 5.4% over prior best-known solutions.",
-        "Reached record-breaking optimization levels within only 15 iterations.",
-        "Demonstrated high efficiency with a total LLM API expenditure of just $27.72.",
-        "New solutions were independently verified and officially accepted by the Packomania benchmark."
-      ],
-      "relevance_score": 9,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce Discovery Loop, an LLM-guided evolutionary system that broke ten circle-packing records for under thirty dollars.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "LLM Agents",
-        "Program Evolution",
-        "Automated Discovery",
-        "Optimization",
-        "Reasoning Models"
-      ]
-    }
-  },
-  {
     "title": "Training-Free Logical and Structural Anomaly Detection via Calibrated Fusion",
     "link": "http://arxiv.org/abs/2609.05091v1",
     "summary": "Industrial anomaly detection must handle two distinct defect families: structural anomalies, which manifest as local texture corruptions, and logical anomalies, which violate global rules on object count, composition, or arrangement. Existing detectors typically favor one family at the expense of the other. In particular, training-free methods effectively exploit frozen representations but lack an explicit notion of object count, while methods that reason about counts usually rely on category-specific component modeling. We show that counting ability can be introduced into training-free anomaly detection without additional training or part-level supervision. Our key idea is a normal-set calibration that aligns heterogeneous anomaly cues using statistics from normal images, enabling their direct fusion within a unified training-free framework. Built upon this calibration, our detector combines complementary frozen cues to address both logical and structural anomalies. On MVTec-LOCO, our method achieves image-level AUROCs of 89.0 and 95.9 on logical and structural anomalies, respectively, yielding a 92.5 average---the best among training-free detectors in our comparison. It remains competitive with methods requiring network training or part annotations, while its structural variant matches PatchCore on MVTec-AD (99.1 image-AUROC), suggesting that the proposed calibration generalizes beyond logical anomaly detection.",
@@ -2235,36 +2385,6 @@
     }
   },
   {
-    "title": "Constructing and Evaluating Clinical Reasoning Trajectories for Medical Agent",
-    "link": "http://arxiv.org/abs/2609.05090v1",
-    "summary": "Evaluation of medical artificial intelligence agents remains predominantly answer-centric, assessing only the correctness of final outputs while overlooking the quality of intermediate reasoning. In clinical settings, however, a correct answer reached through fabricated evidence or incoherent logic is as dangerous as an incorrect one. We propose MedTraj, a framework that treats reasoning trajectories as critical objects for construction, evaluation, and optimization. The pipeline generates structured multi-step reasoning chains from medical reasoning sources. Each trajectory is then parsed into clinical observations, evidence, numbered reasoning steps, and a final conclusion, and scored across five quality dimensions: coherence, evidence support, hallucination, completeness, and traceability. Controlled error injection introduces targeted faults into otherwise correct trajectories to establish causal links between specific reasoning failures and measurable quality degradation. Building on this, step-level filtering based on marginal contribution identifies which individual reasoning steps drive or undermine trajectory quality. Finally, quality-weighted context learning feeds trajectory evaluations back into the model at inference time, allowing it to learn from both strong and weak reasoning demonstrations. Experiments across CareQA, PubMedQA, and CECMed demonstrate that trajectory context consistently improves reasoning coherence, with gains of +0.029 to +0.041 over a zero-shot baseline. On CECMed, quality-weighted context nearly doubles the correctness over the zero-shot baseline while cutting the hallucination ratio by 87%. Marginal-contribution analysis further shows that a small minority of reasoning steps carry most of the quality signal, and that extending chains beyond four steps yields diminishing returns.",
-    "source": "ArXiv",
-    "published": "2026-09-04T12:44:10+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- **MedTraj Framework**: Establishes a structured pipeline to decompose clinical reasoning into observations, evidence, and numbered steps for granular evaluation.\n- **Quality-Weighted Context**: Utilizes both high-quality and faulty reasoning demonstrations at inference time to improve agent decision-making.\n- **Error Injection & Analysis**: Employs controlled faults and marginal-contribution analysis to isolate the specific reasoning steps that drive model correctness.\n- **Performance Impact**: Demonstrates an 87% reduction in hallucinations and a near doubling of correctness on complex medical benchmarks like CECMed.",
-      "key_results": [
-        "Quality-weighted context nearly doubled correctness over zero-shot baselines on the CECMed dataset.",
-        "Hallucination ratios were reduced by 87% through the application of the MedTraj evaluation pipeline.",
-        "Reasoning coherence improved by up to +0.041 across CareQA and PubMedQA benchmarks.",
-        "Marginal-contribution analysis revealed that a small minority of reasoning steps provide the majority of quality signal.",
-        "Experimental data suggests diminishing returns for reasoning chains extending beyond four steps."
-      ],
-      "relevance_score": 9,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce MedTraj to optimize clinical agent reasoning, doubling correctness while reducing hallucinations by 87% via trajectory weighting.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "LLM Agents",
-        "Reasoning Models",
-        "Clinical AI",
-        "AI Evaluation",
-        "Hallucination Mitigation"
-      ]
-    }
-  },
-  {
     "title": "Measuring AI Accountability Through Argumentation Analysis: Can Model Reasoning Withstand Scrutiny?",
     "link": "http://arxiv.org/abs/2609.05088v1",
     "summary": "AI oversight methods rely on ground truth for validation, but what constitutes appropriate AI behavior is contested. This leaves evaluation of moral reasoning in LLMs and debate-based oversight implicitly avoiding realistic ambiguity. We investigate an alternative standard designed to function despite such ambiguity: structural quality of the defence a model can mount for its verdicts in response to critical questions, measured through a four-phase dialectical protocol grounded in Walton's theory of argumentation schemes and Govier's criteria for argument cogency. The protocol is adaptive to different frames of reasoning, extends beyond multiple-choice framing, and treats both the reasoning that precedes a verdict and its post-hoc justification. Across nine frontier models and 200 high-ambiguity MoralChoice items -- $6,778$ judge-scored cells, validated against $89.6\\%$ inter-judge agreement on the binary failure judgment -- models defend their reasoning well above the rubric minimum on every dimension. Failure mass concentrates on grounds and sufficiency, and correlates with epistemic hedging rather than argument length. Reasoning is better defended than post-hoc justification, on every model and every Govier dimension. The scheme a model presents in its justification differs from the one it reasoned with on a substantial share of dilemmas ($\\geq 20\\%$ per model), despite value-based practical reasoning dominating both tracks. The protocol catches strictly indefensible defences (self-contradiction, false premises), and it surfaces difficulties in characterizing the role of retraction in AI alignment, suggesting a need for more situated evaluations.",
@@ -2291,36 +2411,6 @@
         "Argumentation Analysis",
         "LLM Accountability",
         "Moral Reasoning"
-      ]
-    }
-  },
-  {
-    "title": "TruthInsightBench: An Evidence-Grounded Benchmark for Automated Evaluation of Open-Ended Scientific Discovery Agents",
-    "link": "http://arxiv.org/abs/2609.05079v1",
-    "summary": "Autonomous coding agents are increasingly proposed as AI-scientist systems that conduct analyses and write research reports, but executing a prescribed analysis is not the same as making a discovery. Existing benchmarks are configured for reproduction: tasks, data, and rubrics are built around a hidden target study, and recovery of its result is rewarded. We present TruthInsightBench, a benchmark configured for discovery. Its 40 blind tasks, drawn from 40 peer-reviewed studies across 10 scientific domains, expose only a neutral scientific objective and frozen data; source conclusions, expected values, and analysis paths are withheld, leaving the agent to determine what claim the data support. A fixed LLM-based judge scores the evidentiary maturity of an agent's own claims along six dimensions, operationalized as 29 artifact-grounded items, with automated, deterministic aggregation and no per-instance human grading, so evaluation can be repeated automatically as agents evolve. On one frozen base model, four coding agents form a narrow plateau (58.4-60.3 of 100) with no statistically reliable pairwise separation: they execute and document analyses competently, with comparatively strong evidence auditability and novelty, but largely lack the discriminating acts that establish a trustworthy claim (controls, robustness, falsifiability, and cross-dataset generalization). The bottleneck is scientific judgment rather than coding, and genuine discovery remains out of reach. TruthInsightBench makes this gap a measurable target; data and scoring code are at https://github.com/TruthInsight-stack/TruthInsightBench.",
-    "source": "ArXiv",
-    "published": "2026-09-04T12:37:20+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n* TruthInsightBench introduces a **discovery-centric benchmark** designed to evaluate AI scientist agents on open-ended research tasks rather than mere reproduction of existing studies.\n* The framework employs a **deterministic LLM-based judge** that assesses 29 artifact-grounded items across six dimensions of evidentiary maturity, including auditability and novelty.\n* By withholding source conclusions and providing **neutral scientific objectives**, the benchmark forces agents to demonstrate genuine scientific judgment, such as designing controls and checking robustness.",
-      "key_results": [
-        "Tested coding agents reached a narrow performance plateau (58.4-60.3 out of 100), showing no statistical separation.",
-        "Agents are competent at executing and documenting analyses but fail at establishing trustworthy claims.",
-        "Current AI scientists show significant weaknesses in controls, robustness, falsifiability, and generalization.",
-        "The primary bottleneck for automated discovery is identified as scientific judgment rather than coding proficiency.",
-        "Evidentiary maturity is measured through automated, reproducible scoring across 10 diverse scientific domains."
-      ],
-      "relevance_score": 9,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "TruthInsightBench researchers introduce an automated benchmark revealing that scientific judgment, not coding, is the main bottleneck for discovery agents.",
-      "lead_institution": "TruthInsight-stack",
-      "tags": [
-        "AI Agents",
-        "Scientific Discovery",
-        "LLM Evaluation",
-        "Reasoning Models",
-        "Benchmarking"
       ]
     }
   },
@@ -2595,36 +2685,6 @@
     }
   },
   {
-    "title": "TROVE: Adaptive Agent Skill Orchestration via Trace-Grounded Route Validation and Editing",
-    "link": "http://arxiv.org/abs/2609.05019v1",
-    "summary": "Agents tend to optimize, select, or constrain execution structures before decisive runtime outcomes are observed. However, such pre-execution commitment creates an orchestration bottleneck: when intermediate evidence invalidates the pending continuation, agents must either execute stale steps or replan broadly, compounding errors, wasting computation, and discarding progress. We thus propose Trace-grounded Route Orchestration via Validation and Editing (TROVE), which revises only what runtime evidence invalidates. Offline, TROVE distills evaluated workflow-search traces into atomic and composite skills and an outcome-conditioned transition graph, preserving stable fragments while exposing outcome-dependent decisions. Online, it treats a planned route as provisional: after committing one top-level skill, the controller retains a valid continuation, inserts a trace-supported local response, or replaces only the invalid suffix. Evaluation across code-generation, question-answering, and math reasoning benchmarks with different LLM backbones show that TROVE delivers a stronger quality-efficiency trade-off than existing baselines of dataset-level optimization, query-level architecture selection, and graph-constrained scheduling. Quality gains are largest when outcomes change the appropriate continuation, whereas early termination yields substantial efficiency gains on near-saturated tasks. Ablations further show that composite skills capture most offline benefits, insertion enables local correction, and suffix replacement primarily improves efficiency. These findings establish selective route editing as a general principle for adaptive agent orchestration.",
-    "source": "ArXiv",
-    "published": "2026-09-04T11:38:13+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n\u2022 TROVE addresses the **orchestration bottleneck** where agents commit to fixed execution structures before runtime outcomes, leading to stale steps or costly replanning.\n\u2022 Offline, it distills workflow search traces into **atomic and composite skills** and an **outcome-conditioned transition graph** to preserve stable logic while exposing decision points.\n\u2022 Online, a controller manages a **provisional route**, using runtime evidence to **validate and edit** the execution path by inserting local responses or replacing invalid suffixes.\n\u2022 The framework optimizes the **quality-efficiency trade-off** across code-generation and reasoning benchmarks by minimizing redundant computation and error propagation.",
-      "key_results": [
-        "Outperforms dataset-level optimization and query-level architecture selection on code-gen and math benchmarks.",
-        "Demonstrates superior quality gains in scenarios where intermediate outcomes dictate necessary changes to the continuation.",
-        "Significant efficiency improvements achieved via early termination on tasks that are near-saturated.",
-        "Ablation studies indicate that composite skills provide the majority of offline performance benefits.",
-        "Suffix replacement is the primary driver for improving computational efficiency during online execution."
-      ],
-      "relevance_score": 9,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce TROVE, an adaptive agent framework that dynamically edits execution routes to improve reasoning efficiency and accuracy.",
-      "lead_institution": "ArXiv Researchers",
-      "tags": [
-        "LLM Agents",
-        "Adaptive Orchestration",
-        "Reasoning Models",
-        "Code Generation",
-        "Agent Frameworks"
-      ]
-    }
-  },
-  {
     "title": "How a Chatbot's Response Style Shapes a Classroom: A Multi-Agent Simulation of Students Consulting AI",
     "link": "http://arxiv.org/abs/2609.05018v1",
     "summary": "LLM-based chatbots are increasingly used as everyday confidants. Because they are designed to maximize user satisfaction, they can respond with excessive empathy and affirmation, which may reinforce mistaken beliefs and foster dependence on AI. While the psychological effects of chatbots on individual users have begun to be studied, how the psychological states and relationships of many users evolve when they keep consulting an AI is hard to observe in real settings. We build a virtual classroom simulation in which 20 student agents interact and, when stressed, consult either a friend or a counselor AI (Gemini 2.5 Flash). Each agent carries five state variables (stress, happiness, self-reliance, AI dependence, sociability), and each day has four phases (morning, noon, after school, night). The counselor is given six response styles via system prompts (affirming, listening, solution-oriented, reality-redirecting, inciting, blaming); a second LLM call acts as an evaluator that turns each consultation into parameter updates without seeing the style prompt. We compare the seven conditions, including a no-AI control, over 15 days in three classrooms, over 50 days, and under a lowered consultation threshold. In this simulation the solution-oriented style kept AI dependence low while raising self-reliance and maintaining happiness; the affirming and inciting styles markedly increased AI dependence, and the inciting style also increased stress and school non-attendance; the listening style did not relieve accumulated stress. The results describe the simulated system, not measured effects on humans. We give a complete specification of the agent dynamics, identify built-in mechanisms that shape the outcomes, and discuss the limitations of LLM-based evaluation and the validation steps (repeated runs, sensitivity analyses, human data) needed before psychological conclusions can be drawn.",
@@ -2891,66 +2951,6 @@
         "DPO",
         "Instruction Tuning",
         "Multimodal AI"
-      ]
-    }
-  },
-  {
-    "title": "BeaconKV: Key-Value Cache Compression Guided by Beacon Queries for Efficient Large Reasoning Model Inference",
-    "link": "http://arxiv.org/abs/2609.04971v1",
-    "summary": "Large Reasoning Models (LRMs) achieve superior problem-solving through extended Chain-of-Thought (CoT) generation, but the resulting key-value (KV) cache grows linearly with sequence length and creates severe memory bottlenecks, often exceeding GPU capacity for long reasoning traces. Existing KV cache compression methods rely on recent queries to estimate future token importance, implicitly assuming these serve as reliable proxies for future attention patterns. We demonstrate that this assumption fails in long-horizon reasoning: certain decoding steps generate Thought Revisiting Tokens (TRT) that re-attend to distant previous context, such as task-solving plans formulated early in the trace. Through systematic analysis, we discover that queries corresponding to the TRT cluster into a small number of similarity groups in the embedding space. Based on this insight, we propose BeaconKV, a training-free KV cache compression method that maintains beacon queries, compact representatives for each global query cluster, to anticipate which KV pairs will be revisited without storing the entire query history. Across four open-source LRMs and diverse reasoning benchmarks, BeaconKV generally outperforms existing compression methods, achieving up to $5.8\\times$ memory reduction while nearly preserving full cache accuracy and improving throughput by over $4.3\\times$.",
-    "source": "ArXiv",
-    "published": "2026-09-04T10:23:16+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- **BeaconKV** is a training-free KV cache compression framework designed specifically for **Large Reasoning Models (LRMs)** to manage the memory bottlenecks caused by extended Chain-of-Thought generation.\n- The method identifies **Thought Revisiting Tokens (TRT)**, which are decoding steps that re-attend to distant, early-trace context, such as initial task-solving plans.\n- It replaces traditional recent-query heuristics with **beacon queries**, which are compact representatives of query clusters in the embedding space used to predict which KV pairs will be revisited.\n- The architecture enables significant **memory efficiency** without requiring model retraining, making it highly compatible with existing open-source reasoning models.",
-      "key_results": [
-        "Achieves up to 5.8x reduction in KV cache memory usage.",
-        "Improves inference throughput by more than 4.3x across tested models.",
-        "Maintains near-full cache accuracy compared to uncompressed baselines.",
-        "Effectively handles long-horizon reasoning by identifying global query clusters.",
-        "Demonstrates robust performance across four open-source LRMs and multiple reasoning benchmarks."
-      ],
-      "relevance_score": 9,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce BeaconKV to compress KV caches by predicting long-range attention patterns via beacon query clustering.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "KV Cache",
-        "Reasoning Models",
-        "Inference Optimization",
-        "Chain-of-Thought",
-        "Large Language Models"
-      ]
-    }
-  },
-  {
-    "title": "Fractal basins trap latent reasoning",
-    "link": "http://arxiv.org/abs/2609.04963v1",
-    "summary": "Reasoning allows artificial intelligence models to revisit and correct their mistakes, enabling recent frontier advances in mathematical theorem solving, software engineering, and autonomous task planning. Reasoning models are widely observed to reason for longer on harder tasks, but the general mechanism responsible for these slowdowns is unknown. Here, we show that reasoning models exhibit transient chaos, a physical consequence of the computational complexity of difficult tasks. As a consequence, we show that diverse leading reasoning models are dynamical systems with fractal basins, with fractality increasing with task difficulty across diverse tasks like Sudoku and maze solving, visual puzzles, and mathematical logic. We show that transient chaos emerges due to reasoning becoming trapped for extended durations near saddle points, which we show correspond to nearly-correct attempted solutions of the underlying problem. Our results show that reasoning slowdowns are an inevitable consequence of problem hardness in modern artificial intelligence models, and establish reasoning traces as a rich new class of dynamical system.",
-    "source": "ArXiv",
-    "published": "2026-09-04T10:11:36+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- This study frames **reasoning models** as **dynamical systems**, revealing that inference-time slowdowns are caused by the physical phenomenon of **transient chaos**.\n- The research identifies that leading models exhibit **fractal basins** of attraction, where the geometry of the reasoning path becomes increasingly complex as the underlying task difficulty scales.\n- The authors propose that reasoning traces become trapped for extended durations near **saddle points**, which represent nearly-correct but ultimately flawed solutions within the latent space.\n- The work establishes a physical link between **computational complexity** and the duration of the reasoning process, suggesting that extended inference is an inevitable consequence of problem hardness.",
-      "key_results": [
-        "Identified transient chaos as the fundamental mechanism behind reasoning model slowdowns.",
-        "Discovered fractal basins in latent reasoning traces across Sudoku, mazes, and logic puzzles.",
-        "Proved that fractality increases proportionally with the objective difficulty of the task.",
-        "Mechanistically linked reasoning delays to 'trapping' near saddle points (near-correct solutions).",
-        "Established reasoning traces as a new, formal class of dynamical system for AI evaluation."
-      ],
-      "relevance_score": 9,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers demonstrate that reasoning models encounter transient chaos and fractal basins, causing inevitable slowdowns on complex tasks.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "Reasoning Models",
-        "Inference Scaling",
-        "Dynamical Systems",
-        "Latent Reasoning",
-        "Computational Complexity"
       ]
     }
   },
