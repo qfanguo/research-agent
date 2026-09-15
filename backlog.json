@@ -1,5 +1,95 @@
 [
   {
+    "title": "Watch astronaut Christina Koch and Google\u2019s James Manyika discuss space, technology, and discovery.",
+    "link": "https://blog.google/innovation-and-ai/technology/ai/dialogues-christina-koch/",
+    "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Dialogues_Christina-Koch_social.max-600x600.format-webp.webp\" />Christina Koch sits down with James Manyika, Google\u2019s Senior Vice President of Research, Labs, Technology & Society.",
+    "source": "AI",
+    "published": "2026-09-14T19:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* The dialogue explores the intersection of **space exploration** and **advanced computation**, focusing on how frontier discovery drives technological evolution.\n* Features a non-technical exchange on the **societal impact** of emerging technologies within Google\u2019s Research and Labs framework.\n* Emphasizes the **human-centric AI** narrative, connecting the challenges of the International Space Station to the rigors of high-stakes technology development.",
+      "key_results": [
+        "Discussion on the collaborative nature of space and tech research.",
+        "Insights into the role of inspiration in technological breakthroughs.",
+        "Exploration of the long-term societal goals of Google Research.",
+        "Astronaut perspective on the future of autonomous systems in space.",
+        "Public-facing promotion of Google's thought leadership in technology and society."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Google hosts a dialogue between James Manyika and Christina Koch exploring the overlap of space discovery and technology.",
+      "lead_institution": "Google",
+      "tags": [
+        "Generative AI Trends",
+        "Space Technology",
+        "Societal Impact",
+        "Google Research",
+        "Innovation"
+      ]
+    }
+  },
+  {
+    "title": "DevFest is back",
+    "link": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/",
+    "summary": "Animation of the text \"{DevFest} 2026 Join us! Google Developer Groups\" with a globe icon, asterisk icon, < icon, and > icon",
+    "source": "AI",
+    "published": "2026-09-14T16:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- Announcement for the **DevFest 2026** global event series hosted by **Google Developer Groups (GDG)**.\n- Focuses on decentralized, community-led gatherings to discuss various **Google technologies** and development practices.\n- Impact centers on **ecosystem building** and developer networking rather than specific technical architecture or model releases.",
+      "key_results": [
+        "DevFest 2026 event series officially announced.",
+        "Organized primarily by Google Developer Groups (GDG).",
+        "Call to action for global developer participation.",
+        "Includes representation for diverse geographic locations via globe icons.",
+        "Positions the developer community at the center of upcoming Google tech rollouts."
+      ],
+      "relevance_score": 2,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "Google Developer Groups announces DevFest 2026 to foster community engagement and technical networking across the global developer ecosystem.",
+      "lead_institution": "Google Developer Groups",
+      "tags": [
+        "DevFest 2026",
+        "Google Developer Groups",
+        "Community Events",
+        "Developer Ecosystem",
+        "Tech Conferences"
+      ]
+    }
+  },
+  {
+    "title": "MIT spinout turns plastic waste into resilient building materials",
+    "link": "https://news.mit.edu/2026/mit-spinout-turns-plastic-waste-into-resilient-building-materials-0914",
+    "summary": "Atlas Building Composites is commercializing MIT research to turn plastic waste into parts for buildings and other infrastructure.",
+    "source": "MIT News - Artificial intelligence",
+    "published": "2026-09-14T04:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- **Atlas Building Composites** commercializes research from MIT to transform diverse **plastic waste** streams into durable, structural building materials.\n- The technology focuses on creating **resilient infrastructure** components that provide a sustainable alternative to traditional construction materials.\n- This initiative leverages **material science optimization** to ensure that upcycled plastic meets the rigorous safety and performance standards of the building industry.",
+      "key_results": [
+        "Conversion of non-recyclable plastic waste into high-performance building parts.",
+        "Commercialization of MIT laboratory research for industrial applications.",
+        "Reduction of environmental impact by diverting plastic from landfills.",
+        "Development of resilient materials capable of withstanding structural loads.",
+        "Establishment of a scalable circular economy model for the construction sector."
+      ],
+      "relevance_score": 3,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "MIT spinout Atlas Building Composites transforms plastic waste into resilient building materials to advance sustainable infrastructure and manufacturing.",
+      "lead_institution": "MIT",
+      "tags": [
+        "Sustainability",
+        "Material Science",
+        "Circular Economy",
+        "Infrastructure",
+        "Green Tech"
+      ]
+    }
+  },
+  {
     "title": "David Sacks: OpenAI and Anthropic Don't Need Regulations to Pace Frontier Models",
     "link": "https://twitter.com/DavidSacks/status/2098973625252708460",
     "summary": "<p>Article URL: <a href=\"https://twitter.com/DavidSacks/status/2098973625252708460\">https://twitter.com/DavidSacks/status/2098973625252708460</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49685991\">https://news.ycombinator.com/item?id=49685991</a></p>\n<p>Points: 270</p>\n<p># Comments: 202</p>",
@@ -210,36 +300,6 @@
     }
   },
   {
-    "title": "Sam Altman: I agree with Dario that we need to pace the frontier",
-    "link": "https://twitter.com/sama/status/2098811563415150910",
-    "summary": "<p>Article URL: <a href=\"https://twitter.com/sama/status/2098811563415150910\">https://twitter.com/sama/status/2098811563415150910</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49678211\">https://news.ycombinator.com/item?id=49678211</a></p>\n<p>Points: 30</p>\n<p># Comments: 15</p>",
-    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
-    "published": "2026-09-12T23:15:43+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "<br>\u2022 OpenAI CEO **Sam Altman** publicly aligns with Anthropic's Dario Amodei on the necessity of **pacing the frontier**, suggesting a strategic shift towards more controlled development cycles for upcoming models.<br>\u2022 This stance emphasizes **AI Governance** and safety over pure development speed, potentially impacting the release timelines for next-generation systems like **GPT-5** and **Claude 4**.<br>\u2022 The alignment of two major labs signals a maturing industry consensus on the risks of **uncontrolled scaling** and the need for rigorous safety benchmarks prior to deployment.",
-      "key_results": [
-        "OpenAI leadership endorses the concept of 'pacing' frontier AI development to mitigate risks.",
-        "Potential shift in the competitive landscape from a pure 'arms race' to a more measured deployment strategy.",
-        "Increased focus on safety-performance trade-offs for next-generation flagship models.",
-        "Possible coordination or policy alignment between major AI labs regarding AGI-level risks.",
-        "Public signaling to regulators that the industry is receptive to self-imposed or formal guardrails."
-      ],
-      "relevance_score": 4,
-      "signal_type": "General News",
-      "one_sentence_takeaway": "OpenAI CEO Sam Altman supports Anthropic's call for pacing frontier AI development to prioritize safety and responsible deployment.",
-      "lead_institution": "OpenAI",
-      "tags": [
-        "AI Governance",
-        "Frontier Models",
-        "AI Safety",
-        "OpenAI",
-        "Anthropic"
-      ]
-    }
-  },
-  {
     "title": "Killing with a car costs $1.6M, California requires drivers to carry $30K",
     "link": "https://maxmautner.com/2026/09/11/liability-coverage.html",
     "summary": "<p>Article URL: <a href=\"https://maxmautner.com/2026/09/11/liability-coverage.html\">https://maxmautner.com/2026/09/11/liability-coverage.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49677836\">https://news.ycombinator.com/item?id=49677836</a></p>\n<p>Points: 53</p>\n<p># Comments: 73</p>",
@@ -300,36 +360,6 @@
     }
   },
   {
-    "title": "GPT-6 built this earth exploration site in 5 prompts",
-    "link": "https://earth.ethanplus.ai/",
-    "summary": "<p>Article URL: <a href=\"https://earth.ethanplus.ai/\">https://earth.ethanplus.ai/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49665756\">https://news.ycombinator.com/item?id=49665756</a></p>\n<p>Points: 31</p>\n<p># Comments: 44</p>",
-    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
-    "published": "2026-09-11T21:39:52+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n- Demonstrates the potential of **vibe coding** to generate complex, interactive web applications using high-level natural language instructions.\n- Showcases a feature-rich **earth exploration interface** that integrates interactive maps and spatial data visualization.\n- Highlights the evolving capability of **LLM agents** to handle full-stack development tasks with minimal human intervention.\n- Serves as a case study for the **Generative AI Trend** of moving from simple code snippets to complete, deployed software products.",
-      "key_results": [
-        "Creation of a functional geospatial web app in only 5 prompts.",
-        "Integration of complex mapping libraries through automated code generation.",
-        "Validation of rapid prototyping workflows using advanced LLM reasoning.",
-        "Demonstration of high-fidelity UI/UX design generated via natural language.",
-        "Significant community engagement regarding the future of 'zero-shot' software engineering."
-      ],
-      "relevance_score": 4,
-      "signal_type": "General News",
-      "one_sentence_takeaway": "EthanPlus demonstrates how advanced LLM prompting can autonomously generate complex, interactive web applications for geospatial exploration.",
-      "lead_institution": "Hacker News",
-      "tags": [
-        "Vibe Coding",
-        "Prompt Engineering",
-        "Generative AI",
-        "Web Development",
-        "LLM Agents"
-      ]
-    }
-  },
-  {
     "title": "GCC 13.5 Released with 256 bugs fixed, closing release series",
     "link": "https://gcc.gnu.org/pipermail/gcc/2026-September/248876.html",
     "summary": "<p>Article URL: <a href=\"https://gcc.gnu.org/pipermail/gcc/2026-September/248876.html\">https://gcc.gnu.org/pipermail/gcc/2026-September/248876.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49660511\">https://news.ycombinator.com/item?id=49660511</a></p>\n<p>Points: 41</p>\n<p># Comments: 1</p>",
@@ -356,36 +386,6 @@
         "Toolchain",
         "C++",
         "System Software"
-      ]
-    }
-  },
-  {
-    "title": "HuggingFace: Security.txt",
-    "link": "https://huggingface.co/security.txt",
-    "summary": "<p>Article URL: <a href=\"https://huggingface.co/security.txt\">https://huggingface.co/security.txt</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49659245\">https://news.ycombinator.com/item?id=49659245</a></p>\n<p>Points: 273</p>\n<p># Comments: 70</p>",
-    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
-    "published": "2026-09-11T14:38:13+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n Hugging Face implements a **security.txt** standard to streamline the reporting of vulnerabilities across its AI repository and platform.\n The file centralizes **security contacts** and provides public encryption keys to ensure sensitive disclosure communications remain confidential.\n This initiative strengthens **AI supply chain security** by establishing formal, machine-readable protocols for researchers to report malicious models or platform exploits.",
-      "key_results": [
-        "Standardizes vulnerability disclosure channels via the security.txt protocol",
-        "Provides OpenPGP keys for encrypted communication with security staff",
-        "Directs researchers to the official Bug Bounty program for platform exploits",
-        "Specifies preferred reporting languages to expedite triage and response",
-        "Reinforces platform integrity for hosting and distributing open-source models"
-      ],
-      "relevance_score": 4,
-      "signal_type": "General News",
-      "one_sentence_takeaway": "Hugging Face formalizes vulnerability reporting protocols via security.txt to improve AI model ecosystem and supply chain integrity.",
-      "lead_institution": "Hugging Face",
-      "tags": [
-        "AI Security",
-        "Hugging Face",
-        "Cybersecurity",
-        "Model Safety",
-        "Infrastructure"
       ]
     }
   }
