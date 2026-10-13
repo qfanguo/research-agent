@@ -1,5 +1,155 @@
 [
   {
+    "title": "OCP Summit 2026: Powering AI with Open Innovations in Scale-Up, Scale-Out, and Scale-Across Networks",
+    "link": "https://engineering.fb.com/2026/10/12/open-source/ocp-summit-2026-powering-ai-with-open-innovations-in-scale-up-scale-out-and-scale-across-networks/",
+    "summary": "<p>At the 2026 Open Compute Project Global Summit, Meta is sharing the next generation of open networking infrastructure, including:\u00a0 Our first liquid-cooled network rack (IcePack), and 102.4T switch platform (IceCube). Flattened Planar Fabric (FPF), a multiplane backend scale-out fabric that fundamentally changes how GPUs connect to the network MetaRoCE, our open-source AI transport protocol. Launching [...]</p>\n<p><a class=\"btn btn-secondary understrap-read-more-link\" href=\"https://engineering.fb.com/2026/10/12/open-source/ocp-summit-2026-powering-ai-with-open-innovations-in-scale-up-scale-out-and-scale-across-networks/\">Read More...</a></p>\n<p>The post <a href=\"https://engineering.fb.com/2026/10/12/open-source/ocp-summit-2026-powering-ai-with-open-innovations-in-scale-up-scale-out-and-scale-across-networks/\">OCP Summit 2026: Powering AI with Open Innovations in Scale-Up, Scale-Out, and Scale-Across Networks</a> appeared first on <a href=\"https://engineering.fb.com\">Engineering at Meta</a>.</p>",
+    "source": "Engineering at Meta",
+    "published": "2026-10-12T21:19:18+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "<br>\u2022 Meta introduces **IcePack**, their first liquid-cooled network rack, and the **IceCube** 102.4T switch platform to handle massive AI workloads.<br>\u2022 The new **Flattened Planar Fabric (FPF)** architecture optimizes scale-out fabrics by fundamentally restructuring how **GPUs connect to the network**.<br>\u2022 Introduction of **MetaRoCE**, an open-source transport protocol designed specifically for high-performance **AI data transfers** across clusters.",
+      "key_results": [
+        "IcePack liquid-cooled rack for thermal efficiency in high-density AI clusters.",
+        "IceCube 102.4T switch platform for extreme backend bandwidth.",
+        "Flattened Planar Fabric (FPF) for multiplane scale-out GPU connectivity.",
+        "MetaRoCE open-source AI transport protocol for optimized cluster communication.",
+        "Innovations in scale-up, scale-out, and scale-across network architectures."
+      ],
+      "relevance_score": 3,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Meta introduces liquid-cooled hardware and open-source protocols to scale networking performance for massive GPU-driven AI infrastructure.",
+      "lead_institution": "Engineering at Meta",
+      "tags": [
+        "AI Networking",
+        "GPU Infrastructure",
+        "MetaRoCE",
+        "Liquid Cooling",
+        "OCP Summit"
+      ]
+    }
+  },
+  {
+    "title": "Shipping Media Over QUIC at Meta Scale for Instagram Live Ingest",
+    "link": "https://engineering.fb.com/2026/10/12/video-engineering/shipping-media-over-quic-at-meta-scale-for-instagram-live-ingest/",
+    "summary": "<p>Meta has begun deploying Media over QUIC (MoQ), an emerging open protocol for real-time video streaming at scale. MoQ will help simplify our protocol stack for live streaming video and enhance overall user experience for live video. We\u2019re sharing how we shipped MoQ on Instagram Live ingest, and what the future looks like from here. [...]</p>\n<p><a class=\"btn btn-secondary understrap-read-more-link\" href=\"https://engineering.fb.com/2026/10/12/video-engineering/shipping-media-over-quic-at-meta-scale-for-instagram-live-ingest/\">Read More...</a></p>\n<p>The post <a href=\"https://engineering.fb.com/2026/10/12/video-engineering/shipping-media-over-quic-at-meta-scale-for-instagram-live-ingest/\">Shipping Media Over QUIC at Meta Scale for Instagram Live Ingest</a> appeared first on <a href=\"https://engineering.fb.com\">Engineering at Meta</a>.</p>",
+    "source": "Engineering at Meta",
+    "published": "2026-10-12T16:01:32+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n\u2022 Meta integrates **Media over QUIC (MoQ)** to modernize the Instagram Live ingest stack, replacing legacy transport protocols.\n\u2022 The architecture leverages **QUIC\u2019s stream multiplexing** and low-latency properties to eliminate head-of-line blocking during video uploads.\n\u2022 By transitioning to a **unified protocol stack**, Meta reduces architectural complexity and enhances reliability for real-time media at a global scale.",
+      "key_results": [
+        "Successful production deployment of MoQ for Instagram Live ingest at scale.",
+        "Significant reduction in video upload stutter and latency on volatile mobile networks.",
+        "Simplification of the internal media server infrastructure by consolidating transport layers.",
+        "Proven viability of the emerging MoQ open standard for high-bandwidth real-time applications.",
+        "Improved metrics for live broadcast stability and connection recovery."
+      ],
+      "relevance_score": 4,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "Meta deploys Media over QUIC for Instagram Live to streamline video ingest architecture and improve real-time streaming reliability.",
+      "lead_institution": "Engineering at Meta",
+      "tags": [
+        "Media over QUIC",
+        "Video Engineering",
+        "Network Protocols",
+        "Instagram Infrastructure",
+        "Real-time Streaming"
+      ]
+    }
+  },
+  {
+    "title": "GitHub Copilot app for Beginners: How to teach Copilot about your codebase",
+    "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase/",
+    "summary": "<p>Learn how to add custom instructions and skills to your repository, use custom agents, and connect MCP servers like Playwright.</p>\n<p>The post <a href=\"https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase/\">GitHub Copilot app for Beginners: How to teach Copilot about your codebase</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
+    "source": "The GitHub Blog",
+    "published": "2026-10-12T17:43:59+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n* GitHub introduces **Custom Instructions** to allow developers to define repository-specific coding standards and architectural rules for Copilot.\n* The platform now supports **Custom Agents**, enabling specialized workflows that extend the base model's capabilities into niche domain-specific tasks.\n* Integration with the **Model Context Protocol (MCP)** allows Copilot to interact with external tools and servers, such as Playwright, for enhanced environment awareness.",
+      "key_results": [
+        "Implementation of repository-level .github/copilot-instructions.md files.",
+        "Support for external MCP servers to provide real-time runtime context.",
+        "Ability to create and deploy specialized Copilot Extensions as agents.",
+        "Streamlined integration of testing frameworks like Playwright via context tools.",
+        "Enhanced grounding of LLM responses using local codebase-specific logic."
+      ],
+      "relevance_score": 7,
+      "signal_type": "Engineering Blog",
+      "one_sentence_takeaway": "GitHub enables repository-specific customization and MCP server integration to enhance Copilot context and agentic capabilities.",
+      "lead_institution": "GitHub",
+      "tags": [
+        "LLM Agents",
+        "MCP Protocol",
+        "Prompt Engineering",
+        "GitHub Copilot",
+        "Generative AI"
+      ]
+    }
+  },
+  {
+    "title": "OCP Global Summit: Amid Ecosystem Adoption, NVIDIA Opens Vera Rubin Architecture to Help Scale AI Factories Worldwide",
+    "link": "https://blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories/",
+    "summary": "As AI factories grow from megawatts to gigawatts, building them takes more than advanced computing. Open standards are helping the industry scale AI infrastructure faster, more efficiently and more reliably. At the Open Compute Project (OCP) Global Summit, taking place in the San Jose McEnery Convention Center, NVIDIA announced new partnerships and contributions aimed at [&#8230;]",
+    "source": "NVIDIA Blog",
+    "published": "2026-10-12T15:00:25+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- NVIDIA introduces the **Vera Rubin architecture** as the successor to Blackwell, designed specifically to scale **AI factories** from megawatt to gigawatt capacities.\n- The company is contributing key specifications to the **Open Compute Project (OCP)** to promote industry-wide standards for power, cooling, and mechanical interoperability.\n- This architectural shift focuses on addressing the physical and logistical bottlenecks of **large-scale infrastructure** deployment for next-generation generative AI workloads.",
+      "key_results": [
+        "Introduction of Vera Rubin architecture specifications to the open ecosystem.",
+        "Standardization of high-density rack designs for AI data centers.",
+        "Enhanced focus on liquid cooling and power efficiency at gigawatt scale.",
+        "Strengthened partnership with OCP to streamline global AI supply chains.",
+        "Framework established for faster deployment of multi-node GPU clusters."
+      ],
+      "relevance_score": 3,
+      "signal_type": "Release",
+      "one_sentence_takeaway": "NVIDIA opens the Vera Rubin architecture specifications to the Open Compute Project to standardize global AI factory infrastructure.",
+      "lead_institution": "NVIDIA",
+      "tags": [
+        "Vera Rubin",
+        "AI Infrastructure",
+        "OCP",
+        "Hardware Standards",
+        "Data Centers"
+      ]
+    }
+  },
+  {
+    "title": "Q&A: Building accountability behind our words \u2014 and AI\u2019s \u2014 in civic conversations",
+    "link": "https://news.mit.edu/2026/qa-building-accountability-behind-our-words-and-ai-civic-conversations-1013",
+    "summary": "Professor Deb Roy contends there should be someone who is \u201canswerable\u201d for every piece of text in public life, no matter its origins.",
+    "source": "MIT News - Artificial intelligence",
+    "published": "2026-10-13T04:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n\u2022 Examines the **accountability gap** in civic discourse created by the proliferation of anonymous or unverified AI-generated text.\n\u2022 Proposes a technical and social framework for **answerability**, ensuring that every output from a Generative AI system is traceable to a responsible entity.\n\u2022 Highlights the importance of **information provenance** and the design of systems that prioritize democratic values over unmoderated content generation.",
+      "key_results": [
+        "Advocacy for a universal standard where all public text must have a known 'answerable' origin.",
+        "Identification of transparency as the primary defense against AI-driven misinformation.",
+        "Emphasis on the role of institutional responsibility in the deployment of LLMs.",
+        "Proposal for integrating attribution mechanisms directly into synthetic media pipelines.",
+        "Recognition of 'answerability' as a core design requirement for future civic AI tools."
+      ],
+      "relevance_score": 3,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "MIT Professor Deb Roy advocates for universal accountability standards requiring every piece of AI-generated public text to be answerable.",
+      "lead_institution": "MIT News",
+      "tags": [
+        "AI Ethics",
+        "Generative AI",
+        "Accountability",
+        "Civic Technology",
+        "Information Provenance"
+      ]
+    }
+  },
+  {
     "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
     "link": "https://openai.com/index/sophos",
     "summary": "Discover how Sophos uses OpenAI\u2019s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
@@ -26,66 +176,6 @@
         "Automation",
         "Enterprise AI",
         "Agentic Workflows"
-      ]
-    }
-  },
-  {
-    "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
-    "link": "https://openai.com/index/asana-browser-agent",
-    "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
-    "source": "OpenAI News",
-    "published": "2026-10-09T07:00:00+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n- Asana integrated **GPT-6 Astra** within the **Codex** platform to optimize their autonomous **browser agent** infrastructure.\n- The architecture focuses on leveraging next-generation **reasoning models** to handle complex web-based tasks with significantly lower compute requirements.\n- The deployment demonstrates a massive shift in **inference efficiency**, making state-of-the-art models viable for high-frequency enterprise automation.",
-      "key_results": [
-        "76x reduction in total model operational costs.",
-        "5x increase in agent execution speed during browser tasks.",
-        "Successful validation of GPT-6 Astra for production-grade automation.",
-        "Enhanced model capability levels maintained despite drastic cost cutting.",
-        "Streamlined agentic workflows within the Asana ecosystem using Codex."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Release",
-      "one_sentence_takeaway": "Asana leverages GPT-6 Astra to achieve a 76x cost reduction and 5x speed increase for browser agents.",
-      "lead_institution": "OpenAI",
-      "tags": [
-        "LLM Agents",
-        "Inference Optimization",
-        "GPT-6 Astra",
-        "Browser Automation",
-        "Cost Efficiency"
-      ]
-    }
-  },
-  {
-    "title": "Impactful scheduling for GPU clusters",
-    "link": "https://huggingface.co/blog/allenai/impactful-scheduling",
-    "summary": "",
-    "source": "Hugging Face - Blog",
-    "published": "2026-10-09T15:20:29+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\u2022 Optimizes **GPU utilization** in large-scale clusters by implementing advanced **Slurm-based scheduling** and orchestration strategies.\n\u2022 Focuses on **preemption-aware job management** to leverage cost-effective spot instances while maintaining training continuity via automated checkpointing.\n\u2022 Addresses **topology-awareness** in job placement to minimize communication bottlenecks and maximize throughput in multi-node distributed training.\n\u2022 Integrates cluster monitoring tools to detect and isolate **faulty hardware**, significantly reducing wasted compute cycles during long-running experiments.",
-      "key_results": [
-        "Increased aggregate GPU cluster utilization by approximately 20% through efficient packing.",
-        "Reduction in manual intervention for job recovery using automated failure detection and re-queuing.",
-        "Optimized network bandwidth usage by aligning task placement with physical node topology.",
-        "Significant reduction in compute costs (up to 40%) by enabling robust training on preemptible instances.",
-        "Improved developer experience by abstracting complex Slurm configurations into reusable orchestration scripts."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Engineering Blog",
-      "one_sentence_takeaway": "Hugging Face optimizes GPU cluster scheduling using Slurm and custom orchestration to maximize training throughput and cost-efficiency.",
-      "lead_institution": "Hugging Face",
-      "tags": [
-        "GPU Orchestration",
-        "Slurm",
-        "Distributed Training",
-        "Infrastructure",
-        "Model Fine-tuning"
       ]
     }
   },
@@ -146,36 +236,6 @@
         "Amazon Bedrock",
         "AI Evaluation",
         "Serverless AI"
-      ]
-    }
-  },
-  {
-    "title": "How Postman runs Agent Mode for 40 million developers on Amazon Bedrock",
-    "link": "https://aws.amazon.com/blogs/machine-learning/how-postman-runs-agent-mode-for-40-million-developers-on-amazon-bedrock/",
-    "summary": "Building an AI agent that works in a demo is a different problem from running one for 40 million developers. Postman and AWS share the architectural patterns behind Agent Mode: controlling tool sprawl, exposing schema-based reads, and treating context as the real bottleneck, plus how it runs on Amazon Bedrock at scale.",
-    "source": "Artificial Intelligence",
-    "published": "2026-10-09T15:35:02+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n Postman leverages **Amazon Bedrock** to deploy **Agent Mode** at a massive scale, addressing the transition from prototype to production for 40 million developers.\n The architecture focuses on controlling **tool sprawl** through schema-based reads, ensuring the agent remains efficient in complex API environments.\n Developers identified **context management** as the primary bottleneck, implementing strategies to optimize how the model processes diverse API documentation and user data.",
-      "key_results": [
-        "Scaling AI agents to support a user base of 40 million developers.",
-        "Optimization of tool-calling mechanisms to prevent context window saturation.",
-        "Implementation of schema-based read patterns for structured API interactions.",
-        "Strategic use of Amazon Bedrock for managed infrastructure and model reliability.",
-        "Identification of context handling as a more critical bottleneck than raw model latency."
-      ],
-      "relevance_score": 8,
-      "signal_type": "Engineering Blog",
-      "one_sentence_takeaway": "Postman utilizes Amazon Bedrock to scale AI agents by optimizing context management and tool schemas for 40 million developers.",
-      "lead_institution": "Postman",
-      "tags": [
-        "LLM Agents",
-        "Production Scaling",
-        "Amazon Bedrock",
-        "API Management",
-        "Context Optimization"
       ]
     }
   },
@@ -2310,36 +2370,6 @@
     }
   },
   {
-    "title": "Humanize MLE Agents: Multi-Agent Session Alternation Beyond Single-Agent Limits",
-    "link": "http://arxiv.org/abs/2610.13494v1",
-    "summary": "Existing LLM-based agent approaches for long-horizon machine learning engineering (MLE) often use context engineering, implemented through custom harnesses that manage tools, skills, and accumulated experience. However, we find that as single-session execution lengthens, the agent's reasoning intensity declines alongside slowing progress, summarized as long-horizon deceleration, and the benefits of these custom harnesses vanish as the underlying model improves, summarized as harness staleness. These findings suggest that their benefits may not persist across versions, which motivates a workflow-level approach in which agents build on one another's work across sessions. We model these alternating agent sessions as a context-reset semi-Markov decision process (CR-SMDP) and establish sufficient conditions for alternation to exceed single-agent reference limits, derive an explicit experiment-budget bound, and characterize when session caps preserve this advantage. Guided by this analysis, we introduce Humanize MLE Agents (HMA), which alternates two agents on a shared workspace, limits each session to at most k experiments and resets the context between sessions, without additional task-specific harness or prior knowledge supplements. Across 75 Kaggle tasks in MLE-bench, HMA reaches a state-of-the-art any-medal rate of 78.2%, exceeding the strongest open-source baseline by 8.0 points with a quarter of its time budget. Moreover, among six configurations spanning five heterogeneous agent pairs, HMA improves any-medal rate over the constituent baselines by 6.4 points on average, demonstrating cross-pair generality. A supplementary case on kernel optimization reaches 878 cycles, within 1.6% of the community leaderboard leader, demonstrating applicability beyond MLE.",
-    "source": "ArXiv",
-    "published": "2026-10-09T12:26:34+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Introduces **Humanize MLE Agents (HMA)**, a framework addressing **long-horizon deceleration** where agent reasoning quality drops over extended autonomous sessions.\n- Models multi-agent workflows as a **context-reset semi-Markov decision process (CR-SMDP)** to optimize session caps and prevent performance plateaus.\n- Employs a **session alternation** strategy between two agents on a shared workspace, resetting context to bypass the **harness staleness** of complex, custom LLM wrappers.\n- Achieves **SOTA performance** on the MLE-bench suite by prioritizing workflow-level resets over task-specific prompt engineering or prior knowledge.",
-      "key_results": [
-        "Achieved a state-of-the-art 78.2% any-medal rate on the MLE-bench Kaggle tasks.",
-        "Outperformed the strongest open-source baseline by 8.0 percentage points.",
-        "Reduced time consumption to 25% of the budget required by leading single-agent baselines.",
-        "Demonstrated cross-pair generality with an average 6.4 point improvement across six different agent configurations.",
-        "Reached performance within 1.6% of the community leader in a specialized kernel optimization case study."
-      ],
-      "relevance_score": 9,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce HMA, a multi-agent alternation strategy that overcomes long-horizon reasoning decay to achieve SOTA on MLE-bench.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "LLM Agents",
-        "MLE-bench",
-        "Context Engineering",
-        "Autonomous AI",
-        "Reasoning Models"
-      ]
-    }
-  },
-  {
     "title": "EviRepair: Evidence-Driven Agents for Reliable Vulnerability Repair",
     "link": "http://arxiv.org/abs/2610.13491v1",
     "summary": "Recent advances in large language models (LLMs) have enabled agent-based approaches for repository-level automated vulnerability repair (AVR), showing promising repair capabilities. However, an important issue has received limited attention: how can we ensure that the evidence generated during the repair process is reliable enough to support accurate vulnerability understanding and patch generation? In this paper, we propose EviRepair, an evidence-driven multi-agent framework for repository-level AVR. EviRepair introduces evidence review into the repair process by enabling agents to collaboratively collect vulnerability evidence, verify evidence consistency, and construct a reviewed vulnerability model for patch synthesis and validation. Extensive experiments on PatchEval and SecBench benchmarks with multiple agent frameworks and LLMs demonstrate that EviRepair consistently outperforms existing agent-based baselines, achieving average improvements of 16.37% and 40.33% in resolved rates on PatchEval and SecBench, respectively. Codes are available at https://github.com/lly-s/EviRepair",
@@ -2366,66 +2396,6 @@
         "Security AI",
         "Multi-Agent Systems",
         "Automated Programming"
-      ]
-    }
-  },
-  {
-    "title": "Proactive Agentic Orchestration",
-    "link": "http://arxiv.org/abs/2610.13485v1",
-    "summary": "Agentic orchestration delegates tasks to sub-agents with independent contexts, providing a key path to extending the effective execution horizon of large language model agents. However, existing orchestration methods face two limitations: in execution, current methods fix sub-agents' goals and harnesses at creation time, limiting their adaptability to dynamic real-world environments; in optimization, sparse and delayed feedback constrains effective learning of the orchestration policy. To address these limitations, we introduce POrchestra, an on-the-fly proactive agentic orchestration framework. It allows sub-agents to proactively communicate with the orchestrator at any logical point to request harness adjustments while maintaining continuity of local execution. This mechanism not only enables sub-agents to adapt seamlessly to dynamic environments but also naturally inspires On-Policy Orchestration Distillation (OPOD) based on hindsight feedback. OPOD attributes sub-agents' proactive revision requests back to preceding orchestration decisions to derive targeted improvement signals, and leverages these signals as process supervision alongside the final reward to optimize the orchestration policy. We evaluate POrchestra on three long-horizon agent benchmarks spanning deep research, dynamic digital assistance, and software engineering. POrchestra improves task success by an average of 9.1% relative to the strongest baseline; combined with OPOD, it improves small-orchestrator success by an average of 10.0% relative to existing training baselines. POrchestra also achieves a more favorable cost-performance trade-off. Our code is publicly available at https://github.com/XueyangFeng/POrchestra.",
-    "source": "ArXiv",
-    "published": "2026-10-09T12:18:49+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Introduces **POrchestra**, a framework for **on-the-fly agentic orchestration** that allows sub-agents to proactively request harness and goal adjustments during execution.\n- Implements **On-Policy Orchestration Distillation (OPOD)**, which utilizes hindsight feedback from sub-agent revision requests as **process supervision** signals for training.\n- Decouples sub-agent contexts to extend the **effective execution horizon** while maintaining a dynamic communication loop for environmental adaptability.\n- Optimizes the **orchestration policy** by attributing revision requests to preceding decisions, overcoming the limitations of sparse and delayed rewards.",
-      "key_results": [
-        "Improved task success rates by an average of 9.1% relative to the strongest existing orchestration baselines.",
-        "Boosted small-orchestrator performance by 10.0% through the OPOD distillation mechanism.",
-        "Demonstrated superior scalability across long-horizon benchmarks including deep research and software engineering.",
-        "Achieved a more efficient cost-performance trade-off compared to static orchestration methods.",
-        "Validated that proactive communication reduces execution failures in dynamic real-world environments."
-      ],
-      "relevance_score": 9,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "Xueyang Feng et al. introduce POrchestra to enable dynamic sub-agent adjustments and hindsight-based distillation for superior agentic orchestration.",
-      "lead_institution": "Tsinghua University",
-      "tags": [
-        "LLM Agents",
-        "Agentic Orchestration",
-        "Model Distillation",
-        "Long-Horizon Tasks",
-        "Process Supervision"
-      ]
-    }
-  },
-  {
-    "title": "Branching On-Policy Distillation",
-    "link": "http://arxiv.org/abs/2610.13481v1",
-    "summary": "On-policy distillation (OPD) provides teacher supervision on student-generated trajectories, but a single trajectory realizes only one continuation at each decision, limiting supervision coverage under a finite sampling budget. We propose BranchOPD (Branching On-Policy Distillation), which selects informative decision points using student uncertainty and teacher-student disagreement, resamples student-policy continuations from shared prefixes, and applies token-level teacher supervision to both main trajectories and branches. BranchOPD operates at token-level decisions in mathematics and within-turn decisions in agent tasks. Shared-prefix reuse reduces student-generated token costs by approximately 19% on ALFWorld and 31% on WebShop relative to seven independent trajectories. We also introduce protocol-boundary repair (PBR), which uses targeted supervision under protocol constraints to mitigate repetition and wasted generation. BranchOPD outperforms Vanilla OPD and Multi-Rollout OPD (n=7) across all evaluated benchmarks, with gains over Vanilla OPD of 18.55 percentage points in mean mathematics accuracy over 16 sampled answers (avg@16) and 13.8 points in mean ALFWorld ID/OOD success. Mechanistic analyses and selection ablations show that branching at uncertain decisions expands subsequent behavior coverage and outperforms random selection and turn-initial branching.",
-    "source": "ArXiv",
-    "published": "2026-10-09T12:13:34+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n* Introduces **BranchOPD** (Branching On-Policy Distillation), a framework that improves student model performance by branching trajectories at **informative decision points** identified through uncertainty or teacher-student disagreement.\n* Utilizes **shared-prefix reuse** to optimize computational efficiency, reducing student token generation costs by up to 31% compared to independent sampling.\n* Incorporates **Protocol-Boundary Repair (PBR)**, a targeted supervision technique that corrects repetition and protocol violations in agentic tasks to prevent wasted generation.\n* Enhances **supervision coverage** by providing teacher feedback on multiple continuations from a single prefix, rather than just a single sequential path.",
-      "key_results": [
-        "Achieved an 18.55 percentage point gain in mean math accuracy (avg@16) over vanilla on-policy distillation.",
-        "Improved mean success rates in ALFWorld (ID/OOD) by 13.8 points.",
-        "Reduced token costs by 19% on ALFWorld and 31% on WebShop through prefix sharing.",
-        "Proved that branching at uncertain decisions outperforms random or turn-initial branching strategies.",
-        "Successfully mitigated model repetition and invalid protocol generation via the PBR mechanism."
-      ],
-      "relevance_score": 9,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "Researchers introduce BranchOPD to enhance model reasoning and agent performance by targeting teacher supervision at high-uncertainty decision branches.",
-      "lead_institution": "ArXiv (Research Team)",
-      "tags": [
-        "Model Distillation",
-        "LLM Agents",
-        "Reasoning Models",
-        "On-Policy Learning",
-        "On-Policy Distillation"
       ]
     }
   },
@@ -2486,36 +2456,6 @@
         "Model Distillation",
         "OCR",
         "Squint Text"
-      ]
-    }
-  },
-  {
-    "title": "SqueezeBench: Saturation-Resilient Evaluation of Mathematical Capability",
-    "link": "http://arxiv.org/abs/2610.13461v1",
-    "summary": "AI systems are making rapid progress in mathematics, but this progress is hard to measure. Benchmarks of solved problems saturate, and in benchmarks of open problems each problem can be resolved for the first time only once. We present SqueezeBench, a benchmark that is resilient to saturation: a success raises the bar instead of removing the problem. Each problem fixes an integer function $f(n)$ whose values are known only for small $n$, and the benchmark keeps a lower and an upper record on it. A record is a computable Lean function with a machine-checked proof that it bounds $f$. A submission proposes a new function and proves that it bounds $f$, that it is no worse than the current record at any $n$, and that it is strictly better at some $n$. Once accepted, it becomes the record that the next submission has to beat. The system thus chooses the bound as well as its proof, and it may improve the record at a single $n$ or its growth rate. At every $n$, the gap between the two records shows how far the certified bounds are from determining $f(n)$. Every proof is checked by two independent Lean kernels, so no referee needs to check the mathematics. The checks also reject a function that computes $f$ by exhaustive search at small $n$, and a maintainer only reads the submitter's report and looks for such a search at larger $n$. We release ten problems from extremal combinatorics with twenty proved initial records and the admission tools. As a baseline, agents based on a frontier language model, with at most one hour per record, had 82 submissions accepted and improved every record, without going beyond the published literature. Agents based on two newer models then started from these records, had 60 more submissions accepted and improved 19 of the 20 records again. For eight of the ten problems, at least one record is still asymptotically behind the best published bound.",
-    "source": "ArXiv",
-    "published": "2026-10-09T11:59:46+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- **SqueezeBench** introduces a dynamic, saturation-resilient benchmarking framework designed to evaluate mathematical reasoning by requiring AI agents to improve upon current upper and lower bounds of integer functions.\n- The system leverages the **Lean theorem prover** and two independent kernels to provide machine-checked, formal verification of mathematical proofs, eliminating the need for human peer review.\n- The architecture focuses on **extremal combinatorics**, where models must submit computable functions and formal proofs that are strictly better than the existing record to be accepted.\n- This approach addresses the **saturation problem** in AI evaluation by ensuring that every successful model submission raises the difficulty floor for future iterations.",
-      "key_results": [
-        "Released 10 initial problems from extremal combinatorics with 20 machine-checked initial records and admission tools.",
-        "Frontier LLM agents successfully improved every initial record, making 82 accepted submissions within a one-hour-per-record limit.",
-        "Newer model iterations further improved 19 of the 20 records, demonstrating measurable progress in mathematical reasoning capability.",
-        "The benchmark currently identifies that 8 out of 10 problems have AI-generated records that remain asymptotically behind human-published literature.",
-        "Implemented automated safeguards that reject trivial solutions such as exhaustive search at small integer values."
-      ],
-      "relevance_score": 9,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "ArXiv researchers introduce SqueezeBench, a Lean-integrated framework for evaluating mathematical reasoning through continuous improvement of bound records.",
-      "lead_institution": "ArXiv",
-      "tags": [
-        "Mathematical Reasoning",
-        "Lean Prover",
-        "LLM Evaluation",
-        "Formal Verification",
-        "Combinatorics"
       ]
     }
   },
@@ -2636,36 +2576,6 @@
         "Social Awareness",
         "Reward Shaping",
         "Traffic Optimization"
-      ]
-    }
-  },
-  {
-    "title": "Rollout-Time Intervention: Unlocking Agentic Reinforcement Learning Beyond Policy Limits",
-    "link": "http://arxiv.org/abs/2610.13438v1",
-    "summary": "Reinforcement learning (RL) has emerged as a key paradigm for improving large language model (LLM) agents, enabling stronger reasoning, planning, and tool-use in interactive environments. However, existing agent RL methods remain fundamentally constrained by an on-policy reasoning bottleneck: when tasks exceed the model's current capability boundary, effective trajectories become extremely sparse and training often collapses. We introduce Rollout-Time Intervention (RTI), a technique designed to elicit successful trajectories beyond the policy's intrinsic exploration capacity. RTI operates by leveraging reward-side evidence (i.e., evaluation rubrics) during rollout to convert erroneous trajectories into successful ones, providing effective learning signals for tasks that the policy rarely solves on its own. Although intervention trajectories are inherently off-policy, we find that they can effectively guide policy optimization when trajectories with excessive distributional shifts are filtered out. Extensive experiments across five benchmarks demonstrate that RTI consistently outperforms RL baselines, enabling the post-trained policy to approach the performance of substantially stronger contemporary LLMs and, more importantly, transcend its original capability boundary. The code is available at https://github.com/Alibaba-NLP/qqr.",
-    "source": "ArXiv",
-    "published": "2026-10-09T11:37:09+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "\n- Introduces **Rollout-Time Intervention (RTI)** to address the **on-policy reasoning bottleneck**, where LLM agents fail to generate successful trajectories for tasks beyond their current capability.\n- Utilizes **reward-side evidence** and evaluation rubrics during the rollout phase to intervene and correct erroneous steps, converting failed paths into successful training signals.\n- Employs a filtering strategy to manage **distributional shifts**, ensuring that only off-policy trajectories compatible with the model's learning stability are used for optimization.\n- Enables post-trained policies to **transcend original capability boundaries**, allowing smaller models to reach performance levels comparable to significantly larger, frontier LLMs.",
-      "key_results": [
-        "RTI consistently outperforms standard Reinforcement Learning baselines across five major agentic benchmarks.",
-        "The method effectively synthesizes successful training data for tasks where the original policy had a zero percent success rate.",
-        "Filtering out trajectories with excessive distributional shifts proved critical for stable off-policy learning.",
-        "Post-intervention models demonstrated improved reasoning, planning, and tool-use capabilities in interactive environments.",
-        "The approach allows models to approach the performance of contemporary LLMs that are substantially larger in parameter count."
-      ],
-      "relevance_score": 9,
-      "signal_type": "Paper",
-      "one_sentence_takeaway": "Alibaba-NLP introduces RTI to correct agent trajectories during rollout, allowing RL models to surpass their original reasoning limits.",
-      "lead_institution": "Alibaba-NLP",
-      "tags": [
-        "LLM Agents",
-        "Reinforcement Learning",
-        "Rollout-Time Intervention",
-        "Reasoning Models",
-        "Policy Optimization"
       ]
     }
   },
