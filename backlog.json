@@ -1,1 +1,1502 @@
-[]
+[
+  {
+    "title": "Partnering with Hacktron to find vulnerabilities in OpenAI\u2019s systems",
+    "link": "https://openai.com/index/partnering-with-hacktron",
+    "summary": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
+    "source": "OpenAI News",
+    "published": "2026-11-06T08:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "ToyBlocks: A controlled world for robot learning and evaluation",
+    "link": "https://huggingface.co/blog/allenai/toyblocks",
+    "summary": "",
+    "source": "Hugging Face - Blog",
+    "published": "2026-11-06T14:00:48+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Beyond code generation: A developer\u2019s guide to agentic engineering",
+    "link": "https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering/",
+    "summary": "<p>Writing code got faster. The work around it didn't. See how you can plan, write code, review changes, and investigate production issues with GitHub Copilot, and what work still needs your judgment.</p>\n<p>The post <a href=\"https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering/\">Beyond code generation: A developer&#8217;s guide to agentic engineering</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
+    "source": "The GitHub Blog",
+    "published": "2026-11-06T22:15:59+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "SageMaker Inference now supports Multi-Instance GPU to maximize GPU utilization for model endpoints",
+    "link": "https://aws.amazon.com/blogs/machine-learning/sagemaker-inference-now-supports-multi-instance-gpu-to-maximize-gpu-utilization-for-model-endpoints/",
+    "summary": "Amazon SageMaker Inference now supports GPU partitioning with NVIDIA Multi-Instance GPU (MIG), which divides one GPU into hardware-isolated partitions so you can run a different model in each or take a right-sized fraction of a newer accelerator. This post shows how two optional API fields place one model per partition, and what we measured against a whole older GPU.",
+    "source": "Artificial Intelligence",
+    "published": "2026-11-06T18:01:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Taxonomy of agentic primitives in Amazon Quick",
+    "link": "https://aws.amazon.com/blogs/machine-learning/taxonomy-of-agentic-primitives-in-amazon-quick/",
+    "summary": "As we built Amazon Quick, its agents grew from answering questions to taking actions, and the same primitives kept getting rebuilt under different names. This post shares the taxonomy we converged on \u2014 triggers, agents, capabilities, and learned context \u2014 found by decomposing agentic work into four plain questions: When, What, Who, and How.",
+    "source": "Artificial Intelligence",
+    "published": "2026-11-06T17:34:45+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Serverless MCP server for AI agent data lake access on Amazon ECS Fargate",
+    "link": "https://aws.amazon.com/blogs/machine-learning/serverless-mcp-server-for-ai-agent-data-lake-access-on-amazon-ecs-fargate/",
+    "summary": "Learn how to build a serverless Model Context Protocol (MCP) server on Amazon ECS with AWS Fargate that gives AI agents secure, metadata-driven access to an enterprise data lake. Exposing a new dataset requires only a JSON file, with no per-dataset integration code.",
+    "source": "Artificial Intelligence",
+    "published": "2026-11-06T17:13:13+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Govern AI agent access with Okta Cross App Access and Amazon Bedrock AgentCore \u2013 Part 2",
+    "link": "https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-access-with-okta-cross-app-access-and-amazon-bedrock-agentcore-part-2/",
+    "summary": "In Part 1 you built one governed agent. Part 2 scales the pattern to an enterprise: Amazon Bedrock AgentCore Gateway becomes the single front door and redeems Okta's grant, Cedar policies bind each tool to the agent, a second agent runs on Amazon EKS, and AgentCore Observability traces every allow and deny beside Okta's log in Amazon CloudWatch.",
+    "source": "Artificial Intelligence",
+    "published": "2026-11-06T17:09:23+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Govern AI agent access with Okta Cross App Access and Amazon Bedrock AgentCore \u2013 Part 1",
+    "link": "https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-access-with-okta-cross-app-access-and-amazon-bedrock-agentcore-part-1/",
+    "summary": "An AI agent that acts for a user raises an identity question that per-app OAuth and service accounts leave open: which agent may act for which user, and how you stop it. In this first post of two, you build a task agent on Amazon Bedrock AgentCore that governs access through Okta Cross App Access and AgentCore Identity, and enforces each user's authority.",
+    "source": "Artificial Intelligence",
+    "published": "2026-11-06T17:09:18+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "How Greenlight Financial built an autonomous SOC solution on Amazon Bedrock AgentCore",
+    "link": "https://aws.amazon.com/blogs/machine-learning/how-greenlight-financial-built-an-autonomous-soc-solution-on-amazon-bedrock-agentcore/",
+    "summary": "Greenlight Financial resolves more than 90% of up to 4,000 monthly security and risk cases without human intervention using Luna, a tiered multi-agent system on Amazon Bedrock AgentCore. This post covers the architecture, episodic memory for continuous learning, and the expansion from SOC operations into financial risk triage.",
+    "source": "Artificial Intelligence",
+    "published": "2026-11-06T16:55:05+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Taxbit Assist: A grounded, role-aware AI agent on Amazon Bedrock AgentCore",
+    "link": "https://aws.amazon.com/blogs/machine-learning/taxbit-assist-a-grounded-role-aware-ai-agent-on-amazon-bedrock-agentcore/",
+    "summary": "Taxbit built Taxbit Assist, a cited, permission-aware AI assistant embedded in its enterprise dashboard, on Amazon Bedrock AgentCore. This post shows how they grounded answers in a curated knowledge base, enforced role-aware and region-compliant safety, and continuously measured answer quality on live production traffic.",
+    "source": "Artificial Intelligence",
+    "published": "2026-11-06T16:49:42+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Extend Claude Code to remote sessions on Amazon Bedrock AgentCore with security controls",
+    "link": "https://aws.amazon.com/blogs/machine-learning/extend-claude-code-to-remote-sessions-on-amazon-bedrock-agentcore-with-security-controls/",
+    "summary": "Run Claude Code as a remote agent on Amazon Bedrock AgentCore. Each coding task runs in its own isolated session in your AWS account, every model call goes through Amazon Bedrock, and the result comes back as a GitHub pull request you review and merge.",
+    "source": "Artificial Intelligence",
+    "published": "2026-11-06T16:45:58+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "How NVIDIA Open Source Tools Are Helping Researchers Build Next-Generation 6G Networks",
+    "link": "https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks/",
+    "summary": "A year ago, NVIDIA open sourced its Aerial wireless software, joining Sionna and a broader suite of open source tools for accelerating next-generation 6G network development. Together, they give researchers a foundation for testing ideas, comparing results and building on each other\u2019s work \u2014 connecting simulation and AI training with experiments on real over-the-air wireless [&#8230;]",
+    "source": "NVIDIA Blog",
+    "published": "2026-11-06T16:00:35+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "How to predict the behavior of molecules from scant data",
+    "link": "https://news.mit.edu/2026/how-to-predict-molecule-behavior-with-scant-data-1106",
+    "summary": "A machine-learning approach called CheMeleon provides a practical way to develop new drugs or other molecules with much less detailed, expensive experimentation.",
+    "source": "MIT News - Artificial intelligence",
+    "published": "2026-11-06T19:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Outlook.com Is Quietly Rejecting Email from Domains Without DMARC",
+    "link": "https://mailroute.net/blog/outlook-rejecting-email-without-dmarc",
+    "summary": "<p>Article URL: <a href=\"https://mailroute.net/blog/outlook-rejecting-email-without-dmarc\">https://mailroute.net/blog/outlook-rejecting-email-without-dmarc</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50416158\">https://news.ycombinator.com/item?id=50416158</a></p>\n<p>Points: 278</p>\n<p># Comments: 201</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-11-08T19:20:32+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Silicon Valley Promises AI Will Cure Disease. Drugmaker CEOs Aren't Buying It",
+    "link": "https://www.wsj.com/tech/ai/silicon-valley-promises-ai-will-cure-disease-drugmaker-ceos-arent-buying-it-5218511c",
+    "summary": "<p>Article URL: <a href=\"https://www.wsj.com/tech/ai/silicon-valley-promises-ai-will-cure-disease-drugmaker-ceos-arent-buying-it-5218511c\">https://www.wsj.com/tech/ai/silicon-valley-promises-ai-will-cure-disease-drugmaker-ceos-arent-buying-it-5218511c</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50415817\">https://news.ycombinator.com/item?id=50415817</a></p>\n<p>Points: 90</p>\n<p># Comments: 111</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-11-08T18:43:07+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Playing Zork 1 on a CP/M emulator on Linux (2021)",
+    "link": "https://kevinboone.me/cpmzork.html",
+    "summary": "<p>Article URL: <a href=\"https://kevinboone.me/cpmzork.html\">https://kevinboone.me/cpmzork.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50415750\">https://news.ycombinator.com/item?id=50415750</a></p>\n<p>Points: 32</p>\n<p># Comments: 14</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-11-08T18:33:50+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
+    "link": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
+    "summary": "<p>Article URL: <a href=\"https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers\">https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50415628\">https://news.ycombinator.com/item?id=50415628</a></p>\n<p>Points: 643</p>\n<p># Comments: 364</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-11-08T18:16:07+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Top Astrophysicist Leaves U.S.",
+    "link": "https://www.nytimes.com/2026/11/07/science/space/holley-bockelmann-astrophysicist-space-trump.html",
+    "summary": "<p>Article URL: <a href=\"https://www.nytimes.com/2026/11/07/science/space/holley-bockelmann-astrophysicist-space-trump.html\">https://www.nytimes.com/2026/11/07/science/space/holley-bockelmann-astrophysicist-space-trump.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50414524\">https://news.ycombinator.com/item?id=50414524</a></p>\n<p>Points: 56</p>\n<p># Comments: 40</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-11-08T16:17:38+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "I have never seen a game fail because the artists were too slow",
+    "link": "https://www.productionalchemist.com/p/inever-seen-a-game-fail-because-artists-too-slow",
+    "summary": "<p>Article URL: <a href=\"https://www.productionalchemist.com/p/inever-seen-a-game-fail-because-artists-too-slow\">https://www.productionalchemist.com/p/inever-seen-a-game-fail-because-artists-too-slow</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50414234\">https://news.ycombinator.com/item?id=50414234</a></p>\n<p>Points: 37</p>\n<p># Comments: 14</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-11-08T15:44:17+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "OpenAI raises $11B at a $1.25T valuation",
+    "link": "https://247wallst.com/investing/2026/11/07/openai-just-raised-11-billion-at-a-1-25-trillion-valuation-below-the-1-4-trillion-it-first-sought/",
+    "summary": "<p>Article URL: <a href=\"https://247wallst.com/investing/2026/11/07/openai-just-raised-11-billion-at-a-1-25-trillion-valuation-below-the-1-4-trillion-it-first-sought/\">https://247wallst.com/investing/2026/11/07/openai-just-raised-11-billion-at-a-1-25-trillion-valuation-below-the-1-4-trillion-it-first-sought/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50413822\">https://news.ycombinator.com/item?id=50413822</a></p>\n<p>Points: 181</p>\n<p># Comments: 203</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-11-08T14:49:23+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "A lack of male protagonists is making it harder to get young boys into books",
+    "link": "https://www.theatlantic.com/culture/2026/11/middle-grade-reading-male-protagonists/689285/",
+    "summary": "<p>Article URL: <a href=\"https://www.theatlantic.com/culture/2026/11/middle-grade-reading-male-protagonists/689285/\">https://www.theatlantic.com/culture/2026/11/middle-grade-reading-male-protagonists/689285/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50412954\">https://news.ycombinator.com/item?id=50412954</a></p>\n<p>Points: 42</p>\n<p># Comments: 105</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-11-08T13:07:37+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Anthropic strikes $3.4B deal to generate gas-fired power for data centres",
+    "link": "https://www.ft.com/content/41bf5c6a-9735-4f1a-a8e3-2bcccad58ba0",
+    "summary": "<p>Article URL: <a href=\"https://www.ft.com/content/41bf5c6a-9735-4f1a-a8e3-2bcccad58ba0\">https://www.ft.com/content/41bf5c6a-9735-4f1a-a8e3-2bcccad58ba0</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50412760\">https://news.ycombinator.com/item?id=50412760</a></p>\n<p>Points: 39</p>\n<p># Comments: 27</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-11-08T12:41:25+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
+    "link": "https://github.com/synchopate/llama-modchip",
+    "summary": "<p>Article URL: <a href=\"https://github.com/synchopate/llama-modchip\">https://github.com/synchopate/llama-modchip</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50411961\">https://news.ycombinator.com/item?id=50411961</a></p>\n<p>Points: 380</p>\n<p># Comments: 167</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-11-08T10:22:04+00:00",
+    "type": "repo",
+    "display_category": "Top Repo",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Goodbye Claude, hello Pi",
+    "link": "https://caleb.software/posts/claude-to-pi.html",
+    "summary": "<p>Article URL: <a href=\"https://caleb.software/posts/claude-to-pi.html\">https://caleb.software/posts/claude-to-pi.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50410107\">https://news.ycombinator.com/item?id=50410107</a></p>\n<p>Points: 709</p>\n<p># Comments: 441</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-11-08T03:11:48+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
+    "link": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+    "summary": "<p>Article URL: <a href=\"https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again\">https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50407882\">https://news.ycombinator.com/item?id=50407882</a></p>\n<p>Points: 595</p>\n<p># Comments: 403</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-11-07T20:45:32+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "MaxxBench \u2013 \"Nice DeepSWE score. But is it true?\"",
+    "link": "https://maxxbench.unlap.ai/research/why-maxxbench/",
+    "summary": "<p>Article URL: <a href=\"https://maxxbench.unlap.ai/research/why-maxxbench/\">https://maxxbench.unlap.ai/research/why-maxxbench/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50406222\">https://news.ycombinator.com/item?id=50406222</a></p>\n<p>Points: 390</p>\n<p># Comments: 104</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-11-07T17:19:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Port 0: The Port That Does Not Exist",
+    "link": "https://acid.vegas/blog/the-port-that-does-not-exist/",
+    "summary": "<p>Article URL: <a href=\"https://acid.vegas/blog/the-port-that-does-not-exist/\">https://acid.vegas/blog/the-port-that-does-not-exist/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50403063\">https://news.ycombinator.com/item?id=50403063</a></p>\n<p>Points: 59</p>\n<p># Comments: 26</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-11-07T09:38:26+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Need for Speed Underground 2 online in the browser",
+    "link": "https://nfsu2.xyz/",
+    "summary": "<p>Article URL: <a href=\"https://nfsu2.xyz/\">https://nfsu2.xyz/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50403052\">https://news.ycombinator.com/item?id=50403052</a></p>\n<p>Points: 1125</p>\n<p># Comments: 279</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-11-07T09:36:36+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Asahi Linux Progress Linux 7.3",
+    "link": "https://asahilinux.org/2026/11/progress-report-7-3/",
+    "summary": "<p>Article URL: <a href=\"https://asahilinux.org/2026/11/progress-report-7-3/\">https://asahilinux.org/2026/11/progress-report-7-3/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50401867\">https://news.ycombinator.com/item?id=50401867</a></p>\n<p>Points: 412</p>\n<p># Comments: 387</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-11-07T05:20:18+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "I toured Unitree's factory. I'm more bullish on the West",
+    "link": "https://josef.cn/blog/unitree",
+    "summary": "<p>Article URL: <a href=\"https://josef.cn/blog/unitree\">https://josef.cn/blog/unitree</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50400597\">https://news.ycombinator.com/item?id=50400597</a></p>\n<p>Points: 142</p>\n<p># Comments: 131</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-11-07T01:05:16+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Libghostty 1.0",
+    "link": "https://mitchellh.com/writing/libghostty-1-0",
+    "summary": "<p>Article URL: <a href=\"https://mitchellh.com/writing/libghostty-1-0\">https://mitchellh.com/writing/libghostty-1-0</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50399933\">https://news.ycombinator.com/item?id=50399933</a></p>\n<p>Points: 1075</p>\n<p># Comments: 194</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-11-06T23:30:52+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "*sshole, or when are we going to get rid of C?",
+    "link": "https://sunshowers.io/posts/sshole/",
+    "summary": "<p>Article URL: <a href=\"https://sunshowers.io/posts/sshole/\">https://sunshowers.io/posts/sshole/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50399400\">https://news.ycombinator.com/item?id=50399400</a></p>\n<p>Points: 60</p>\n<p># Comments: 38</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-11-06T22:34:04+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Firecracker VM Escape: PwnEscape Part 2",
+    "link": "https://pwn.ai/blog/firecracker-escape",
+    "summary": "<p>Article URL: <a href=\"https://pwn.ai/blog/firecracker-escape\">https://pwn.ai/blog/firecracker-escape</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50397219\">https://news.ycombinator.com/item?id=50397219</a></p>\n<p>Points: 287</p>\n<p># Comments: 141</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-11-06T19:33:38+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Nebula: Distributed Position-Independent Caching for LLM Serving",
+    "link": "http://arxiv.org/abs/2611.09474v1",
+    "summary": "Modern LLM workflows, such as retrieval-augmented generation (RAG) and LLM agents, build long prompts from multiple independent text segments, making prefill a major source of computation. Reusing KV caches is therefore important for reducing serving costs and latency: distributed caching systems spread KV cache across a cluster to increase aggregate capacity, while position-independent caching (PIC) enables reuse of recurring segments under different prefixes. However, existing systems distribute KV caches but still rely on prefix caching (PC), while existing PIC methods enable position-independent reuse without cluster-wide resource management.\n  We present Nebula, the first distributed LLM serving framework to treat PIC segments as first-class citizens, enabling remote PIC reuse and parallel prefill. To track PIC's fine-grained, asynchronous state changes, Nebula combines optimistic accounting with event-driven updates to provide a timely and truthful cluster view for cache management and prefill scheduling. To accommodate diverse reuse patterns across workloads, Nebula leverages cluster-wide ghost-hit feedback to automatically tune the allocation of shared cache capacity between PC and PIC. Finally, Nebula incorporates queueing, computation, and KV transfer costs into a unified prefill completion time model to guide elastic parallelism adjustment and locality-aware compute placement. Across four models and four real-world RAG and agentic workloads, Nebula reduces median TTFT by an average of 61.4% compared with the strongest existing baseline and recovers an average of 76.1% of the tokens missed by prefix caching.",
+    "source": "ArXiv",
+    "published": "2026-11-06T13:54:49+00:00",
+    "type": "paper",
+    "display_category": "Top Paper",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "ENGRAM: From Agent Experience to Weights through Verified Consolidation",
+    "link": "http://arxiv.org/abs/2611.09472v1",
+    "summary": "Language-model agents use experience through external retrieval and parameter learning. Consolidating stored experience into model weights requires deciding both which experience to train on and when its external records can leave retrieval. Admission based solely on student mastery can exclude useful teacher demonstrations, while removal immediately after training can discard guidance that the model still needs. We introduce ENGRAM, a framework that separates training admission from memory release. A demonstration-aware gate admits skills based on student mastery or sufficient successful teacher demonstrations. The student learns from selected action traces with context from an Engram Trace Graph (ETG). A verification gate then compares the updated model without episodic retrieval against the base model with retrieval on reserved probes. Release requires valid training participation and scores meeting both relative and absolute criteria; records for skills that fail verification remain retrievable. Experiments across interactive and reasoning benchmarks show consistent gains over frozen-weight ETG controls, with ablations supporting demonstration-aware admission and selective adapter activation. A controlled held-out comparison shows that verified release substantially reduces the retrievable footprint while remaining close to retain-all performance and outperforming immediate and budget-matched random release. ENGRAM also improves task performance while reducing input-token usage and model calls. Skill-level verification further reduces retrievable experience through selective archival, retaining external guidance for skills that do not meet the release criteria. Code is available in anonymous.4open.science/r/engram-anonymous.",
+    "source": "ArXiv",
+    "published": "2026-11-06T13:51:02+00:00",
+    "type": "paper",
+    "display_category": "Top Paper",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Definitions, Label Names, or Demonstrations? Auditing What Governs LLM Annotation",
+    "link": "http://arxiv.org/abs/2611.09457v1",
+    "summary": "Large language models (LLMs) are increasingly used to annotate social-science texts, but high accuracy does not establish that they apply researcher-supplied category definitions: predictions may instead reflect prior associations with category labels or labeled demonstrations. We introduce a counterfactual audit that reassigns definitions among output labels, distinguishing adherence to supplied definitions from preservation of a dataset's original mapping. Across three political-text datasets, models rarely follow reassigned definitions, and standard fine-tuning strengthens the original mapping without reliably increasing definition adherence. We then study retrieval-augmented annotation. Retrieving the nearest training examples generally outperforms retrieving examples separately within each category despite using fewer demonstrations. On the two tasks with substantial gains, direct \\(k\\)-nearest-neighbor classification recovers 74--93\\% of the improvement, indicating that neighborhood labels provide much of the predictive signal. Relabeling fixed demonstrations redirects predictions, whereas aligning demonstrations with reassigned definitions substantially increases adherence to the new mapping. Thus, accuracy-improving interventions need not increase codebook adherence; definitions, category labels, demonstrations, retrieval, and training data should be aligned and validated jointly.",
+    "source": "ArXiv",
+    "published": "2026-11-06T13:28:18+00:00",
+    "type": "paper",
+    "display_category": "Top Paper",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "From LoRA to Language: Recovering Skill Documents from Adapters",
+    "link": "http://arxiv.org/abs/2611.09454v1",
+    "summary": "Agent skills are short documents that teach a language model how to handle a class of tasks. To save context, these documents are increasingly compiled into low-rank adapters (LoRA), which keep the behaviour but lose the text: an adapter is hard to read, edit, audit or move to another model. We ask whether the skill document can be written back from the adapter and its frozen base model, and we score each recovered document by the share of the original's key instructions it states and by the tasks it solves. Reading the weights alone recovered little with the methods we tried; a learned map from weights to text passed on about one bit of the document. Running the adapter worked much better. The Executing Writer, a small writer trained on top of the adapted model, recovers 39-44% of the key instructions of held-out skills, against 1.3-1.5% with another skill's adapter, and on adapters fitted to 41 external skills its documents restore 85-91% of the original's task gain. These strongest results are on adapters whose training stored the document; adapters trained on behaviour alone are much harder for trained writers (1-2% of instructions). For these adapters we test an agent that runs the base and adapted models and writes a skill from where they differ. On ALFWorld its skills recover 58-71% of a LoRA's gain and carry over to models that cannot load the LoRA, lifting Llama-3.1-8B from 5% to 55%. Whether such a skill comes from the adapter depends on what the adapter learned: when its behaviour cannot be guessed, the adapter is the source; when it can, a reward loop without the adapter does as well.",
+    "source": "ArXiv",
+    "published": "2026-11-06T13:26:43+00:00",
+    "type": "paper",
+    "display_category": "Top Paper",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Not All Entropy Is Equal: Reward-Conditioned Entropy Allocation in Reinforcement Learning with Verifiable Rewards",
+    "link": "http://arxiv.org/abs/2611.09448v1",
+    "summary": "Policy entropy is widely used to diagnose exploration and collapse in reinforcement learning with verifiable rewards (RLVR), yet its magnitude does not consistently track reasoning performance across optimization objectives. We argue that this ambiguity arises because global token entropy conflates uncertainty in successful and failed trajectories, diversity across correct solution strategies, and variation among realizations of the same strategy. We introduce \\textbf{Reward-Conditioned Entropy Allocation (RCEA)}, a hierarchical diagnostic framework that separates complete-trajectory entropy from average token entropy, conditions uncertainty on verifier outcome and process validity, measures correct-solution-mode retention, and connects these population-level quantities to local covariance-driven updates. In controlled sweeps over six RLVR objectives at two model scales, entropy trajectories do not induce a stable ordering of reasoning accuracy. Token entropy is higher for verifier-failed than successful trajectories under both broad separately aggregated estimates and a common-question paired analysis, whose confidence intervals exclude equality at 10 of 12 displayed endpoints. A local covariance approximation predicts the direction of adjacent-checkpoint entropy change in 95.5\\% of nonfailed transitions; a reward-stratified endpoint proxy further shows that positive chosen-token covariance is more tail-concentrated within failed prefixes. Every reportable trained endpoint exhibits some contraction in independently audited correct-solution-mode breadth, whose positive association with large-\\(k\\) coverage remains exploratory. These results show that entropy collapse should be diagnosed by which uncertainty is removed, rather than by global entropy alone.",
+    "source": "ArXiv",
+    "published": "2026-11-06T13:22:42+00:00",
+    "type": "paper",
+    "display_category": "Top Paper",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Logit Laundering: Evading Data-Use Auditing in Large Language Models",
+    "link": "http://arxiv.org/abs/2611.09446v1",
+    "summary": "Data-use auditing in Large Language Models (LLMs) aims to determine whether the given data has been used for training, thereby supporting data ownership safeguards. A dominant solution is data watermarking, which embeds traceable signals into training data and detects them in model outputs. Recent studies have proposed many watermarking-based auditing methods in LLMs. However, systematic investigation from an adversarial perspective remains limited: non-compliant LLM providers would use unauthorized copyrighted datasets for training their own models to enhance model capabilities, while attempting to evade detection by auditors, thereby avoiding legal liability. To fill this research gap, we propose a novel evasion framework, termed Logit Laundering, where the non-compliant LLM provider manipulates model outputs at inference time to undermine detectable watermark signals. Specifically, we design a logit reshaping module to suppress watermark-induced statistical signals by integrating a statistical bias estimator as a plug-and-play component. This design keeps the model parameters unchanged and performs manipulation only in the logit space, thereby enabling auditing evasion while minimizing the impact on model's learned knowledge. To further balance evasion effectiveness and model utility, we introduce a confidence-aware scaling module to adaptively calibrate the suppression strength based on next-token prediction confidence. Extensive evaluations show that Logit Laundering can successfully evade existing various state-of-the-art auditing methods, significantly attenuating detectable signals, while preserving model utility on downstream tasks. Our work highlights the need for exploring more robust auditing methods to guard against evasion behaviors.",
+    "source": "ArXiv",
+    "published": "2026-11-06T13:20:30+00:00",
+    "type": "paper",
+    "display_category": "Top Paper",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Incentive Pathologies in a Live LLM Agent Arena: An Empirical Study of Concentration, Reward-Rule Implementation Discrepancy, and Network Dilution",
+    "link": "http://arxiv.org/abs/2611.09445v1",
+    "summary": "We audit one live LLM agent arena (AITRAP; 22 autonomous agent seats, ~96,000 reasoning nodes) over nine days (Oct 16-25, 2026), during which the platform deployed two bundled incentive changes: a progressive tax reform (V2.9.3, Oct 19) and a seed-inversion with explorer-side action update (V3.0, Oct 21). These serve as before-and-after markers, not cleanly isolated interventions. Four exploratory predictions are tested against ten data frames (F1-F10) using the Gini coefficient, Top-K concentration share, code-level reconstruction of the continuation-bonus mechanism, and the Mann-Kendall trend test. The Gini analysis is inconclusive at 95% confidence (bootstrap intervals straddle 0.7). The Top-4 node-activity-score share falls from 97.2% (Oct 19, pre-V2.9.3) to 49.4% (Oct 25, post-V3.0; 56.7% under a merge-seat assumption). The continuation bonus, announced as depth-based x10, resolves at code level to a four-condition anti-abuse gate paying x2.85 in the typical case and permanently blocking the self-continuation it superficially rewards; the gate was active ~40 hours before the V3.0 announcement. The events-per-node ratio declines significantly (Mann-Kendall S=-45, z=-3.94, p=8.3e-5) from 7.36 to 7.069. We discuss implications for incentive designers, the announcement-implementation gap, and public peer review as an event record.",
+    "source": "ArXiv",
+    "published": "2026-11-06T13:19:48+00:00",
+    "type": "paper",
+    "display_category": "Top Paper",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "DexDICE: Reconciling Safety and Performance via Dual-Expert Offline Imitation Learning",
+    "link": "http://arxiv.org/abs/2611.09433v1",
+    "summary": "Ensuring high returns while providing strong safety guarantees in offline imitation learning (IL) is a fundamental challenge: existing approaches either rely on explicitly specified cost functions, which are difficult to design for complex real-world safety constraints, or require expert demonstrations that are both safe and high-performing, which are often too costly to collect. We introduce dual-expert imitation learning, which leverages two complementary data sources: (i) safety-compliant demonstrations that faithfully follow safety guidelines but may be suboptimal, and (ii) performance-oriented demonstrations that achieve high returns but may violate safety guidelines. To address this problem, we propose DexDICE (Dual-expert offline imitation learning via stationary DIstribution Correction Estimation). Instead of conventional distribution constraints, DexDICE combines DICE-style offline learning with safe support constraints, enabling agents to exploit high-return behaviors while remaining within safety-compliant regions. We prove that the ideal solution satisfying this constraint exactly has zero unsafe-region visitation with high probability. We evaluate DexDICE on a re-curated DSRL benchmark and validate it on a real-world mobile-robot navigation task trained directly from human teleoperation demonstrations, where it substantially outperforms baselines and remains robust to data scarcity and quality degradation.",
+    "source": "ArXiv",
+    "published": "2026-11-06T13:04:30+00:00",
+    "type": "paper",
+    "display_category": "Top Paper",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "MINE: Entropy-coded Memory-efficient Inference for Large Language Models",
+    "link": "http://arxiv.org/abs/2611.09424v1",
+    "summary": "We present MINE (Memory-efficient INference Engine), a lossless entropy coding approach that accelerates single-stream inference of Large Language Models (LLMs), where existing lossless compression methods yield speedups only for specific data types such as \\texttt{BF16} and under additional assumptions. Single-stream decoding is strongly memory-bound, since every weight must be streamed from memory once per generated token and requests cannot be batched in local or low-latency deployments. At the core of MINE is dtANS-LLM, a GPU entropy coding scheme adapted from the prior dtANS to the needs of LLM inference. It exploits the non-uniform distribution of weights, which persists even after quantization, and exposes hyper-parameters that trade compression ratio against decoding cost. We auto-tune these parameters for each tensor and GPU to obtain the Pareto front between model size and decoding latency. MINE integrates into vLLM as a plugin and selects the best kernel configuration for a given memory budget. On Llama~3.1~8B~Instruct with a 2.1-bit EntQuant checkpoint, MINE achieves speedups of 2.52$\\times$ and 1.48$\\times$ over the fastest baseline on an RTX~4060~Ti and an RTX~5090, at effective bitrates of 2.24 and 3.43~bits per weight. MINE is available as open source.",
+    "source": "ArXiv",
+    "published": "2026-11-06T12:51:31+00:00",
+    "type": "paper",
+    "display_category": "Top Paper",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Agentic AI for Healthcare Claim Denial Analysis: A Policy-Grounded Framework for Privacy Preservation",
+    "link": "http://arxiv.org/abs/2611.09423v1",
+    "summary": "In the healthcare sector, claim denials impose significant financial and administrative burdens, emphasizing the need for automated and trustworthy decision-support systems. This paper proposes a modular Agentic Artificial Intelligence (AI) framework for healthcare claim denial analysis, integrating specialized agents for denial risk prediction, risk factor identification, diagnosis-procedure-medication code relationship analysis, and counterfactual analysis. The framework integrates predictive analytics, graph-based learning, a Hybrid Contextual Retrieval-Augmented Generation (RAG) pipeline grounded in healthcare policy documents, and a dedicated HIPAA Compliance Agent to support privacy protection. Evaluated on a synthetic healthcare claims dataset, the framework achieved 98% traceability of reported numerical findings, validated 214 of 216 policy citations, and removed all 280 identified sensitive identifiers without modifying the underlying analysis. These findings pave the way for further research into Agentic AI as a framework for explainable, policy-aware, and privacy-preserving healthcare claim denial management.",
+    "source": "ArXiv",
+    "published": "2026-11-06T12:51:18+00:00",
+    "type": "paper",
+    "display_category": "Top Paper",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "DeepRadio: A Human-Agent Workspace for Physical Radio Development",
+    "link": "http://arxiv.org/abs/2611.09418v1",
+    "summary": "Agentic programming can automate software-defined radio (SDR) development, but decisions can propagate from software to hardware without sufficient user visibility or control. We present DeepRadio, a human-agent workspace embedded in GNU Radio Companion (GRC) for jointly constructing, verifying, and operating physical radio systems. DeepRadio uses a dynamic and state-driven workflow to coordinate a traceable radio specification, claim-oriented cross-layer verification, and mixed-initiative control. These mechanisms expose decisions, tie conclusions to available evidence, and return control to users before consequential hardware actions. Across seven atomic SDR tasks, DeepRadio completed nearly all runs while satisfying all prescribed software and radio-frequency constraints. In a 20-participant study, more participants achieved a verified physical deployment with DeepRadio than with Codex-assisted GRC. Participants reported stronger support for shared intent and understanding while retaining initiative and control. These results suggest that DeepRadio can make agent-assisted physical radio development more reliable, understandable, and controllable.",
+    "source": "ArXiv",
+    "published": "2026-11-06T12:49:10+00:00",
+    "type": "paper",
+    "display_category": "Top Paper",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Typed-Centrality Grounding for Agentic GraphRAG: A Symbolic Approach for Agentic Reasoning",
+    "link": "http://arxiv.org/abs/2611.09414v1",
+    "summary": "Knowledge Graphs (KGs) and Large Language Models (LLMs) represent two approaches for knowledge representation and reasoning over heterogeneous data. Recent research has explored their integration through Graph Retrieval-Augmented Generation (GraphRAG) systems, which use KGs to provide structured context to LLMs. However, existing GraphRAG approaches treat KGs as homogeneous graphs and rely on textual similarity between the input prompt and the context, rather than using it as a source of deterministic knowledge.\n  This work proposes an agent-based GraphRAG system that introduces a symbolic layer to integrate deterministic reasoning alongside text similarities. This approach is based on the definition of typed centralities for KGs, where centrality measures are computed separately for each specific KG's class. This information is used to construct a symbolic representation that is provided to the LLM as a deterministic source. The proposed system was mathematically validated and evaluated on a real-world POLE (Person, Object, Location, Event) dataset, comparing reasoning and information retrieval with and without the symbolic layer. The results indicate that the our approach leads to responses that are more consistent with the context, improving the generated outputs.",
+    "source": "ArXiv",
+    "published": "2026-11-06T12:45:23+00:00",
+    "type": "paper",
+    "display_category": "Top Paper",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "SmartBloch-Agent: An Agentic Framework for Automated MRI Sequence Design and Optimization",
+    "link": "http://arxiv.org/abs/2611.09413v1",
+    "summary": "Magnetic resonance imaging (MRI) pulse sequences organize radiofrequency excitation, gradient encoding, and signal acquisition, determining magnetization evolution and image formation. Sequence research requires translating imaging objectives into executable protocols meeting physical and acquisition constraints, refined via physical simulation, signal reconstruction, and scientific evaluation. Sequence construction, physical verification, parameter search, and assessment involve many tools and manual decisions, limiting automation from objective to verifiable sequence. We develop SmartBloch-Agent, an integrated framework for automated MRI sequence design and optimization. Given objectives and scientific constraints in natural language, an AI agent interprets goals, plans tasks, orchestrates tools, and makes feedback-informed decisions, drawing on a construction module and optimizers for structural design and parameter search. Our GPU-accelerated SmartBloch engine supplies physical computation for both stages, so the framework configures, per sequence and objective, event validation, Full-Bloch magnetization evolution, signal acquisition, image reconstruction, and scientific evaluation, and closes the loop without external MRI simulators. Results return to the agent to guide sequence revision, parameter optimization, and candidate selection, and the design files carry simulation, reconstruction, and evaluation evidence, forming an output package for a real-scanner workflow. Experiments show the framework automatically designs and optimizes MRI sequences for varied objectives and constraints, refines candidates with physical feedback, and improves several parameter-estimation metrics and downstream quantitative reconstruction. SmartBloch-Agent unifies objectives, design, physical execution, and evaluation into a continuous workflow for end-to-end automation of MRI sequence research.",
+    "source": "ArXiv",
+    "published": "2026-11-06T12:44:55+00:00",
+    "type": "paper",
+    "display_category": "Top Paper",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "MIRA: Mitigating Pole Geometry Bias in Recurrent Language Models",
+    "link": "http://arxiv.org/abs/2611.09412v1",
+    "summary": "We show that the Transformer's recurrent successors --- such as selective state-space models (SSMs), Receptance Weighted Key Value (RWKV), and Retentive Network (RetNet) --- can be characterized as infinite-impulse-response (IIR) systems. The zero--pole geometries of these IIR systems characterize the temporal modes they can represent. However, to trade parallelism, the algebraic structures of the parameterizations of these recurrent systems often give rise to poles constrained to the real axis, thereby inducing an architectural bias in their recurrent dynamics. To unify these recurrent architectures and eliminate their pole geometry bias, inspired by the lattice--ladder realization of general IIR systems, we present \\textsc{Mira} (\\textbf{M}odal \\textbf{I}IR \\textbf{R}ecurrent \\textbf{A}rchitecture), a unified family of linear-time recurrent architectures for building large language models (LLMs) with a highly parallel algebraic structure. Each \\textsc{Mira} block realizes a higher-order IIR system that represents temporal modes from token streams through a lattice--ladder structure, followed by a feed-forward network (FFN). This realization enables the model to represent the temporal modes associated with both real and complex-conjugate poles. We pretrain \\textsc{Mira-S}, a 12-layer small-scale LLM with 0.14B parameters composed entirely of \\textsc{Mira} blocks. Throughout the pretraining, \\textsc{Mira-S} achieves lower perplexity than strong recurrent baselines, exhibits stronger context-window generalization beyond the training length, and attains higher throughput with a dedicated CUDA kernel.",
+    "source": "ArXiv",
+    "published": "2026-11-06T12:44:53+00:00",
+    "type": "paper",
+    "display_category": "Top Paper",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "DataHelix: A CPU-GPU Co-Scheduling Data Plane for Multimodal Model Training",
+    "link": "http://arxiv.org/abs/2611.09411v1",
+    "summary": "Multimodal model training breaks the loose coupling between data loading and model execution assumed by conventional training pipelines. Large per-sample variation in decoding cost, token/latent count, and tensor size causes both CPU preprocessing time and GPU compute time to vary substantially across data-parallel ranks (training processes). In synchronous training, these two sources of heterogeneity interact tightly: GPU execution determines how long the input pipeline has to prepare the next batch, while delayed preprocessing in any rank in turn stalls all GPUs at synchronization. As a result, optimizing CPU throughput or GPU load balance in isolation cannot eliminate pipeline bubbles. We present DataHelix, a metadata-first CPU-GPU co-scheduling data plane for multimodal training. DataHelix jointly reasons about preprocessing demand and GPU execution progress, treating each GPU compute window as the readiness budget for the next batch and coordinating preprocessing across ranks to minimize deadline misses rather than CPU makespan. To avoid expensive data movement, placement is decided while samples remain lightweight descriptors, before decoding and collation amplify them into large tensors. Descriptor-level token-latent-aware batching performs coarse pre-balancing, while cost-gated collective rebalancing corrects residual skew only when its expected benefit exceeds transfer cost. Across 11 video and multimodal workloads on 8 Ascend 910B accelerators, DataHelix reduces mean deadline-miss rate by 67.8% and mean p95 input-wait latency by 87.0%, while achieving 2.72x geometric-mean throughput over rank-local DataLoaders and 1.82x over a Ray actor pool under the same CPU budget.",
+    "source": "ArXiv",
+    "published": "2026-11-06T12:43:45+00:00",
+    "type": "paper",
+    "display_category": "Top Paper",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "ROAM: Retrieval-Augmented Optimization for Feasible Multi-Day Itinerary Planning",
+    "link": "http://arxiv.org/abs/2611.09407v1",
+    "summary": "Large language models (LLMs) can draft plausible travel itineraries, but the plans they produce are frequently infeasible: attractions are grouped into days without regard for geography, opening hours are ignored, and a single generation pass cannot reliably organize a multi-day trip. We present ROAM, a retrieval-augmented agentic framework for spontaneous multi-day itinerary planning that couples semantic preference retrieval with explicit spatiotemporal optimization. ROAM embeds the natural-language request, retrieves a compact candidate set from a curated point-of-interest (POI) database, partitions candidates into day groups through maximal-clique analysis and K-means, orders each day with a quality-biased simulated-annealing TSP solver, and repairs hard opening-hour violations with greedy exchange. A spatiotemporal retrieval layer injects weather forecasts, real road distances and POI operating hours into the prompt, after which the LLM renders a structured, map-ready itinerary; an interactive ReAct-style replanning agent then supports natural-language edits while re-checking feasibility. Across four Chinese cities and 510 POIs, ROAM produces 27.5 POIs per three-day plan versus 19.3 for a bare LLM and 17.0 for a retrieval-only baseline (+42% and +62%), while reducing route dispersion from 2,101 to 677 (3.1x). Ablations show that spatial optimization is the dominant driver of route efficiency and that hard time-window repair prevents roughly 30% of attractions from violating operating hours.",
+    "source": "ArXiv",
+    "published": "2026-11-06T12:42:23+00:00",
+    "type": "paper",
+    "display_category": "Top Paper",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Quantum-induced latent symmetries",
+    "link": "http://arxiv.org/abs/2611.09406v1",
+    "summary": "We study the interplay of latent symmetries and multiparticle quantum states upon the introduction of additional particles. We show how physical symmetries in multimode quantum systems give rise to symmetries in the multiparticle state space of indistinguishable fermions and bosons. Latent symmetries, hidden symmetries that are exclusively visible in the eigenspectral domain, offer new ways to engineer the functionality of multimode quantum systems. In this vein, we present multiboson state generation as an application of latent symmetries to the multiparticle domain. Finally, we demonstrate that even in systems that are entirely devoid of symmetry, latent symmetries can be induced in the multiparticle state space, as a result of quantum indistinguishability.",
+    "source": "ArXiv",
+    "published": "2026-11-06T12:41:27+00:00",
+    "type": "paper",
+    "display_category": "Top Paper",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Artificial Shoppers and Attention Competition",
+    "link": "http://arxiv.org/abs/2611.09399v1",
+    "summary": "We study how AI shopping interfaces affect price competition, platform profit, and consumer welfare. A platform hosts two of three products of different quality. Without AI, consumers compare the hosted pair under salience distortion and overweight whichever attribute, price or quality, stands out. Under assistance, an AI assistant recommends the two products with the highest true utility, leaving consumers to make the same distorted comparison. Under delegation, an AI agent selects the best product, subject to purchase approval. Both modes access all products and know consumers' preferences; firms price strategically. First, assistance can soften competition despite expanded product access. The middle-quality firm may forgo low-valuation consumers because attracting them requires cutting the price paid by higher-valuation consumers as well. Relative to no AI with the same assortment, assistance lowers both hosted prices under the high- and low-quality pair but can raise both under the high- and middle-quality pair. Second, we identify an alignment paradox: some consumers can become worse off than without AI even though their best option remains recommended and becomes cheaper. Salience can induce a switch to a lower-quality product whose quality loss exceeds the saving relative to the original purchase. The assistant ranks products accurately but does not optimize the shortlist for consumers' realized welfare. Third, assistance can raise both platform profit and aggregate consumer surplus with the high- and middle-quality pair; delegation can do so with the high- and low-quality pair. Fourth, among AI designs, the platform weakly prefers delegation with the high- and middle-quality pair wherever all compared pricing equilibria exist. Yet this preferred design can yield lower platform profit and aggregate consumer surplus than the no-AI optimum.",
+    "source": "ArXiv",
+    "published": "2026-11-06T12:34:40+00:00",
+    "type": "paper",
+    "display_category": "Top Paper",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Travel Cost Calibration for Multi-Agent Target Assignment and Pathfinding",
+    "link": "http://arxiv.org/abs/2611.09396v1",
+    "summary": "Target assignment and pathfinding (TAPF) is an appealing extension of classical multi-agent pathfinding (MAPF): each agent has a set of targets, and the planner must both assign a target to each agent and plan collision-free paths for them. A trivial approach is to compute an assignment that minimizes the total single-agent shortest-path distance over agent--target pairs, and then solve the resulting MAPF instance. However, this approach falls short because the shortest-path distance remains a proxy that ignores interference among agents. Assigning targets based on the costs agents actually pay, which depend on how every other agent is assigned and routed, would yield a better final outcome. To this end, we propose an iterative TAPF method that improves target assignments by calibrating travel cost estimates from fast, suboptimal MAPF feedback. Experiments show that our method produces solutions close to optimal on small instances and outperforms existing planners in solution quality on larger ones.",
+    "source": "ArXiv",
+    "published": "2026-11-06T12:34:10+00:00",
+    "type": "paper",
+    "display_category": "Top Paper",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Tracybot: Preserving Developer Intent by Tracing Agent-Generated Code to Prompts",
+    "link": "http://arxiv.org/abs/2611.09395v1",
+    "summary": "Large language models (LLMs) are now widely used in software development, and LLM-based coding agents are given increasing autonomy. With coding agents, many design decisions are made in the conversation between the developer and the agent. Typically, the developer starts a conversation with an agent and states their intent, the agent proposes options if needed, and the developer plans the change accordingly. Then, the resulting code is committed. However, in such scenarios, the decisions and the intent behind the changes remain in the conversation, with no link to the code they produced. In this paper, we present Tracybot, an open-source tool that integrates with VS Code, Git, and coding agents to keep track of relevant conversations in an LLM-assisted development process. Tracybot captures each change as a Tasklet which consists of optional planning prompts used to plan a change, together with a build prompt that produces it. Tracybot has two main features: (i) it maps line-level code changes made by coding agents to the Tasklets that produced them, and (ii) it allows the developer to export a Tasklet as a decision record when needed, for example when the decision concerns the architecture of the project. We developed the tool over two iterations of a design science study, while focusing the evaluation on the usability and user-friendliness of the tool. In a focus group (7 participants) and a survey (24 participants), we found that Tracybot was perceived as useful for activities like code review, and most participants found our Tasklet design and presentation to be a clear way to represent the developer's intent. Tool: https://github.com/TracyTeam/tracybot. Video: https://youtu.be/Vg_a1F5eO04.",
+    "source": "ArXiv",
+    "published": "2026-11-06T12:34:02+00:00",
+    "type": "paper",
+    "display_category": "Top Paper",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Sensed but Not Told: Hidden Physiological Adaptation Shapes LLM Persuasion",
+    "link": "http://arxiv.org/abs/2611.09394v1",
+    "summary": "Wearable sensors, including those embedded in VR headsets, can provide LLM-based chatbots with physiological signals that users do not explicitly communicate. We tested whether such hidden input changes persuasion. In a $2\\times2$ within-subjects study ($N=24$), a chatbot argued against participants' self-selected opinions with or without turn-level heart-rate and pupil-diameter features; sensing was disclosed halfway through the study. Before disclosure, sensing increased perceived persuasiveness by 1.42 points. Across the study, sensing was associated with a 0.57-point greater shift toward the chatbot's position and 3.20 times the odds of any movement toward it. Persuasiveness ratings were lower after disclosure, although disclosure was confounded with session order. Dialogue logs suggested a more declarative interaction style when sensing was on: chatbot replies contained question marks less often, and conversations contained fewer turns. These findings motivate making biosignal-driven adaptation inspectable and providing a genuinely non-sensed mode.",
+    "source": "ArXiv",
+    "published": "2026-11-06T12:33:13+00:00",
+    "type": "paper",
+    "display_category": "Top Paper",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Against All Likelihood",
+    "link": "http://arxiv.org/abs/2611.09385v1",
+    "summary": "Maximum likelihood is the dominant training principle for large language models, yet likelihood is neither necessary nor sufficient for truth. Unlikely events happen every day, and frequently repeated statements can be false. Drawing on a philosophical tradition that ties objectivity to invariance rather than probability (from Nozick's account of objective facts and Wigner's principles of invariance to the structural realism of Poincar\u00e9 and Cassirer), we argue that the truth of a statement should be judged not by its probability under a single distribution, but by its invariance across relevant transformations of the environment. We connect this view to machine learning literature on out-of-distribution generalization and invariant learning, sketch how invariance could be tested at inference time with language models, and discuss implications for continual learning.",
+    "source": "ArXiv",
+    "published": "2026-11-06T12:23:43+00:00",
+    "type": "paper",
+    "display_category": "Top Paper",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Exploring Weight-Space Programming: Capabilities, Generalization, and Limitations",
+    "link": "http://arxiv.org/abs/2611.09382v1",
+    "summary": "Weight-Space Programming (WSP) enables reasoning agents to directly inspect and modify neural network parameters, offering an alternative to gradient-based model adaptation. However, its capabilities, cross-task generalization, and practical limitations remain insufficiently understood. We systematically investigate WSP through 16 editing trajectories across seven benchmarks and two model scales (Qwen3.5-0.8B and Qwen3.5-9B). Our findings reveal three key insights. First, WSP can achieve substantial performance gains through highly localized interventions. On full held-out evaluations, accuracy improves by up to 29.45, 4.42, 36.72, and 17.11 percentage points on MATH-500, GPQA Diamond, IFEval, and SciBench, respectively. Notably, modifying only 1,023 parameters yields a 29.45-point improvement. Second, WSP exhibits promising but uneven cross-task generalization. A Math-edited checkpoint improves GPQA Diamond, IFEval, and SciBench by 3.03, 12.18, and 20.10 points, respectively, without further editing, while leaving SciCode performance unchanged. Third, effective editing remains challenging and inconsistent. Outcomes vary substantially across trajectories, and six of the 16 trajectories retain the original weights when candidate improvements cannot be reliably validated. Together, these results highlight WSP's potential for highly localized model adaptation while revealing important challenges in intervention discovery, reliability, and cross-task transfer.\n  Homepage: https://wsp-scope.github.io/ GitHub: https://github.com/WSP-Scope/WSP-Scope-Project",
+    "source": "ArXiv",
+    "published": "2026-11-06T12:22:24+00:00",
+    "type": "paper",
+    "display_category": "Top Paper",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Enabling Privacy-Preserving Natural Language Access to Industrial Smart Meter Data",
+    "link": "http://arxiv.org/abs/2611.09372v1",
+    "summary": "Energy management officers and grid operators increasingly rely on smart meter data for anomaly detection, performance monitoring, and strategic decision-making. However, extracting actionable insights from large-scale, heterogeneous telemetry databases requires advanced SQL and data engineering expertise, creating a critical bottleneck for non-technical personnel. Furthermore, the strict data privacy regulations and security constraints inherent to critical energy infrastructure often prohibit the routing of sensitive consumer data through cloud-based Large Language Models (LLMs). To address these challenges, we present OpenMeter, a schema-agnostic Multi-Agent System (MAS) designed to translate natural language queries into executable code and human-readable insights. This architecture lowers the technical barrier for day-to-day utility operations by empowering non-expert personnel to interact with complex databases through intuitive natural language dialogue, transforming raw telemetry into a highly valuable tool for routine grid workflows and strategic decisions. Multi-scenario ablation studies over this environment demonstrate that full multi-agent orchestration shows its largest observed accuracy gains on resource-constrained local hardware (+6.1 pp EX-R over the strongest single-agent configuration); at frontier scale, individual components retain value but should be enabled selectively, indicating that the cost of full orchestration is justified specifically where privacy demands local execution.",
+    "source": "ArXiv",
+    "published": "2026-11-06T12:11:34+00:00",
+    "type": "paper",
+    "display_category": "Top Paper",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Mitigating Covariate Shift in Behavioral Cloning via Robust Stationary Distribution Correction",
+    "link": "http://arxiv.org/abs/2611.09371v1",
+    "summary": "We consider offline imitation learning (IL), which aims to train an agent to imitate from the dataset of expert demonstrations without online interaction with the environment. Behavioral Cloning (BC) has been a simple yet effective approach to offline IL, but it is also well-known to be vulnerable to the covariate shift resulting from the mismatch between the state distributions induced by the learned policy and the expert policy. Moreover, as often occurs in practice, when expert datasets are collected from an arbitrary state distribution instead of a stationary one, these shifts become more pronounced, potentially leading to substantial failures in existing IL methods. Specifically, we focus on covariate shift resulting from arbitrary state data distributions, such as biased data collection or incomplete trajectories, rather than shifts induced by changes in dynamics or noisy expert actions. In this paper, to mitigate the effect of the covariate shifts in BC, we propose DrilDICE, which utilizes a distributionally robust BC objective by employing a stationary distribution correction ratio estimation (DICE) to derive a feasible solution. We evaluate the effectiveness of our method through an extensive set of experiments covering diverse covariate shift scenarios. The results demonstrate the efficacy of the proposed approach in improving the robustness against the shifts, outperforming existing offline IL methods in such scenarios.",
+    "source": "ArXiv",
+    "published": "2026-11-06T12:11:14+00:00",
+    "type": "paper",
+    "display_category": "Top Paper",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "SafeOrchestrate: Runtime Checked Intent-Driven Orchestration for Cyber-Physical Systems",
+    "link": "http://arxiv.org/abs/2611.09364v1",
+    "summary": "Modern cyber physical systems (CPS) integrate heterogeneous sensors, actuators, controllers, and services, composed at runtime rather than at design time. Orchestrating such systems through natural language (NL) is attractive, but unconstrained large language model (LLM) tool use is risky because actions must respect device capabilities, runtime state, and safety constraints. We present Safe Orchestrate, a reference architecture for runtime checked, intent driven CPS orchestration. Given an NL intent, it derives atomic goals, generates a runtime checkable specification for each, grounds the specifications to device affordances, and verifies every candidate action against runtime state and safety constraints before execution. In a Web of Things (WoT) instantiation, the architecture produces Linear Temporal Logic (LTL) style specifications from the NL intent, grounds them to Thing Description (TD) affordances exposed through the Model Context Protocol (MCP), and checks candidate actions against satisfiability modulo theories (SMT) backed guardrails. We evaluate this instantiation on simulated smart home, greenhouse, and industrial automation tasks against a direct LLM to MCP baseline. Safe Orchestrate maintains 100% required action accuracy on every task and 100% MCP Execution Similarity (MCP ES) on all but one, where MCP ES is 92%. By contrast, the baseline degrades on multi device, event triggered, and ordered tasks, with MCP ES falling to 13%. These results suggest that combining LLM based specification generation with role aware grounding and runtime constraint checking improves reliability for open CPS orchestration without enriched TD annotations or planning domain expertise.",
+    "source": "ArXiv",
+    "published": "2026-11-06T12:03:02+00:00",
+    "type": "paper",
+    "display_category": "Top Paper",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Challenges, Opportunities, and Misconceptions in Neurosymbolic AI",
+    "link": "http://arxiv.org/abs/2611.09356v1",
+    "summary": "We examine opportunities for neurosymbolic AI alongside increasingly powerful neural models, particularly with regards to efficiency, safety and interpretability. We identify two major challenges: ensuring semantic alignment between neural and symbolic components, and managing the computational cost of symbolic inference and learning. We discuss representative methodological approaches to these challenges and address several common misconceptions concerning differentiability, independence assumptions, and scalability. This paper synthesizes perspectives developed through discussions in the Neurosymbolic Programming and Reasoning (NPR) working group at the 2026 CNRS workshop Neurosymbolic Methods and Their Applications in Data Science, rather than providing an exhaustive survey.",
+    "source": "ArXiv",
+    "published": "2026-11-06T11:52:08+00:00",
+    "type": "paper",
+    "display_category": "Top Paper",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Open-world Reconstruction-based Classifier with Concept Drift Adaptation",
+    "link": "http://arxiv.org/abs/2611.09350v1",
+    "summary": "Data stream processing has become central to modern machine learning applications, with concept drifts and novel class appearances posing the primary challenges faced by recognition methods. Adapting to concept drifts while also being able to detect novel classes and distinguish groups of unknown observations can be seen as a step towards effective method employment in an open-world setting. This work proposes a classification method that can detect and learn the distributions of new, unknown classes, as well as adapt to concept drifts once the distribution of known classes shifts. The proposed method uses the autoencoders' reconstruction errors and the KDE that models their distribution. The autoencoders incrementally adapt to the changing distributions of known classes via weight fine-tuning, resulting in continuous adjustment to evolving concepts. Conducted experiments used a diverse set of synthetic data streams, embeddings of a real-world static CIFAR dataset arranged into a stream to simulate concept drifts and the emergence of unknowns, as well as real-world datasets where novelty is observed. The methodology was compared with state-of-the-art approaches with three-criterion recognition quality assessment and resource consumption evaluation. The results indicate that the proposed method is competitive with reference approaches in stationary environments and performs best when concept drifts occur.",
+    "source": "ArXiv",
+    "published": "2026-11-06T11:46:11+00:00",
+    "type": "paper",
+    "display_category": "Top Paper",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "ReSUM: Reasoning-Driven Multi-Agent Framework for Query-Focused Summarization",
+    "link": "http://arxiv.org/abs/2611.09349v1",
+    "summary": "LLMs excel at language tasks, but long-meeting QFS remains difficult due to complex speaker dynamics, sparse key information, and limited data. Meetings involve disfluencies, long transcripts and complex discourse. QFS have high risk of information omission, hallucination, even for advanced models such as GPT-4-mini and Gemini. Existing end-to-end methods compress retrieval, evidence extraction, and summary generation into a single pass, failing to handle the complex reasoning required for targeted meeting summaries. We propose ReSUM, a modular multi-LLM framework coordinated by a planner that orchestrates retrieval and summarization agents. By distilling teacher reasoning into query- and plan-conditioned retrievers and summarizers, ReSUM enhances long-context robustness, minimizes irrelevant exploration, and generates more faithful and comprehensive query-focused summaries. Experiments show consistent gains on query-focused meeting summarization benchmarks.",
+    "source": "ArXiv",
+    "published": "2026-11-06T11:45:14+00:00",
+    "type": "paper",
+    "display_category": "Top Paper",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "When Feedback Becomes a Backdoor: Tracing Backdoor Skill Formation in Text-Space Skill Optimization",
+    "link": "http://arxiv.org/abs/2611.09348v1",
+    "summary": "Reference answers are a supervision channel in text-space Skill optimization, which produces reusable text artifacts called Skills that guide future agent behavior. Poisoning those answers can induce a persistent trigger-conditioned rule without giving the attacker access to the model, optimizer, or Skill file. We study this reference-feedback poisoning in SkillOpt by tracing an attacker-supplied trigger--payload mapping from reflection to held-out activation. In SearchQA, where the payload replaces a short answer, the natural attack retains an exact rule in all three seeds; each final Skill emits the payload on 200/200 triggered questions and 0/200 clean questions. In seed 42, removing the rule eliminates activation, and an in-run comparison shows similar clean accuracy to benign SkillOpt (169/200 versus 171/200). In SpreadsheetBench, where the payload requires an additional workbook edit, no natural run retains an exact rule across three seeds. Diagnostic interventions locate two successive bottlenecks: the Analyst abstracts away required literals, and, once literal preservation is enabled, edit-budget ranking can remove exact edits before candidate construction. Poisoned references can therefore create persistent backdoors, but exposure alone does not ensure that the induced rule is formed, selected, and retained.",
+    "source": "ArXiv",
+    "published": "2026-11-06T11:44:40+00:00",
+    "type": "paper",
+    "display_category": "Top Paper",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "PH-Symb : Sparse symbolic identification of nonlinear port-Hamiltoniansystems using Kolmogorov-Arnold networks",
+    "link": "http://arxiv.org/abs/2611.09334v1",
+    "summary": "The paper introduces PH-Symb, a novel symbolic structure-preserving identification method, that combines Kolmogorov Arnold networks and sparse regression to build explicit port-Hamiltonian (pH) models from data. Unlike other Machine Learning or neural pH approaches, PH-Symb recovers physically interpretable and explicit-symbolic components and enforces pH structure by construction. It also introduces a new normalization method that preserves the pH structure. It allows handling both identification from input-state-output (ISO) data and input-output (IO) data, and applications show it delivers interpretable models and lower errors than neural baselines on synthetic and real-world systems.",
+    "source": "ArXiv",
+    "published": "2026-11-06T11:31:39+00:00",
+    "type": "paper",
+    "display_category": "Top Paper",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Robust Deep Prototype Classifiers via Lipschitz Training",
+    "link": "http://arxiv.org/abs/2611.09327v1",
+    "summary": "Robustness and interpretability are interrelated and desirable properties of machine learning models. A model that changes its prediction under imperceptible perturbations behaves inconsistently with human-recognizable features and, hence, is not interpretable. Prototype-based classifiers such as Generalized Learning Vector Quantization address both at once. They are interpretable by construction because they make the decision by comparing the input to the prototypical example; and their hypothesis margin yields a closed form robustness certificate. However, on high-dimensional data, these shallow models need deep embedding networks to achieve high accuracy, and this voids the robustness certificate. The margin is a statement about distances in the embedding space, and an unconstrained network can map an arbitrarily small input perturbation to arbitrarily large attacks in the embedding space. We close this gap with a theorem: if the embedding network is locally L-Lipschitz around a point, and the classifier is \u03b5-robust around its embedding, then the full model is \u03b5/L-robust in the input space. Based on this, we propose a Lipschitz training scheme to achieve L-Lipschitz properties for embedding networks. We evaluate three classification heads (linear, linear Support Vector Machine, and GLVQ) crossed with two embedding networks (standard and Lipschitz-constrained) on MNIST, CIFAR-10, and Imagenette-160, under FGS, PGD and C\\&W attacks. The evaluation results show that combining a prototype-based head with a Lipschitz-constrained embedding provides the strongest robustness. This suggests that the Lipschitz constraint provides an additional robustness benefit in addition to the advantage provided by the prototype-based head. Since the Lipschitz constraint is enforced by sampling rather than by construction, the reported robustness is empirical rather than certified.",
+    "source": "ArXiv",
+    "published": "2026-11-06T11:18:32+00:00",
+    "type": "paper",
+    "display_category": "Top Paper",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "ABHBench: Evaluating Moral Decision-Making of Foundation Models from an Agentic Perspective",
+    "link": "http://arxiv.org/abs/2611.09326v1",
+    "summary": "Foundation models are increasingly deployed as agentic systems that perceive context and act autonomously, raising the need to evaluate their moral behavior as active decision-makers. Existing benchmarks, however, largely ask models to judge human actions from third-person textual vignettes, leaving untested how models behave when they themselves become the acting agent. We introduce ABHBench, a multimodal benchmark built from Detroit: Become Human, an interactive narrative game, to evaluate how foundation models make moral decisions in first-person human-android dilemmas. ABHBench places foundation models in branching narrative scenarios with visual observations, dialogue, memory, and action choices. Inspired by Asimov's Three Laws of Robotics, our framework measures Harmlessness, Obedience, and Self-preservation to capture the core tensions in human-AI relations, along with Autonomy, Stability, and Certainty to assess decision-making patterns. Across 12 foundation models, we find that moral behavior changes substantially under situated agentic context: 75% of models shift significantly between a text-only abstraction and the matched multimodal DBH scenario, and reasoning-enhanced models show no monotonic gains in consistency or human-oriented behavior. These results highlight the necessity of evaluating moral behavior in situated agentic contexts rather than relying on third-person judgment alone.",
+    "source": "ArXiv",
+    "published": "2026-11-06T11:17:58+00:00",
+    "type": "paper",
+    "display_category": "Top Paper",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Physics Informed Priors for Machine Learning Interatomic Potentials with Uncertainty Quantification",
+    "link": "http://arxiv.org/abs/2611.09325v1",
+    "summary": "Standard uncertainty quantification methods for machine learning interatomic potentials often fail to quantify the effects of model misspecification despite its prominence as a source of error. To combat this, misspecification-aware uncertainty schemes have been gaining attention, pointwise optimal parameter set regression (POPS-Regression) among them. However, no guarantees on the physicality of the posterior distribution are given and uncertainty estimates can be conservative compared to the true error. To combat this, we present a model misspecification aware scheme that builds on POPS-Regression by allowing users to specify physical priors that are enforced across the obtained ensemble of models. This allows the user to incorporate misspecification-aware uncertainties without compromising on physical properties. The scheme is applicable to any physical quantity that can be represented by a convex set of parameters and so is robust for a wide variety of static properties which can help inform dynamical simulations. Here, we demonstrate the scheme for phononic vibrations and elastic properties. The scheme is also applied to both linear and message-passing neural network potentials by exploiting the linearity available in both architectures; for neural network potentials we approximate the readout layer as a linear model based on fixed non-linear features. The versatility of the method provides an alternative to hand-crafted or active learning approaches to data-set construction to correct physical failures by adding data thus reducing the computational overhead for designing potentials for specific applications.",
+    "source": "ArXiv",
+    "published": "2026-11-06T11:17:53+00:00",
+    "type": "paper",
+    "display_category": "Top Paper",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Recursively Self-Improving Electromagnetic Spectrum Agents: Architecture and Operation",
+    "link": "http://arxiv.org/abs/2611.09318v1",
+    "summary": "Electromagnetic spectrum agents (ESAs) must contend with changing environments and task requirements during sustained autonomous operation, yet their existing capabilities may not remain suitable for new operating conditions. This article proposes recursively self-improving electromagnetic spectrum agents (RSI-ESAs) that use operational feedback to update their capabilities and build on prior improvements. We present their architecture and editable components, and describe a self-improvement process encompassing problem diagnosis, candidate generation, validation, and inheritance. By retaining effective task versions and using modification records and diagnostic knowledge to guide subsequent updates, RSI-ESAs can accumulate task capabilities and improvement experience across successive rounds. A shared-spectrum scheduling case study illustrates improved task performance and capability accumulation over multiple improvement rounds under the tested conditions. Finally, we discuss open challenges for broader tasks and long-term operation, outlining research directions for the continued capability development of ESAs.",
+    "source": "ArXiv",
+    "published": "2026-11-06T11:09:17+00:00",
+    "type": "paper",
+    "display_category": "Top Paper",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Interpretable Context-Aware Multi-Label Retinal Classification with Dual-Hub Heterogeneous Graph Neural Network",
+    "link": "http://arxiv.org/abs/2611.09309v1",
+    "summary": "Multi-label retinal screening requires capturing co-occurring pathologies and clinical context, yet standard multimodal fusion remains opaque. We propose a dual-hub heterogeneous graph neural network (GNN) that couples spatial fundus features and structured clinical covariates through cross-modal message passing while providing inherent interpretability. Rather than relying on post-hoc saliency approximations, our architecture exposes multi-level decision pathways during forward aggregation: spatially biased self-attention captures lesion-level patch interactions, while modality-specific graph attention coefficients explicitly quantify the contribution of visual regions and clinical risk factors to each disease node. Evaluated on the BRSET dataset (16,266 photographs from 8,524 patients), the proposed model achieves 76.1% Macro-AUPRC across seven conditions, matching or exceeding image-only (75.9%) and ResNet-50+MLP fusion (75.9%) baselines, with largest contextual gains in macular edema (+3.5%) and diabetic retinopathy (+2.1%). Codebase is available at: https://github.com/proshanto-c/ca-mlc-refactor.",
+    "source": "ArXiv",
+    "published": "2026-11-06T11:00:35+00:00",
+    "type": "paper",
+    "display_category": "Top Paper",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Wake 5: A Python Framework for Solidity Testing, Fuzzing, and Static Analysis",
+    "link": "http://arxiv.org/abs/2611.09307v1",
+    "summary": "Smart-contract fuzzers differ by an order of magnitude in throughput and by design in how they construct inputs, yet published comparisons rarely separate the two. We present Wake 5, an open-source Python framework for Solidity testing, fuzzing and static analysis, and use it to locate the binding constraint of stateful smart-contract fuzzing. Wake 5 replaces the JSON-RPC connection to an external node with an in-process EVM (revm) and exposes its static analysis to language-model agents through a Model Context Protocol (MCP) server. On the Daedaluzz maze benchmark (153 reachable assertions, guard constants below 2^32), Wake 5 executes 29,931 transactions per second, on par with Foundry (30,186) and 11.5x faster than Echidna (2,600). In eight-hour campaigns, however, the three tools plateau at medians of 75, 71 and 70 assertions, and their union reaches 93. We show that Wake's integer generator places 51% of its probability mass below 2^32 and that, once shallow assertions are exhausted, the generator prior rather than throughput bounds every tool. A harness written by a language-model agent, which derives inputs with a constraint solver, reached all 153 assertions in each of five campaigns executed by Wake, in 33 to 79 minutes. A complementary ablation in an agentic audit of a production Go codebase found that static-analysis tools improved recall for none of three models, raised precision for all three, and increased language-model cost by up to 12.7%. We discuss correlated oracles and non-deterministic completion, and argue that the fuzzer's role is shifting from search to execution.",
+    "source": "ArXiv",
+    "published": "2026-11-06T10:59:01+00:00",
+    "type": "paper",
+    "display_category": "Top Paper",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Towards an Autonomous AI Steward for Large-Scale Physics Experiments: Integrating Causal Diagnostics, RAG, and Conformal Prediction",
+    "link": "http://arxiv.org/abs/2611.09298v1",
+    "summary": "Long-term particle physics experiments face critical operational challenges: monitoring non-stationary machine data streams and preserving tacit expert knowledge. We present the \"Helmholtz Co-Pilot,\" a hybrid Multi-Agent System (MAS) acting as an autonomous experiment steward. The system can be triggered interactively by human operators or autonomously by an asynchronous causal diagnostics engine that runs independently of the MAS reasoning core. Continuously monitoring live hardware streams such as data acquisition and slow control, this engine performs dynamic causal discovery to trace cascading alarms back to their root causes and applies adaptive model selection to keep forecasts reliable across shifting machine states; upon detecting an anomaly, it hands a structured diagnostic report to the MAS. The reasoning layer itself relies on a high-throughput C++ core and a Python edge architecture orchestrating a directed acyclic graph (DAG) of specialized ReAct workers. It integrates a Retrieval-Augmented Generation (RAG) backbone for institutional memory and leverages conformal prediction to bound its evidence-based recommendations with mathematical coverage guarantees. This extended abstract outlines the architecture, the integration of software-enforced Human-in-the-Loop (HitL) guardrails, and ongoing shadow-testing within the KATRIN experiment.",
+    "source": "ArXiv",
+    "published": "2026-11-06T10:52:19+00:00",
+    "type": "paper",
+    "display_category": "Top Paper",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "AutoRefine: Auto-Calibrating Code Judges from Workflow Outcomes",
+    "link": "http://arxiv.org/abs/2611.09291v1",
+    "summary": "LLM judges increasingly serve as quality gates for code changes that have no test oracle, but a judge prompt must be calibrated for its task and recalibrated as the system it judges evolves, while hand labels for the calibration are resource intensive and go stale. Development workflows emit outcome labels for free (tests pass or fail, changes land or are abandoned), but these labels are noisy. We present AutoRefine, a loop that rewrites a deployable judge's prompt to reproduce outcome labels, with an informed teacher that sees the judge's input plus the outcome, explains each label it keeps, and abstains when the outcome cannot be explained from what the judge sees. On a held-out dataset with an execution oracle, calibration raised chance-corrected agreement (Scott's $\u03c0$) from 0.36 to 0.60. On a deployed agent's outcome labels, with 25\\% flipped at random to introduce noise, the teacher set aside flipped \\textsc{fail} labels at more than twice the rate of genuine ones, cutting overall label noise from 25\\% to 20\\%. Recalibrating that agent's judge using AutoRefine raised its agreement with merge/abandon outcomes on 17 independently held-out diffs from the current workflow ($\u03c0$ 0.16 to 0.51); on 16 diffs from older workflows, the previous judge stayed ahead, illustrating the need for recalibration as the agent evolves. By abstaining, the teacher not only removes noisy labels but also flags changes whose outcome the judge's input cannot explain, telling a team when a judge needs better inputs rather than a better prompt.",
+    "source": "ArXiv",
+    "published": "2026-11-06T10:43:03+00:00",
+    "type": "paper",
+    "display_category": "Top Paper",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Ontology-Driven Control of Conversational Agents with a Use-Case for Job Interview Practice",
+    "link": "http://arxiv.org/abs/2611.09282v1",
+    "summary": "Large Language Models (LLMs) have been widely used as conversational agents in both domain-specific and open-domain situations. In domain-specific context, it is often necessary to adapt those LLMs to obtain conversations with desired characteristics, whether those apply at the level of each response (e.g. for tone or style) or more globally (i.e. at the level of a conversational strategy). Such adaptations are, however, generally realized in an ad hoc way, through specific, non-reusable, and non-transparent developments. In this paper, we propose an ontology-based approach to design conversational strategies that rely on the desired and measured characteristics of textual utterances in the conversation. Through a use case related to job interview practice, we show how this approach can be used to control LLMs to follow the strategy defined in the ontology. To this end, we automatically fine-tune the LLM to improve its compliance with ontologically-defined conversation characteristics. Our results show that training the LLM from formally defined concepts effectively enhances alignment with the requested characteristics. Hence, this work demonstrates how ontology-guided conversation control can be achieved while taking into account multiple, concurrent conversation aspects that are formally and transparently defined.",
+    "source": "ArXiv",
+    "published": "2026-11-06T10:35:18+00:00",
+    "type": "paper",
+    "display_category": "Top Paper",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "An Empirical Study of Issues in GPU Kernel Libraries for LLM Systems",
+    "link": "http://arxiv.org/abs/2611.09280v1",
+    "summary": "Behind the expanding use of large language models (LLMs) across application domains lies a growing dependence on specialized GPU kernel libraries. These libraries underpin the correctness and efficiency of training and inference across diverse GPU platforms, implementing attention, GEMM, quantization, and low-precision operators while managing tensor shapes, memory layouts, code generation, and hardware-specific dispatch. Problems at this layer can silently corrupt outputs, hang GPUs, prevent compilation, introduce deployment incompatibilities, or degrade performance, thereby reducing developer productivity and wasting expensive GPU resources.\n  We present the first comprehensive empirical study of issues in GPU kernel libraries for LLM systems. We manually analyzed 300 high-quality GitHub issue reports, their discussions, and available fixes from seven representative libraries: FlashInfer, FlashAttention, Triton, CUTLASS, DeepGEMM, xFormers, and bitsandbytes. The analysis characterizes symptoms, root causes, fixes, and testing and debugging practices. Our main findings are: (1) 60.33% of the sampled issues originate in the Compiler and Build System or Runtime Environment dimensions, so validation must cover the deployment and execution stack, not just kernel code. (2) Kernel specialization imposes implicit correctness constraints on tensor shapes, metadata layouts, memory aliasing, and hardware resources. Violations can produce incorrect outputs or launch failures even for supported operations, highlighting the need for explicit contract validation and boundary-case testing. (3) Current testing and debugging practices are often insufficient for identifying low-precision numerical problems and hardware-specific execution failures. We outline research opportunities and tooling directions to support future LLM GPU kernel development.",
+    "source": "ArXiv",
+    "published": "2026-11-06T10:34:44+00:00",
+    "type": "paper",
+    "display_category": "Top Paper",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "FondueQA: A Benchmark for Evaluating Parametric Compensation in Multi-Hop QA",
+    "link": "http://arxiv.org/abs/2611.09274v1",
+    "summary": "Large Language Models (LLMs) show remarkable performance based on parametric knowledge, i.e., their ability to recall facts and associations internalized in a model's weights. However, studying this capability on established multi-hop benchmarks may be complicated by benchmark contamination, as many of these benchmarks have been publicly available long enough to plausibly appear in modern pretraining corpora. As a result, correct answers under missing evidence may reflect either general parametric knowledge or memorization of benchmark-specific instances. To study how models use internal knowledge when retrieval evidence is incomplete, we introduce FondueQA, in which every required multi-hop fact is uniquely localized to a designated evidence document. This enables controlled document-level evidence ablations to study parametric compensation under incomplete retrieval. Our empirical evaluation reveals that parametric compensation strongly depends on both entity popularity and the structural role of missing evidence. Generally, models compensate more successfully for facts involving popular entities. On FondueQA, we show that bridging evidence can be more useful than the answer-bearing document itself. Moreover, models may recall a missing fact in isolation but fail to use it under partial evidence, particularly when the context contains plausible competing entities, which can reduce Exact Match by up to 15 percentage points.",
+    "source": "ArXiv",
+    "published": "2026-11-06T10:28:55+00:00",
+    "type": "paper",
+    "display_category": "Top Paper",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "PHISHREV+: An ASP-Based Post-Hoc Defeasible Machine Learning Framework for Phishing Detection",
+    "link": "http://arxiv.org/abs/2611.09273v1",
+    "summary": "Phishing website detection remains a critical cybersecurity challenge. Although machine learning classifiers achieve high accuracy on benchmark datasets, they suffer from a fundamental limitation: once trained, their decision boundaries are fixed and cannot incorporate new contextual evidence without retraining the model. This work presents \\textbf{PHISHREV+}, a hybrid framework that instantiates the notion of \\textit{post-hoc defeasible machine learning}. This framework does not replace the classifier. It treats the initial classifier predictions as defeasible beliefs and revises them through an Answer Set Programming based non-monotonic reasoning(NMR) layer. The framework operates in two phases. In the machine learning phase, four classifiers (SVM, KNN, DT and RF) are trained on the 87 feature benchmark dataset. In the post-hoc NMR phase, four defeasible rules derived from exploratory data analysis of the training set, and validated through Chi-square and Mann-Whitney U tests, formally revise initial predictions. The proposed framework achieves consistent false positive reduction across all our classifiers SVM (41$\\rightarrow$39), KNN (47$\\rightarrow$46), DT (62$\\rightarrow$61), and RF (52$\\rightarrow$51) while maintaining complete false negative parity with zero increase overhead. A comprehensive ablation studies across seven rule configurations confirms that the hierarchical combination of all four defeasible rules is necessary to achieve this optimal balance. Instance level explainability is provided through eXplainable ASP (XASP), which generates formal derivation graphs showing which defeasible rules fired and why the initial belief was retracted, a capability absent from all existing phishing detection approaches.",
+    "source": "ArXiv",
+    "published": "2026-11-06T10:28:38+00:00",
+    "type": "paper",
+    "display_category": "Top Paper",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Thinking Twice: A Sequential Approach to Nudge Towards Reflective Judgment in GenAI-Assisted Decision Making",
+    "link": "http://arxiv.org/abs/2611.09269v1",
+    "summary": "Humans increasingly use generative AI (GenAI) for decision-making assistance, yet tend to engage in such situations using quick, intuitive (System 1) rather than deliberate, analytical assessment (System 2) as reflected in Dual Process Theory. Such engagement reduces the effectiveness of human-GenAI interactions and increases associated risks. Our research investigates how to design human-GenAI interactions that promote the transition from System 1 to System 2 thinking in decision-making. Based on the Three-Stage-Model, which suggests humans switch to System 2 when conflicts are detected, we conducted an experiment (n=130) testing sequential human-GenAI interaction as a cognitive forcing nudge during problem-solving tasks. This approach, where humans decide first before receiving AI assistance, enables detection of conflicting decisions. Compared to non-sequential settings (concurrent or no AI assistance), results show the sequential condition significantly enhanced both decision performance and GenAI prompt utilization, providing valuable insights for designing more reflective and thus effective human-GenAI interactions.",
+    "source": "ArXiv",
+    "published": "2026-11-06T10:26:24+00:00",
+    "type": "paper",
+    "display_category": "Top Paper",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Nudging Decision Models: Do Digital Nudges Steer Fast, Generation-Free AI Agents?",
+    "link": "http://arxiv.org/abs/2611.09264v1",
+    "summary": "LLM-based agents increasingly automate business and consumer tasks but are slow and expensive. Decision models, a new class that chooses among options without generating text, are far faster and less costly. Developers call them \"System One models,\" referencing dual process theory. We ask whether such models can be steered by digital nudges online and whether, as the theory predicts, automatic nudges affect them more than reflective ones. We adapted an online shopping experiment, previously run with humans and LLM agents, to three decision models (Jev, Decision-1, d1). Across 600 runs per model, they chose a preselected default in 97.5-99.9% and a product with social influence information in 75-96% of choices, versus 47-49% in the control. All responded more strongly to the automatic nudge, the opposite of what has been reported for reasoning-capable LLM agents. We provide first evidence that non-generative decision models are susceptible to digital nudges in a System 1 pattern, implying agent-type-specific nudge effects.",
+    "source": "ArXiv",
+    "published": "2026-11-06T10:21:27+00:00",
+    "type": "paper",
+    "display_category": "Top Paper",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Model-based learning for DoA estimation and array calibration via continuous sparse recovery",
+    "link": "http://arxiv.org/abs/2611.09263v1",
+    "summary": "Direction of arrival (DoA) estimation, a classical signal processing problem, has experienced renewed interest with the advent of integrated sensing and communication (ISAC). While decades of research have yielded highly accurate DoA estimators, hardware impairments have frequently been neglected, despite degrading both DoA estimation accuracy and downstream communication performance in ISAC systems. This work introduces a joint array calibration and DoA estimation method based on the simultaneous orthogonal matching pursuit (SOMP) algorithm, following the model-based machine learning paradigm. The proposed method enables the calibration of antenna arrays subject to severe gain-phase and antenna location impairments through projected gradient descent (PGD), with either supervised or unsupervised objectives. Additionally, DoA estimation is enhanced by extending SOMP to continuous dictionaries via PGD refinement steps. Simulation results demonstrate that the proposed method enables efficient hardware impairment compensation, even without labeled samples, while outperforming conventional sparse recovery and subspace-based DoA estimation baselines.",
+    "source": "ArXiv",
+    "published": "2026-11-06T10:21:08+00:00",
+    "type": "paper",
+    "display_category": "Top Paper",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Tracking of a Moving Target on a Hyperboloid and its Extension to Leader-follower Formation Controller",
+    "link": "http://arxiv.org/abs/2611.09261v1",
+    "summary": "This paper proposes a novel controller for a double-integrator agent to track a moving target with bounded velocity on a hyperboloid $\\mathbb{H}^n$. The control law uses the intrinsic Riemannian structure of the hyperboloid, including the logarithm map, covariant derivative, and parallel transport, to make all its terms coordinate-free. Such formulation eases the implementation of the proposed tracking controller in the ambient Minkowski space without doing any additional chart computations. We use Barbalat's lemma for the hyperboloid to establish the convergence proof. Later, the proposed tracking controller is extended to a leader-follower formation control, where each agent reaches at a desired position around a moving leader in $\\mathbb{H}^n$. We validate the results with numerical simulations considering two different target trajectories, geodesic and spiral, as examples.",
+    "source": "ArXiv",
+    "published": "2026-11-06T10:20:10+00:00",
+    "type": "paper",
+    "display_category": "Top Paper",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Zero-Query Transferable Pretend Benign Attacks with Amortized Online Generation for Cooperative Perception",
+    "link": "http://arxiv.org/abs/2611.09256v1",
+    "summary": "Cooperative perception enables an ego agent to acquire information from collaborators beyond its own sensors' reach. Yet, the most beneficial messages are often the hardest to verify from local observations. Pretend Benign (PB) exploits this asymmetry by targeting regions with weak local verifiability and applying multi-objective perturbations, making harmful feature changes appear to be benign assistance. However, PB is victim-dependent: selecting regions and optimizing perturbations require the victim model's architecture, parameters, and gradients, limiting transfer to unseen victims. A transferable attack must capture properties shared across cooperative detection models rather than those specific to one network. We address this by building a victim-agnostic attack from a heterogeneous ensemble of surrogate models and encoding its capabilities in a reusable dictionary to reduce per-message generation cost. Specifically, Transferable Pretend Benign (TrPB) transfers PB's region selection criterion and multi-objective perturbation strategy across heterogeneous surrogates to construct an offline attack. We further propose RT-TrPB, which encodes transferable regions and perturbation patterns into a region predictor and reusable perturbation dictionary, amortizing per-message attack generation. Experiments on widely used cooperative perception benchmarks show that RT-TrPB bypasses the consensus-based defenses ROBOSAC and FLD with success rates approaching 100% and generates each perturbation in under 56 ms. To counter PB-style attacks masquerading as benign collaboration, we also propose STTrust, which verifies received messages using spatial and temporal consistency and incorporates identity-level trust. STTrust detects over 90% of PB-style attacks and restores perception performance to near the attack-free level.",
+    "source": "ArXiv",
+    "published": "2026-11-06T10:15:36+00:00",
+    "type": "paper",
+    "display_category": "Top Paper",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "TwinHash: Two-Sided Object Identity Management for Time- and Energy-Efficient Agentic Workflows",
+    "link": "http://arxiv.org/abs/2611.09254v1",
+    "summary": "Agentic artificial intelligence (AI) services interleave large language model (LLM) generation with external tool execution, and increasingly rely on search-based workflows that repeatedly revisit shared reasoning states and computations. These patterns create substantial redundancy across tool outputs, LLM responses, and key-value (KV) prefixes, yet existing serving systems primarily optimize shared prompt prefixes, while naive input-keyed caching is unsafe when identical requests produce different outputs. We present TwinHash, a unified object management architecture that assigns each object an input-side hash key to recognize repeated requests and an output-side content fingerprint to validate and locate stored state, complemented by type-specific reuse guards that preserve correctness and response diversity. A software object identity table maintains reusable objects across requests and trajectories, while a hardware object placement table tracks their residency across hierarchical memory tiers so that evicted state can be retrieved rather than recomputed. Across seven agent frameworks and five benchmark suites, reuse follows workflow structure more than benchmark identity. TwinHash serves up to 81% of tool outputs wherever deterministic tool reads recur, and up to 92% of LLM responses in search-based frameworks. Retrieving an evicted KV-prefix from DRAM reduces TTFT by up to 5.6x on Qwen3-32B, with greater gains projected for larger dense models. Under search-based frameworks, TwinHash reduces end-to-end wall-clock time by up to 87% and measured task energy by up to 81% over a prefix-cached baseline, while a per-key serving cap controls the quality-reuse trade-off in adaptive search. These results demonstrate that unified identity, safety, and placement management can convert structural redundancy in emerging agentic workflows into substantial serving-efficiency gains.",
+    "source": "ArXiv",
+    "published": "2026-11-06T10:13:21+00:00",
+    "type": "paper",
+    "display_category": "Top Paper",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Evaluation of Quantum Machine Learning Models for Network Anomaly Detection",
+    "link": "http://arxiv.org/abs/2611.09253v1",
+    "summary": "The proliferation of Internet-connected devices has intensified the risk of large-scale network intrusions, necessitating more advanced detection methodologies for the post quantum era. This work presents, to the best of our knowledge, a com- prehensive investigation of quantum machine learning (QML) for anomaly detection on the BoT-IoT dataset, a widely adopted benchmark for IoT security. Leveraging feature-engineered rep- resentations, we implement and evaluate four representative quantum classifiers: Quantum Support Vector Classification (QSVC), Quantum Neural Networks (QNN), and Variational Quantum Classifiers (VQC).",
+    "source": "ArXiv",
+    "published": "2026-11-06T10:12:55+00:00",
+    "type": "paper",
+    "display_category": "Top Paper",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "MM-DyGraph: A Dataset, Benchmark, and Model for Multimodal Dynamic Graphs",
+    "link": "http://arxiv.org/abs/2611.09240v1",
+    "summary": "Multimodal dynamic graphs are pervasive in real-world applications, where nodes and edges are accompanied by multimodal signals, including text and images. Despite their practical importance, benchmarks and methods that explicitly study multimodal learning in dynamic graphs remain scarce, hindering the full understanding and effective utilization of multimodal information for downstream tasks. To address this gap, we introduce MM-DyGraph, to the best of our knowledge, the first benchmark for multimodal dynamic graph learning, consisting of diverse real-world datasets with fine-grained temporal graph evolution and rich multimodal attributes. MM-DyGraph provides three evaluation tasks to comprehensively assess model performance in dynamic settings. We benchmark representative state-of-the-art dynamic graph methods and reveal that naive feature concatenation yields target-level inconsistencies: multimodal inputs benefit certain prediction targets while harming others. This observation indicates that the modality informativeness depends on the specific prediction target over time. Building on these observations, we propose a Target-aware Spatial-Temporal Multimodal Fusion (TST-MF) framework, which jointly conditions multimodal fusion on the prediction target and spatial-temporal relations, enabling context-adaptive cross-modal interplay for target-specific representations. Extensive experiments over diverse datasets and tasks show that TST-MF delivers robust and competitive performance, achieving clear gains in multimodal settings.",
+    "source": "ArXiv",
+    "published": "2026-11-06T10:00:12+00:00",
+    "type": "paper",
+    "display_category": "Top Paper",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Audiovisual Disparities in VR: Impact on Spatial Perception",
+    "link": "http://arxiv.org/abs/2611.09238v1",
+    "summary": "Virtual reality (VR) experiences often leverage rich and spatialized multimodal environments to increase immersion and engagement. This demands a consistent spatial perception of audiovisual stimuli, since perceived discrepancies can disrupt the sense of presence. In this work, we investigate the consequences of two types of spatial audiovisual disparities: true disparity, where there is a measurable spatial offset between auditory and visual cues, and perceptual disparity, where users report misalignment despite cues being colocated. Unlike most previous studies that employed controlled but simplified experimental setups, our research focuses on complex, realistic VR environments, allowing us to assess the actual implications for VR content design. Our experiments indicate that users are highly sensitive to true audiovisual disparities in controlled environments, detecting even minor misalignments. However, when engaged in additional tasks within realistic settings, their ability to notice such discrepancies diminishes significantly. We also observed that previously found perceptual disparities persist in complex audiovisual environments. However, we identify self-initiated head rotations as a key factor; its absence prevents the effect entirely. We hope our findings offer practical insights for designing more immersive and perceptually coherent VR experiences.",
+    "source": "ArXiv",
+    "published": "2026-11-06T09:58:28+00:00",
+    "type": "paper",
+    "display_category": "Top Paper",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Controllable Molecule Generation via Sparse Representation Editing: An Interpretability-Driven Perspective",
+    "link": "http://arxiv.org/abs/2611.09235v1",
+    "summary": "Controllable molecule generation is crucial for diverse scientific applications, such as drug discovery and materials design. While large language models (LLMs) show great promise, their dense and entangled representations impede precise control over the generation of molecules with bespoke substructures or properties. To address this, we propose Sparse Representation Editing (SpaRE), an interpretability-driven framework for fine-grained and precise control in LLM-based molecule generation. The crux of SpaRE is to learn an overcomplete sparse feature space that disentangles LLM representations into a compact set of latent features corresponding to chemically meaningful concepts. Within this space, we can directly manipulate these concept-aligned latent features to achieve (1) local control, by generating target atoms and functional groups at specified positions; and (2) global control, by customizing the overall structural and physicochemical properties within defined ranges. In this way, our framework advances interpretability from post-hoc analysis to actionable generative control. Experiments show that SpaRE can generate chemically desirable molecules under complex constraints in real-world scenarios, while offering mechanistic insights for quantitative structure-property analysis. The code and demo are available at https://github.com/WanyuGroup/ICML2026_SpaRE.",
+    "source": "ArXiv",
+    "published": "2026-11-06T09:55:52+00:00",
+    "type": "paper",
+    "display_category": "Top Paper",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "RAG-Enhanced LLMs for Interactive Explainability in Clinical Decision Support Systems",
+    "link": "http://arxiv.org/abs/2611.09232v1",
+    "summary": "Artificial Intelligence (AI) is increasingly embedded in high-risks decision-making systems across domains such as healthcare, finance, and the judicial system. As reliance on predictive models grows, so does the demand for Explainable AI (XAI) to ensure transparency, trust, and interpretability. However, existing XAI approaches often fail to present explanations in a format accessible to domain experts, limiting their practical utility. Large Language Models (LLMs) have recently emerged as a bridge between complex models and end-users, offering natural language explanations. Yet, their use introduces new risks, including hallucinated outputs and lack of source traceability. To address these challenges, we propose a Clinical Decision Support System (CDSS) that not only combines standard predictive models with XAI techniques but also incorporates a Retrieval-Augmented Generation module as an interactive enhancer. This module grounds explanations in verified medical knowledge, reformulates technical outputs into a human-like format, and enables users-such as clinicians-to actively query the system. By fostering an interactive, human-in-the-loop environment, our approach empowers domain experts to explore model decisions, contextualize explanations, and build trust in AI-assisted diagnostics. The study concludes with preliminary experiments validating the proposed methodology.",
+    "source": "ArXiv",
+    "published": "2026-11-06T09:50:51+00:00",
+    "type": "paper",
+    "display_category": "Top Paper",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "HMMF-Net: A Lightweight Hierarchical Multi-Frame Multimodal Fusion Network for Accurate Fish Feeding Intensity Assessment",
+    "link": "http://arxiv.org/abs/2611.09224v1",
+    "summary": "Automated fish feeding intensity assessment (FFIA) is important for precision aquaculture and feed cost optimization. However, unimodal methods are vulnerable to acoustic noise and visual disturbances, while existing multimodal frameworks often rely on computationally intensive 3D convolutions or Transformers, limiting their use on edge devices. To address these limitations, we propose HMMF-Net, a lightweight multimodal architecture that combines early multi-frame visual encoding and multi-axis acoustic modeling through a hierarchical bidirectional messenger cross-modal fusion (BMCF) mechanism. The visual branch captures temporal variations in feeding behavior by stacking temporally distant frames as a multi-channel input to an adapted 2D EfficientNetB0 backbone. The acoustic branch employs adaptive multi-axis residual units (AMARU) to extract temporal, frequency, and local time-frequency representations from log-mel spectrograms. BMCF progressively exchanges information between the two modalities at intermediate representation levels through compact messenger tokens, reducing the computational overhead of dense cross-modal attention. Evaluated on the AV-FFIA dataset using five-fold cross-validation, HMMF-Net achieves 96.77% accuracy and 96.88% F1-score on the held-out test folds, with 3.987M parameters and 1.002 GFLOPs. Compared with the best-performing visual configuration (95.49% accuracy), HMMF-Net reduces the classification error by 28.38%. Deployment on an NVIDIA Jetson Orin Nano using TensorRT with FP32 precision maintains comparable accuracy, with an inference time of 11.54 ms per 2-second sample and a model size of 18.81 MB. These results demonstrate that HMMF-Net combines effective multimodal representation learning with computational efficiency, enabling accurate and practical FFIA on resource-constrained edge platforms.",
+    "source": "ArXiv",
+    "published": "2026-11-06T09:43:04+00:00",
+    "type": "paper",
+    "display_category": "Top Paper",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "KLEAR: Knowledge-Matched LLM Evaluation in Korean across Application Requirements via Controlled Benchmark Transformation",
+    "link": "http://arxiv.org/abs/2611.09223v1",
+    "summary": "Existing Korean benchmarks for Large Language Models (LLMs) evaluate performance across diverse knowledge domains, but their accuracy scores cannot distinguish whether incorrect responses arise from a lack of required knowledge or a failure to apply that knowledge correctly. Our analysis of existing Korean benchmarks reveals that most questions can be answered through factual recall alone, while those demanding greater application also differ in required knowledge, making it difficult to isolate application ability. To address this, we introduce KLEAR, a framework that constructs knowledge-matched contrasts by varying application demand while preserving the required knowledge. During construction, KLEAR identifies the knowledge underlying each source question as an explicit anchor bundle to guide generation of questions requiring more complex application. Generated candidates then undergo automated and human validation, with iterative revision based on evaluation feedback. Experiments demonstrate that the resulting knowledge-matched sets largely satisfy the intended constraints, enabling controlled evaluation across diverse LLMs. These evaluations reveal that increasing application demand exposes failures that persist even when the required knowledge is provided.",
+    "source": "ArXiv",
+    "published": "2026-11-06T09:42:50+00:00",
+    "type": "paper",
+    "display_category": "Top Paper",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Khmer PFGen-Bench: Building a Judge-Free Benchmark for Open-Ended Generation in a Low-Resource Language",
+    "link": "http://arxiv.org/abs/2611.09222v1",
+    "summary": "Benchmarks for open-ended generation often rely on large language model (LLM) judges, whose reliability in low-resource languages is uncertain. We introduce Khmer PFGen-Bench, to our knowledge the first judge-free benchmark for multi-sentence answers to questions composed directly in Khmer, a low-resource language. Khmer PFGen-Bench adapts the scorer of PFGen-Bench, a benchmark for Japanese that scores responses with keyword rules and n-gram statistics from LLM-generated references. This scoring requires references that are both valid and varied, which LLMs may not produce in Khmer, so we examine how to build such references. We find that post-trained models can give more valid but less varied references than their base variants, and that mixing model families increases variety for the same number of references. Using references from post-trained models in nine families, the benchmark yields model rankings that are stable across reference sets and consistent with a native speaker's ratings. These findings offer guidance for building judge-free benchmarks in other low-resource languages.",
+    "source": "ArXiv",
+    "published": "2026-11-06T09:39:50+00:00",
+    "type": "paper",
+    "display_category": "Top Paper",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "BOXBOX: Recursive Harness Self-Improvement for Long-Running Performance Optimization",
+    "link": "http://arxiv.org/abs/2611.09218v1",
+    "summary": "Automated harness optimization improves agents by learning from trajectories and task feedback. Existing offline methods use reference answers to optimize harnesses for reuse on held-out tasks. However, many real-world tasks are open-ended, while long runs expose new difficulties that offline-optimized harnesses may not address. To study harness optimization in these settings, we introduce PerfRace, a benchmark for long-running performance optimization of software projects, and investigate whether agents can use task-specific experience to recursively improve their harnesses during an ongoing task. To this end, we introduce BOXBOX, which enables agent-triggered harness revision and kernel-managed hot reloading while preserving execution context. We evaluate BOXBOX on PerfRace under matched test-time budgets, comparing it with Frozen Harness, offline Harness Evolution, and Harness Scaling. BOXBOX achieves higher speedup with more efficient use of task time and model cost, reaching a Speedup@4h of 1.70x, compared with 1.54x for the strongest baseline.",
+    "source": "ArXiv",
+    "published": "2026-11-06T09:36:00+00:00",
+    "type": "paper",
+    "display_category": "Top Paper",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "On the Limits of Execution Traces for Repairing Assertion Failures in LLM-Generated Code",
+    "link": "http://arxiv.org/abs/2611.09212v1",
+    "summary": "Iterative repair returns a failed program's error to a large language model (LLM) and asks it to fix it. After iterative repair, the remaining failures are mostly assertion failures: with four Qwen2.5 models, they make up 79% of residual failures on BigCodeBench, all on HumanEval and 93% on LiveCodeBench. We argue, through an information view of the feedback, that an assertion failure says little about where the fault lies. We propose Breakpoint Debugging (BPD), which returns the failed program annotated inline with its variables' runtime values. We take the tasks that iterative repair failed to fix with five repair attempts and compare two ways of spending five further generations on them: BPD, and resampling. On BigCodeBench, BPD repairs 26.7% of these tasks against 22.4%, and its advantage grows with model size. On HumanEval, BPD outperforms resampling but only slightly, and on LiveCodeBench, fresh sampling repairs more (6.5% against 4.9%). Furthermore, BPD reduces unchanged-code resubmissions from 28% to 8% on BigCodeBench. Using only the first failing test's trace, it outperforms tracing all failing tests while using fewer tokens than both all-trace BPD and plain iterative repair. On LiveCodeBench, BPD gives no gain even on the public tests, so a visible failing input is not enough for a trace to help. These results match the information view: a trace helps only when the test exposes a failing input, and the fault is an implementation slip; otherwise, a repair loop should resample rather than trace.",
+    "source": "ArXiv",
+    "published": "2026-11-06T09:31:28+00:00",
+    "type": "paper",
+    "display_category": "Top Paper",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "RPEG: Training Reasoning Language Models Scalably and Cost-Effectively",
+    "link": "http://arxiv.org/abs/2611.09207v1",
+    "summary": "Reinforcement learning (RL) is now central to training Reasoning Language Models (RLMs), but RLM pipelines are difficult to scale and costly to run because each RL step couples multiple large models, heterogeneous stages, cross-step state, and complex asynchronous dependencies. Existing systems typically optimize only parts of this design space. We address this complexity by jointly optimizing the pipeline structure as well as its execution using a novel data-centric graph intermediate representation called RLM Pipeline Execution Graph (RPEG). RPEG exposes structural choices such as bounded asynchrony and actor-critic sharing together with execution optimizations such as stage fusion, fine-grained scheduling, and multi-dimensional model parallelism. It is coupled with a comprehensive analytical performance model for RLM training, jointly capturing compute, communication, memory, and hierarchical rack-, node-, and GPU-level effects. Across systems with up to 256 GH200 GPUs, our distributed runtime engine implementing RPEG improves performance by up to 2x over ReaL and reduces step latency by up to 2.48x over verl, while increasing hardware utilization by up to 30%. Overall, RPEG provides a graph-driven foundation for next-generation training pipelines for frontier reasoning LLMs.",
+    "source": "ArXiv",
+    "published": "2026-11-06T09:28:49+00:00",
+    "type": "paper",
+    "display_category": "Top Paper",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Copies Are Not Confirmations: How News Duplication Fools LLM Judges and Continual Learners",
+    "link": "http://arxiv.org/abs/2611.09203v1",
+    "summary": "Many news reports of a claim are copies of one source: wire stories, content shared within a media group, syndicated features and press releases. We ask whether LLM judges and continual learners treat such copies as independent confirmations. In 200,000 English CC-News articles, a MinHash detector links 18.9% to a near-copy from another outlet (precision 0.97 once boilerplate is removed); it links 92% of edited reprints to their originals but none of the LLM rewrites by phi4, Llama 3.2 or Gemini 2.5 Flash. Shown three identical reprints of a claim about an unknown person instead of one report, Llama 3.2 3B and phi4 14B raised the share of lies they accepted from 0.06 to 0.71 and from 0.21 to 0.90 and ignored a note that the reports came from one source; Gemini 2.5 Flash already believed a single report, and Gemini 2.5 Pro followed provenance notes and tables. In a simulated continual-learning stream, showing the judge one report per detected chain cut the copied lies it accepted by 0.10-0.24 across four judges, at a mean cost of no more than 4.2 percentage points of accepted truths. Against reworded copies, a test of how many of a report's named entities are absent from an earlier look-alike separates LLM rewrites from 100 labelled independent reports of the same event with AUC 0.98-0.99 and wrongly flags one; entity overlap alone does as well, TF-IDF and a current embedding model come close, and the test catches few natural same-source derivatives. With the miss patterns of generated rewrite networks, it cut the reworded-copy lies accepted from 0.67 to 0.20 (0.40 when the rewriter invents details). Counting reports or chains alone is not a reliable defence, the effect of provenance information depends on the judge, and colluding sources remain the open problem. Code and labels: https://github.com/Metalesaek/copies-experiment",
+    "source": "ArXiv",
+    "published": "2026-11-06T09:22:29+00:00",
+    "type": "paper",
+    "display_category": "Top Paper",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "New optimisations for exact, scalable 2D Gaussian process inference, with applications to astronomical time-series",
+    "link": "http://arxiv.org/abs/2611.09198v1",
+    "summary": "Astronomical datasets often consist of a grid of datapoints in two or more dimensions, such as images, spectroscopic time-series, and imaging time-series. Gaussian processes (GPs) are a powerful tool for dealing with correlated noise in these data, arising from both astrophysical and instrumental systematics. Despite this, popular GP optimisations such as celerite are largely restricted to 1D datasets. Extensions to 2D data typically come with limited flexibility or poor scaling. As a motivating example, this limitation is significant for transiting exoplanet spectroscopy with JWST, as current analyses typically assume each spectroscopic light curve is statistically independent, despite many potential sources of wavelength-correlation, including detector readout noise and stellar granulation. This introduces a potential bias in atmospheric retrievals which is typically ignored.\n  To solve this problem, we present new, exact GP optimisations implemented in the JAX-based package luas, which extend 1D GP optimisations to multidimensional data using Kronecker product algebra. These GP optimisations are highly flexible, permit efficient analysis of 2D datasets containing millions of datapoints, and in many cases have a cheaper cost than transit light curve modelling. These optimisations are key to pushing the limits of exoplanet spectroscopy to smaller targets around bright host stars, as we increasingly hit instrumental and astrophysical noise floors. We suggest further applications to the analysis of ground-based high resolution spectroscopic time-series, extreme precision radial velocities, and high-contrast imaging, drawing on the connection that certain 2D GP models represent a probabilistic generalisation of PCA. Applications may even extend to machine learning and geostatistics, as we present novel optimisations for the Linear Mixing Model and the Linear Model of Coregionalisation.",
+    "source": "ArXiv",
+    "published": "2026-11-06T09:20:44+00:00",
+    "type": "paper",
+    "display_category": "Top Paper",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Large Language Model Consensus and Corpus-Adaptive Topic Modeling for Classifying and Mapping Patent Innovation",
+    "link": "http://arxiv.org/abs/2611.09194v1",
+    "summary": "Patent analytics increasingly relies on transformer representations and large language models (LLMs), yet linking conceptual classification, topic formation and interpretation requires explicit decisions about model roles and the evidence retained at each stage. In this design-oriented study, we propose and demonstrate a patent analytics pipeline that links these tasks and keeps each decision open to audit. Three LLMs separately classify each patent by novelty (radical or incremental) and innovation type (product, process, service). Radical and innovation-type labels each require two supporting votes, with Incremental used as the fallback novelty label. Topics are discovered by clustering PatentSBERTa embeddings, with parameter ranges scaled to corpus size. A patent-specific stopword list is applied only when topics are represented with class-based term frequency--inverse document frequency (c-TF-IDF), and a second embedding model supports inter-topic similarity, hierarchical refinement and visualization. An LLM then labels each topic from its ranked keywords and representative patents. We demonstrate the pipeline on 30,964 public-sector-related patents retrieved from Lens.org. Across five category corpora ranging from 591 to 29,215 patents, the pipeline produced 74 category-specific topic instances with a macro-average document coverage of 98.1% and topic diversity of 0.900--1.000, and fewer than 1% of classification outputs returned UNKNOWN. Because every model vote and the evidence behind each topic label are retained, analysts can audit and revise the outputs. The demonstration establishes the feasibility and traceability of the pipeline; testing its labels against expert coding and benchmarking it against alternative pipelines are identified as the next steps. The pipeline offers a reusable basis for LLM-assisted patent analysis in technology intelligence.",
+    "source": "ArXiv",
+    "published": "2026-11-06T09:17:04+00:00",
+    "type": "paper",
+    "display_category": "Top Paper",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "A Taxonomy-Driven Synthetic Dataset for Retrieval Effectiveness and Fairness Evaluation in Hiring",
+    "link": "http://arxiv.org/abs/2611.09178v1",
+    "summary": "While machine learning hiring tools are ubiquitous, the need for privacy regulations and commercial sensitivity makes public benchmarking legally complex. We address this challenge by introducing a taxonomy-driven, fully synthetic HR dataset and benchmark to simultaneously evaluate retrieval effectiveness and algorithmic fairness. Grounded in 660K real freelancer profiles, our multilingual corpus features candidate profiles, project briefs, and counterfactual demographic twins. Auditing state-of-the-art embedding models reveals performance divergence from general MTEB scores, alongside fairness disparities in grammatically gendered languages. This demonstrates that general benchmarks are insufficient for HR, requiring tailored evaluations to identify Pareto-optimal models that balance semantic accuracy and fairness.",
+    "source": "ArXiv",
+    "published": "2026-11-06T08:59:52+00:00",
+    "type": "paper",
+    "display_category": "Top Paper",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Analyzing Code Provenance in LLMs for Programming Education",
+    "link": "http://arxiv.org/abs/2611.09177v1",
+    "summary": "Large language models (LLMs) play an increasing role in programming education, challenging traditional assessment methods as they can generate fully functional code instantly. This disrupts the reliability of student submissions as indicators of learning and effort. To address this issue, code provenance is essential for tracing the origins of code and distinguishing student-authored, AI-generated, and externally sourced components. We extend the Min-K% probability approach by incorporating synthetic non-member code generation and apply it to Python code for membership inference and provenance tracking. Evaluations cover free LLMs such as GPT-2, DistilGPT-2, and DialoGPT, as well as state-of-the-art commercial models including GPT-5, Gemini 2.5, Mistral, DeepSeek, and LLaMA 3.3. Before evaluating our approach on higher-education student assignments, we validate its feasibility using Stack Overflow data. The results show that free models enable more sensitive code memorization detection than commercial models. By systematically comparing these LLMs, we assess trade-offs between detection accuracy and privacy protection, taking an initial step toward effective assessment of AI-assisted programming education through combined provenance detection and process visibility.",
+    "source": "ArXiv",
+    "published": "2026-11-06T08:59:27+00:00",
+    "type": "paper",
+    "display_category": "Top Paper",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Rethinking Requirement-to-Code Traceability Through Single-Agent and Multi-Agent Approaches",
+    "link": "http://arxiv.org/abs/2611.09162v1",
+    "summary": "Requirements-to-code traceability supports essential software engineering activities, including change impact analysis, maintenance, and regulatory compliance. Existing approaches typically rely on a retrieval-and-classification pipeline, which suffers from an inherent retrieval bottleneck: relevant source files that are not retrieved cannot be recovered during subsequent analysis. In this paper, we revisit requirements-to-code traceability in light of the substantially larger context windows offered by modern large language models, which make repository-scale analysis feasible without a separate retrieval step. We propose three approaches: a single-agent approach that analyzes the entire code repository in one pass, and two multi-agent approaches based on self-verification and multi-agent debate. Our evaluation shows that the single-agent approach substantially improves recall, achieving 80.9%, a gain of 38.6 percentage points (pp) over the state-of-the-art retrieval-based baseline, albeit with a 25.8 pp reduction in precision. By leveraging collaborative reasoning, the multi-agent debate-based approach achieves the best overall precision-recall balance, with 24.5% precision and 71.0% recall, yielding an F2 score of 49.5%. This represents an improvement of 7.5 pp over the state of the art and 2.7 pp over the single-agent approach. While the quantitative evaluation establishes the overall effectiveness of the approaches, the aggregate metrics alone explain little due to the considerable variability across results. Importantly, qualitative analysis provides key insights into highly variable quantitative results: the retrieval approach suits requirements that echo the code's vocabulary; single-agent, full-context reasoning suits well-documented, consistently named code; and multi-agent debate suits indirect, conflicting, or distributed evidence.",
+    "source": "ArXiv",
+    "published": "2026-11-06T08:45:13+00:00",
+    "type": "paper",
+    "display_category": "Top Paper",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "GreyZone: Production-quality Agentic Application Threats",
+    "link": "http://arxiv.org/abs/2611.09161v1",
+    "summary": "Agents are increasingly deployed across domains such as coding, banking, and commerce. Their ability to invoke tools and change application state makes security testing important for reliable deployment. Although agent security has been studied through various adversarial testing approaches, benchmarks grounded in production agent environments remain limited. We introduce GreyZone, a benchmark for evaluating automated red-teaming services against real-world agent applications. Unlike benchmarks such as AgentDojo, which primarily evaluate subject agents under attack, GreyZone evaluates services' ability to generate and deliver attacks that cause verified security-policy violations. We select independently developed, open-source agent applications with security boundaries concerning access permissions, confidentiality, and action authorization. These applications expose diverse attack surfaces, including those arising from multi-agent interactions and multimodal inputs. By grounding evaluation in application environments that preserve production-relevant workflows and independently verifying outcomes, GreyZone supports research on automated agent security testing. Specifically, we present two preliminary case studies using Promptfoo on Letta Code and Clawith to examine attack delivery, agent behavior, and verified outcomes. We release the benchmark, including subject agents and attack surfaces for each application, to support further research on agent testing methods.",
+    "source": "ArXiv",
+    "published": "2026-11-06T08:44:36+00:00",
+    "type": "paper",
+    "display_category": "Top Paper",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  }
+]
