@@ -1,10 +1,10 @@
 [
   {
-    "title": "Verifiable Social Reasoning for LLM Assistants",
-    "link": "https://research.google/blog/verifiable-social-reasoning-for-llm-assistants/",
-    "summary": "Generative AI",
-    "source": "The latest research from Google",
-    "published": "2026-11-25T17:10:27+00:00",
+    "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
+    "link": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+    "summary": "",
+    "source": "Hugging Face - Blog",
+    "published": "2026-11-26T11:37:17+00:00",
     "type": "blog",
     "display_category": "Top News",
     "processed": {
@@ -30,6 +30,21 @@
     }
   },
   {
+    "title": "Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems",
+    "link": "https://huggingface.co/blog/training-swarms",
+    "summary": "",
+    "source": "Hugging Face - Blog",
+    "published": "2026-11-26T00:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
     "title": "Where scientists draw the line on AI agents",
     "link": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
     "summary": "",
@@ -45,11 +60,11 @@
     }
   },
   {
-    "title": "An Indic Voice Agent with CUGA",
-    "link": "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga",
-    "summary": "",
-    "source": "Hugging Face - Blog",
-    "published": "2026-11-25T10:22:09+00:00",
+    "title": "Come for the Games, Stay for the Community With GeForce NOW",
+    "link": "https://blogs.nvidia.com/blog/geforce-now-thursday-community-war-thunder-reward/",
+    "summary": "Good games bring people together. This GFN Thursday, GeForce NOW is celebrating the members, creators and community moderators who turn every session into something worth sharing. From friendships formed in online lobbies to new worlds explored on everyday devices, GeForce NOW Ambassadors share their reasons to love cloud gaming. Those ready to find their own [&#8230;]",
+    "source": "NVIDIA Blog",
+    "published": "2026-11-26T14:00:22+00:00",
     "type": "blog",
     "display_category": "Top News",
     "processed": {
@@ -60,11 +75,11 @@
     }
   },
   {
-    "title": "Hill-climbing Inkling 2 Mini inference on one RTX PRO 6000",
-    "link": "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb",
-    "summary": "",
-    "source": "Hugging Face - Blog",
-    "published": "2026-11-25T00:00:00+00:00",
+    "title": "AI agents now control part of DeepMind's compute for Gemini experiments",
+    "link": "https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/",
+    "summary": "<p>Article URL: <a href=\"https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/\">https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50661218\">https://news.ycombinator.com/item?id=50661218</a></p>\n<p>Points: 47</p>\n<p># Comments: 23</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-11-27T00:03:18+00:00",
     "type": "blog",
     "display_category": "Top News",
     "processed": {
@@ -75,11 +90,11 @@
     }
   },
   {
-    "title": "Art of play in the age of AI",
-    "link": "https://github.blog/news-insights/company-news/art-of-play-in-the-age-of-ai/",
-    "summary": "<p>Now that code ships faster than ever, you have more time to spend on projects just for the fun of it. Here's what we can learn through that process as developers.</p>\n<p>The post <a href=\"https://github.blog/news-insights/company-news/art-of-play-in-the-age-of-ai/\">Art of play in the age of AI</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
-    "source": "The GitHub Blog",
-    "published": "2026-11-25T16:00:00+00:00",
+    "title": "Novita, StreamLake, etc. are ByteDance Ark wrappers",
+    "link": "https://kendell.dev/blog/arkwrapper/",
+    "summary": "<p>Article URL: <a href=\"https://kendell.dev/blog/arkwrapper/\">https://kendell.dev/blog/arkwrapper/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50660273\">https://news.ycombinator.com/item?id=50660273</a></p>\n<p>Points: 73</p>\n<p># Comments: 12</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-11-26T21:59:19+00:00",
     "type": "blog",
     "display_category": "Top News",
     "processed": {
@@ -90,11 +105,11 @@
     }
   },
   {
-    "title": "How to choose the next safe step in application modernization",
-    "link": "https://github.blog/ai-and-ml/github-copilot/how-to-choose-the-next-safe-step-in-application-modernization/",
-    "summary": "<p>Learn how to assess a legacy application, choose a bounded modernization step, and reuse the method with a GitHub Copilot agent skill.</p>\n<p>The post <a href=\"https://github.blog/ai-and-ml/github-copilot/how-to-choose-the-next-safe-step-in-application-modernization/\">How to choose the next safe step in application modernization</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
-    "source": "The GitHub Blog",
-    "published": "2026-11-25T15:00:00+00:00",
+    "title": "The USA as a Civilizations-esque map",
+    "link": "https://karpathy.ai/usaciv/",
+    "summary": "<p>Article URL: <a href=\"https://karpathy.ai/usaciv/\">https://karpathy.ai/usaciv/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50658997\">https://news.ycombinator.com/item?id=50658997</a></p>\n<p>Points: 70</p>\n<p># Comments: 56</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-11-26T19:53:58+00:00",
     "type": "blog",
     "display_category": "Top News",
     "processed": {
@@ -105,11 +120,146 @@
     }
   },
   {
-    "title": "Agentic system personalizes physical controls to help users \u201cDJ their art\u201d",
-    "link": "https://news.mit.edu/2026/tangimap-agentic-system-personalizes-physical-controls-help-users-dj-their-art-1124",
-    "summary": "\u201cTangiMap\u201d uses an AI agent to reprogram how buttons, knobs, and sliders are used, helping users do things like edit photos and perform music in a more dynamic, tactile way.",
-    "source": "MIT News - Artificial intelligence",
-    "published": "2026-11-24T19:30:00+00:00",
+    "title": "Show HN: Fuck_data_brokers.py",
+    "link": "https://github.com/gary23w/f-ck_data_brokers",
+    "summary": "<p>Article URL: <a href=\"https://github.com/gary23w/f-ck_data_brokers\">https://github.com/gary23w/f-ck_data_brokers</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50658191\">https://news.ycombinator.com/item?id=50658191</a></p>\n<p>Points: 227</p>\n<p># Comments: 46</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-11-26T18:37:21+00:00",
+    "type": "repo",
+    "display_category": "Top Repo",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Notion's official MCP inject hidden upsell instructions into agent context",
+    "link": "https://www.reddit.com/r/ClaudeCode/comments/1y4qm5o/heads_up_if_you_wire_notions_official_mcp_into/",
+    "summary": "<p>Article URL: <a href=\"https://www.reddit.com/r/ClaudeCode/comments/1y4qm5o/heads_up_if_you_wire_notions_official_mcp_into/\">https://www.reddit.com/r/ClaudeCode/comments/1y4qm5o/heads_up_if_you_wire_notions_official_mcp_into/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50658093\">https://news.ycombinator.com/item?id=50658093</a></p>\n<p>Points: 52</p>\n<p># Comments: 22</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-11-26T18:28:30+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "AMD-specific fork of llama.cpp",
+    "link": "https://devnull.land/amd-specific-llama-cpp",
+    "summary": "<p>Article URL: <a href=\"https://devnull.land/amd-specific-llama-cpp\">https://devnull.land/amd-specific-llama-cpp</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50657265\">https://news.ycombinator.com/item?id=50657265</a></p>\n<p>Points: 320</p>\n<p># Comments: 77</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-11-26T17:11:29+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Show HN: I wrote an entire Vim manual over 4 years",
+    "link": "http://themouseless.dev/vim/",
+    "summary": "<p>I'm glad to announce that I'm releasing my new book, Learning to Play Vim.<p>When I started using Vim more than a decade ago, I wished there was a manual out there teaching how to use this fantastic editor step by step, beginning with the foundations up to more advanced features. Of course at the time I did the vimtutor, but it was too dense for me to remember much from it. I also read the entire Vim manual (`:help manual`), but I didn't like it: it was too detailed in places (for example `02.8 Finding help` completely lost me for a while), and other features didn't get the treatment they deserved.<p>So I decided to write my own Vim manual. It took me more than 4 years and 2987 focused pomodoros (1244 hours) of work to finally get it done!<p>The result:<p>- 21 chapters showing the most important Vim features step by step.<p>- 170 exercises with solutions.<p>- Many real-life examples to show how Vim can be used and configured for your own needs.<p>- The related Vim's help pages to dig further into each feature.<p>Most configs are both written in Vimscript and Lua for Neovim users. This book explores the common features between Vim and Neovim, so don't expect anything about Neovim-specific features (like treesitter or LSP for example).<p>- The landing page: <a href=\"https://themouseless.dev/vim/\" rel=\"nofollow\">https://themouseless.dev/vim/</a><p>- A sample of the book with the entire table of contents and the first three chapters covering most of the basics: <a href=\"https://themouseless.dev/content/learning_to_play_vim_sample.pdf\" rel=\"nofollow\">https://themouseless.dev/content/learning_to_play_vim_sample...</a>.<p>I wrote this with my bare hands, no LLM involved to spoil the fun.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50655868\">https://news.ycombinator.com/item?id=50655868</a></p>\n<p>Points: 109</p>\n<p># Comments: 31</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-11-26T14:44:22+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Testers think they're hitting Claude Opus 5.6 through an Opus 5.5 Extra route",
+    "link": "https://www.testingcatalog.com/testers-share-early-results-possible-claude-opus-5-6/",
+    "summary": "<p>Article URL: <a href=\"https://www.testingcatalog.com/testers-share-early-results-possible-claude-opus-5-6/\">https://www.testingcatalog.com/testers-share-early-results-possible-claude-opus-5-6/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50655798\">https://news.ycombinator.com/item?id=50655798</a></p>\n<p>Points: 37</p>\n<p># Comments: 10</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-11-26T14:38:57+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "45\u00b0C inlets just killed the chiller. Most people haven't noticed yet",
+    "link": "https://www.theregister.com/hpc/2026/11/26/45c-inlets-just-killed-the-chiller-most-people-havent-noticed-yet/5311831",
+    "summary": "<p>Article URL: <a href=\"https://www.theregister.com/hpc/2026/11/26/45c-inlets-just-killed-the-chiller-most-people-havent-noticed-yet/5311831\">https://www.theregister.com/hpc/2026/11/26/45c-inlets-just-killed-the-chiller-most-people-havent-noticed-yet/5311831</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50655278\">https://news.ycombinator.com/item?id=50655278</a></p>\n<p>Points: 263</p>\n<p># Comments: 135</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-11-26T13:48:11+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
+    "link": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
+    "summary": "<p>Article URL: <a href=\"https://techstackups.com/articles/google-workspace-ai-agents-mcp/\">https://techstackups.com/articles/google-workspace-ai-agents-mcp/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50653477\">https://news.ycombinator.com/item?id=50653477</a></p>\n<p>Points: 298</p>\n<p># Comments: 255</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-11-26T09:44:23+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Mirror life is dangerous. Regulators must act before it becomes real",
+    "link": "https://www.economist.com/leaders/2026/10/01/mirror-life-is-dangerous-regulators-must-act-before-it-becomes-real",
+    "summary": "<p><a href=\"https://archive.ph/2BzOZ\" rel=\"nofollow\">https://archive.ph/2BzOZ</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50652370\">https://news.ycombinator.com/item?id=50652370</a></p>\n<p>Points: 62</p>\n<p># Comments: 84</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-11-26T07:05:59+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Claude tries to sabotage research work at every stage",
+    "link": "https://twitter.com/skirano/status/2125371115979641188",
+    "summary": "<p>Article URL: <a href=\"https://twitter.com/skirano/status/2125371115979641188\">https://twitter.com/skirano/status/2125371115979641188</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50651552\">https://news.ycombinator.com/item?id=50651552</a></p>\n<p>Points: 53</p>\n<p># Comments: 15</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-11-26T04:49:21+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Qualcomm's Oryon 3 Reaches the Top",
+    "link": "https://chipsandcheese.com/p/qualcomms-oryon-3-reaches-the-top",
+    "summary": "<p>Article URL: <a href=\"https://chipsandcheese.com/p/qualcomms-oryon-3-reaches-the-top\">https://chipsandcheese.com/p/qualcomms-oryon-3-reaches-the-top</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50651158\">https://news.ycombinator.com/item?id=50651158</a></p>\n<p>Points: 76</p>\n<p># Comments: 37</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-11-26T03:43:24+00:00",
     "type": "blog",
     "display_category": "Top News",
     "processed": {
@@ -122,7 +272,7 @@
   {
     "title": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
     "link": "https://twitter.com/thsottiaux/status/2125784147889393806",
-    "summary": "<p>Article URL: <a href=\"https://twitter.com/thsottiaux/status/2125784147889393806\">https://twitter.com/thsottiaux/status/2125784147889393806</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50651117\">https://news.ycombinator.com/item?id=50651117</a></p>\n<p>Points: 79</p>\n<p># Comments: 47</p>",
+    "summary": "<p>Article URL: <a href=\"https://twitter.com/thsottiaux/status/2125784147889393806\">https://twitter.com/thsottiaux/status/2125784147889393806</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50651117\">https://news.ycombinator.com/item?id=50651117</a></p>\n<p>Points: 475</p>\n<p># Comments: 266</p>",
     "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
     "published": "2026-11-26T03:36:58+00:00",
     "type": "blog",
@@ -137,7 +287,7 @@
   {
     "title": "Jev is probably Qwen3.5-35B-A3B",
     "link": "https://modaic.dev/blog/latency-doesnt-lie",
-    "summary": "<p>Article URL: <a href=\"https://modaic.dev/blog/latency-doesnt-lie\">https://modaic.dev/blog/latency-doesnt-lie</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50648823\">https://news.ycombinator.com/item?id=50648823</a></p>\n<p>Points: 283</p>\n<p># Comments: 77</p>",
+    "summary": "<p>Article URL: <a href=\"https://modaic.dev/blog/latency-doesnt-lie\">https://modaic.dev/blog/latency-doesnt-lie</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50648823\">https://news.ycombinator.com/item?id=50648823</a></p>\n<p>Points: 343</p>\n<p># Comments: 94</p>",
     "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
     "published": "2026-11-25T22:57:04+00:00",
     "type": "blog",
@@ -152,7 +302,7 @@
   {
     "title": "Bare Metal Qwen",
     "link": "https://github.com/alesha-pro/llm.asm/tree/main/02-baremetal-os",
-    "summary": "<p>Article URL: <a href=\"https://github.com/alesha-pro/llm.asm/tree/main/02-baremetal-os\">https://github.com/alesha-pro/llm.asm/tree/main/02-baremetal-os</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50648365\">https://news.ycombinator.com/item?id=50648365</a></p>\n<p>Points: 104</p>\n<p># Comments: 22</p>",
+    "summary": "<p>Article URL: <a href=\"https://github.com/alesha-pro/llm.asm/tree/main/02-baremetal-os\">https://github.com/alesha-pro/llm.asm/tree/main/02-baremetal-os</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50648365\">https://news.ycombinator.com/item?id=50648365</a></p>\n<p>Points: 229</p>\n<p># Comments: 58</p>",
     "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
     "published": "2026-11-25T22:15:34+00:00",
     "type": "repo",
@@ -167,7 +317,7 @@
   {
     "title": "Prof. Sam Lawler: FUCK FUCK FUCK FUCK FUCK FUCK FUCK",
     "link": "https://mastodon.social/@sundogplanets/117678381079935502",
-    "summary": "<p>Article URL: <a href=\"https://mastodon.social/@sundogplanets/117678381079935502\">https://mastodon.social/@sundogplanets/117678381079935502</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50648008\">https://news.ycombinator.com/item?id=50648008</a></p>\n<p>Points: 68</p>\n<p># Comments: 25</p>",
+    "summary": "<p>Article URL: <a href=\"https://mastodon.social/@sundogplanets/117678381079935502\">https://mastodon.social/@sundogplanets/117678381079935502</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50648008\">https://news.ycombinator.com/item?id=50648008</a></p>\n<p>Points: 73</p>\n<p># Comments: 35</p>",
     "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
     "published": "2026-11-25T21:44:35+00:00",
     "type": "blog",
@@ -182,249 +332,9 @@
   {
     "title": "Spending 35B Opus 5.5 Tokens to Write a Symphony",
     "link": "https://danprice.ai/blog/opus-symphony",
-    "summary": "<p>Article URL: <a href=\"https://danprice.ai/blog/opus-symphony\">https://danprice.ai/blog/opus-symphony</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50646662\">https://news.ycombinator.com/item?id=50646662</a></p>\n<p>Points: 53</p>\n<p># Comments: 64</p>",
+    "summary": "<p>Article URL: <a href=\"https://danprice.ai/blog/opus-symphony\">https://danprice.ai/blog/opus-symphony</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50646662\">https://news.ycombinator.com/item?id=50646662</a></p>\n<p>Points: 57</p>\n<p># Comments: 68</p>",
     "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
     "published": "2026-11-25T19:57:08+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "Why aren't we working 2-days a week?",
-    "link": "https://anihil.com/why-arent-we-working-2-days-a-week",
-    "summary": "<p>Article URL: <a href=\"https://anihil.com/why-arent-we-working-2-days-a-week\">https://anihil.com/why-arent-we-working-2-days-a-week</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50645010\">https://news.ycombinator.com/item?id=50645010</a></p>\n<p>Points: 60</p>\n<p># Comments: 84</p>",
-    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
-    "published": "2026-11-25T17:37:17+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "Zapier offers free MCP tool calls until Jan. 5",
-    "link": "https://zapier.com/mcp",
-    "summary": "<p>Article URL: <a href=\"https://zapier.com/mcp\">https://zapier.com/mcp</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50643836\">https://news.ycombinator.com/item?id=50643836</a></p>\n<p>Points: 30</p>\n<p># Comments: 1</p>",
-    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
-    "published": "2026-11-25T16:07:19+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "U.S. jury convicts Huawei of fraud, Iran sanctions violations",
-    "link": "https://www.upi.com/Top_News/US/2026/11/25/jury-convicts-Huawei/3151795587204/",
-    "summary": "<p>Article URL: <a href=\"https://www.upi.com/Top_News/US/2026/11/25/jury-convicts-Huawei/3151795587204/\">https://www.upi.com/Top_News/US/2026/11/25/jury-convicts-Huawei/3151795587204/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50642496\">https://news.ycombinator.com/item?id=50642496</a></p>\n<p>Points: 156</p>\n<p># Comments: 189</p>",
-    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
-    "published": "2026-11-25T14:12:29+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "The Riemann Hypothesis Proof as a Mediaeval Fantasy RPG Map",
-    "link": "https://marioschlosser.org/riemann/",
-    "summary": "<p>Article URL: <a href=\"https://marioschlosser.org/riemann/\">https://marioschlosser.org/riemann/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50640746\">https://news.ycombinator.com/item?id=50640746</a></p>\n<p>Points: 42</p>\n<p># Comments: 11</p>",
-    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
-    "published": "2026-11-25T10:32:04+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "Gemini refused to give me the lyrics to Twinkle Twinkle Little Star",
-    "link": "https://www.comentr.com/technology/01M88DWQ0R4NCMYR17AFEWRG1F",
-    "summary": "<p>Article URL: <a href=\"https://www.comentr.com/technology/01M88DWQ0R4NCMYR17AFEWRG1F\">https://www.comentr.com/technology/01M88DWQ0R4NCMYR17AFEWRG1F</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50638320\">https://news.ycombinator.com/item?id=50638320</a></p>\n<p>Points: 215</p>\n<p># Comments: 170</p>",
-    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
-    "published": "2026-11-25T04:03:33+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "Serving Qwen via AWS Lambdas for fun and 80x negative profit",
-    "link": "https://noahbuilt.it/writing/qwen-on-5600-lambdas",
-    "summary": "<p>Article URL: <a href=\"https://noahbuilt.it/writing/qwen-on-5600-lambdas\">https://noahbuilt.it/writing/qwen-on-5600-lambdas</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50638070\">https://news.ycombinator.com/item?id=50638070</a></p>\n<p>Points: 132</p>\n<p># Comments: 20</p>",
-    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
-    "published": "2026-11-25T03:28:06+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "How did pinwheel calculators work?",
-    "link": "https://blog.coredump.cx/p/how-did-pinwheel-calculators-work",
-    "summary": "<p>Article URL: <a href=\"https://blog.coredump.cx/p/how-did-pinwheel-calculators-work\">https://blog.coredump.cx/p/how-did-pinwheel-calculators-work</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50637448\">https://news.ycombinator.com/item?id=50637448</a></p>\n<p>Points: 50</p>\n<p># Comments: 4</p>",
-    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
-    "published": "2026-11-25T02:00:08+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "Get in, friends, the Atmosphere is happening",
-    "link": "https://tropopause.pckt.blog/get-in-friends-the-atmosphere-is-happening-q8sf9a9",
-    "summary": "<p>Article URL: <a href=\"https://tropopause.pckt.blog/get-in-friends-the-atmosphere-is-happening-q8sf9a9\">https://tropopause.pckt.blog/get-in-friends-the-atmosphere-is-happening-q8sf9a9</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50636286\">https://news.ycombinator.com/item?id=50636286</a></p>\n<p>Points: 64</p>\n<p># Comments: 91</p>",
-    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
-    "published": "2026-11-24T23:23:35+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "Fable 5.2 tries less on some hard tasks when a shortcut is available",
-    "link": "https://goodhartlabs.com/blog/fable-5-2-tries-less-on-some-hard-tasks-when-a-shortcut-is-available",
-    "summary": "<p>Article URL: <a href=\"https://goodhartlabs.com/blog/fable-5-2-tries-less-on-some-hard-tasks-when-a-shortcut-is-available\">https://goodhartlabs.com/blog/fable-5-2-tries-less-on-some-hard-tasks-when-a-shortcut-is-available</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50635698\">https://news.ycombinator.com/item?id=50635698</a></p>\n<p>Points: 72</p>\n<p># Comments: 65</p>",
-    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
-    "published": "2026-11-24T22:26:41+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "New York Ban AI Toys for 5 Years",
-    "link": "https://www.governor.ny.gov/news/consumers-begin-their-holiday-shopping-season-governor-hochul-signs-five-year-ban-ai-chatbot",
-    "summary": "<p>Article URL: <a href=\"https://www.governor.ny.gov/news/consumers-begin-their-holiday-shopping-season-governor-hochul-signs-five-year-ban-ai-chatbot\">https://www.governor.ny.gov/news/consumers-begin-their-holiday-shopping-season-governor-hochul-signs-five-year-ban-ai-chatbot</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50635246\">https://news.ycombinator.com/item?id=50635246</a></p>\n<p>Points: 38</p>\n<p># Comments: 3</p>",
-    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
-    "published": "2026-11-24T21:49:50+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "\n- **New York State** has enacted a five-year moratorium on the sale of **AI chatbot toys** designed for children under 12.\n- The legislation targets **Generative AI** integrations that provide interactive, human-like conversation, citing risks to **data privacy** and child development.\n- This regulatory move reflects a growing trend of **AI safety** concerns regarding the psychological impact of persistent, unmonitored human-machine interaction.\n- The ban serves as a significant precedent for state-level **AI governance** and consumer protection during the peak holiday shopping season.",
-      "key_results": [
-        "Five-year ban on AI chatbot toys for children under 12 in New York State.",
-        "Targeted restrictions on hardware utilizing interactive generative AI models.",
-        "Prioritization of child data privacy and protection from unauthorized data harvesting.",
-        "Mitigation of potential psychological and developmental risks associated with AI agents.",
-        "Establishment of a legal framework for state-level oversight of consumer AI products."
-      ],
-      "relevance_score": 3,
-      "signal_type": "General News",
-      "one_sentence_takeaway": "New York State bans AI chatbot toys for five years to protect child privacy and psychological development.",
-      "lead_institution": "New York State Government",
-      "tags": [
-        "AI Regulation",
-        "Generative AI",
-        "AI Safety",
-        "Consumer Protection",
-        "Data Privacy"
-      ]
-    }
-  },
-  {
-    "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
-    "link": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
-    "summary": "<p>Article URL: <a href=\"https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/\">https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50634658\">https://news.ycombinator.com/item?id=50634658</a></p>\n<p>Points: 353</p>\n<p># Comments: 97</p>",
-    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
-    "published": "2026-11-24T21:02:22+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "Launch HN: Versine (YC F26) \u2013 MCP to send and receive money",
-    "link": "https://news.ycombinator.com/item?id=50634426",
-    "summary": "<p>Hey HN, we\u2019re Harshith, Param, and Vishnu and we're building Versine (<a href=\"https://versine.com\">https://versine.com</a>). Versine lets you send and request money just by talking or texting with your AI (think Venmo with an MCP). We\u2019re software engineers who have worked on distributed systems at Stripe, Databricks, and Amazon.<p>Versine is an MCP that sits in front of a wallet with a balance. With it, your agent can do things like:<p>- Send money to someone with your approval (via passkey in our app)<p>- Send and request money to/from up to 100 people at once<p>- Send money to people without a Versine account (they cash out to their bank in 2 mins)<p>- Pay people without your explicit approval to trusted contacts (you can set this)<p>Here\u2019s a demo: <a href=\"https://youtube.com/shorts/Q9X7zioEqi0\" rel=\"nofollow\">https://youtube.com/shorts/Q9X7zioEqi0</a><p>We started working on this because assistants are frustratingly hands-off when it comes to finance and money movement. You can have your assistant go through a receipt and map out all the amounts owed taking care of splitting the subtotal, taxes, tips, but at the end of it the assistant hands back work to you when you have to go out and make the Venmo transfer.<p>Our current solution is oriented towards power users: those who want to automate everything through their agent use us to split dinners, group trips, or settle poker ledgers. We see ourselves unlocking more value for the general consumer as<p>1. More people turn into power users of agents, and\n2. We expand to a more complete banking solution: deposits, transfers, wires, everything you can (and more) do with your bank offered as an MCP.<p>Behind the scenes, each user has a self-custodial stablecoin wallet storing USDC on Base. With self-custodial wallets, users own their keys, meaning money can\u2019t be sent without their approval.<p>Interestingly, we were almost forced into this solution because we had around 4 weeks to build this product (after a pivot), and traditional fiat with a partner bank would have caused far too many regulatory and compliance slowdowns.<p>Because of that, the only fast option that remained was using stablecoin wallets. It also ensures we aren't a Money Services Business (MSB) since we don\u2019t hold control or access to the user\u2019s funds.<p>Each call to the wallet creates what we call one-time or recurring standing permissions. For a one-time payment, your agent makes an MCP call, and you receive a notification in our mobile app. Once you swipe up in the app and approve with a passkey (or your device\u2019s biometric method), we create a one-time permission that instructs your wallet to send $X to your recipient\u2019s address.<p>Trusted contacts let your agent send money to people that you\u2019ve previously authorized without explicit passkey approval. Generally, these are people that you\u2019d trust to send your money back even if your agent made a mistake.<p>We\u2019re also able to support sending money to someone off Versine using claim forwarding, where the user authorizes us to forward a specific amount to a future address (which we create once we verify a recipient's OTP).<p>Param worked on scaling vector search at Databricks and harness evals at Glean. Harshith worked on core Stripe Connect fee-processing infrastructure and built an AWS Fargate autoscaler at Amazon. Vishnu worked on intent-based agent testing infrastructure at Amazon. None of us were experienced in stablecoin or crypto infra before working on Versine but our distributed systems experience has helped us a lot.<p>We'd love for you guys to try it! It's available on iOS and Android and as an MCP on ChatGPT and Claude. We also support a public MCP and REST API for other agents.<p>Please let us know how you find it and if it works as you'd hoped!<p><a href=\"https://versine.com\">https://versine.com</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50634426\">https://news.ycombinator.com/item?id=50634426</a></p>\n<p>Points: 105</p>\n<p># Comments: 103</p>",
-    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
-    "published": "2026-11-24T20:44:15+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "Ternary Bonsai 2.5 27B",
-    "link": "https://prismml.com/news/bonsai-2-5-27b",
-    "summary": "<p>Article URL: <a href=\"https://prismml.com/news/bonsai-2-5-27b\">https://prismml.com/news/bonsai-2-5-27b</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50633922\">https://news.ycombinator.com/item?id=50633922</a></p>\n<p>Points: 533</p>\n<p># Comments: 176</p>",
-    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
-    "published": "2026-11-24T20:08:03+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "Grafana 12.4.16, 13.0.14, 13.1.11, 13.2.7 and 13.3.2 (multiple CVEs)",
-    "link": "https://grafana.com/grafana/download",
-    "summary": "<p>Article URL: <a href=\"https://grafana.com/grafana/download\">https://grafana.com/grafana/download</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50633159\">https://news.ycombinator.com/item?id=50633159</a></p>\n<p>Points: 159</p>\n<p># Comments: 27</p>",
-    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
-    "published": "2026-11-24T19:23:44+00:00",
-    "type": "blog",
-    "display_category": "Top News",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "Canada's median health-care wait time hits 30.7 weeks\u2013longest ever recorded",
-    "link": "https://www.fraserinstitute.org/studies/waiting-your-turn-wait-times-for-health-care-in-canada-2026",
-    "summary": "<p>Article URL: <a href=\"https://www.fraserinstitute.org/studies/waiting-your-turn-wait-times-for-health-care-in-canada-2026\">https://www.fraserinstitute.org/studies/waiting-your-turn-wait-times-for-health-care-in-canada-2026</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50632832\">https://news.ycombinator.com/item?id=50632832</a></p>\n<p>Points: 102</p>\n<p># Comments: 138</p>",
-    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
-    "published": "2026-11-24T19:00:26+00:00",
     "type": "blog",
     "display_category": "Top News",
     "processed": {
@@ -930,6 +840,336 @@
     }
   },
   {
+    "title": "Verifiable Social Reasoning for LLM Assistants",
+    "link": "https://research.google/blog/verifiable-social-reasoning-for-llm-assistants/",
+    "summary": "Generative AI",
+    "source": "The latest research from Google",
+    "published": "2026-11-25T17:10:27+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "An Indic Voice Agent with CUGA",
+    "link": "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga",
+    "summary": "",
+    "source": "Hugging Face - Blog",
+    "published": "2026-11-25T10:22:09+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Hill-climbing Inkling 2 Mini inference on one RTX PRO 6000",
+    "link": "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb",
+    "summary": "",
+    "source": "Hugging Face - Blog",
+    "published": "2026-11-25T00:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Art of play in the age of AI",
+    "link": "https://github.blog/news-insights/company-news/art-of-play-in-the-age-of-ai/",
+    "summary": "<p>Now that code ships faster than ever, you have more time to spend on projects just for the fun of it. Here's what we can learn through that process as developers.</p>\n<p>The post <a href=\"https://github.blog/news-insights/company-news/art-of-play-in-the-age-of-ai/\">Art of play in the age of AI</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
+    "source": "The GitHub Blog",
+    "published": "2026-11-25T16:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "How to choose the next safe step in application modernization",
+    "link": "https://github.blog/ai-and-ml/github-copilot/how-to-choose-the-next-safe-step-in-application-modernization/",
+    "summary": "<p>Learn how to assess a legacy application, choose a bounded modernization step, and reuse the method with a GitHub Copilot agent skill.</p>\n<p>The post <a href=\"https://github.blog/ai-and-ml/github-copilot/how-to-choose-the-next-safe-step-in-application-modernization/\">How to choose the next safe step in application modernization</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
+    "source": "The GitHub Blog",
+    "published": "2026-11-25T15:00:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Agentic system personalizes physical controls to help users \u201cDJ their art\u201d",
+    "link": "https://news.mit.edu/2026/tangimap-agentic-system-personalizes-physical-controls-help-users-dj-their-art-1124",
+    "summary": "\u201cTangiMap\u201d uses an AI agent to reprogram how buttons, knobs, and sliders are used, helping users do things like edit photos and perform music in a more dynamic, tactile way.",
+    "source": "MIT News - Artificial intelligence",
+    "published": "2026-11-24T19:30:00+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Why aren't we working 2-days a week?",
+    "link": "https://anihil.com/why-arent-we-working-2-days-a-week",
+    "summary": "<p>Article URL: <a href=\"https://anihil.com/why-arent-we-working-2-days-a-week\">https://anihil.com/why-arent-we-working-2-days-a-week</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50645010\">https://news.ycombinator.com/item?id=50645010</a></p>\n<p>Points: 60</p>\n<p># Comments: 84</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-11-25T17:37:17+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Zapier offers free MCP tool calls until Jan. 5",
+    "link": "https://zapier.com/mcp",
+    "summary": "<p>Article URL: <a href=\"https://zapier.com/mcp\">https://zapier.com/mcp</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50643836\">https://news.ycombinator.com/item?id=50643836</a></p>\n<p>Points: 30</p>\n<p># Comments: 1</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-11-25T16:07:19+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "U.S. jury convicts Huawei of fraud, Iran sanctions violations",
+    "link": "https://www.upi.com/Top_News/US/2026/11/25/jury-convicts-Huawei/3151795587204/",
+    "summary": "<p>Article URL: <a href=\"https://www.upi.com/Top_News/US/2026/11/25/jury-convicts-Huawei/3151795587204/\">https://www.upi.com/Top_News/US/2026/11/25/jury-convicts-Huawei/3151795587204/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50642496\">https://news.ycombinator.com/item?id=50642496</a></p>\n<p>Points: 156</p>\n<p># Comments: 189</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-11-25T14:12:29+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "The Riemann Hypothesis Proof as a Mediaeval Fantasy RPG Map",
+    "link": "https://marioschlosser.org/riemann/",
+    "summary": "<p>Article URL: <a href=\"https://marioschlosser.org/riemann/\">https://marioschlosser.org/riemann/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50640746\">https://news.ycombinator.com/item?id=50640746</a></p>\n<p>Points: 42</p>\n<p># Comments: 11</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-11-25T10:32:04+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Gemini refused to give me the lyrics to Twinkle Twinkle Little Star",
+    "link": "https://www.comentr.com/technology/01M88DWQ0R4NCMYR17AFEWRG1F",
+    "summary": "<p>Article URL: <a href=\"https://www.comentr.com/technology/01M88DWQ0R4NCMYR17AFEWRG1F\">https://www.comentr.com/technology/01M88DWQ0R4NCMYR17AFEWRG1F</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50638320\">https://news.ycombinator.com/item?id=50638320</a></p>\n<p>Points: 215</p>\n<p># Comments: 170</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-11-25T04:03:33+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Serving Qwen via AWS Lambdas for fun and 80x negative profit",
+    "link": "https://noahbuilt.it/writing/qwen-on-5600-lambdas",
+    "summary": "<p>Article URL: <a href=\"https://noahbuilt.it/writing/qwen-on-5600-lambdas\">https://noahbuilt.it/writing/qwen-on-5600-lambdas</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50638070\">https://news.ycombinator.com/item?id=50638070</a></p>\n<p>Points: 132</p>\n<p># Comments: 20</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-11-25T03:28:06+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "How did pinwheel calculators work?",
+    "link": "https://blog.coredump.cx/p/how-did-pinwheel-calculators-work",
+    "summary": "<p>Article URL: <a href=\"https://blog.coredump.cx/p/how-did-pinwheel-calculators-work\">https://blog.coredump.cx/p/how-did-pinwheel-calculators-work</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50637448\">https://news.ycombinator.com/item?id=50637448</a></p>\n<p>Points: 50</p>\n<p># Comments: 4</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-11-25T02:00:08+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Get in, friends, the Atmosphere is happening",
+    "link": "https://tropopause.pckt.blog/get-in-friends-the-atmosphere-is-happening-q8sf9a9",
+    "summary": "<p>Article URL: <a href=\"https://tropopause.pckt.blog/get-in-friends-the-atmosphere-is-happening-q8sf9a9\">https://tropopause.pckt.blog/get-in-friends-the-atmosphere-is-happening-q8sf9a9</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50636286\">https://news.ycombinator.com/item?id=50636286</a></p>\n<p>Points: 64</p>\n<p># Comments: 91</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-11-24T23:23:35+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Fable 5.2 tries less on some hard tasks when a shortcut is available",
+    "link": "https://goodhartlabs.com/blog/fable-5-2-tries-less-on-some-hard-tasks-when-a-shortcut-is-available",
+    "summary": "<p>Article URL: <a href=\"https://goodhartlabs.com/blog/fable-5-2-tries-less-on-some-hard-tasks-when-a-shortcut-is-available\">https://goodhartlabs.com/blog/fable-5-2-tries-less-on-some-hard-tasks-when-a-shortcut-is-available</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50635698\">https://news.ycombinator.com/item?id=50635698</a></p>\n<p>Points: 72</p>\n<p># Comments: 65</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-11-24T22:26:41+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "New York Ban AI Toys for 5 Years",
+    "link": "https://www.governor.ny.gov/news/consumers-begin-their-holiday-shopping-season-governor-hochul-signs-five-year-ban-ai-chatbot",
+    "summary": "<p>Article URL: <a href=\"https://www.governor.ny.gov/news/consumers-begin-their-holiday-shopping-season-governor-hochul-signs-five-year-ban-ai-chatbot\">https://www.governor.ny.gov/news/consumers-begin-their-holiday-shopping-season-governor-hochul-signs-five-year-ban-ai-chatbot</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50635246\">https://news.ycombinator.com/item?id=50635246</a></p>\n<p>Points: 38</p>\n<p># Comments: 3</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-11-24T21:49:50+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "\n- **New York State** has enacted a five-year moratorium on the sale of **AI chatbot toys** designed for children under 12.\n- The legislation targets **Generative AI** integrations that provide interactive, human-like conversation, citing risks to **data privacy** and child development.\n- This regulatory move reflects a growing trend of **AI safety** concerns regarding the psychological impact of persistent, unmonitored human-machine interaction.\n- The ban serves as a significant precedent for state-level **AI governance** and consumer protection during the peak holiday shopping season.",
+      "key_results": [
+        "Five-year ban on AI chatbot toys for children under 12 in New York State.",
+        "Targeted restrictions on hardware utilizing interactive generative AI models.",
+        "Prioritization of child data privacy and protection from unauthorized data harvesting.",
+        "Mitigation of potential psychological and developmental risks associated with AI agents.",
+        "Establishment of a legal framework for state-level oversight of consumer AI products."
+      ],
+      "relevance_score": 3,
+      "signal_type": "General News",
+      "one_sentence_takeaway": "New York State bans AI chatbot toys for five years to protect child privacy and psychological development.",
+      "lead_institution": "New York State Government",
+      "tags": [
+        "AI Regulation",
+        "Generative AI",
+        "AI Safety",
+        "Consumer Protection",
+        "Data Privacy"
+      ]
+    }
+  },
+  {
+    "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+    "link": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
+    "summary": "<p>Article URL: <a href=\"https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/\">https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50634658\">https://news.ycombinator.com/item?id=50634658</a></p>\n<p>Points: 353</p>\n<p># Comments: 97</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-11-24T21:02:22+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Launch HN: Versine (YC F26) \u2013 MCP to send and receive money",
+    "link": "https://news.ycombinator.com/item?id=50634426",
+    "summary": "<p>Hey HN, we\u2019re Harshith, Param, and Vishnu and we're building Versine (<a href=\"https://versine.com\">https://versine.com</a>). Versine lets you send and request money just by talking or texting with your AI (think Venmo with an MCP). We\u2019re software engineers who have worked on distributed systems at Stripe, Databricks, and Amazon.<p>Versine is an MCP that sits in front of a wallet with a balance. With it, your agent can do things like:<p>- Send money to someone with your approval (via passkey in our app)<p>- Send and request money to/from up to 100 people at once<p>- Send money to people without a Versine account (they cash out to their bank in 2 mins)<p>- Pay people without your explicit approval to trusted contacts (you can set this)<p>Here\u2019s a demo: <a href=\"https://youtube.com/shorts/Q9X7zioEqi0\" rel=\"nofollow\">https://youtube.com/shorts/Q9X7zioEqi0</a><p>We started working on this because assistants are frustratingly hands-off when it comes to finance and money movement. You can have your assistant go through a receipt and map out all the amounts owed taking care of splitting the subtotal, taxes, tips, but at the end of it the assistant hands back work to you when you have to go out and make the Venmo transfer.<p>Our current solution is oriented towards power users: those who want to automate everything through their agent use us to split dinners, group trips, or settle poker ledgers. We see ourselves unlocking more value for the general consumer as<p>1. More people turn into power users of agents, and\n2. We expand to a more complete banking solution: deposits, transfers, wires, everything you can (and more) do with your bank offered as an MCP.<p>Behind the scenes, each user has a self-custodial stablecoin wallet storing USDC on Base. With self-custodial wallets, users own their keys, meaning money can\u2019t be sent without their approval.<p>Interestingly, we were almost forced into this solution because we had around 4 weeks to build this product (after a pivot), and traditional fiat with a partner bank would have caused far too many regulatory and compliance slowdowns.<p>Because of that, the only fast option that remained was using stablecoin wallets. It also ensures we aren't a Money Services Business (MSB) since we don\u2019t hold control or access to the user\u2019s funds.<p>Each call to the wallet creates what we call one-time or recurring standing permissions. For a one-time payment, your agent makes an MCP call, and you receive a notification in our mobile app. Once you swipe up in the app and approve with a passkey (or your device\u2019s biometric method), we create a one-time permission that instructs your wallet to send $X to your recipient\u2019s address.<p>Trusted contacts let your agent send money to people that you\u2019ve previously authorized without explicit passkey approval. Generally, these are people that you\u2019d trust to send your money back even if your agent made a mistake.<p>We\u2019re also able to support sending money to someone off Versine using claim forwarding, where the user authorizes us to forward a specific amount to a future address (which we create once we verify a recipient's OTP).<p>Param worked on scaling vector search at Databricks and harness evals at Glean. Harshith worked on core Stripe Connect fee-processing infrastructure and built an AWS Fargate autoscaler at Amazon. Vishnu worked on intent-based agent testing infrastructure at Amazon. None of us were experienced in stablecoin or crypto infra before working on Versine but our distributed systems experience has helped us a lot.<p>We'd love for you guys to try it! It's available on iOS and Android and as an MCP on ChatGPT and Claude. We also support a public MCP and REST API for other agents.<p>Please let us know how you find it and if it works as you'd hoped!<p><a href=\"https://versine.com\">https://versine.com</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50634426\">https://news.ycombinator.com/item?id=50634426</a></p>\n<p>Points: 105</p>\n<p># Comments: 103</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-11-24T20:44:15+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Ternary Bonsai 2.5 27B",
+    "link": "https://prismml.com/news/bonsai-2-5-27b",
+    "summary": "<p>Article URL: <a href=\"https://prismml.com/news/bonsai-2-5-27b\">https://prismml.com/news/bonsai-2-5-27b</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50633922\">https://news.ycombinator.com/item?id=50633922</a></p>\n<p>Points: 533</p>\n<p># Comments: 176</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-11-24T20:08:03+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Grafana 12.4.16, 13.0.14, 13.1.11, 13.2.7 and 13.3.2 (multiple CVEs)",
+    "link": "https://grafana.com/grafana/download",
+    "summary": "<p>Article URL: <a href=\"https://grafana.com/grafana/download\">https://grafana.com/grafana/download</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50633159\">https://news.ycombinator.com/item?id=50633159</a></p>\n<p>Points: 159</p>\n<p># Comments: 27</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-11-24T19:23:44+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
+    "title": "Canada's median health-care wait time hits 30.7 weeks\u2013longest ever recorded",
+    "link": "https://www.fraserinstitute.org/studies/waiting-your-turn-wait-times-for-health-care-in-canada-2026",
+    "summary": "<p>Article URL: <a href=\"https://www.fraserinstitute.org/studies/waiting-your-turn-wait-times-for-health-care-in-canada-2026\">https://www.fraserinstitute.org/studies/waiting-your-turn-wait-times-for-health-care-in-canada-2026</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50632832\">https://news.ycombinator.com/item?id=50632832</a></p>\n<p>Points: 102</p>\n<p># Comments: 138</p>",
+    "source": "Hacker News - Newest: \"\"OpenClaw\" \"Qwen\" \"TinyFish\" \"\"Seed\" \"2.0\"\" \"\"Seed\" \"2\"\" \"\"MCP\" \"support\"\" \"\"GPT-5\"\" \"\"Claude\" \"4\"\" \"\"Gemini\" \"3\"\" \"\"delegate\" \"work\"\" \"\"Gemini\" \"attackers\"\" \"\"MCP\"\"\"",
+    "published": "2026-11-24T19:00:26+00:00",
+    "type": "blog",
+    "display_category": "Top News",
+    "processed": {
+      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
+      "relevance_score": 0,
+      "one_sentence_takeaway": "Error.",
+      "tags": []
+    }
+  },
+  {
     "title": "Toward Agentic Robotics: A Large-Scale Study of Harness Design for Robot-Use Agents",
     "link": "http://arxiv.org/abs/2611.34778v1",
     "summary": "Recent vision-language models (VLMs) can act as robot-use agents that understand diverse scenes and control robots through policy code and tools. However, they predict 3D gripper poses poorly even with extended reasoning, struggling with precise manipulation. Vision-language-action (VLA) and world-action (WAM) models are the opposite: they execute fast, smooth control on trained tasks, yet fail under domain shifts or when tasks require long-horizon memory and reasoning. Agentic robots therefore combine VLM reasoning and perception with precise VLA/WAM control through a policy harness. Yet harness design spans thousands of configurations, shifting success by tens of points with the same models. Moreover, testing even one design takes thousands of rollouts at high API and GPU cost, so prior works often commit to a single design chosen from few alternatives. To guide harness design, we evaluate over 470,000 rollouts across eight simulation benchmarks, six VLMs, and 15 VLA/WAM checkpoints. Seven controlled studies show effective harnesses must adapt to both VLM and VLA/WAM capabilities. Our findings specify what structure the VLM's policy code needs, where VLA manipulation needs help from tools and policy code, and when to involve the VLM at test time. The reference recipe X-Harness shows that these findings compose without weight updates, lifting base policies up to $+42.8$ points across memory, reasoning, and domain shifts.",
@@ -1265,246 +1505,6 @@
     "summary": "Robots should adapt to unfamiliar environments and acquire new skills through interaction, then execute those skills efficiently with practice. Vision-language-action policies provide efficient control, but often need additional human demonstrations to handle unfamiliar settings; reasoning agents can discover solutions using broad prior knowledge and robot-control APIs, but repeated deliberation and repair are costly. Inspired by human learning through reasoning and practice, we propose RoboEvo$^2$, a framework for recursive harness-policy co-evolution. In Policy-to-Harness (P2H) evolution, policy failures guide a coding agent to search complementary Code, Code+ICL, and Code+Policy routes, consolidating verified solutions into reusable skills, routing strategies, and experience memory. In Harness-to-Policy (H2P) evolution, verified trajectories provide supervised training, while Counterfactual Preference Distillation (CPD) teaches the policy to favor successful corrections over failures from the same starting state. The improved policy provides stronger motor skills for subsequent search, while its remaining failures redirect harness evolution, closing the reciprocal loop. Through recursive co-evolution without additional human demonstrations, RoboEvo$^2$ improves standalone success from 11.0% to 84.1% and hybrid success from 30.4% to 90.5% on LIBERO-PRO, with similar gains and reduced agentic costs on RoboTwin C2R. Further experiments demonstrate autonomous task acquisition, cross-embodiment harness transfer, and 95.0% hybrid success on the Unitree G1-D. Our models and code will be publicly released.",
     "source": "ArXiv",
     "published": "2026-11-25T16:39:10+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "Supporting Without Taking Over: AI Support in Gratitude Writing",
-    "link": "http://arxiv.org/abs/2611.34673v1",
-    "summary": "Gratitude writing can support well-being, but independent practice may lack guidance. Generative AI could help while shaping reflection, agency, and ownership. We investigated how gratitude-writing format and AI-assistance mode influence well-being and writing experiences. In a 2x2 between-subjects study (N=401), participants completed a gratitude reflection or a gratitude letter using two AI-assistance modes: scaffolding, which provided reflective questions after inactivity, or co-writing, which offered inline text suggestions. Participants' well-being improved after using our AI-assisted gratitude-writing system, consistent with the activity's intended benefits. However, participants' experiences revealed a trade-off between the AI-support types: co-writing received higher usability ratings, yet its immediacy could disrupt writing, and greater suggestion acceptance was associated with weaker perceived agency. Scaffolding supported stronger perceived human ownership but was sometimes overlooked. These findings extend human-AI writing research beyond productivity and text quality by showing how AI involvement shapes psychological outcomes and the experience of self-guided, emotionally meaningful writing.",
-    "source": "ArXiv",
-    "published": "2026-11-25T16:38:14+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "DemoFoundry: Toward Scalable Photorealistic Robot Data with Coding Agents and Generative Rendering",
-    "link": "http://arxiv.org/abs/2611.34671v1",
-    "summary": "Scaling robot learning requires demonstrations that combine realistic visual observations with reliable action supervision. Simulation-based synthesis faces a substantial visual gap relative to real environments, while video-only generation struggles to maintain physically consistent interactions and provide aligned action labels. We present DemoFoundry, an automated framework that couples coding agents with generative rendering to synthesize photorealistic and physically grounded robot demonstrations. Coding agents both construct aligned real--proxy video pairs from existing robot episodes to train a video renderer and write executable interaction programs to generate new demonstrations. Given a scene reference and task instruction, an agent reconstructs task-relevant geometry and writes a control program without requiring target-task human demonstrations. Program execution in a physics simulator produces proxy videos with aligned robot states and actions. The video renderer translates these proxy videos into scene-consistent, photorealistic observations, reducing the need for detailed appearance modeling in each scene. Automated task-execution checks select successful trajectories for rendering and policy learning. Experiments show improved visual quality and action--video consistency. Policies trained on the generated demonstrations outperform raw-simulation training and approach the performance of training on an equal number of real demonstrations.",
-    "source": "ArXiv",
-    "published": "2026-11-25T16:37:10+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "An Embedded Ergonomic Posture Monitoring and AI-Assisted Home Learning System on a Raspberry Pi 3B Edge Platform",
-    "link": "http://arxiv.org/abs/2611.34669v1",
-    "summary": "During independent home study sessions, students frequently sustain improper sitting postures, accumulate excessive sedentary hours, and experience productivity loss from off-task digital distractions. Furthermore, learners often lack real-time pedagogical scaffolding for demanding self-study curricula. To mitigate these ergonomic and instructional challenges, this paper presents an affordable, privacy-preserving cyber-physical embedded system for domestic study spaces. Engineered on a Raspberry Pi 3 Model B (1 GB RAM) paired with a UVC optical camera and a USB condenser microphone, the system executes on-device computer vision utilizing MediaPipe Pose and OpenCV to monitor upper-body alignment, sagittal head inclination, and coronal shoulder asymmetry in real time without persisting raw video streams. A deterministic finite state machine (FSM) quantifies active study durations, enforces health-compliant rest periods, and detects illicit smartphone usage. Simultaneously, an integrated multimodal AI tutoring agent parses voice and text queries via an encrypted API gateway, synthesizing Socratic conceptual hints rather than direct solutions. A lightweight parental web dashboard delivers encrypted session analytics and scheduling configurations. Empirical benchmarks on the physical prototype confirm an end-to-end inference latency of 244-250 ms at a 352x288 resolution (4.0-4.1 FPS), a trunk-angle estimation error of 4.39 degrees MAE over 5,760 synthetic ground-truth poses, a resident set size of 320 MB, a peak SoC temperature of 58.0 degrees Celsius under sustained load, and a 1.58 s total latency for the offline TTS feedback path, proving high practicality for resource-constrained edge deployment.",
-    "source": "ArXiv",
-    "published": "2026-11-25T16:36:19+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "Do We Still Need Reinforcement Learning When We Can Read the World Model?",
-    "link": "http://arxiv.org/abs/2611.34656v1",
-    "summary": "Reinforcement learning has achieved remarkable success in sequential decision-making, but learning effective policies often requires substantial interaction experience. Model-based reinforcement learning alleviates this dependence by leveraging world models, which are typically used to support planning or policy optimization. In this paper, we investigate an alternative paradigm in which autonomous LLM-based coding agents directly synthesize control policies by reasoning over readable world models. By examining environment source code, these agents translate environmental knowledge into executable decision rules and iteratively refine their policies using online feedback or offline data, without task-specific RL training. Experiments across diverse decision-making benchmarks show that synthesized policies match or outperform conventional RL methods while requiring substantially less experience. Further analyses reveal interpretable decision rules and how they evolve through feedback-driven refinement. Comparisons with policies generated without source code access and experiments under challenging conditions further demonstrate the benefits of readable world models. These findings suggest that direct policy synthesis can reduce reliance on trial and error, challenging the necessity of task-specific RL training.",
-    "source": "ArXiv",
-    "published": "2026-11-25T16:29:37+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "REE: A Scientific Research Entrance Exam for AI Agents",
-    "link": "http://arxiv.org/abs/2611.34646v1",
-    "summary": "Autonomous research agents are emerging as a promising approach to scientific problem-solving across disciplines, owing to their growing ability to improve a solution through repeated experiments. Evaluating this ability requires benchmarks that pose open-ended research problems and measure improvements over established scientific methods. We introduce REE (Research Entrance Exam), a benchmark that tests AI agents on scientific research. It consists of 100 open-ended research problems spanning five broad scientific areas and 23 domains. To ensure high quality, every problem is drawn from active research in its field and individually reviewed by domain experts. Each problem is posed as a task of iterative improvement: an agent has up to 12 hours to improve a working starter solution, and REE scores the result on a common scale against an established expert solution evaluated under comparable conditions. By this measure, two of the four frontier agents we evaluate, Claude Opus 5.5 and GPT-6.1 Sol, outperform the expert solutions on 86% and 81% of problems, across all five scientific areas. Their runs also show how they do so: both agents surpass the expert solutions within the first two hours on average, and their best solutions mostly tailor or combine established methods of the field. REE thus provides a unified framework for evaluating autonomous scientific research, capturing both improvements over established methods and the research processes behind them.",
-    "source": "ArXiv",
-    "published": "2026-11-25T16:25:19+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "PRAM: Activating Latent Multimodal Knowledge through Partwise Reasoning",
-    "link": "http://arxiv.org/abs/2611.34640v1",
-    "summary": "Emergent cross-modal classification and retrieval enable transfer between modalities without direct paired supervision. However, existing methods often prioritize sample-level alignment, overlooking local discriminative information and partwise statistical relations. To this end, we propose partwise reasoning across modalities (PRAM), which activates latent multimodal knowledge in frozen encoders by composing partwise statistical relations through a shared pivot modality. Specifically, we first present a multi-granularity covariance regularization module that estimates covariances from global and local vectors in two collections of modality-pivot pairs, stabilizing local estimates through adaptive blending with their cross-part means. Second, we devise a pivot-based spectral relational reasoning module that infers global and partwise statistical relations between target modalities through regularized covariance composition and extracts paired projection directions and their correlation strengths via whitening and spectral decomposition. Finally, we introduce a multi-granularity score fusion module that standardizes and fuses matching scores from global and local relations, incorporating task-specific information on pivot associations and class semantics for class prediction and candidate ranking. Extensive experiments across ten datasets demonstrate that PRAM achieves state-of-the-art performance in 16 classification settings and 19 retrieval settings, while exhibiting highly competitive performance in three sensing scenarios.",
-    "source": "ArXiv",
-    "published": "2026-11-25T16:21:29+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "ZeroHero: Training Small Language Agents from Scratch",
-    "link": "http://arxiv.org/abs/2611.34635v1",
-    "summary": "Large pretrained language models provide capable policies for interactive tasks, but how much model capacity is necessary for a specialized language agent? We introduce ZeroHero, a framework for training small language agents (SLAs) from scratch. In each environment, a large language model acts as the expert, and we collect its successful trajectories. We pretrain each SLA, which has fewer than 50 million parameters, to predict the expert's responses given the interaction history. We then post-train the agent on its own interactions using proximal policy optimization (PPO). During post-training, reasoning alignment supplements environment rewards with expert supervision on the language the agent generates alongside its actions. We evaluate the agents in three multistep environments where acting requires both understanding and generating language. In Crafter, agents interpret textual observations and generate reasoning before acting. In WebShop, they translate shopping instructions into search queries. In Alfworld-Dialogue, they ask clarifying questions and use the answers to guide household actions. The agents approach expert performance on WebShop and surpass their respective demonstration experts on Crafter training rollouts and held-out Alfworld-Dialogue tasks. An interactive demo is available at https://zoyav.github.io/-ZoyaV-zerohero-demo.",
-    "source": "ArXiv",
-    "published": "2026-11-25T16:20:13+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "LatentRL-QAS: Transfer via Latent Reinforcement Learning for Quantum Architecture Search",
-    "link": "http://arxiv.org/abs/2611.34634v1",
-    "summary": "Reinforcement learning (RL) emerges as a prominent approach to quantum architecture search (QAS), the automated design of quantum circuits. However, transferring what an agent has learned from one number of qubits to another is still weakly explored: the state, the action space and the neural network of a state-of-the-art RL-QAS agent all grow with the number of qubits, which makes transfer learning across qubit counts prohibitive. We make this transfer possible by introducing LatentRL-QAS, a latent space transfer and refresh framework for RL-based QAS. At its core, a circuit variational autoencoder encodes a circuit as one token per gate and maps circuits on any number of qubits into the same latent space. An RL agent navigates this space instead of adding gates, so its state, actions and network have the same size at every qubit count. The latent space is periodically refreshed with the agent's new discoveries and, for a larger system, grown from the solutions of the smaller one, so what is transferred is the representation of circuits, not network weights or past experience. To show transfer, we consider absolutely maximally entangled (AME) states, a resource for quantum error correction. LatentRL-QAS discovers the five- and six-qubit AME states without being shown them and prepares them in 89-99% of evaluation episodes, whereas the baseline RL-QAS fails to find them with the same budget, even with a network 10 to 17 times larger. LatentRL-QAS remains robust under depolarizing noise with single-qubit gate errors amplified 10x and two-qubit gate errors 5x compared with IBM quantum hardware. By decoupling the RL agent from the number of qubits, LatentRL-QAS lets quantum architecture search reuse circuit representations learned on smaller problems, providing a foundation for the transferable design of circuits across quantum optimization problems.",
-    "source": "ArXiv",
-    "published": "2026-11-25T16:20:02+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "A Differential Computing Accelerator for LLM Inference Leveraging Bit-Slice Transition Sparsity",
-    "link": "http://arxiv.org/abs/2611.34630v1",
-    "summary": "Large language models (LLMs) have become foundational to modern artificial intelligence. Driven by scaling laws, their rapid growth poses increasing computational and memory challenges for deployment. To accelerate the general matrix multiplication (GEMM) operations that dominate LLM computation, bit-slice architectures decompose quantized operands along the bit dimension, exposing slice-level sparsity and redundancy. However, existing bit-slice designs primarily exploit sparsity in high-order slices, while dense low-order slices still offer substantial untapped reuse opportunities.\n  We observe that bit-slice vectors (BSVs) are highly clustered in Hamming space, with many BSVs lying only a few bit flips away from a small set of representative patterns. Based on this observation, we propose ISTS, an algorithm-hardware co-designed accelerator that leverages representative BSV patterns as shared Steiner points to reuse partial sums across slices, substantially reducing computation. Specifically, the partial sum of each target BSV can be reconstructed from that of its assigned Steiner point using only a few additions or subtractions. On the algorithmic side, we propose Steiner Absorption Table Construction (SATC), which selects a compact set of Steiner points to absorb BSVs with only a few bidirectional bit flips, while FlipPrune selectively prunes flips to further expand the reusable BSV population. On the hardware side, we design a lightweight accelerator that supports Steiner reuse for static linear layer weights and runtime-generated attention K/V tensors. Comprehensive evaluations show that ISTS achieves average speedups of $3.09\\times$, $2.41\\times$, $2.18\\times$, $1.27\\times$, and $1.41\\times$ over the state-of-the-art accelerators ANT, BBS, LUT Tensor Core, Transitive Array, and MCBP-BRCR, respectively.",
-    "source": "ArXiv",
-    "published": "2026-11-25T16:16:59+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "Predicting acute food crises and discovering actionable drivers with causal machine learning",
-    "link": "http://arxiv.org/abs/2611.34629v1",
-    "summary": "Acute food insecurity is driven by a compound of conflict, adverse climate events, displacement, and economic shocks. We enrich the open-access Harmonized Food Insecurity Dataset with driver variables (monthly, subnational, 80 countries, 2007--2024) and develop missing-data-resilient machine learning pipelines forecasting crisis occurrence at 3, 6, and 9-month lead times using both FEWS NET and, for the first time at scale, IPC/CH classifications. Pipelines, evaluated through nested cross-validation, outperform no-skill baselines by 15 to 50 percentage points in PR-AUC, with performance correlated with crisis prevalence rather than the classification system. TreeSHAP-based explainability reveals compound, geography-specific predictive signal profiles, with three recurrent forecasting archetypes. Comparing predictive importance against doubly robust causal estimates of actionable drivers, we find that acute conflict events, having the weakest predictive signals, emerge as primary causal drivers of crisis classification whilst agroclimatology is the sole dimension in which predictive importance and causal effect align.",
-    "source": "ArXiv",
-    "published": "2026-11-25T16:15:47+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "Evaluating More with Less: Black-Box Test Selection for AI Agents",
-    "link": "http://arxiv.org/abs/2611.34617v1",
-    "summary": "Agentic software systems are increasingly used in development, where changes to the model, prompt, scaffold, tools, or execution environment require repeated testing. Test case selection (TCS) can reduce testing costs while providing estimates of agent performance or exposing failures early. Although TCS has been studied for deep neural networks and LLM code models, prior work does not directly address agentic systems and often requires model information unavailable for proprietary agents. We present the first empirical study of black-box TCS for agentic software systems. We treat each benchmark task as a test case and adapt black-box regression-testing techniques using selection criteria based on task descriptions, metadata, code fragments, and embeddings. We also propose strategies that estimate task difficulty using heuristic features or independent LLM-as-judge assessments. Our strategies select tasks without executing the target agent or using past results. We evaluate fourteen selection strategies, including random sampling, plus a historical-data baseline, across ten AI agent benchmarks with 12 to 101 agents per benchmark. We assess Success Rate estimation and early failure detection. No single strategy dominates both objectives. Adapted black-box regression-testing strategies are most effective for Success Rate estimation, with Category Partition obtaining the lowest median error on five benchmarks at the 20% task budget. LLM-as-judge selection is more effective for early failure detection. For GPT 5.2 Codex on SWE-bench Verified, Category Partition selects 100 instead of 500 tasks, reducing execution cost from \\$225 to \\$47, with a Success Rate estimation error of 0.8 percentage points. At the same budget, LLM-as-judge selection detects nearly twice as many failures as random sampling: 53.0% of selected tasks reveal failures, compared with 27.4% for random sampling.",
-    "source": "ArXiv",
-    "published": "2026-11-25T16:05:46+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "Commit2Drive: Perception-Grounded Language Decisions as Commitments for Trajectory Planning in Vision-Language-Action Driving Models",
-    "link": "http://arxiv.org/abs/2611.34614v1",
-    "summary": "Vision-Language-Action (VLA) models introduce language reasoning into end-to-end autonomous driving. They output a language decision together with a trajectory, which makes the planner more interpretable. However, in existing methods the language decision is either an independent output or an index that selects among similar candidate trajectories, and its annotations are not verified against the trajectory. As a result, the language decision and the trajectory are often inconsistent in closed-loop driving. To address this, we propose Commit2Drive, a framework that imposes the language decision as a consistency constraint on trajectory planning. The decision is a commitment, a maneuver class with a continuous parameter that one deterministic rule reads from any trajectory, and it is grounded in facts reported by the perception of the model itself. A Maneuver Bank maps the commitment to a code with a kinematic meaning, and consistency losses train the planner to execute every admissible decision of a scene, so that the trajectory follows the decision. An automatic data pipeline supplies the supervision. Decisions are labeled from the future motion of the expert, counterfactual executions train the decision and the trajectory together, and rule-based functions with a Vision-Language Model (VLM) generate, review and refine the language annotations. The code is a lookup that involves no hidden state of the language model, so Commit2Drive is extensible to rule-based decisions, which the same planner executes without retraining. Commit2Drive uses a 0.5B language model and runs closed-loop inference online on a single consumer graphics card. On Bench2Drive, Commit2Drive reaches a Driving Score (DS) of 78.50 and a Success Rate (SR) of 55.91% with a lightweight model, which is competitive with the state of the art, and greatly reduces the language-action inconsistency. Code will be released soon.",
-    "source": "ArXiv",
-    "published": "2026-11-25T16:01:47+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "Do We Really Need an LLM for Weight-Space Programming? A Deterministic Forward-Only Paradigm and Its Capability Boundaries",
-    "link": "http://arxiv.org/abs/2611.34612v1",
-    "summary": "Recent work on Weight-Space Programming uses LLMs to edit neural weights with forward passes only, conflating LLM scripting with the underlying algebra of forward-only editing. We show that for core structured editing regimes, an LLM optimizer is unnecessary, and introduce Forward Weight-Space Programming (FWSP): a deterministic pipeline combining probing, localization, stratified operators (O1-O4), automatic blind routing (83.3% vs. 33.3% for a 27B LLM with the same tool library), and paired verification with zero additional per-token computation. For reasoning LLMs, we propose Protected FisherGate, a closed-form covariance-whitened readout edit orthogonal to normal-reasoning states: on DeepSeek-R1-0528-8B, a single frozen math-calibrated patch achieves 84.2% HumanEval pass@1 (1K budget; 75.4 +/- 9.4% across 3/5 Stage-4-passing subsets), beating 512-token-reserved budget forcing by +14.6 pp (-23.4% tokens) while transferring across HF-to-vLLM backends on full GSM8K and MATH-500. Across five modalities and thirteen models (50K to 27B dense and FP8 MoE), we further prove and verify two operator boundaries, subspace entanglement and frozen representation span, where FWSP-localized LoRA bridges forward-only and gradient adaptation.",
-    "source": "ArXiv",
-    "published": "2026-11-25T16:01:05+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "Stochastic Failure Dynamics in a Model Peptidoglycan Mesh under Hydrolysis and Mechanical Loading",
-    "link": "http://arxiv.org/abs/2611.34610v1",
-    "summary": "We develop a minimal stochastic-mechanical model for failure dynamics of the Gram-negative peptidoglycan (PG) cell wall under blocked growth and continued hydrolysis. The cell wall is modelled as a collection of load-bearing cross-sections, with random number of cross-links in each such cross-section, around a fixed degree of cross-linking. To understand failure dynamics of the cell wall under antibacterial agents which prevent insertion of fresh PG material, peptide bonds are progressively excised by hydrolases, while insertion/formation of new bonds is blocked. We compare and contrast rupture dynamics in no-load and load-activated regimes, using extreme value theory and stochastic simulations, deriving limiting laws for system failure in both the long-cell and large crosslinking limits. For a cross-section with many bonds, the mean failure time grows only log- arithmically with bond number, giving diminishing returns from additional cross-linking. In the no-load case, the centered failure time converges to a Gumbel law, though crucially, load changes the centered distribution and accelerates the final stages of collapse. In long cells, failure follows a weakest-link Weibull-type scaling controlled by the least cross-linked regions, with mechanical load reducing the failure-time scale without changing the weakest-link exponent. The fraction of bonds removed before failure tends to zero, showing that collapse can remain highly localized even while the global cross-linking degree stays high. Slowing down growth and other cellular functions is a typical antibiotic escape mechanism for bacteria and in this context, we show that, hydrolase down-regulation uniformly rescales the failure-time distribution and delays collapse, but does not remove the load-induced preference for rupture in weakened regions.",
-    "source": "ArXiv",
-    "published": "2026-11-25T16:00:29+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "VisualMontage: Manipulating the Beliefs of Vision-Language Agents with Authentic Image Sequences",
-    "link": "http://arxiv.org/abs/2611.34603v1",
-    "summary": "As agents based on vision-language models (VLMs) increasingly interpret social-media content, errors in their analysis may lend credibility to rumors and amplify their spread. In this paper, we study the problem of visual cognitive collusion, in which coordinated posts combine authentic images and locally faithful captions to induce VLM agents to infer and accept attacker-chosen target claims through their own reasoning. To enable systematic evaluation of this cognitive threat, we introduce a new benchmark comprising 544 target cases and 33.2K candidate images across eight application domains. We further propose VisualMontage, a multi-agent framework for simulating such attacks through narrative planning, image selection and ordering, and caption assignment under iterative review. We evaluate this threat through extensive experiments across 12 vision-language models, examining modality effects, production-team components, and downstream defenses. Using identical attack feeds across models without victim-specific optimization, we demonstrate cross-model transferability, achieving mean attack success rates of 61.93% for proprietary models and 68.71% for open-weight models. Moreover, 92.65% of generated feeds pass independent model-based validity auditing. Even after downstream review, residual attack success rates range from 35.3% to 76.7% across the evaluated configurations. Our additional controlled comparisons further reveal that captions can improve model-rated posting naturalness while reducing attack success. Together, these findings reveal a novel cognitive threat in social-media interpretation and motivate safeguards that assess how authentic posts jointly shape agents' reasoning and conclusions.",
-    "source": "ArXiv",
-    "published": "2026-11-25T15:57:55+00:00",
-    "type": "paper",
-    "display_category": "Top Paper",
-    "processed": {
-      "summary": "Error processing content: ClientError(\"402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\")",
-      "relevance_score": 0,
-      "one_sentence_takeaway": "Error.",
-      "tags": []
-    }
-  },
-  {
-    "title": "A Real-Time Low-Cost Platform for Non-Contact Respiratory Rate Monitoring: A Comparative Evaluation of RGB Optical Flow and Time-of-Flight Depth Sensing",
-    "link": "http://arxiv.org/abs/2611.34599v1",
-    "summary": "Respiratory rate (RR) is one of the earliest indicators of clinical deterioration, which makes its continuous measurement clinically valuable. In routine practice, however, RR is monitored almost exclusively with contact-based sensors, which require skin attachment, may alter natural breathing, and are poorly tolerated by vulnerable groups such as newborns and elderly patients. Non-contact sensing removes these constraints, with RGB video and depth imaging among its most accessible modalities. In this work, we present a low-cost, real-time platform based on a single multimodal sensor that provides both RGB and time-of-flight (ToF) data streams, implemented on a Raspberry Pi 5 edge device. The system integrates three RGB optical-flow pipelines, namely Farneb\u00e4ck, Horn--Schunck, and Lucas--Kanade, together with a depth-based pipeline incorporating region-of-interest stabilization and distance-derived signal extraction, enabling the two modalities to be evaluated independently under the same experimental protocol. The proposed approach was evaluated on twelve healthy volunteers following a controlled protocol, including normal breathing, hyperventilation, and breath-holding, using a piezoresistive respiratory belt as a reference. RGB-based methods achieved lower RR estimation errors, with Lucas--Kanade attaining the lowest median MAE (3.83 BPM), whereas the ToF-based pipeline, although less accurate for RR estimation (median MAE 6.24 BPM), reached a higher apnea detection sensitivity (0.66 vs 0.51-0.55). These findings highlight the complementary strengths of both modalities and support their integration into unified low-cost platforms.",
-    "source": "ArXiv",
-    "published": "2026-11-25T15:57:28+00:00",
     "type": "paper",
     "display_category": "Top Paper",
     "processed": {
